@@ -1,14 +1,6 @@
 # Lucide Go
 
-Implementation of the [Lucide icon library](https://github.com/lucide-icons/lucide) for Go templates. 
-
-Use Lucide icons directly in your `html/template` templates without JavaScript dependencies.
-
-## Features
-
-- 1600+ icons from [Lucide](https://lucide.dev)
-- Customizable size, color, stroke width, and CSS classes
-- Works with Go's `html/template` package
+Implementation of the [Lucide icon library](https://github.com/lucide-icons/lucide) for Go's `html/template`. 
 
 ## Installation
 
