@@ -1650,11 +1650,13 @@ func init() {
 // AArrowDown renders the "a-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "a-arrow-down" }}
+//
+//	{{ lucide "a-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.AArrowDown()
-//   lucide.AArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AArrowDown()
+//	lucide.AArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func AArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1672,11 +1674,13 @@ func AArrowDown(opts ...Options) template.HTML {
 // AArrowUp renders the "a-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "a-arrow-up" }}
+//
+//	{{ lucide "a-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.AArrowUp()
-//   lucide.AArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AArrowUp()
+//	lucide.AArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func AArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1694,11 +1698,13 @@ func AArrowUp(opts ...Options) template.HTML {
 // ALargeSmall renders the "a-large-small" icon.
 //
 // Usage in templates:
-//   {{ lucide "a-large-small" }}
+//
+//	{{ lucide "a-large-small" }}
 //
 // Direct usage in Go:
-//   lucide.ALargeSmall()
-//   lucide.ALargeSmall(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ALargeSmall()
+//	lucide.ALargeSmall(lucide.Options{Size: 32, Class: "my-icon"})
 func ALargeSmall(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1716,11 +1722,13 @@ func ALargeSmall(opts ...Options) template.HTML {
 // Accessibility renders the "accessibility" icon.
 //
 // Usage in templates:
-//   {{ lucide "accessibility" }}
+//
+//	{{ lucide "accessibility" }}
 //
 // Direct usage in Go:
-//   lucide.Accessibility()
-//   lucide.Accessibility(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Accessibility()
+//	lucide.Accessibility(lucide.Options{Size: 32, Class: "my-icon"})
 func Accessibility(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1738,11 +1746,13 @@ func Accessibility(opts ...Options) template.HTML {
 // Activity renders the "activity" icon.
 //
 // Usage in templates:
-//   {{ lucide "activity" }}
+//
+//	{{ lucide "activity" }}
 //
 // Direct usage in Go:
-//   lucide.Activity()
-//   lucide.Activity(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Activity()
+//	lucide.Activity(lucide.Options{Size: 32, Class: "my-icon"})
 func Activity(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1760,11 +1770,13 @@ func Activity(opts ...Options) template.HTML {
 // AirVent renders the "air-vent" icon.
 //
 // Usage in templates:
-//   {{ lucide "air-vent" }}
+//
+//	{{ lucide "air-vent" }}
 //
 // Direct usage in Go:
-//   lucide.AirVent()
-//   lucide.AirVent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AirVent()
+//	lucide.AirVent(lucide.Options{Size: 32, Class: "my-icon"})
 func AirVent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1782,11 +1794,13 @@ func AirVent(opts ...Options) template.HTML {
 // Airplay renders the "airplay" icon.
 //
 // Usage in templates:
-//   {{ lucide "airplay" }}
+//
+//	{{ lucide "airplay" }}
 //
 // Direct usage in Go:
-//   lucide.Airplay()
-//   lucide.Airplay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Airplay()
+//	lucide.Airplay(lucide.Options{Size: 32, Class: "my-icon"})
 func Airplay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1804,11 +1818,13 @@ func Airplay(opts ...Options) template.HTML {
 // AlarmClock renders the "alarm-clock" icon.
 //
 // Usage in templates:
-//   {{ lucide "alarm-clock" }}
+//
+//	{{ lucide "alarm-clock" }}
 //
 // Direct usage in Go:
-//   lucide.AlarmClock()
-//   lucide.AlarmClock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlarmClock()
+//	lucide.AlarmClock(lucide.Options{Size: 32, Class: "my-icon"})
 func AlarmClock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1826,11 +1842,13 @@ func AlarmClock(opts ...Options) template.HTML {
 // AlarmClockCheck renders the "alarm-clock-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "alarm-clock-check" }}
+//
+//	{{ lucide "alarm-clock-check" }}
 //
 // Direct usage in Go:
-//   lucide.AlarmClockCheck()
-//   lucide.AlarmClockCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlarmClockCheck()
+//	lucide.AlarmClockCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func AlarmClockCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1848,11 +1866,13 @@ func AlarmClockCheck(opts ...Options) template.HTML {
 // AlarmClockMinus renders the "alarm-clock-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "alarm-clock-minus" }}
+//
+//	{{ lucide "alarm-clock-minus" }}
 //
 // Direct usage in Go:
-//   lucide.AlarmClockMinus()
-//   lucide.AlarmClockMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlarmClockMinus()
+//	lucide.AlarmClockMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func AlarmClockMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1870,11 +1890,13 @@ func AlarmClockMinus(opts ...Options) template.HTML {
 // AlarmClockOff renders the "alarm-clock-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "alarm-clock-off" }}
+//
+//	{{ lucide "alarm-clock-off" }}
 //
 // Direct usage in Go:
-//   lucide.AlarmClockOff()
-//   lucide.AlarmClockOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlarmClockOff()
+//	lucide.AlarmClockOff(lucide.Options{Size: 32, Class: "my-icon"})
 func AlarmClockOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1892,11 +1914,13 @@ func AlarmClockOff(opts ...Options) template.HTML {
 // AlarmClockPlus renders the "alarm-clock-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "alarm-clock-plus" }}
+//
+//	{{ lucide "alarm-clock-plus" }}
 //
 // Direct usage in Go:
-//   lucide.AlarmClockPlus()
-//   lucide.AlarmClockPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlarmClockPlus()
+//	lucide.AlarmClockPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func AlarmClockPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1914,11 +1938,13 @@ func AlarmClockPlus(opts ...Options) template.HTML {
 // AlarmSmoke renders the "alarm-smoke" icon.
 //
 // Usage in templates:
-//   {{ lucide "alarm-smoke" }}
+//
+//	{{ lucide "alarm-smoke" }}
 //
 // Direct usage in Go:
-//   lucide.AlarmSmoke()
-//   lucide.AlarmSmoke(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlarmSmoke()
+//	lucide.AlarmSmoke(lucide.Options{Size: 32, Class: "my-icon"})
 func AlarmSmoke(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1936,11 +1962,13 @@ func AlarmSmoke(opts ...Options) template.HTML {
 // Album renders the "album" icon.
 //
 // Usage in templates:
-//   {{ lucide "album" }}
+//
+//	{{ lucide "album" }}
 //
 // Direct usage in Go:
-//   lucide.Album()
-//   lucide.Album(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Album()
+//	lucide.Album(lucide.Options{Size: 32, Class: "my-icon"})
 func Album(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1958,11 +1986,13 @@ func Album(opts ...Options) template.HTML {
 // AlignCenterHorizontal renders the "align-center-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-center-horizontal" }}
+//
+//	{{ lucide "align-center-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.AlignCenterHorizontal()
-//   lucide.AlignCenterHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignCenterHorizontal()
+//	lucide.AlignCenterHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignCenterHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -1980,11 +2010,13 @@ func AlignCenterHorizontal(opts ...Options) template.HTML {
 // AlignCenterVertical renders the "align-center-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-center-vertical" }}
+//
+//	{{ lucide "align-center-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.AlignCenterVertical()
-//   lucide.AlignCenterVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignCenterVertical()
+//	lucide.AlignCenterVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignCenterVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2002,11 +2034,13 @@ func AlignCenterVertical(opts ...Options) template.HTML {
 // AlignEndHorizontal renders the "align-end-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-end-horizontal" }}
+//
+//	{{ lucide "align-end-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.AlignEndHorizontal()
-//   lucide.AlignEndHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignEndHorizontal()
+//	lucide.AlignEndHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignEndHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2024,11 +2058,13 @@ func AlignEndHorizontal(opts ...Options) template.HTML {
 // AlignEndVertical renders the "align-end-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-end-vertical" }}
+//
+//	{{ lucide "align-end-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.AlignEndVertical()
-//   lucide.AlignEndVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignEndVertical()
+//	lucide.AlignEndVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignEndVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2046,11 +2082,13 @@ func AlignEndVertical(opts ...Options) template.HTML {
 // AlignHorizontalDistributeCenter renders the "align-horizontal-distribute-center" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-distribute-center" }}
+//
+//	{{ lucide "align-horizontal-distribute-center" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalDistributeCenter()
-//   lucide.AlignHorizontalDistributeCenter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalDistributeCenter()
+//	lucide.AlignHorizontalDistributeCenter(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalDistributeCenter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2068,11 +2106,13 @@ func AlignHorizontalDistributeCenter(opts ...Options) template.HTML {
 // AlignHorizontalDistributeEnd renders the "align-horizontal-distribute-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-distribute-end" }}
+//
+//	{{ lucide "align-horizontal-distribute-end" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalDistributeEnd()
-//   lucide.AlignHorizontalDistributeEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalDistributeEnd()
+//	lucide.AlignHorizontalDistributeEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalDistributeEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2090,11 +2130,13 @@ func AlignHorizontalDistributeEnd(opts ...Options) template.HTML {
 // AlignHorizontalDistributeStart renders the "align-horizontal-distribute-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-distribute-start" }}
+//
+//	{{ lucide "align-horizontal-distribute-start" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalDistributeStart()
-//   lucide.AlignHorizontalDistributeStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalDistributeStart()
+//	lucide.AlignHorizontalDistributeStart(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalDistributeStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2112,11 +2154,13 @@ func AlignHorizontalDistributeStart(opts ...Options) template.HTML {
 // AlignHorizontalJustifyCenter renders the "align-horizontal-justify-center" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-justify-center" }}
+//
+//	{{ lucide "align-horizontal-justify-center" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalJustifyCenter()
-//   lucide.AlignHorizontalJustifyCenter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalJustifyCenter()
+//	lucide.AlignHorizontalJustifyCenter(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalJustifyCenter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2134,11 +2178,13 @@ func AlignHorizontalJustifyCenter(opts ...Options) template.HTML {
 // AlignHorizontalJustifyEnd renders the "align-horizontal-justify-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-justify-end" }}
+//
+//	{{ lucide "align-horizontal-justify-end" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalJustifyEnd()
-//   lucide.AlignHorizontalJustifyEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalJustifyEnd()
+//	lucide.AlignHorizontalJustifyEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalJustifyEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2156,11 +2202,13 @@ func AlignHorizontalJustifyEnd(opts ...Options) template.HTML {
 // AlignHorizontalJustifyStart renders the "align-horizontal-justify-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-justify-start" }}
+//
+//	{{ lucide "align-horizontal-justify-start" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalJustifyStart()
-//   lucide.AlignHorizontalJustifyStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalJustifyStart()
+//	lucide.AlignHorizontalJustifyStart(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalJustifyStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2178,11 +2226,13 @@ func AlignHorizontalJustifyStart(opts ...Options) template.HTML {
 // AlignHorizontalSpaceAround renders the "align-horizontal-space-around" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-space-around" }}
+//
+//	{{ lucide "align-horizontal-space-around" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalSpaceAround()
-//   lucide.AlignHorizontalSpaceAround(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalSpaceAround()
+//	lucide.AlignHorizontalSpaceAround(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalSpaceAround(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2200,11 +2250,13 @@ func AlignHorizontalSpaceAround(opts ...Options) template.HTML {
 // AlignHorizontalSpaceBetween renders the "align-horizontal-space-between" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-horizontal-space-between" }}
+//
+//	{{ lucide "align-horizontal-space-between" }}
 //
 // Direct usage in Go:
-//   lucide.AlignHorizontalSpaceBetween()
-//   lucide.AlignHorizontalSpaceBetween(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignHorizontalSpaceBetween()
+//	lucide.AlignHorizontalSpaceBetween(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignHorizontalSpaceBetween(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2222,11 +2274,13 @@ func AlignHorizontalSpaceBetween(opts ...Options) template.HTML {
 // AlignStartHorizontal renders the "align-start-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-start-horizontal" }}
+//
+//	{{ lucide "align-start-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.AlignStartHorizontal()
-//   lucide.AlignStartHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignStartHorizontal()
+//	lucide.AlignStartHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignStartHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2244,11 +2298,13 @@ func AlignStartHorizontal(opts ...Options) template.HTML {
 // AlignStartVertical renders the "align-start-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-start-vertical" }}
+//
+//	{{ lucide "align-start-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.AlignStartVertical()
-//   lucide.AlignStartVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignStartVertical()
+//	lucide.AlignStartVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignStartVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2266,11 +2322,13 @@ func AlignStartVertical(opts ...Options) template.HTML {
 // AlignVerticalDistributeCenter renders the "align-vertical-distribute-center" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-distribute-center" }}
+//
+//	{{ lucide "align-vertical-distribute-center" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalDistributeCenter()
-//   lucide.AlignVerticalDistributeCenter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalDistributeCenter()
+//	lucide.AlignVerticalDistributeCenter(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalDistributeCenter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2288,11 +2346,13 @@ func AlignVerticalDistributeCenter(opts ...Options) template.HTML {
 // AlignVerticalDistributeEnd renders the "align-vertical-distribute-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-distribute-end" }}
+//
+//	{{ lucide "align-vertical-distribute-end" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalDistributeEnd()
-//   lucide.AlignVerticalDistributeEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalDistributeEnd()
+//	lucide.AlignVerticalDistributeEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalDistributeEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2310,11 +2370,13 @@ func AlignVerticalDistributeEnd(opts ...Options) template.HTML {
 // AlignVerticalDistributeStart renders the "align-vertical-distribute-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-distribute-start" }}
+//
+//	{{ lucide "align-vertical-distribute-start" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalDistributeStart()
-//   lucide.AlignVerticalDistributeStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalDistributeStart()
+//	lucide.AlignVerticalDistributeStart(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalDistributeStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2332,11 +2394,13 @@ func AlignVerticalDistributeStart(opts ...Options) template.HTML {
 // AlignVerticalJustifyCenter renders the "align-vertical-justify-center" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-justify-center" }}
+//
+//	{{ lucide "align-vertical-justify-center" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalJustifyCenter()
-//   lucide.AlignVerticalJustifyCenter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalJustifyCenter()
+//	lucide.AlignVerticalJustifyCenter(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalJustifyCenter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2354,11 +2418,13 @@ func AlignVerticalJustifyCenter(opts ...Options) template.HTML {
 // AlignVerticalJustifyEnd renders the "align-vertical-justify-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-justify-end" }}
+//
+//	{{ lucide "align-vertical-justify-end" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalJustifyEnd()
-//   lucide.AlignVerticalJustifyEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalJustifyEnd()
+//	lucide.AlignVerticalJustifyEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalJustifyEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2376,11 +2442,13 @@ func AlignVerticalJustifyEnd(opts ...Options) template.HTML {
 // AlignVerticalJustifyStart renders the "align-vertical-justify-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-justify-start" }}
+//
+//	{{ lucide "align-vertical-justify-start" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalJustifyStart()
-//   lucide.AlignVerticalJustifyStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalJustifyStart()
+//	lucide.AlignVerticalJustifyStart(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalJustifyStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2398,11 +2466,13 @@ func AlignVerticalJustifyStart(opts ...Options) template.HTML {
 // AlignVerticalSpaceAround renders the "align-vertical-space-around" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-space-around" }}
+//
+//	{{ lucide "align-vertical-space-around" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalSpaceAround()
-//   lucide.AlignVerticalSpaceAround(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalSpaceAround()
+//	lucide.AlignVerticalSpaceAround(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalSpaceAround(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2420,11 +2490,13 @@ func AlignVerticalSpaceAround(opts ...Options) template.HTML {
 // AlignVerticalSpaceBetween renders the "align-vertical-space-between" icon.
 //
 // Usage in templates:
-//   {{ lucide "align-vertical-space-between" }}
+//
+//	{{ lucide "align-vertical-space-between" }}
 //
 // Direct usage in Go:
-//   lucide.AlignVerticalSpaceBetween()
-//   lucide.AlignVerticalSpaceBetween(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AlignVerticalSpaceBetween()
+//	lucide.AlignVerticalSpaceBetween(lucide.Options{Size: 32, Class: "my-icon"})
 func AlignVerticalSpaceBetween(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2442,11 +2514,13 @@ func AlignVerticalSpaceBetween(opts ...Options) template.HTML {
 // Ambulance renders the "ambulance" icon.
 //
 // Usage in templates:
-//   {{ lucide "ambulance" }}
+//
+//	{{ lucide "ambulance" }}
 //
 // Direct usage in Go:
-//   lucide.Ambulance()
-//   lucide.Ambulance(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ambulance()
+//	lucide.Ambulance(lucide.Options{Size: 32, Class: "my-icon"})
 func Ambulance(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2464,11 +2538,13 @@ func Ambulance(opts ...Options) template.HTML {
 // Ampersand renders the "ampersand" icon.
 //
 // Usage in templates:
-//   {{ lucide "ampersand" }}
+//
+//	{{ lucide "ampersand" }}
 //
 // Direct usage in Go:
-//   lucide.Ampersand()
-//   lucide.Ampersand(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ampersand()
+//	lucide.Ampersand(lucide.Options{Size: 32, Class: "my-icon"})
 func Ampersand(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2486,11 +2562,13 @@ func Ampersand(opts ...Options) template.HTML {
 // Ampersands renders the "ampersands" icon.
 //
 // Usage in templates:
-//   {{ lucide "ampersands" }}
+//
+//	{{ lucide "ampersands" }}
 //
 // Direct usage in Go:
-//   lucide.Ampersands()
-//   lucide.Ampersands(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ampersands()
+//	lucide.Ampersands(lucide.Options{Size: 32, Class: "my-icon"})
 func Ampersands(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2508,11 +2586,13 @@ func Ampersands(opts ...Options) template.HTML {
 // Amphora renders the "amphora" icon.
 //
 // Usage in templates:
-//   {{ lucide "amphora" }}
+//
+//	{{ lucide "amphora" }}
 //
 // Direct usage in Go:
-//   lucide.Amphora()
-//   lucide.Amphora(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Amphora()
+//	lucide.Amphora(lucide.Options{Size: 32, Class: "my-icon"})
 func Amphora(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2530,11 +2610,13 @@ func Amphora(opts ...Options) template.HTML {
 // Anchor renders the "anchor" icon.
 //
 // Usage in templates:
-//   {{ lucide "anchor" }}
+//
+//	{{ lucide "anchor" }}
 //
 // Direct usage in Go:
-//   lucide.Anchor()
-//   lucide.Anchor(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Anchor()
+//	lucide.Anchor(lucide.Options{Size: 32, Class: "my-icon"})
 func Anchor(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2552,11 +2634,13 @@ func Anchor(opts ...Options) template.HTML {
 // Angry renders the "angry" icon.
 //
 // Usage in templates:
-//   {{ lucide "angry" }}
+//
+//	{{ lucide "angry" }}
 //
 // Direct usage in Go:
-//   lucide.Angry()
-//   lucide.Angry(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Angry()
+//	lucide.Angry(lucide.Options{Size: 32, Class: "my-icon"})
 func Angry(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2574,11 +2658,13 @@ func Angry(opts ...Options) template.HTML {
 // Annoyed renders the "annoyed" icon.
 //
 // Usage in templates:
-//   {{ lucide "annoyed" }}
+//
+//	{{ lucide "annoyed" }}
 //
 // Direct usage in Go:
-//   lucide.Annoyed()
-//   lucide.Annoyed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Annoyed()
+//	lucide.Annoyed(lucide.Options{Size: 32, Class: "my-icon"})
 func Annoyed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2596,11 +2682,13 @@ func Annoyed(opts ...Options) template.HTML {
 // Antenna renders the "antenna" icon.
 //
 // Usage in templates:
-//   {{ lucide "antenna" }}
+//
+//	{{ lucide "antenna" }}
 //
 // Direct usage in Go:
-//   lucide.Antenna()
-//   lucide.Antenna(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Antenna()
+//	lucide.Antenna(lucide.Options{Size: 32, Class: "my-icon"})
 func Antenna(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2618,11 +2706,13 @@ func Antenna(opts ...Options) template.HTML {
 // Anvil renders the "anvil" icon.
 //
 // Usage in templates:
-//   {{ lucide "anvil" }}
+//
+//	{{ lucide "anvil" }}
 //
 // Direct usage in Go:
-//   lucide.Anvil()
-//   lucide.Anvil(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Anvil()
+//	lucide.Anvil(lucide.Options{Size: 32, Class: "my-icon"})
 func Anvil(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2640,11 +2730,13 @@ func Anvil(opts ...Options) template.HTML {
 // Aperture renders the "aperture" icon.
 //
 // Usage in templates:
-//   {{ lucide "aperture" }}
+//
+//	{{ lucide "aperture" }}
 //
 // Direct usage in Go:
-//   lucide.Aperture()
-//   lucide.Aperture(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Aperture()
+//	lucide.Aperture(lucide.Options{Size: 32, Class: "my-icon"})
 func Aperture(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2662,11 +2754,13 @@ func Aperture(opts ...Options) template.HTML {
 // AppWindow renders the "app-window" icon.
 //
 // Usage in templates:
-//   {{ lucide "app-window" }}
+//
+//	{{ lucide "app-window" }}
 //
 // Direct usage in Go:
-//   lucide.AppWindow()
-//   lucide.AppWindow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AppWindow()
+//	lucide.AppWindow(lucide.Options{Size: 32, Class: "my-icon"})
 func AppWindow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2684,11 +2778,13 @@ func AppWindow(opts ...Options) template.HTML {
 // AppWindowMac renders the "app-window-mac" icon.
 //
 // Usage in templates:
-//   {{ lucide "app-window-mac" }}
+//
+//	{{ lucide "app-window-mac" }}
 //
 // Direct usage in Go:
-//   lucide.AppWindowMac()
-//   lucide.AppWindowMac(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AppWindowMac()
+//	lucide.AppWindowMac(lucide.Options{Size: 32, Class: "my-icon"})
 func AppWindowMac(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2706,11 +2802,13 @@ func AppWindowMac(opts ...Options) template.HTML {
 // Apple renders the "apple" icon.
 //
 // Usage in templates:
-//   {{ lucide "apple" }}
+//
+//	{{ lucide "apple" }}
 //
 // Direct usage in Go:
-//   lucide.Apple()
-//   lucide.Apple(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Apple()
+//	lucide.Apple(lucide.Options{Size: 32, Class: "my-icon"})
 func Apple(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2728,11 +2826,13 @@ func Apple(opts ...Options) template.HTML {
 // Archive renders the "archive" icon.
 //
 // Usage in templates:
-//   {{ lucide "archive" }}
+//
+//	{{ lucide "archive" }}
 //
 // Direct usage in Go:
-//   lucide.Archive()
-//   lucide.Archive(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Archive()
+//	lucide.Archive(lucide.Options{Size: 32, Class: "my-icon"})
 func Archive(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2750,11 +2850,13 @@ func Archive(opts ...Options) template.HTML {
 // ArchiveRestore renders the "archive-restore" icon.
 //
 // Usage in templates:
-//   {{ lucide "archive-restore" }}
+//
+//	{{ lucide "archive-restore" }}
 //
 // Direct usage in Go:
-//   lucide.ArchiveRestore()
-//   lucide.ArchiveRestore(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArchiveRestore()
+//	lucide.ArchiveRestore(lucide.Options{Size: 32, Class: "my-icon"})
 func ArchiveRestore(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2772,11 +2874,13 @@ func ArchiveRestore(opts ...Options) template.HTML {
 // ArchiveX renders the "archive-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "archive-x" }}
+//
+//	{{ lucide "archive-x" }}
 //
 // Direct usage in Go:
-//   lucide.ArchiveX()
-//   lucide.ArchiveX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArchiveX()
+//	lucide.ArchiveX(lucide.Options{Size: 32, Class: "my-icon"})
 func ArchiveX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2794,11 +2898,13 @@ func ArchiveX(opts ...Options) template.HTML {
 // Armchair renders the "armchair" icon.
 //
 // Usage in templates:
-//   {{ lucide "armchair" }}
+//
+//	{{ lucide "armchair" }}
 //
 // Direct usage in Go:
-//   lucide.Armchair()
-//   lucide.Armchair(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Armchair()
+//	lucide.Armchair(lucide.Options{Size: 32, Class: "my-icon"})
 func Armchair(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2816,11 +2922,13 @@ func Armchair(opts ...Options) template.HTML {
 // ArrowBigDown renders the "arrow-big-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-down" }}
+//
+//	{{ lucide "arrow-big-down" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigDown()
-//   lucide.ArrowBigDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigDown()
+//	lucide.ArrowBigDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2838,11 +2946,13 @@ func ArrowBigDown(opts ...Options) template.HTML {
 // ArrowBigDownDash renders the "arrow-big-down-dash" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-down-dash" }}
+//
+//	{{ lucide "arrow-big-down-dash" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigDownDash()
-//   lucide.ArrowBigDownDash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigDownDash()
+//	lucide.ArrowBigDownDash(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigDownDash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2860,11 +2970,13 @@ func ArrowBigDownDash(opts ...Options) template.HTML {
 // ArrowBigLeft renders the "arrow-big-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-left" }}
+//
+//	{{ lucide "arrow-big-left" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigLeft()
-//   lucide.ArrowBigLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigLeft()
+//	lucide.ArrowBigLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2882,11 +2994,13 @@ func ArrowBigLeft(opts ...Options) template.HTML {
 // ArrowBigLeftDash renders the "arrow-big-left-dash" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-left-dash" }}
+//
+//	{{ lucide "arrow-big-left-dash" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigLeftDash()
-//   lucide.ArrowBigLeftDash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigLeftDash()
+//	lucide.ArrowBigLeftDash(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigLeftDash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2904,11 +3018,13 @@ func ArrowBigLeftDash(opts ...Options) template.HTML {
 // ArrowBigRight renders the "arrow-big-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-right" }}
+//
+//	{{ lucide "arrow-big-right" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigRight()
-//   lucide.ArrowBigRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigRight()
+//	lucide.ArrowBigRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2926,11 +3042,13 @@ func ArrowBigRight(opts ...Options) template.HTML {
 // ArrowBigRightDash renders the "arrow-big-right-dash" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-right-dash" }}
+//
+//	{{ lucide "arrow-big-right-dash" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigRightDash()
-//   lucide.ArrowBigRightDash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigRightDash()
+//	lucide.ArrowBigRightDash(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigRightDash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2948,11 +3066,13 @@ func ArrowBigRightDash(opts ...Options) template.HTML {
 // ArrowBigUp renders the "arrow-big-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-up" }}
+//
+//	{{ lucide "arrow-big-up" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigUp()
-//   lucide.ArrowBigUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigUp()
+//	lucide.ArrowBigUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2970,11 +3090,13 @@ func ArrowBigUp(opts ...Options) template.HTML {
 // ArrowBigUpDash renders the "arrow-big-up-dash" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-big-up-dash" }}
+//
+//	{{ lucide "arrow-big-up-dash" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowBigUpDash()
-//   lucide.ArrowBigUpDash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowBigUpDash()
+//	lucide.ArrowBigUpDash(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowBigUpDash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -2992,11 +3114,13 @@ func ArrowBigUpDash(opts ...Options) template.HTML {
 // ArrowDown renders the "arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down" }}
+//
+//	{{ lucide "arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDown()
-//   lucide.ArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDown()
+//	lucide.ArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3014,11 +3138,13 @@ func ArrowDown(opts ...Options) template.HTML {
 // ArrowDown01 renders the "arrow-down-0-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-0-1" }}
+//
+//	{{ lucide "arrow-down-0-1" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDown01()
-//   lucide.ArrowDown01(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDown01()
+//	lucide.ArrowDown01(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDown01(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3036,11 +3162,13 @@ func ArrowDown01(opts ...Options) template.HTML {
 // ArrowDown10 renders the "arrow-down-1-0" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-1-0" }}
+//
+//	{{ lucide "arrow-down-1-0" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDown10()
-//   lucide.ArrowDown10(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDown10()
+//	lucide.ArrowDown10(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDown10(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3058,11 +3186,13 @@ func ArrowDown10(opts ...Options) template.HTML {
 // ArrowDownAZ renders the "arrow-down-a-z" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-a-z" }}
+//
+//	{{ lucide "arrow-down-a-z" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownAZ()
-//   lucide.ArrowDownAZ(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownAZ()
+//	lucide.ArrowDownAZ(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownAZ(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3080,11 +3210,13 @@ func ArrowDownAZ(opts ...Options) template.HTML {
 // ArrowDownFromLine renders the "arrow-down-from-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-from-line" }}
+//
+//	{{ lucide "arrow-down-from-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownFromLine()
-//   lucide.ArrowDownFromLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownFromLine()
+//	lucide.ArrowDownFromLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownFromLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3102,11 +3234,13 @@ func ArrowDownFromLine(opts ...Options) template.HTML {
 // ArrowDownLeft renders the "arrow-down-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-left" }}
+//
+//	{{ lucide "arrow-down-left" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownLeft()
-//   lucide.ArrowDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownLeft()
+//	lucide.ArrowDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3124,11 +3258,13 @@ func ArrowDownLeft(opts ...Options) template.HTML {
 // ArrowDownNarrowWide renders the "arrow-down-narrow-wide" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-narrow-wide" }}
+//
+//	{{ lucide "arrow-down-narrow-wide" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownNarrowWide()
-//   lucide.ArrowDownNarrowWide(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownNarrowWide()
+//	lucide.ArrowDownNarrowWide(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownNarrowWide(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3146,11 +3282,13 @@ func ArrowDownNarrowWide(opts ...Options) template.HTML {
 // ArrowDownRight renders the "arrow-down-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-right" }}
+//
+//	{{ lucide "arrow-down-right" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownRight()
-//   lucide.ArrowDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownRight()
+//	lucide.ArrowDownRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3168,11 +3306,13 @@ func ArrowDownRight(opts ...Options) template.HTML {
 // ArrowDownToDot renders the "arrow-down-to-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-to-dot" }}
+//
+//	{{ lucide "arrow-down-to-dot" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownToDot()
-//   lucide.ArrowDownToDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownToDot()
+//	lucide.ArrowDownToDot(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownToDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3190,11 +3330,13 @@ func ArrowDownToDot(opts ...Options) template.HTML {
 // ArrowDownToLine renders the "arrow-down-to-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-to-line" }}
+//
+//	{{ lucide "arrow-down-to-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownToLine()
-//   lucide.ArrowDownToLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownToLine()
+//	lucide.ArrowDownToLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownToLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3212,11 +3354,13 @@ func ArrowDownToLine(opts ...Options) template.HTML {
 // ArrowDownUp renders the "arrow-down-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-up" }}
+//
+//	{{ lucide "arrow-down-up" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownUp()
-//   lucide.ArrowDownUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownUp()
+//	lucide.ArrowDownUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3234,11 +3378,13 @@ func ArrowDownUp(opts ...Options) template.HTML {
 // ArrowDownWideNarrow renders the "arrow-down-wide-narrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-wide-narrow" }}
+//
+//	{{ lucide "arrow-down-wide-narrow" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownWideNarrow()
-//   lucide.ArrowDownWideNarrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownWideNarrow()
+//	lucide.ArrowDownWideNarrow(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownWideNarrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3256,11 +3402,13 @@ func ArrowDownWideNarrow(opts ...Options) template.HTML {
 // ArrowDownZA renders the "arrow-down-z-a" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-down-z-a" }}
+//
+//	{{ lucide "arrow-down-z-a" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowDownZA()
-//   lucide.ArrowDownZA(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowDownZA()
+//	lucide.ArrowDownZA(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownZA(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3278,11 +3426,13 @@ func ArrowDownZA(opts ...Options) template.HTML {
 // ArrowLeft renders the "arrow-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-left" }}
+//
+//	{{ lucide "arrow-left" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowLeft()
-//   lucide.ArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowLeft()
+//	lucide.ArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3300,11 +3450,13 @@ func ArrowLeft(opts ...Options) template.HTML {
 // ArrowLeftFromLine renders the "arrow-left-from-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-left-from-line" }}
+//
+//	{{ lucide "arrow-left-from-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowLeftFromLine()
-//   lucide.ArrowLeftFromLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowLeftFromLine()
+//	lucide.ArrowLeftFromLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowLeftFromLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3322,11 +3474,13 @@ func ArrowLeftFromLine(opts ...Options) template.HTML {
 // ArrowLeftRight renders the "arrow-left-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-left-right" }}
+//
+//	{{ lucide "arrow-left-right" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowLeftRight()
-//   lucide.ArrowLeftRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowLeftRight()
+//	lucide.ArrowLeftRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowLeftRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3344,11 +3498,13 @@ func ArrowLeftRight(opts ...Options) template.HTML {
 // ArrowLeftToLine renders the "arrow-left-to-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-left-to-line" }}
+//
+//	{{ lucide "arrow-left-to-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowLeftToLine()
-//   lucide.ArrowLeftToLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowLeftToLine()
+//	lucide.ArrowLeftToLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowLeftToLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3366,11 +3522,13 @@ func ArrowLeftToLine(opts ...Options) template.HTML {
 // ArrowRight renders the "arrow-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-right" }}
+//
+//	{{ lucide "arrow-right" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowRight()
-//   lucide.ArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowRight()
+//	lucide.ArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3388,11 +3546,13 @@ func ArrowRight(opts ...Options) template.HTML {
 // ArrowRightFromLine renders the "arrow-right-from-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-right-from-line" }}
+//
+//	{{ lucide "arrow-right-from-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowRightFromLine()
-//   lucide.ArrowRightFromLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowRightFromLine()
+//	lucide.ArrowRightFromLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowRightFromLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3410,11 +3570,13 @@ func ArrowRightFromLine(opts ...Options) template.HTML {
 // ArrowRightLeft renders the "arrow-right-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-right-left" }}
+//
+//	{{ lucide "arrow-right-left" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowRightLeft()
-//   lucide.ArrowRightLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowRightLeft()
+//	lucide.ArrowRightLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowRightLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3432,11 +3594,13 @@ func ArrowRightLeft(opts ...Options) template.HTML {
 // ArrowRightToLine renders the "arrow-right-to-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-right-to-line" }}
+//
+//	{{ lucide "arrow-right-to-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowRightToLine()
-//   lucide.ArrowRightToLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowRightToLine()
+//	lucide.ArrowRightToLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowRightToLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3454,11 +3618,13 @@ func ArrowRightToLine(opts ...Options) template.HTML {
 // ArrowUp renders the "arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up" }}
+//
+//	{{ lucide "arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUp()
-//   lucide.ArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUp()
+//	lucide.ArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3476,11 +3642,13 @@ func ArrowUp(opts ...Options) template.HTML {
 // ArrowUp01 renders the "arrow-up-0-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-0-1" }}
+//
+//	{{ lucide "arrow-up-0-1" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUp01()
-//   lucide.ArrowUp01(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUp01()
+//	lucide.ArrowUp01(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUp01(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3498,11 +3666,13 @@ func ArrowUp01(opts ...Options) template.HTML {
 // ArrowUp10 renders the "arrow-up-1-0" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-1-0" }}
+//
+//	{{ lucide "arrow-up-1-0" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUp10()
-//   lucide.ArrowUp10(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUp10()
+//	lucide.ArrowUp10(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUp10(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3520,11 +3690,13 @@ func ArrowUp10(opts ...Options) template.HTML {
 // ArrowUpAZ renders the "arrow-up-a-z" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-a-z" }}
+//
+//	{{ lucide "arrow-up-a-z" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpAZ()
-//   lucide.ArrowUpAZ(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpAZ()
+//	lucide.ArrowUpAZ(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpAZ(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3542,11 +3714,13 @@ func ArrowUpAZ(opts ...Options) template.HTML {
 // ArrowUpDown renders the "arrow-up-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-down" }}
+//
+//	{{ lucide "arrow-up-down" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpDown()
-//   lucide.ArrowUpDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpDown()
+//	lucide.ArrowUpDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3564,11 +3738,13 @@ func ArrowUpDown(opts ...Options) template.HTML {
 // ArrowUpFromDot renders the "arrow-up-from-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-from-dot" }}
+//
+//	{{ lucide "arrow-up-from-dot" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpFromDot()
-//   lucide.ArrowUpFromDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpFromDot()
+//	lucide.ArrowUpFromDot(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpFromDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3586,11 +3762,13 @@ func ArrowUpFromDot(opts ...Options) template.HTML {
 // ArrowUpFromLine renders the "arrow-up-from-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-from-line" }}
+//
+//	{{ lucide "arrow-up-from-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpFromLine()
-//   lucide.ArrowUpFromLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpFromLine()
+//	lucide.ArrowUpFromLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpFromLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3608,11 +3786,13 @@ func ArrowUpFromLine(opts ...Options) template.HTML {
 // ArrowUpLeft renders the "arrow-up-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-left" }}
+//
+//	{{ lucide "arrow-up-left" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpLeft()
-//   lucide.ArrowUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpLeft()
+//	lucide.ArrowUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3630,11 +3810,13 @@ func ArrowUpLeft(opts ...Options) template.HTML {
 // ArrowUpNarrowWide renders the "arrow-up-narrow-wide" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-narrow-wide" }}
+//
+//	{{ lucide "arrow-up-narrow-wide" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpNarrowWide()
-//   lucide.ArrowUpNarrowWide(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpNarrowWide()
+//	lucide.ArrowUpNarrowWide(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpNarrowWide(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3652,11 +3834,13 @@ func ArrowUpNarrowWide(opts ...Options) template.HTML {
 // ArrowUpRight renders the "arrow-up-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-right" }}
+//
+//	{{ lucide "arrow-up-right" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpRight()
-//   lucide.ArrowUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpRight()
+//	lucide.ArrowUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3674,11 +3858,13 @@ func ArrowUpRight(opts ...Options) template.HTML {
 // ArrowUpToLine renders the "arrow-up-to-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-to-line" }}
+//
+//	{{ lucide "arrow-up-to-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpToLine()
-//   lucide.ArrowUpToLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpToLine()
+//	lucide.ArrowUpToLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpToLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3696,11 +3882,13 @@ func ArrowUpToLine(opts ...Options) template.HTML {
 // ArrowUpWideNarrow renders the "arrow-up-wide-narrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-wide-narrow" }}
+//
+//	{{ lucide "arrow-up-wide-narrow" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpWideNarrow()
-//   lucide.ArrowUpWideNarrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpWideNarrow()
+//	lucide.ArrowUpWideNarrow(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpWideNarrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3718,11 +3906,13 @@ func ArrowUpWideNarrow(opts ...Options) template.HTML {
 // ArrowUpZA renders the "arrow-up-z-a" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrow-up-z-a" }}
+//
+//	{{ lucide "arrow-up-z-a" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowUpZA()
-//   lucide.ArrowUpZA(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowUpZA()
+//	lucide.ArrowUpZA(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpZA(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3740,11 +3930,13 @@ func ArrowUpZA(opts ...Options) template.HTML {
 // ArrowsUpFromLine renders the "arrows-up-from-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "arrows-up-from-line" }}
+//
+//	{{ lucide "arrows-up-from-line" }}
 //
 // Direct usage in Go:
-//   lucide.ArrowsUpFromLine()
-//   lucide.ArrowsUpFromLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ArrowsUpFromLine()
+//	lucide.ArrowsUpFromLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowsUpFromLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3762,11 +3954,13 @@ func ArrowsUpFromLine(opts ...Options) template.HTML {
 // Asterisk renders the "asterisk" icon.
 //
 // Usage in templates:
-//   {{ lucide "asterisk" }}
+//
+//	{{ lucide "asterisk" }}
 //
 // Direct usage in Go:
-//   lucide.Asterisk()
-//   lucide.Asterisk(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Asterisk()
+//	lucide.Asterisk(lucide.Options{Size: 32, Class: "my-icon"})
 func Asterisk(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3784,11 +3978,13 @@ func Asterisk(opts ...Options) template.HTML {
 // AtSign renders the "at-sign" icon.
 //
 // Usage in templates:
-//   {{ lucide "at-sign" }}
+//
+//	{{ lucide "at-sign" }}
 //
 // Direct usage in Go:
-//   lucide.AtSign()
-//   lucide.AtSign(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AtSign()
+//	lucide.AtSign(lucide.Options{Size: 32, Class: "my-icon"})
 func AtSign(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3806,11 +4002,13 @@ func AtSign(opts ...Options) template.HTML {
 // Atom renders the "atom" icon.
 //
 // Usage in templates:
-//   {{ lucide "atom" }}
+//
+//	{{ lucide "atom" }}
 //
 // Direct usage in Go:
-//   lucide.Atom()
-//   lucide.Atom(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Atom()
+//	lucide.Atom(lucide.Options{Size: 32, Class: "my-icon"})
 func Atom(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3828,11 +4026,13 @@ func Atom(opts ...Options) template.HTML {
 // AudioLines renders the "audio-lines" icon.
 //
 // Usage in templates:
-//   {{ lucide "audio-lines" }}
+//
+//	{{ lucide "audio-lines" }}
 //
 // Direct usage in Go:
-//   lucide.AudioLines()
-//   lucide.AudioLines(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AudioLines()
+//	lucide.AudioLines(lucide.Options{Size: 32, Class: "my-icon"})
 func AudioLines(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3850,11 +4050,13 @@ func AudioLines(opts ...Options) template.HTML {
 // AudioWaveform renders the "audio-waveform" icon.
 //
 // Usage in templates:
-//   {{ lucide "audio-waveform" }}
+//
+//	{{ lucide "audio-waveform" }}
 //
 // Direct usage in Go:
-//   lucide.AudioWaveform()
-//   lucide.AudioWaveform(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.AudioWaveform()
+//	lucide.AudioWaveform(lucide.Options{Size: 32, Class: "my-icon"})
 func AudioWaveform(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3872,11 +4074,13 @@ func AudioWaveform(opts ...Options) template.HTML {
 // Award renders the "award" icon.
 //
 // Usage in templates:
-//   {{ lucide "award" }}
+//
+//	{{ lucide "award" }}
 //
 // Direct usage in Go:
-//   lucide.Award()
-//   lucide.Award(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Award()
+//	lucide.Award(lucide.Options{Size: 32, Class: "my-icon"})
 func Award(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3894,11 +4098,13 @@ func Award(opts ...Options) template.HTML {
 // Axe renders the "axe" icon.
 //
 // Usage in templates:
-//   {{ lucide "axe" }}
+//
+//	{{ lucide "axe" }}
 //
 // Direct usage in Go:
-//   lucide.Axe()
-//   lucide.Axe(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Axe()
+//	lucide.Axe(lucide.Options{Size: 32, Class: "my-icon"})
 func Axe(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3916,11 +4122,13 @@ func Axe(opts ...Options) template.HTML {
 // Axis3d renders the "axis-3d" icon.
 //
 // Usage in templates:
-//   {{ lucide "axis-3d" }}
+//
+//	{{ lucide "axis-3d" }}
 //
 // Direct usage in Go:
-//   lucide.Axis3d()
-//   lucide.Axis3d(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Axis3d()
+//	lucide.Axis3d(lucide.Options{Size: 32, Class: "my-icon"})
 func Axis3d(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3938,11 +4146,13 @@ func Axis3d(opts ...Options) template.HTML {
 // Baby renders the "baby" icon.
 //
 // Usage in templates:
-//   {{ lucide "baby" }}
+//
+//	{{ lucide "baby" }}
 //
 // Direct usage in Go:
-//   lucide.Baby()
-//   lucide.Baby(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Baby()
+//	lucide.Baby(lucide.Options{Size: 32, Class: "my-icon"})
 func Baby(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3960,11 +4170,13 @@ func Baby(opts ...Options) template.HTML {
 // Backpack renders the "backpack" icon.
 //
 // Usage in templates:
-//   {{ lucide "backpack" }}
+//
+//	{{ lucide "backpack" }}
 //
 // Direct usage in Go:
-//   lucide.Backpack()
-//   lucide.Backpack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Backpack()
+//	lucide.Backpack(lucide.Options{Size: 32, Class: "my-icon"})
 func Backpack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -3982,11 +4194,13 @@ func Backpack(opts ...Options) template.HTML {
 // Badge renders the "badge" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge" }}
+//
+//	{{ lucide "badge" }}
 //
 // Direct usage in Go:
-//   lucide.Badge()
-//   lucide.Badge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Badge()
+//	lucide.Badge(lucide.Options{Size: 32, Class: "my-icon"})
 func Badge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4004,11 +4218,13 @@ func Badge(opts ...Options) template.HTML {
 // BadgeAlert renders the "badge-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-alert" }}
+//
+//	{{ lucide "badge-alert" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeAlert()
-//   lucide.BadgeAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeAlert()
+//	lucide.BadgeAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4026,11 +4242,13 @@ func BadgeAlert(opts ...Options) template.HTML {
 // BadgeCent renders the "badge-cent" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-cent" }}
+//
+//	{{ lucide "badge-cent" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeCent()
-//   lucide.BadgeCent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeCent()
+//	lucide.BadgeCent(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeCent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4048,11 +4266,13 @@ func BadgeCent(opts ...Options) template.HTML {
 // BadgeCheck renders the "badge-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-check" }}
+//
+//	{{ lucide "badge-check" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeCheck()
-//   lucide.BadgeCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeCheck()
+//	lucide.BadgeCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4070,11 +4290,13 @@ func BadgeCheck(opts ...Options) template.HTML {
 // BadgeDollarSign renders the "badge-dollar-sign" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-dollar-sign" }}
+//
+//	{{ lucide "badge-dollar-sign" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeDollarSign()
-//   lucide.BadgeDollarSign(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeDollarSign()
+//	lucide.BadgeDollarSign(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeDollarSign(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4092,11 +4314,13 @@ func BadgeDollarSign(opts ...Options) template.HTML {
 // BadgeEuro renders the "badge-euro" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-euro" }}
+//
+//	{{ lucide "badge-euro" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeEuro()
-//   lucide.BadgeEuro(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeEuro()
+//	lucide.BadgeEuro(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeEuro(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4114,11 +4338,13 @@ func BadgeEuro(opts ...Options) template.HTML {
 // BadgeIndianRupee renders the "badge-indian-rupee" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-indian-rupee" }}
+//
+//	{{ lucide "badge-indian-rupee" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeIndianRupee()
-//   lucide.BadgeIndianRupee(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeIndianRupee()
+//	lucide.BadgeIndianRupee(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeIndianRupee(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4136,11 +4362,13 @@ func BadgeIndianRupee(opts ...Options) template.HTML {
 // BadgeInfo renders the "badge-info" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-info" }}
+//
+//	{{ lucide "badge-info" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeInfo()
-//   lucide.BadgeInfo(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeInfo()
+//	lucide.BadgeInfo(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeInfo(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4158,11 +4386,13 @@ func BadgeInfo(opts ...Options) template.HTML {
 // BadgeJapaneseYen renders the "badge-japanese-yen" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-japanese-yen" }}
+//
+//	{{ lucide "badge-japanese-yen" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeJapaneseYen()
-//   lucide.BadgeJapaneseYen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeJapaneseYen()
+//	lucide.BadgeJapaneseYen(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeJapaneseYen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4180,11 +4410,13 @@ func BadgeJapaneseYen(opts ...Options) template.HTML {
 // BadgeMinus renders the "badge-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-minus" }}
+//
+//	{{ lucide "badge-minus" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeMinus()
-//   lucide.BadgeMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeMinus()
+//	lucide.BadgeMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4202,11 +4434,13 @@ func BadgeMinus(opts ...Options) template.HTML {
 // BadgePercent renders the "badge-percent" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-percent" }}
+//
+//	{{ lucide "badge-percent" }}
 //
 // Direct usage in Go:
-//   lucide.BadgePercent()
-//   lucide.BadgePercent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgePercent()
+//	lucide.BadgePercent(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgePercent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4224,11 +4458,13 @@ func BadgePercent(opts ...Options) template.HTML {
 // BadgePlus renders the "badge-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-plus" }}
+//
+//	{{ lucide "badge-plus" }}
 //
 // Direct usage in Go:
-//   lucide.BadgePlus()
-//   lucide.BadgePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgePlus()
+//	lucide.BadgePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4246,11 +4482,13 @@ func BadgePlus(opts ...Options) template.HTML {
 // BadgePoundSterling renders the "badge-pound-sterling" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-pound-sterling" }}
+//
+//	{{ lucide "badge-pound-sterling" }}
 //
 // Direct usage in Go:
-//   lucide.BadgePoundSterling()
-//   lucide.BadgePoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgePoundSterling()
+//	lucide.BadgePoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgePoundSterling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4268,11 +4506,13 @@ func BadgePoundSterling(opts ...Options) template.HTML {
 // BadgeQuestionMark renders the "badge-question-mark" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-question-mark" }}
+//
+//	{{ lucide "badge-question-mark" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeQuestionMark()
-//   lucide.BadgeQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeQuestionMark()
+//	lucide.BadgeQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeQuestionMark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4290,11 +4530,13 @@ func BadgeQuestionMark(opts ...Options) template.HTML {
 // BadgeRussianRuble renders the "badge-russian-ruble" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-russian-ruble" }}
+//
+//	{{ lucide "badge-russian-ruble" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeRussianRuble()
-//   lucide.BadgeRussianRuble(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeRussianRuble()
+//	lucide.BadgeRussianRuble(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeRussianRuble(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4312,11 +4554,13 @@ func BadgeRussianRuble(opts ...Options) template.HTML {
 // BadgeSwissFranc renders the "badge-swiss-franc" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-swiss-franc" }}
+//
+//	{{ lucide "badge-swiss-franc" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeSwissFranc()
-//   lucide.BadgeSwissFranc(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeSwissFranc()
+//	lucide.BadgeSwissFranc(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeSwissFranc(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4334,11 +4578,13 @@ func BadgeSwissFranc(opts ...Options) template.HTML {
 // BadgeTurkishLira renders the "badge-turkish-lira" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-turkish-lira" }}
+//
+//	{{ lucide "badge-turkish-lira" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeTurkishLira()
-//   lucide.BadgeTurkishLira(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeTurkishLira()
+//	lucide.BadgeTurkishLira(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeTurkishLira(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4356,11 +4602,13 @@ func BadgeTurkishLira(opts ...Options) template.HTML {
 // BadgeX renders the "badge-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "badge-x" }}
+//
+//	{{ lucide "badge-x" }}
 //
 // Direct usage in Go:
-//   lucide.BadgeX()
-//   lucide.BadgeX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BadgeX()
+//	lucide.BadgeX(lucide.Options{Size: 32, Class: "my-icon"})
 func BadgeX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4378,11 +4626,13 @@ func BadgeX(opts ...Options) template.HTML {
 // BaggageClaim renders the "baggage-claim" icon.
 //
 // Usage in templates:
-//   {{ lucide "baggage-claim" }}
+//
+//	{{ lucide "baggage-claim" }}
 //
 // Direct usage in Go:
-//   lucide.BaggageClaim()
-//   lucide.BaggageClaim(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BaggageClaim()
+//	lucide.BaggageClaim(lucide.Options{Size: 32, Class: "my-icon"})
 func BaggageClaim(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4400,11 +4650,13 @@ func BaggageClaim(opts ...Options) template.HTML {
 // Ban renders the "ban" icon.
 //
 // Usage in templates:
-//   {{ lucide "ban" }}
+//
+//	{{ lucide "ban" }}
 //
 // Direct usage in Go:
-//   lucide.Ban()
-//   lucide.Ban(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ban()
+//	lucide.Ban(lucide.Options{Size: 32, Class: "my-icon"})
 func Ban(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4422,11 +4674,13 @@ func Ban(opts ...Options) template.HTML {
 // Banana renders the "banana" icon.
 //
 // Usage in templates:
-//   {{ lucide "banana" }}
+//
+//	{{ lucide "banana" }}
 //
 // Direct usage in Go:
-//   lucide.Banana()
-//   lucide.Banana(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Banana()
+//	lucide.Banana(lucide.Options{Size: 32, Class: "my-icon"})
 func Banana(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4444,11 +4698,13 @@ func Banana(opts ...Options) template.HTML {
 // Bandage renders the "bandage" icon.
 //
 // Usage in templates:
-//   {{ lucide "bandage" }}
+//
+//	{{ lucide "bandage" }}
 //
 // Direct usage in Go:
-//   lucide.Bandage()
-//   lucide.Bandage(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bandage()
+//	lucide.Bandage(lucide.Options{Size: 32, Class: "my-icon"})
 func Bandage(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4466,11 +4722,13 @@ func Bandage(opts ...Options) template.HTML {
 // Banknote renders the "banknote" icon.
 //
 // Usage in templates:
-//   {{ lucide "banknote" }}
+//
+//	{{ lucide "banknote" }}
 //
 // Direct usage in Go:
-//   lucide.Banknote()
-//   lucide.Banknote(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Banknote()
+//	lucide.Banknote(lucide.Options{Size: 32, Class: "my-icon"})
 func Banknote(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4488,11 +4746,13 @@ func Banknote(opts ...Options) template.HTML {
 // BanknoteArrowDown renders the "banknote-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "banknote-arrow-down" }}
+//
+//	{{ lucide "banknote-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.BanknoteArrowDown()
-//   lucide.BanknoteArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BanknoteArrowDown()
+//	lucide.BanknoteArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func BanknoteArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4510,11 +4770,13 @@ func BanknoteArrowDown(opts ...Options) template.HTML {
 // BanknoteArrowUp renders the "banknote-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "banknote-arrow-up" }}
+//
+//	{{ lucide "banknote-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.BanknoteArrowUp()
-//   lucide.BanknoteArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BanknoteArrowUp()
+//	lucide.BanknoteArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func BanknoteArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4532,11 +4794,13 @@ func BanknoteArrowUp(opts ...Options) template.HTML {
 // BanknoteX renders the "banknote-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "banknote-x" }}
+//
+//	{{ lucide "banknote-x" }}
 //
 // Direct usage in Go:
-//   lucide.BanknoteX()
-//   lucide.BanknoteX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BanknoteX()
+//	lucide.BanknoteX(lucide.Options{Size: 32, Class: "my-icon"})
 func BanknoteX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4554,11 +4818,13 @@ func BanknoteX(opts ...Options) template.HTML {
 // Barcode renders the "barcode" icon.
 //
 // Usage in templates:
-//   {{ lucide "barcode" }}
+//
+//	{{ lucide "barcode" }}
 //
 // Direct usage in Go:
-//   lucide.Barcode()
-//   lucide.Barcode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Barcode()
+//	lucide.Barcode(lucide.Options{Size: 32, Class: "my-icon"})
 func Barcode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4576,11 +4842,13 @@ func Barcode(opts ...Options) template.HTML {
 // Barrel renders the "barrel" icon.
 //
 // Usage in templates:
-//   {{ lucide "barrel" }}
+//
+//	{{ lucide "barrel" }}
 //
 // Direct usage in Go:
-//   lucide.Barrel()
-//   lucide.Barrel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Barrel()
+//	lucide.Barrel(lucide.Options{Size: 32, Class: "my-icon"})
 func Barrel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4598,11 +4866,13 @@ func Barrel(opts ...Options) template.HTML {
 // Baseline renders the "baseline" icon.
 //
 // Usage in templates:
-//   {{ lucide "baseline" }}
+//
+//	{{ lucide "baseline" }}
 //
 // Direct usage in Go:
-//   lucide.Baseline()
-//   lucide.Baseline(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Baseline()
+//	lucide.Baseline(lucide.Options{Size: 32, Class: "my-icon"})
 func Baseline(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4620,11 +4890,13 @@ func Baseline(opts ...Options) template.HTML {
 // Bath renders the "bath" icon.
 //
 // Usage in templates:
-//   {{ lucide "bath" }}
+//
+//	{{ lucide "bath" }}
 //
 // Direct usage in Go:
-//   lucide.Bath()
-//   lucide.Bath(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bath()
+//	lucide.Bath(lucide.Options{Size: 32, Class: "my-icon"})
 func Bath(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4642,11 +4914,13 @@ func Bath(opts ...Options) template.HTML {
 // Battery renders the "battery" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery" }}
+//
+//	{{ lucide "battery" }}
 //
 // Direct usage in Go:
-//   lucide.Battery()
-//   lucide.Battery(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Battery()
+//	lucide.Battery(lucide.Options{Size: 32, Class: "my-icon"})
 func Battery(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4664,11 +4938,13 @@ func Battery(opts ...Options) template.HTML {
 // BatteryCharging renders the "battery-charging" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery-charging" }}
+//
+//	{{ lucide "battery-charging" }}
 //
 // Direct usage in Go:
-//   lucide.BatteryCharging()
-//   lucide.BatteryCharging(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BatteryCharging()
+//	lucide.BatteryCharging(lucide.Options{Size: 32, Class: "my-icon"})
 func BatteryCharging(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4686,11 +4962,13 @@ func BatteryCharging(opts ...Options) template.HTML {
 // BatteryFull renders the "battery-full" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery-full" }}
+//
+//	{{ lucide "battery-full" }}
 //
 // Direct usage in Go:
-//   lucide.BatteryFull()
-//   lucide.BatteryFull(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BatteryFull()
+//	lucide.BatteryFull(lucide.Options{Size: 32, Class: "my-icon"})
 func BatteryFull(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4708,11 +4986,13 @@ func BatteryFull(opts ...Options) template.HTML {
 // BatteryLow renders the "battery-low" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery-low" }}
+//
+//	{{ lucide "battery-low" }}
 //
 // Direct usage in Go:
-//   lucide.BatteryLow()
-//   lucide.BatteryLow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BatteryLow()
+//	lucide.BatteryLow(lucide.Options{Size: 32, Class: "my-icon"})
 func BatteryLow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4730,11 +5010,13 @@ func BatteryLow(opts ...Options) template.HTML {
 // BatteryMedium renders the "battery-medium" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery-medium" }}
+//
+//	{{ lucide "battery-medium" }}
 //
 // Direct usage in Go:
-//   lucide.BatteryMedium()
-//   lucide.BatteryMedium(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BatteryMedium()
+//	lucide.BatteryMedium(lucide.Options{Size: 32, Class: "my-icon"})
 func BatteryMedium(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4752,11 +5034,13 @@ func BatteryMedium(opts ...Options) template.HTML {
 // BatteryPlus renders the "battery-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery-plus" }}
+//
+//	{{ lucide "battery-plus" }}
 //
 // Direct usage in Go:
-//   lucide.BatteryPlus()
-//   lucide.BatteryPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BatteryPlus()
+//	lucide.BatteryPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func BatteryPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4774,11 +5058,13 @@ func BatteryPlus(opts ...Options) template.HTML {
 // BatteryWarning renders the "battery-warning" icon.
 //
 // Usage in templates:
-//   {{ lucide "battery-warning" }}
+//
+//	{{ lucide "battery-warning" }}
 //
 // Direct usage in Go:
-//   lucide.BatteryWarning()
-//   lucide.BatteryWarning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BatteryWarning()
+//	lucide.BatteryWarning(lucide.Options{Size: 32, Class: "my-icon"})
 func BatteryWarning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4796,11 +5082,13 @@ func BatteryWarning(opts ...Options) template.HTML {
 // Beaker renders the "beaker" icon.
 //
 // Usage in templates:
-//   {{ lucide "beaker" }}
+//
+//	{{ lucide "beaker" }}
 //
 // Direct usage in Go:
-//   lucide.Beaker()
-//   lucide.Beaker(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Beaker()
+//	lucide.Beaker(lucide.Options{Size: 32, Class: "my-icon"})
 func Beaker(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4818,11 +5106,13 @@ func Beaker(opts ...Options) template.HTML {
 // Bean renders the "bean" icon.
 //
 // Usage in templates:
-//   {{ lucide "bean" }}
+//
+//	{{ lucide "bean" }}
 //
 // Direct usage in Go:
-//   lucide.Bean()
-//   lucide.Bean(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bean()
+//	lucide.Bean(lucide.Options{Size: 32, Class: "my-icon"})
 func Bean(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4840,11 +5130,13 @@ func Bean(opts ...Options) template.HTML {
 // BeanOff renders the "bean-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "bean-off" }}
+//
+//	{{ lucide "bean-off" }}
 //
 // Direct usage in Go:
-//   lucide.BeanOff()
-//   lucide.BeanOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BeanOff()
+//	lucide.BeanOff(lucide.Options{Size: 32, Class: "my-icon"})
 func BeanOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4862,11 +5154,13 @@ func BeanOff(opts ...Options) template.HTML {
 // Bed renders the "bed" icon.
 //
 // Usage in templates:
-//   {{ lucide "bed" }}
+//
+//	{{ lucide "bed" }}
 //
 // Direct usage in Go:
-//   lucide.Bed()
-//   lucide.Bed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bed()
+//	lucide.Bed(lucide.Options{Size: 32, Class: "my-icon"})
 func Bed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4884,11 +5178,13 @@ func Bed(opts ...Options) template.HTML {
 // BedDouble renders the "bed-double" icon.
 //
 // Usage in templates:
-//   {{ lucide "bed-double" }}
+//
+//	{{ lucide "bed-double" }}
 //
 // Direct usage in Go:
-//   lucide.BedDouble()
-//   lucide.BedDouble(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BedDouble()
+//	lucide.BedDouble(lucide.Options{Size: 32, Class: "my-icon"})
 func BedDouble(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4906,11 +5202,13 @@ func BedDouble(opts ...Options) template.HTML {
 // BedSingle renders the "bed-single" icon.
 //
 // Usage in templates:
-//   {{ lucide "bed-single" }}
+//
+//	{{ lucide "bed-single" }}
 //
 // Direct usage in Go:
-//   lucide.BedSingle()
-//   lucide.BedSingle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BedSingle()
+//	lucide.BedSingle(lucide.Options{Size: 32, Class: "my-icon"})
 func BedSingle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4928,11 +5226,13 @@ func BedSingle(opts ...Options) template.HTML {
 // Beef renders the "beef" icon.
 //
 // Usage in templates:
-//   {{ lucide "beef" }}
+//
+//	{{ lucide "beef" }}
 //
 // Direct usage in Go:
-//   lucide.Beef()
-//   lucide.Beef(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Beef()
+//	lucide.Beef(lucide.Options{Size: 32, Class: "my-icon"})
 func Beef(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4950,11 +5250,13 @@ func Beef(opts ...Options) template.HTML {
 // Beer renders the "beer" icon.
 //
 // Usage in templates:
-//   {{ lucide "beer" }}
+//
+//	{{ lucide "beer" }}
 //
 // Direct usage in Go:
-//   lucide.Beer()
-//   lucide.Beer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Beer()
+//	lucide.Beer(lucide.Options{Size: 32, Class: "my-icon"})
 func Beer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4972,11 +5274,13 @@ func Beer(opts ...Options) template.HTML {
 // BeerOff renders the "beer-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "beer-off" }}
+//
+//	{{ lucide "beer-off" }}
 //
 // Direct usage in Go:
-//   lucide.BeerOff()
-//   lucide.BeerOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BeerOff()
+//	lucide.BeerOff(lucide.Options{Size: 32, Class: "my-icon"})
 func BeerOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -4994,11 +5298,13 @@ func BeerOff(opts ...Options) template.HTML {
 // Bell renders the "bell" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell" }}
+//
+//	{{ lucide "bell" }}
 //
 // Direct usage in Go:
-//   lucide.Bell()
-//   lucide.Bell(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bell()
+//	lucide.Bell(lucide.Options{Size: 32, Class: "my-icon"})
 func Bell(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5016,11 +5322,13 @@ func Bell(opts ...Options) template.HTML {
 // BellDot renders the "bell-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell-dot" }}
+//
+//	{{ lucide "bell-dot" }}
 //
 // Direct usage in Go:
-//   lucide.BellDot()
-//   lucide.BellDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BellDot()
+//	lucide.BellDot(lucide.Options{Size: 32, Class: "my-icon"})
 func BellDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5038,11 +5346,13 @@ func BellDot(opts ...Options) template.HTML {
 // BellElectric renders the "bell-electric" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell-electric" }}
+//
+//	{{ lucide "bell-electric" }}
 //
 // Direct usage in Go:
-//   lucide.BellElectric()
-//   lucide.BellElectric(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BellElectric()
+//	lucide.BellElectric(lucide.Options{Size: 32, Class: "my-icon"})
 func BellElectric(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5060,11 +5370,13 @@ func BellElectric(opts ...Options) template.HTML {
 // BellMinus renders the "bell-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell-minus" }}
+//
+//	{{ lucide "bell-minus" }}
 //
 // Direct usage in Go:
-//   lucide.BellMinus()
-//   lucide.BellMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BellMinus()
+//	lucide.BellMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func BellMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5082,11 +5394,13 @@ func BellMinus(opts ...Options) template.HTML {
 // BellOff renders the "bell-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell-off" }}
+//
+//	{{ lucide "bell-off" }}
 //
 // Direct usage in Go:
-//   lucide.BellOff()
-//   lucide.BellOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BellOff()
+//	lucide.BellOff(lucide.Options{Size: 32, Class: "my-icon"})
 func BellOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5104,11 +5418,13 @@ func BellOff(opts ...Options) template.HTML {
 // BellPlus renders the "bell-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell-plus" }}
+//
+//	{{ lucide "bell-plus" }}
 //
 // Direct usage in Go:
-//   lucide.BellPlus()
-//   lucide.BellPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BellPlus()
+//	lucide.BellPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func BellPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5126,11 +5442,13 @@ func BellPlus(opts ...Options) template.HTML {
 // BellRing renders the "bell-ring" icon.
 //
 // Usage in templates:
-//   {{ lucide "bell-ring" }}
+//
+//	{{ lucide "bell-ring" }}
 //
 // Direct usage in Go:
-//   lucide.BellRing()
-//   lucide.BellRing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BellRing()
+//	lucide.BellRing(lucide.Options{Size: 32, Class: "my-icon"})
 func BellRing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5148,11 +5466,13 @@ func BellRing(opts ...Options) template.HTML {
 // BetweenHorizontalEnd renders the "between-horizontal-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "between-horizontal-end" }}
+//
+//	{{ lucide "between-horizontal-end" }}
 //
 // Direct usage in Go:
-//   lucide.BetweenHorizontalEnd()
-//   lucide.BetweenHorizontalEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BetweenHorizontalEnd()
+//	lucide.BetweenHorizontalEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func BetweenHorizontalEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5170,11 +5490,13 @@ func BetweenHorizontalEnd(opts ...Options) template.HTML {
 // BetweenHorizontalStart renders the "between-horizontal-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "between-horizontal-start" }}
+//
+//	{{ lucide "between-horizontal-start" }}
 //
 // Direct usage in Go:
-//   lucide.BetweenHorizontalStart()
-//   lucide.BetweenHorizontalStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BetweenHorizontalStart()
+//	lucide.BetweenHorizontalStart(lucide.Options{Size: 32, Class: "my-icon"})
 func BetweenHorizontalStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5192,11 +5514,13 @@ func BetweenHorizontalStart(opts ...Options) template.HTML {
 // BetweenVerticalEnd renders the "between-vertical-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "between-vertical-end" }}
+//
+//	{{ lucide "between-vertical-end" }}
 //
 // Direct usage in Go:
-//   lucide.BetweenVerticalEnd()
-//   lucide.BetweenVerticalEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BetweenVerticalEnd()
+//	lucide.BetweenVerticalEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func BetweenVerticalEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5214,11 +5538,13 @@ func BetweenVerticalEnd(opts ...Options) template.HTML {
 // BetweenVerticalStart renders the "between-vertical-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "between-vertical-start" }}
+//
+//	{{ lucide "between-vertical-start" }}
 //
 // Direct usage in Go:
-//   lucide.BetweenVerticalStart()
-//   lucide.BetweenVerticalStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BetweenVerticalStart()
+//	lucide.BetweenVerticalStart(lucide.Options{Size: 32, Class: "my-icon"})
 func BetweenVerticalStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5236,11 +5562,13 @@ func BetweenVerticalStart(opts ...Options) template.HTML {
 // BicepsFlexed renders the "biceps-flexed" icon.
 //
 // Usage in templates:
-//   {{ lucide "biceps-flexed" }}
+//
+//	{{ lucide "biceps-flexed" }}
 //
 // Direct usage in Go:
-//   lucide.BicepsFlexed()
-//   lucide.BicepsFlexed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BicepsFlexed()
+//	lucide.BicepsFlexed(lucide.Options{Size: 32, Class: "my-icon"})
 func BicepsFlexed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5258,11 +5586,13 @@ func BicepsFlexed(opts ...Options) template.HTML {
 // Bike renders the "bike" icon.
 //
 // Usage in templates:
-//   {{ lucide "bike" }}
+//
+//	{{ lucide "bike" }}
 //
 // Direct usage in Go:
-//   lucide.Bike()
-//   lucide.Bike(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bike()
+//	lucide.Bike(lucide.Options{Size: 32, Class: "my-icon"})
 func Bike(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5280,11 +5610,13 @@ func Bike(opts ...Options) template.HTML {
 // Binary renders the "binary" icon.
 //
 // Usage in templates:
-//   {{ lucide "binary" }}
+//
+//	{{ lucide "binary" }}
 //
 // Direct usage in Go:
-//   lucide.Binary()
-//   lucide.Binary(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Binary()
+//	lucide.Binary(lucide.Options{Size: 32, Class: "my-icon"})
 func Binary(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5302,11 +5634,13 @@ func Binary(opts ...Options) template.HTML {
 // Binoculars renders the "binoculars" icon.
 //
 // Usage in templates:
-//   {{ lucide "binoculars" }}
+//
+//	{{ lucide "binoculars" }}
 //
 // Direct usage in Go:
-//   lucide.Binoculars()
-//   lucide.Binoculars(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Binoculars()
+//	lucide.Binoculars(lucide.Options{Size: 32, Class: "my-icon"})
 func Binoculars(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5324,11 +5658,13 @@ func Binoculars(opts ...Options) template.HTML {
 // Biohazard renders the "biohazard" icon.
 //
 // Usage in templates:
-//   {{ lucide "biohazard" }}
+//
+//	{{ lucide "biohazard" }}
 //
 // Direct usage in Go:
-//   lucide.Biohazard()
-//   lucide.Biohazard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Biohazard()
+//	lucide.Biohazard(lucide.Options{Size: 32, Class: "my-icon"})
 func Biohazard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5346,11 +5682,13 @@ func Biohazard(opts ...Options) template.HTML {
 // Bird renders the "bird" icon.
 //
 // Usage in templates:
-//   {{ lucide "bird" }}
+//
+//	{{ lucide "bird" }}
 //
 // Direct usage in Go:
-//   lucide.Bird()
-//   lucide.Bird(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bird()
+//	lucide.Bird(lucide.Options{Size: 32, Class: "my-icon"})
 func Bird(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5368,11 +5706,13 @@ func Bird(opts ...Options) template.HTML {
 // Birdhouse renders the "birdhouse" icon.
 //
 // Usage in templates:
-//   {{ lucide "birdhouse" }}
+//
+//	{{ lucide "birdhouse" }}
 //
 // Direct usage in Go:
-//   lucide.Birdhouse()
-//   lucide.Birdhouse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Birdhouse()
+//	lucide.Birdhouse(lucide.Options{Size: 32, Class: "my-icon"})
 func Birdhouse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5390,11 +5730,13 @@ func Birdhouse(opts ...Options) template.HTML {
 // Bitcoin renders the "bitcoin" icon.
 //
 // Usage in templates:
-//   {{ lucide "bitcoin" }}
+//
+//	{{ lucide "bitcoin" }}
 //
 // Direct usage in Go:
-//   lucide.Bitcoin()
-//   lucide.Bitcoin(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bitcoin()
+//	lucide.Bitcoin(lucide.Options{Size: 32, Class: "my-icon"})
 func Bitcoin(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5412,11 +5754,13 @@ func Bitcoin(opts ...Options) template.HTML {
 // Blend renders the "blend" icon.
 //
 // Usage in templates:
-//   {{ lucide "blend" }}
+//
+//	{{ lucide "blend" }}
 //
 // Direct usage in Go:
-//   lucide.Blend()
-//   lucide.Blend(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Blend()
+//	lucide.Blend(lucide.Options{Size: 32, Class: "my-icon"})
 func Blend(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5434,11 +5778,13 @@ func Blend(opts ...Options) template.HTML {
 // Blinds renders the "blinds" icon.
 //
 // Usage in templates:
-//   {{ lucide "blinds" }}
+//
+//	{{ lucide "blinds" }}
 //
 // Direct usage in Go:
-//   lucide.Blinds()
-//   lucide.Blinds(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Blinds()
+//	lucide.Blinds(lucide.Options{Size: 32, Class: "my-icon"})
 func Blinds(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5456,11 +5802,13 @@ func Blinds(opts ...Options) template.HTML {
 // Blocks renders the "blocks" icon.
 //
 // Usage in templates:
-//   {{ lucide "blocks" }}
+//
+//	{{ lucide "blocks" }}
 //
 // Direct usage in Go:
-//   lucide.Blocks()
-//   lucide.Blocks(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Blocks()
+//	lucide.Blocks(lucide.Options{Size: 32, Class: "my-icon"})
 func Blocks(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5478,11 +5826,13 @@ func Blocks(opts ...Options) template.HTML {
 // Bluetooth renders the "bluetooth" icon.
 //
 // Usage in templates:
-//   {{ lucide "bluetooth" }}
+//
+//	{{ lucide "bluetooth" }}
 //
 // Direct usage in Go:
-//   lucide.Bluetooth()
-//   lucide.Bluetooth(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bluetooth()
+//	lucide.Bluetooth(lucide.Options{Size: 32, Class: "my-icon"})
 func Bluetooth(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5500,11 +5850,13 @@ func Bluetooth(opts ...Options) template.HTML {
 // BluetoothConnected renders the "bluetooth-connected" icon.
 //
 // Usage in templates:
-//   {{ lucide "bluetooth-connected" }}
+//
+//	{{ lucide "bluetooth-connected" }}
 //
 // Direct usage in Go:
-//   lucide.BluetoothConnected()
-//   lucide.BluetoothConnected(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BluetoothConnected()
+//	lucide.BluetoothConnected(lucide.Options{Size: 32, Class: "my-icon"})
 func BluetoothConnected(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5522,11 +5874,13 @@ func BluetoothConnected(opts ...Options) template.HTML {
 // BluetoothOff renders the "bluetooth-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "bluetooth-off" }}
+//
+//	{{ lucide "bluetooth-off" }}
 //
 // Direct usage in Go:
-//   lucide.BluetoothOff()
-//   lucide.BluetoothOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BluetoothOff()
+//	lucide.BluetoothOff(lucide.Options{Size: 32, Class: "my-icon"})
 func BluetoothOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5544,11 +5898,13 @@ func BluetoothOff(opts ...Options) template.HTML {
 // BluetoothSearching renders the "bluetooth-searching" icon.
 //
 // Usage in templates:
-//   {{ lucide "bluetooth-searching" }}
+//
+//	{{ lucide "bluetooth-searching" }}
 //
 // Direct usage in Go:
-//   lucide.BluetoothSearching()
-//   lucide.BluetoothSearching(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BluetoothSearching()
+//	lucide.BluetoothSearching(lucide.Options{Size: 32, Class: "my-icon"})
 func BluetoothSearching(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5566,11 +5922,13 @@ func BluetoothSearching(opts ...Options) template.HTML {
 // Bold renders the "bold" icon.
 //
 // Usage in templates:
-//   {{ lucide "bold" }}
+//
+//	{{ lucide "bold" }}
 //
 // Direct usage in Go:
-//   lucide.Bold()
-//   lucide.Bold(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bold()
+//	lucide.Bold(lucide.Options{Size: 32, Class: "my-icon"})
 func Bold(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5588,11 +5946,13 @@ func Bold(opts ...Options) template.HTML {
 // Bolt renders the "bolt" icon.
 //
 // Usage in templates:
-//   {{ lucide "bolt" }}
+//
+//	{{ lucide "bolt" }}
 //
 // Direct usage in Go:
-//   lucide.Bolt()
-//   lucide.Bolt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bolt()
+//	lucide.Bolt(lucide.Options{Size: 32, Class: "my-icon"})
 func Bolt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5610,11 +5970,13 @@ func Bolt(opts ...Options) template.HTML {
 // Bomb renders the "bomb" icon.
 //
 // Usage in templates:
-//   {{ lucide "bomb" }}
+//
+//	{{ lucide "bomb" }}
 //
 // Direct usage in Go:
-//   lucide.Bomb()
-//   lucide.Bomb(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bomb()
+//	lucide.Bomb(lucide.Options{Size: 32, Class: "my-icon"})
 func Bomb(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5632,11 +5994,13 @@ func Bomb(opts ...Options) template.HTML {
 // Bone renders the "bone" icon.
 //
 // Usage in templates:
-//   {{ lucide "bone" }}
+//
+//	{{ lucide "bone" }}
 //
 // Direct usage in Go:
-//   lucide.Bone()
-//   lucide.Bone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bone()
+//	lucide.Bone(lucide.Options{Size: 32, Class: "my-icon"})
 func Bone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5654,11 +6018,13 @@ func Bone(opts ...Options) template.HTML {
 // Book renders the "book" icon.
 //
 // Usage in templates:
-//   {{ lucide "book" }}
+//
+//	{{ lucide "book" }}
 //
 // Direct usage in Go:
-//   lucide.Book()
-//   lucide.Book(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Book()
+//	lucide.Book(lucide.Options{Size: 32, Class: "my-icon"})
 func Book(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5676,11 +6042,13 @@ func Book(opts ...Options) template.HTML {
 // BookA renders the "book-a" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-a" }}
+//
+//	{{ lucide "book-a" }}
 //
 // Direct usage in Go:
-//   lucide.BookA()
-//   lucide.BookA(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookA()
+//	lucide.BookA(lucide.Options{Size: 32, Class: "my-icon"})
 func BookA(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5698,11 +6066,13 @@ func BookA(opts ...Options) template.HTML {
 // BookAlert renders the "book-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-alert" }}
+//
+//	{{ lucide "book-alert" }}
 //
 // Direct usage in Go:
-//   lucide.BookAlert()
-//   lucide.BookAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookAlert()
+//	lucide.BookAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func BookAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5720,11 +6090,13 @@ func BookAlert(opts ...Options) template.HTML {
 // BookAudio renders the "book-audio" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-audio" }}
+//
+//	{{ lucide "book-audio" }}
 //
 // Direct usage in Go:
-//   lucide.BookAudio()
-//   lucide.BookAudio(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookAudio()
+//	lucide.BookAudio(lucide.Options{Size: 32, Class: "my-icon"})
 func BookAudio(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5742,11 +6114,13 @@ func BookAudio(opts ...Options) template.HTML {
 // BookCheck renders the "book-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-check" }}
+//
+//	{{ lucide "book-check" }}
 //
 // Direct usage in Go:
-//   lucide.BookCheck()
-//   lucide.BookCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookCheck()
+//	lucide.BookCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func BookCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5764,11 +6138,13 @@ func BookCheck(opts ...Options) template.HTML {
 // BookCopy renders the "book-copy" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-copy" }}
+//
+//	{{ lucide "book-copy" }}
 //
 // Direct usage in Go:
-//   lucide.BookCopy()
-//   lucide.BookCopy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookCopy()
+//	lucide.BookCopy(lucide.Options{Size: 32, Class: "my-icon"})
 func BookCopy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5786,11 +6162,13 @@ func BookCopy(opts ...Options) template.HTML {
 // BookDashed renders the "book-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-dashed" }}
+//
+//	{{ lucide "book-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.BookDashed()
-//   lucide.BookDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookDashed()
+//	lucide.BookDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func BookDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5808,11 +6186,13 @@ func BookDashed(opts ...Options) template.HTML {
 // BookDown renders the "book-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-down" }}
+//
+//	{{ lucide "book-down" }}
 //
 // Direct usage in Go:
-//   lucide.BookDown()
-//   lucide.BookDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookDown()
+//	lucide.BookDown(lucide.Options{Size: 32, Class: "my-icon"})
 func BookDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5830,11 +6210,13 @@ func BookDown(opts ...Options) template.HTML {
 // BookHeadphones renders the "book-headphones" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-headphones" }}
+//
+//	{{ lucide "book-headphones" }}
 //
 // Direct usage in Go:
-//   lucide.BookHeadphones()
-//   lucide.BookHeadphones(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookHeadphones()
+//	lucide.BookHeadphones(lucide.Options{Size: 32, Class: "my-icon"})
 func BookHeadphones(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5852,11 +6234,13 @@ func BookHeadphones(opts ...Options) template.HTML {
 // BookHeart renders the "book-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-heart" }}
+//
+//	{{ lucide "book-heart" }}
 //
 // Direct usage in Go:
-//   lucide.BookHeart()
-//   lucide.BookHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookHeart()
+//	lucide.BookHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func BookHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5874,11 +6258,13 @@ func BookHeart(opts ...Options) template.HTML {
 // BookImage renders the "book-image" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-image" }}
+//
+//	{{ lucide "book-image" }}
 //
 // Direct usage in Go:
-//   lucide.BookImage()
-//   lucide.BookImage(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookImage()
+//	lucide.BookImage(lucide.Options{Size: 32, Class: "my-icon"})
 func BookImage(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5896,11 +6282,13 @@ func BookImage(opts ...Options) template.HTML {
 // BookKey renders the "book-key" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-key" }}
+//
+//	{{ lucide "book-key" }}
 //
 // Direct usage in Go:
-//   lucide.BookKey()
-//   lucide.BookKey(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookKey()
+//	lucide.BookKey(lucide.Options{Size: 32, Class: "my-icon"})
 func BookKey(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5918,11 +6306,13 @@ func BookKey(opts ...Options) template.HTML {
 // BookLock renders the "book-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-lock" }}
+//
+//	{{ lucide "book-lock" }}
 //
 // Direct usage in Go:
-//   lucide.BookLock()
-//   lucide.BookLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookLock()
+//	lucide.BookLock(lucide.Options{Size: 32, Class: "my-icon"})
 func BookLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5940,11 +6330,13 @@ func BookLock(opts ...Options) template.HTML {
 // BookMarked renders the "book-marked" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-marked" }}
+//
+//	{{ lucide "book-marked" }}
 //
 // Direct usage in Go:
-//   lucide.BookMarked()
-//   lucide.BookMarked(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookMarked()
+//	lucide.BookMarked(lucide.Options{Size: 32, Class: "my-icon"})
 func BookMarked(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5962,11 +6354,13 @@ func BookMarked(opts ...Options) template.HTML {
 // BookMinus renders the "book-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-minus" }}
+//
+//	{{ lucide "book-minus" }}
 //
 // Direct usage in Go:
-//   lucide.BookMinus()
-//   lucide.BookMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookMinus()
+//	lucide.BookMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func BookMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -5984,11 +6378,13 @@ func BookMinus(opts ...Options) template.HTML {
 // BookOpen renders the "book-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-open" }}
+//
+//	{{ lucide "book-open" }}
 //
 // Direct usage in Go:
-//   lucide.BookOpen()
-//   lucide.BookOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookOpen()
+//	lucide.BookOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func BookOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6006,11 +6402,13 @@ func BookOpen(opts ...Options) template.HTML {
 // BookOpenCheck renders the "book-open-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-open-check" }}
+//
+//	{{ lucide "book-open-check" }}
 //
 // Direct usage in Go:
-//   lucide.BookOpenCheck()
-//   lucide.BookOpenCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookOpenCheck()
+//	lucide.BookOpenCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func BookOpenCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6028,11 +6426,13 @@ func BookOpenCheck(opts ...Options) template.HTML {
 // BookOpenText renders the "book-open-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-open-text" }}
+//
+//	{{ lucide "book-open-text" }}
 //
 // Direct usage in Go:
-//   lucide.BookOpenText()
-//   lucide.BookOpenText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookOpenText()
+//	lucide.BookOpenText(lucide.Options{Size: 32, Class: "my-icon"})
 func BookOpenText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6050,11 +6450,13 @@ func BookOpenText(opts ...Options) template.HTML {
 // BookPlus renders the "book-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-plus" }}
+//
+//	{{ lucide "book-plus" }}
 //
 // Direct usage in Go:
-//   lucide.BookPlus()
-//   lucide.BookPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookPlus()
+//	lucide.BookPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func BookPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6072,11 +6474,13 @@ func BookPlus(opts ...Options) template.HTML {
 // BookText renders the "book-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-text" }}
+//
+//	{{ lucide "book-text" }}
 //
 // Direct usage in Go:
-//   lucide.BookText()
-//   lucide.BookText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookText()
+//	lucide.BookText(lucide.Options{Size: 32, Class: "my-icon"})
 func BookText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6094,11 +6498,13 @@ func BookText(opts ...Options) template.HTML {
 // BookType renders the "book-type" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-type" }}
+//
+//	{{ lucide "book-type" }}
 //
 // Direct usage in Go:
-//   lucide.BookType()
-//   lucide.BookType(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookType()
+//	lucide.BookType(lucide.Options{Size: 32, Class: "my-icon"})
 func BookType(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6116,11 +6522,13 @@ func BookType(opts ...Options) template.HTML {
 // BookUp renders the "book-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-up" }}
+//
+//	{{ lucide "book-up" }}
 //
 // Direct usage in Go:
-//   lucide.BookUp()
-//   lucide.BookUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookUp()
+//	lucide.BookUp(lucide.Options{Size: 32, Class: "my-icon"})
 func BookUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6138,11 +6546,13 @@ func BookUp(opts ...Options) template.HTML {
 // BookUp2 renders the "book-up-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-up-2" }}
+//
+//	{{ lucide "book-up-2" }}
 //
 // Direct usage in Go:
-//   lucide.BookUp2()
-//   lucide.BookUp2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookUp2()
+//	lucide.BookUp2(lucide.Options{Size: 32, Class: "my-icon"})
 func BookUp2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6160,11 +6570,13 @@ func BookUp2(opts ...Options) template.HTML {
 // BookUser renders the "book-user" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-user" }}
+//
+//	{{ lucide "book-user" }}
 //
 // Direct usage in Go:
-//   lucide.BookUser()
-//   lucide.BookUser(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookUser()
+//	lucide.BookUser(lucide.Options{Size: 32, Class: "my-icon"})
 func BookUser(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6182,11 +6594,13 @@ func BookUser(opts ...Options) template.HTML {
 // BookX renders the "book-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "book-x" }}
+//
+//	{{ lucide "book-x" }}
 //
 // Direct usage in Go:
-//   lucide.BookX()
-//   lucide.BookX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookX()
+//	lucide.BookX(lucide.Options{Size: 32, Class: "my-icon"})
 func BookX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6204,11 +6618,13 @@ func BookX(opts ...Options) template.HTML {
 // Bookmark renders the "bookmark" icon.
 //
 // Usage in templates:
-//   {{ lucide "bookmark" }}
+//
+//	{{ lucide "bookmark" }}
 //
 // Direct usage in Go:
-//   lucide.Bookmark()
-//   lucide.Bookmark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bookmark()
+//	lucide.Bookmark(lucide.Options{Size: 32, Class: "my-icon"})
 func Bookmark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6226,11 +6642,13 @@ func Bookmark(opts ...Options) template.HTML {
 // BookmarkCheck renders the "bookmark-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "bookmark-check" }}
+//
+//	{{ lucide "bookmark-check" }}
 //
 // Direct usage in Go:
-//   lucide.BookmarkCheck()
-//   lucide.BookmarkCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookmarkCheck()
+//	lucide.BookmarkCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func BookmarkCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6248,11 +6666,13 @@ func BookmarkCheck(opts ...Options) template.HTML {
 // BookmarkMinus renders the "bookmark-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "bookmark-minus" }}
+//
+//	{{ lucide "bookmark-minus" }}
 //
 // Direct usage in Go:
-//   lucide.BookmarkMinus()
-//   lucide.BookmarkMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookmarkMinus()
+//	lucide.BookmarkMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func BookmarkMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6270,11 +6690,13 @@ func BookmarkMinus(opts ...Options) template.HTML {
 // BookmarkPlus renders the "bookmark-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "bookmark-plus" }}
+//
+//	{{ lucide "bookmark-plus" }}
 //
 // Direct usage in Go:
-//   lucide.BookmarkPlus()
-//   lucide.BookmarkPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookmarkPlus()
+//	lucide.BookmarkPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func BookmarkPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6292,11 +6714,13 @@ func BookmarkPlus(opts ...Options) template.HTML {
 // BookmarkX renders the "bookmark-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "bookmark-x" }}
+//
+//	{{ lucide "bookmark-x" }}
 //
 // Direct usage in Go:
-//   lucide.BookmarkX()
-//   lucide.BookmarkX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BookmarkX()
+//	lucide.BookmarkX(lucide.Options{Size: 32, Class: "my-icon"})
 func BookmarkX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6314,11 +6738,13 @@ func BookmarkX(opts ...Options) template.HTML {
 // BoomBox renders the "boom-box" icon.
 //
 // Usage in templates:
-//   {{ lucide "boom-box" }}
+//
+//	{{ lucide "boom-box" }}
 //
 // Direct usage in Go:
-//   lucide.BoomBox()
-//   lucide.BoomBox(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BoomBox()
+//	lucide.BoomBox(lucide.Options{Size: 32, Class: "my-icon"})
 func BoomBox(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6336,11 +6762,13 @@ func BoomBox(opts ...Options) template.HTML {
 // Bot renders the "bot" icon.
 //
 // Usage in templates:
-//   {{ lucide "bot" }}
+//
+//	{{ lucide "bot" }}
 //
 // Direct usage in Go:
-//   lucide.Bot()
-//   lucide.Bot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bot()
+//	lucide.Bot(lucide.Options{Size: 32, Class: "my-icon"})
 func Bot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6358,11 +6786,13 @@ func Bot(opts ...Options) template.HTML {
 // BotMessageSquare renders the "bot-message-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "bot-message-square" }}
+//
+//	{{ lucide "bot-message-square" }}
 //
 // Direct usage in Go:
-//   lucide.BotMessageSquare()
-//   lucide.BotMessageSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BotMessageSquare()
+//	lucide.BotMessageSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func BotMessageSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6380,11 +6810,13 @@ func BotMessageSquare(opts ...Options) template.HTML {
 // BotOff renders the "bot-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "bot-off" }}
+//
+//	{{ lucide "bot-off" }}
 //
 // Direct usage in Go:
-//   lucide.BotOff()
-//   lucide.BotOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BotOff()
+//	lucide.BotOff(lucide.Options{Size: 32, Class: "my-icon"})
 func BotOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6402,11 +6834,13 @@ func BotOff(opts ...Options) template.HTML {
 // BottleWine renders the "bottle-wine" icon.
 //
 // Usage in templates:
-//   {{ lucide "bottle-wine" }}
+//
+//	{{ lucide "bottle-wine" }}
 //
 // Direct usage in Go:
-//   lucide.BottleWine()
-//   lucide.BottleWine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BottleWine()
+//	lucide.BottleWine(lucide.Options{Size: 32, Class: "my-icon"})
 func BottleWine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6424,11 +6858,13 @@ func BottleWine(opts ...Options) template.HTML {
 // BowArrow renders the "bow-arrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "bow-arrow" }}
+//
+//	{{ lucide "bow-arrow" }}
 //
 // Direct usage in Go:
-//   lucide.BowArrow()
-//   lucide.BowArrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BowArrow()
+//	lucide.BowArrow(lucide.Options{Size: 32, Class: "my-icon"})
 func BowArrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6446,11 +6882,13 @@ func BowArrow(opts ...Options) template.HTML {
 // Box renders the "box" icon.
 //
 // Usage in templates:
-//   {{ lucide "box" }}
+//
+//	{{ lucide "box" }}
 //
 // Direct usage in Go:
-//   lucide.Box()
-//   lucide.Box(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Box()
+//	lucide.Box(lucide.Options{Size: 32, Class: "my-icon"})
 func Box(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6468,11 +6906,13 @@ func Box(opts ...Options) template.HTML {
 // Boxes renders the "boxes" icon.
 //
 // Usage in templates:
-//   {{ lucide "boxes" }}
+//
+//	{{ lucide "boxes" }}
 //
 // Direct usage in Go:
-//   lucide.Boxes()
-//   lucide.Boxes(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Boxes()
+//	lucide.Boxes(lucide.Options{Size: 32, Class: "my-icon"})
 func Boxes(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6490,11 +6930,13 @@ func Boxes(opts ...Options) template.HTML {
 // Braces renders the "braces" icon.
 //
 // Usage in templates:
-//   {{ lucide "braces" }}
+//
+//	{{ lucide "braces" }}
 //
 // Direct usage in Go:
-//   lucide.Braces()
-//   lucide.Braces(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Braces()
+//	lucide.Braces(lucide.Options{Size: 32, Class: "my-icon"})
 func Braces(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6512,11 +6954,13 @@ func Braces(opts ...Options) template.HTML {
 // Brackets renders the "brackets" icon.
 //
 // Usage in templates:
-//   {{ lucide "brackets" }}
+//
+//	{{ lucide "brackets" }}
 //
 // Direct usage in Go:
-//   lucide.Brackets()
-//   lucide.Brackets(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Brackets()
+//	lucide.Brackets(lucide.Options{Size: 32, Class: "my-icon"})
 func Brackets(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6534,11 +6978,13 @@ func Brackets(opts ...Options) template.HTML {
 // Brain renders the "brain" icon.
 //
 // Usage in templates:
-//   {{ lucide "brain" }}
+//
+//	{{ lucide "brain" }}
 //
 // Direct usage in Go:
-//   lucide.Brain()
-//   lucide.Brain(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Brain()
+//	lucide.Brain(lucide.Options{Size: 32, Class: "my-icon"})
 func Brain(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6556,11 +7002,13 @@ func Brain(opts ...Options) template.HTML {
 // BrainCircuit renders the "brain-circuit" icon.
 //
 // Usage in templates:
-//   {{ lucide "brain-circuit" }}
+//
+//	{{ lucide "brain-circuit" }}
 //
 // Direct usage in Go:
-//   lucide.BrainCircuit()
-//   lucide.BrainCircuit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BrainCircuit()
+//	lucide.BrainCircuit(lucide.Options{Size: 32, Class: "my-icon"})
 func BrainCircuit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6578,11 +7026,13 @@ func BrainCircuit(opts ...Options) template.HTML {
 // BrainCog renders the "brain-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "brain-cog" }}
+//
+//	{{ lucide "brain-cog" }}
 //
 // Direct usage in Go:
-//   lucide.BrainCog()
-//   lucide.BrainCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BrainCog()
+//	lucide.BrainCog(lucide.Options{Size: 32, Class: "my-icon"})
 func BrainCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6600,11 +7050,13 @@ func BrainCog(opts ...Options) template.HTML {
 // BrickWall renders the "brick-wall" icon.
 //
 // Usage in templates:
-//   {{ lucide "brick-wall" }}
+//
+//	{{ lucide "brick-wall" }}
 //
 // Direct usage in Go:
-//   lucide.BrickWall()
-//   lucide.BrickWall(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BrickWall()
+//	lucide.BrickWall(lucide.Options{Size: 32, Class: "my-icon"})
 func BrickWall(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6622,11 +7074,13 @@ func BrickWall(opts ...Options) template.HTML {
 // BrickWallFire renders the "brick-wall-fire" icon.
 //
 // Usage in templates:
-//   {{ lucide "brick-wall-fire" }}
+//
+//	{{ lucide "brick-wall-fire" }}
 //
 // Direct usage in Go:
-//   lucide.BrickWallFire()
-//   lucide.BrickWallFire(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BrickWallFire()
+//	lucide.BrickWallFire(lucide.Options{Size: 32, Class: "my-icon"})
 func BrickWallFire(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6644,11 +7098,13 @@ func BrickWallFire(opts ...Options) template.HTML {
 // BrickWallShield renders the "brick-wall-shield" icon.
 //
 // Usage in templates:
-//   {{ lucide "brick-wall-shield" }}
+//
+//	{{ lucide "brick-wall-shield" }}
 //
 // Direct usage in Go:
-//   lucide.BrickWallShield()
-//   lucide.BrickWallShield(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BrickWallShield()
+//	lucide.BrickWallShield(lucide.Options{Size: 32, Class: "my-icon"})
 func BrickWallShield(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6666,11 +7122,13 @@ func BrickWallShield(opts ...Options) template.HTML {
 // Briefcase renders the "briefcase" icon.
 //
 // Usage in templates:
-//   {{ lucide "briefcase" }}
+//
+//	{{ lucide "briefcase" }}
 //
 // Direct usage in Go:
-//   lucide.Briefcase()
-//   lucide.Briefcase(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Briefcase()
+//	lucide.Briefcase(lucide.Options{Size: 32, Class: "my-icon"})
 func Briefcase(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6688,11 +7146,13 @@ func Briefcase(opts ...Options) template.HTML {
 // BriefcaseBusiness renders the "briefcase-business" icon.
 //
 // Usage in templates:
-//   {{ lucide "briefcase-business" }}
+//
+//	{{ lucide "briefcase-business" }}
 //
 // Direct usage in Go:
-//   lucide.BriefcaseBusiness()
-//   lucide.BriefcaseBusiness(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BriefcaseBusiness()
+//	lucide.BriefcaseBusiness(lucide.Options{Size: 32, Class: "my-icon"})
 func BriefcaseBusiness(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6710,11 +7170,13 @@ func BriefcaseBusiness(opts ...Options) template.HTML {
 // BriefcaseConveyorBelt renders the "briefcase-conveyor-belt" icon.
 //
 // Usage in templates:
-//   {{ lucide "briefcase-conveyor-belt" }}
+//
+//	{{ lucide "briefcase-conveyor-belt" }}
 //
 // Direct usage in Go:
-//   lucide.BriefcaseConveyorBelt()
-//   lucide.BriefcaseConveyorBelt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BriefcaseConveyorBelt()
+//	lucide.BriefcaseConveyorBelt(lucide.Options{Size: 32, Class: "my-icon"})
 func BriefcaseConveyorBelt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6732,11 +7194,13 @@ func BriefcaseConveyorBelt(opts ...Options) template.HTML {
 // BriefcaseMedical renders the "briefcase-medical" icon.
 //
 // Usage in templates:
-//   {{ lucide "briefcase-medical" }}
+//
+//	{{ lucide "briefcase-medical" }}
 //
 // Direct usage in Go:
-//   lucide.BriefcaseMedical()
-//   lucide.BriefcaseMedical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BriefcaseMedical()
+//	lucide.BriefcaseMedical(lucide.Options{Size: 32, Class: "my-icon"})
 func BriefcaseMedical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6754,11 +7218,13 @@ func BriefcaseMedical(opts ...Options) template.HTML {
 // BringToFront renders the "bring-to-front" icon.
 //
 // Usage in templates:
-//   {{ lucide "bring-to-front" }}
+//
+//	{{ lucide "bring-to-front" }}
 //
 // Direct usage in Go:
-//   lucide.BringToFront()
-//   lucide.BringToFront(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BringToFront()
+//	lucide.BringToFront(lucide.Options{Size: 32, Class: "my-icon"})
 func BringToFront(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6776,11 +7242,13 @@ func BringToFront(opts ...Options) template.HTML {
 // Brush renders the "brush" icon.
 //
 // Usage in templates:
-//   {{ lucide "brush" }}
+//
+//	{{ lucide "brush" }}
 //
 // Direct usage in Go:
-//   lucide.Brush()
-//   lucide.Brush(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Brush()
+//	lucide.Brush(lucide.Options{Size: 32, Class: "my-icon"})
 func Brush(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6798,11 +7266,13 @@ func Brush(opts ...Options) template.HTML {
 // BrushCleaning renders the "brush-cleaning" icon.
 //
 // Usage in templates:
-//   {{ lucide "brush-cleaning" }}
+//
+//	{{ lucide "brush-cleaning" }}
 //
 // Direct usage in Go:
-//   lucide.BrushCleaning()
-//   lucide.BrushCleaning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BrushCleaning()
+//	lucide.BrushCleaning(lucide.Options{Size: 32, Class: "my-icon"})
 func BrushCleaning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6820,11 +7290,13 @@ func BrushCleaning(opts ...Options) template.HTML {
 // Bubbles renders the "bubbles" icon.
 //
 // Usage in templates:
-//   {{ lucide "bubbles" }}
+//
+//	{{ lucide "bubbles" }}
 //
 // Direct usage in Go:
-//   lucide.Bubbles()
-//   lucide.Bubbles(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bubbles()
+//	lucide.Bubbles(lucide.Options{Size: 32, Class: "my-icon"})
 func Bubbles(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6842,11 +7314,13 @@ func Bubbles(opts ...Options) template.HTML {
 // Bug renders the "bug" icon.
 //
 // Usage in templates:
-//   {{ lucide "bug" }}
+//
+//	{{ lucide "bug" }}
 //
 // Direct usage in Go:
-//   lucide.Bug()
-//   lucide.Bug(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bug()
+//	lucide.Bug(lucide.Options{Size: 32, Class: "my-icon"})
 func Bug(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6864,11 +7338,13 @@ func Bug(opts ...Options) template.HTML {
 // BugOff renders the "bug-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "bug-off" }}
+//
+//	{{ lucide "bug-off" }}
 //
 // Direct usage in Go:
-//   lucide.BugOff()
-//   lucide.BugOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BugOff()
+//	lucide.BugOff(lucide.Options{Size: 32, Class: "my-icon"})
 func BugOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6886,11 +7362,13 @@ func BugOff(opts ...Options) template.HTML {
 // BugPlay renders the "bug-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "bug-play" }}
+//
+//	{{ lucide "bug-play" }}
 //
 // Direct usage in Go:
-//   lucide.BugPlay()
-//   lucide.BugPlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BugPlay()
+//	lucide.BugPlay(lucide.Options{Size: 32, Class: "my-icon"})
 func BugPlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6908,11 +7386,13 @@ func BugPlay(opts ...Options) template.HTML {
 // Building renders the "building" icon.
 //
 // Usage in templates:
-//   {{ lucide "building" }}
+//
+//	{{ lucide "building" }}
 //
 // Direct usage in Go:
-//   lucide.Building()
-//   lucide.Building(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Building()
+//	lucide.Building(lucide.Options{Size: 32, Class: "my-icon"})
 func Building(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6930,11 +7410,13 @@ func Building(opts ...Options) template.HTML {
 // Building2 renders the "building-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "building-2" }}
+//
+//	{{ lucide "building-2" }}
 //
 // Direct usage in Go:
-//   lucide.Building2()
-//   lucide.Building2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Building2()
+//	lucide.Building2(lucide.Options{Size: 32, Class: "my-icon"})
 func Building2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6952,11 +7434,13 @@ func Building2(opts ...Options) template.HTML {
 // Bus renders the "bus" icon.
 //
 // Usage in templates:
-//   {{ lucide "bus" }}
+//
+//	{{ lucide "bus" }}
 //
 // Direct usage in Go:
-//   lucide.Bus()
-//   lucide.Bus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Bus()
+//	lucide.Bus(lucide.Options{Size: 32, Class: "my-icon"})
 func Bus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6974,11 +7458,13 @@ func Bus(opts ...Options) template.HTML {
 // BusFront renders the "bus-front" icon.
 //
 // Usage in templates:
-//   {{ lucide "bus-front" }}
+//
+//	{{ lucide "bus-front" }}
 //
 // Direct usage in Go:
-//   lucide.BusFront()
-//   lucide.BusFront(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.BusFront()
+//	lucide.BusFront(lucide.Options{Size: 32, Class: "my-icon"})
 func BusFront(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -6996,11 +7482,13 @@ func BusFront(opts ...Options) template.HTML {
 // Cable renders the "cable" icon.
 //
 // Usage in templates:
-//   {{ lucide "cable" }}
+//
+//	{{ lucide "cable" }}
 //
 // Direct usage in Go:
-//   lucide.Cable()
-//   lucide.Cable(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cable()
+//	lucide.Cable(lucide.Options{Size: 32, Class: "my-icon"})
 func Cable(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7018,11 +7506,13 @@ func Cable(opts ...Options) template.HTML {
 // CableCar renders the "cable-car" icon.
 //
 // Usage in templates:
-//   {{ lucide "cable-car" }}
+//
+//	{{ lucide "cable-car" }}
 //
 // Direct usage in Go:
-//   lucide.CableCar()
-//   lucide.CableCar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CableCar()
+//	lucide.CableCar(lucide.Options{Size: 32, Class: "my-icon"})
 func CableCar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7040,11 +7530,13 @@ func CableCar(opts ...Options) template.HTML {
 // Cake renders the "cake" icon.
 //
 // Usage in templates:
-//   {{ lucide "cake" }}
+//
+//	{{ lucide "cake" }}
 //
 // Direct usage in Go:
-//   lucide.Cake()
-//   lucide.Cake(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cake()
+//	lucide.Cake(lucide.Options{Size: 32, Class: "my-icon"})
 func Cake(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7062,11 +7554,13 @@ func Cake(opts ...Options) template.HTML {
 // CakeSlice renders the "cake-slice" icon.
 //
 // Usage in templates:
-//   {{ lucide "cake-slice" }}
+//
+//	{{ lucide "cake-slice" }}
 //
 // Direct usage in Go:
-//   lucide.CakeSlice()
-//   lucide.CakeSlice(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CakeSlice()
+//	lucide.CakeSlice(lucide.Options{Size: 32, Class: "my-icon"})
 func CakeSlice(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7084,11 +7578,13 @@ func CakeSlice(opts ...Options) template.HTML {
 // Calculator renders the "calculator" icon.
 //
 // Usage in templates:
-//   {{ lucide "calculator" }}
+//
+//	{{ lucide "calculator" }}
 //
 // Direct usage in Go:
-//   lucide.Calculator()
-//   lucide.Calculator(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Calculator()
+//	lucide.Calculator(lucide.Options{Size: 32, Class: "my-icon"})
 func Calculator(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7106,11 +7602,13 @@ func Calculator(opts ...Options) template.HTML {
 // Calendar renders the "calendar" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar" }}
+//
+//	{{ lucide "calendar" }}
 //
 // Direct usage in Go:
-//   lucide.Calendar()
-//   lucide.Calendar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Calendar()
+//	lucide.Calendar(lucide.Options{Size: 32, Class: "my-icon"})
 func Calendar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7128,11 +7626,13 @@ func Calendar(opts ...Options) template.HTML {
 // Calendar1 renders the "calendar-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-1" }}
+//
+//	{{ lucide "calendar-1" }}
 //
 // Direct usage in Go:
-//   lucide.Calendar1()
-//   lucide.Calendar1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Calendar1()
+//	lucide.Calendar1(lucide.Options{Size: 32, Class: "my-icon"})
 func Calendar1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7150,11 +7650,13 @@ func Calendar1(opts ...Options) template.HTML {
 // CalendarArrowDown renders the "calendar-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-arrow-down" }}
+//
+//	{{ lucide "calendar-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarArrowDown()
-//   lucide.CalendarArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarArrowDown()
+//	lucide.CalendarArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7172,11 +7674,13 @@ func CalendarArrowDown(opts ...Options) template.HTML {
 // CalendarArrowUp renders the "calendar-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-arrow-up" }}
+//
+//	{{ lucide "calendar-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarArrowUp()
-//   lucide.CalendarArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarArrowUp()
+//	lucide.CalendarArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7194,11 +7698,13 @@ func CalendarArrowUp(opts ...Options) template.HTML {
 // CalendarCheck renders the "calendar-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-check" }}
+//
+//	{{ lucide "calendar-check" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarCheck()
-//   lucide.CalendarCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarCheck()
+//	lucide.CalendarCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7216,11 +7722,13 @@ func CalendarCheck(opts ...Options) template.HTML {
 // CalendarCheck2 renders the "calendar-check-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-check-2" }}
+//
+//	{{ lucide "calendar-check-2" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarCheck2()
-//   lucide.CalendarCheck2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarCheck2()
+//	lucide.CalendarCheck2(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarCheck2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7238,11 +7746,13 @@ func CalendarCheck2(opts ...Options) template.HTML {
 // CalendarClock renders the "calendar-clock" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-clock" }}
+//
+//	{{ lucide "calendar-clock" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarClock()
-//   lucide.CalendarClock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarClock()
+//	lucide.CalendarClock(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarClock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7260,11 +7770,13 @@ func CalendarClock(opts ...Options) template.HTML {
 // CalendarCog renders the "calendar-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-cog" }}
+//
+//	{{ lucide "calendar-cog" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarCog()
-//   lucide.CalendarCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarCog()
+//	lucide.CalendarCog(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7282,11 +7794,13 @@ func CalendarCog(opts ...Options) template.HTML {
 // CalendarDays renders the "calendar-days" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-days" }}
+//
+//	{{ lucide "calendar-days" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarDays()
-//   lucide.CalendarDays(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarDays()
+//	lucide.CalendarDays(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarDays(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7304,11 +7818,13 @@ func CalendarDays(opts ...Options) template.HTML {
 // CalendarFold renders the "calendar-fold" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-fold" }}
+//
+//	{{ lucide "calendar-fold" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarFold()
-//   lucide.CalendarFold(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarFold()
+//	lucide.CalendarFold(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarFold(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7326,11 +7842,13 @@ func CalendarFold(opts ...Options) template.HTML {
 // CalendarHeart renders the "calendar-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-heart" }}
+//
+//	{{ lucide "calendar-heart" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarHeart()
-//   lucide.CalendarHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarHeart()
+//	lucide.CalendarHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7348,11 +7866,13 @@ func CalendarHeart(opts ...Options) template.HTML {
 // CalendarMinus renders the "calendar-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-minus" }}
+//
+//	{{ lucide "calendar-minus" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarMinus()
-//   lucide.CalendarMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarMinus()
+//	lucide.CalendarMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7370,11 +7890,13 @@ func CalendarMinus(opts ...Options) template.HTML {
 // CalendarMinus2 renders the "calendar-minus-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-minus-2" }}
+//
+//	{{ lucide "calendar-minus-2" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarMinus2()
-//   lucide.CalendarMinus2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarMinus2()
+//	lucide.CalendarMinus2(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarMinus2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7392,11 +7914,13 @@ func CalendarMinus2(opts ...Options) template.HTML {
 // CalendarOff renders the "calendar-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-off" }}
+//
+//	{{ lucide "calendar-off" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarOff()
-//   lucide.CalendarOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarOff()
+//	lucide.CalendarOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7414,11 +7938,13 @@ func CalendarOff(opts ...Options) template.HTML {
 // CalendarPlus renders the "calendar-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-plus" }}
+//
+//	{{ lucide "calendar-plus" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarPlus()
-//   lucide.CalendarPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarPlus()
+//	lucide.CalendarPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7436,11 +7962,13 @@ func CalendarPlus(opts ...Options) template.HTML {
 // CalendarPlus2 renders the "calendar-plus-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-plus-2" }}
+//
+//	{{ lucide "calendar-plus-2" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarPlus2()
-//   lucide.CalendarPlus2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarPlus2()
+//	lucide.CalendarPlus2(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarPlus2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7458,11 +7986,13 @@ func CalendarPlus2(opts ...Options) template.HTML {
 // CalendarRange renders the "calendar-range" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-range" }}
+//
+//	{{ lucide "calendar-range" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarRange()
-//   lucide.CalendarRange(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarRange()
+//	lucide.CalendarRange(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarRange(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7480,11 +8010,13 @@ func CalendarRange(opts ...Options) template.HTML {
 // CalendarSearch renders the "calendar-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-search" }}
+//
+//	{{ lucide "calendar-search" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarSearch()
-//   lucide.CalendarSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarSearch()
+//	lucide.CalendarSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7502,11 +8034,13 @@ func CalendarSearch(opts ...Options) template.HTML {
 // CalendarSync renders the "calendar-sync" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-sync" }}
+//
+//	{{ lucide "calendar-sync" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarSync()
-//   lucide.CalendarSync(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarSync()
+//	lucide.CalendarSync(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarSync(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7524,11 +8058,13 @@ func CalendarSync(opts ...Options) template.HTML {
 // CalendarX renders the "calendar-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-x" }}
+//
+//	{{ lucide "calendar-x" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarX()
-//   lucide.CalendarX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarX()
+//	lucide.CalendarX(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7546,11 +8082,13 @@ func CalendarX(opts ...Options) template.HTML {
 // CalendarX2 renders the "calendar-x-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "calendar-x-2" }}
+//
+//	{{ lucide "calendar-x-2" }}
 //
 // Direct usage in Go:
-//   lucide.CalendarX2()
-//   lucide.CalendarX2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CalendarX2()
+//	lucide.CalendarX2(lucide.Options{Size: 32, Class: "my-icon"})
 func CalendarX2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7568,11 +8106,13 @@ func CalendarX2(opts ...Options) template.HTML {
 // Camera renders the "camera" icon.
 //
 // Usage in templates:
-//   {{ lucide "camera" }}
+//
+//	{{ lucide "camera" }}
 //
 // Direct usage in Go:
-//   lucide.Camera()
-//   lucide.Camera(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Camera()
+//	lucide.Camera(lucide.Options{Size: 32, Class: "my-icon"})
 func Camera(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7590,11 +8130,13 @@ func Camera(opts ...Options) template.HTML {
 // CameraOff renders the "camera-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "camera-off" }}
+//
+//	{{ lucide "camera-off" }}
 //
 // Direct usage in Go:
-//   lucide.CameraOff()
-//   lucide.CameraOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CameraOff()
+//	lucide.CameraOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CameraOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7612,11 +8154,13 @@ func CameraOff(opts ...Options) template.HTML {
 // Candy renders the "candy" icon.
 //
 // Usage in templates:
-//   {{ lucide "candy" }}
+//
+//	{{ lucide "candy" }}
 //
 // Direct usage in Go:
-//   lucide.Candy()
-//   lucide.Candy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Candy()
+//	lucide.Candy(lucide.Options{Size: 32, Class: "my-icon"})
 func Candy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7634,11 +8178,13 @@ func Candy(opts ...Options) template.HTML {
 // CandyCane renders the "candy-cane" icon.
 //
 // Usage in templates:
-//   {{ lucide "candy-cane" }}
+//
+//	{{ lucide "candy-cane" }}
 //
 // Direct usage in Go:
-//   lucide.CandyCane()
-//   lucide.CandyCane(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CandyCane()
+//	lucide.CandyCane(lucide.Options{Size: 32, Class: "my-icon"})
 func CandyCane(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7656,11 +8202,13 @@ func CandyCane(opts ...Options) template.HTML {
 // CandyOff renders the "candy-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "candy-off" }}
+//
+//	{{ lucide "candy-off" }}
 //
 // Direct usage in Go:
-//   lucide.CandyOff()
-//   lucide.CandyOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CandyOff()
+//	lucide.CandyOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CandyOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7678,11 +8226,13 @@ func CandyOff(opts ...Options) template.HTML {
 // Cannabis renders the "cannabis" icon.
 //
 // Usage in templates:
-//   {{ lucide "cannabis" }}
+//
+//	{{ lucide "cannabis" }}
 //
 // Direct usage in Go:
-//   lucide.Cannabis()
-//   lucide.Cannabis(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cannabis()
+//	lucide.Cannabis(lucide.Options{Size: 32, Class: "my-icon"})
 func Cannabis(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7700,11 +8250,13 @@ func Cannabis(opts ...Options) template.HTML {
 // Captions renders the "captions" icon.
 //
 // Usage in templates:
-//   {{ lucide "captions" }}
+//
+//	{{ lucide "captions" }}
 //
 // Direct usage in Go:
-//   lucide.Captions()
-//   lucide.Captions(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Captions()
+//	lucide.Captions(lucide.Options{Size: 32, Class: "my-icon"})
 func Captions(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7722,11 +8274,13 @@ func Captions(opts ...Options) template.HTML {
 // CaptionsOff renders the "captions-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "captions-off" }}
+//
+//	{{ lucide "captions-off" }}
 //
 // Direct usage in Go:
-//   lucide.CaptionsOff()
-//   lucide.CaptionsOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CaptionsOff()
+//	lucide.CaptionsOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CaptionsOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7744,11 +8298,13 @@ func CaptionsOff(opts ...Options) template.HTML {
 // Car renders the "car" icon.
 //
 // Usage in templates:
-//   {{ lucide "car" }}
+//
+//	{{ lucide "car" }}
 //
 // Direct usage in Go:
-//   lucide.Car()
-//   lucide.Car(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Car()
+//	lucide.Car(lucide.Options{Size: 32, Class: "my-icon"})
 func Car(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7766,11 +8322,13 @@ func Car(opts ...Options) template.HTML {
 // CarFront renders the "car-front" icon.
 //
 // Usage in templates:
-//   {{ lucide "car-front" }}
+//
+//	{{ lucide "car-front" }}
 //
 // Direct usage in Go:
-//   lucide.CarFront()
-//   lucide.CarFront(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CarFront()
+//	lucide.CarFront(lucide.Options{Size: 32, Class: "my-icon"})
 func CarFront(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7788,11 +8346,13 @@ func CarFront(opts ...Options) template.HTML {
 // CarTaxiFront renders the "car-taxi-front" icon.
 //
 // Usage in templates:
-//   {{ lucide "car-taxi-front" }}
+//
+//	{{ lucide "car-taxi-front" }}
 //
 // Direct usage in Go:
-//   lucide.CarTaxiFront()
-//   lucide.CarTaxiFront(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CarTaxiFront()
+//	lucide.CarTaxiFront(lucide.Options{Size: 32, Class: "my-icon"})
 func CarTaxiFront(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7810,11 +8370,13 @@ func CarTaxiFront(opts ...Options) template.HTML {
 // Caravan renders the "caravan" icon.
 //
 // Usage in templates:
-//   {{ lucide "caravan" }}
+//
+//	{{ lucide "caravan" }}
 //
 // Direct usage in Go:
-//   lucide.Caravan()
-//   lucide.Caravan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Caravan()
+//	lucide.Caravan(lucide.Options{Size: 32, Class: "my-icon"})
 func Caravan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7832,11 +8394,13 @@ func Caravan(opts ...Options) template.HTML {
 // CardSim renders the "card-sim" icon.
 //
 // Usage in templates:
-//   {{ lucide "card-sim" }}
+//
+//	{{ lucide "card-sim" }}
 //
 // Direct usage in Go:
-//   lucide.CardSim()
-//   lucide.CardSim(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CardSim()
+//	lucide.CardSim(lucide.Options{Size: 32, Class: "my-icon"})
 func CardSim(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7854,11 +8418,13 @@ func CardSim(opts ...Options) template.HTML {
 // Carrot renders the "carrot" icon.
 //
 // Usage in templates:
-//   {{ lucide "carrot" }}
+//
+//	{{ lucide "carrot" }}
 //
 // Direct usage in Go:
-//   lucide.Carrot()
-//   lucide.Carrot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Carrot()
+//	lucide.Carrot(lucide.Options{Size: 32, Class: "my-icon"})
 func Carrot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7876,11 +8442,13 @@ func Carrot(opts ...Options) template.HTML {
 // CaseLower renders the "case-lower" icon.
 //
 // Usage in templates:
-//   {{ lucide "case-lower" }}
+//
+//	{{ lucide "case-lower" }}
 //
 // Direct usage in Go:
-//   lucide.CaseLower()
-//   lucide.CaseLower(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CaseLower()
+//	lucide.CaseLower(lucide.Options{Size: 32, Class: "my-icon"})
 func CaseLower(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7898,11 +8466,13 @@ func CaseLower(opts ...Options) template.HTML {
 // CaseSensitive renders the "case-sensitive" icon.
 //
 // Usage in templates:
-//   {{ lucide "case-sensitive" }}
+//
+//	{{ lucide "case-sensitive" }}
 //
 // Direct usage in Go:
-//   lucide.CaseSensitive()
-//   lucide.CaseSensitive(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CaseSensitive()
+//	lucide.CaseSensitive(lucide.Options{Size: 32, Class: "my-icon"})
 func CaseSensitive(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7920,11 +8490,13 @@ func CaseSensitive(opts ...Options) template.HTML {
 // CaseUpper renders the "case-upper" icon.
 //
 // Usage in templates:
-//   {{ lucide "case-upper" }}
+//
+//	{{ lucide "case-upper" }}
 //
 // Direct usage in Go:
-//   lucide.CaseUpper()
-//   lucide.CaseUpper(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CaseUpper()
+//	lucide.CaseUpper(lucide.Options{Size: 32, Class: "my-icon"})
 func CaseUpper(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7942,11 +8514,13 @@ func CaseUpper(opts ...Options) template.HTML {
 // CassetteTape renders the "cassette-tape" icon.
 //
 // Usage in templates:
-//   {{ lucide "cassette-tape" }}
+//
+//	{{ lucide "cassette-tape" }}
 //
 // Direct usage in Go:
-//   lucide.CassetteTape()
-//   lucide.CassetteTape(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CassetteTape()
+//	lucide.CassetteTape(lucide.Options{Size: 32, Class: "my-icon"})
 func CassetteTape(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7964,11 +8538,13 @@ func CassetteTape(opts ...Options) template.HTML {
 // Cast renders the "cast" icon.
 //
 // Usage in templates:
-//   {{ lucide "cast" }}
+//
+//	{{ lucide "cast" }}
 //
 // Direct usage in Go:
-//   lucide.Cast()
-//   lucide.Cast(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cast()
+//	lucide.Cast(lucide.Options{Size: 32, Class: "my-icon"})
 func Cast(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -7986,11 +8562,13 @@ func Cast(opts ...Options) template.HTML {
 // Castle renders the "castle" icon.
 //
 // Usage in templates:
-//   {{ lucide "castle" }}
+//
+//	{{ lucide "castle" }}
 //
 // Direct usage in Go:
-//   lucide.Castle()
-//   lucide.Castle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Castle()
+//	lucide.Castle(lucide.Options{Size: 32, Class: "my-icon"})
 func Castle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8008,11 +8586,13 @@ func Castle(opts ...Options) template.HTML {
 // Cat renders the "cat" icon.
 //
 // Usage in templates:
-//   {{ lucide "cat" }}
+//
+//	{{ lucide "cat" }}
 //
 // Direct usage in Go:
-//   lucide.Cat()
-//   lucide.Cat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cat()
+//	lucide.Cat(lucide.Options{Size: 32, Class: "my-icon"})
 func Cat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8030,11 +8610,13 @@ func Cat(opts ...Options) template.HTML {
 // Cctv renders the "cctv" icon.
 //
 // Usage in templates:
-//   {{ lucide "cctv" }}
+//
+//	{{ lucide "cctv" }}
 //
 // Direct usage in Go:
-//   lucide.Cctv()
-//   lucide.Cctv(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cctv()
+//	lucide.Cctv(lucide.Options{Size: 32, Class: "my-icon"})
 func Cctv(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8052,11 +8634,13 @@ func Cctv(opts ...Options) template.HTML {
 // ChartArea renders the "chart-area" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-area" }}
+//
+//	{{ lucide "chart-area" }}
 //
 // Direct usage in Go:
-//   lucide.ChartArea()
-//   lucide.ChartArea(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartArea()
+//	lucide.ChartArea(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartArea(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8074,11 +8658,13 @@ func ChartArea(opts ...Options) template.HTML {
 // ChartBar renders the "chart-bar" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-bar" }}
+//
+//	{{ lucide "chart-bar" }}
 //
 // Direct usage in Go:
-//   lucide.ChartBar()
-//   lucide.ChartBar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartBar()
+//	lucide.ChartBar(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartBar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8096,11 +8682,13 @@ func ChartBar(opts ...Options) template.HTML {
 // ChartBarBig renders the "chart-bar-big" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-bar-big" }}
+//
+//	{{ lucide "chart-bar-big" }}
 //
 // Direct usage in Go:
-//   lucide.ChartBarBig()
-//   lucide.ChartBarBig(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartBarBig()
+//	lucide.ChartBarBig(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartBarBig(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8118,11 +8706,13 @@ func ChartBarBig(opts ...Options) template.HTML {
 // ChartBarDecreasing renders the "chart-bar-decreasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-bar-decreasing" }}
+//
+//	{{ lucide "chart-bar-decreasing" }}
 //
 // Direct usage in Go:
-//   lucide.ChartBarDecreasing()
-//   lucide.ChartBarDecreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartBarDecreasing()
+//	lucide.ChartBarDecreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartBarDecreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8140,11 +8730,13 @@ func ChartBarDecreasing(opts ...Options) template.HTML {
 // ChartBarIncreasing renders the "chart-bar-increasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-bar-increasing" }}
+//
+//	{{ lucide "chart-bar-increasing" }}
 //
 // Direct usage in Go:
-//   lucide.ChartBarIncreasing()
-//   lucide.ChartBarIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartBarIncreasing()
+//	lucide.ChartBarIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartBarIncreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8162,11 +8754,13 @@ func ChartBarIncreasing(opts ...Options) template.HTML {
 // ChartBarStacked renders the "chart-bar-stacked" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-bar-stacked" }}
+//
+//	{{ lucide "chart-bar-stacked" }}
 //
 // Direct usage in Go:
-//   lucide.ChartBarStacked()
-//   lucide.ChartBarStacked(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartBarStacked()
+//	lucide.ChartBarStacked(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartBarStacked(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8184,11 +8778,13 @@ func ChartBarStacked(opts ...Options) template.HTML {
 // ChartCandlestick renders the "chart-candlestick" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-candlestick" }}
+//
+//	{{ lucide "chart-candlestick" }}
 //
 // Direct usage in Go:
-//   lucide.ChartCandlestick()
-//   lucide.ChartCandlestick(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartCandlestick()
+//	lucide.ChartCandlestick(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartCandlestick(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8206,11 +8802,13 @@ func ChartCandlestick(opts ...Options) template.HTML {
 // ChartColumn renders the "chart-column" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-column" }}
+//
+//	{{ lucide "chart-column" }}
 //
 // Direct usage in Go:
-//   lucide.ChartColumn()
-//   lucide.ChartColumn(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartColumn()
+//	lucide.ChartColumn(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartColumn(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8228,11 +8826,13 @@ func ChartColumn(opts ...Options) template.HTML {
 // ChartColumnBig renders the "chart-column-big" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-column-big" }}
+//
+//	{{ lucide "chart-column-big" }}
 //
 // Direct usage in Go:
-//   lucide.ChartColumnBig()
-//   lucide.ChartColumnBig(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartColumnBig()
+//	lucide.ChartColumnBig(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartColumnBig(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8250,11 +8850,13 @@ func ChartColumnBig(opts ...Options) template.HTML {
 // ChartColumnDecreasing renders the "chart-column-decreasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-column-decreasing" }}
+//
+//	{{ lucide "chart-column-decreasing" }}
 //
 // Direct usage in Go:
-//   lucide.ChartColumnDecreasing()
-//   lucide.ChartColumnDecreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartColumnDecreasing()
+//	lucide.ChartColumnDecreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartColumnDecreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8272,11 +8874,13 @@ func ChartColumnDecreasing(opts ...Options) template.HTML {
 // ChartColumnIncreasing renders the "chart-column-increasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-column-increasing" }}
+//
+//	{{ lucide "chart-column-increasing" }}
 //
 // Direct usage in Go:
-//   lucide.ChartColumnIncreasing()
-//   lucide.ChartColumnIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartColumnIncreasing()
+//	lucide.ChartColumnIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartColumnIncreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8294,11 +8898,13 @@ func ChartColumnIncreasing(opts ...Options) template.HTML {
 // ChartColumnStacked renders the "chart-column-stacked" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-column-stacked" }}
+//
+//	{{ lucide "chart-column-stacked" }}
 //
 // Direct usage in Go:
-//   lucide.ChartColumnStacked()
-//   lucide.ChartColumnStacked(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartColumnStacked()
+//	lucide.ChartColumnStacked(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartColumnStacked(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8316,11 +8922,13 @@ func ChartColumnStacked(opts ...Options) template.HTML {
 // ChartGantt renders the "chart-gantt" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-gantt" }}
+//
+//	{{ lucide "chart-gantt" }}
 //
 // Direct usage in Go:
-//   lucide.ChartGantt()
-//   lucide.ChartGantt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartGantt()
+//	lucide.ChartGantt(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartGantt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8338,11 +8946,13 @@ func ChartGantt(opts ...Options) template.HTML {
 // ChartLine renders the "chart-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-line" }}
+//
+//	{{ lucide "chart-line" }}
 //
 // Direct usage in Go:
-//   lucide.ChartLine()
-//   lucide.ChartLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartLine()
+//	lucide.ChartLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8360,11 +8970,13 @@ func ChartLine(opts ...Options) template.HTML {
 // ChartNetwork renders the "chart-network" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-network" }}
+//
+//	{{ lucide "chart-network" }}
 //
 // Direct usage in Go:
-//   lucide.ChartNetwork()
-//   lucide.ChartNetwork(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartNetwork()
+//	lucide.ChartNetwork(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartNetwork(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8382,11 +8994,13 @@ func ChartNetwork(opts ...Options) template.HTML {
 // ChartNoAxesColumn renders the "chart-no-axes-column" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-no-axes-column" }}
+//
+//	{{ lucide "chart-no-axes-column" }}
 //
 // Direct usage in Go:
-//   lucide.ChartNoAxesColumn()
-//   lucide.ChartNoAxesColumn(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartNoAxesColumn()
+//	lucide.ChartNoAxesColumn(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartNoAxesColumn(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8404,11 +9018,13 @@ func ChartNoAxesColumn(opts ...Options) template.HTML {
 // ChartNoAxesColumnDecreasing renders the "chart-no-axes-column-decreasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-no-axes-column-decreasing" }}
+//
+//	{{ lucide "chart-no-axes-column-decreasing" }}
 //
 // Direct usage in Go:
-//   lucide.ChartNoAxesColumnDecreasing()
-//   lucide.ChartNoAxesColumnDecreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartNoAxesColumnDecreasing()
+//	lucide.ChartNoAxesColumnDecreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartNoAxesColumnDecreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8426,11 +9042,13 @@ func ChartNoAxesColumnDecreasing(opts ...Options) template.HTML {
 // ChartNoAxesColumnIncreasing renders the "chart-no-axes-column-increasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-no-axes-column-increasing" }}
+//
+//	{{ lucide "chart-no-axes-column-increasing" }}
 //
 // Direct usage in Go:
-//   lucide.ChartNoAxesColumnIncreasing()
-//   lucide.ChartNoAxesColumnIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartNoAxesColumnIncreasing()
+//	lucide.ChartNoAxesColumnIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartNoAxesColumnIncreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8448,11 +9066,13 @@ func ChartNoAxesColumnIncreasing(opts ...Options) template.HTML {
 // ChartNoAxesCombined renders the "chart-no-axes-combined" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-no-axes-combined" }}
+//
+//	{{ lucide "chart-no-axes-combined" }}
 //
 // Direct usage in Go:
-//   lucide.ChartNoAxesCombined()
-//   lucide.ChartNoAxesCombined(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartNoAxesCombined()
+//	lucide.ChartNoAxesCombined(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartNoAxesCombined(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8470,11 +9090,13 @@ func ChartNoAxesCombined(opts ...Options) template.HTML {
 // ChartNoAxesGantt renders the "chart-no-axes-gantt" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-no-axes-gantt" }}
+//
+//	{{ lucide "chart-no-axes-gantt" }}
 //
 // Direct usage in Go:
-//   lucide.ChartNoAxesGantt()
-//   lucide.ChartNoAxesGantt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartNoAxesGantt()
+//	lucide.ChartNoAxesGantt(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartNoAxesGantt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8492,11 +9114,13 @@ func ChartNoAxesGantt(opts ...Options) template.HTML {
 // ChartPie renders the "chart-pie" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-pie" }}
+//
+//	{{ lucide "chart-pie" }}
 //
 // Direct usage in Go:
-//   lucide.ChartPie()
-//   lucide.ChartPie(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartPie()
+//	lucide.ChartPie(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartPie(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8514,11 +9138,13 @@ func ChartPie(opts ...Options) template.HTML {
 // ChartScatter renders the "chart-scatter" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-scatter" }}
+//
+//	{{ lucide "chart-scatter" }}
 //
 // Direct usage in Go:
-//   lucide.ChartScatter()
-//   lucide.ChartScatter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartScatter()
+//	lucide.ChartScatter(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartScatter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8536,11 +9162,13 @@ func ChartScatter(opts ...Options) template.HTML {
 // ChartSpline renders the "chart-spline" icon.
 //
 // Usage in templates:
-//   {{ lucide "chart-spline" }}
+//
+//	{{ lucide "chart-spline" }}
 //
 // Direct usage in Go:
-//   lucide.ChartSpline()
-//   lucide.ChartSpline(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChartSpline()
+//	lucide.ChartSpline(lucide.Options{Size: 32, Class: "my-icon"})
 func ChartSpline(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8558,11 +9186,13 @@ func ChartSpline(opts ...Options) template.HTML {
 // Check renders the "check" icon.
 //
 // Usage in templates:
-//   {{ lucide "check" }}
+//
+//	{{ lucide "check" }}
 //
 // Direct usage in Go:
-//   lucide.Check()
-//   lucide.Check(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Check()
+//	lucide.Check(lucide.Options{Size: 32, Class: "my-icon"})
 func Check(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8580,11 +9210,13 @@ func Check(opts ...Options) template.HTML {
 // CheckCheck renders the "check-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "check-check" }}
+//
+//	{{ lucide "check-check" }}
 //
 // Direct usage in Go:
-//   lucide.CheckCheck()
-//   lucide.CheckCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CheckCheck()
+//	lucide.CheckCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func CheckCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8602,11 +9234,13 @@ func CheckCheck(opts ...Options) template.HTML {
 // CheckLine renders the "check-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "check-line" }}
+//
+//	{{ lucide "check-line" }}
 //
 // Direct usage in Go:
-//   lucide.CheckLine()
-//   lucide.CheckLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CheckLine()
+//	lucide.CheckLine(lucide.Options{Size: 32, Class: "my-icon"})
 func CheckLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8624,11 +9258,13 @@ func CheckLine(opts ...Options) template.HTML {
 // ChefHat renders the "chef-hat" icon.
 //
 // Usage in templates:
-//   {{ lucide "chef-hat" }}
+//
+//	{{ lucide "chef-hat" }}
 //
 // Direct usage in Go:
-//   lucide.ChefHat()
-//   lucide.ChefHat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChefHat()
+//	lucide.ChefHat(lucide.Options{Size: 32, Class: "my-icon"})
 func ChefHat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8646,11 +9282,13 @@ func ChefHat(opts ...Options) template.HTML {
 // Cherry renders the "cherry" icon.
 //
 // Usage in templates:
-//   {{ lucide "cherry" }}
+//
+//	{{ lucide "cherry" }}
 //
 // Direct usage in Go:
-//   lucide.Cherry()
-//   lucide.Cherry(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cherry()
+//	lucide.Cherry(lucide.Options{Size: 32, Class: "my-icon"})
 func Cherry(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8668,11 +9306,13 @@ func Cherry(opts ...Options) template.HTML {
 // ChevronDown renders the "chevron-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevron-down" }}
+//
+//	{{ lucide "chevron-down" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronDown()
-//   lucide.ChevronDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronDown()
+//	lucide.ChevronDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8690,11 +9330,13 @@ func ChevronDown(opts ...Options) template.HTML {
 // ChevronFirst renders the "chevron-first" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevron-first" }}
+//
+//	{{ lucide "chevron-first" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronFirst()
-//   lucide.ChevronFirst(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronFirst()
+//	lucide.ChevronFirst(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronFirst(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8712,11 +9354,13 @@ func ChevronFirst(opts ...Options) template.HTML {
 // ChevronLast renders the "chevron-last" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevron-last" }}
+//
+//	{{ lucide "chevron-last" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronLast()
-//   lucide.ChevronLast(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronLast()
+//	lucide.ChevronLast(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronLast(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8734,11 +9378,13 @@ func ChevronLast(opts ...Options) template.HTML {
 // ChevronLeft renders the "chevron-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevron-left" }}
+//
+//	{{ lucide "chevron-left" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronLeft()
-//   lucide.ChevronLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronLeft()
+//	lucide.ChevronLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8756,11 +9402,13 @@ func ChevronLeft(opts ...Options) template.HTML {
 // ChevronRight renders the "chevron-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevron-right" }}
+//
+//	{{ lucide "chevron-right" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronRight()
-//   lucide.ChevronRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronRight()
+//	lucide.ChevronRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8778,11 +9426,13 @@ func ChevronRight(opts ...Options) template.HTML {
 // ChevronUp renders the "chevron-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevron-up" }}
+//
+//	{{ lucide "chevron-up" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronUp()
-//   lucide.ChevronUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronUp()
+//	lucide.ChevronUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8800,11 +9450,13 @@ func ChevronUp(opts ...Options) template.HTML {
 // ChevronsDown renders the "chevrons-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-down" }}
+//
+//	{{ lucide "chevrons-down" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsDown()
-//   lucide.ChevronsDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsDown()
+//	lucide.ChevronsDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8822,11 +9474,13 @@ func ChevronsDown(opts ...Options) template.HTML {
 // ChevronsDownUp renders the "chevrons-down-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-down-up" }}
+//
+//	{{ lucide "chevrons-down-up" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsDownUp()
-//   lucide.ChevronsDownUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsDownUp()
+//	lucide.ChevronsDownUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsDownUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8844,11 +9498,13 @@ func ChevronsDownUp(opts ...Options) template.HTML {
 // ChevronsLeft renders the "chevrons-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-left" }}
+//
+//	{{ lucide "chevrons-left" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsLeft()
-//   lucide.ChevronsLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsLeft()
+//	lucide.ChevronsLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8866,11 +9522,13 @@ func ChevronsLeft(opts ...Options) template.HTML {
 // ChevronsLeftRight renders the "chevrons-left-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-left-right" }}
+//
+//	{{ lucide "chevrons-left-right" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsLeftRight()
-//   lucide.ChevronsLeftRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsLeftRight()
+//	lucide.ChevronsLeftRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsLeftRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8888,11 +9546,13 @@ func ChevronsLeftRight(opts ...Options) template.HTML {
 // ChevronsLeftRightEllipsis renders the "chevrons-left-right-ellipsis" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-left-right-ellipsis" }}
+//
+//	{{ lucide "chevrons-left-right-ellipsis" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsLeftRightEllipsis()
-//   lucide.ChevronsLeftRightEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsLeftRightEllipsis()
+//	lucide.ChevronsLeftRightEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsLeftRightEllipsis(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8910,11 +9570,13 @@ func ChevronsLeftRightEllipsis(opts ...Options) template.HTML {
 // ChevronsRight renders the "chevrons-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-right" }}
+//
+//	{{ lucide "chevrons-right" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsRight()
-//   lucide.ChevronsRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsRight()
+//	lucide.ChevronsRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8932,11 +9594,13 @@ func ChevronsRight(opts ...Options) template.HTML {
 // ChevronsRightLeft renders the "chevrons-right-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-right-left" }}
+//
+//	{{ lucide "chevrons-right-left" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsRightLeft()
-//   lucide.ChevronsRightLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsRightLeft()
+//	lucide.ChevronsRightLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsRightLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8954,11 +9618,13 @@ func ChevronsRightLeft(opts ...Options) template.HTML {
 // ChevronsUp renders the "chevrons-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-up" }}
+//
+//	{{ lucide "chevrons-up" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsUp()
-//   lucide.ChevronsUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsUp()
+//	lucide.ChevronsUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8976,11 +9642,13 @@ func ChevronsUp(opts ...Options) template.HTML {
 // ChevronsUpDown renders the "chevrons-up-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "chevrons-up-down" }}
+//
+//	{{ lucide "chevrons-up-down" }}
 //
 // Direct usage in Go:
-//   lucide.ChevronsUpDown()
-//   lucide.ChevronsUpDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ChevronsUpDown()
+//	lucide.ChevronsUpDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ChevronsUpDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -8998,11 +9666,13 @@ func ChevronsUpDown(opts ...Options) template.HTML {
 // Chromium renders the "chromium" icon.
 //
 // Usage in templates:
-//   {{ lucide "chromium" }}
+//
+//	{{ lucide "chromium" }}
 //
 // Direct usage in Go:
-//   lucide.Chromium()
-//   lucide.Chromium(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Chromium()
+//	lucide.Chromium(lucide.Options{Size: 32, Class: "my-icon"})
 func Chromium(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9020,11 +9690,13 @@ func Chromium(opts ...Options) template.HTML {
 // Church renders the "church" icon.
 //
 // Usage in templates:
-//   {{ lucide "church" }}
+//
+//	{{ lucide "church" }}
 //
 // Direct usage in Go:
-//   lucide.Church()
-//   lucide.Church(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Church()
+//	lucide.Church(lucide.Options{Size: 32, Class: "my-icon"})
 func Church(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9042,11 +9714,13 @@ func Church(opts ...Options) template.HTML {
 // Cigarette renders the "cigarette" icon.
 //
 // Usage in templates:
-//   {{ lucide "cigarette" }}
+//
+//	{{ lucide "cigarette" }}
 //
 // Direct usage in Go:
-//   lucide.Cigarette()
-//   lucide.Cigarette(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cigarette()
+//	lucide.Cigarette(lucide.Options{Size: 32, Class: "my-icon"})
 func Cigarette(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9064,11 +9738,13 @@ func Cigarette(opts ...Options) template.HTML {
 // CigaretteOff renders the "cigarette-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "cigarette-off" }}
+//
+//	{{ lucide "cigarette-off" }}
 //
 // Direct usage in Go:
-//   lucide.CigaretteOff()
-//   lucide.CigaretteOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CigaretteOff()
+//	lucide.CigaretteOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CigaretteOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9086,11 +9762,13 @@ func CigaretteOff(opts ...Options) template.HTML {
 // Circle renders the "circle" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle" }}
+//
+//	{{ lucide "circle" }}
 //
 // Direct usage in Go:
-//   lucide.Circle()
-//   lucide.Circle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Circle()
+//	lucide.Circle(lucide.Options{Size: 32, Class: "my-icon"})
 func Circle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9108,11 +9786,13 @@ func Circle(opts ...Options) template.HTML {
 // CircleAlert renders the "circle-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-alert" }}
+//
+//	{{ lucide "circle-alert" }}
 //
 // Direct usage in Go:
-//   lucide.CircleAlert()
-//   lucide.CircleAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleAlert()
+//	lucide.CircleAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9130,11 +9810,13 @@ func CircleAlert(opts ...Options) template.HTML {
 // CircleArrowDown renders the "circle-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-down" }}
+//
+//	{{ lucide "circle-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowDown()
-//   lucide.CircleArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowDown()
+//	lucide.CircleArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9152,11 +9834,13 @@ func CircleArrowDown(opts ...Options) template.HTML {
 // CircleArrowLeft renders the "circle-arrow-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-left" }}
+//
+//	{{ lucide "circle-arrow-left" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowLeft()
-//   lucide.CircleArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowLeft()
+//	lucide.CircleArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9174,11 +9858,13 @@ func CircleArrowLeft(opts ...Options) template.HTML {
 // CircleArrowOutDownLeft renders the "circle-arrow-out-down-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-out-down-left" }}
+//
+//	{{ lucide "circle-arrow-out-down-left" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowOutDownLeft()
-//   lucide.CircleArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowOutDownLeft()
+//	lucide.CircleArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowOutDownLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9196,11 +9882,13 @@ func CircleArrowOutDownLeft(opts ...Options) template.HTML {
 // CircleArrowOutDownRight renders the "circle-arrow-out-down-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-out-down-right" }}
+//
+//	{{ lucide "circle-arrow-out-down-right" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowOutDownRight()
-//   lucide.CircleArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowOutDownRight()
+//	lucide.CircleArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowOutDownRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9218,11 +9906,13 @@ func CircleArrowOutDownRight(opts ...Options) template.HTML {
 // CircleArrowOutUpLeft renders the "circle-arrow-out-up-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-out-up-left" }}
+//
+//	{{ lucide "circle-arrow-out-up-left" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowOutUpLeft()
-//   lucide.CircleArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowOutUpLeft()
+//	lucide.CircleArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowOutUpLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9240,11 +9930,13 @@ func CircleArrowOutUpLeft(opts ...Options) template.HTML {
 // CircleArrowOutUpRight renders the "circle-arrow-out-up-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-out-up-right" }}
+//
+//	{{ lucide "circle-arrow-out-up-right" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowOutUpRight()
-//   lucide.CircleArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowOutUpRight()
+//	lucide.CircleArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowOutUpRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9262,11 +9954,13 @@ func CircleArrowOutUpRight(opts ...Options) template.HTML {
 // CircleArrowRight renders the "circle-arrow-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-right" }}
+//
+//	{{ lucide "circle-arrow-right" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowRight()
-//   lucide.CircleArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowRight()
+//	lucide.CircleArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9284,11 +9978,13 @@ func CircleArrowRight(opts ...Options) template.HTML {
 // CircleArrowUp renders the "circle-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-arrow-up" }}
+//
+//	{{ lucide "circle-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.CircleArrowUp()
-//   lucide.CircleArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleArrowUp()
+//	lucide.CircleArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9306,11 +10002,13 @@ func CircleArrowUp(opts ...Options) template.HTML {
 // CircleCheck renders the "circle-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-check" }}
+//
+//	{{ lucide "circle-check" }}
 //
 // Direct usage in Go:
-//   lucide.CircleCheck()
-//   lucide.CircleCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleCheck()
+//	lucide.CircleCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9328,11 +10026,13 @@ func CircleCheck(opts ...Options) template.HTML {
 // CircleCheckBig renders the "circle-check-big" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-check-big" }}
+//
+//	{{ lucide "circle-check-big" }}
 //
 // Direct usage in Go:
-//   lucide.CircleCheckBig()
-//   lucide.CircleCheckBig(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleCheckBig()
+//	lucide.CircleCheckBig(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleCheckBig(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9350,11 +10050,13 @@ func CircleCheckBig(opts ...Options) template.HTML {
 // CircleChevronDown renders the "circle-chevron-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-chevron-down" }}
+//
+//	{{ lucide "circle-chevron-down" }}
 //
 // Direct usage in Go:
-//   lucide.CircleChevronDown()
-//   lucide.CircleChevronDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleChevronDown()
+//	lucide.CircleChevronDown(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleChevronDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9372,11 +10074,13 @@ func CircleChevronDown(opts ...Options) template.HTML {
 // CircleChevronLeft renders the "circle-chevron-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-chevron-left" }}
+//
+//	{{ lucide "circle-chevron-left" }}
 //
 // Direct usage in Go:
-//   lucide.CircleChevronLeft()
-//   lucide.CircleChevronLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleChevronLeft()
+//	lucide.CircleChevronLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleChevronLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9394,11 +10098,13 @@ func CircleChevronLeft(opts ...Options) template.HTML {
 // CircleChevronRight renders the "circle-chevron-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-chevron-right" }}
+//
+//	{{ lucide "circle-chevron-right" }}
 //
 // Direct usage in Go:
-//   lucide.CircleChevronRight()
-//   lucide.CircleChevronRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleChevronRight()
+//	lucide.CircleChevronRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleChevronRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9416,11 +10122,13 @@ func CircleChevronRight(opts ...Options) template.HTML {
 // CircleChevronUp renders the "circle-chevron-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-chevron-up" }}
+//
+//	{{ lucide "circle-chevron-up" }}
 //
 // Direct usage in Go:
-//   lucide.CircleChevronUp()
-//   lucide.CircleChevronUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleChevronUp()
+//	lucide.CircleChevronUp(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleChevronUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9438,11 +10146,13 @@ func CircleChevronUp(opts ...Options) template.HTML {
 // CircleDashed renders the "circle-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-dashed" }}
+//
+//	{{ lucide "circle-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.CircleDashed()
-//   lucide.CircleDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleDashed()
+//	lucide.CircleDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9460,11 +10170,13 @@ func CircleDashed(opts ...Options) template.HTML {
 // CircleDivide renders the "circle-divide" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-divide" }}
+//
+//	{{ lucide "circle-divide" }}
 //
 // Direct usage in Go:
-//   lucide.CircleDivide()
-//   lucide.CircleDivide(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleDivide()
+//	lucide.CircleDivide(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleDivide(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9482,11 +10194,13 @@ func CircleDivide(opts ...Options) template.HTML {
 // CircleDollarSign renders the "circle-dollar-sign" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-dollar-sign" }}
+//
+//	{{ lucide "circle-dollar-sign" }}
 //
 // Direct usage in Go:
-//   lucide.CircleDollarSign()
-//   lucide.CircleDollarSign(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleDollarSign()
+//	lucide.CircleDollarSign(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleDollarSign(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9504,11 +10218,13 @@ func CircleDollarSign(opts ...Options) template.HTML {
 // CircleDot renders the "circle-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-dot" }}
+//
+//	{{ lucide "circle-dot" }}
 //
 // Direct usage in Go:
-//   lucide.CircleDot()
-//   lucide.CircleDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleDot()
+//	lucide.CircleDot(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9526,11 +10242,13 @@ func CircleDot(opts ...Options) template.HTML {
 // CircleDotDashed renders the "circle-dot-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-dot-dashed" }}
+//
+//	{{ lucide "circle-dot-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.CircleDotDashed()
-//   lucide.CircleDotDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleDotDashed()
+//	lucide.CircleDotDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleDotDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9548,11 +10266,13 @@ func CircleDotDashed(opts ...Options) template.HTML {
 // CircleEllipsis renders the "circle-ellipsis" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-ellipsis" }}
+//
+//	{{ lucide "circle-ellipsis" }}
 //
 // Direct usage in Go:
-//   lucide.CircleEllipsis()
-//   lucide.CircleEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleEllipsis()
+//	lucide.CircleEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleEllipsis(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9570,11 +10290,13 @@ func CircleEllipsis(opts ...Options) template.HTML {
 // CircleEqual renders the "circle-equal" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-equal" }}
+//
+//	{{ lucide "circle-equal" }}
 //
 // Direct usage in Go:
-//   lucide.CircleEqual()
-//   lucide.CircleEqual(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleEqual()
+//	lucide.CircleEqual(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleEqual(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9592,11 +10314,13 @@ func CircleEqual(opts ...Options) template.HTML {
 // CircleFadingArrowUp renders the "circle-fading-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-fading-arrow-up" }}
+//
+//	{{ lucide "circle-fading-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.CircleFadingArrowUp()
-//   lucide.CircleFadingArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleFadingArrowUp()
+//	lucide.CircleFadingArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleFadingArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9614,11 +10338,13 @@ func CircleFadingArrowUp(opts ...Options) template.HTML {
 // CircleFadingPlus renders the "circle-fading-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-fading-plus" }}
+//
+//	{{ lucide "circle-fading-plus" }}
 //
 // Direct usage in Go:
-//   lucide.CircleFadingPlus()
-//   lucide.CircleFadingPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleFadingPlus()
+//	lucide.CircleFadingPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleFadingPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9636,11 +10362,13 @@ func CircleFadingPlus(opts ...Options) template.HTML {
 // CircleGauge renders the "circle-gauge" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-gauge" }}
+//
+//	{{ lucide "circle-gauge" }}
 //
 // Direct usage in Go:
-//   lucide.CircleGauge()
-//   lucide.CircleGauge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleGauge()
+//	lucide.CircleGauge(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleGauge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9658,11 +10386,13 @@ func CircleGauge(opts ...Options) template.HTML {
 // CircleMinus renders the "circle-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-minus" }}
+//
+//	{{ lucide "circle-minus" }}
 //
 // Direct usage in Go:
-//   lucide.CircleMinus()
-//   lucide.CircleMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleMinus()
+//	lucide.CircleMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9680,11 +10410,13 @@ func CircleMinus(opts ...Options) template.HTML {
 // CircleOff renders the "circle-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-off" }}
+//
+//	{{ lucide "circle-off" }}
 //
 // Direct usage in Go:
-//   lucide.CircleOff()
-//   lucide.CircleOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleOff()
+//	lucide.CircleOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9702,11 +10434,13 @@ func CircleOff(opts ...Options) template.HTML {
 // CircleParking renders the "circle-parking" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-parking" }}
+//
+//	{{ lucide "circle-parking" }}
 //
 // Direct usage in Go:
-//   lucide.CircleParking()
-//   lucide.CircleParking(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleParking()
+//	lucide.CircleParking(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleParking(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9724,11 +10458,13 @@ func CircleParking(opts ...Options) template.HTML {
 // CircleParkingOff renders the "circle-parking-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-parking-off" }}
+//
+//	{{ lucide "circle-parking-off" }}
 //
 // Direct usage in Go:
-//   lucide.CircleParkingOff()
-//   lucide.CircleParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleParkingOff()
+//	lucide.CircleParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleParkingOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9746,11 +10482,13 @@ func CircleParkingOff(opts ...Options) template.HTML {
 // CirclePause renders the "circle-pause" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-pause" }}
+//
+//	{{ lucide "circle-pause" }}
 //
 // Direct usage in Go:
-//   lucide.CirclePause()
-//   lucide.CirclePause(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CirclePause()
+//	lucide.CirclePause(lucide.Options{Size: 32, Class: "my-icon"})
 func CirclePause(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9768,11 +10506,13 @@ func CirclePause(opts ...Options) template.HTML {
 // CirclePercent renders the "circle-percent" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-percent" }}
+//
+//	{{ lucide "circle-percent" }}
 //
 // Direct usage in Go:
-//   lucide.CirclePercent()
-//   lucide.CirclePercent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CirclePercent()
+//	lucide.CirclePercent(lucide.Options{Size: 32, Class: "my-icon"})
 func CirclePercent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9790,11 +10530,13 @@ func CirclePercent(opts ...Options) template.HTML {
 // CirclePlay renders the "circle-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-play" }}
+//
+//	{{ lucide "circle-play" }}
 //
 // Direct usage in Go:
-//   lucide.CirclePlay()
-//   lucide.CirclePlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CirclePlay()
+//	lucide.CirclePlay(lucide.Options{Size: 32, Class: "my-icon"})
 func CirclePlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9812,11 +10554,13 @@ func CirclePlay(opts ...Options) template.HTML {
 // CirclePlus renders the "circle-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-plus" }}
+//
+//	{{ lucide "circle-plus" }}
 //
 // Direct usage in Go:
-//   lucide.CirclePlus()
-//   lucide.CirclePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CirclePlus()
+//	lucide.CirclePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func CirclePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9834,11 +10578,13 @@ func CirclePlus(opts ...Options) template.HTML {
 // CirclePoundSterling renders the "circle-pound-sterling" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-pound-sterling" }}
+//
+//	{{ lucide "circle-pound-sterling" }}
 //
 // Direct usage in Go:
-//   lucide.CirclePoundSterling()
-//   lucide.CirclePoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CirclePoundSterling()
+//	lucide.CirclePoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
 func CirclePoundSterling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9856,11 +10602,13 @@ func CirclePoundSterling(opts ...Options) template.HTML {
 // CirclePower renders the "circle-power" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-power" }}
+//
+//	{{ lucide "circle-power" }}
 //
 // Direct usage in Go:
-//   lucide.CirclePower()
-//   lucide.CirclePower(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CirclePower()
+//	lucide.CirclePower(lucide.Options{Size: 32, Class: "my-icon"})
 func CirclePower(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9878,11 +10626,13 @@ func CirclePower(opts ...Options) template.HTML {
 // CircleQuestionMark renders the "circle-question-mark" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-question-mark" }}
+//
+//	{{ lucide "circle-question-mark" }}
 //
 // Direct usage in Go:
-//   lucide.CircleQuestionMark()
-//   lucide.CircleQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleQuestionMark()
+//	lucide.CircleQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleQuestionMark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9900,11 +10650,13 @@ func CircleQuestionMark(opts ...Options) template.HTML {
 // CircleSlash renders the "circle-slash" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-slash" }}
+//
+//	{{ lucide "circle-slash" }}
 //
 // Direct usage in Go:
-//   lucide.CircleSlash()
-//   lucide.CircleSlash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleSlash()
+//	lucide.CircleSlash(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleSlash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9922,11 +10674,13 @@ func CircleSlash(opts ...Options) template.HTML {
 // CircleSlash2 renders the "circle-slash-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-slash-2" }}
+//
+//	{{ lucide "circle-slash-2" }}
 //
 // Direct usage in Go:
-//   lucide.CircleSlash2()
-//   lucide.CircleSlash2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleSlash2()
+//	lucide.CircleSlash2(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleSlash2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9944,11 +10698,13 @@ func CircleSlash2(opts ...Options) template.HTML {
 // CircleSmall renders the "circle-small" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-small" }}
+//
+//	{{ lucide "circle-small" }}
 //
 // Direct usage in Go:
-//   lucide.CircleSmall()
-//   lucide.CircleSmall(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleSmall()
+//	lucide.CircleSmall(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleSmall(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9966,11 +10722,13 @@ func CircleSmall(opts ...Options) template.HTML {
 // CircleStar renders the "circle-star" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-star" }}
+//
+//	{{ lucide "circle-star" }}
 //
 // Direct usage in Go:
-//   lucide.CircleStar()
-//   lucide.CircleStar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleStar()
+//	lucide.CircleStar(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleStar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -9988,11 +10746,13 @@ func CircleStar(opts ...Options) template.HTML {
 // CircleStop renders the "circle-stop" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-stop" }}
+//
+//	{{ lucide "circle-stop" }}
 //
 // Direct usage in Go:
-//   lucide.CircleStop()
-//   lucide.CircleStop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleStop()
+//	lucide.CircleStop(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleStop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10010,11 +10770,13 @@ func CircleStop(opts ...Options) template.HTML {
 // CircleUser renders the "circle-user" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-user" }}
+//
+//	{{ lucide "circle-user" }}
 //
 // Direct usage in Go:
-//   lucide.CircleUser()
-//   lucide.CircleUser(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleUser()
+//	lucide.CircleUser(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleUser(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10032,11 +10794,13 @@ func CircleUser(opts ...Options) template.HTML {
 // CircleUserRound renders the "circle-user-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-user-round" }}
+//
+//	{{ lucide "circle-user-round" }}
 //
 // Direct usage in Go:
-//   lucide.CircleUserRound()
-//   lucide.CircleUserRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleUserRound()
+//	lucide.CircleUserRound(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleUserRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10054,11 +10818,13 @@ func CircleUserRound(opts ...Options) template.HTML {
 // CircleX renders the "circle-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "circle-x" }}
+//
+//	{{ lucide "circle-x" }}
 //
 // Direct usage in Go:
-//   lucide.CircleX()
-//   lucide.CircleX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircleX()
+//	lucide.CircleX(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10076,11 +10842,13 @@ func CircleX(opts ...Options) template.HTML {
 // CircuitBoard renders the "circuit-board" icon.
 //
 // Usage in templates:
-//   {{ lucide "circuit-board" }}
+//
+//	{{ lucide "circuit-board" }}
 //
 // Direct usage in Go:
-//   lucide.CircuitBoard()
-//   lucide.CircuitBoard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CircuitBoard()
+//	lucide.CircuitBoard(lucide.Options{Size: 32, Class: "my-icon"})
 func CircuitBoard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10098,11 +10866,13 @@ func CircuitBoard(opts ...Options) template.HTML {
 // Citrus renders the "citrus" icon.
 //
 // Usage in templates:
-//   {{ lucide "citrus" }}
+//
+//	{{ lucide "citrus" }}
 //
 // Direct usage in Go:
-//   lucide.Citrus()
-//   lucide.Citrus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Citrus()
+//	lucide.Citrus(lucide.Options{Size: 32, Class: "my-icon"})
 func Citrus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10120,11 +10890,13 @@ func Citrus(opts ...Options) template.HTML {
 // Clapperboard renders the "clapperboard" icon.
 //
 // Usage in templates:
-//   {{ lucide "clapperboard" }}
+//
+//	{{ lucide "clapperboard" }}
 //
 // Direct usage in Go:
-//   lucide.Clapperboard()
-//   lucide.Clapperboard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clapperboard()
+//	lucide.Clapperboard(lucide.Options{Size: 32, Class: "my-icon"})
 func Clapperboard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10142,11 +10914,13 @@ func Clapperboard(opts ...Options) template.HTML {
 // Clipboard renders the "clipboard" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard" }}
+//
+//	{{ lucide "clipboard" }}
 //
 // Direct usage in Go:
-//   lucide.Clipboard()
-//   lucide.Clipboard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clipboard()
+//	lucide.Clipboard(lucide.Options{Size: 32, Class: "my-icon"})
 func Clipboard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10164,11 +10938,13 @@ func Clipboard(opts ...Options) template.HTML {
 // ClipboardCheck renders the "clipboard-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-check" }}
+//
+//	{{ lucide "clipboard-check" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardCheck()
-//   lucide.ClipboardCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardCheck()
+//	lucide.ClipboardCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10186,11 +10962,13 @@ func ClipboardCheck(opts ...Options) template.HTML {
 // ClipboardClock renders the "clipboard-clock" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-clock" }}
+//
+//	{{ lucide "clipboard-clock" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardClock()
-//   lucide.ClipboardClock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardClock()
+//	lucide.ClipboardClock(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardClock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10208,11 +10986,13 @@ func ClipboardClock(opts ...Options) template.HTML {
 // ClipboardCopy renders the "clipboard-copy" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-copy" }}
+//
+//	{{ lucide "clipboard-copy" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardCopy()
-//   lucide.ClipboardCopy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardCopy()
+//	lucide.ClipboardCopy(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardCopy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10230,11 +11010,13 @@ func ClipboardCopy(opts ...Options) template.HTML {
 // ClipboardList renders the "clipboard-list" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-list" }}
+//
+//	{{ lucide "clipboard-list" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardList()
-//   lucide.ClipboardList(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardList()
+//	lucide.ClipboardList(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardList(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10252,11 +11034,13 @@ func ClipboardList(opts ...Options) template.HTML {
 // ClipboardMinus renders the "clipboard-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-minus" }}
+//
+//	{{ lucide "clipboard-minus" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardMinus()
-//   lucide.ClipboardMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardMinus()
+//	lucide.ClipboardMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10274,11 +11058,13 @@ func ClipboardMinus(opts ...Options) template.HTML {
 // ClipboardPaste renders the "clipboard-paste" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-paste" }}
+//
+//	{{ lucide "clipboard-paste" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardPaste()
-//   lucide.ClipboardPaste(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardPaste()
+//	lucide.ClipboardPaste(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardPaste(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10296,11 +11082,13 @@ func ClipboardPaste(opts ...Options) template.HTML {
 // ClipboardPen renders the "clipboard-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-pen" }}
+//
+//	{{ lucide "clipboard-pen" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardPen()
-//   lucide.ClipboardPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardPen()
+//	lucide.ClipboardPen(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10318,11 +11106,13 @@ func ClipboardPen(opts ...Options) template.HTML {
 // ClipboardPenLine renders the "clipboard-pen-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-pen-line" }}
+//
+//	{{ lucide "clipboard-pen-line" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardPenLine()
-//   lucide.ClipboardPenLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardPenLine()
+//	lucide.ClipboardPenLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardPenLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10340,11 +11130,13 @@ func ClipboardPenLine(opts ...Options) template.HTML {
 // ClipboardPlus renders the "clipboard-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-plus" }}
+//
+//	{{ lucide "clipboard-plus" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardPlus()
-//   lucide.ClipboardPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardPlus()
+//	lucide.ClipboardPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10362,11 +11154,13 @@ func ClipboardPlus(opts ...Options) template.HTML {
 // ClipboardType renders the "clipboard-type" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-type" }}
+//
+//	{{ lucide "clipboard-type" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardType()
-//   lucide.ClipboardType(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardType()
+//	lucide.ClipboardType(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardType(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10384,11 +11178,13 @@ func ClipboardType(opts ...Options) template.HTML {
 // ClipboardX renders the "clipboard-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "clipboard-x" }}
+//
+//	{{ lucide "clipboard-x" }}
 //
 // Direct usage in Go:
-//   lucide.ClipboardX()
-//   lucide.ClipboardX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClipboardX()
+//	lucide.ClipboardX(lucide.Options{Size: 32, Class: "my-icon"})
 func ClipboardX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10406,11 +11202,13 @@ func ClipboardX(opts ...Options) template.HTML {
 // Clock renders the "clock" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock" }}
+//
+//	{{ lucide "clock" }}
 //
 // Direct usage in Go:
-//   lucide.Clock()
-//   lucide.Clock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock()
+//	lucide.Clock(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10428,11 +11226,13 @@ func Clock(opts ...Options) template.HTML {
 // Clock1 renders the "clock-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-1" }}
+//
+//	{{ lucide "clock-1" }}
 //
 // Direct usage in Go:
-//   lucide.Clock1()
-//   lucide.Clock1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock1()
+//	lucide.Clock1(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10450,11 +11250,13 @@ func Clock1(opts ...Options) template.HTML {
 // Clock10 renders the "clock-10" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-10" }}
+//
+//	{{ lucide "clock-10" }}
 //
 // Direct usage in Go:
-//   lucide.Clock10()
-//   lucide.Clock10(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock10()
+//	lucide.Clock10(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock10(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10472,11 +11274,13 @@ func Clock10(opts ...Options) template.HTML {
 // Clock11 renders the "clock-11" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-11" }}
+//
+//	{{ lucide "clock-11" }}
 //
 // Direct usage in Go:
-//   lucide.Clock11()
-//   lucide.Clock11(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock11()
+//	lucide.Clock11(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock11(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10494,11 +11298,13 @@ func Clock11(opts ...Options) template.HTML {
 // Clock12 renders the "clock-12" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-12" }}
+//
+//	{{ lucide "clock-12" }}
 //
 // Direct usage in Go:
-//   lucide.Clock12()
-//   lucide.Clock12(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock12()
+//	lucide.Clock12(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock12(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10516,11 +11322,13 @@ func Clock12(opts ...Options) template.HTML {
 // Clock2 renders the "clock-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-2" }}
+//
+//	{{ lucide "clock-2" }}
 //
 // Direct usage in Go:
-//   lucide.Clock2()
-//   lucide.Clock2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock2()
+//	lucide.Clock2(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10538,11 +11346,13 @@ func Clock2(opts ...Options) template.HTML {
 // Clock3 renders the "clock-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-3" }}
+//
+//	{{ lucide "clock-3" }}
 //
 // Direct usage in Go:
-//   lucide.Clock3()
-//   lucide.Clock3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock3()
+//	lucide.Clock3(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10560,11 +11370,13 @@ func Clock3(opts ...Options) template.HTML {
 // Clock4 renders the "clock-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-4" }}
+//
+//	{{ lucide "clock-4" }}
 //
 // Direct usage in Go:
-//   lucide.Clock4()
-//   lucide.Clock4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock4()
+//	lucide.Clock4(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10582,11 +11394,13 @@ func Clock4(opts ...Options) template.HTML {
 // Clock5 renders the "clock-5" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-5" }}
+//
+//	{{ lucide "clock-5" }}
 //
 // Direct usage in Go:
-//   lucide.Clock5()
-//   lucide.Clock5(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock5()
+//	lucide.Clock5(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock5(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10604,11 +11418,13 @@ func Clock5(opts ...Options) template.HTML {
 // Clock6 renders the "clock-6" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-6" }}
+//
+//	{{ lucide "clock-6" }}
 //
 // Direct usage in Go:
-//   lucide.Clock6()
-//   lucide.Clock6(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock6()
+//	lucide.Clock6(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock6(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10626,11 +11442,13 @@ func Clock6(opts ...Options) template.HTML {
 // Clock7 renders the "clock-7" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-7" }}
+//
+//	{{ lucide "clock-7" }}
 //
 // Direct usage in Go:
-//   lucide.Clock7()
-//   lucide.Clock7(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock7()
+//	lucide.Clock7(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock7(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10648,11 +11466,13 @@ func Clock7(opts ...Options) template.HTML {
 // Clock8 renders the "clock-8" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-8" }}
+//
+//	{{ lucide "clock-8" }}
 //
 // Direct usage in Go:
-//   lucide.Clock8()
-//   lucide.Clock8(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock8()
+//	lucide.Clock8(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock8(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10670,11 +11490,13 @@ func Clock8(opts ...Options) template.HTML {
 // Clock9 renders the "clock-9" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-9" }}
+//
+//	{{ lucide "clock-9" }}
 //
 // Direct usage in Go:
-//   lucide.Clock9()
-//   lucide.Clock9(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clock9()
+//	lucide.Clock9(lucide.Options{Size: 32, Class: "my-icon"})
 func Clock9(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10692,11 +11514,13 @@ func Clock9(opts ...Options) template.HTML {
 // ClockAlert renders the "clock-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-alert" }}
+//
+//	{{ lucide "clock-alert" }}
 //
 // Direct usage in Go:
-//   lucide.ClockAlert()
-//   lucide.ClockAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClockAlert()
+//	lucide.ClockAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func ClockAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10714,11 +11538,13 @@ func ClockAlert(opts ...Options) template.HTML {
 // ClockArrowDown renders the "clock-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-arrow-down" }}
+//
+//	{{ lucide "clock-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.ClockArrowDown()
-//   lucide.ClockArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClockArrowDown()
+//	lucide.ClockArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ClockArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10736,11 +11562,13 @@ func ClockArrowDown(opts ...Options) template.HTML {
 // ClockArrowUp renders the "clock-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-arrow-up" }}
+//
+//	{{ lucide "clock-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.ClockArrowUp()
-//   lucide.ClockArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClockArrowUp()
+//	lucide.ClockArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ClockArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10758,11 +11586,13 @@ func ClockArrowUp(opts ...Options) template.HTML {
 // ClockFading renders the "clock-fading" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-fading" }}
+//
+//	{{ lucide "clock-fading" }}
 //
 // Direct usage in Go:
-//   lucide.ClockFading()
-//   lucide.ClockFading(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClockFading()
+//	lucide.ClockFading(lucide.Options{Size: 32, Class: "my-icon"})
 func ClockFading(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10780,11 +11610,13 @@ func ClockFading(opts ...Options) template.HTML {
 // ClockPlus renders the "clock-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "clock-plus" }}
+//
+//	{{ lucide "clock-plus" }}
 //
 // Direct usage in Go:
-//   lucide.ClockPlus()
-//   lucide.ClockPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClockPlus()
+//	lucide.ClockPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func ClockPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10802,11 +11634,13 @@ func ClockPlus(opts ...Options) template.HTML {
 // ClosedCaption renders the "closed-caption" icon.
 //
 // Usage in templates:
-//   {{ lucide "closed-caption" }}
+//
+//	{{ lucide "closed-caption" }}
 //
 // Direct usage in Go:
-//   lucide.ClosedCaption()
-//   lucide.ClosedCaption(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ClosedCaption()
+//	lucide.ClosedCaption(lucide.Options{Size: 32, Class: "my-icon"})
 func ClosedCaption(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10824,11 +11658,13 @@ func ClosedCaption(opts ...Options) template.HTML {
 // Cloud renders the "cloud" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud" }}
+//
+//	{{ lucide "cloud" }}
 //
 // Direct usage in Go:
-//   lucide.Cloud()
-//   lucide.Cloud(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cloud()
+//	lucide.Cloud(lucide.Options{Size: 32, Class: "my-icon"})
 func Cloud(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10846,11 +11682,13 @@ func Cloud(opts ...Options) template.HTML {
 // CloudAlert renders the "cloud-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-alert" }}
+//
+//	{{ lucide "cloud-alert" }}
 //
 // Direct usage in Go:
-//   lucide.CloudAlert()
-//   lucide.CloudAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudAlert()
+//	lucide.CloudAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10868,11 +11706,13 @@ func CloudAlert(opts ...Options) template.HTML {
 // CloudCheck renders the "cloud-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-check" }}
+//
+//	{{ lucide "cloud-check" }}
 //
 // Direct usage in Go:
-//   lucide.CloudCheck()
-//   lucide.CloudCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudCheck()
+//	lucide.CloudCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10890,11 +11730,13 @@ func CloudCheck(opts ...Options) template.HTML {
 // CloudCog renders the "cloud-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-cog" }}
+//
+//	{{ lucide "cloud-cog" }}
 //
 // Direct usage in Go:
-//   lucide.CloudCog()
-//   lucide.CloudCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudCog()
+//	lucide.CloudCog(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10912,11 +11754,13 @@ func CloudCog(opts ...Options) template.HTML {
 // CloudDownload renders the "cloud-download" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-download" }}
+//
+//	{{ lucide "cloud-download" }}
 //
 // Direct usage in Go:
-//   lucide.CloudDownload()
-//   lucide.CloudDownload(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudDownload()
+//	lucide.CloudDownload(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudDownload(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10934,11 +11778,13 @@ func CloudDownload(opts ...Options) template.HTML {
 // CloudDrizzle renders the "cloud-drizzle" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-drizzle" }}
+//
+//	{{ lucide "cloud-drizzle" }}
 //
 // Direct usage in Go:
-//   lucide.CloudDrizzle()
-//   lucide.CloudDrizzle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudDrizzle()
+//	lucide.CloudDrizzle(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudDrizzle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10956,11 +11802,13 @@ func CloudDrizzle(opts ...Options) template.HTML {
 // CloudFog renders the "cloud-fog" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-fog" }}
+//
+//	{{ lucide "cloud-fog" }}
 //
 // Direct usage in Go:
-//   lucide.CloudFog()
-//   lucide.CloudFog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudFog()
+//	lucide.CloudFog(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudFog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -10978,11 +11826,13 @@ func CloudFog(opts ...Options) template.HTML {
 // CloudHail renders the "cloud-hail" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-hail" }}
+//
+//	{{ lucide "cloud-hail" }}
 //
 // Direct usage in Go:
-//   lucide.CloudHail()
-//   lucide.CloudHail(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudHail()
+//	lucide.CloudHail(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudHail(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11000,11 +11850,13 @@ func CloudHail(opts ...Options) template.HTML {
 // CloudLightning renders the "cloud-lightning" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-lightning" }}
+//
+//	{{ lucide "cloud-lightning" }}
 //
 // Direct usage in Go:
-//   lucide.CloudLightning()
-//   lucide.CloudLightning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudLightning()
+//	lucide.CloudLightning(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudLightning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11022,11 +11874,13 @@ func CloudLightning(opts ...Options) template.HTML {
 // CloudMoon renders the "cloud-moon" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-moon" }}
+//
+//	{{ lucide "cloud-moon" }}
 //
 // Direct usage in Go:
-//   lucide.CloudMoon()
-//   lucide.CloudMoon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudMoon()
+//	lucide.CloudMoon(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudMoon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11044,11 +11898,13 @@ func CloudMoon(opts ...Options) template.HTML {
 // CloudMoonRain renders the "cloud-moon-rain" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-moon-rain" }}
+//
+//	{{ lucide "cloud-moon-rain" }}
 //
 // Direct usage in Go:
-//   lucide.CloudMoonRain()
-//   lucide.CloudMoonRain(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudMoonRain()
+//	lucide.CloudMoonRain(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudMoonRain(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11066,11 +11922,13 @@ func CloudMoonRain(opts ...Options) template.HTML {
 // CloudOff renders the "cloud-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-off" }}
+//
+//	{{ lucide "cloud-off" }}
 //
 // Direct usage in Go:
-//   lucide.CloudOff()
-//   lucide.CloudOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudOff()
+//	lucide.CloudOff(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11088,11 +11946,13 @@ func CloudOff(opts ...Options) template.HTML {
 // CloudRain renders the "cloud-rain" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-rain" }}
+//
+//	{{ lucide "cloud-rain" }}
 //
 // Direct usage in Go:
-//   lucide.CloudRain()
-//   lucide.CloudRain(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudRain()
+//	lucide.CloudRain(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudRain(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11110,11 +11970,13 @@ func CloudRain(opts ...Options) template.HTML {
 // CloudRainWind renders the "cloud-rain-wind" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-rain-wind" }}
+//
+//	{{ lucide "cloud-rain-wind" }}
 //
 // Direct usage in Go:
-//   lucide.CloudRainWind()
-//   lucide.CloudRainWind(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudRainWind()
+//	lucide.CloudRainWind(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudRainWind(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11132,11 +11994,13 @@ func CloudRainWind(opts ...Options) template.HTML {
 // CloudSnow renders the "cloud-snow" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-snow" }}
+//
+//	{{ lucide "cloud-snow" }}
 //
 // Direct usage in Go:
-//   lucide.CloudSnow()
-//   lucide.CloudSnow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudSnow()
+//	lucide.CloudSnow(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudSnow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11154,11 +12018,13 @@ func CloudSnow(opts ...Options) template.HTML {
 // CloudSun renders the "cloud-sun" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-sun" }}
+//
+//	{{ lucide "cloud-sun" }}
 //
 // Direct usage in Go:
-//   lucide.CloudSun()
-//   lucide.CloudSun(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudSun()
+//	lucide.CloudSun(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudSun(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11176,11 +12042,13 @@ func CloudSun(opts ...Options) template.HTML {
 // CloudSunRain renders the "cloud-sun-rain" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-sun-rain" }}
+//
+//	{{ lucide "cloud-sun-rain" }}
 //
 // Direct usage in Go:
-//   lucide.CloudSunRain()
-//   lucide.CloudSunRain(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudSunRain()
+//	lucide.CloudSunRain(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudSunRain(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11198,11 +12066,13 @@ func CloudSunRain(opts ...Options) template.HTML {
 // CloudUpload renders the "cloud-upload" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloud-upload" }}
+//
+//	{{ lucide "cloud-upload" }}
 //
 // Direct usage in Go:
-//   lucide.CloudUpload()
-//   lucide.CloudUpload(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CloudUpload()
+//	lucide.CloudUpload(lucide.Options{Size: 32, Class: "my-icon"})
 func CloudUpload(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11220,11 +12090,13 @@ func CloudUpload(opts ...Options) template.HTML {
 // Cloudy renders the "cloudy" icon.
 //
 // Usage in templates:
-//   {{ lucide "cloudy" }}
+//
+//	{{ lucide "cloudy" }}
 //
 // Direct usage in Go:
-//   lucide.Cloudy()
-//   lucide.Cloudy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cloudy()
+//	lucide.Cloudy(lucide.Options{Size: 32, Class: "my-icon"})
 func Cloudy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11242,11 +12114,13 @@ func Cloudy(opts ...Options) template.HTML {
 // Clover renders the "clover" icon.
 //
 // Usage in templates:
-//   {{ lucide "clover" }}
+//
+//	{{ lucide "clover" }}
 //
 // Direct usage in Go:
-//   lucide.Clover()
-//   lucide.Clover(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Clover()
+//	lucide.Clover(lucide.Options{Size: 32, Class: "my-icon"})
 func Clover(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11264,11 +12138,13 @@ func Clover(opts ...Options) template.HTML {
 // Club renders the "club" icon.
 //
 // Usage in templates:
-//   {{ lucide "club" }}
+//
+//	{{ lucide "club" }}
 //
 // Direct usage in Go:
-//   lucide.Club()
-//   lucide.Club(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Club()
+//	lucide.Club(lucide.Options{Size: 32, Class: "my-icon"})
 func Club(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11286,11 +12162,13 @@ func Club(opts ...Options) template.HTML {
 // Code renders the "code" icon.
 //
 // Usage in templates:
-//   {{ lucide "code" }}
+//
+//	{{ lucide "code" }}
 //
 // Direct usage in Go:
-//   lucide.Code()
-//   lucide.Code(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Code()
+//	lucide.Code(lucide.Options{Size: 32, Class: "my-icon"})
 func Code(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11308,11 +12186,13 @@ func Code(opts ...Options) template.HTML {
 // CodeXml renders the "code-xml" icon.
 //
 // Usage in templates:
-//   {{ lucide "code-xml" }}
+//
+//	{{ lucide "code-xml" }}
 //
 // Direct usage in Go:
-//   lucide.CodeXml()
-//   lucide.CodeXml(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CodeXml()
+//	lucide.CodeXml(lucide.Options{Size: 32, Class: "my-icon"})
 func CodeXml(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11330,11 +12210,13 @@ func CodeXml(opts ...Options) template.HTML {
 // Codepen renders the "codepen" icon.
 //
 // Usage in templates:
-//   {{ lucide "codepen" }}
+//
+//	{{ lucide "codepen" }}
 //
 // Direct usage in Go:
-//   lucide.Codepen()
-//   lucide.Codepen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Codepen()
+//	lucide.Codepen(lucide.Options{Size: 32, Class: "my-icon"})
 func Codepen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11352,11 +12234,13 @@ func Codepen(opts ...Options) template.HTML {
 // Codesandbox renders the "codesandbox" icon.
 //
 // Usage in templates:
-//   {{ lucide "codesandbox" }}
+//
+//	{{ lucide "codesandbox" }}
 //
 // Direct usage in Go:
-//   lucide.Codesandbox()
-//   lucide.Codesandbox(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Codesandbox()
+//	lucide.Codesandbox(lucide.Options{Size: 32, Class: "my-icon"})
 func Codesandbox(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11374,11 +12258,13 @@ func Codesandbox(opts ...Options) template.HTML {
 // Coffee renders the "coffee" icon.
 //
 // Usage in templates:
-//   {{ lucide "coffee" }}
+//
+//	{{ lucide "coffee" }}
 //
 // Direct usage in Go:
-//   lucide.Coffee()
-//   lucide.Coffee(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Coffee()
+//	lucide.Coffee(lucide.Options{Size: 32, Class: "my-icon"})
 func Coffee(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11396,11 +12282,13 @@ func Coffee(opts ...Options) template.HTML {
 // Cog renders the "cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "cog" }}
+//
+//	{{ lucide "cog" }}
 //
 // Direct usage in Go:
-//   lucide.Cog()
-//   lucide.Cog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cog()
+//	lucide.Cog(lucide.Options{Size: 32, Class: "my-icon"})
 func Cog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11418,11 +12306,13 @@ func Cog(opts ...Options) template.HTML {
 // Coins renders the "coins" icon.
 //
 // Usage in templates:
-//   {{ lucide "coins" }}
+//
+//	{{ lucide "coins" }}
 //
 // Direct usage in Go:
-//   lucide.Coins()
-//   lucide.Coins(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Coins()
+//	lucide.Coins(lucide.Options{Size: 32, Class: "my-icon"})
 func Coins(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11440,11 +12330,13 @@ func Coins(opts ...Options) template.HTML {
 // Columns2 renders the "columns-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "columns-2" }}
+//
+//	{{ lucide "columns-2" }}
 //
 // Direct usage in Go:
-//   lucide.Columns2()
-//   lucide.Columns2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Columns2()
+//	lucide.Columns2(lucide.Options{Size: 32, Class: "my-icon"})
 func Columns2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11462,11 +12354,13 @@ func Columns2(opts ...Options) template.HTML {
 // Columns3 renders the "columns-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "columns-3" }}
+//
+//	{{ lucide "columns-3" }}
 //
 // Direct usage in Go:
-//   lucide.Columns3()
-//   lucide.Columns3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Columns3()
+//	lucide.Columns3(lucide.Options{Size: 32, Class: "my-icon"})
 func Columns3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11484,11 +12378,13 @@ func Columns3(opts ...Options) template.HTML {
 // Columns3Cog renders the "columns-3-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "columns-3-cog" }}
+//
+//	{{ lucide "columns-3-cog" }}
 //
 // Direct usage in Go:
-//   lucide.Columns3Cog()
-//   lucide.Columns3Cog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Columns3Cog()
+//	lucide.Columns3Cog(lucide.Options{Size: 32, Class: "my-icon"})
 func Columns3Cog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11506,11 +12402,13 @@ func Columns3Cog(opts ...Options) template.HTML {
 // Columns4 renders the "columns-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "columns-4" }}
+//
+//	{{ lucide "columns-4" }}
 //
 // Direct usage in Go:
-//   lucide.Columns4()
-//   lucide.Columns4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Columns4()
+//	lucide.Columns4(lucide.Options{Size: 32, Class: "my-icon"})
 func Columns4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11528,11 +12426,13 @@ func Columns4(opts ...Options) template.HTML {
 // Combine renders the "combine" icon.
 //
 // Usage in templates:
-//   {{ lucide "combine" }}
+//
+//	{{ lucide "combine" }}
 //
 // Direct usage in Go:
-//   lucide.Combine()
-//   lucide.Combine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Combine()
+//	lucide.Combine(lucide.Options{Size: 32, Class: "my-icon"})
 func Combine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11550,11 +12450,13 @@ func Combine(opts ...Options) template.HTML {
 // Command renders the "command" icon.
 //
 // Usage in templates:
-//   {{ lucide "command" }}
+//
+//	{{ lucide "command" }}
 //
 // Direct usage in Go:
-//   lucide.Command()
-//   lucide.Command(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Command()
+//	lucide.Command(lucide.Options{Size: 32, Class: "my-icon"})
 func Command(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11572,11 +12474,13 @@ func Command(opts ...Options) template.HTML {
 // Compass renders the "compass" icon.
 //
 // Usage in templates:
-//   {{ lucide "compass" }}
+//
+//	{{ lucide "compass" }}
 //
 // Direct usage in Go:
-//   lucide.Compass()
-//   lucide.Compass(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Compass()
+//	lucide.Compass(lucide.Options{Size: 32, Class: "my-icon"})
 func Compass(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11594,11 +12498,13 @@ func Compass(opts ...Options) template.HTML {
 // Component renders the "component" icon.
 //
 // Usage in templates:
-//   {{ lucide "component" }}
+//
+//	{{ lucide "component" }}
 //
 // Direct usage in Go:
-//   lucide.Component()
-//   lucide.Component(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Component()
+//	lucide.Component(lucide.Options{Size: 32, Class: "my-icon"})
 func Component(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11616,11 +12522,13 @@ func Component(opts ...Options) template.HTML {
 // Computer renders the "computer" icon.
 //
 // Usage in templates:
-//   {{ lucide "computer" }}
+//
+//	{{ lucide "computer" }}
 //
 // Direct usage in Go:
-//   lucide.Computer()
-//   lucide.Computer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Computer()
+//	lucide.Computer(lucide.Options{Size: 32, Class: "my-icon"})
 func Computer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11638,11 +12546,13 @@ func Computer(opts ...Options) template.HTML {
 // ConciergeBell renders the "concierge-bell" icon.
 //
 // Usage in templates:
-//   {{ lucide "concierge-bell" }}
+//
+//	{{ lucide "concierge-bell" }}
 //
 // Direct usage in Go:
-//   lucide.ConciergeBell()
-//   lucide.ConciergeBell(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ConciergeBell()
+//	lucide.ConciergeBell(lucide.Options{Size: 32, Class: "my-icon"})
 func ConciergeBell(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11660,11 +12570,13 @@ func ConciergeBell(opts ...Options) template.HTML {
 // Cone renders the "cone" icon.
 //
 // Usage in templates:
-//   {{ lucide "cone" }}
+//
+//	{{ lucide "cone" }}
 //
 // Direct usage in Go:
-//   lucide.Cone()
-//   lucide.Cone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cone()
+//	lucide.Cone(lucide.Options{Size: 32, Class: "my-icon"})
 func Cone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11682,11 +12594,13 @@ func Cone(opts ...Options) template.HTML {
 // Construction renders the "construction" icon.
 //
 // Usage in templates:
-//   {{ lucide "construction" }}
+//
+//	{{ lucide "construction" }}
 //
 // Direct usage in Go:
-//   lucide.Construction()
-//   lucide.Construction(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Construction()
+//	lucide.Construction(lucide.Options{Size: 32, Class: "my-icon"})
 func Construction(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11704,11 +12618,13 @@ func Construction(opts ...Options) template.HTML {
 // Contact renders the "contact" icon.
 //
 // Usage in templates:
-//   {{ lucide "contact" }}
+//
+//	{{ lucide "contact" }}
 //
 // Direct usage in Go:
-//   lucide.Contact()
-//   lucide.Contact(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Contact()
+//	lucide.Contact(lucide.Options{Size: 32, Class: "my-icon"})
 func Contact(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11726,11 +12642,13 @@ func Contact(opts ...Options) template.HTML {
 // ContactRound renders the "contact-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "contact-round" }}
+//
+//	{{ lucide "contact-round" }}
 //
 // Direct usage in Go:
-//   lucide.ContactRound()
-//   lucide.ContactRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ContactRound()
+//	lucide.ContactRound(lucide.Options{Size: 32, Class: "my-icon"})
 func ContactRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11748,11 +12666,13 @@ func ContactRound(opts ...Options) template.HTML {
 // Container renders the "container" icon.
 //
 // Usage in templates:
-//   {{ lucide "container" }}
+//
+//	{{ lucide "container" }}
 //
 // Direct usage in Go:
-//   lucide.Container()
-//   lucide.Container(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Container()
+//	lucide.Container(lucide.Options{Size: 32, Class: "my-icon"})
 func Container(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11770,11 +12690,13 @@ func Container(opts ...Options) template.HTML {
 // Contrast renders the "contrast" icon.
 //
 // Usage in templates:
-//   {{ lucide "contrast" }}
+//
+//	{{ lucide "contrast" }}
 //
 // Direct usage in Go:
-//   lucide.Contrast()
-//   lucide.Contrast(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Contrast()
+//	lucide.Contrast(lucide.Options{Size: 32, Class: "my-icon"})
 func Contrast(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11792,11 +12714,13 @@ func Contrast(opts ...Options) template.HTML {
 // Cookie renders the "cookie" icon.
 //
 // Usage in templates:
-//   {{ lucide "cookie" }}
+//
+//	{{ lucide "cookie" }}
 //
 // Direct usage in Go:
-//   lucide.Cookie()
-//   lucide.Cookie(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cookie()
+//	lucide.Cookie(lucide.Options{Size: 32, Class: "my-icon"})
 func Cookie(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11814,11 +12738,13 @@ func Cookie(opts ...Options) template.HTML {
 // CookingPot renders the "cooking-pot" icon.
 //
 // Usage in templates:
-//   {{ lucide "cooking-pot" }}
+//
+//	{{ lucide "cooking-pot" }}
 //
 // Direct usage in Go:
-//   lucide.CookingPot()
-//   lucide.CookingPot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CookingPot()
+//	lucide.CookingPot(lucide.Options{Size: 32, Class: "my-icon"})
 func CookingPot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11836,11 +12762,13 @@ func CookingPot(opts ...Options) template.HTML {
 // Copy renders the "copy" icon.
 //
 // Usage in templates:
-//   {{ lucide "copy" }}
+//
+//	{{ lucide "copy" }}
 //
 // Direct usage in Go:
-//   lucide.Copy()
-//   lucide.Copy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Copy()
+//	lucide.Copy(lucide.Options{Size: 32, Class: "my-icon"})
 func Copy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11858,11 +12786,13 @@ func Copy(opts ...Options) template.HTML {
 // CopyCheck renders the "copy-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "copy-check" }}
+//
+//	{{ lucide "copy-check" }}
 //
 // Direct usage in Go:
-//   lucide.CopyCheck()
-//   lucide.CopyCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CopyCheck()
+//	lucide.CopyCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func CopyCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11880,11 +12810,13 @@ func CopyCheck(opts ...Options) template.HTML {
 // CopyMinus renders the "copy-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "copy-minus" }}
+//
+//	{{ lucide "copy-minus" }}
 //
 // Direct usage in Go:
-//   lucide.CopyMinus()
-//   lucide.CopyMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CopyMinus()
+//	lucide.CopyMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func CopyMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11902,11 +12834,13 @@ func CopyMinus(opts ...Options) template.HTML {
 // CopyPlus renders the "copy-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "copy-plus" }}
+//
+//	{{ lucide "copy-plus" }}
 //
 // Direct usage in Go:
-//   lucide.CopyPlus()
-//   lucide.CopyPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CopyPlus()
+//	lucide.CopyPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func CopyPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11924,11 +12858,13 @@ func CopyPlus(opts ...Options) template.HTML {
 // CopySlash renders the "copy-slash" icon.
 //
 // Usage in templates:
-//   {{ lucide "copy-slash" }}
+//
+//	{{ lucide "copy-slash" }}
 //
 // Direct usage in Go:
-//   lucide.CopySlash()
-//   lucide.CopySlash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CopySlash()
+//	lucide.CopySlash(lucide.Options{Size: 32, Class: "my-icon"})
 func CopySlash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11946,11 +12882,13 @@ func CopySlash(opts ...Options) template.HTML {
 // CopyX renders the "copy-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "copy-x" }}
+//
+//	{{ lucide "copy-x" }}
 //
 // Direct usage in Go:
-//   lucide.CopyX()
-//   lucide.CopyX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CopyX()
+//	lucide.CopyX(lucide.Options{Size: 32, Class: "my-icon"})
 func CopyX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11968,11 +12906,13 @@ func CopyX(opts ...Options) template.HTML {
 // Copyleft renders the "copyleft" icon.
 //
 // Usage in templates:
-//   {{ lucide "copyleft" }}
+//
+//	{{ lucide "copyleft" }}
 //
 // Direct usage in Go:
-//   lucide.Copyleft()
-//   lucide.Copyleft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Copyleft()
+//	lucide.Copyleft(lucide.Options{Size: 32, Class: "my-icon"})
 func Copyleft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -11990,11 +12930,13 @@ func Copyleft(opts ...Options) template.HTML {
 // Copyright renders the "copyright" icon.
 //
 // Usage in templates:
-//   {{ lucide "copyright" }}
+//
+//	{{ lucide "copyright" }}
 //
 // Direct usage in Go:
-//   lucide.Copyright()
-//   lucide.Copyright(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Copyright()
+//	lucide.Copyright(lucide.Options{Size: 32, Class: "my-icon"})
 func Copyright(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12012,11 +12954,13 @@ func Copyright(opts ...Options) template.HTML {
 // CornerDownLeft renders the "corner-down-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-down-left" }}
+//
+//	{{ lucide "corner-down-left" }}
 //
 // Direct usage in Go:
-//   lucide.CornerDownLeft()
-//   lucide.CornerDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerDownLeft()
+//	lucide.CornerDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerDownLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12034,11 +12978,13 @@ func CornerDownLeft(opts ...Options) template.HTML {
 // CornerDownRight renders the "corner-down-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-down-right" }}
+//
+//	{{ lucide "corner-down-right" }}
 //
 // Direct usage in Go:
-//   lucide.CornerDownRight()
-//   lucide.CornerDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerDownRight()
+//	lucide.CornerDownRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerDownRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12056,11 +13002,13 @@ func CornerDownRight(opts ...Options) template.HTML {
 // CornerLeftDown renders the "corner-left-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-left-down" }}
+//
+//	{{ lucide "corner-left-down" }}
 //
 // Direct usage in Go:
-//   lucide.CornerLeftDown()
-//   lucide.CornerLeftDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerLeftDown()
+//	lucide.CornerLeftDown(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerLeftDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12078,11 +13026,13 @@ func CornerLeftDown(opts ...Options) template.HTML {
 // CornerLeftUp renders the "corner-left-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-left-up" }}
+//
+//	{{ lucide "corner-left-up" }}
 //
 // Direct usage in Go:
-//   lucide.CornerLeftUp()
-//   lucide.CornerLeftUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerLeftUp()
+//	lucide.CornerLeftUp(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerLeftUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12100,11 +13050,13 @@ func CornerLeftUp(opts ...Options) template.HTML {
 // CornerRightDown renders the "corner-right-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-right-down" }}
+//
+//	{{ lucide "corner-right-down" }}
 //
 // Direct usage in Go:
-//   lucide.CornerRightDown()
-//   lucide.CornerRightDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerRightDown()
+//	lucide.CornerRightDown(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerRightDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12122,11 +13074,13 @@ func CornerRightDown(opts ...Options) template.HTML {
 // CornerRightUp renders the "corner-right-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-right-up" }}
+//
+//	{{ lucide "corner-right-up" }}
 //
 // Direct usage in Go:
-//   lucide.CornerRightUp()
-//   lucide.CornerRightUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerRightUp()
+//	lucide.CornerRightUp(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerRightUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12144,11 +13098,13 @@ func CornerRightUp(opts ...Options) template.HTML {
 // CornerUpLeft renders the "corner-up-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-up-left" }}
+//
+//	{{ lucide "corner-up-left" }}
 //
 // Direct usage in Go:
-//   lucide.CornerUpLeft()
-//   lucide.CornerUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerUpLeft()
+//	lucide.CornerUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerUpLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12166,11 +13122,13 @@ func CornerUpLeft(opts ...Options) template.HTML {
 // CornerUpRight renders the "corner-up-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "corner-up-right" }}
+//
+//	{{ lucide "corner-up-right" }}
 //
 // Direct usage in Go:
-//   lucide.CornerUpRight()
-//   lucide.CornerUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CornerUpRight()
+//	lucide.CornerUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CornerUpRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12188,11 +13146,13 @@ func CornerUpRight(opts ...Options) template.HTML {
 // Cpu renders the "cpu" icon.
 //
 // Usage in templates:
-//   {{ lucide "cpu" }}
+//
+//	{{ lucide "cpu" }}
 //
 // Direct usage in Go:
-//   lucide.Cpu()
-//   lucide.Cpu(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cpu()
+//	lucide.Cpu(lucide.Options{Size: 32, Class: "my-icon"})
 func Cpu(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12210,11 +13170,13 @@ func Cpu(opts ...Options) template.HTML {
 // CreativeCommons renders the "creative-commons" icon.
 //
 // Usage in templates:
-//   {{ lucide "creative-commons" }}
+//
+//	{{ lucide "creative-commons" }}
 //
 // Direct usage in Go:
-//   lucide.CreativeCommons()
-//   lucide.CreativeCommons(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CreativeCommons()
+//	lucide.CreativeCommons(lucide.Options{Size: 32, Class: "my-icon"})
 func CreativeCommons(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12232,11 +13194,13 @@ func CreativeCommons(opts ...Options) template.HTML {
 // CreditCard renders the "credit-card" icon.
 //
 // Usage in templates:
-//   {{ lucide "credit-card" }}
+//
+//	{{ lucide "credit-card" }}
 //
 // Direct usage in Go:
-//   lucide.CreditCard()
-//   lucide.CreditCard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CreditCard()
+//	lucide.CreditCard(lucide.Options{Size: 32, Class: "my-icon"})
 func CreditCard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12254,11 +13218,13 @@ func CreditCard(opts ...Options) template.HTML {
 // Croissant renders the "croissant" icon.
 //
 // Usage in templates:
-//   {{ lucide "croissant" }}
+//
+//	{{ lucide "croissant" }}
 //
 // Direct usage in Go:
-//   lucide.Croissant()
-//   lucide.Croissant(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Croissant()
+//	lucide.Croissant(lucide.Options{Size: 32, Class: "my-icon"})
 func Croissant(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12276,11 +13242,13 @@ func Croissant(opts ...Options) template.HTML {
 // Crop renders the "crop" icon.
 //
 // Usage in templates:
-//   {{ lucide "crop" }}
+//
+//	{{ lucide "crop" }}
 //
 // Direct usage in Go:
-//   lucide.Crop()
-//   lucide.Crop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Crop()
+//	lucide.Crop(lucide.Options{Size: 32, Class: "my-icon"})
 func Crop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12298,11 +13266,13 @@ func Crop(opts ...Options) template.HTML {
 // Cross renders the "cross" icon.
 //
 // Usage in templates:
-//   {{ lucide "cross" }}
+//
+//	{{ lucide "cross" }}
 //
 // Direct usage in Go:
-//   lucide.Cross()
-//   lucide.Cross(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cross()
+//	lucide.Cross(lucide.Options{Size: 32, Class: "my-icon"})
 func Cross(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12320,11 +13290,13 @@ func Cross(opts ...Options) template.HTML {
 // Crosshair renders the "crosshair" icon.
 //
 // Usage in templates:
-//   {{ lucide "crosshair" }}
+//
+//	{{ lucide "crosshair" }}
 //
 // Direct usage in Go:
-//   lucide.Crosshair()
-//   lucide.Crosshair(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Crosshair()
+//	lucide.Crosshair(lucide.Options{Size: 32, Class: "my-icon"})
 func Crosshair(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12342,11 +13314,13 @@ func Crosshair(opts ...Options) template.HTML {
 // Crown renders the "crown" icon.
 //
 // Usage in templates:
-//   {{ lucide "crown" }}
+//
+//	{{ lucide "crown" }}
 //
 // Direct usage in Go:
-//   lucide.Crown()
-//   lucide.Crown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Crown()
+//	lucide.Crown(lucide.Options{Size: 32, Class: "my-icon"})
 func Crown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12364,11 +13338,13 @@ func Crown(opts ...Options) template.HTML {
 // Cuboid renders the "cuboid" icon.
 //
 // Usage in templates:
-//   {{ lucide "cuboid" }}
+//
+//	{{ lucide "cuboid" }}
 //
 // Direct usage in Go:
-//   lucide.Cuboid()
-//   lucide.Cuboid(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cuboid()
+//	lucide.Cuboid(lucide.Options{Size: 32, Class: "my-icon"})
 func Cuboid(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12386,11 +13362,13 @@ func Cuboid(opts ...Options) template.HTML {
 // CupSoda renders the "cup-soda" icon.
 //
 // Usage in templates:
-//   {{ lucide "cup-soda" }}
+//
+//	{{ lucide "cup-soda" }}
 //
 // Direct usage in Go:
-//   lucide.CupSoda()
-//   lucide.CupSoda(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.CupSoda()
+//	lucide.CupSoda(lucide.Options{Size: 32, Class: "my-icon"})
 func CupSoda(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12408,11 +13386,13 @@ func CupSoda(opts ...Options) template.HTML {
 // Currency renders the "currency" icon.
 //
 // Usage in templates:
-//   {{ lucide "currency" }}
+//
+//	{{ lucide "currency" }}
 //
 // Direct usage in Go:
-//   lucide.Currency()
-//   lucide.Currency(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Currency()
+//	lucide.Currency(lucide.Options{Size: 32, Class: "my-icon"})
 func Currency(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12430,11 +13410,13 @@ func Currency(opts ...Options) template.HTML {
 // Cylinder renders the "cylinder" icon.
 //
 // Usage in templates:
-//   {{ lucide "cylinder" }}
+//
+//	{{ lucide "cylinder" }}
 //
 // Direct usage in Go:
-//   lucide.Cylinder()
-//   lucide.Cylinder(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Cylinder()
+//	lucide.Cylinder(lucide.Options{Size: 32, Class: "my-icon"})
 func Cylinder(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12452,11 +13434,13 @@ func Cylinder(opts ...Options) template.HTML {
 // Dam renders the "dam" icon.
 //
 // Usage in templates:
-//   {{ lucide "dam" }}
+//
+//	{{ lucide "dam" }}
 //
 // Direct usage in Go:
-//   lucide.Dam()
-//   lucide.Dam(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dam()
+//	lucide.Dam(lucide.Options{Size: 32, Class: "my-icon"})
 func Dam(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12474,11 +13458,13 @@ func Dam(opts ...Options) template.HTML {
 // Database renders the "database" icon.
 //
 // Usage in templates:
-//   {{ lucide "database" }}
+//
+//	{{ lucide "database" }}
 //
 // Direct usage in Go:
-//   lucide.Database()
-//   lucide.Database(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Database()
+//	lucide.Database(lucide.Options{Size: 32, Class: "my-icon"})
 func Database(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12496,11 +13482,13 @@ func Database(opts ...Options) template.HTML {
 // DatabaseBackup renders the "database-backup" icon.
 //
 // Usage in templates:
-//   {{ lucide "database-backup" }}
+//
+//	{{ lucide "database-backup" }}
 //
 // Direct usage in Go:
-//   lucide.DatabaseBackup()
-//   lucide.DatabaseBackup(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DatabaseBackup()
+//	lucide.DatabaseBackup(lucide.Options{Size: 32, Class: "my-icon"})
 func DatabaseBackup(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12518,11 +13506,13 @@ func DatabaseBackup(opts ...Options) template.HTML {
 // DatabaseZap renders the "database-zap" icon.
 //
 // Usage in templates:
-//   {{ lucide "database-zap" }}
+//
+//	{{ lucide "database-zap" }}
 //
 // Direct usage in Go:
-//   lucide.DatabaseZap()
-//   lucide.DatabaseZap(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DatabaseZap()
+//	lucide.DatabaseZap(lucide.Options{Size: 32, Class: "my-icon"})
 func DatabaseZap(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12540,11 +13530,13 @@ func DatabaseZap(opts ...Options) template.HTML {
 // DecimalsArrowLeft renders the "decimals-arrow-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "decimals-arrow-left" }}
+//
+//	{{ lucide "decimals-arrow-left" }}
 //
 // Direct usage in Go:
-//   lucide.DecimalsArrowLeft()
-//   lucide.DecimalsArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DecimalsArrowLeft()
+//	lucide.DecimalsArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func DecimalsArrowLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12562,11 +13554,13 @@ func DecimalsArrowLeft(opts ...Options) template.HTML {
 // DecimalsArrowRight renders the "decimals-arrow-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "decimals-arrow-right" }}
+//
+//	{{ lucide "decimals-arrow-right" }}
 //
 // Direct usage in Go:
-//   lucide.DecimalsArrowRight()
-//   lucide.DecimalsArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DecimalsArrowRight()
+//	lucide.DecimalsArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
 func DecimalsArrowRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12584,11 +13578,13 @@ func DecimalsArrowRight(opts ...Options) template.HTML {
 // Delete renders the "delete" icon.
 //
 // Usage in templates:
-//   {{ lucide "delete" }}
+//
+//	{{ lucide "delete" }}
 //
 // Direct usage in Go:
-//   lucide.Delete()
-//   lucide.Delete(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Delete()
+//	lucide.Delete(lucide.Options{Size: 32, Class: "my-icon"})
 func Delete(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12606,11 +13602,13 @@ func Delete(opts ...Options) template.HTML {
 // Dessert renders the "dessert" icon.
 //
 // Usage in templates:
-//   {{ lucide "dessert" }}
+//
+//	{{ lucide "dessert" }}
 //
 // Direct usage in Go:
-//   lucide.Dessert()
-//   lucide.Dessert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dessert()
+//	lucide.Dessert(lucide.Options{Size: 32, Class: "my-icon"})
 func Dessert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12628,11 +13626,13 @@ func Dessert(opts ...Options) template.HTML {
 // Diameter renders the "diameter" icon.
 //
 // Usage in templates:
-//   {{ lucide "diameter" }}
+//
+//	{{ lucide "diameter" }}
 //
 // Direct usage in Go:
-//   lucide.Diameter()
-//   lucide.Diameter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Diameter()
+//	lucide.Diameter(lucide.Options{Size: 32, Class: "my-icon"})
 func Diameter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12650,11 +13650,13 @@ func Diameter(opts ...Options) template.HTML {
 // Diamond renders the "diamond" icon.
 //
 // Usage in templates:
-//   {{ lucide "diamond" }}
+//
+//	{{ lucide "diamond" }}
 //
 // Direct usage in Go:
-//   lucide.Diamond()
-//   lucide.Diamond(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Diamond()
+//	lucide.Diamond(lucide.Options{Size: 32, Class: "my-icon"})
 func Diamond(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12672,11 +13674,13 @@ func Diamond(opts ...Options) template.HTML {
 // DiamondMinus renders the "diamond-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "diamond-minus" }}
+//
+//	{{ lucide "diamond-minus" }}
 //
 // Direct usage in Go:
-//   lucide.DiamondMinus()
-//   lucide.DiamondMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DiamondMinus()
+//	lucide.DiamondMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func DiamondMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12694,11 +13698,13 @@ func DiamondMinus(opts ...Options) template.HTML {
 // DiamondPercent renders the "diamond-percent" icon.
 //
 // Usage in templates:
-//   {{ lucide "diamond-percent" }}
+//
+//	{{ lucide "diamond-percent" }}
 //
 // Direct usage in Go:
-//   lucide.DiamondPercent()
-//   lucide.DiamondPercent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DiamondPercent()
+//	lucide.DiamondPercent(lucide.Options{Size: 32, Class: "my-icon"})
 func DiamondPercent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12716,11 +13722,13 @@ func DiamondPercent(opts ...Options) template.HTML {
 // DiamondPlus renders the "diamond-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "diamond-plus" }}
+//
+//	{{ lucide "diamond-plus" }}
 //
 // Direct usage in Go:
-//   lucide.DiamondPlus()
-//   lucide.DiamondPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DiamondPlus()
+//	lucide.DiamondPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func DiamondPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12738,11 +13746,13 @@ func DiamondPlus(opts ...Options) template.HTML {
 // Dice1 renders the "dice-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "dice-1" }}
+//
+//	{{ lucide "dice-1" }}
 //
 // Direct usage in Go:
-//   lucide.Dice1()
-//   lucide.Dice1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dice1()
+//	lucide.Dice1(lucide.Options{Size: 32, Class: "my-icon"})
 func Dice1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12760,11 +13770,13 @@ func Dice1(opts ...Options) template.HTML {
 // Dice2 renders the "dice-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "dice-2" }}
+//
+//	{{ lucide "dice-2" }}
 //
 // Direct usage in Go:
-//   lucide.Dice2()
-//   lucide.Dice2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dice2()
+//	lucide.Dice2(lucide.Options{Size: 32, Class: "my-icon"})
 func Dice2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12782,11 +13794,13 @@ func Dice2(opts ...Options) template.HTML {
 // Dice3 renders the "dice-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "dice-3" }}
+//
+//	{{ lucide "dice-3" }}
 //
 // Direct usage in Go:
-//   lucide.Dice3()
-//   lucide.Dice3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dice3()
+//	lucide.Dice3(lucide.Options{Size: 32, Class: "my-icon"})
 func Dice3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12804,11 +13818,13 @@ func Dice3(opts ...Options) template.HTML {
 // Dice4 renders the "dice-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "dice-4" }}
+//
+//	{{ lucide "dice-4" }}
 //
 // Direct usage in Go:
-//   lucide.Dice4()
-//   lucide.Dice4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dice4()
+//	lucide.Dice4(lucide.Options{Size: 32, Class: "my-icon"})
 func Dice4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12826,11 +13842,13 @@ func Dice4(opts ...Options) template.HTML {
 // Dice5 renders the "dice-5" icon.
 //
 // Usage in templates:
-//   {{ lucide "dice-5" }}
+//
+//	{{ lucide "dice-5" }}
 //
 // Direct usage in Go:
-//   lucide.Dice5()
-//   lucide.Dice5(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dice5()
+//	lucide.Dice5(lucide.Options{Size: 32, Class: "my-icon"})
 func Dice5(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12848,11 +13866,13 @@ func Dice5(opts ...Options) template.HTML {
 // Dice6 renders the "dice-6" icon.
 //
 // Usage in templates:
-//   {{ lucide "dice-6" }}
+//
+//	{{ lucide "dice-6" }}
 //
 // Direct usage in Go:
-//   lucide.Dice6()
-//   lucide.Dice6(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dice6()
+//	lucide.Dice6(lucide.Options{Size: 32, Class: "my-icon"})
 func Dice6(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12870,11 +13890,13 @@ func Dice6(opts ...Options) template.HTML {
 // Dices renders the "dices" icon.
 //
 // Usage in templates:
-//   {{ lucide "dices" }}
+//
+//	{{ lucide "dices" }}
 //
 // Direct usage in Go:
-//   lucide.Dices()
-//   lucide.Dices(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dices()
+//	lucide.Dices(lucide.Options{Size: 32, Class: "my-icon"})
 func Dices(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12892,11 +13914,13 @@ func Dices(opts ...Options) template.HTML {
 // Diff renders the "diff" icon.
 //
 // Usage in templates:
-//   {{ lucide "diff" }}
+//
+//	{{ lucide "diff" }}
 //
 // Direct usage in Go:
-//   lucide.Diff()
-//   lucide.Diff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Diff()
+//	lucide.Diff(lucide.Options{Size: 32, Class: "my-icon"})
 func Diff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12914,11 +13938,13 @@ func Diff(opts ...Options) template.HTML {
 // Disc renders the "disc" icon.
 //
 // Usage in templates:
-//   {{ lucide "disc" }}
+//
+//	{{ lucide "disc" }}
 //
 // Direct usage in Go:
-//   lucide.Disc()
-//   lucide.Disc(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Disc()
+//	lucide.Disc(lucide.Options{Size: 32, Class: "my-icon"})
 func Disc(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12936,11 +13962,13 @@ func Disc(opts ...Options) template.HTML {
 // Disc2 renders the "disc-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "disc-2" }}
+//
+//	{{ lucide "disc-2" }}
 //
 // Direct usage in Go:
-//   lucide.Disc2()
-//   lucide.Disc2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Disc2()
+//	lucide.Disc2(lucide.Options{Size: 32, Class: "my-icon"})
 func Disc2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12958,11 +13986,13 @@ func Disc2(opts ...Options) template.HTML {
 // Disc3 renders the "disc-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "disc-3" }}
+//
+//	{{ lucide "disc-3" }}
 //
 // Direct usage in Go:
-//   lucide.Disc3()
-//   lucide.Disc3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Disc3()
+//	lucide.Disc3(lucide.Options{Size: 32, Class: "my-icon"})
 func Disc3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -12980,11 +14010,13 @@ func Disc3(opts ...Options) template.HTML {
 // DiscAlbum renders the "disc-album" icon.
 //
 // Usage in templates:
-//   {{ lucide "disc-album" }}
+//
+//	{{ lucide "disc-album" }}
 //
 // Direct usage in Go:
-//   lucide.DiscAlbum()
-//   lucide.DiscAlbum(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DiscAlbum()
+//	lucide.DiscAlbum(lucide.Options{Size: 32, Class: "my-icon"})
 func DiscAlbum(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13002,11 +14034,13 @@ func DiscAlbum(opts ...Options) template.HTML {
 // Divide renders the "divide" icon.
 //
 // Usage in templates:
-//   {{ lucide "divide" }}
+//
+//	{{ lucide "divide" }}
 //
 // Direct usage in Go:
-//   lucide.Divide()
-//   lucide.Divide(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Divide()
+//	lucide.Divide(lucide.Options{Size: 32, Class: "my-icon"})
 func Divide(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13024,11 +14058,13 @@ func Divide(opts ...Options) template.HTML {
 // Dna renders the "dna" icon.
 //
 // Usage in templates:
-//   {{ lucide "dna" }}
+//
+//	{{ lucide "dna" }}
 //
 // Direct usage in Go:
-//   lucide.Dna()
-//   lucide.Dna(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dna()
+//	lucide.Dna(lucide.Options{Size: 32, Class: "my-icon"})
 func Dna(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13046,11 +14082,13 @@ func Dna(opts ...Options) template.HTML {
 // DnaOff renders the "dna-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "dna-off" }}
+//
+//	{{ lucide "dna-off" }}
 //
 // Direct usage in Go:
-//   lucide.DnaOff()
-//   lucide.DnaOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DnaOff()
+//	lucide.DnaOff(lucide.Options{Size: 32, Class: "my-icon"})
 func DnaOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13068,11 +14106,13 @@ func DnaOff(opts ...Options) template.HTML {
 // Dock renders the "dock" icon.
 //
 // Usage in templates:
-//   {{ lucide "dock" }}
+//
+//	{{ lucide "dock" }}
 //
 // Direct usage in Go:
-//   lucide.Dock()
-//   lucide.Dock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dock()
+//	lucide.Dock(lucide.Options{Size: 32, Class: "my-icon"})
 func Dock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13090,11 +14130,13 @@ func Dock(opts ...Options) template.HTML {
 // Dog renders the "dog" icon.
 //
 // Usage in templates:
-//   {{ lucide "dog" }}
+//
+//	{{ lucide "dog" }}
 //
 // Direct usage in Go:
-//   lucide.Dog()
-//   lucide.Dog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dog()
+//	lucide.Dog(lucide.Options{Size: 32, Class: "my-icon"})
 func Dog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13112,11 +14154,13 @@ func Dog(opts ...Options) template.HTML {
 // DollarSign renders the "dollar-sign" icon.
 //
 // Usage in templates:
-//   {{ lucide "dollar-sign" }}
+//
+//	{{ lucide "dollar-sign" }}
 //
 // Direct usage in Go:
-//   lucide.DollarSign()
-//   lucide.DollarSign(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DollarSign()
+//	lucide.DollarSign(lucide.Options{Size: 32, Class: "my-icon"})
 func DollarSign(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13134,11 +14178,13 @@ func DollarSign(opts ...Options) template.HTML {
 // Donut renders the "donut" icon.
 //
 // Usage in templates:
-//   {{ lucide "donut" }}
+//
+//	{{ lucide "donut" }}
 //
 // Direct usage in Go:
-//   lucide.Donut()
-//   lucide.Donut(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Donut()
+//	lucide.Donut(lucide.Options{Size: 32, Class: "my-icon"})
 func Donut(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13156,11 +14202,13 @@ func Donut(opts ...Options) template.HTML {
 // DoorClosed renders the "door-closed" icon.
 //
 // Usage in templates:
-//   {{ lucide "door-closed" }}
+//
+//	{{ lucide "door-closed" }}
 //
 // Direct usage in Go:
-//   lucide.DoorClosed()
-//   lucide.DoorClosed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DoorClosed()
+//	lucide.DoorClosed(lucide.Options{Size: 32, Class: "my-icon"})
 func DoorClosed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13178,11 +14226,13 @@ func DoorClosed(opts ...Options) template.HTML {
 // DoorClosedLocked renders the "door-closed-locked" icon.
 //
 // Usage in templates:
-//   {{ lucide "door-closed-locked" }}
+//
+//	{{ lucide "door-closed-locked" }}
 //
 // Direct usage in Go:
-//   lucide.DoorClosedLocked()
-//   lucide.DoorClosedLocked(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DoorClosedLocked()
+//	lucide.DoorClosedLocked(lucide.Options{Size: 32, Class: "my-icon"})
 func DoorClosedLocked(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13200,11 +14250,13 @@ func DoorClosedLocked(opts ...Options) template.HTML {
 // DoorOpen renders the "door-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "door-open" }}
+//
+//	{{ lucide "door-open" }}
 //
 // Direct usage in Go:
-//   lucide.DoorOpen()
-//   lucide.DoorOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DoorOpen()
+//	lucide.DoorOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func DoorOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13222,11 +14274,13 @@ func DoorOpen(opts ...Options) template.HTML {
 // Dot renders the "dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "dot" }}
+//
+//	{{ lucide "dot" }}
 //
 // Direct usage in Go:
-//   lucide.Dot()
-//   lucide.Dot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dot()
+//	lucide.Dot(lucide.Options{Size: 32, Class: "my-icon"})
 func Dot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13244,11 +14298,13 @@ func Dot(opts ...Options) template.HTML {
 // Download renders the "download" icon.
 //
 // Usage in templates:
-//   {{ lucide "download" }}
+//
+//	{{ lucide "download" }}
 //
 // Direct usage in Go:
-//   lucide.Download()
-//   lucide.Download(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Download()
+//	lucide.Download(lucide.Options{Size: 32, Class: "my-icon"})
 func Download(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13266,11 +14322,13 @@ func Download(opts ...Options) template.HTML {
 // DraftingCompass renders the "drafting-compass" icon.
 //
 // Usage in templates:
-//   {{ lucide "drafting-compass" }}
+//
+//	{{ lucide "drafting-compass" }}
 //
 // Direct usage in Go:
-//   lucide.DraftingCompass()
-//   lucide.DraftingCompass(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DraftingCompass()
+//	lucide.DraftingCompass(lucide.Options{Size: 32, Class: "my-icon"})
 func DraftingCompass(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13288,11 +14346,13 @@ func DraftingCompass(opts ...Options) template.HTML {
 // Drama renders the "drama" icon.
 //
 // Usage in templates:
-//   {{ lucide "drama" }}
+//
+//	{{ lucide "drama" }}
 //
 // Direct usage in Go:
-//   lucide.Drama()
-//   lucide.Drama(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Drama()
+//	lucide.Drama(lucide.Options{Size: 32, Class: "my-icon"})
 func Drama(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13310,11 +14370,13 @@ func Drama(opts ...Options) template.HTML {
 // Dribbble renders the "dribbble" icon.
 //
 // Usage in templates:
-//   {{ lucide "dribbble" }}
+//
+//	{{ lucide "dribbble" }}
 //
 // Direct usage in Go:
-//   lucide.Dribbble()
-//   lucide.Dribbble(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dribbble()
+//	lucide.Dribbble(lucide.Options{Size: 32, Class: "my-icon"})
 func Dribbble(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13332,11 +14394,13 @@ func Dribbble(opts ...Options) template.HTML {
 // Drill renders the "drill" icon.
 //
 // Usage in templates:
-//   {{ lucide "drill" }}
+//
+//	{{ lucide "drill" }}
 //
 // Direct usage in Go:
-//   lucide.Drill()
-//   lucide.Drill(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Drill()
+//	lucide.Drill(lucide.Options{Size: 32, Class: "my-icon"})
 func Drill(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13354,11 +14418,13 @@ func Drill(opts ...Options) template.HTML {
 // Drone renders the "drone" icon.
 //
 // Usage in templates:
-//   {{ lucide "drone" }}
+//
+//	{{ lucide "drone" }}
 //
 // Direct usage in Go:
-//   lucide.Drone()
-//   lucide.Drone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Drone()
+//	lucide.Drone(lucide.Options{Size: 32, Class: "my-icon"})
 func Drone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13376,11 +14442,13 @@ func Drone(opts ...Options) template.HTML {
 // Droplet renders the "droplet" icon.
 //
 // Usage in templates:
-//   {{ lucide "droplet" }}
+//
+//	{{ lucide "droplet" }}
 //
 // Direct usage in Go:
-//   lucide.Droplet()
-//   lucide.Droplet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Droplet()
+//	lucide.Droplet(lucide.Options{Size: 32, Class: "my-icon"})
 func Droplet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13398,11 +14466,13 @@ func Droplet(opts ...Options) template.HTML {
 // DropletOff renders the "droplet-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "droplet-off" }}
+//
+//	{{ lucide "droplet-off" }}
 //
 // Direct usage in Go:
-//   lucide.DropletOff()
-//   lucide.DropletOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.DropletOff()
+//	lucide.DropletOff(lucide.Options{Size: 32, Class: "my-icon"})
 func DropletOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13420,11 +14490,13 @@ func DropletOff(opts ...Options) template.HTML {
 // Droplets renders the "droplets" icon.
 //
 // Usage in templates:
-//   {{ lucide "droplets" }}
+//
+//	{{ lucide "droplets" }}
 //
 // Direct usage in Go:
-//   lucide.Droplets()
-//   lucide.Droplets(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Droplets()
+//	lucide.Droplets(lucide.Options{Size: 32, Class: "my-icon"})
 func Droplets(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13442,11 +14514,13 @@ func Droplets(opts ...Options) template.HTML {
 // Drum renders the "drum" icon.
 //
 // Usage in templates:
-//   {{ lucide "drum" }}
+//
+//	{{ lucide "drum" }}
 //
 // Direct usage in Go:
-//   lucide.Drum()
-//   lucide.Drum(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Drum()
+//	lucide.Drum(lucide.Options{Size: 32, Class: "my-icon"})
 func Drum(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13464,11 +14538,13 @@ func Drum(opts ...Options) template.HTML {
 // Drumstick renders the "drumstick" icon.
 //
 // Usage in templates:
-//   {{ lucide "drumstick" }}
+//
+//	{{ lucide "drumstick" }}
 //
 // Direct usage in Go:
-//   lucide.Drumstick()
-//   lucide.Drumstick(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Drumstick()
+//	lucide.Drumstick(lucide.Options{Size: 32, Class: "my-icon"})
 func Drumstick(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13486,11 +14562,13 @@ func Drumstick(opts ...Options) template.HTML {
 // Dumbbell renders the "dumbbell" icon.
 //
 // Usage in templates:
-//   {{ lucide "dumbbell" }}
+//
+//	{{ lucide "dumbbell" }}
 //
 // Direct usage in Go:
-//   lucide.Dumbbell()
-//   lucide.Dumbbell(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Dumbbell()
+//	lucide.Dumbbell(lucide.Options{Size: 32, Class: "my-icon"})
 func Dumbbell(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13508,11 +14586,13 @@ func Dumbbell(opts ...Options) template.HTML {
 // Ear renders the "ear" icon.
 //
 // Usage in templates:
-//   {{ lucide "ear" }}
+//
+//	{{ lucide "ear" }}
 //
 // Direct usage in Go:
-//   lucide.Ear()
-//   lucide.Ear(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ear()
+//	lucide.Ear(lucide.Options{Size: 32, Class: "my-icon"})
 func Ear(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13530,11 +14610,13 @@ func Ear(opts ...Options) template.HTML {
 // EarOff renders the "ear-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "ear-off" }}
+//
+//	{{ lucide "ear-off" }}
 //
 // Direct usage in Go:
-//   lucide.EarOff()
-//   lucide.EarOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EarOff()
+//	lucide.EarOff(lucide.Options{Size: 32, Class: "my-icon"})
 func EarOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13552,11 +14634,13 @@ func EarOff(opts ...Options) template.HTML {
 // Earth renders the "earth" icon.
 //
 // Usage in templates:
-//   {{ lucide "earth" }}
+//
+//	{{ lucide "earth" }}
 //
 // Direct usage in Go:
-//   lucide.Earth()
-//   lucide.Earth(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Earth()
+//	lucide.Earth(lucide.Options{Size: 32, Class: "my-icon"})
 func Earth(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13574,11 +14658,13 @@ func Earth(opts ...Options) template.HTML {
 // EarthLock renders the "earth-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "earth-lock" }}
+//
+//	{{ lucide "earth-lock" }}
 //
 // Direct usage in Go:
-//   lucide.EarthLock()
-//   lucide.EarthLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EarthLock()
+//	lucide.EarthLock(lucide.Options{Size: 32, Class: "my-icon"})
 func EarthLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13596,11 +14682,13 @@ func EarthLock(opts ...Options) template.HTML {
 // Eclipse renders the "eclipse" icon.
 //
 // Usage in templates:
-//   {{ lucide "eclipse" }}
+//
+//	{{ lucide "eclipse" }}
 //
 // Direct usage in Go:
-//   lucide.Eclipse()
-//   lucide.Eclipse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Eclipse()
+//	lucide.Eclipse(lucide.Options{Size: 32, Class: "my-icon"})
 func Eclipse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13618,11 +14706,13 @@ func Eclipse(opts ...Options) template.HTML {
 // Egg renders the "egg" icon.
 //
 // Usage in templates:
-//   {{ lucide "egg" }}
+//
+//	{{ lucide "egg" }}
 //
 // Direct usage in Go:
-//   lucide.Egg()
-//   lucide.Egg(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Egg()
+//	lucide.Egg(lucide.Options{Size: 32, Class: "my-icon"})
 func Egg(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13640,11 +14730,13 @@ func Egg(opts ...Options) template.HTML {
 // EggFried renders the "egg-fried" icon.
 //
 // Usage in templates:
-//   {{ lucide "egg-fried" }}
+//
+//	{{ lucide "egg-fried" }}
 //
 // Direct usage in Go:
-//   lucide.EggFried()
-//   lucide.EggFried(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EggFried()
+//	lucide.EggFried(lucide.Options{Size: 32, Class: "my-icon"})
 func EggFried(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13662,11 +14754,13 @@ func EggFried(opts ...Options) template.HTML {
 // EggOff renders the "egg-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "egg-off" }}
+//
+//	{{ lucide "egg-off" }}
 //
 // Direct usage in Go:
-//   lucide.EggOff()
-//   lucide.EggOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EggOff()
+//	lucide.EggOff(lucide.Options{Size: 32, Class: "my-icon"})
 func EggOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13684,11 +14778,13 @@ func EggOff(opts ...Options) template.HTML {
 // Ellipsis renders the "ellipsis" icon.
 //
 // Usage in templates:
-//   {{ lucide "ellipsis" }}
+//
+//	{{ lucide "ellipsis" }}
 //
 // Direct usage in Go:
-//   lucide.Ellipsis()
-//   lucide.Ellipsis(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ellipsis()
+//	lucide.Ellipsis(lucide.Options{Size: 32, Class: "my-icon"})
 func Ellipsis(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13706,11 +14802,13 @@ func Ellipsis(opts ...Options) template.HTML {
 // EllipsisVertical renders the "ellipsis-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "ellipsis-vertical" }}
+//
+//	{{ lucide "ellipsis-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.EllipsisVertical()
-//   lucide.EllipsisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EllipsisVertical()
+//	lucide.EllipsisVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func EllipsisVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13728,11 +14826,13 @@ func EllipsisVertical(opts ...Options) template.HTML {
 // Equal renders the "equal" icon.
 //
 // Usage in templates:
-//   {{ lucide "equal" }}
+//
+//	{{ lucide "equal" }}
 //
 // Direct usage in Go:
-//   lucide.Equal()
-//   lucide.Equal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Equal()
+//	lucide.Equal(lucide.Options{Size: 32, Class: "my-icon"})
 func Equal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13750,11 +14850,13 @@ func Equal(opts ...Options) template.HTML {
 // EqualApproximately renders the "equal-approximately" icon.
 //
 // Usage in templates:
-//   {{ lucide "equal-approximately" }}
+//
+//	{{ lucide "equal-approximately" }}
 //
 // Direct usage in Go:
-//   lucide.EqualApproximately()
-//   lucide.EqualApproximately(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EqualApproximately()
+//	lucide.EqualApproximately(lucide.Options{Size: 32, Class: "my-icon"})
 func EqualApproximately(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13772,11 +14874,13 @@ func EqualApproximately(opts ...Options) template.HTML {
 // EqualNot renders the "equal-not" icon.
 //
 // Usage in templates:
-//   {{ lucide "equal-not" }}
+//
+//	{{ lucide "equal-not" }}
 //
 // Direct usage in Go:
-//   lucide.EqualNot()
-//   lucide.EqualNot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EqualNot()
+//	lucide.EqualNot(lucide.Options{Size: 32, Class: "my-icon"})
 func EqualNot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13794,11 +14898,13 @@ func EqualNot(opts ...Options) template.HTML {
 // Eraser renders the "eraser" icon.
 //
 // Usage in templates:
-//   {{ lucide "eraser" }}
+//
+//	{{ lucide "eraser" }}
 //
 // Direct usage in Go:
-//   lucide.Eraser()
-//   lucide.Eraser(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Eraser()
+//	lucide.Eraser(lucide.Options{Size: 32, Class: "my-icon"})
 func Eraser(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13816,11 +14922,13 @@ func Eraser(opts ...Options) template.HTML {
 // EthernetPort renders the "ethernet-port" icon.
 //
 // Usage in templates:
-//   {{ lucide "ethernet-port" }}
+//
+//	{{ lucide "ethernet-port" }}
 //
 // Direct usage in Go:
-//   lucide.EthernetPort()
-//   lucide.EthernetPort(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EthernetPort()
+//	lucide.EthernetPort(lucide.Options{Size: 32, Class: "my-icon"})
 func EthernetPort(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13838,11 +14946,13 @@ func EthernetPort(opts ...Options) template.HTML {
 // Euro renders the "euro" icon.
 //
 // Usage in templates:
-//   {{ lucide "euro" }}
+//
+//	{{ lucide "euro" }}
 //
 // Direct usage in Go:
-//   lucide.Euro()
-//   lucide.Euro(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Euro()
+//	lucide.Euro(lucide.Options{Size: 32, Class: "my-icon"})
 func Euro(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13860,11 +14970,13 @@ func Euro(opts ...Options) template.HTML {
 // EvCharger renders the "ev-charger" icon.
 //
 // Usage in templates:
-//   {{ lucide "ev-charger" }}
+//
+//	{{ lucide "ev-charger" }}
 //
 // Direct usage in Go:
-//   lucide.EvCharger()
-//   lucide.EvCharger(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EvCharger()
+//	lucide.EvCharger(lucide.Options{Size: 32, Class: "my-icon"})
 func EvCharger(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13882,11 +14994,13 @@ func EvCharger(opts ...Options) template.HTML {
 // Expand renders the "expand" icon.
 //
 // Usage in templates:
-//   {{ lucide "expand" }}
+//
+//	{{ lucide "expand" }}
 //
 // Direct usage in Go:
-//   lucide.Expand()
-//   lucide.Expand(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Expand()
+//	lucide.Expand(lucide.Options{Size: 32, Class: "my-icon"})
 func Expand(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13904,11 +15018,13 @@ func Expand(opts ...Options) template.HTML {
 // ExternalLink renders the "external-link" icon.
 //
 // Usage in templates:
-//   {{ lucide "external-link" }}
+//
+//	{{ lucide "external-link" }}
 //
 // Direct usage in Go:
-//   lucide.ExternalLink()
-//   lucide.ExternalLink(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ExternalLink()
+//	lucide.ExternalLink(lucide.Options{Size: 32, Class: "my-icon"})
 func ExternalLink(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13926,11 +15042,13 @@ func ExternalLink(opts ...Options) template.HTML {
 // Eye renders the "eye" icon.
 //
 // Usage in templates:
-//   {{ lucide "eye" }}
+//
+//	{{ lucide "eye" }}
 //
 // Direct usage in Go:
-//   lucide.Eye()
-//   lucide.Eye(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Eye()
+//	lucide.Eye(lucide.Options{Size: 32, Class: "my-icon"})
 func Eye(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13948,11 +15066,13 @@ func Eye(opts ...Options) template.HTML {
 // EyeClosed renders the "eye-closed" icon.
 //
 // Usage in templates:
-//   {{ lucide "eye-closed" }}
+//
+//	{{ lucide "eye-closed" }}
 //
 // Direct usage in Go:
-//   lucide.EyeClosed()
-//   lucide.EyeClosed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EyeClosed()
+//	lucide.EyeClosed(lucide.Options{Size: 32, Class: "my-icon"})
 func EyeClosed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13970,11 +15090,13 @@ func EyeClosed(opts ...Options) template.HTML {
 // EyeOff renders the "eye-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "eye-off" }}
+//
+//	{{ lucide "eye-off" }}
 //
 // Direct usage in Go:
-//   lucide.EyeOff()
-//   lucide.EyeOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.EyeOff()
+//	lucide.EyeOff(lucide.Options{Size: 32, Class: "my-icon"})
 func EyeOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -13992,11 +15114,13 @@ func EyeOff(opts ...Options) template.HTML {
 // Facebook renders the "facebook" icon.
 //
 // Usage in templates:
-//   {{ lucide "facebook" }}
+//
+//	{{ lucide "facebook" }}
 //
 // Direct usage in Go:
-//   lucide.Facebook()
-//   lucide.Facebook(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Facebook()
+//	lucide.Facebook(lucide.Options{Size: 32, Class: "my-icon"})
 func Facebook(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14014,11 +15138,13 @@ func Facebook(opts ...Options) template.HTML {
 // Factory renders the "factory" icon.
 //
 // Usage in templates:
-//   {{ lucide "factory" }}
+//
+//	{{ lucide "factory" }}
 //
 // Direct usage in Go:
-//   lucide.Factory()
-//   lucide.Factory(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Factory()
+//	lucide.Factory(lucide.Options{Size: 32, Class: "my-icon"})
 func Factory(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14036,11 +15162,13 @@ func Factory(opts ...Options) template.HTML {
 // Fan renders the "fan" icon.
 //
 // Usage in templates:
-//   {{ lucide "fan" }}
+//
+//	{{ lucide "fan" }}
 //
 // Direct usage in Go:
-//   lucide.Fan()
-//   lucide.Fan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Fan()
+//	lucide.Fan(lucide.Options{Size: 32, Class: "my-icon"})
 func Fan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14058,11 +15186,13 @@ func Fan(opts ...Options) template.HTML {
 // FastForward renders the "fast-forward" icon.
 //
 // Usage in templates:
-//   {{ lucide "fast-forward" }}
+//
+//	{{ lucide "fast-forward" }}
 //
 // Direct usage in Go:
-//   lucide.FastForward()
-//   lucide.FastForward(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FastForward()
+//	lucide.FastForward(lucide.Options{Size: 32, Class: "my-icon"})
 func FastForward(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14080,11 +15210,13 @@ func FastForward(opts ...Options) template.HTML {
 // Feather renders the "feather" icon.
 //
 // Usage in templates:
-//   {{ lucide "feather" }}
+//
+//	{{ lucide "feather" }}
 //
 // Direct usage in Go:
-//   lucide.Feather()
-//   lucide.Feather(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Feather()
+//	lucide.Feather(lucide.Options{Size: 32, Class: "my-icon"})
 func Feather(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14102,11 +15234,13 @@ func Feather(opts ...Options) template.HTML {
 // Fence renders the "fence" icon.
 //
 // Usage in templates:
-//   {{ lucide "fence" }}
+//
+//	{{ lucide "fence" }}
 //
 // Direct usage in Go:
-//   lucide.Fence()
-//   lucide.Fence(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Fence()
+//	lucide.Fence(lucide.Options{Size: 32, Class: "my-icon"})
 func Fence(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14124,11 +15258,13 @@ func Fence(opts ...Options) template.HTML {
 // FerrisWheel renders the "ferris-wheel" icon.
 //
 // Usage in templates:
-//   {{ lucide "ferris-wheel" }}
+//
+//	{{ lucide "ferris-wheel" }}
 //
 // Direct usage in Go:
-//   lucide.FerrisWheel()
-//   lucide.FerrisWheel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FerrisWheel()
+//	lucide.FerrisWheel(lucide.Options{Size: 32, Class: "my-icon"})
 func FerrisWheel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14146,11 +15282,13 @@ func FerrisWheel(opts ...Options) template.HTML {
 // Figma renders the "figma" icon.
 //
 // Usage in templates:
-//   {{ lucide "figma" }}
+//
+//	{{ lucide "figma" }}
 //
 // Direct usage in Go:
-//   lucide.Figma()
-//   lucide.Figma(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Figma()
+//	lucide.Figma(lucide.Options{Size: 32, Class: "my-icon"})
 func Figma(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14168,11 +15306,13 @@ func Figma(opts ...Options) template.HTML {
 // File renders the "file" icon.
 //
 // Usage in templates:
-//   {{ lucide "file" }}
+//
+//	{{ lucide "file" }}
 //
 // Direct usage in Go:
-//   lucide.File()
-//   lucide.File(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.File()
+//	lucide.File(lucide.Options{Size: 32, Class: "my-icon"})
 func File(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14190,11 +15330,13 @@ func File(opts ...Options) template.HTML {
 // FileArchive renders the "file-archive" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-archive" }}
+//
+//	{{ lucide "file-archive" }}
 //
 // Direct usage in Go:
-//   lucide.FileArchive()
-//   lucide.FileArchive(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileArchive()
+//	lucide.FileArchive(lucide.Options{Size: 32, Class: "my-icon"})
 func FileArchive(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14212,11 +15354,13 @@ func FileArchive(opts ...Options) template.HTML {
 // FileAudio renders the "file-audio" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-audio" }}
+//
+//	{{ lucide "file-audio" }}
 //
 // Direct usage in Go:
-//   lucide.FileAudio()
-//   lucide.FileAudio(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileAudio()
+//	lucide.FileAudio(lucide.Options{Size: 32, Class: "my-icon"})
 func FileAudio(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14234,11 +15378,13 @@ func FileAudio(opts ...Options) template.HTML {
 // FileAudio2 renders the "file-audio-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-audio-2" }}
+//
+//	{{ lucide "file-audio-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileAudio2()
-//   lucide.FileAudio2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileAudio2()
+//	lucide.FileAudio2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileAudio2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14256,11 +15402,13 @@ func FileAudio2(opts ...Options) template.HTML {
 // FileAxis3d renders the "file-axis-3d" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-axis-3d" }}
+//
+//	{{ lucide "file-axis-3d" }}
 //
 // Direct usage in Go:
-//   lucide.FileAxis3d()
-//   lucide.FileAxis3d(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileAxis3d()
+//	lucide.FileAxis3d(lucide.Options{Size: 32, Class: "my-icon"})
 func FileAxis3d(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14278,11 +15426,13 @@ func FileAxis3d(opts ...Options) template.HTML {
 // FileBadge renders the "file-badge" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-badge" }}
+//
+//	{{ lucide "file-badge" }}
 //
 // Direct usage in Go:
-//   lucide.FileBadge()
-//   lucide.FileBadge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileBadge()
+//	lucide.FileBadge(lucide.Options{Size: 32, Class: "my-icon"})
 func FileBadge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14300,11 +15450,13 @@ func FileBadge(opts ...Options) template.HTML {
 // FileBadge2 renders the "file-badge-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-badge-2" }}
+//
+//	{{ lucide "file-badge-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileBadge2()
-//   lucide.FileBadge2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileBadge2()
+//	lucide.FileBadge2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileBadge2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14322,11 +15474,13 @@ func FileBadge2(opts ...Options) template.HTML {
 // FileBox renders the "file-box" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-box" }}
+//
+//	{{ lucide "file-box" }}
 //
 // Direct usage in Go:
-//   lucide.FileBox()
-//   lucide.FileBox(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileBox()
+//	lucide.FileBox(lucide.Options{Size: 32, Class: "my-icon"})
 func FileBox(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14344,11 +15498,13 @@ func FileBox(opts ...Options) template.HTML {
 // FileChartColumn renders the "file-chart-column" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-chart-column" }}
+//
+//	{{ lucide "file-chart-column" }}
 //
 // Direct usage in Go:
-//   lucide.FileChartColumn()
-//   lucide.FileChartColumn(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileChartColumn()
+//	lucide.FileChartColumn(lucide.Options{Size: 32, Class: "my-icon"})
 func FileChartColumn(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14366,11 +15522,13 @@ func FileChartColumn(opts ...Options) template.HTML {
 // FileChartColumnIncreasing renders the "file-chart-column-increasing" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-chart-column-increasing" }}
+//
+//	{{ lucide "file-chart-column-increasing" }}
 //
 // Direct usage in Go:
-//   lucide.FileChartColumnIncreasing()
-//   lucide.FileChartColumnIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileChartColumnIncreasing()
+//	lucide.FileChartColumnIncreasing(lucide.Options{Size: 32, Class: "my-icon"})
 func FileChartColumnIncreasing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14388,11 +15546,13 @@ func FileChartColumnIncreasing(opts ...Options) template.HTML {
 // FileChartLine renders the "file-chart-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-chart-line" }}
+//
+//	{{ lucide "file-chart-line" }}
 //
 // Direct usage in Go:
-//   lucide.FileChartLine()
-//   lucide.FileChartLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileChartLine()
+//	lucide.FileChartLine(lucide.Options{Size: 32, Class: "my-icon"})
 func FileChartLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14410,11 +15570,13 @@ func FileChartLine(opts ...Options) template.HTML {
 // FileChartPie renders the "file-chart-pie" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-chart-pie" }}
+//
+//	{{ lucide "file-chart-pie" }}
 //
 // Direct usage in Go:
-//   lucide.FileChartPie()
-//   lucide.FileChartPie(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileChartPie()
+//	lucide.FileChartPie(lucide.Options{Size: 32, Class: "my-icon"})
 func FileChartPie(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14432,11 +15594,13 @@ func FileChartPie(opts ...Options) template.HTML {
 // FileCheck renders the "file-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-check" }}
+//
+//	{{ lucide "file-check" }}
 //
 // Direct usage in Go:
-//   lucide.FileCheck()
-//   lucide.FileCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileCheck()
+//	lucide.FileCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func FileCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14454,11 +15618,13 @@ func FileCheck(opts ...Options) template.HTML {
 // FileCheck2 renders the "file-check-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-check-2" }}
+//
+//	{{ lucide "file-check-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileCheck2()
-//   lucide.FileCheck2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileCheck2()
+//	lucide.FileCheck2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileCheck2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14476,11 +15642,13 @@ func FileCheck2(opts ...Options) template.HTML {
 // FileClock renders the "file-clock" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-clock" }}
+//
+//	{{ lucide "file-clock" }}
 //
 // Direct usage in Go:
-//   lucide.FileClock()
-//   lucide.FileClock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileClock()
+//	lucide.FileClock(lucide.Options{Size: 32, Class: "my-icon"})
 func FileClock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14498,11 +15666,13 @@ func FileClock(opts ...Options) template.HTML {
 // FileCode renders the "file-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-code" }}
+//
+//	{{ lucide "file-code" }}
 //
 // Direct usage in Go:
-//   lucide.FileCode()
-//   lucide.FileCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileCode()
+//	lucide.FileCode(lucide.Options{Size: 32, Class: "my-icon"})
 func FileCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14520,11 +15690,13 @@ func FileCode(opts ...Options) template.HTML {
 // FileCode2 renders the "file-code-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-code-2" }}
+//
+//	{{ lucide "file-code-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileCode2()
-//   lucide.FileCode2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileCode2()
+//	lucide.FileCode2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileCode2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14542,11 +15714,13 @@ func FileCode2(opts ...Options) template.HTML {
 // FileCog renders the "file-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-cog" }}
+//
+//	{{ lucide "file-cog" }}
 //
 // Direct usage in Go:
-//   lucide.FileCog()
-//   lucide.FileCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileCog()
+//	lucide.FileCog(lucide.Options{Size: 32, Class: "my-icon"})
 func FileCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14564,11 +15738,13 @@ func FileCog(opts ...Options) template.HTML {
 // FileDiff renders the "file-diff" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-diff" }}
+//
+//	{{ lucide "file-diff" }}
 //
 // Direct usage in Go:
-//   lucide.FileDiff()
-//   lucide.FileDiff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileDiff()
+//	lucide.FileDiff(lucide.Options{Size: 32, Class: "my-icon"})
 func FileDiff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14586,11 +15762,13 @@ func FileDiff(opts ...Options) template.HTML {
 // FileDigit renders the "file-digit" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-digit" }}
+//
+//	{{ lucide "file-digit" }}
 //
 // Direct usage in Go:
-//   lucide.FileDigit()
-//   lucide.FileDigit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileDigit()
+//	lucide.FileDigit(lucide.Options{Size: 32, Class: "my-icon"})
 func FileDigit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14608,11 +15786,13 @@ func FileDigit(opts ...Options) template.HTML {
 // FileDown renders the "file-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-down" }}
+//
+//	{{ lucide "file-down" }}
 //
 // Direct usage in Go:
-//   lucide.FileDown()
-//   lucide.FileDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileDown()
+//	lucide.FileDown(lucide.Options{Size: 32, Class: "my-icon"})
 func FileDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14630,11 +15810,13 @@ func FileDown(opts ...Options) template.HTML {
 // FileHeart renders the "file-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-heart" }}
+//
+//	{{ lucide "file-heart" }}
 //
 // Direct usage in Go:
-//   lucide.FileHeart()
-//   lucide.FileHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileHeart()
+//	lucide.FileHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func FileHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14652,11 +15834,13 @@ func FileHeart(opts ...Options) template.HTML {
 // FileImage renders the "file-image" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-image" }}
+//
+//	{{ lucide "file-image" }}
 //
 // Direct usage in Go:
-//   lucide.FileImage()
-//   lucide.FileImage(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileImage()
+//	lucide.FileImage(lucide.Options{Size: 32, Class: "my-icon"})
 func FileImage(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14674,11 +15858,13 @@ func FileImage(opts ...Options) template.HTML {
 // FileInput renders the "file-input" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-input" }}
+//
+//	{{ lucide "file-input" }}
 //
 // Direct usage in Go:
-//   lucide.FileInput()
-//   lucide.FileInput(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileInput()
+//	lucide.FileInput(lucide.Options{Size: 32, Class: "my-icon"})
 func FileInput(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14696,11 +15882,13 @@ func FileInput(opts ...Options) template.HTML {
 // FileJson renders the "file-json" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-json" }}
+//
+//	{{ lucide "file-json" }}
 //
 // Direct usage in Go:
-//   lucide.FileJson()
-//   lucide.FileJson(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileJson()
+//	lucide.FileJson(lucide.Options{Size: 32, Class: "my-icon"})
 func FileJson(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14718,11 +15906,13 @@ func FileJson(opts ...Options) template.HTML {
 // FileJson2 renders the "file-json-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-json-2" }}
+//
+//	{{ lucide "file-json-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileJson2()
-//   lucide.FileJson2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileJson2()
+//	lucide.FileJson2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileJson2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14740,11 +15930,13 @@ func FileJson2(opts ...Options) template.HTML {
 // FileKey renders the "file-key" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-key" }}
+//
+//	{{ lucide "file-key" }}
 //
 // Direct usage in Go:
-//   lucide.FileKey()
-//   lucide.FileKey(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileKey()
+//	lucide.FileKey(lucide.Options{Size: 32, Class: "my-icon"})
 func FileKey(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14762,11 +15954,13 @@ func FileKey(opts ...Options) template.HTML {
 // FileKey2 renders the "file-key-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-key-2" }}
+//
+//	{{ lucide "file-key-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileKey2()
-//   lucide.FileKey2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileKey2()
+//	lucide.FileKey2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileKey2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14784,11 +15978,13 @@ func FileKey2(opts ...Options) template.HTML {
 // FileLock renders the "file-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-lock" }}
+//
+//	{{ lucide "file-lock" }}
 //
 // Direct usage in Go:
-//   lucide.FileLock()
-//   lucide.FileLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileLock()
+//	lucide.FileLock(lucide.Options{Size: 32, Class: "my-icon"})
 func FileLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14806,11 +16002,13 @@ func FileLock(opts ...Options) template.HTML {
 // FileLock2 renders the "file-lock-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-lock-2" }}
+//
+//	{{ lucide "file-lock-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileLock2()
-//   lucide.FileLock2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileLock2()
+//	lucide.FileLock2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileLock2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14828,11 +16026,13 @@ func FileLock2(opts ...Options) template.HTML {
 // FileMinus renders the "file-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-minus" }}
+//
+//	{{ lucide "file-minus" }}
 //
 // Direct usage in Go:
-//   lucide.FileMinus()
-//   lucide.FileMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileMinus()
+//	lucide.FileMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func FileMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14850,11 +16050,13 @@ func FileMinus(opts ...Options) template.HTML {
 // FileMinus2 renders the "file-minus-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-minus-2" }}
+//
+//	{{ lucide "file-minus-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileMinus2()
-//   lucide.FileMinus2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileMinus2()
+//	lucide.FileMinus2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileMinus2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14872,11 +16074,13 @@ func FileMinus2(opts ...Options) template.HTML {
 // FileMusic renders the "file-music" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-music" }}
+//
+//	{{ lucide "file-music" }}
 //
 // Direct usage in Go:
-//   lucide.FileMusic()
-//   lucide.FileMusic(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileMusic()
+//	lucide.FileMusic(lucide.Options{Size: 32, Class: "my-icon"})
 func FileMusic(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14894,11 +16098,13 @@ func FileMusic(opts ...Options) template.HTML {
 // FileOutput renders the "file-output" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-output" }}
+//
+//	{{ lucide "file-output" }}
 //
 // Direct usage in Go:
-//   lucide.FileOutput()
-//   lucide.FileOutput(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileOutput()
+//	lucide.FileOutput(lucide.Options{Size: 32, Class: "my-icon"})
 func FileOutput(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14916,11 +16122,13 @@ func FileOutput(opts ...Options) template.HTML {
 // FilePen renders the "file-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-pen" }}
+//
+//	{{ lucide "file-pen" }}
 //
 // Direct usage in Go:
-//   lucide.FilePen()
-//   lucide.FilePen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FilePen()
+//	lucide.FilePen(lucide.Options{Size: 32, Class: "my-icon"})
 func FilePen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14938,11 +16146,13 @@ func FilePen(opts ...Options) template.HTML {
 // FilePenLine renders the "file-pen-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-pen-line" }}
+//
+//	{{ lucide "file-pen-line" }}
 //
 // Direct usage in Go:
-//   lucide.FilePenLine()
-//   lucide.FilePenLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FilePenLine()
+//	lucide.FilePenLine(lucide.Options{Size: 32, Class: "my-icon"})
 func FilePenLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14960,11 +16170,13 @@ func FilePenLine(opts ...Options) template.HTML {
 // FilePlay renders the "file-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-play" }}
+//
+//	{{ lucide "file-play" }}
 //
 // Direct usage in Go:
-//   lucide.FilePlay()
-//   lucide.FilePlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FilePlay()
+//	lucide.FilePlay(lucide.Options{Size: 32, Class: "my-icon"})
 func FilePlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -14982,11 +16194,13 @@ func FilePlay(opts ...Options) template.HTML {
 // FilePlus renders the "file-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-plus" }}
+//
+//	{{ lucide "file-plus" }}
 //
 // Direct usage in Go:
-//   lucide.FilePlus()
-//   lucide.FilePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FilePlus()
+//	lucide.FilePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func FilePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15004,11 +16218,13 @@ func FilePlus(opts ...Options) template.HTML {
 // FilePlus2 renders the "file-plus-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-plus-2" }}
+//
+//	{{ lucide "file-plus-2" }}
 //
 // Direct usage in Go:
-//   lucide.FilePlus2()
-//   lucide.FilePlus2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FilePlus2()
+//	lucide.FilePlus2(lucide.Options{Size: 32, Class: "my-icon"})
 func FilePlus2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15026,11 +16242,13 @@ func FilePlus2(opts ...Options) template.HTML {
 // FileQuestionMark renders the "file-question-mark" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-question-mark" }}
+//
+//	{{ lucide "file-question-mark" }}
 //
 // Direct usage in Go:
-//   lucide.FileQuestionMark()
-//   lucide.FileQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileQuestionMark()
+//	lucide.FileQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
 func FileQuestionMark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15048,11 +16266,13 @@ func FileQuestionMark(opts ...Options) template.HTML {
 // FileScan renders the "file-scan" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-scan" }}
+//
+//	{{ lucide "file-scan" }}
 //
 // Direct usage in Go:
-//   lucide.FileScan()
-//   lucide.FileScan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileScan()
+//	lucide.FileScan(lucide.Options{Size: 32, Class: "my-icon"})
 func FileScan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15070,11 +16290,13 @@ func FileScan(opts ...Options) template.HTML {
 // FileSearch renders the "file-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-search" }}
+//
+//	{{ lucide "file-search" }}
 //
 // Direct usage in Go:
-//   lucide.FileSearch()
-//   lucide.FileSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileSearch()
+//	lucide.FileSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func FileSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15092,11 +16314,13 @@ func FileSearch(opts ...Options) template.HTML {
 // FileSearch2 renders the "file-search-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-search-2" }}
+//
+//	{{ lucide "file-search-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileSearch2()
-//   lucide.FileSearch2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileSearch2()
+//	lucide.FileSearch2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileSearch2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15114,11 +16338,13 @@ func FileSearch2(opts ...Options) template.HTML {
 // FileSliders renders the "file-sliders" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-sliders" }}
+//
+//	{{ lucide "file-sliders" }}
 //
 // Direct usage in Go:
-//   lucide.FileSliders()
-//   lucide.FileSliders(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileSliders()
+//	lucide.FileSliders(lucide.Options{Size: 32, Class: "my-icon"})
 func FileSliders(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15136,11 +16362,13 @@ func FileSliders(opts ...Options) template.HTML {
 // FileSpreadsheet renders the "file-spreadsheet" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-spreadsheet" }}
+//
+//	{{ lucide "file-spreadsheet" }}
 //
 // Direct usage in Go:
-//   lucide.FileSpreadsheet()
-//   lucide.FileSpreadsheet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileSpreadsheet()
+//	lucide.FileSpreadsheet(lucide.Options{Size: 32, Class: "my-icon"})
 func FileSpreadsheet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15158,11 +16386,13 @@ func FileSpreadsheet(opts ...Options) template.HTML {
 // FileStack renders the "file-stack" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-stack" }}
+//
+//	{{ lucide "file-stack" }}
 //
 // Direct usage in Go:
-//   lucide.FileStack()
-//   lucide.FileStack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileStack()
+//	lucide.FileStack(lucide.Options{Size: 32, Class: "my-icon"})
 func FileStack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15180,11 +16410,13 @@ func FileStack(opts ...Options) template.HTML {
 // FileSymlink renders the "file-symlink" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-symlink" }}
+//
+//	{{ lucide "file-symlink" }}
 //
 // Direct usage in Go:
-//   lucide.FileSymlink()
-//   lucide.FileSymlink(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileSymlink()
+//	lucide.FileSymlink(lucide.Options{Size: 32, Class: "my-icon"})
 func FileSymlink(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15202,11 +16434,13 @@ func FileSymlink(opts ...Options) template.HTML {
 // FileTerminal renders the "file-terminal" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-terminal" }}
+//
+//	{{ lucide "file-terminal" }}
 //
 // Direct usage in Go:
-//   lucide.FileTerminal()
-//   lucide.FileTerminal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileTerminal()
+//	lucide.FileTerminal(lucide.Options{Size: 32, Class: "my-icon"})
 func FileTerminal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15224,11 +16458,13 @@ func FileTerminal(opts ...Options) template.HTML {
 // FileText renders the "file-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-text" }}
+//
+//	{{ lucide "file-text" }}
 //
 // Direct usage in Go:
-//   lucide.FileText()
-//   lucide.FileText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileText()
+//	lucide.FileText(lucide.Options{Size: 32, Class: "my-icon"})
 func FileText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15246,11 +16482,13 @@ func FileText(opts ...Options) template.HTML {
 // FileType renders the "file-type" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-type" }}
+//
+//	{{ lucide "file-type" }}
 //
 // Direct usage in Go:
-//   lucide.FileType()
-//   lucide.FileType(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileType()
+//	lucide.FileType(lucide.Options{Size: 32, Class: "my-icon"})
 func FileType(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15268,11 +16506,13 @@ func FileType(opts ...Options) template.HTML {
 // FileType2 renders the "file-type-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-type-2" }}
+//
+//	{{ lucide "file-type-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileType2()
-//   lucide.FileType2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileType2()
+//	lucide.FileType2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileType2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15290,11 +16530,13 @@ func FileType2(opts ...Options) template.HTML {
 // FileUp renders the "file-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-up" }}
+//
+//	{{ lucide "file-up" }}
 //
 // Direct usage in Go:
-//   lucide.FileUp()
-//   lucide.FileUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileUp()
+//	lucide.FileUp(lucide.Options{Size: 32, Class: "my-icon"})
 func FileUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15312,11 +16554,13 @@ func FileUp(opts ...Options) template.HTML {
 // FileUser renders the "file-user" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-user" }}
+//
+//	{{ lucide "file-user" }}
 //
 // Direct usage in Go:
-//   lucide.FileUser()
-//   lucide.FileUser(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileUser()
+//	lucide.FileUser(lucide.Options{Size: 32, Class: "my-icon"})
 func FileUser(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15334,11 +16578,13 @@ func FileUser(opts ...Options) template.HTML {
 // FileVideoCamera renders the "file-video-camera" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-video-camera" }}
+//
+//	{{ lucide "file-video-camera" }}
 //
 // Direct usage in Go:
-//   lucide.FileVideoCamera()
-//   lucide.FileVideoCamera(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileVideoCamera()
+//	lucide.FileVideoCamera(lucide.Options{Size: 32, Class: "my-icon"})
 func FileVideoCamera(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15356,11 +16602,13 @@ func FileVideoCamera(opts ...Options) template.HTML {
 // FileVolume renders the "file-volume" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-volume" }}
+//
+//	{{ lucide "file-volume" }}
 //
 // Direct usage in Go:
-//   lucide.FileVolume()
-//   lucide.FileVolume(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileVolume()
+//	lucide.FileVolume(lucide.Options{Size: 32, Class: "my-icon"})
 func FileVolume(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15378,11 +16626,13 @@ func FileVolume(opts ...Options) template.HTML {
 // FileVolume2 renders the "file-volume-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-volume-2" }}
+//
+//	{{ lucide "file-volume-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileVolume2()
-//   lucide.FileVolume2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileVolume2()
+//	lucide.FileVolume2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileVolume2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15400,11 +16650,13 @@ func FileVolume2(opts ...Options) template.HTML {
 // FileWarning renders the "file-warning" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-warning" }}
+//
+//	{{ lucide "file-warning" }}
 //
 // Direct usage in Go:
-//   lucide.FileWarning()
-//   lucide.FileWarning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileWarning()
+//	lucide.FileWarning(lucide.Options{Size: 32, Class: "my-icon"})
 func FileWarning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15422,11 +16674,13 @@ func FileWarning(opts ...Options) template.HTML {
 // FileX renders the "file-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-x" }}
+//
+//	{{ lucide "file-x" }}
 //
 // Direct usage in Go:
-//   lucide.FileX()
-//   lucide.FileX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileX()
+//	lucide.FileX(lucide.Options{Size: 32, Class: "my-icon"})
 func FileX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15444,11 +16698,13 @@ func FileX(opts ...Options) template.HTML {
 // FileX2 renders the "file-x-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "file-x-2" }}
+//
+//	{{ lucide "file-x-2" }}
 //
 // Direct usage in Go:
-//   lucide.FileX2()
-//   lucide.FileX2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FileX2()
+//	lucide.FileX2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileX2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15466,11 +16722,13 @@ func FileX2(opts ...Options) template.HTML {
 // Files renders the "files" icon.
 //
 // Usage in templates:
-//   {{ lucide "files" }}
+//
+//	{{ lucide "files" }}
 //
 // Direct usage in Go:
-//   lucide.Files()
-//   lucide.Files(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Files()
+//	lucide.Files(lucide.Options{Size: 32, Class: "my-icon"})
 func Files(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15488,11 +16746,13 @@ func Files(opts ...Options) template.HTML {
 // Film renders the "film" icon.
 //
 // Usage in templates:
-//   {{ lucide "film" }}
+//
+//	{{ lucide "film" }}
 //
 // Direct usage in Go:
-//   lucide.Film()
-//   lucide.Film(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Film()
+//	lucide.Film(lucide.Options{Size: 32, Class: "my-icon"})
 func Film(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15510,11 +16770,13 @@ func Film(opts ...Options) template.HTML {
 // Fingerprint renders the "fingerprint" icon.
 //
 // Usage in templates:
-//   {{ lucide "fingerprint" }}
+//
+//	{{ lucide "fingerprint" }}
 //
 // Direct usage in Go:
-//   lucide.Fingerprint()
-//   lucide.Fingerprint(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Fingerprint()
+//	lucide.Fingerprint(lucide.Options{Size: 32, Class: "my-icon"})
 func Fingerprint(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15532,11 +16794,13 @@ func Fingerprint(opts ...Options) template.HTML {
 // FireExtinguisher renders the "fire-extinguisher" icon.
 //
 // Usage in templates:
-//   {{ lucide "fire-extinguisher" }}
+//
+//	{{ lucide "fire-extinguisher" }}
 //
 // Direct usage in Go:
-//   lucide.FireExtinguisher()
-//   lucide.FireExtinguisher(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FireExtinguisher()
+//	lucide.FireExtinguisher(lucide.Options{Size: 32, Class: "my-icon"})
 func FireExtinguisher(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15554,11 +16818,13 @@ func FireExtinguisher(opts ...Options) template.HTML {
 // Fish renders the "fish" icon.
 //
 // Usage in templates:
-//   {{ lucide "fish" }}
+//
+//	{{ lucide "fish" }}
 //
 // Direct usage in Go:
-//   lucide.Fish()
-//   lucide.Fish(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Fish()
+//	lucide.Fish(lucide.Options{Size: 32, Class: "my-icon"})
 func Fish(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15576,11 +16842,13 @@ func Fish(opts ...Options) template.HTML {
 // FishOff renders the "fish-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "fish-off" }}
+//
+//	{{ lucide "fish-off" }}
 //
 // Direct usage in Go:
-//   lucide.FishOff()
-//   lucide.FishOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FishOff()
+//	lucide.FishOff(lucide.Options{Size: 32, Class: "my-icon"})
 func FishOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15598,11 +16866,13 @@ func FishOff(opts ...Options) template.HTML {
 // FishSymbol renders the "fish-symbol" icon.
 //
 // Usage in templates:
-//   {{ lucide "fish-symbol" }}
+//
+//	{{ lucide "fish-symbol" }}
 //
 // Direct usage in Go:
-//   lucide.FishSymbol()
-//   lucide.FishSymbol(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FishSymbol()
+//	lucide.FishSymbol(lucide.Options{Size: 32, Class: "my-icon"})
 func FishSymbol(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15620,11 +16890,13 @@ func FishSymbol(opts ...Options) template.HTML {
 // Flag renders the "flag" icon.
 //
 // Usage in templates:
-//   {{ lucide "flag" }}
+//
+//	{{ lucide "flag" }}
 //
 // Direct usage in Go:
-//   lucide.Flag()
-//   lucide.Flag(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Flag()
+//	lucide.Flag(lucide.Options{Size: 32, Class: "my-icon"})
 func Flag(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15642,11 +16914,13 @@ func Flag(opts ...Options) template.HTML {
 // FlagOff renders the "flag-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "flag-off" }}
+//
+//	{{ lucide "flag-off" }}
 //
 // Direct usage in Go:
-//   lucide.FlagOff()
-//   lucide.FlagOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlagOff()
+//	lucide.FlagOff(lucide.Options{Size: 32, Class: "my-icon"})
 func FlagOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15664,11 +16938,13 @@ func FlagOff(opts ...Options) template.HTML {
 // FlagTriangleLeft renders the "flag-triangle-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "flag-triangle-left" }}
+//
+//	{{ lucide "flag-triangle-left" }}
 //
 // Direct usage in Go:
-//   lucide.FlagTriangleLeft()
-//   lucide.FlagTriangleLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlagTriangleLeft()
+//	lucide.FlagTriangleLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func FlagTriangleLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15686,11 +16962,13 @@ func FlagTriangleLeft(opts ...Options) template.HTML {
 // FlagTriangleRight renders the "flag-triangle-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "flag-triangle-right" }}
+//
+//	{{ lucide "flag-triangle-right" }}
 //
 // Direct usage in Go:
-//   lucide.FlagTriangleRight()
-//   lucide.FlagTriangleRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlagTriangleRight()
+//	lucide.FlagTriangleRight(lucide.Options{Size: 32, Class: "my-icon"})
 func FlagTriangleRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15708,11 +16986,13 @@ func FlagTriangleRight(opts ...Options) template.HTML {
 // Flame renders the "flame" icon.
 //
 // Usage in templates:
-//   {{ lucide "flame" }}
+//
+//	{{ lucide "flame" }}
 //
 // Direct usage in Go:
-//   lucide.Flame()
-//   lucide.Flame(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Flame()
+//	lucide.Flame(lucide.Options{Size: 32, Class: "my-icon"})
 func Flame(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15730,11 +17010,13 @@ func Flame(opts ...Options) template.HTML {
 // FlameKindling renders the "flame-kindling" icon.
 //
 // Usage in templates:
-//   {{ lucide "flame-kindling" }}
+//
+//	{{ lucide "flame-kindling" }}
 //
 // Direct usage in Go:
-//   lucide.FlameKindling()
-//   lucide.FlameKindling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlameKindling()
+//	lucide.FlameKindling(lucide.Options{Size: 32, Class: "my-icon"})
 func FlameKindling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15752,11 +17034,13 @@ func FlameKindling(opts ...Options) template.HTML {
 // Flashlight renders the "flashlight" icon.
 //
 // Usage in templates:
-//   {{ lucide "flashlight" }}
+//
+//	{{ lucide "flashlight" }}
 //
 // Direct usage in Go:
-//   lucide.Flashlight()
-//   lucide.Flashlight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Flashlight()
+//	lucide.Flashlight(lucide.Options{Size: 32, Class: "my-icon"})
 func Flashlight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15774,11 +17058,13 @@ func Flashlight(opts ...Options) template.HTML {
 // FlashlightOff renders the "flashlight-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "flashlight-off" }}
+//
+//	{{ lucide "flashlight-off" }}
 //
 // Direct usage in Go:
-//   lucide.FlashlightOff()
-//   lucide.FlashlightOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlashlightOff()
+//	lucide.FlashlightOff(lucide.Options{Size: 32, Class: "my-icon"})
 func FlashlightOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15796,11 +17082,13 @@ func FlashlightOff(opts ...Options) template.HTML {
 // FlaskConical renders the "flask-conical" icon.
 //
 // Usage in templates:
-//   {{ lucide "flask-conical" }}
+//
+//	{{ lucide "flask-conical" }}
 //
 // Direct usage in Go:
-//   lucide.FlaskConical()
-//   lucide.FlaskConical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlaskConical()
+//	lucide.FlaskConical(lucide.Options{Size: 32, Class: "my-icon"})
 func FlaskConical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15818,11 +17106,13 @@ func FlaskConical(opts ...Options) template.HTML {
 // FlaskConicalOff renders the "flask-conical-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "flask-conical-off" }}
+//
+//	{{ lucide "flask-conical-off" }}
 //
 // Direct usage in Go:
-//   lucide.FlaskConicalOff()
-//   lucide.FlaskConicalOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlaskConicalOff()
+//	lucide.FlaskConicalOff(lucide.Options{Size: 32, Class: "my-icon"})
 func FlaskConicalOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15840,11 +17130,13 @@ func FlaskConicalOff(opts ...Options) template.HTML {
 // FlaskRound renders the "flask-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "flask-round" }}
+//
+//	{{ lucide "flask-round" }}
 //
 // Direct usage in Go:
-//   lucide.FlaskRound()
-//   lucide.FlaskRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlaskRound()
+//	lucide.FlaskRound(lucide.Options{Size: 32, Class: "my-icon"})
 func FlaskRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15862,11 +17154,13 @@ func FlaskRound(opts ...Options) template.HTML {
 // FlipHorizontal renders the "flip-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "flip-horizontal" }}
+//
+//	{{ lucide "flip-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.FlipHorizontal()
-//   lucide.FlipHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlipHorizontal()
+//	lucide.FlipHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func FlipHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15884,11 +17178,13 @@ func FlipHorizontal(opts ...Options) template.HTML {
 // FlipHorizontal2 renders the "flip-horizontal-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "flip-horizontal-2" }}
+//
+//	{{ lucide "flip-horizontal-2" }}
 //
 // Direct usage in Go:
-//   lucide.FlipHorizontal2()
-//   lucide.FlipHorizontal2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlipHorizontal2()
+//	lucide.FlipHorizontal2(lucide.Options{Size: 32, Class: "my-icon"})
 func FlipHorizontal2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15906,11 +17202,13 @@ func FlipHorizontal2(opts ...Options) template.HTML {
 // FlipVertical renders the "flip-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "flip-vertical" }}
+//
+//	{{ lucide "flip-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.FlipVertical()
-//   lucide.FlipVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlipVertical()
+//	lucide.FlipVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func FlipVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15928,11 +17226,13 @@ func FlipVertical(opts ...Options) template.HTML {
 // FlipVertical2 renders the "flip-vertical-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "flip-vertical-2" }}
+//
+//	{{ lucide "flip-vertical-2" }}
 //
 // Direct usage in Go:
-//   lucide.FlipVertical2()
-//   lucide.FlipVertical2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FlipVertical2()
+//	lucide.FlipVertical2(lucide.Options{Size: 32, Class: "my-icon"})
 func FlipVertical2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15950,11 +17250,13 @@ func FlipVertical2(opts ...Options) template.HTML {
 // Flower renders the "flower" icon.
 //
 // Usage in templates:
-//   {{ lucide "flower" }}
+//
+//	{{ lucide "flower" }}
 //
 // Direct usage in Go:
-//   lucide.Flower()
-//   lucide.Flower(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Flower()
+//	lucide.Flower(lucide.Options{Size: 32, Class: "my-icon"})
 func Flower(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15972,11 +17274,13 @@ func Flower(opts ...Options) template.HTML {
 // Flower2 renders the "flower-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "flower-2" }}
+//
+//	{{ lucide "flower-2" }}
 //
 // Direct usage in Go:
-//   lucide.Flower2()
-//   lucide.Flower2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Flower2()
+//	lucide.Flower2(lucide.Options{Size: 32, Class: "my-icon"})
 func Flower2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -15994,11 +17298,13 @@ func Flower2(opts ...Options) template.HTML {
 // Focus renders the "focus" icon.
 //
 // Usage in templates:
-//   {{ lucide "focus" }}
+//
+//	{{ lucide "focus" }}
 //
 // Direct usage in Go:
-//   lucide.Focus()
-//   lucide.Focus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Focus()
+//	lucide.Focus(lucide.Options{Size: 32, Class: "my-icon"})
 func Focus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16016,11 +17322,13 @@ func Focus(opts ...Options) template.HTML {
 // FoldHorizontal renders the "fold-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "fold-horizontal" }}
+//
+//	{{ lucide "fold-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.FoldHorizontal()
-//   lucide.FoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FoldHorizontal()
+//	lucide.FoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func FoldHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16038,11 +17346,13 @@ func FoldHorizontal(opts ...Options) template.HTML {
 // FoldVertical renders the "fold-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "fold-vertical" }}
+//
+//	{{ lucide "fold-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.FoldVertical()
-//   lucide.FoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FoldVertical()
+//	lucide.FoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func FoldVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16060,11 +17370,13 @@ func FoldVertical(opts ...Options) template.HTML {
 // Folder renders the "folder" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder" }}
+//
+//	{{ lucide "folder" }}
 //
 // Direct usage in Go:
-//   lucide.Folder()
-//   lucide.Folder(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Folder()
+//	lucide.Folder(lucide.Options{Size: 32, Class: "my-icon"})
 func Folder(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16082,11 +17394,13 @@ func Folder(opts ...Options) template.HTML {
 // FolderArchive renders the "folder-archive" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-archive" }}
+//
+//	{{ lucide "folder-archive" }}
 //
 // Direct usage in Go:
-//   lucide.FolderArchive()
-//   lucide.FolderArchive(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderArchive()
+//	lucide.FolderArchive(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderArchive(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16104,11 +17418,13 @@ func FolderArchive(opts ...Options) template.HTML {
 // FolderCheck renders the "folder-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-check" }}
+//
+//	{{ lucide "folder-check" }}
 //
 // Direct usage in Go:
-//   lucide.FolderCheck()
-//   lucide.FolderCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderCheck()
+//	lucide.FolderCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16126,11 +17442,13 @@ func FolderCheck(opts ...Options) template.HTML {
 // FolderClock renders the "folder-clock" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-clock" }}
+//
+//	{{ lucide "folder-clock" }}
 //
 // Direct usage in Go:
-//   lucide.FolderClock()
-//   lucide.FolderClock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderClock()
+//	lucide.FolderClock(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderClock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16148,11 +17466,13 @@ func FolderClock(opts ...Options) template.HTML {
 // FolderClosed renders the "folder-closed" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-closed" }}
+//
+//	{{ lucide "folder-closed" }}
 //
 // Direct usage in Go:
-//   lucide.FolderClosed()
-//   lucide.FolderClosed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderClosed()
+//	lucide.FolderClosed(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderClosed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16170,11 +17490,13 @@ func FolderClosed(opts ...Options) template.HTML {
 // FolderCode renders the "folder-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-code" }}
+//
+//	{{ lucide "folder-code" }}
 //
 // Direct usage in Go:
-//   lucide.FolderCode()
-//   lucide.FolderCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderCode()
+//	lucide.FolderCode(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16192,11 +17514,13 @@ func FolderCode(opts ...Options) template.HTML {
 // FolderCog renders the "folder-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-cog" }}
+//
+//	{{ lucide "folder-cog" }}
 //
 // Direct usage in Go:
-//   lucide.FolderCog()
-//   lucide.FolderCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderCog()
+//	lucide.FolderCog(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16214,11 +17538,13 @@ func FolderCog(opts ...Options) template.HTML {
 // FolderDot renders the "folder-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-dot" }}
+//
+//	{{ lucide "folder-dot" }}
 //
 // Direct usage in Go:
-//   lucide.FolderDot()
-//   lucide.FolderDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderDot()
+//	lucide.FolderDot(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16236,11 +17562,13 @@ func FolderDot(opts ...Options) template.HTML {
 // FolderDown renders the "folder-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-down" }}
+//
+//	{{ lucide "folder-down" }}
 //
 // Direct usage in Go:
-//   lucide.FolderDown()
-//   lucide.FolderDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderDown()
+//	lucide.FolderDown(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16258,11 +17586,13 @@ func FolderDown(opts ...Options) template.HTML {
 // FolderGit renders the "folder-git" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-git" }}
+//
+//	{{ lucide "folder-git" }}
 //
 // Direct usage in Go:
-//   lucide.FolderGit()
-//   lucide.FolderGit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderGit()
+//	lucide.FolderGit(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderGit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16280,11 +17610,13 @@ func FolderGit(opts ...Options) template.HTML {
 // FolderGit2 renders the "folder-git-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-git-2" }}
+//
+//	{{ lucide "folder-git-2" }}
 //
 // Direct usage in Go:
-//   lucide.FolderGit2()
-//   lucide.FolderGit2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderGit2()
+//	lucide.FolderGit2(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderGit2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16302,11 +17634,13 @@ func FolderGit2(opts ...Options) template.HTML {
 // FolderHeart renders the "folder-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-heart" }}
+//
+//	{{ lucide "folder-heart" }}
 //
 // Direct usage in Go:
-//   lucide.FolderHeart()
-//   lucide.FolderHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderHeart()
+//	lucide.FolderHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16324,11 +17658,13 @@ func FolderHeart(opts ...Options) template.HTML {
 // FolderInput renders the "folder-input" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-input" }}
+//
+//	{{ lucide "folder-input" }}
 //
 // Direct usage in Go:
-//   lucide.FolderInput()
-//   lucide.FolderInput(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderInput()
+//	lucide.FolderInput(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderInput(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16346,11 +17682,13 @@ func FolderInput(opts ...Options) template.HTML {
 // FolderKanban renders the "folder-kanban" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-kanban" }}
+//
+//	{{ lucide "folder-kanban" }}
 //
 // Direct usage in Go:
-//   lucide.FolderKanban()
-//   lucide.FolderKanban(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderKanban()
+//	lucide.FolderKanban(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderKanban(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16368,11 +17706,13 @@ func FolderKanban(opts ...Options) template.HTML {
 // FolderKey renders the "folder-key" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-key" }}
+//
+//	{{ lucide "folder-key" }}
 //
 // Direct usage in Go:
-//   lucide.FolderKey()
-//   lucide.FolderKey(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderKey()
+//	lucide.FolderKey(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderKey(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16390,11 +17730,13 @@ func FolderKey(opts ...Options) template.HTML {
 // FolderLock renders the "folder-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-lock" }}
+//
+//	{{ lucide "folder-lock" }}
 //
 // Direct usage in Go:
-//   lucide.FolderLock()
-//   lucide.FolderLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderLock()
+//	lucide.FolderLock(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16412,11 +17754,13 @@ func FolderLock(opts ...Options) template.HTML {
 // FolderMinus renders the "folder-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-minus" }}
+//
+//	{{ lucide "folder-minus" }}
 //
 // Direct usage in Go:
-//   lucide.FolderMinus()
-//   lucide.FolderMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderMinus()
+//	lucide.FolderMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16434,11 +17778,13 @@ func FolderMinus(opts ...Options) template.HTML {
 // FolderOpen renders the "folder-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-open" }}
+//
+//	{{ lucide "folder-open" }}
 //
 // Direct usage in Go:
-//   lucide.FolderOpen()
-//   lucide.FolderOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderOpen()
+//	lucide.FolderOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16456,11 +17802,13 @@ func FolderOpen(opts ...Options) template.HTML {
 // FolderOpenDot renders the "folder-open-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-open-dot" }}
+//
+//	{{ lucide "folder-open-dot" }}
 //
 // Direct usage in Go:
-//   lucide.FolderOpenDot()
-//   lucide.FolderOpenDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderOpenDot()
+//	lucide.FolderOpenDot(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderOpenDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16478,11 +17826,13 @@ func FolderOpenDot(opts ...Options) template.HTML {
 // FolderOutput renders the "folder-output" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-output" }}
+//
+//	{{ lucide "folder-output" }}
 //
 // Direct usage in Go:
-//   lucide.FolderOutput()
-//   lucide.FolderOutput(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderOutput()
+//	lucide.FolderOutput(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderOutput(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16500,11 +17850,13 @@ func FolderOutput(opts ...Options) template.HTML {
 // FolderPen renders the "folder-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-pen" }}
+//
+//	{{ lucide "folder-pen" }}
 //
 // Direct usage in Go:
-//   lucide.FolderPen()
-//   lucide.FolderPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderPen()
+//	lucide.FolderPen(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16522,11 +17874,13 @@ func FolderPen(opts ...Options) template.HTML {
 // FolderPlus renders the "folder-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-plus" }}
+//
+//	{{ lucide "folder-plus" }}
 //
 // Direct usage in Go:
-//   lucide.FolderPlus()
-//   lucide.FolderPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderPlus()
+//	lucide.FolderPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16544,11 +17898,13 @@ func FolderPlus(opts ...Options) template.HTML {
 // FolderRoot renders the "folder-root" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-root" }}
+//
+//	{{ lucide "folder-root" }}
 //
 // Direct usage in Go:
-//   lucide.FolderRoot()
-//   lucide.FolderRoot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderRoot()
+//	lucide.FolderRoot(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderRoot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16566,11 +17922,13 @@ func FolderRoot(opts ...Options) template.HTML {
 // FolderSearch renders the "folder-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-search" }}
+//
+//	{{ lucide "folder-search" }}
 //
 // Direct usage in Go:
-//   lucide.FolderSearch()
-//   lucide.FolderSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderSearch()
+//	lucide.FolderSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16588,11 +17946,13 @@ func FolderSearch(opts ...Options) template.HTML {
 // FolderSearch2 renders the "folder-search-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-search-2" }}
+//
+//	{{ lucide "folder-search-2" }}
 //
 // Direct usage in Go:
-//   lucide.FolderSearch2()
-//   lucide.FolderSearch2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderSearch2()
+//	lucide.FolderSearch2(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderSearch2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16610,11 +17970,13 @@ func FolderSearch2(opts ...Options) template.HTML {
 // FolderSymlink renders the "folder-symlink" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-symlink" }}
+//
+//	{{ lucide "folder-symlink" }}
 //
 // Direct usage in Go:
-//   lucide.FolderSymlink()
-//   lucide.FolderSymlink(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderSymlink()
+//	lucide.FolderSymlink(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderSymlink(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16632,11 +17994,13 @@ func FolderSymlink(opts ...Options) template.HTML {
 // FolderSync renders the "folder-sync" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-sync" }}
+//
+//	{{ lucide "folder-sync" }}
 //
 // Direct usage in Go:
-//   lucide.FolderSync()
-//   lucide.FolderSync(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderSync()
+//	lucide.FolderSync(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderSync(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16654,11 +18018,13 @@ func FolderSync(opts ...Options) template.HTML {
 // FolderTree renders the "folder-tree" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-tree" }}
+//
+//	{{ lucide "folder-tree" }}
 //
 // Direct usage in Go:
-//   lucide.FolderTree()
-//   lucide.FolderTree(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderTree()
+//	lucide.FolderTree(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderTree(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16676,11 +18042,13 @@ func FolderTree(opts ...Options) template.HTML {
 // FolderUp renders the "folder-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-up" }}
+//
+//	{{ lucide "folder-up" }}
 //
 // Direct usage in Go:
-//   lucide.FolderUp()
-//   lucide.FolderUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderUp()
+//	lucide.FolderUp(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16698,11 +18066,13 @@ func FolderUp(opts ...Options) template.HTML {
 // FolderX renders the "folder-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "folder-x" }}
+//
+//	{{ lucide "folder-x" }}
 //
 // Direct usage in Go:
-//   lucide.FolderX()
-//   lucide.FolderX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FolderX()
+//	lucide.FolderX(lucide.Options{Size: 32, Class: "my-icon"})
 func FolderX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16720,11 +18090,13 @@ func FolderX(opts ...Options) template.HTML {
 // Folders renders the "folders" icon.
 //
 // Usage in templates:
-//   {{ lucide "folders" }}
+//
+//	{{ lucide "folders" }}
 //
 // Direct usage in Go:
-//   lucide.Folders()
-//   lucide.Folders(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Folders()
+//	lucide.Folders(lucide.Options{Size: 32, Class: "my-icon"})
 func Folders(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16742,11 +18114,13 @@ func Folders(opts ...Options) template.HTML {
 // Footprints renders the "footprints" icon.
 //
 // Usage in templates:
-//   {{ lucide "footprints" }}
+//
+//	{{ lucide "footprints" }}
 //
 // Direct usage in Go:
-//   lucide.Footprints()
-//   lucide.Footprints(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Footprints()
+//	lucide.Footprints(lucide.Options{Size: 32, Class: "my-icon"})
 func Footprints(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16764,11 +18138,13 @@ func Footprints(opts ...Options) template.HTML {
 // Forklift renders the "forklift" icon.
 //
 // Usage in templates:
-//   {{ lucide "forklift" }}
+//
+//	{{ lucide "forklift" }}
 //
 // Direct usage in Go:
-//   lucide.Forklift()
-//   lucide.Forklift(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Forklift()
+//	lucide.Forklift(lucide.Options{Size: 32, Class: "my-icon"})
 func Forklift(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16786,11 +18162,13 @@ func Forklift(opts ...Options) template.HTML {
 // Forward renders the "forward" icon.
 //
 // Usage in templates:
-//   {{ lucide "forward" }}
+//
+//	{{ lucide "forward" }}
 //
 // Direct usage in Go:
-//   lucide.Forward()
-//   lucide.Forward(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Forward()
+//	lucide.Forward(lucide.Options{Size: 32, Class: "my-icon"})
 func Forward(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16808,11 +18186,13 @@ func Forward(opts ...Options) template.HTML {
 // Frame renders the "frame" icon.
 //
 // Usage in templates:
-//   {{ lucide "frame" }}
+//
+//	{{ lucide "frame" }}
 //
 // Direct usage in Go:
-//   lucide.Frame()
-//   lucide.Frame(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Frame()
+//	lucide.Frame(lucide.Options{Size: 32, Class: "my-icon"})
 func Frame(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16830,11 +18210,13 @@ func Frame(opts ...Options) template.HTML {
 // Framer renders the "framer" icon.
 //
 // Usage in templates:
-//   {{ lucide "framer" }}
+//
+//	{{ lucide "framer" }}
 //
 // Direct usage in Go:
-//   lucide.Framer()
-//   lucide.Framer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Framer()
+//	lucide.Framer(lucide.Options{Size: 32, Class: "my-icon"})
 func Framer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16852,11 +18234,13 @@ func Framer(opts ...Options) template.HTML {
 // Frown renders the "frown" icon.
 //
 // Usage in templates:
-//   {{ lucide "frown" }}
+//
+//	{{ lucide "frown" }}
 //
 // Direct usage in Go:
-//   lucide.Frown()
-//   lucide.Frown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Frown()
+//	lucide.Frown(lucide.Options{Size: 32, Class: "my-icon"})
 func Frown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16874,11 +18258,13 @@ func Frown(opts ...Options) template.HTML {
 // Fuel renders the "fuel" icon.
 //
 // Usage in templates:
-//   {{ lucide "fuel" }}
+//
+//	{{ lucide "fuel" }}
 //
 // Direct usage in Go:
-//   lucide.Fuel()
-//   lucide.Fuel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Fuel()
+//	lucide.Fuel(lucide.Options{Size: 32, Class: "my-icon"})
 func Fuel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16896,11 +18282,13 @@ func Fuel(opts ...Options) template.HTML {
 // Fullscreen renders the "fullscreen" icon.
 //
 // Usage in templates:
-//   {{ lucide "fullscreen" }}
+//
+//	{{ lucide "fullscreen" }}
 //
 // Direct usage in Go:
-//   lucide.Fullscreen()
-//   lucide.Fullscreen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Fullscreen()
+//	lucide.Fullscreen(lucide.Options{Size: 32, Class: "my-icon"})
 func Fullscreen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16918,11 +18306,13 @@ func Fullscreen(opts ...Options) template.HTML {
 // Funnel renders the "funnel" icon.
 //
 // Usage in templates:
-//   {{ lucide "funnel" }}
+//
+//	{{ lucide "funnel" }}
 //
 // Direct usage in Go:
-//   lucide.Funnel()
-//   lucide.Funnel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Funnel()
+//	lucide.Funnel(lucide.Options{Size: 32, Class: "my-icon"})
 func Funnel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16940,11 +18330,13 @@ func Funnel(opts ...Options) template.HTML {
 // FunnelPlus renders the "funnel-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "funnel-plus" }}
+//
+//	{{ lucide "funnel-plus" }}
 //
 // Direct usage in Go:
-//   lucide.FunnelPlus()
-//   lucide.FunnelPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FunnelPlus()
+//	lucide.FunnelPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func FunnelPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16962,11 +18354,13 @@ func FunnelPlus(opts ...Options) template.HTML {
 // FunnelX renders the "funnel-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "funnel-x" }}
+//
+//	{{ lucide "funnel-x" }}
 //
 // Direct usage in Go:
-//   lucide.FunnelX()
-//   lucide.FunnelX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.FunnelX()
+//	lucide.FunnelX(lucide.Options{Size: 32, Class: "my-icon"})
 func FunnelX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -16984,11 +18378,13 @@ func FunnelX(opts ...Options) template.HTML {
 // GalleryHorizontal renders the "gallery-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "gallery-horizontal" }}
+//
+//	{{ lucide "gallery-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.GalleryHorizontal()
-//   lucide.GalleryHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GalleryHorizontal()
+//	lucide.GalleryHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func GalleryHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17006,11 +18402,13 @@ func GalleryHorizontal(opts ...Options) template.HTML {
 // GalleryHorizontalEnd renders the "gallery-horizontal-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "gallery-horizontal-end" }}
+//
+//	{{ lucide "gallery-horizontal-end" }}
 //
 // Direct usage in Go:
-//   lucide.GalleryHorizontalEnd()
-//   lucide.GalleryHorizontalEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GalleryHorizontalEnd()
+//	lucide.GalleryHorizontalEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func GalleryHorizontalEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17028,11 +18426,13 @@ func GalleryHorizontalEnd(opts ...Options) template.HTML {
 // GalleryThumbnails renders the "gallery-thumbnails" icon.
 //
 // Usage in templates:
-//   {{ lucide "gallery-thumbnails" }}
+//
+//	{{ lucide "gallery-thumbnails" }}
 //
 // Direct usage in Go:
-//   lucide.GalleryThumbnails()
-//   lucide.GalleryThumbnails(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GalleryThumbnails()
+//	lucide.GalleryThumbnails(lucide.Options{Size: 32, Class: "my-icon"})
 func GalleryThumbnails(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17050,11 +18450,13 @@ func GalleryThumbnails(opts ...Options) template.HTML {
 // GalleryVertical renders the "gallery-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "gallery-vertical" }}
+//
+//	{{ lucide "gallery-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.GalleryVertical()
-//   lucide.GalleryVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GalleryVertical()
+//	lucide.GalleryVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func GalleryVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17072,11 +18474,13 @@ func GalleryVertical(opts ...Options) template.HTML {
 // GalleryVerticalEnd renders the "gallery-vertical-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "gallery-vertical-end" }}
+//
+//	{{ lucide "gallery-vertical-end" }}
 //
 // Direct usage in Go:
-//   lucide.GalleryVerticalEnd()
-//   lucide.GalleryVerticalEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GalleryVerticalEnd()
+//	lucide.GalleryVerticalEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func GalleryVerticalEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17094,11 +18498,13 @@ func GalleryVerticalEnd(opts ...Options) template.HTML {
 // Gamepad renders the "gamepad" icon.
 //
 // Usage in templates:
-//   {{ lucide "gamepad" }}
+//
+//	{{ lucide "gamepad" }}
 //
 // Direct usage in Go:
-//   lucide.Gamepad()
-//   lucide.Gamepad(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gamepad()
+//	lucide.Gamepad(lucide.Options{Size: 32, Class: "my-icon"})
 func Gamepad(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17116,11 +18522,13 @@ func Gamepad(opts ...Options) template.HTML {
 // Gamepad2 renders the "gamepad-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "gamepad-2" }}
+//
+//	{{ lucide "gamepad-2" }}
 //
 // Direct usage in Go:
-//   lucide.Gamepad2()
-//   lucide.Gamepad2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gamepad2()
+//	lucide.Gamepad2(lucide.Options{Size: 32, Class: "my-icon"})
 func Gamepad2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17138,11 +18546,13 @@ func Gamepad2(opts ...Options) template.HTML {
 // GamepadDirectional renders the "gamepad-directional" icon.
 //
 // Usage in templates:
-//   {{ lucide "gamepad-directional" }}
+//
+//	{{ lucide "gamepad-directional" }}
 //
 // Direct usage in Go:
-//   lucide.GamepadDirectional()
-//   lucide.GamepadDirectional(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GamepadDirectional()
+//	lucide.GamepadDirectional(lucide.Options{Size: 32, Class: "my-icon"})
 func GamepadDirectional(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17160,11 +18570,13 @@ func GamepadDirectional(opts ...Options) template.HTML {
 // Gauge renders the "gauge" icon.
 //
 // Usage in templates:
-//   {{ lucide "gauge" }}
+//
+//	{{ lucide "gauge" }}
 //
 // Direct usage in Go:
-//   lucide.Gauge()
-//   lucide.Gauge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gauge()
+//	lucide.Gauge(lucide.Options{Size: 32, Class: "my-icon"})
 func Gauge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17182,11 +18594,13 @@ func Gauge(opts ...Options) template.HTML {
 // Gavel renders the "gavel" icon.
 //
 // Usage in templates:
-//   {{ lucide "gavel" }}
+//
+//	{{ lucide "gavel" }}
 //
 // Direct usage in Go:
-//   lucide.Gavel()
-//   lucide.Gavel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gavel()
+//	lucide.Gavel(lucide.Options{Size: 32, Class: "my-icon"})
 func Gavel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17204,11 +18618,13 @@ func Gavel(opts ...Options) template.HTML {
 // Gem renders the "gem" icon.
 //
 // Usage in templates:
-//   {{ lucide "gem" }}
+//
+//	{{ lucide "gem" }}
 //
 // Direct usage in Go:
-//   lucide.Gem()
-//   lucide.Gem(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gem()
+//	lucide.Gem(lucide.Options{Size: 32, Class: "my-icon"})
 func Gem(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17226,11 +18642,13 @@ func Gem(opts ...Options) template.HTML {
 // GeorgianLari renders the "georgian-lari" icon.
 //
 // Usage in templates:
-//   {{ lucide "georgian-lari" }}
+//
+//	{{ lucide "georgian-lari" }}
 //
 // Direct usage in Go:
-//   lucide.GeorgianLari()
-//   lucide.GeorgianLari(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GeorgianLari()
+//	lucide.GeorgianLari(lucide.Options{Size: 32, Class: "my-icon"})
 func GeorgianLari(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17248,11 +18666,13 @@ func GeorgianLari(opts ...Options) template.HTML {
 // Ghost renders the "ghost" icon.
 //
 // Usage in templates:
-//   {{ lucide "ghost" }}
+//
+//	{{ lucide "ghost" }}
 //
 // Direct usage in Go:
-//   lucide.Ghost()
-//   lucide.Ghost(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ghost()
+//	lucide.Ghost(lucide.Options{Size: 32, Class: "my-icon"})
 func Ghost(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17270,11 +18690,13 @@ func Ghost(opts ...Options) template.HTML {
 // Gift renders the "gift" icon.
 //
 // Usage in templates:
-//   {{ lucide "gift" }}
+//
+//	{{ lucide "gift" }}
 //
 // Direct usage in Go:
-//   lucide.Gift()
-//   lucide.Gift(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gift()
+//	lucide.Gift(lucide.Options{Size: 32, Class: "my-icon"})
 func Gift(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17292,11 +18714,13 @@ func Gift(opts ...Options) template.HTML {
 // GitBranch renders the "git-branch" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-branch" }}
+//
+//	{{ lucide "git-branch" }}
 //
 // Direct usage in Go:
-//   lucide.GitBranch()
-//   lucide.GitBranch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitBranch()
+//	lucide.GitBranch(lucide.Options{Size: 32, Class: "my-icon"})
 func GitBranch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17314,11 +18738,13 @@ func GitBranch(opts ...Options) template.HTML {
 // GitBranchPlus renders the "git-branch-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-branch-plus" }}
+//
+//	{{ lucide "git-branch-plus" }}
 //
 // Direct usage in Go:
-//   lucide.GitBranchPlus()
-//   lucide.GitBranchPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitBranchPlus()
+//	lucide.GitBranchPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func GitBranchPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17336,11 +18762,13 @@ func GitBranchPlus(opts ...Options) template.HTML {
 // GitCommitHorizontal renders the "git-commit-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-commit-horizontal" }}
+//
+//	{{ lucide "git-commit-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.GitCommitHorizontal()
-//   lucide.GitCommitHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitCommitHorizontal()
+//	lucide.GitCommitHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func GitCommitHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17358,11 +18786,13 @@ func GitCommitHorizontal(opts ...Options) template.HTML {
 // GitCommitVertical renders the "git-commit-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-commit-vertical" }}
+//
+//	{{ lucide "git-commit-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.GitCommitVertical()
-//   lucide.GitCommitVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitCommitVertical()
+//	lucide.GitCommitVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func GitCommitVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17380,11 +18810,13 @@ func GitCommitVertical(opts ...Options) template.HTML {
 // GitCompare renders the "git-compare" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-compare" }}
+//
+//	{{ lucide "git-compare" }}
 //
 // Direct usage in Go:
-//   lucide.GitCompare()
-//   lucide.GitCompare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitCompare()
+//	lucide.GitCompare(lucide.Options{Size: 32, Class: "my-icon"})
 func GitCompare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17402,11 +18834,13 @@ func GitCompare(opts ...Options) template.HTML {
 // GitCompareArrows renders the "git-compare-arrows" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-compare-arrows" }}
+//
+//	{{ lucide "git-compare-arrows" }}
 //
 // Direct usage in Go:
-//   lucide.GitCompareArrows()
-//   lucide.GitCompareArrows(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitCompareArrows()
+//	lucide.GitCompareArrows(lucide.Options{Size: 32, Class: "my-icon"})
 func GitCompareArrows(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17424,11 +18858,13 @@ func GitCompareArrows(opts ...Options) template.HTML {
 // GitFork renders the "git-fork" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-fork" }}
+//
+//	{{ lucide "git-fork" }}
 //
 // Direct usage in Go:
-//   lucide.GitFork()
-//   lucide.GitFork(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitFork()
+//	lucide.GitFork(lucide.Options{Size: 32, Class: "my-icon"})
 func GitFork(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17446,11 +18882,13 @@ func GitFork(opts ...Options) template.HTML {
 // GitGraph renders the "git-graph" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-graph" }}
+//
+//	{{ lucide "git-graph" }}
 //
 // Direct usage in Go:
-//   lucide.GitGraph()
-//   lucide.GitGraph(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitGraph()
+//	lucide.GitGraph(lucide.Options{Size: 32, Class: "my-icon"})
 func GitGraph(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17468,11 +18906,13 @@ func GitGraph(opts ...Options) template.HTML {
 // GitMerge renders the "git-merge" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-merge" }}
+//
+//	{{ lucide "git-merge" }}
 //
 // Direct usage in Go:
-//   lucide.GitMerge()
-//   lucide.GitMerge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitMerge()
+//	lucide.GitMerge(lucide.Options{Size: 32, Class: "my-icon"})
 func GitMerge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17490,11 +18930,13 @@ func GitMerge(opts ...Options) template.HTML {
 // GitPullRequest renders the "git-pull-request" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-pull-request" }}
+//
+//	{{ lucide "git-pull-request" }}
 //
 // Direct usage in Go:
-//   lucide.GitPullRequest()
-//   lucide.GitPullRequest(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitPullRequest()
+//	lucide.GitPullRequest(lucide.Options{Size: 32, Class: "my-icon"})
 func GitPullRequest(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17512,11 +18954,13 @@ func GitPullRequest(opts ...Options) template.HTML {
 // GitPullRequestArrow renders the "git-pull-request-arrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-pull-request-arrow" }}
+//
+//	{{ lucide "git-pull-request-arrow" }}
 //
 // Direct usage in Go:
-//   lucide.GitPullRequestArrow()
-//   lucide.GitPullRequestArrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitPullRequestArrow()
+//	lucide.GitPullRequestArrow(lucide.Options{Size: 32, Class: "my-icon"})
 func GitPullRequestArrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17534,11 +18978,13 @@ func GitPullRequestArrow(opts ...Options) template.HTML {
 // GitPullRequestClosed renders the "git-pull-request-closed" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-pull-request-closed" }}
+//
+//	{{ lucide "git-pull-request-closed" }}
 //
 // Direct usage in Go:
-//   lucide.GitPullRequestClosed()
-//   lucide.GitPullRequestClosed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitPullRequestClosed()
+//	lucide.GitPullRequestClosed(lucide.Options{Size: 32, Class: "my-icon"})
 func GitPullRequestClosed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17556,11 +19002,13 @@ func GitPullRequestClosed(opts ...Options) template.HTML {
 // GitPullRequestCreate renders the "git-pull-request-create" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-pull-request-create" }}
+//
+//	{{ lucide "git-pull-request-create" }}
 //
 // Direct usage in Go:
-//   lucide.GitPullRequestCreate()
-//   lucide.GitPullRequestCreate(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitPullRequestCreate()
+//	lucide.GitPullRequestCreate(lucide.Options{Size: 32, Class: "my-icon"})
 func GitPullRequestCreate(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17578,11 +19026,13 @@ func GitPullRequestCreate(opts ...Options) template.HTML {
 // GitPullRequestCreateArrow renders the "git-pull-request-create-arrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-pull-request-create-arrow" }}
+//
+//	{{ lucide "git-pull-request-create-arrow" }}
 //
 // Direct usage in Go:
-//   lucide.GitPullRequestCreateArrow()
-//   lucide.GitPullRequestCreateArrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitPullRequestCreateArrow()
+//	lucide.GitPullRequestCreateArrow(lucide.Options{Size: 32, Class: "my-icon"})
 func GitPullRequestCreateArrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17600,11 +19050,13 @@ func GitPullRequestCreateArrow(opts ...Options) template.HTML {
 // GitPullRequestDraft renders the "git-pull-request-draft" icon.
 //
 // Usage in templates:
-//   {{ lucide "git-pull-request-draft" }}
+//
+//	{{ lucide "git-pull-request-draft" }}
 //
 // Direct usage in Go:
-//   lucide.GitPullRequestDraft()
-//   lucide.GitPullRequestDraft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GitPullRequestDraft()
+//	lucide.GitPullRequestDraft(lucide.Options{Size: 32, Class: "my-icon"})
 func GitPullRequestDraft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17622,11 +19074,13 @@ func GitPullRequestDraft(opts ...Options) template.HTML {
 // Github renders the "github" icon.
 //
 // Usage in templates:
-//   {{ lucide "github" }}
+//
+//	{{ lucide "github" }}
 //
 // Direct usage in Go:
-//   lucide.Github()
-//   lucide.Github(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Github()
+//	lucide.Github(lucide.Options{Size: 32, Class: "my-icon"})
 func Github(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17644,11 +19098,13 @@ func Github(opts ...Options) template.HTML {
 // Gitlab renders the "gitlab" icon.
 //
 // Usage in templates:
-//   {{ lucide "gitlab" }}
+//
+//	{{ lucide "gitlab" }}
 //
 // Direct usage in Go:
-//   lucide.Gitlab()
-//   lucide.Gitlab(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gitlab()
+//	lucide.Gitlab(lucide.Options{Size: 32, Class: "my-icon"})
 func Gitlab(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17666,11 +19122,13 @@ func Gitlab(opts ...Options) template.HTML {
 // GlassWater renders the "glass-water" icon.
 //
 // Usage in templates:
-//   {{ lucide "glass-water" }}
+//
+//	{{ lucide "glass-water" }}
 //
 // Direct usage in Go:
-//   lucide.GlassWater()
-//   lucide.GlassWater(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GlassWater()
+//	lucide.GlassWater(lucide.Options{Size: 32, Class: "my-icon"})
 func GlassWater(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17688,11 +19146,13 @@ func GlassWater(opts ...Options) template.HTML {
 // Glasses renders the "glasses" icon.
 //
 // Usage in templates:
-//   {{ lucide "glasses" }}
+//
+//	{{ lucide "glasses" }}
 //
 // Direct usage in Go:
-//   lucide.Glasses()
-//   lucide.Glasses(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Glasses()
+//	lucide.Glasses(lucide.Options{Size: 32, Class: "my-icon"})
 func Glasses(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17710,11 +19170,13 @@ func Glasses(opts ...Options) template.HTML {
 // Globe renders the "globe" icon.
 //
 // Usage in templates:
-//   {{ lucide "globe" }}
+//
+//	{{ lucide "globe" }}
 //
 // Direct usage in Go:
-//   lucide.Globe()
-//   lucide.Globe(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Globe()
+//	lucide.Globe(lucide.Options{Size: 32, Class: "my-icon"})
 func Globe(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17732,11 +19194,13 @@ func Globe(opts ...Options) template.HTML {
 // GlobeLock renders the "globe-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "globe-lock" }}
+//
+//	{{ lucide "globe-lock" }}
 //
 // Direct usage in Go:
-//   lucide.GlobeLock()
-//   lucide.GlobeLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GlobeLock()
+//	lucide.GlobeLock(lucide.Options{Size: 32, Class: "my-icon"})
 func GlobeLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17754,11 +19218,13 @@ func GlobeLock(opts ...Options) template.HTML {
 // Goal renders the "goal" icon.
 //
 // Usage in templates:
-//   {{ lucide "goal" }}
+//
+//	{{ lucide "goal" }}
 //
 // Direct usage in Go:
-//   lucide.Goal()
-//   lucide.Goal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Goal()
+//	lucide.Goal(lucide.Options{Size: 32, Class: "my-icon"})
 func Goal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17776,11 +19242,13 @@ func Goal(opts ...Options) template.HTML {
 // Gpu renders the "gpu" icon.
 //
 // Usage in templates:
-//   {{ lucide "gpu" }}
+//
+//	{{ lucide "gpu" }}
 //
 // Direct usage in Go:
-//   lucide.Gpu()
-//   lucide.Gpu(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Gpu()
+//	lucide.Gpu(lucide.Options{Size: 32, Class: "my-icon"})
 func Gpu(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17798,11 +19266,13 @@ func Gpu(opts ...Options) template.HTML {
 // GraduationCap renders the "graduation-cap" icon.
 //
 // Usage in templates:
-//   {{ lucide "graduation-cap" }}
+//
+//	{{ lucide "graduation-cap" }}
 //
 // Direct usage in Go:
-//   lucide.GraduationCap()
-//   lucide.GraduationCap(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GraduationCap()
+//	lucide.GraduationCap(lucide.Options{Size: 32, Class: "my-icon"})
 func GraduationCap(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17820,11 +19290,13 @@ func GraduationCap(opts ...Options) template.HTML {
 // Grape renders the "grape" icon.
 //
 // Usage in templates:
-//   {{ lucide "grape" }}
+//
+//	{{ lucide "grape" }}
 //
 // Direct usage in Go:
-//   lucide.Grape()
-//   lucide.Grape(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grape()
+//	lucide.Grape(lucide.Options{Size: 32, Class: "my-icon"})
 func Grape(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17842,11 +19314,13 @@ func Grape(opts ...Options) template.HTML {
 // Grid2x2 renders the "grid-2x2" icon.
 //
 // Usage in templates:
-//   {{ lucide "grid-2x2" }}
+//
+//	{{ lucide "grid-2x2" }}
 //
 // Direct usage in Go:
-//   lucide.Grid2x2()
-//   lucide.Grid2x2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grid2x2()
+//	lucide.Grid2x2(lucide.Options{Size: 32, Class: "my-icon"})
 func Grid2x2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17864,11 +19338,13 @@ func Grid2x2(opts ...Options) template.HTML {
 // Grid2x2Check renders the "grid-2x2-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "grid-2x2-check" }}
+//
+//	{{ lucide "grid-2x2-check" }}
 //
 // Direct usage in Go:
-//   lucide.Grid2x2Check()
-//   lucide.Grid2x2Check(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grid2x2Check()
+//	lucide.Grid2x2Check(lucide.Options{Size: 32, Class: "my-icon"})
 func Grid2x2Check(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17886,11 +19362,13 @@ func Grid2x2Check(opts ...Options) template.HTML {
 // Grid2x2Plus renders the "grid-2x2-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "grid-2x2-plus" }}
+//
+//	{{ lucide "grid-2x2-plus" }}
 //
 // Direct usage in Go:
-//   lucide.Grid2x2Plus()
-//   lucide.Grid2x2Plus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grid2x2Plus()
+//	lucide.Grid2x2Plus(lucide.Options{Size: 32, Class: "my-icon"})
 func Grid2x2Plus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17908,11 +19386,13 @@ func Grid2x2Plus(opts ...Options) template.HTML {
 // Grid2x2X renders the "grid-2x2-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "grid-2x2-x" }}
+//
+//	{{ lucide "grid-2x2-x" }}
 //
 // Direct usage in Go:
-//   lucide.Grid2x2X()
-//   lucide.Grid2x2X(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grid2x2X()
+//	lucide.Grid2x2X(lucide.Options{Size: 32, Class: "my-icon"})
 func Grid2x2X(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17930,11 +19410,13 @@ func Grid2x2X(opts ...Options) template.HTML {
 // Grid3x2 renders the "grid-3x2" icon.
 //
 // Usage in templates:
-//   {{ lucide "grid-3x2" }}
+//
+//	{{ lucide "grid-3x2" }}
 //
 // Direct usage in Go:
-//   lucide.Grid3x2()
-//   lucide.Grid3x2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grid3x2()
+//	lucide.Grid3x2(lucide.Options{Size: 32, Class: "my-icon"})
 func Grid3x2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17952,11 +19434,13 @@ func Grid3x2(opts ...Options) template.HTML {
 // Grid3x3 renders the "grid-3x3" icon.
 //
 // Usage in templates:
-//   {{ lucide "grid-3x3" }}
+//
+//	{{ lucide "grid-3x3" }}
 //
 // Direct usage in Go:
-//   lucide.Grid3x3()
-//   lucide.Grid3x3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grid3x3()
+//	lucide.Grid3x3(lucide.Options{Size: 32, Class: "my-icon"})
 func Grid3x3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17974,11 +19458,13 @@ func Grid3x3(opts ...Options) template.HTML {
 // Grip renders the "grip" icon.
 //
 // Usage in templates:
-//   {{ lucide "grip" }}
+//
+//	{{ lucide "grip" }}
 //
 // Direct usage in Go:
-//   lucide.Grip()
-//   lucide.Grip(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Grip()
+//	lucide.Grip(lucide.Options{Size: 32, Class: "my-icon"})
 func Grip(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -17996,11 +19482,13 @@ func Grip(opts ...Options) template.HTML {
 // GripHorizontal renders the "grip-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "grip-horizontal" }}
+//
+//	{{ lucide "grip-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.GripHorizontal()
-//   lucide.GripHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GripHorizontal()
+//	lucide.GripHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func GripHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18018,11 +19506,13 @@ func GripHorizontal(opts ...Options) template.HTML {
 // GripVertical renders the "grip-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "grip-vertical" }}
+//
+//	{{ lucide "grip-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.GripVertical()
-//   lucide.GripVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.GripVertical()
+//	lucide.GripVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func GripVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18040,11 +19530,13 @@ func GripVertical(opts ...Options) template.HTML {
 // Group renders the "group" icon.
 //
 // Usage in templates:
-//   {{ lucide "group" }}
+//
+//	{{ lucide "group" }}
 //
 // Direct usage in Go:
-//   lucide.Group()
-//   lucide.Group(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Group()
+//	lucide.Group(lucide.Options{Size: 32, Class: "my-icon"})
 func Group(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18062,11 +19554,13 @@ func Group(opts ...Options) template.HTML {
 // Guitar renders the "guitar" icon.
 //
 // Usage in templates:
-//   {{ lucide "guitar" }}
+//
+//	{{ lucide "guitar" }}
 //
 // Direct usage in Go:
-//   lucide.Guitar()
-//   lucide.Guitar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Guitar()
+//	lucide.Guitar(lucide.Options{Size: 32, Class: "my-icon"})
 func Guitar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18084,11 +19578,13 @@ func Guitar(opts ...Options) template.HTML {
 // Ham renders the "ham" icon.
 //
 // Usage in templates:
-//   {{ lucide "ham" }}
+//
+//	{{ lucide "ham" }}
 //
 // Direct usage in Go:
-//   lucide.Ham()
-//   lucide.Ham(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ham()
+//	lucide.Ham(lucide.Options{Size: 32, Class: "my-icon"})
 func Ham(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18106,11 +19602,13 @@ func Ham(opts ...Options) template.HTML {
 // Hamburger renders the "hamburger" icon.
 //
 // Usage in templates:
-//   {{ lucide "hamburger" }}
+//
+//	{{ lucide "hamburger" }}
 //
 // Direct usage in Go:
-//   lucide.Hamburger()
-//   lucide.Hamburger(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hamburger()
+//	lucide.Hamburger(lucide.Options{Size: 32, Class: "my-icon"})
 func Hamburger(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18128,11 +19626,13 @@ func Hamburger(opts ...Options) template.HTML {
 // Hammer renders the "hammer" icon.
 //
 // Usage in templates:
-//   {{ lucide "hammer" }}
+//
+//	{{ lucide "hammer" }}
 //
 // Direct usage in Go:
-//   lucide.Hammer()
-//   lucide.Hammer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hammer()
+//	lucide.Hammer(lucide.Options{Size: 32, Class: "my-icon"})
 func Hammer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18150,11 +19650,13 @@ func Hammer(opts ...Options) template.HTML {
 // Hand renders the "hand" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand" }}
+//
+//	{{ lucide "hand" }}
 //
 // Direct usage in Go:
-//   lucide.Hand()
-//   lucide.Hand(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hand()
+//	lucide.Hand(lucide.Options{Size: 32, Class: "my-icon"})
 func Hand(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18172,11 +19674,13 @@ func Hand(opts ...Options) template.HTML {
 // HandCoins renders the "hand-coins" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-coins" }}
+//
+//	{{ lucide "hand-coins" }}
 //
 // Direct usage in Go:
-//   lucide.HandCoins()
-//   lucide.HandCoins(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandCoins()
+//	lucide.HandCoins(lucide.Options{Size: 32, Class: "my-icon"})
 func HandCoins(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18194,11 +19698,13 @@ func HandCoins(opts ...Options) template.HTML {
 // HandFist renders the "hand-fist" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-fist" }}
+//
+//	{{ lucide "hand-fist" }}
 //
 // Direct usage in Go:
-//   lucide.HandFist()
-//   lucide.HandFist(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandFist()
+//	lucide.HandFist(lucide.Options{Size: 32, Class: "my-icon"})
 func HandFist(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18216,11 +19722,13 @@ func HandFist(opts ...Options) template.HTML {
 // HandGrab renders the "hand-grab" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-grab" }}
+//
+//	{{ lucide "hand-grab" }}
 //
 // Direct usage in Go:
-//   lucide.HandGrab()
-//   lucide.HandGrab(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandGrab()
+//	lucide.HandGrab(lucide.Options{Size: 32, Class: "my-icon"})
 func HandGrab(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18238,11 +19746,13 @@ func HandGrab(opts ...Options) template.HTML {
 // HandHeart renders the "hand-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-heart" }}
+//
+//	{{ lucide "hand-heart" }}
 //
 // Direct usage in Go:
-//   lucide.HandHeart()
-//   lucide.HandHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandHeart()
+//	lucide.HandHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func HandHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18260,11 +19770,13 @@ func HandHeart(opts ...Options) template.HTML {
 // HandHelping renders the "hand-helping" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-helping" }}
+//
+//	{{ lucide "hand-helping" }}
 //
 // Direct usage in Go:
-//   lucide.HandHelping()
-//   lucide.HandHelping(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandHelping()
+//	lucide.HandHelping(lucide.Options{Size: 32, Class: "my-icon"})
 func HandHelping(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18282,11 +19794,13 @@ func HandHelping(opts ...Options) template.HTML {
 // HandMetal renders the "hand-metal" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-metal" }}
+//
+//	{{ lucide "hand-metal" }}
 //
 // Direct usage in Go:
-//   lucide.HandMetal()
-//   lucide.HandMetal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandMetal()
+//	lucide.HandMetal(lucide.Options{Size: 32, Class: "my-icon"})
 func HandMetal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18304,11 +19818,13 @@ func HandMetal(opts ...Options) template.HTML {
 // HandPlatter renders the "hand-platter" icon.
 //
 // Usage in templates:
-//   {{ lucide "hand-platter" }}
+//
+//	{{ lucide "hand-platter" }}
 //
 // Direct usage in Go:
-//   lucide.HandPlatter()
-//   lucide.HandPlatter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HandPlatter()
+//	lucide.HandPlatter(lucide.Options{Size: 32, Class: "my-icon"})
 func HandPlatter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18326,11 +19842,13 @@ func HandPlatter(opts ...Options) template.HTML {
 // Handbag renders the "handbag" icon.
 //
 // Usage in templates:
-//   {{ lucide "handbag" }}
+//
+//	{{ lucide "handbag" }}
 //
 // Direct usage in Go:
-//   lucide.Handbag()
-//   lucide.Handbag(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Handbag()
+//	lucide.Handbag(lucide.Options{Size: 32, Class: "my-icon"})
 func Handbag(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18348,11 +19866,13 @@ func Handbag(opts ...Options) template.HTML {
 // Handshake renders the "handshake" icon.
 //
 // Usage in templates:
-//   {{ lucide "handshake" }}
+//
+//	{{ lucide "handshake" }}
 //
 // Direct usage in Go:
-//   lucide.Handshake()
-//   lucide.Handshake(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Handshake()
+//	lucide.Handshake(lucide.Options{Size: 32, Class: "my-icon"})
 func Handshake(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18370,11 +19890,13 @@ func Handshake(opts ...Options) template.HTML {
 // HardDrive renders the "hard-drive" icon.
 //
 // Usage in templates:
-//   {{ lucide "hard-drive" }}
+//
+//	{{ lucide "hard-drive" }}
 //
 // Direct usage in Go:
-//   lucide.HardDrive()
-//   lucide.HardDrive(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HardDrive()
+//	lucide.HardDrive(lucide.Options{Size: 32, Class: "my-icon"})
 func HardDrive(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18392,11 +19914,13 @@ func HardDrive(opts ...Options) template.HTML {
 // HardDriveDownload renders the "hard-drive-download" icon.
 //
 // Usage in templates:
-//   {{ lucide "hard-drive-download" }}
+//
+//	{{ lucide "hard-drive-download" }}
 //
 // Direct usage in Go:
-//   lucide.HardDriveDownload()
-//   lucide.HardDriveDownload(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HardDriveDownload()
+//	lucide.HardDriveDownload(lucide.Options{Size: 32, Class: "my-icon"})
 func HardDriveDownload(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18414,11 +19938,13 @@ func HardDriveDownload(opts ...Options) template.HTML {
 // HardDriveUpload renders the "hard-drive-upload" icon.
 //
 // Usage in templates:
-//   {{ lucide "hard-drive-upload" }}
+//
+//	{{ lucide "hard-drive-upload" }}
 //
 // Direct usage in Go:
-//   lucide.HardDriveUpload()
-//   lucide.HardDriveUpload(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HardDriveUpload()
+//	lucide.HardDriveUpload(lucide.Options{Size: 32, Class: "my-icon"})
 func HardDriveUpload(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18436,11 +19962,13 @@ func HardDriveUpload(opts ...Options) template.HTML {
 // HardHat renders the "hard-hat" icon.
 //
 // Usage in templates:
-//   {{ lucide "hard-hat" }}
+//
+//	{{ lucide "hard-hat" }}
 //
 // Direct usage in Go:
-//   lucide.HardHat()
-//   lucide.HardHat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HardHat()
+//	lucide.HardHat(lucide.Options{Size: 32, Class: "my-icon"})
 func HardHat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18458,11 +19986,13 @@ func HardHat(opts ...Options) template.HTML {
 // Hash renders the "hash" icon.
 //
 // Usage in templates:
-//   {{ lucide "hash" }}
+//
+//	{{ lucide "hash" }}
 //
 // Direct usage in Go:
-//   lucide.Hash()
-//   lucide.Hash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hash()
+//	lucide.Hash(lucide.Options{Size: 32, Class: "my-icon"})
 func Hash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18480,11 +20010,13 @@ func Hash(opts ...Options) template.HTML {
 // HatGlasses renders the "hat-glasses" icon.
 //
 // Usage in templates:
-//   {{ lucide "hat-glasses" }}
+//
+//	{{ lucide "hat-glasses" }}
 //
 // Direct usage in Go:
-//   lucide.HatGlasses()
-//   lucide.HatGlasses(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HatGlasses()
+//	lucide.HatGlasses(lucide.Options{Size: 32, Class: "my-icon"})
 func HatGlasses(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18502,11 +20034,13 @@ func HatGlasses(opts ...Options) template.HTML {
 // Haze renders the "haze" icon.
 //
 // Usage in templates:
-//   {{ lucide "haze" }}
+//
+//	{{ lucide "haze" }}
 //
 // Direct usage in Go:
-//   lucide.Haze()
-//   lucide.Haze(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Haze()
+//	lucide.Haze(lucide.Options{Size: 32, Class: "my-icon"})
 func Haze(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18524,11 +20058,13 @@ func Haze(opts ...Options) template.HTML {
 // HdmiPort renders the "hdmi-port" icon.
 //
 // Usage in templates:
-//   {{ lucide "hdmi-port" }}
+//
+//	{{ lucide "hdmi-port" }}
 //
 // Direct usage in Go:
-//   lucide.HdmiPort()
-//   lucide.HdmiPort(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HdmiPort()
+//	lucide.HdmiPort(lucide.Options{Size: 32, Class: "my-icon"})
 func HdmiPort(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18546,11 +20082,13 @@ func HdmiPort(opts ...Options) template.HTML {
 // Heading renders the "heading" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading" }}
+//
+//	{{ lucide "heading" }}
 //
 // Direct usage in Go:
-//   lucide.Heading()
-//   lucide.Heading(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading()
+//	lucide.Heading(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18568,11 +20106,13 @@ func Heading(opts ...Options) template.HTML {
 // Heading1 renders the "heading-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading-1" }}
+//
+//	{{ lucide "heading-1" }}
 //
 // Direct usage in Go:
-//   lucide.Heading1()
-//   lucide.Heading1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading1()
+//	lucide.Heading1(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18590,11 +20130,13 @@ func Heading1(opts ...Options) template.HTML {
 // Heading2 renders the "heading-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading-2" }}
+//
+//	{{ lucide "heading-2" }}
 //
 // Direct usage in Go:
-//   lucide.Heading2()
-//   lucide.Heading2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading2()
+//	lucide.Heading2(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18612,11 +20154,13 @@ func Heading2(opts ...Options) template.HTML {
 // Heading3 renders the "heading-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading-3" }}
+//
+//	{{ lucide "heading-3" }}
 //
 // Direct usage in Go:
-//   lucide.Heading3()
-//   lucide.Heading3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading3()
+//	lucide.Heading3(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18634,11 +20178,13 @@ func Heading3(opts ...Options) template.HTML {
 // Heading4 renders the "heading-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading-4" }}
+//
+//	{{ lucide "heading-4" }}
 //
 // Direct usage in Go:
-//   lucide.Heading4()
-//   lucide.Heading4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading4()
+//	lucide.Heading4(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18656,11 +20202,13 @@ func Heading4(opts ...Options) template.HTML {
 // Heading5 renders the "heading-5" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading-5" }}
+//
+//	{{ lucide "heading-5" }}
 //
 // Direct usage in Go:
-//   lucide.Heading5()
-//   lucide.Heading5(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading5()
+//	lucide.Heading5(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading5(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18678,11 +20226,13 @@ func Heading5(opts ...Options) template.HTML {
 // Heading6 renders the "heading-6" icon.
 //
 // Usage in templates:
-//   {{ lucide "heading-6" }}
+//
+//	{{ lucide "heading-6" }}
 //
 // Direct usage in Go:
-//   lucide.Heading6()
-//   lucide.Heading6(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heading6()
+//	lucide.Heading6(lucide.Options{Size: 32, Class: "my-icon"})
 func Heading6(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18700,11 +20250,13 @@ func Heading6(opts ...Options) template.HTML {
 // HeadphoneOff renders the "headphone-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "headphone-off" }}
+//
+//	{{ lucide "headphone-off" }}
 //
 // Direct usage in Go:
-//   lucide.HeadphoneOff()
-//   lucide.HeadphoneOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeadphoneOff()
+//	lucide.HeadphoneOff(lucide.Options{Size: 32, Class: "my-icon"})
 func HeadphoneOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18722,11 +20274,13 @@ func HeadphoneOff(opts ...Options) template.HTML {
 // Headphones renders the "headphones" icon.
 //
 // Usage in templates:
-//   {{ lucide "headphones" }}
+//
+//	{{ lucide "headphones" }}
 //
 // Direct usage in Go:
-//   lucide.Headphones()
-//   lucide.Headphones(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Headphones()
+//	lucide.Headphones(lucide.Options{Size: 32, Class: "my-icon"})
 func Headphones(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18744,11 +20298,13 @@ func Headphones(opts ...Options) template.HTML {
 // Headset renders the "headset" icon.
 //
 // Usage in templates:
-//   {{ lucide "headset" }}
+//
+//	{{ lucide "headset" }}
 //
 // Direct usage in Go:
-//   lucide.Headset()
-//   lucide.Headset(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Headset()
+//	lucide.Headset(lucide.Options{Size: 32, Class: "my-icon"})
 func Headset(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18766,11 +20322,13 @@ func Headset(opts ...Options) template.HTML {
 // Heart renders the "heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart" }}
+//
+//	{{ lucide "heart" }}
 //
 // Direct usage in Go:
-//   lucide.Heart()
-//   lucide.Heart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heart()
+//	lucide.Heart(lucide.Options{Size: 32, Class: "my-icon"})
 func Heart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18788,11 +20346,13 @@ func Heart(opts ...Options) template.HTML {
 // HeartCrack renders the "heart-crack" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart-crack" }}
+//
+//	{{ lucide "heart-crack" }}
 //
 // Direct usage in Go:
-//   lucide.HeartCrack()
-//   lucide.HeartCrack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeartCrack()
+//	lucide.HeartCrack(lucide.Options{Size: 32, Class: "my-icon"})
 func HeartCrack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18810,11 +20370,13 @@ func HeartCrack(opts ...Options) template.HTML {
 // HeartHandshake renders the "heart-handshake" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart-handshake" }}
+//
+//	{{ lucide "heart-handshake" }}
 //
 // Direct usage in Go:
-//   lucide.HeartHandshake()
-//   lucide.HeartHandshake(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeartHandshake()
+//	lucide.HeartHandshake(lucide.Options{Size: 32, Class: "my-icon"})
 func HeartHandshake(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18832,11 +20394,13 @@ func HeartHandshake(opts ...Options) template.HTML {
 // HeartMinus renders the "heart-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart-minus" }}
+//
+//	{{ lucide "heart-minus" }}
 //
 // Direct usage in Go:
-//   lucide.HeartMinus()
-//   lucide.HeartMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeartMinus()
+//	lucide.HeartMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func HeartMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18854,11 +20418,13 @@ func HeartMinus(opts ...Options) template.HTML {
 // HeartOff renders the "heart-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart-off" }}
+//
+//	{{ lucide "heart-off" }}
 //
 // Direct usage in Go:
-//   lucide.HeartOff()
-//   lucide.HeartOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeartOff()
+//	lucide.HeartOff(lucide.Options{Size: 32, Class: "my-icon"})
 func HeartOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18876,11 +20442,13 @@ func HeartOff(opts ...Options) template.HTML {
 // HeartPlus renders the "heart-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart-plus" }}
+//
+//	{{ lucide "heart-plus" }}
 //
 // Direct usage in Go:
-//   lucide.HeartPlus()
-//   lucide.HeartPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeartPlus()
+//	lucide.HeartPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func HeartPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18898,11 +20466,13 @@ func HeartPlus(opts ...Options) template.HTML {
 // HeartPulse renders the "heart-pulse" icon.
 //
 // Usage in templates:
-//   {{ lucide "heart-pulse" }}
+//
+//	{{ lucide "heart-pulse" }}
 //
 // Direct usage in Go:
-//   lucide.HeartPulse()
-//   lucide.HeartPulse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HeartPulse()
+//	lucide.HeartPulse(lucide.Options{Size: 32, Class: "my-icon"})
 func HeartPulse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18920,11 +20490,13 @@ func HeartPulse(opts ...Options) template.HTML {
 // Heater renders the "heater" icon.
 //
 // Usage in templates:
-//   {{ lucide "heater" }}
+//
+//	{{ lucide "heater" }}
 //
 // Direct usage in Go:
-//   lucide.Heater()
-//   lucide.Heater(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Heater()
+//	lucide.Heater(lucide.Options{Size: 32, Class: "my-icon"})
 func Heater(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18942,11 +20514,13 @@ func Heater(opts ...Options) template.HTML {
 // Hexagon renders the "hexagon" icon.
 //
 // Usage in templates:
-//   {{ lucide "hexagon" }}
+//
+//	{{ lucide "hexagon" }}
 //
 // Direct usage in Go:
-//   lucide.Hexagon()
-//   lucide.Hexagon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hexagon()
+//	lucide.Hexagon(lucide.Options{Size: 32, Class: "my-icon"})
 func Hexagon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18964,11 +20538,13 @@ func Hexagon(opts ...Options) template.HTML {
 // Highlighter renders the "highlighter" icon.
 //
 // Usage in templates:
-//   {{ lucide "highlighter" }}
+//
+//	{{ lucide "highlighter" }}
 //
 // Direct usage in Go:
-//   lucide.Highlighter()
-//   lucide.Highlighter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Highlighter()
+//	lucide.Highlighter(lucide.Options{Size: 32, Class: "my-icon"})
 func Highlighter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -18986,11 +20562,13 @@ func Highlighter(opts ...Options) template.HTML {
 // History renders the "history" icon.
 //
 // Usage in templates:
-//   {{ lucide "history" }}
+//
+//	{{ lucide "history" }}
 //
 // Direct usage in Go:
-//   lucide.History()
-//   lucide.History(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.History()
+//	lucide.History(lucide.Options{Size: 32, Class: "my-icon"})
 func History(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19008,11 +20586,13 @@ func History(opts ...Options) template.HTML {
 // Hop renders the "hop" icon.
 //
 // Usage in templates:
-//   {{ lucide "hop" }}
+//
+//	{{ lucide "hop" }}
 //
 // Direct usage in Go:
-//   lucide.Hop()
-//   lucide.Hop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hop()
+//	lucide.Hop(lucide.Options{Size: 32, Class: "my-icon"})
 func Hop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19030,11 +20610,13 @@ func Hop(opts ...Options) template.HTML {
 // HopOff renders the "hop-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "hop-off" }}
+//
+//	{{ lucide "hop-off" }}
 //
 // Direct usage in Go:
-//   lucide.HopOff()
-//   lucide.HopOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HopOff()
+//	lucide.HopOff(lucide.Options{Size: 32, Class: "my-icon"})
 func HopOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19052,11 +20634,13 @@ func HopOff(opts ...Options) template.HTML {
 // Hospital renders the "hospital" icon.
 //
 // Usage in templates:
-//   {{ lucide "hospital" }}
+//
+//	{{ lucide "hospital" }}
 //
 // Direct usage in Go:
-//   lucide.Hospital()
-//   lucide.Hospital(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hospital()
+//	lucide.Hospital(lucide.Options{Size: 32, Class: "my-icon"})
 func Hospital(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19074,11 +20658,13 @@ func Hospital(opts ...Options) template.HTML {
 // Hotel renders the "hotel" icon.
 //
 // Usage in templates:
-//   {{ lucide "hotel" }}
+//
+//	{{ lucide "hotel" }}
 //
 // Direct usage in Go:
-//   lucide.Hotel()
-//   lucide.Hotel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hotel()
+//	lucide.Hotel(lucide.Options{Size: 32, Class: "my-icon"})
 func Hotel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19096,11 +20682,13 @@ func Hotel(opts ...Options) template.HTML {
 // Hourglass renders the "hourglass" icon.
 //
 // Usage in templates:
-//   {{ lucide "hourglass" }}
+//
+//	{{ lucide "hourglass" }}
 //
 // Direct usage in Go:
-//   lucide.Hourglass()
-//   lucide.Hourglass(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Hourglass()
+//	lucide.Hourglass(lucide.Options{Size: 32, Class: "my-icon"})
 func Hourglass(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19118,11 +20706,13 @@ func Hourglass(opts ...Options) template.HTML {
 // House renders the "house" icon.
 //
 // Usage in templates:
-//   {{ lucide "house" }}
+//
+//	{{ lucide "house" }}
 //
 // Direct usage in Go:
-//   lucide.House()
-//   lucide.House(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.House()
+//	lucide.House(lucide.Options{Size: 32, Class: "my-icon"})
 func House(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19140,11 +20730,13 @@ func House(opts ...Options) template.HTML {
 // HouseHeart renders the "house-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "house-heart" }}
+//
+//	{{ lucide "house-heart" }}
 //
 // Direct usage in Go:
-//   lucide.HouseHeart()
-//   lucide.HouseHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HouseHeart()
+//	lucide.HouseHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func HouseHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19162,11 +20754,13 @@ func HouseHeart(opts ...Options) template.HTML {
 // HousePlug renders the "house-plug" icon.
 //
 // Usage in templates:
-//   {{ lucide "house-plug" }}
+//
+//	{{ lucide "house-plug" }}
 //
 // Direct usage in Go:
-//   lucide.HousePlug()
-//   lucide.HousePlug(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HousePlug()
+//	lucide.HousePlug(lucide.Options{Size: 32, Class: "my-icon"})
 func HousePlug(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19184,11 +20778,13 @@ func HousePlug(opts ...Options) template.HTML {
 // HousePlus renders the "house-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "house-plus" }}
+//
+//	{{ lucide "house-plus" }}
 //
 // Direct usage in Go:
-//   lucide.HousePlus()
-//   lucide.HousePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HousePlus()
+//	lucide.HousePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func HousePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19206,11 +20802,13 @@ func HousePlus(opts ...Options) template.HTML {
 // HouseWifi renders the "house-wifi" icon.
 //
 // Usage in templates:
-//   {{ lucide "house-wifi" }}
+//
+//	{{ lucide "house-wifi" }}
 //
 // Direct usage in Go:
-//   lucide.HouseWifi()
-//   lucide.HouseWifi(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.HouseWifi()
+//	lucide.HouseWifi(lucide.Options{Size: 32, Class: "my-icon"})
 func HouseWifi(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19228,11 +20826,13 @@ func HouseWifi(opts ...Options) template.HTML {
 // IceCreamBowl renders the "ice-cream-bowl" icon.
 //
 // Usage in templates:
-//   {{ lucide "ice-cream-bowl" }}
+//
+//	{{ lucide "ice-cream-bowl" }}
 //
 // Direct usage in Go:
-//   lucide.IceCreamBowl()
-//   lucide.IceCreamBowl(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IceCreamBowl()
+//	lucide.IceCreamBowl(lucide.Options{Size: 32, Class: "my-icon"})
 func IceCreamBowl(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19250,11 +20850,13 @@ func IceCreamBowl(opts ...Options) template.HTML {
 // IceCreamCone renders the "ice-cream-cone" icon.
 //
 // Usage in templates:
-//   {{ lucide "ice-cream-cone" }}
+//
+//	{{ lucide "ice-cream-cone" }}
 //
 // Direct usage in Go:
-//   lucide.IceCreamCone()
-//   lucide.IceCreamCone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IceCreamCone()
+//	lucide.IceCreamCone(lucide.Options{Size: 32, Class: "my-icon"})
 func IceCreamCone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19272,11 +20874,13 @@ func IceCreamCone(opts ...Options) template.HTML {
 // IdCard renders the "id-card" icon.
 //
 // Usage in templates:
-//   {{ lucide "id-card" }}
+//
+//	{{ lucide "id-card" }}
 //
 // Direct usage in Go:
-//   lucide.IdCard()
-//   lucide.IdCard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IdCard()
+//	lucide.IdCard(lucide.Options{Size: 32, Class: "my-icon"})
 func IdCard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19294,11 +20898,13 @@ func IdCard(opts ...Options) template.HTML {
 // IdCardLanyard renders the "id-card-lanyard" icon.
 //
 // Usage in templates:
-//   {{ lucide "id-card-lanyard" }}
+//
+//	{{ lucide "id-card-lanyard" }}
 //
 // Direct usage in Go:
-//   lucide.IdCardLanyard()
-//   lucide.IdCardLanyard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IdCardLanyard()
+//	lucide.IdCardLanyard(lucide.Options{Size: 32, Class: "my-icon"})
 func IdCardLanyard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19316,11 +20922,13 @@ func IdCardLanyard(opts ...Options) template.HTML {
 // Image renders the "image" icon.
 //
 // Usage in templates:
-//   {{ lucide "image" }}
+//
+//	{{ lucide "image" }}
 //
 // Direct usage in Go:
-//   lucide.Image()
-//   lucide.Image(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Image()
+//	lucide.Image(lucide.Options{Size: 32, Class: "my-icon"})
 func Image(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19338,11 +20946,13 @@ func Image(opts ...Options) template.HTML {
 // ImageDown renders the "image-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-down" }}
+//
+//	{{ lucide "image-down" }}
 //
 // Direct usage in Go:
-//   lucide.ImageDown()
-//   lucide.ImageDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImageDown()
+//	lucide.ImageDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ImageDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19360,11 +20970,13 @@ func ImageDown(opts ...Options) template.HTML {
 // ImageMinus renders the "image-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-minus" }}
+//
+//	{{ lucide "image-minus" }}
 //
 // Direct usage in Go:
-//   lucide.ImageMinus()
-//   lucide.ImageMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImageMinus()
+//	lucide.ImageMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func ImageMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19382,11 +20994,13 @@ func ImageMinus(opts ...Options) template.HTML {
 // ImageOff renders the "image-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-off" }}
+//
+//	{{ lucide "image-off" }}
 //
 // Direct usage in Go:
-//   lucide.ImageOff()
-//   lucide.ImageOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImageOff()
+//	lucide.ImageOff(lucide.Options{Size: 32, Class: "my-icon"})
 func ImageOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19404,11 +21018,13 @@ func ImageOff(opts ...Options) template.HTML {
 // ImagePlay renders the "image-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-play" }}
+//
+//	{{ lucide "image-play" }}
 //
 // Direct usage in Go:
-//   lucide.ImagePlay()
-//   lucide.ImagePlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImagePlay()
+//	lucide.ImagePlay(lucide.Options{Size: 32, Class: "my-icon"})
 func ImagePlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19426,11 +21042,13 @@ func ImagePlay(opts ...Options) template.HTML {
 // ImagePlus renders the "image-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-plus" }}
+//
+//	{{ lucide "image-plus" }}
 //
 // Direct usage in Go:
-//   lucide.ImagePlus()
-//   lucide.ImagePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImagePlus()
+//	lucide.ImagePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func ImagePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19448,11 +21066,13 @@ func ImagePlus(opts ...Options) template.HTML {
 // ImageUp renders the "image-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-up" }}
+//
+//	{{ lucide "image-up" }}
 //
 // Direct usage in Go:
-//   lucide.ImageUp()
-//   lucide.ImageUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImageUp()
+//	lucide.ImageUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ImageUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19470,11 +21090,13 @@ func ImageUp(opts ...Options) template.HTML {
 // ImageUpscale renders the "image-upscale" icon.
 //
 // Usage in templates:
-//   {{ lucide "image-upscale" }}
+//
+//	{{ lucide "image-upscale" }}
 //
 // Direct usage in Go:
-//   lucide.ImageUpscale()
-//   lucide.ImageUpscale(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ImageUpscale()
+//	lucide.ImageUpscale(lucide.Options{Size: 32, Class: "my-icon"})
 func ImageUpscale(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19492,11 +21114,13 @@ func ImageUpscale(opts ...Options) template.HTML {
 // Images renders the "images" icon.
 //
 // Usage in templates:
-//   {{ lucide "images" }}
+//
+//	{{ lucide "images" }}
 //
 // Direct usage in Go:
-//   lucide.Images()
-//   lucide.Images(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Images()
+//	lucide.Images(lucide.Options{Size: 32, Class: "my-icon"})
 func Images(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19514,11 +21138,13 @@ func Images(opts ...Options) template.HTML {
 // Import renders the "import" icon.
 //
 // Usage in templates:
-//   {{ lucide "import" }}
+//
+//	{{ lucide "import" }}
 //
 // Direct usage in Go:
-//   lucide.Import()
-//   lucide.Import(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Import()
+//	lucide.Import(lucide.Options{Size: 32, Class: "my-icon"})
 func Import(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19536,11 +21162,13 @@ func Import(opts ...Options) template.HTML {
 // Inbox renders the "inbox" icon.
 //
 // Usage in templates:
-//   {{ lucide "inbox" }}
+//
+//	{{ lucide "inbox" }}
 //
 // Direct usage in Go:
-//   lucide.Inbox()
-//   lucide.Inbox(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Inbox()
+//	lucide.Inbox(lucide.Options{Size: 32, Class: "my-icon"})
 func Inbox(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19558,11 +21186,13 @@ func Inbox(opts ...Options) template.HTML {
 // IndianRupee renders the "indian-rupee" icon.
 //
 // Usage in templates:
-//   {{ lucide "indian-rupee" }}
+//
+//	{{ lucide "indian-rupee" }}
 //
 // Direct usage in Go:
-//   lucide.IndianRupee()
-//   lucide.IndianRupee(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IndianRupee()
+//	lucide.IndianRupee(lucide.Options{Size: 32, Class: "my-icon"})
 func IndianRupee(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19580,11 +21210,13 @@ func IndianRupee(opts ...Options) template.HTML {
 // Infinity renders the "infinity" icon.
 //
 // Usage in templates:
-//   {{ lucide "infinity" }}
+//
+//	{{ lucide "infinity" }}
 //
 // Direct usage in Go:
-//   lucide.Infinity()
-//   lucide.Infinity(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Infinity()
+//	lucide.Infinity(lucide.Options{Size: 32, Class: "my-icon"})
 func Infinity(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19602,11 +21234,13 @@ func Infinity(opts ...Options) template.HTML {
 // Info renders the "info" icon.
 //
 // Usage in templates:
-//   {{ lucide "info" }}
+//
+//	{{ lucide "info" }}
 //
 // Direct usage in Go:
-//   lucide.Info()
-//   lucide.Info(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Info()
+//	lucide.Info(lucide.Options{Size: 32, Class: "my-icon"})
 func Info(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19624,11 +21258,13 @@ func Info(opts ...Options) template.HTML {
 // InspectionPanel renders the "inspection-panel" icon.
 //
 // Usage in templates:
-//   {{ lucide "inspection-panel" }}
+//
+//	{{ lucide "inspection-panel" }}
 //
 // Direct usage in Go:
-//   lucide.InspectionPanel()
-//   lucide.InspectionPanel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.InspectionPanel()
+//	lucide.InspectionPanel(lucide.Options{Size: 32, Class: "my-icon"})
 func InspectionPanel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19646,11 +21282,13 @@ func InspectionPanel(opts ...Options) template.HTML {
 // Instagram renders the "instagram" icon.
 //
 // Usage in templates:
-//   {{ lucide "instagram" }}
+//
+//	{{ lucide "instagram" }}
 //
 // Direct usage in Go:
-//   lucide.Instagram()
-//   lucide.Instagram(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Instagram()
+//	lucide.Instagram(lucide.Options{Size: 32, Class: "my-icon"})
 func Instagram(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19668,11 +21306,13 @@ func Instagram(opts ...Options) template.HTML {
 // Italic renders the "italic" icon.
 //
 // Usage in templates:
-//   {{ lucide "italic" }}
+//
+//	{{ lucide "italic" }}
 //
 // Direct usage in Go:
-//   lucide.Italic()
-//   lucide.Italic(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Italic()
+//	lucide.Italic(lucide.Options{Size: 32, Class: "my-icon"})
 func Italic(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19690,11 +21330,13 @@ func Italic(opts ...Options) template.HTML {
 // IterationCcw renders the "iteration-ccw" icon.
 //
 // Usage in templates:
-//   {{ lucide "iteration-ccw" }}
+//
+//	{{ lucide "iteration-ccw" }}
 //
 // Direct usage in Go:
-//   lucide.IterationCcw()
-//   lucide.IterationCcw(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IterationCcw()
+//	lucide.IterationCcw(lucide.Options{Size: 32, Class: "my-icon"})
 func IterationCcw(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19712,11 +21354,13 @@ func IterationCcw(opts ...Options) template.HTML {
 // IterationCw renders the "iteration-cw" icon.
 //
 // Usage in templates:
-//   {{ lucide "iteration-cw" }}
+//
+//	{{ lucide "iteration-cw" }}
 //
 // Direct usage in Go:
-//   lucide.IterationCw()
-//   lucide.IterationCw(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.IterationCw()
+//	lucide.IterationCw(lucide.Options{Size: 32, Class: "my-icon"})
 func IterationCw(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19734,11 +21378,13 @@ func IterationCw(opts ...Options) template.HTML {
 // JapaneseYen renders the "japanese-yen" icon.
 //
 // Usage in templates:
-//   {{ lucide "japanese-yen" }}
+//
+//	{{ lucide "japanese-yen" }}
 //
 // Direct usage in Go:
-//   lucide.JapaneseYen()
-//   lucide.JapaneseYen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.JapaneseYen()
+//	lucide.JapaneseYen(lucide.Options{Size: 32, Class: "my-icon"})
 func JapaneseYen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19756,11 +21402,13 @@ func JapaneseYen(opts ...Options) template.HTML {
 // Joystick renders the "joystick" icon.
 //
 // Usage in templates:
-//   {{ lucide "joystick" }}
+//
+//	{{ lucide "joystick" }}
 //
 // Direct usage in Go:
-//   lucide.Joystick()
-//   lucide.Joystick(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Joystick()
+//	lucide.Joystick(lucide.Options{Size: 32, Class: "my-icon"})
 func Joystick(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19778,11 +21426,13 @@ func Joystick(opts ...Options) template.HTML {
 // Kanban renders the "kanban" icon.
 //
 // Usage in templates:
-//   {{ lucide "kanban" }}
+//
+//	{{ lucide "kanban" }}
 //
 // Direct usage in Go:
-//   lucide.Kanban()
-//   lucide.Kanban(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Kanban()
+//	lucide.Kanban(lucide.Options{Size: 32, Class: "my-icon"})
 func Kanban(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19800,11 +21450,13 @@ func Kanban(opts ...Options) template.HTML {
 // Kayak renders the "kayak" icon.
 //
 // Usage in templates:
-//   {{ lucide "kayak" }}
+//
+//	{{ lucide "kayak" }}
 //
 // Direct usage in Go:
-//   lucide.Kayak()
-//   lucide.Kayak(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Kayak()
+//	lucide.Kayak(lucide.Options{Size: 32, Class: "my-icon"})
 func Kayak(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19822,11 +21474,13 @@ func Kayak(opts ...Options) template.HTML {
 // Key renders the "key" icon.
 //
 // Usage in templates:
-//   {{ lucide "key" }}
+//
+//	{{ lucide "key" }}
 //
 // Direct usage in Go:
-//   lucide.Key()
-//   lucide.Key(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Key()
+//	lucide.Key(lucide.Options{Size: 32, Class: "my-icon"})
 func Key(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19844,11 +21498,13 @@ func Key(opts ...Options) template.HTML {
 // KeyRound renders the "key-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "key-round" }}
+//
+//	{{ lucide "key-round" }}
 //
 // Direct usage in Go:
-//   lucide.KeyRound()
-//   lucide.KeyRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.KeyRound()
+//	lucide.KeyRound(lucide.Options{Size: 32, Class: "my-icon"})
 func KeyRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19866,11 +21522,13 @@ func KeyRound(opts ...Options) template.HTML {
 // KeySquare renders the "key-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "key-square" }}
+//
+//	{{ lucide "key-square" }}
 //
 // Direct usage in Go:
-//   lucide.KeySquare()
-//   lucide.KeySquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.KeySquare()
+//	lucide.KeySquare(lucide.Options{Size: 32, Class: "my-icon"})
 func KeySquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19888,11 +21546,13 @@ func KeySquare(opts ...Options) template.HTML {
 // Keyboard renders the "keyboard" icon.
 //
 // Usage in templates:
-//   {{ lucide "keyboard" }}
+//
+//	{{ lucide "keyboard" }}
 //
 // Direct usage in Go:
-//   lucide.Keyboard()
-//   lucide.Keyboard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Keyboard()
+//	lucide.Keyboard(lucide.Options{Size: 32, Class: "my-icon"})
 func Keyboard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19910,11 +21570,13 @@ func Keyboard(opts ...Options) template.HTML {
 // KeyboardMusic renders the "keyboard-music" icon.
 //
 // Usage in templates:
-//   {{ lucide "keyboard-music" }}
+//
+//	{{ lucide "keyboard-music" }}
 //
 // Direct usage in Go:
-//   lucide.KeyboardMusic()
-//   lucide.KeyboardMusic(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.KeyboardMusic()
+//	lucide.KeyboardMusic(lucide.Options{Size: 32, Class: "my-icon"})
 func KeyboardMusic(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19932,11 +21594,13 @@ func KeyboardMusic(opts ...Options) template.HTML {
 // KeyboardOff renders the "keyboard-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "keyboard-off" }}
+//
+//	{{ lucide "keyboard-off" }}
 //
 // Direct usage in Go:
-//   lucide.KeyboardOff()
-//   lucide.KeyboardOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.KeyboardOff()
+//	lucide.KeyboardOff(lucide.Options{Size: 32, Class: "my-icon"})
 func KeyboardOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19954,11 +21618,13 @@ func KeyboardOff(opts ...Options) template.HTML {
 // Lamp renders the "lamp" icon.
 //
 // Usage in templates:
-//   {{ lucide "lamp" }}
+//
+//	{{ lucide "lamp" }}
 //
 // Direct usage in Go:
-//   lucide.Lamp()
-//   lucide.Lamp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Lamp()
+//	lucide.Lamp(lucide.Options{Size: 32, Class: "my-icon"})
 func Lamp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19976,11 +21642,13 @@ func Lamp(opts ...Options) template.HTML {
 // LampCeiling renders the "lamp-ceiling" icon.
 //
 // Usage in templates:
-//   {{ lucide "lamp-ceiling" }}
+//
+//	{{ lucide "lamp-ceiling" }}
 //
 // Direct usage in Go:
-//   lucide.LampCeiling()
-//   lucide.LampCeiling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LampCeiling()
+//	lucide.LampCeiling(lucide.Options{Size: 32, Class: "my-icon"})
 func LampCeiling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -19998,11 +21666,13 @@ func LampCeiling(opts ...Options) template.HTML {
 // LampDesk renders the "lamp-desk" icon.
 //
 // Usage in templates:
-//   {{ lucide "lamp-desk" }}
+//
+//	{{ lucide "lamp-desk" }}
 //
 // Direct usage in Go:
-//   lucide.LampDesk()
-//   lucide.LampDesk(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LampDesk()
+//	lucide.LampDesk(lucide.Options{Size: 32, Class: "my-icon"})
 func LampDesk(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20020,11 +21690,13 @@ func LampDesk(opts ...Options) template.HTML {
 // LampFloor renders the "lamp-floor" icon.
 //
 // Usage in templates:
-//   {{ lucide "lamp-floor" }}
+//
+//	{{ lucide "lamp-floor" }}
 //
 // Direct usage in Go:
-//   lucide.LampFloor()
-//   lucide.LampFloor(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LampFloor()
+//	lucide.LampFloor(lucide.Options{Size: 32, Class: "my-icon"})
 func LampFloor(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20042,11 +21714,13 @@ func LampFloor(opts ...Options) template.HTML {
 // LampWallDown renders the "lamp-wall-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "lamp-wall-down" }}
+//
+//	{{ lucide "lamp-wall-down" }}
 //
 // Direct usage in Go:
-//   lucide.LampWallDown()
-//   lucide.LampWallDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LampWallDown()
+//	lucide.LampWallDown(lucide.Options{Size: 32, Class: "my-icon"})
 func LampWallDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20064,11 +21738,13 @@ func LampWallDown(opts ...Options) template.HTML {
 // LampWallUp renders the "lamp-wall-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "lamp-wall-up" }}
+//
+//	{{ lucide "lamp-wall-up" }}
 //
 // Direct usage in Go:
-//   lucide.LampWallUp()
-//   lucide.LampWallUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LampWallUp()
+//	lucide.LampWallUp(lucide.Options{Size: 32, Class: "my-icon"})
 func LampWallUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20086,11 +21762,13 @@ func LampWallUp(opts ...Options) template.HTML {
 // LandPlot renders the "land-plot" icon.
 //
 // Usage in templates:
-//   {{ lucide "land-plot" }}
+//
+//	{{ lucide "land-plot" }}
 //
 // Direct usage in Go:
-//   lucide.LandPlot()
-//   lucide.LandPlot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LandPlot()
+//	lucide.LandPlot(lucide.Options{Size: 32, Class: "my-icon"})
 func LandPlot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20108,11 +21786,13 @@ func LandPlot(opts ...Options) template.HTML {
 // Landmark renders the "landmark" icon.
 //
 // Usage in templates:
-//   {{ lucide "landmark" }}
+//
+//	{{ lucide "landmark" }}
 //
 // Direct usage in Go:
-//   lucide.Landmark()
-//   lucide.Landmark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Landmark()
+//	lucide.Landmark(lucide.Options{Size: 32, Class: "my-icon"})
 func Landmark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20130,11 +21810,13 @@ func Landmark(opts ...Options) template.HTML {
 // Languages renders the "languages" icon.
 //
 // Usage in templates:
-//   {{ lucide "languages" }}
+//
+//	{{ lucide "languages" }}
 //
 // Direct usage in Go:
-//   lucide.Languages()
-//   lucide.Languages(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Languages()
+//	lucide.Languages(lucide.Options{Size: 32, Class: "my-icon"})
 func Languages(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20152,11 +21834,13 @@ func Languages(opts ...Options) template.HTML {
 // Laptop renders the "laptop" icon.
 //
 // Usage in templates:
-//   {{ lucide "laptop" }}
+//
+//	{{ lucide "laptop" }}
 //
 // Direct usage in Go:
-//   lucide.Laptop()
-//   lucide.Laptop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Laptop()
+//	lucide.Laptop(lucide.Options{Size: 32, Class: "my-icon"})
 func Laptop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20174,11 +21858,13 @@ func Laptop(opts ...Options) template.HTML {
 // LaptopMinimal renders the "laptop-minimal" icon.
 //
 // Usage in templates:
-//   {{ lucide "laptop-minimal" }}
+//
+//	{{ lucide "laptop-minimal" }}
 //
 // Direct usage in Go:
-//   lucide.LaptopMinimal()
-//   lucide.LaptopMinimal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LaptopMinimal()
+//	lucide.LaptopMinimal(lucide.Options{Size: 32, Class: "my-icon"})
 func LaptopMinimal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20196,11 +21882,13 @@ func LaptopMinimal(opts ...Options) template.HTML {
 // LaptopMinimalCheck renders the "laptop-minimal-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "laptop-minimal-check" }}
+//
+//	{{ lucide "laptop-minimal-check" }}
 //
 // Direct usage in Go:
-//   lucide.LaptopMinimalCheck()
-//   lucide.LaptopMinimalCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LaptopMinimalCheck()
+//	lucide.LaptopMinimalCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func LaptopMinimalCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20218,11 +21906,13 @@ func LaptopMinimalCheck(opts ...Options) template.HTML {
 // Lasso renders the "lasso" icon.
 //
 // Usage in templates:
-//   {{ lucide "lasso" }}
+//
+//	{{ lucide "lasso" }}
 //
 // Direct usage in Go:
-//   lucide.Lasso()
-//   lucide.Lasso(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Lasso()
+//	lucide.Lasso(lucide.Options{Size: 32, Class: "my-icon"})
 func Lasso(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20240,11 +21930,13 @@ func Lasso(opts ...Options) template.HTML {
 // LassoSelect renders the "lasso-select" icon.
 //
 // Usage in templates:
-//   {{ lucide "lasso-select" }}
+//
+//	{{ lucide "lasso-select" }}
 //
 // Direct usage in Go:
-//   lucide.LassoSelect()
-//   lucide.LassoSelect(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LassoSelect()
+//	lucide.LassoSelect(lucide.Options{Size: 32, Class: "my-icon"})
 func LassoSelect(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20262,11 +21954,13 @@ func LassoSelect(opts ...Options) template.HTML {
 // Laugh renders the "laugh" icon.
 //
 // Usage in templates:
-//   {{ lucide "laugh" }}
+//
+//	{{ lucide "laugh" }}
 //
 // Direct usage in Go:
-//   lucide.Laugh()
-//   lucide.Laugh(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Laugh()
+//	lucide.Laugh(lucide.Options{Size: 32, Class: "my-icon"})
 func Laugh(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20284,11 +21978,13 @@ func Laugh(opts ...Options) template.HTML {
 // Layers renders the "layers" icon.
 //
 // Usage in templates:
-//   {{ lucide "layers" }}
+//
+//	{{ lucide "layers" }}
 //
 // Direct usage in Go:
-//   lucide.Layers()
-//   lucide.Layers(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Layers()
+//	lucide.Layers(lucide.Options{Size: 32, Class: "my-icon"})
 func Layers(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20306,11 +22002,13 @@ func Layers(opts ...Options) template.HTML {
 // Layers2 renders the "layers-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "layers-2" }}
+//
+//	{{ lucide "layers-2" }}
 //
 // Direct usage in Go:
-//   lucide.Layers2()
-//   lucide.Layers2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Layers2()
+//	lucide.Layers2(lucide.Options{Size: 32, Class: "my-icon"})
 func Layers2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20328,11 +22026,13 @@ func Layers2(opts ...Options) template.HTML {
 // LayoutDashboard renders the "layout-dashboard" icon.
 //
 // Usage in templates:
-//   {{ lucide "layout-dashboard" }}
+//
+//	{{ lucide "layout-dashboard" }}
 //
 // Direct usage in Go:
-//   lucide.LayoutDashboard()
-//   lucide.LayoutDashboard(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LayoutDashboard()
+//	lucide.LayoutDashboard(lucide.Options{Size: 32, Class: "my-icon"})
 func LayoutDashboard(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20350,11 +22050,13 @@ func LayoutDashboard(opts ...Options) template.HTML {
 // LayoutGrid renders the "layout-grid" icon.
 //
 // Usage in templates:
-//   {{ lucide "layout-grid" }}
+//
+//	{{ lucide "layout-grid" }}
 //
 // Direct usage in Go:
-//   lucide.LayoutGrid()
-//   lucide.LayoutGrid(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LayoutGrid()
+//	lucide.LayoutGrid(lucide.Options{Size: 32, Class: "my-icon"})
 func LayoutGrid(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20372,11 +22074,13 @@ func LayoutGrid(opts ...Options) template.HTML {
 // LayoutList renders the "layout-list" icon.
 //
 // Usage in templates:
-//   {{ lucide "layout-list" }}
+//
+//	{{ lucide "layout-list" }}
 //
 // Direct usage in Go:
-//   lucide.LayoutList()
-//   lucide.LayoutList(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LayoutList()
+//	lucide.LayoutList(lucide.Options{Size: 32, Class: "my-icon"})
 func LayoutList(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20394,11 +22098,13 @@ func LayoutList(opts ...Options) template.HTML {
 // LayoutPanelLeft renders the "layout-panel-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "layout-panel-left" }}
+//
+//	{{ lucide "layout-panel-left" }}
 //
 // Direct usage in Go:
-//   lucide.LayoutPanelLeft()
-//   lucide.LayoutPanelLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LayoutPanelLeft()
+//	lucide.LayoutPanelLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func LayoutPanelLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20416,11 +22122,13 @@ func LayoutPanelLeft(opts ...Options) template.HTML {
 // LayoutPanelTop renders the "layout-panel-top" icon.
 //
 // Usage in templates:
-//   {{ lucide "layout-panel-top" }}
+//
+//	{{ lucide "layout-panel-top" }}
 //
 // Direct usage in Go:
-//   lucide.LayoutPanelTop()
-//   lucide.LayoutPanelTop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LayoutPanelTop()
+//	lucide.LayoutPanelTop(lucide.Options{Size: 32, Class: "my-icon"})
 func LayoutPanelTop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20438,11 +22146,13 @@ func LayoutPanelTop(opts ...Options) template.HTML {
 // LayoutTemplate renders the "layout-template" icon.
 //
 // Usage in templates:
-//   {{ lucide "layout-template" }}
+//
+//	{{ lucide "layout-template" }}
 //
 // Direct usage in Go:
-//   lucide.LayoutTemplate()
-//   lucide.LayoutTemplate(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LayoutTemplate()
+//	lucide.LayoutTemplate(lucide.Options{Size: 32, Class: "my-icon"})
 func LayoutTemplate(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20460,11 +22170,13 @@ func LayoutTemplate(opts ...Options) template.HTML {
 // Leaf renders the "leaf" icon.
 //
 // Usage in templates:
-//   {{ lucide "leaf" }}
+//
+//	{{ lucide "leaf" }}
 //
 // Direct usage in Go:
-//   lucide.Leaf()
-//   lucide.Leaf(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Leaf()
+//	lucide.Leaf(lucide.Options{Size: 32, Class: "my-icon"})
 func Leaf(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20482,11 +22194,13 @@ func Leaf(opts ...Options) template.HTML {
 // LeafyGreen renders the "leafy-green" icon.
 //
 // Usage in templates:
-//   {{ lucide "leafy-green" }}
+//
+//	{{ lucide "leafy-green" }}
 //
 // Direct usage in Go:
-//   lucide.LeafyGreen()
-//   lucide.LeafyGreen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LeafyGreen()
+//	lucide.LeafyGreen(lucide.Options{Size: 32, Class: "my-icon"})
 func LeafyGreen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20504,11 +22218,13 @@ func LeafyGreen(opts ...Options) template.HTML {
 // Lectern renders the "lectern" icon.
 //
 // Usage in templates:
-//   {{ lucide "lectern" }}
+//
+//	{{ lucide "lectern" }}
 //
 // Direct usage in Go:
-//   lucide.Lectern()
-//   lucide.Lectern(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Lectern()
+//	lucide.Lectern(lucide.Options{Size: 32, Class: "my-icon"})
 func Lectern(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20526,11 +22242,13 @@ func Lectern(opts ...Options) template.HTML {
 // Library renders the "library" icon.
 //
 // Usage in templates:
-//   {{ lucide "library" }}
+//
+//	{{ lucide "library" }}
 //
 // Direct usage in Go:
-//   lucide.Library()
-//   lucide.Library(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Library()
+//	lucide.Library(lucide.Options{Size: 32, Class: "my-icon"})
 func Library(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20548,11 +22266,13 @@ func Library(opts ...Options) template.HTML {
 // LibraryBig renders the "library-big" icon.
 //
 // Usage in templates:
-//   {{ lucide "library-big" }}
+//
+//	{{ lucide "library-big" }}
 //
 // Direct usage in Go:
-//   lucide.LibraryBig()
-//   lucide.LibraryBig(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LibraryBig()
+//	lucide.LibraryBig(lucide.Options{Size: 32, Class: "my-icon"})
 func LibraryBig(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20570,11 +22290,13 @@ func LibraryBig(opts ...Options) template.HTML {
 // LifeBuoy renders the "life-buoy" icon.
 //
 // Usage in templates:
-//   {{ lucide "life-buoy" }}
+//
+//	{{ lucide "life-buoy" }}
 //
 // Direct usage in Go:
-//   lucide.LifeBuoy()
-//   lucide.LifeBuoy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LifeBuoy()
+//	lucide.LifeBuoy(lucide.Options{Size: 32, Class: "my-icon"})
 func LifeBuoy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20592,11 +22314,13 @@ func LifeBuoy(opts ...Options) template.HTML {
 // Ligature renders the "ligature" icon.
 //
 // Usage in templates:
-//   {{ lucide "ligature" }}
+//
+//	{{ lucide "ligature" }}
 //
 // Direct usage in Go:
-//   lucide.Ligature()
-//   lucide.Ligature(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ligature()
+//	lucide.Ligature(lucide.Options{Size: 32, Class: "my-icon"})
 func Ligature(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20614,11 +22338,13 @@ func Ligature(opts ...Options) template.HTML {
 // Lightbulb renders the "lightbulb" icon.
 //
 // Usage in templates:
-//   {{ lucide "lightbulb" }}
+//
+//	{{ lucide "lightbulb" }}
 //
 // Direct usage in Go:
-//   lucide.Lightbulb()
-//   lucide.Lightbulb(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Lightbulb()
+//	lucide.Lightbulb(lucide.Options{Size: 32, Class: "my-icon"})
 func Lightbulb(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20636,11 +22362,13 @@ func Lightbulb(opts ...Options) template.HTML {
 // LightbulbOff renders the "lightbulb-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "lightbulb-off" }}
+//
+//	{{ lucide "lightbulb-off" }}
 //
 // Direct usage in Go:
-//   lucide.LightbulbOff()
-//   lucide.LightbulbOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LightbulbOff()
+//	lucide.LightbulbOff(lucide.Options{Size: 32, Class: "my-icon"})
 func LightbulbOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20658,11 +22386,13 @@ func LightbulbOff(opts ...Options) template.HTML {
 // LineSquiggle renders the "line-squiggle" icon.
 //
 // Usage in templates:
-//   {{ lucide "line-squiggle" }}
+//
+//	{{ lucide "line-squiggle" }}
 //
 // Direct usage in Go:
-//   lucide.LineSquiggle()
-//   lucide.LineSquiggle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LineSquiggle()
+//	lucide.LineSquiggle(lucide.Options{Size: 32, Class: "my-icon"})
 func LineSquiggle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20680,11 +22410,13 @@ func LineSquiggle(opts ...Options) template.HTML {
 // Link renders the "link" icon.
 //
 // Usage in templates:
-//   {{ lucide "link" }}
+//
+//	{{ lucide "link" }}
 //
 // Direct usage in Go:
-//   lucide.Link()
-//   lucide.Link(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Link()
+//	lucide.Link(lucide.Options{Size: 32, Class: "my-icon"})
 func Link(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20702,11 +22434,13 @@ func Link(opts ...Options) template.HTML {
 // Link2 renders the "link-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "link-2" }}
+//
+//	{{ lucide "link-2" }}
 //
 // Direct usage in Go:
-//   lucide.Link2()
-//   lucide.Link2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Link2()
+//	lucide.Link2(lucide.Options{Size: 32, Class: "my-icon"})
 func Link2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20724,11 +22458,13 @@ func Link2(opts ...Options) template.HTML {
 // Link2Off renders the "link-2-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "link-2-off" }}
+//
+//	{{ lucide "link-2-off" }}
 //
 // Direct usage in Go:
-//   lucide.Link2Off()
-//   lucide.Link2Off(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Link2Off()
+//	lucide.Link2Off(lucide.Options{Size: 32, Class: "my-icon"})
 func Link2Off(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20746,11 +22482,13 @@ func Link2Off(opts ...Options) template.HTML {
 // Linkedin renders the "linkedin" icon.
 //
 // Usage in templates:
-//   {{ lucide "linkedin" }}
+//
+//	{{ lucide "linkedin" }}
 //
 // Direct usage in Go:
-//   lucide.Linkedin()
-//   lucide.Linkedin(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Linkedin()
+//	lucide.Linkedin(lucide.Options{Size: 32, Class: "my-icon"})
 func Linkedin(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20768,11 +22506,13 @@ func Linkedin(opts ...Options) template.HTML {
 // List renders the "list" icon.
 //
 // Usage in templates:
-//   {{ lucide "list" }}
+//
+//	{{ lucide "list" }}
 //
 // Direct usage in Go:
-//   lucide.List()
-//   lucide.List(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.List()
+//	lucide.List(lucide.Options{Size: 32, Class: "my-icon"})
 func List(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20790,11 +22530,13 @@ func List(opts ...Options) template.HTML {
 // ListCheck renders the "list-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-check" }}
+//
+//	{{ lucide "list-check" }}
 //
 // Direct usage in Go:
-//   lucide.ListCheck()
-//   lucide.ListCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListCheck()
+//	lucide.ListCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func ListCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20812,11 +22554,13 @@ func ListCheck(opts ...Options) template.HTML {
 // ListChecks renders the "list-checks" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-checks" }}
+//
+//	{{ lucide "list-checks" }}
 //
 // Direct usage in Go:
-//   lucide.ListChecks()
-//   lucide.ListChecks(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListChecks()
+//	lucide.ListChecks(lucide.Options{Size: 32, Class: "my-icon"})
 func ListChecks(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20834,11 +22578,13 @@ func ListChecks(opts ...Options) template.HTML {
 // ListChevronsDownUp renders the "list-chevrons-down-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-chevrons-down-up" }}
+//
+//	{{ lucide "list-chevrons-down-up" }}
 //
 // Direct usage in Go:
-//   lucide.ListChevronsDownUp()
-//   lucide.ListChevronsDownUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListChevronsDownUp()
+//	lucide.ListChevronsDownUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ListChevronsDownUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20856,11 +22602,13 @@ func ListChevronsDownUp(opts ...Options) template.HTML {
 // ListChevronsUpDown renders the "list-chevrons-up-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-chevrons-up-down" }}
+//
+//	{{ lucide "list-chevrons-up-down" }}
 //
 // Direct usage in Go:
-//   lucide.ListChevronsUpDown()
-//   lucide.ListChevronsUpDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListChevronsUpDown()
+//	lucide.ListChevronsUpDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ListChevronsUpDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20878,11 +22626,13 @@ func ListChevronsUpDown(opts ...Options) template.HTML {
 // ListCollapse renders the "list-collapse" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-collapse" }}
+//
+//	{{ lucide "list-collapse" }}
 //
 // Direct usage in Go:
-//   lucide.ListCollapse()
-//   lucide.ListCollapse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListCollapse()
+//	lucide.ListCollapse(lucide.Options{Size: 32, Class: "my-icon"})
 func ListCollapse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20900,11 +22650,13 @@ func ListCollapse(opts ...Options) template.HTML {
 // ListEnd renders the "list-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-end" }}
+//
+//	{{ lucide "list-end" }}
 //
 // Direct usage in Go:
-//   lucide.ListEnd()
-//   lucide.ListEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListEnd()
+//	lucide.ListEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func ListEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20922,11 +22674,13 @@ func ListEnd(opts ...Options) template.HTML {
 // ListFilter renders the "list-filter" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-filter" }}
+//
+//	{{ lucide "list-filter" }}
 //
 // Direct usage in Go:
-//   lucide.ListFilter()
-//   lucide.ListFilter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListFilter()
+//	lucide.ListFilter(lucide.Options{Size: 32, Class: "my-icon"})
 func ListFilter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20944,11 +22698,13 @@ func ListFilter(opts ...Options) template.HTML {
 // ListFilterPlus renders the "list-filter-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-filter-plus" }}
+//
+//	{{ lucide "list-filter-plus" }}
 //
 // Direct usage in Go:
-//   lucide.ListFilterPlus()
-//   lucide.ListFilterPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListFilterPlus()
+//	lucide.ListFilterPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func ListFilterPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20966,11 +22722,13 @@ func ListFilterPlus(opts ...Options) template.HTML {
 // ListIndentDecrease renders the "list-indent-decrease" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-indent-decrease" }}
+//
+//	{{ lucide "list-indent-decrease" }}
 //
 // Direct usage in Go:
-//   lucide.ListIndentDecrease()
-//   lucide.ListIndentDecrease(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListIndentDecrease()
+//	lucide.ListIndentDecrease(lucide.Options{Size: 32, Class: "my-icon"})
 func ListIndentDecrease(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -20988,11 +22746,13 @@ func ListIndentDecrease(opts ...Options) template.HTML {
 // ListIndentIncrease renders the "list-indent-increase" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-indent-increase" }}
+//
+//	{{ lucide "list-indent-increase" }}
 //
 // Direct usage in Go:
-//   lucide.ListIndentIncrease()
-//   lucide.ListIndentIncrease(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListIndentIncrease()
+//	lucide.ListIndentIncrease(lucide.Options{Size: 32, Class: "my-icon"})
 func ListIndentIncrease(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21010,11 +22770,13 @@ func ListIndentIncrease(opts ...Options) template.HTML {
 // ListMinus renders the "list-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-minus" }}
+//
+//	{{ lucide "list-minus" }}
 //
 // Direct usage in Go:
-//   lucide.ListMinus()
-//   lucide.ListMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListMinus()
+//	lucide.ListMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func ListMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21032,11 +22794,13 @@ func ListMinus(opts ...Options) template.HTML {
 // ListMusic renders the "list-music" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-music" }}
+//
+//	{{ lucide "list-music" }}
 //
 // Direct usage in Go:
-//   lucide.ListMusic()
-//   lucide.ListMusic(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListMusic()
+//	lucide.ListMusic(lucide.Options{Size: 32, Class: "my-icon"})
 func ListMusic(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21054,11 +22818,13 @@ func ListMusic(opts ...Options) template.HTML {
 // ListOrdered renders the "list-ordered" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-ordered" }}
+//
+//	{{ lucide "list-ordered" }}
 //
 // Direct usage in Go:
-//   lucide.ListOrdered()
-//   lucide.ListOrdered(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListOrdered()
+//	lucide.ListOrdered(lucide.Options{Size: 32, Class: "my-icon"})
 func ListOrdered(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21076,11 +22842,13 @@ func ListOrdered(opts ...Options) template.HTML {
 // ListPlus renders the "list-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-plus" }}
+//
+//	{{ lucide "list-plus" }}
 //
 // Direct usage in Go:
-//   lucide.ListPlus()
-//   lucide.ListPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListPlus()
+//	lucide.ListPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func ListPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21098,11 +22866,13 @@ func ListPlus(opts ...Options) template.HTML {
 // ListRestart renders the "list-restart" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-restart" }}
+//
+//	{{ lucide "list-restart" }}
 //
 // Direct usage in Go:
-//   lucide.ListRestart()
-//   lucide.ListRestart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListRestart()
+//	lucide.ListRestart(lucide.Options{Size: 32, Class: "my-icon"})
 func ListRestart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21120,11 +22890,13 @@ func ListRestart(opts ...Options) template.HTML {
 // ListStart renders the "list-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-start" }}
+//
+//	{{ lucide "list-start" }}
 //
 // Direct usage in Go:
-//   lucide.ListStart()
-//   lucide.ListStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListStart()
+//	lucide.ListStart(lucide.Options{Size: 32, Class: "my-icon"})
 func ListStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21142,11 +22914,13 @@ func ListStart(opts ...Options) template.HTML {
 // ListTodo renders the "list-todo" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-todo" }}
+//
+//	{{ lucide "list-todo" }}
 //
 // Direct usage in Go:
-//   lucide.ListTodo()
-//   lucide.ListTodo(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListTodo()
+//	lucide.ListTodo(lucide.Options{Size: 32, Class: "my-icon"})
 func ListTodo(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21164,11 +22938,13 @@ func ListTodo(opts ...Options) template.HTML {
 // ListTree renders the "list-tree" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-tree" }}
+//
+//	{{ lucide "list-tree" }}
 //
 // Direct usage in Go:
-//   lucide.ListTree()
-//   lucide.ListTree(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListTree()
+//	lucide.ListTree(lucide.Options{Size: 32, Class: "my-icon"})
 func ListTree(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21186,11 +22962,13 @@ func ListTree(opts ...Options) template.HTML {
 // ListVideo renders the "list-video" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-video" }}
+//
+//	{{ lucide "list-video" }}
 //
 // Direct usage in Go:
-//   lucide.ListVideo()
-//   lucide.ListVideo(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListVideo()
+//	lucide.ListVideo(lucide.Options{Size: 32, Class: "my-icon"})
 func ListVideo(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21208,11 +22986,13 @@ func ListVideo(opts ...Options) template.HTML {
 // ListX renders the "list-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "list-x" }}
+//
+//	{{ lucide "list-x" }}
 //
 // Direct usage in Go:
-//   lucide.ListX()
-//   lucide.ListX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ListX()
+//	lucide.ListX(lucide.Options{Size: 32, Class: "my-icon"})
 func ListX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21230,11 +23010,13 @@ func ListX(opts ...Options) template.HTML {
 // Loader renders the "loader" icon.
 //
 // Usage in templates:
-//   {{ lucide "loader" }}
+//
+//	{{ lucide "loader" }}
 //
 // Direct usage in Go:
-//   lucide.Loader()
-//   lucide.Loader(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Loader()
+//	lucide.Loader(lucide.Options{Size: 32, Class: "my-icon"})
 func Loader(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21252,11 +23034,13 @@ func Loader(opts ...Options) template.HTML {
 // LoaderCircle renders the "loader-circle" icon.
 //
 // Usage in templates:
-//   {{ lucide "loader-circle" }}
+//
+//	{{ lucide "loader-circle" }}
 //
 // Direct usage in Go:
-//   lucide.LoaderCircle()
-//   lucide.LoaderCircle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LoaderCircle()
+//	lucide.LoaderCircle(lucide.Options{Size: 32, Class: "my-icon"})
 func LoaderCircle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21274,11 +23058,13 @@ func LoaderCircle(opts ...Options) template.HTML {
 // LoaderPinwheel renders the "loader-pinwheel" icon.
 //
 // Usage in templates:
-//   {{ lucide "loader-pinwheel" }}
+//
+//	{{ lucide "loader-pinwheel" }}
 //
 // Direct usage in Go:
-//   lucide.LoaderPinwheel()
-//   lucide.LoaderPinwheel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LoaderPinwheel()
+//	lucide.LoaderPinwheel(lucide.Options{Size: 32, Class: "my-icon"})
 func LoaderPinwheel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21296,11 +23082,13 @@ func LoaderPinwheel(opts ...Options) template.HTML {
 // Locate renders the "locate" icon.
 //
 // Usage in templates:
-//   {{ lucide "locate" }}
+//
+//	{{ lucide "locate" }}
 //
 // Direct usage in Go:
-//   lucide.Locate()
-//   lucide.Locate(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Locate()
+//	lucide.Locate(lucide.Options{Size: 32, Class: "my-icon"})
 func Locate(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21318,11 +23106,13 @@ func Locate(opts ...Options) template.HTML {
 // LocateFixed renders the "locate-fixed" icon.
 //
 // Usage in templates:
-//   {{ lucide "locate-fixed" }}
+//
+//	{{ lucide "locate-fixed" }}
 //
 // Direct usage in Go:
-//   lucide.LocateFixed()
-//   lucide.LocateFixed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LocateFixed()
+//	lucide.LocateFixed(lucide.Options{Size: 32, Class: "my-icon"})
 func LocateFixed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21340,11 +23130,13 @@ func LocateFixed(opts ...Options) template.HTML {
 // LocateOff renders the "locate-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "locate-off" }}
+//
+//	{{ lucide "locate-off" }}
 //
 // Direct usage in Go:
-//   lucide.LocateOff()
-//   lucide.LocateOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LocateOff()
+//	lucide.LocateOff(lucide.Options{Size: 32, Class: "my-icon"})
 func LocateOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21362,11 +23154,13 @@ func LocateOff(opts ...Options) template.HTML {
 // Lock renders the "lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "lock" }}
+//
+//	{{ lucide "lock" }}
 //
 // Direct usage in Go:
-//   lucide.Lock()
-//   lucide.Lock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Lock()
+//	lucide.Lock(lucide.Options{Size: 32, Class: "my-icon"})
 func Lock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21384,11 +23178,13 @@ func Lock(opts ...Options) template.HTML {
 // LockKeyhole renders the "lock-keyhole" icon.
 //
 // Usage in templates:
-//   {{ lucide "lock-keyhole" }}
+//
+//	{{ lucide "lock-keyhole" }}
 //
 // Direct usage in Go:
-//   lucide.LockKeyhole()
-//   lucide.LockKeyhole(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LockKeyhole()
+//	lucide.LockKeyhole(lucide.Options{Size: 32, Class: "my-icon"})
 func LockKeyhole(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21406,11 +23202,13 @@ func LockKeyhole(opts ...Options) template.HTML {
 // LockKeyholeOpen renders the "lock-keyhole-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "lock-keyhole-open" }}
+//
+//	{{ lucide "lock-keyhole-open" }}
 //
 // Direct usage in Go:
-//   lucide.LockKeyholeOpen()
-//   lucide.LockKeyholeOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LockKeyholeOpen()
+//	lucide.LockKeyholeOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func LockKeyholeOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21428,11 +23226,13 @@ func LockKeyholeOpen(opts ...Options) template.HTML {
 // LockOpen renders the "lock-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "lock-open" }}
+//
+//	{{ lucide "lock-open" }}
 //
 // Direct usage in Go:
-//   lucide.LockOpen()
-//   lucide.LockOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LockOpen()
+//	lucide.LockOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func LockOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21450,11 +23250,13 @@ func LockOpen(opts ...Options) template.HTML {
 // LogIn renders the "log-in" icon.
 //
 // Usage in templates:
-//   {{ lucide "log-in" }}
+//
+//	{{ lucide "log-in" }}
 //
 // Direct usage in Go:
-//   lucide.LogIn()
-//   lucide.LogIn(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LogIn()
+//	lucide.LogIn(lucide.Options{Size: 32, Class: "my-icon"})
 func LogIn(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21472,11 +23274,13 @@ func LogIn(opts ...Options) template.HTML {
 // LogOut renders the "log-out" icon.
 //
 // Usage in templates:
-//   {{ lucide "log-out" }}
+//
+//	{{ lucide "log-out" }}
 //
 // Direct usage in Go:
-//   lucide.LogOut()
-//   lucide.LogOut(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.LogOut()
+//	lucide.LogOut(lucide.Options{Size: 32, Class: "my-icon"})
 func LogOut(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21494,11 +23298,13 @@ func LogOut(opts ...Options) template.HTML {
 // Logs renders the "logs" icon.
 //
 // Usage in templates:
-//   {{ lucide "logs" }}
+//
+//	{{ lucide "logs" }}
 //
 // Direct usage in Go:
-//   lucide.Logs()
-//   lucide.Logs(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Logs()
+//	lucide.Logs(lucide.Options{Size: 32, Class: "my-icon"})
 func Logs(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21516,11 +23322,13 @@ func Logs(opts ...Options) template.HTML {
 // Lollipop renders the "lollipop" icon.
 //
 // Usage in templates:
-//   {{ lucide "lollipop" }}
+//
+//	{{ lucide "lollipop" }}
 //
 // Direct usage in Go:
-//   lucide.Lollipop()
-//   lucide.Lollipop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Lollipop()
+//	lucide.Lollipop(lucide.Options{Size: 32, Class: "my-icon"})
 func Lollipop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21538,11 +23346,13 @@ func Lollipop(opts ...Options) template.HTML {
 // Luggage renders the "luggage" icon.
 //
 // Usage in templates:
-//   {{ lucide "luggage" }}
+//
+//	{{ lucide "luggage" }}
 //
 // Direct usage in Go:
-//   lucide.Luggage()
-//   lucide.Luggage(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Luggage()
+//	lucide.Luggage(lucide.Options{Size: 32, Class: "my-icon"})
 func Luggage(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21560,11 +23370,13 @@ func Luggage(opts ...Options) template.HTML {
 // Magnet renders the "magnet" icon.
 //
 // Usage in templates:
-//   {{ lucide "magnet" }}
+//
+//	{{ lucide "magnet" }}
 //
 // Direct usage in Go:
-//   lucide.Magnet()
-//   lucide.Magnet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Magnet()
+//	lucide.Magnet(lucide.Options{Size: 32, Class: "my-icon"})
 func Magnet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21582,11 +23394,13 @@ func Magnet(opts ...Options) template.HTML {
 // Mail renders the "mail" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail" }}
+//
+//	{{ lucide "mail" }}
 //
 // Direct usage in Go:
-//   lucide.Mail()
-//   lucide.Mail(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mail()
+//	lucide.Mail(lucide.Options{Size: 32, Class: "my-icon"})
 func Mail(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21604,11 +23418,13 @@ func Mail(opts ...Options) template.HTML {
 // MailCheck renders the "mail-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-check" }}
+//
+//	{{ lucide "mail-check" }}
 //
 // Direct usage in Go:
-//   lucide.MailCheck()
-//   lucide.MailCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailCheck()
+//	lucide.MailCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func MailCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21626,11 +23442,13 @@ func MailCheck(opts ...Options) template.HTML {
 // MailMinus renders the "mail-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-minus" }}
+//
+//	{{ lucide "mail-minus" }}
 //
 // Direct usage in Go:
-//   lucide.MailMinus()
-//   lucide.MailMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailMinus()
+//	lucide.MailMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func MailMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21648,11 +23466,13 @@ func MailMinus(opts ...Options) template.HTML {
 // MailOpen renders the "mail-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-open" }}
+//
+//	{{ lucide "mail-open" }}
 //
 // Direct usage in Go:
-//   lucide.MailOpen()
-//   lucide.MailOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailOpen()
+//	lucide.MailOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func MailOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21670,11 +23490,13 @@ func MailOpen(opts ...Options) template.HTML {
 // MailPlus renders the "mail-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-plus" }}
+//
+//	{{ lucide "mail-plus" }}
 //
 // Direct usage in Go:
-//   lucide.MailPlus()
-//   lucide.MailPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailPlus()
+//	lucide.MailPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func MailPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21692,11 +23514,13 @@ func MailPlus(opts ...Options) template.HTML {
 // MailQuestionMark renders the "mail-question-mark" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-question-mark" }}
+//
+//	{{ lucide "mail-question-mark" }}
 //
 // Direct usage in Go:
-//   lucide.MailQuestionMark()
-//   lucide.MailQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailQuestionMark()
+//	lucide.MailQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
 func MailQuestionMark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21714,11 +23538,13 @@ func MailQuestionMark(opts ...Options) template.HTML {
 // MailSearch renders the "mail-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-search" }}
+//
+//	{{ lucide "mail-search" }}
 //
 // Direct usage in Go:
-//   lucide.MailSearch()
-//   lucide.MailSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailSearch()
+//	lucide.MailSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func MailSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21736,11 +23562,13 @@ func MailSearch(opts ...Options) template.HTML {
 // MailWarning renders the "mail-warning" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-warning" }}
+//
+//	{{ lucide "mail-warning" }}
 //
 // Direct usage in Go:
-//   lucide.MailWarning()
-//   lucide.MailWarning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailWarning()
+//	lucide.MailWarning(lucide.Options{Size: 32, Class: "my-icon"})
 func MailWarning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21758,11 +23586,13 @@ func MailWarning(opts ...Options) template.HTML {
 // MailX renders the "mail-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "mail-x" }}
+//
+//	{{ lucide "mail-x" }}
 //
 // Direct usage in Go:
-//   lucide.MailX()
-//   lucide.MailX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MailX()
+//	lucide.MailX(lucide.Options{Size: 32, Class: "my-icon"})
 func MailX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21780,11 +23610,13 @@ func MailX(opts ...Options) template.HTML {
 // Mailbox renders the "mailbox" icon.
 //
 // Usage in templates:
-//   {{ lucide "mailbox" }}
+//
+//	{{ lucide "mailbox" }}
 //
 // Direct usage in Go:
-//   lucide.Mailbox()
-//   lucide.Mailbox(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mailbox()
+//	lucide.Mailbox(lucide.Options{Size: 32, Class: "my-icon"})
 func Mailbox(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21802,11 +23634,13 @@ func Mailbox(opts ...Options) template.HTML {
 // Mails renders the "mails" icon.
 //
 // Usage in templates:
-//   {{ lucide "mails" }}
+//
+//	{{ lucide "mails" }}
 //
 // Direct usage in Go:
-//   lucide.Mails()
-//   lucide.Mails(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mails()
+//	lucide.Mails(lucide.Options{Size: 32, Class: "my-icon"})
 func Mails(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21824,11 +23658,13 @@ func Mails(opts ...Options) template.HTML {
 // Map renders the "map" icon.
 //
 // Usage in templates:
-//   {{ lucide "map" }}
+//
+//	{{ lucide "map" }}
 //
 // Direct usage in Go:
-//   lucide.Map()
-//   lucide.Map(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Map()
+//	lucide.Map(lucide.Options{Size: 32, Class: "my-icon"})
 func Map(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21846,11 +23682,13 @@ func Map(opts ...Options) template.HTML {
 // MapMinus renders the "map-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-minus" }}
+//
+//	{{ lucide "map-minus" }}
 //
 // Direct usage in Go:
-//   lucide.MapMinus()
-//   lucide.MapMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapMinus()
+//	lucide.MapMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func MapMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21868,11 +23706,13 @@ func MapMinus(opts ...Options) template.HTML {
 // MapPin renders the "map-pin" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin" }}
+//
+//	{{ lucide "map-pin" }}
 //
 // Direct usage in Go:
-//   lucide.MapPin()
-//   lucide.MapPin(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPin()
+//	lucide.MapPin(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPin(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21890,11 +23730,13 @@ func MapPin(opts ...Options) template.HTML {
 // MapPinCheck renders the "map-pin-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-check" }}
+//
+//	{{ lucide "map-pin-check" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinCheck()
-//   lucide.MapPinCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinCheck()
+//	lucide.MapPinCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21912,11 +23754,13 @@ func MapPinCheck(opts ...Options) template.HTML {
 // MapPinCheckInside renders the "map-pin-check-inside" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-check-inside" }}
+//
+//	{{ lucide "map-pin-check-inside" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinCheckInside()
-//   lucide.MapPinCheckInside(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinCheckInside()
+//	lucide.MapPinCheckInside(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinCheckInside(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21934,11 +23778,13 @@ func MapPinCheckInside(opts ...Options) template.HTML {
 // MapPinHouse renders the "map-pin-house" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-house" }}
+//
+//	{{ lucide "map-pin-house" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinHouse()
-//   lucide.MapPinHouse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinHouse()
+//	lucide.MapPinHouse(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinHouse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21956,11 +23802,13 @@ func MapPinHouse(opts ...Options) template.HTML {
 // MapPinMinus renders the "map-pin-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-minus" }}
+//
+//	{{ lucide "map-pin-minus" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinMinus()
-//   lucide.MapPinMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinMinus()
+//	lucide.MapPinMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -21978,11 +23826,13 @@ func MapPinMinus(opts ...Options) template.HTML {
 // MapPinMinusInside renders the "map-pin-minus-inside" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-minus-inside" }}
+//
+//	{{ lucide "map-pin-minus-inside" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinMinusInside()
-//   lucide.MapPinMinusInside(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinMinusInside()
+//	lucide.MapPinMinusInside(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinMinusInside(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22000,11 +23850,13 @@ func MapPinMinusInside(opts ...Options) template.HTML {
 // MapPinOff renders the "map-pin-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-off" }}
+//
+//	{{ lucide "map-pin-off" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinOff()
-//   lucide.MapPinOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinOff()
+//	lucide.MapPinOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22022,11 +23874,13 @@ func MapPinOff(opts ...Options) template.HTML {
 // MapPinPen renders the "map-pin-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-pen" }}
+//
+//	{{ lucide "map-pin-pen" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinPen()
-//   lucide.MapPinPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinPen()
+//	lucide.MapPinPen(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22044,11 +23898,13 @@ func MapPinPen(opts ...Options) template.HTML {
 // MapPinPlus renders the "map-pin-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-plus" }}
+//
+//	{{ lucide "map-pin-plus" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinPlus()
-//   lucide.MapPinPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinPlus()
+//	lucide.MapPinPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22066,11 +23922,13 @@ func MapPinPlus(opts ...Options) template.HTML {
 // MapPinPlusInside renders the "map-pin-plus-inside" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-plus-inside" }}
+//
+//	{{ lucide "map-pin-plus-inside" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinPlusInside()
-//   lucide.MapPinPlusInside(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinPlusInside()
+//	lucide.MapPinPlusInside(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinPlusInside(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22088,11 +23946,13 @@ func MapPinPlusInside(opts ...Options) template.HTML {
 // MapPinX renders the "map-pin-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-x" }}
+//
+//	{{ lucide "map-pin-x" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinX()
-//   lucide.MapPinX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinX()
+//	lucide.MapPinX(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22110,11 +23970,13 @@ func MapPinX(opts ...Options) template.HTML {
 // MapPinXInside renders the "map-pin-x-inside" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pin-x-inside" }}
+//
+//	{{ lucide "map-pin-x-inside" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinXInside()
-//   lucide.MapPinXInside(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinXInside()
+//	lucide.MapPinXInside(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinXInside(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22132,11 +23994,13 @@ func MapPinXInside(opts ...Options) template.HTML {
 // MapPinned renders the "map-pinned" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-pinned" }}
+//
+//	{{ lucide "map-pinned" }}
 //
 // Direct usage in Go:
-//   lucide.MapPinned()
-//   lucide.MapPinned(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPinned()
+//	lucide.MapPinned(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPinned(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22154,11 +24018,13 @@ func MapPinned(opts ...Options) template.HTML {
 // MapPlus renders the "map-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "map-plus" }}
+//
+//	{{ lucide "map-plus" }}
 //
 // Direct usage in Go:
-//   lucide.MapPlus()
-//   lucide.MapPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MapPlus()
+//	lucide.MapPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func MapPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22176,11 +24042,13 @@ func MapPlus(opts ...Options) template.HTML {
 // Mars renders the "mars" icon.
 //
 // Usage in templates:
-//   {{ lucide "mars" }}
+//
+//	{{ lucide "mars" }}
 //
 // Direct usage in Go:
-//   lucide.Mars()
-//   lucide.Mars(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mars()
+//	lucide.Mars(lucide.Options{Size: 32, Class: "my-icon"})
 func Mars(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22198,11 +24066,13 @@ func Mars(opts ...Options) template.HTML {
 // MarsStroke renders the "mars-stroke" icon.
 //
 // Usage in templates:
-//   {{ lucide "mars-stroke" }}
+//
+//	{{ lucide "mars-stroke" }}
 //
 // Direct usage in Go:
-//   lucide.MarsStroke()
-//   lucide.MarsStroke(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MarsStroke()
+//	lucide.MarsStroke(lucide.Options{Size: 32, Class: "my-icon"})
 func MarsStroke(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22220,11 +24090,13 @@ func MarsStroke(opts ...Options) template.HTML {
 // Martini renders the "martini" icon.
 //
 // Usage in templates:
-//   {{ lucide "martini" }}
+//
+//	{{ lucide "martini" }}
 //
 // Direct usage in Go:
-//   lucide.Martini()
-//   lucide.Martini(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Martini()
+//	lucide.Martini(lucide.Options{Size: 32, Class: "my-icon"})
 func Martini(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22242,11 +24114,13 @@ func Martini(opts ...Options) template.HTML {
 // Maximize renders the "maximize" icon.
 //
 // Usage in templates:
-//   {{ lucide "maximize" }}
+//
+//	{{ lucide "maximize" }}
 //
 // Direct usage in Go:
-//   lucide.Maximize()
-//   lucide.Maximize(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Maximize()
+//	lucide.Maximize(lucide.Options{Size: 32, Class: "my-icon"})
 func Maximize(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22264,11 +24138,13 @@ func Maximize(opts ...Options) template.HTML {
 // Maximize2 renders the "maximize-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "maximize-2" }}
+//
+//	{{ lucide "maximize-2" }}
 //
 // Direct usage in Go:
-//   lucide.Maximize2()
-//   lucide.Maximize2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Maximize2()
+//	lucide.Maximize2(lucide.Options{Size: 32, Class: "my-icon"})
 func Maximize2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22286,11 +24162,13 @@ func Maximize2(opts ...Options) template.HTML {
 // Medal renders the "medal" icon.
 //
 // Usage in templates:
-//   {{ lucide "medal" }}
+//
+//	{{ lucide "medal" }}
 //
 // Direct usage in Go:
-//   lucide.Medal()
-//   lucide.Medal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Medal()
+//	lucide.Medal(lucide.Options{Size: 32, Class: "my-icon"})
 func Medal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22308,11 +24186,13 @@ func Medal(opts ...Options) template.HTML {
 // Megaphone renders the "megaphone" icon.
 //
 // Usage in templates:
-//   {{ lucide "megaphone" }}
+//
+//	{{ lucide "megaphone" }}
 //
 // Direct usage in Go:
-//   lucide.Megaphone()
-//   lucide.Megaphone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Megaphone()
+//	lucide.Megaphone(lucide.Options{Size: 32, Class: "my-icon"})
 func Megaphone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22330,11 +24210,13 @@ func Megaphone(opts ...Options) template.HTML {
 // MegaphoneOff renders the "megaphone-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "megaphone-off" }}
+//
+//	{{ lucide "megaphone-off" }}
 //
 // Direct usage in Go:
-//   lucide.MegaphoneOff()
-//   lucide.MegaphoneOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MegaphoneOff()
+//	lucide.MegaphoneOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MegaphoneOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22352,11 +24234,13 @@ func MegaphoneOff(opts ...Options) template.HTML {
 // Meh renders the "meh" icon.
 //
 // Usage in templates:
-//   {{ lucide "meh" }}
+//
+//	{{ lucide "meh" }}
 //
 // Direct usage in Go:
-//   lucide.Meh()
-//   lucide.Meh(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Meh()
+//	lucide.Meh(lucide.Options{Size: 32, Class: "my-icon"})
 func Meh(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22374,11 +24258,13 @@ func Meh(opts ...Options) template.HTML {
 // MemoryStick renders the "memory-stick" icon.
 //
 // Usage in templates:
-//   {{ lucide "memory-stick" }}
+//
+//	{{ lucide "memory-stick" }}
 //
 // Direct usage in Go:
-//   lucide.MemoryStick()
-//   lucide.MemoryStick(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MemoryStick()
+//	lucide.MemoryStick(lucide.Options{Size: 32, Class: "my-icon"})
 func MemoryStick(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22396,11 +24282,13 @@ func MemoryStick(opts ...Options) template.HTML {
 // Menu renders the "menu" icon.
 //
 // Usage in templates:
-//   {{ lucide "menu" }}
+//
+//	{{ lucide "menu" }}
 //
 // Direct usage in Go:
-//   lucide.Menu()
-//   lucide.Menu(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Menu()
+//	lucide.Menu(lucide.Options{Size: 32, Class: "my-icon"})
 func Menu(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22418,11 +24306,13 @@ func Menu(opts ...Options) template.HTML {
 // Merge renders the "merge" icon.
 //
 // Usage in templates:
-//   {{ lucide "merge" }}
+//
+//	{{ lucide "merge" }}
 //
 // Direct usage in Go:
-//   lucide.Merge()
-//   lucide.Merge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Merge()
+//	lucide.Merge(lucide.Options{Size: 32, Class: "my-icon"})
 func Merge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22440,11 +24330,13 @@ func Merge(opts ...Options) template.HTML {
 // MessageCircle renders the "message-circle" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle" }}
+//
+//	{{ lucide "message-circle" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircle()
-//   lucide.MessageCircle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircle()
+//	lucide.MessageCircle(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22462,11 +24354,13 @@ func MessageCircle(opts ...Options) template.HTML {
 // MessageCircleCode renders the "message-circle-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-code" }}
+//
+//	{{ lucide "message-circle-code" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleCode()
-//   lucide.MessageCircleCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleCode()
+//	lucide.MessageCircleCode(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22484,11 +24378,13 @@ func MessageCircleCode(opts ...Options) template.HTML {
 // MessageCircleDashed renders the "message-circle-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-dashed" }}
+//
+//	{{ lucide "message-circle-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleDashed()
-//   lucide.MessageCircleDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleDashed()
+//	lucide.MessageCircleDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22506,11 +24402,13 @@ func MessageCircleDashed(opts ...Options) template.HTML {
 // MessageCircleHeart renders the "message-circle-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-heart" }}
+//
+//	{{ lucide "message-circle-heart" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleHeart()
-//   lucide.MessageCircleHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleHeart()
+//	lucide.MessageCircleHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22528,11 +24426,13 @@ func MessageCircleHeart(opts ...Options) template.HTML {
 // MessageCircleMore renders the "message-circle-more" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-more" }}
+//
+//	{{ lucide "message-circle-more" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleMore()
-//   lucide.MessageCircleMore(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleMore()
+//	lucide.MessageCircleMore(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleMore(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22550,11 +24450,13 @@ func MessageCircleMore(opts ...Options) template.HTML {
 // MessageCircleOff renders the "message-circle-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-off" }}
+//
+//	{{ lucide "message-circle-off" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleOff()
-//   lucide.MessageCircleOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleOff()
+//	lucide.MessageCircleOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22572,11 +24474,13 @@ func MessageCircleOff(opts ...Options) template.HTML {
 // MessageCirclePlus renders the "message-circle-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-plus" }}
+//
+//	{{ lucide "message-circle-plus" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCirclePlus()
-//   lucide.MessageCirclePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCirclePlus()
+//	lucide.MessageCirclePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCirclePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22594,11 +24498,13 @@ func MessageCirclePlus(opts ...Options) template.HTML {
 // MessageCircleQuestionMark renders the "message-circle-question-mark" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-question-mark" }}
+//
+//	{{ lucide "message-circle-question-mark" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleQuestionMark()
-//   lucide.MessageCircleQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleQuestionMark()
+//	lucide.MessageCircleQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleQuestionMark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22616,11 +24522,13 @@ func MessageCircleQuestionMark(opts ...Options) template.HTML {
 // MessageCircleReply renders the "message-circle-reply" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-reply" }}
+//
+//	{{ lucide "message-circle-reply" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleReply()
-//   lucide.MessageCircleReply(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleReply()
+//	lucide.MessageCircleReply(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleReply(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22638,11 +24546,13 @@ func MessageCircleReply(opts ...Options) template.HTML {
 // MessageCircleWarning renders the "message-circle-warning" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-warning" }}
+//
+//	{{ lucide "message-circle-warning" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleWarning()
-//   lucide.MessageCircleWarning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleWarning()
+//	lucide.MessageCircleWarning(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleWarning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22660,11 +24570,13 @@ func MessageCircleWarning(opts ...Options) template.HTML {
 // MessageCircleX renders the "message-circle-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-circle-x" }}
+//
+//	{{ lucide "message-circle-x" }}
 //
 // Direct usage in Go:
-//   lucide.MessageCircleX()
-//   lucide.MessageCircleX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageCircleX()
+//	lucide.MessageCircleX(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageCircleX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22682,11 +24594,13 @@ func MessageCircleX(opts ...Options) template.HTML {
 // MessageSquare renders the "message-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square" }}
+//
+//	{{ lucide "message-square" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquare()
-//   lucide.MessageSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquare()
+//	lucide.MessageSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22704,11 +24618,13 @@ func MessageSquare(opts ...Options) template.HTML {
 // MessageSquareCode renders the "message-square-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-code" }}
+//
+//	{{ lucide "message-square-code" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareCode()
-//   lucide.MessageSquareCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareCode()
+//	lucide.MessageSquareCode(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22726,11 +24642,13 @@ func MessageSquareCode(opts ...Options) template.HTML {
 // MessageSquareDashed renders the "message-square-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-dashed" }}
+//
+//	{{ lucide "message-square-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareDashed()
-//   lucide.MessageSquareDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareDashed()
+//	lucide.MessageSquareDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22748,11 +24666,13 @@ func MessageSquareDashed(opts ...Options) template.HTML {
 // MessageSquareDiff renders the "message-square-diff" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-diff" }}
+//
+//	{{ lucide "message-square-diff" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareDiff()
-//   lucide.MessageSquareDiff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareDiff()
+//	lucide.MessageSquareDiff(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareDiff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22770,11 +24690,13 @@ func MessageSquareDiff(opts ...Options) template.HTML {
 // MessageSquareDot renders the "message-square-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-dot" }}
+//
+//	{{ lucide "message-square-dot" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareDot()
-//   lucide.MessageSquareDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareDot()
+//	lucide.MessageSquareDot(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22792,11 +24714,13 @@ func MessageSquareDot(opts ...Options) template.HTML {
 // MessageSquareHeart renders the "message-square-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-heart" }}
+//
+//	{{ lucide "message-square-heart" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareHeart()
-//   lucide.MessageSquareHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareHeart()
+//	lucide.MessageSquareHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22814,11 +24738,13 @@ func MessageSquareHeart(opts ...Options) template.HTML {
 // MessageSquareLock renders the "message-square-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-lock" }}
+//
+//	{{ lucide "message-square-lock" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareLock()
-//   lucide.MessageSquareLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareLock()
+//	lucide.MessageSquareLock(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22836,11 +24762,13 @@ func MessageSquareLock(opts ...Options) template.HTML {
 // MessageSquareMore renders the "message-square-more" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-more" }}
+//
+//	{{ lucide "message-square-more" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareMore()
-//   lucide.MessageSquareMore(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareMore()
+//	lucide.MessageSquareMore(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareMore(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22858,11 +24786,13 @@ func MessageSquareMore(opts ...Options) template.HTML {
 // MessageSquareOff renders the "message-square-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-off" }}
+//
+//	{{ lucide "message-square-off" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareOff()
-//   lucide.MessageSquareOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareOff()
+//	lucide.MessageSquareOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22880,11 +24810,13 @@ func MessageSquareOff(opts ...Options) template.HTML {
 // MessageSquarePlus renders the "message-square-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-plus" }}
+//
+//	{{ lucide "message-square-plus" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquarePlus()
-//   lucide.MessageSquarePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquarePlus()
+//	lucide.MessageSquarePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquarePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22902,11 +24834,13 @@ func MessageSquarePlus(opts ...Options) template.HTML {
 // MessageSquareQuote renders the "message-square-quote" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-quote" }}
+//
+//	{{ lucide "message-square-quote" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareQuote()
-//   lucide.MessageSquareQuote(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareQuote()
+//	lucide.MessageSquareQuote(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareQuote(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22924,11 +24858,13 @@ func MessageSquareQuote(opts ...Options) template.HTML {
 // MessageSquareReply renders the "message-square-reply" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-reply" }}
+//
+//	{{ lucide "message-square-reply" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareReply()
-//   lucide.MessageSquareReply(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareReply()
+//	lucide.MessageSquareReply(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareReply(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22946,11 +24882,13 @@ func MessageSquareReply(opts ...Options) template.HTML {
 // MessageSquareShare renders the "message-square-share" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-share" }}
+//
+//	{{ lucide "message-square-share" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareShare()
-//   lucide.MessageSquareShare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareShare()
+//	lucide.MessageSquareShare(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareShare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22968,11 +24906,13 @@ func MessageSquareShare(opts ...Options) template.HTML {
 // MessageSquareText renders the "message-square-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-text" }}
+//
+//	{{ lucide "message-square-text" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareText()
-//   lucide.MessageSquareText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareText()
+//	lucide.MessageSquareText(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -22990,11 +24930,13 @@ func MessageSquareText(opts ...Options) template.HTML {
 // MessageSquareWarning renders the "message-square-warning" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-warning" }}
+//
+//	{{ lucide "message-square-warning" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareWarning()
-//   lucide.MessageSquareWarning(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareWarning()
+//	lucide.MessageSquareWarning(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareWarning(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23012,11 +24954,13 @@ func MessageSquareWarning(opts ...Options) template.HTML {
 // MessageSquareX renders the "message-square-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "message-square-x" }}
+//
+//	{{ lucide "message-square-x" }}
 //
 // Direct usage in Go:
-//   lucide.MessageSquareX()
-//   lucide.MessageSquareX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessageSquareX()
+//	lucide.MessageSquareX(lucide.Options{Size: 32, Class: "my-icon"})
 func MessageSquareX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23034,11 +24978,13 @@ func MessageSquareX(opts ...Options) template.HTML {
 // MessagesSquare renders the "messages-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "messages-square" }}
+//
+//	{{ lucide "messages-square" }}
 //
 // Direct usage in Go:
-//   lucide.MessagesSquare()
-//   lucide.MessagesSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MessagesSquare()
+//	lucide.MessagesSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func MessagesSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23056,11 +25002,13 @@ func MessagesSquare(opts ...Options) template.HTML {
 // Mic renders the "mic" icon.
 //
 // Usage in templates:
-//   {{ lucide "mic" }}
+//
+//	{{ lucide "mic" }}
 //
 // Direct usage in Go:
-//   lucide.Mic()
-//   lucide.Mic(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mic()
+//	lucide.Mic(lucide.Options{Size: 32, Class: "my-icon"})
 func Mic(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23078,11 +25026,13 @@ func Mic(opts ...Options) template.HTML {
 // MicOff renders the "mic-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "mic-off" }}
+//
+//	{{ lucide "mic-off" }}
 //
 // Direct usage in Go:
-//   lucide.MicOff()
-//   lucide.MicOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MicOff()
+//	lucide.MicOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MicOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23100,11 +25050,13 @@ func MicOff(opts ...Options) template.HTML {
 // MicVocal renders the "mic-vocal" icon.
 //
 // Usage in templates:
-//   {{ lucide "mic-vocal" }}
+//
+//	{{ lucide "mic-vocal" }}
 //
 // Direct usage in Go:
-//   lucide.MicVocal()
-//   lucide.MicVocal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MicVocal()
+//	lucide.MicVocal(lucide.Options{Size: 32, Class: "my-icon"})
 func MicVocal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23122,11 +25074,13 @@ func MicVocal(opts ...Options) template.HTML {
 // Microchip renders the "microchip" icon.
 //
 // Usage in templates:
-//   {{ lucide "microchip" }}
+//
+//	{{ lucide "microchip" }}
 //
 // Direct usage in Go:
-//   lucide.Microchip()
-//   lucide.Microchip(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Microchip()
+//	lucide.Microchip(lucide.Options{Size: 32, Class: "my-icon"})
 func Microchip(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23144,11 +25098,13 @@ func Microchip(opts ...Options) template.HTML {
 // Microscope renders the "microscope" icon.
 //
 // Usage in templates:
-//   {{ lucide "microscope" }}
+//
+//	{{ lucide "microscope" }}
 //
 // Direct usage in Go:
-//   lucide.Microscope()
-//   lucide.Microscope(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Microscope()
+//	lucide.Microscope(lucide.Options{Size: 32, Class: "my-icon"})
 func Microscope(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23166,11 +25122,13 @@ func Microscope(opts ...Options) template.HTML {
 // Microwave renders the "microwave" icon.
 //
 // Usage in templates:
-//   {{ lucide "microwave" }}
+//
+//	{{ lucide "microwave" }}
 //
 // Direct usage in Go:
-//   lucide.Microwave()
-//   lucide.Microwave(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Microwave()
+//	lucide.Microwave(lucide.Options{Size: 32, Class: "my-icon"})
 func Microwave(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23188,11 +25146,13 @@ func Microwave(opts ...Options) template.HTML {
 // Milestone renders the "milestone" icon.
 //
 // Usage in templates:
-//   {{ lucide "milestone" }}
+//
+//	{{ lucide "milestone" }}
 //
 // Direct usage in Go:
-//   lucide.Milestone()
-//   lucide.Milestone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Milestone()
+//	lucide.Milestone(lucide.Options{Size: 32, Class: "my-icon"})
 func Milestone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23210,11 +25170,13 @@ func Milestone(opts ...Options) template.HTML {
 // Milk renders the "milk" icon.
 //
 // Usage in templates:
-//   {{ lucide "milk" }}
+//
+//	{{ lucide "milk" }}
 //
 // Direct usage in Go:
-//   lucide.Milk()
-//   lucide.Milk(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Milk()
+//	lucide.Milk(lucide.Options{Size: 32, Class: "my-icon"})
 func Milk(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23232,11 +25194,13 @@ func Milk(opts ...Options) template.HTML {
 // MilkOff renders the "milk-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "milk-off" }}
+//
+//	{{ lucide "milk-off" }}
 //
 // Direct usage in Go:
-//   lucide.MilkOff()
-//   lucide.MilkOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MilkOff()
+//	lucide.MilkOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MilkOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23254,11 +25218,13 @@ func MilkOff(opts ...Options) template.HTML {
 // Minimize renders the "minimize" icon.
 //
 // Usage in templates:
-//   {{ lucide "minimize" }}
+//
+//	{{ lucide "minimize" }}
 //
 // Direct usage in Go:
-//   lucide.Minimize()
-//   lucide.Minimize(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Minimize()
+//	lucide.Minimize(lucide.Options{Size: 32, Class: "my-icon"})
 func Minimize(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23276,11 +25242,13 @@ func Minimize(opts ...Options) template.HTML {
 // Minimize2 renders the "minimize-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "minimize-2" }}
+//
+//	{{ lucide "minimize-2" }}
 //
 // Direct usage in Go:
-//   lucide.Minimize2()
-//   lucide.Minimize2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Minimize2()
+//	lucide.Minimize2(lucide.Options{Size: 32, Class: "my-icon"})
 func Minimize2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23298,11 +25266,13 @@ func Minimize2(opts ...Options) template.HTML {
 // Minus renders the "minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "minus" }}
+//
+//	{{ lucide "minus" }}
 //
 // Direct usage in Go:
-//   lucide.Minus()
-//   lucide.Minus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Minus()
+//	lucide.Minus(lucide.Options{Size: 32, Class: "my-icon"})
 func Minus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23320,11 +25290,13 @@ func Minus(opts ...Options) template.HTML {
 // Monitor renders the "monitor" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor" }}
+//
+//	{{ lucide "monitor" }}
 //
 // Direct usage in Go:
-//   lucide.Monitor()
-//   lucide.Monitor(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Monitor()
+//	lucide.Monitor(lucide.Options{Size: 32, Class: "my-icon"})
 func Monitor(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23342,11 +25314,13 @@ func Monitor(opts ...Options) template.HTML {
 // MonitorCheck renders the "monitor-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-check" }}
+//
+//	{{ lucide "monitor-check" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorCheck()
-//   lucide.MonitorCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorCheck()
+//	lucide.MonitorCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23364,11 +25338,13 @@ func MonitorCheck(opts ...Options) template.HTML {
 // MonitorCloud renders the "monitor-cloud" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-cloud" }}
+//
+//	{{ lucide "monitor-cloud" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorCloud()
-//   lucide.MonitorCloud(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorCloud()
+//	lucide.MonitorCloud(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorCloud(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23386,11 +25362,13 @@ func MonitorCloud(opts ...Options) template.HTML {
 // MonitorCog renders the "monitor-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-cog" }}
+//
+//	{{ lucide "monitor-cog" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorCog()
-//   lucide.MonitorCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorCog()
+//	lucide.MonitorCog(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23408,11 +25386,13 @@ func MonitorCog(opts ...Options) template.HTML {
 // MonitorDot renders the "monitor-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-dot" }}
+//
+//	{{ lucide "monitor-dot" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorDot()
-//   lucide.MonitorDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorDot()
+//	lucide.MonitorDot(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23430,11 +25410,13 @@ func MonitorDot(opts ...Options) template.HTML {
 // MonitorDown renders the "monitor-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-down" }}
+//
+//	{{ lucide "monitor-down" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorDown()
-//   lucide.MonitorDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorDown()
+//	lucide.MonitorDown(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23452,11 +25434,13 @@ func MonitorDown(opts ...Options) template.HTML {
 // MonitorOff renders the "monitor-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-off" }}
+//
+//	{{ lucide "monitor-off" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorOff()
-//   lucide.MonitorOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorOff()
+//	lucide.MonitorOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23474,11 +25458,13 @@ func MonitorOff(opts ...Options) template.HTML {
 // MonitorPause renders the "monitor-pause" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-pause" }}
+//
+//	{{ lucide "monitor-pause" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorPause()
-//   lucide.MonitorPause(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorPause()
+//	lucide.MonitorPause(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorPause(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23496,11 +25482,13 @@ func MonitorPause(opts ...Options) template.HTML {
 // MonitorPlay renders the "monitor-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-play" }}
+//
+//	{{ lucide "monitor-play" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorPlay()
-//   lucide.MonitorPlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorPlay()
+//	lucide.MonitorPlay(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorPlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23518,11 +25506,13 @@ func MonitorPlay(opts ...Options) template.HTML {
 // MonitorSmartphone renders the "monitor-smartphone" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-smartphone" }}
+//
+//	{{ lucide "monitor-smartphone" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorSmartphone()
-//   lucide.MonitorSmartphone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorSmartphone()
+//	lucide.MonitorSmartphone(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorSmartphone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23540,11 +25530,13 @@ func MonitorSmartphone(opts ...Options) template.HTML {
 // MonitorSpeaker renders the "monitor-speaker" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-speaker" }}
+//
+//	{{ lucide "monitor-speaker" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorSpeaker()
-//   lucide.MonitorSpeaker(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorSpeaker()
+//	lucide.MonitorSpeaker(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorSpeaker(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23562,11 +25554,13 @@ func MonitorSpeaker(opts ...Options) template.HTML {
 // MonitorStop renders the "monitor-stop" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-stop" }}
+//
+//	{{ lucide "monitor-stop" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorStop()
-//   lucide.MonitorStop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorStop()
+//	lucide.MonitorStop(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorStop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23584,11 +25578,13 @@ func MonitorStop(opts ...Options) template.HTML {
 // MonitorUp renders the "monitor-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-up" }}
+//
+//	{{ lucide "monitor-up" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorUp()
-//   lucide.MonitorUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorUp()
+//	lucide.MonitorUp(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23606,11 +25602,13 @@ func MonitorUp(opts ...Options) template.HTML {
 // MonitorX renders the "monitor-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "monitor-x" }}
+//
+//	{{ lucide "monitor-x" }}
 //
 // Direct usage in Go:
-//   lucide.MonitorX()
-//   lucide.MonitorX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MonitorX()
+//	lucide.MonitorX(lucide.Options{Size: 32, Class: "my-icon"})
 func MonitorX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23628,11 +25626,13 @@ func MonitorX(opts ...Options) template.HTML {
 // Moon renders the "moon" icon.
 //
 // Usage in templates:
-//   {{ lucide "moon" }}
+//
+//	{{ lucide "moon" }}
 //
 // Direct usage in Go:
-//   lucide.Moon()
-//   lucide.Moon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Moon()
+//	lucide.Moon(lucide.Options{Size: 32, Class: "my-icon"})
 func Moon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23650,11 +25650,13 @@ func Moon(opts ...Options) template.HTML {
 // MoonStar renders the "moon-star" icon.
 //
 // Usage in templates:
-//   {{ lucide "moon-star" }}
+//
+//	{{ lucide "moon-star" }}
 //
 // Direct usage in Go:
-//   lucide.MoonStar()
-//   lucide.MoonStar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoonStar()
+//	lucide.MoonStar(lucide.Options{Size: 32, Class: "my-icon"})
 func MoonStar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23672,11 +25674,13 @@ func MoonStar(opts ...Options) template.HTML {
 // Motorbike renders the "motorbike" icon.
 //
 // Usage in templates:
-//   {{ lucide "motorbike" }}
+//
+//	{{ lucide "motorbike" }}
 //
 // Direct usage in Go:
-//   lucide.Motorbike()
-//   lucide.Motorbike(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Motorbike()
+//	lucide.Motorbike(lucide.Options{Size: 32, Class: "my-icon"})
 func Motorbike(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23694,11 +25698,13 @@ func Motorbike(opts ...Options) template.HTML {
 // Mountain renders the "mountain" icon.
 //
 // Usage in templates:
-//   {{ lucide "mountain" }}
+//
+//	{{ lucide "mountain" }}
 //
 // Direct usage in Go:
-//   lucide.Mountain()
-//   lucide.Mountain(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mountain()
+//	lucide.Mountain(lucide.Options{Size: 32, Class: "my-icon"})
 func Mountain(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23716,11 +25722,13 @@ func Mountain(opts ...Options) template.HTML {
 // MountainSnow renders the "mountain-snow" icon.
 //
 // Usage in templates:
-//   {{ lucide "mountain-snow" }}
+//
+//	{{ lucide "mountain-snow" }}
 //
 // Direct usage in Go:
-//   lucide.MountainSnow()
-//   lucide.MountainSnow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MountainSnow()
+//	lucide.MountainSnow(lucide.Options{Size: 32, Class: "my-icon"})
 func MountainSnow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23738,11 +25746,13 @@ func MountainSnow(opts ...Options) template.HTML {
 // Mouse renders the "mouse" icon.
 //
 // Usage in templates:
-//   {{ lucide "mouse" }}
+//
+//	{{ lucide "mouse" }}
 //
 // Direct usage in Go:
-//   lucide.Mouse()
-//   lucide.Mouse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Mouse()
+//	lucide.Mouse(lucide.Options{Size: 32, Class: "my-icon"})
 func Mouse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23760,11 +25770,13 @@ func Mouse(opts ...Options) template.HTML {
 // MouseOff renders the "mouse-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "mouse-off" }}
+//
+//	{{ lucide "mouse-off" }}
 //
 // Direct usage in Go:
-//   lucide.MouseOff()
-//   lucide.MouseOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MouseOff()
+//	lucide.MouseOff(lucide.Options{Size: 32, Class: "my-icon"})
 func MouseOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23782,11 +25794,13 @@ func MouseOff(opts ...Options) template.HTML {
 // MousePointer renders the "mouse-pointer" icon.
 //
 // Usage in templates:
-//   {{ lucide "mouse-pointer" }}
+//
+//	{{ lucide "mouse-pointer" }}
 //
 // Direct usage in Go:
-//   lucide.MousePointer()
-//   lucide.MousePointer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MousePointer()
+//	lucide.MousePointer(lucide.Options{Size: 32, Class: "my-icon"})
 func MousePointer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23804,11 +25818,13 @@ func MousePointer(opts ...Options) template.HTML {
 // MousePointer2 renders the "mouse-pointer-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "mouse-pointer-2" }}
+//
+//	{{ lucide "mouse-pointer-2" }}
 //
 // Direct usage in Go:
-//   lucide.MousePointer2()
-//   lucide.MousePointer2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MousePointer2()
+//	lucide.MousePointer2(lucide.Options{Size: 32, Class: "my-icon"})
 func MousePointer2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23826,11 +25842,13 @@ func MousePointer2(opts ...Options) template.HTML {
 // MousePointerBan renders the "mouse-pointer-ban" icon.
 //
 // Usage in templates:
-//   {{ lucide "mouse-pointer-ban" }}
+//
+//	{{ lucide "mouse-pointer-ban" }}
 //
 // Direct usage in Go:
-//   lucide.MousePointerBan()
-//   lucide.MousePointerBan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MousePointerBan()
+//	lucide.MousePointerBan(lucide.Options{Size: 32, Class: "my-icon"})
 func MousePointerBan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23848,11 +25866,13 @@ func MousePointerBan(opts ...Options) template.HTML {
 // MousePointerClick renders the "mouse-pointer-click" icon.
 //
 // Usage in templates:
-//   {{ lucide "mouse-pointer-click" }}
+//
+//	{{ lucide "mouse-pointer-click" }}
 //
 // Direct usage in Go:
-//   lucide.MousePointerClick()
-//   lucide.MousePointerClick(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MousePointerClick()
+//	lucide.MousePointerClick(lucide.Options{Size: 32, Class: "my-icon"})
 func MousePointerClick(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23870,11 +25890,13 @@ func MousePointerClick(opts ...Options) template.HTML {
 // Move renders the "move" icon.
 //
 // Usage in templates:
-//   {{ lucide "move" }}
+//
+//	{{ lucide "move" }}
 //
 // Direct usage in Go:
-//   lucide.Move()
-//   lucide.Move(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Move()
+//	lucide.Move(lucide.Options{Size: 32, Class: "my-icon"})
 func Move(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23892,11 +25914,13 @@ func Move(opts ...Options) template.HTML {
 // Move3d renders the "move-3d" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-3d" }}
+//
+//	{{ lucide "move-3d" }}
 //
 // Direct usage in Go:
-//   lucide.Move3d()
-//   lucide.Move3d(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Move3d()
+//	lucide.Move3d(lucide.Options{Size: 32, Class: "my-icon"})
 func Move3d(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23914,11 +25938,13 @@ func Move3d(opts ...Options) template.HTML {
 // MoveDiagonal renders the "move-diagonal" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-diagonal" }}
+//
+//	{{ lucide "move-diagonal" }}
 //
 // Direct usage in Go:
-//   lucide.MoveDiagonal()
-//   lucide.MoveDiagonal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveDiagonal()
+//	lucide.MoveDiagonal(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveDiagonal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23936,11 +25962,13 @@ func MoveDiagonal(opts ...Options) template.HTML {
 // MoveDiagonal2 renders the "move-diagonal-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-diagonal-2" }}
+//
+//	{{ lucide "move-diagonal-2" }}
 //
 // Direct usage in Go:
-//   lucide.MoveDiagonal2()
-//   lucide.MoveDiagonal2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveDiagonal2()
+//	lucide.MoveDiagonal2(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveDiagonal2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23958,11 +25986,13 @@ func MoveDiagonal2(opts ...Options) template.HTML {
 // MoveDown renders the "move-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-down" }}
+//
+//	{{ lucide "move-down" }}
 //
 // Direct usage in Go:
-//   lucide.MoveDown()
-//   lucide.MoveDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveDown()
+//	lucide.MoveDown(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -23980,11 +26010,13 @@ func MoveDown(opts ...Options) template.HTML {
 // MoveDownLeft renders the "move-down-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-down-left" }}
+//
+//	{{ lucide "move-down-left" }}
 //
 // Direct usage in Go:
-//   lucide.MoveDownLeft()
-//   lucide.MoveDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveDownLeft()
+//	lucide.MoveDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveDownLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24002,11 +26034,13 @@ func MoveDownLeft(opts ...Options) template.HTML {
 // MoveDownRight renders the "move-down-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-down-right" }}
+//
+//	{{ lucide "move-down-right" }}
 //
 // Direct usage in Go:
-//   lucide.MoveDownRight()
-//   lucide.MoveDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveDownRight()
+//	lucide.MoveDownRight(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveDownRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24024,11 +26058,13 @@ func MoveDownRight(opts ...Options) template.HTML {
 // MoveHorizontal renders the "move-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-horizontal" }}
+//
+//	{{ lucide "move-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.MoveHorizontal()
-//   lucide.MoveHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveHorizontal()
+//	lucide.MoveHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24046,11 +26082,13 @@ func MoveHorizontal(opts ...Options) template.HTML {
 // MoveLeft renders the "move-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-left" }}
+//
+//	{{ lucide "move-left" }}
 //
 // Direct usage in Go:
-//   lucide.MoveLeft()
-//   lucide.MoveLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveLeft()
+//	lucide.MoveLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24068,11 +26106,13 @@ func MoveLeft(opts ...Options) template.HTML {
 // MoveRight renders the "move-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-right" }}
+//
+//	{{ lucide "move-right" }}
 //
 // Direct usage in Go:
-//   lucide.MoveRight()
-//   lucide.MoveRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveRight()
+//	lucide.MoveRight(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24090,11 +26130,13 @@ func MoveRight(opts ...Options) template.HTML {
 // MoveUp renders the "move-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-up" }}
+//
+//	{{ lucide "move-up" }}
 //
 // Direct usage in Go:
-//   lucide.MoveUp()
-//   lucide.MoveUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveUp()
+//	lucide.MoveUp(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24112,11 +26154,13 @@ func MoveUp(opts ...Options) template.HTML {
 // MoveUpLeft renders the "move-up-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-up-left" }}
+//
+//	{{ lucide "move-up-left" }}
 //
 // Direct usage in Go:
-//   lucide.MoveUpLeft()
-//   lucide.MoveUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveUpLeft()
+//	lucide.MoveUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveUpLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24134,11 +26178,13 @@ func MoveUpLeft(opts ...Options) template.HTML {
 // MoveUpRight renders the "move-up-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-up-right" }}
+//
+//	{{ lucide "move-up-right" }}
 //
 // Direct usage in Go:
-//   lucide.MoveUpRight()
-//   lucide.MoveUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveUpRight()
+//	lucide.MoveUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveUpRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24156,11 +26202,13 @@ func MoveUpRight(opts ...Options) template.HTML {
 // MoveVertical renders the "move-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "move-vertical" }}
+//
+//	{{ lucide "move-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.MoveVertical()
-//   lucide.MoveVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.MoveVertical()
+//	lucide.MoveVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func MoveVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24178,11 +26226,13 @@ func MoveVertical(opts ...Options) template.HTML {
 // Music renders the "music" icon.
 //
 // Usage in templates:
-//   {{ lucide "music" }}
+//
+//	{{ lucide "music" }}
 //
 // Direct usage in Go:
-//   lucide.Music()
-//   lucide.Music(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Music()
+//	lucide.Music(lucide.Options{Size: 32, Class: "my-icon"})
 func Music(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24200,11 +26250,13 @@ func Music(opts ...Options) template.HTML {
 // Music2 renders the "music-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "music-2" }}
+//
+//	{{ lucide "music-2" }}
 //
 // Direct usage in Go:
-//   lucide.Music2()
-//   lucide.Music2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Music2()
+//	lucide.Music2(lucide.Options{Size: 32, Class: "my-icon"})
 func Music2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24222,11 +26274,13 @@ func Music2(opts ...Options) template.HTML {
 // Music3 renders the "music-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "music-3" }}
+//
+//	{{ lucide "music-3" }}
 //
 // Direct usage in Go:
-//   lucide.Music3()
-//   lucide.Music3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Music3()
+//	lucide.Music3(lucide.Options{Size: 32, Class: "my-icon"})
 func Music3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24244,11 +26298,13 @@ func Music3(opts ...Options) template.HTML {
 // Music4 renders the "music-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "music-4" }}
+//
+//	{{ lucide "music-4" }}
 //
 // Direct usage in Go:
-//   lucide.Music4()
-//   lucide.Music4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Music4()
+//	lucide.Music4(lucide.Options{Size: 32, Class: "my-icon"})
 func Music4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24266,11 +26322,13 @@ func Music4(opts ...Options) template.HTML {
 // Navigation renders the "navigation" icon.
 //
 // Usage in templates:
-//   {{ lucide "navigation" }}
+//
+//	{{ lucide "navigation" }}
 //
 // Direct usage in Go:
-//   lucide.Navigation()
-//   lucide.Navigation(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Navigation()
+//	lucide.Navigation(lucide.Options{Size: 32, Class: "my-icon"})
 func Navigation(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24288,11 +26346,13 @@ func Navigation(opts ...Options) template.HTML {
 // Navigation2 renders the "navigation-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "navigation-2" }}
+//
+//	{{ lucide "navigation-2" }}
 //
 // Direct usage in Go:
-//   lucide.Navigation2()
-//   lucide.Navigation2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Navigation2()
+//	lucide.Navigation2(lucide.Options{Size: 32, Class: "my-icon"})
 func Navigation2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24310,11 +26370,13 @@ func Navigation2(opts ...Options) template.HTML {
 // Navigation2Off renders the "navigation-2-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "navigation-2-off" }}
+//
+//	{{ lucide "navigation-2-off" }}
 //
 // Direct usage in Go:
-//   lucide.Navigation2Off()
-//   lucide.Navigation2Off(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Navigation2Off()
+//	lucide.Navigation2Off(lucide.Options{Size: 32, Class: "my-icon"})
 func Navigation2Off(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24332,11 +26394,13 @@ func Navigation2Off(opts ...Options) template.HTML {
 // NavigationOff renders the "navigation-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "navigation-off" }}
+//
+//	{{ lucide "navigation-off" }}
 //
 // Direct usage in Go:
-//   lucide.NavigationOff()
-//   lucide.NavigationOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NavigationOff()
+//	lucide.NavigationOff(lucide.Options{Size: 32, Class: "my-icon"})
 func NavigationOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24354,11 +26418,13 @@ func NavigationOff(opts ...Options) template.HTML {
 // Network renders the "network" icon.
 //
 // Usage in templates:
-//   {{ lucide "network" }}
+//
+//	{{ lucide "network" }}
 //
 // Direct usage in Go:
-//   lucide.Network()
-//   lucide.Network(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Network()
+//	lucide.Network(lucide.Options{Size: 32, Class: "my-icon"})
 func Network(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24376,11 +26442,13 @@ func Network(opts ...Options) template.HTML {
 // Newspaper renders the "newspaper" icon.
 //
 // Usage in templates:
-//   {{ lucide "newspaper" }}
+//
+//	{{ lucide "newspaper" }}
 //
 // Direct usage in Go:
-//   lucide.Newspaper()
-//   lucide.Newspaper(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Newspaper()
+//	lucide.Newspaper(lucide.Options{Size: 32, Class: "my-icon"})
 func Newspaper(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24398,11 +26466,13 @@ func Newspaper(opts ...Options) template.HTML {
 // Nfc renders the "nfc" icon.
 //
 // Usage in templates:
-//   {{ lucide "nfc" }}
+//
+//	{{ lucide "nfc" }}
 //
 // Direct usage in Go:
-//   lucide.Nfc()
-//   lucide.Nfc(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Nfc()
+//	lucide.Nfc(lucide.Options{Size: 32, Class: "my-icon"})
 func Nfc(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24420,11 +26490,13 @@ func Nfc(opts ...Options) template.HTML {
 // NonBinary renders the "non-binary" icon.
 //
 // Usage in templates:
-//   {{ lucide "non-binary" }}
+//
+//	{{ lucide "non-binary" }}
 //
 // Direct usage in Go:
-//   lucide.NonBinary()
-//   lucide.NonBinary(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NonBinary()
+//	lucide.NonBinary(lucide.Options{Size: 32, Class: "my-icon"})
 func NonBinary(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24442,11 +26514,13 @@ func NonBinary(opts ...Options) template.HTML {
 // Notebook renders the "notebook" icon.
 //
 // Usage in templates:
-//   {{ lucide "notebook" }}
+//
+//	{{ lucide "notebook" }}
 //
 // Direct usage in Go:
-//   lucide.Notebook()
-//   lucide.Notebook(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Notebook()
+//	lucide.Notebook(lucide.Options{Size: 32, Class: "my-icon"})
 func Notebook(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24464,11 +26538,13 @@ func Notebook(opts ...Options) template.HTML {
 // NotebookPen renders the "notebook-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "notebook-pen" }}
+//
+//	{{ lucide "notebook-pen" }}
 //
 // Direct usage in Go:
-//   lucide.NotebookPen()
-//   lucide.NotebookPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NotebookPen()
+//	lucide.NotebookPen(lucide.Options{Size: 32, Class: "my-icon"})
 func NotebookPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24486,11 +26562,13 @@ func NotebookPen(opts ...Options) template.HTML {
 // NotebookTabs renders the "notebook-tabs" icon.
 //
 // Usage in templates:
-//   {{ lucide "notebook-tabs" }}
+//
+//	{{ lucide "notebook-tabs" }}
 //
 // Direct usage in Go:
-//   lucide.NotebookTabs()
-//   lucide.NotebookTabs(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NotebookTabs()
+//	lucide.NotebookTabs(lucide.Options{Size: 32, Class: "my-icon"})
 func NotebookTabs(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24508,11 +26586,13 @@ func NotebookTabs(opts ...Options) template.HTML {
 // NotebookText renders the "notebook-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "notebook-text" }}
+//
+//	{{ lucide "notebook-text" }}
 //
 // Direct usage in Go:
-//   lucide.NotebookText()
-//   lucide.NotebookText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NotebookText()
+//	lucide.NotebookText(lucide.Options{Size: 32, Class: "my-icon"})
 func NotebookText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24530,11 +26610,13 @@ func NotebookText(opts ...Options) template.HTML {
 // NotepadText renders the "notepad-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "notepad-text" }}
+//
+//	{{ lucide "notepad-text" }}
 //
 // Direct usage in Go:
-//   lucide.NotepadText()
-//   lucide.NotepadText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NotepadText()
+//	lucide.NotepadText(lucide.Options{Size: 32, Class: "my-icon"})
 func NotepadText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24552,11 +26634,13 @@ func NotepadText(opts ...Options) template.HTML {
 // NotepadTextDashed renders the "notepad-text-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "notepad-text-dashed" }}
+//
+//	{{ lucide "notepad-text-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.NotepadTextDashed()
-//   lucide.NotepadTextDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NotepadTextDashed()
+//	lucide.NotepadTextDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func NotepadTextDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24574,11 +26658,13 @@ func NotepadTextDashed(opts ...Options) template.HTML {
 // Nut renders the "nut" icon.
 //
 // Usage in templates:
-//   {{ lucide "nut" }}
+//
+//	{{ lucide "nut" }}
 //
 // Direct usage in Go:
-//   lucide.Nut()
-//   lucide.Nut(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Nut()
+//	lucide.Nut(lucide.Options{Size: 32, Class: "my-icon"})
 func Nut(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24596,11 +26682,13 @@ func Nut(opts ...Options) template.HTML {
 // NutOff renders the "nut-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "nut-off" }}
+//
+//	{{ lucide "nut-off" }}
 //
 // Direct usage in Go:
-//   lucide.NutOff()
-//   lucide.NutOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.NutOff()
+//	lucide.NutOff(lucide.Options{Size: 32, Class: "my-icon"})
 func NutOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24618,11 +26706,13 @@ func NutOff(opts ...Options) template.HTML {
 // Octagon renders the "octagon" icon.
 //
 // Usage in templates:
-//   {{ lucide "octagon" }}
+//
+//	{{ lucide "octagon" }}
 //
 // Direct usage in Go:
-//   lucide.Octagon()
-//   lucide.Octagon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Octagon()
+//	lucide.Octagon(lucide.Options{Size: 32, Class: "my-icon"})
 func Octagon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24640,11 +26730,13 @@ func Octagon(opts ...Options) template.HTML {
 // OctagonAlert renders the "octagon-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "octagon-alert" }}
+//
+//	{{ lucide "octagon-alert" }}
 //
 // Direct usage in Go:
-//   lucide.OctagonAlert()
-//   lucide.OctagonAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.OctagonAlert()
+//	lucide.OctagonAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func OctagonAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24662,11 +26754,13 @@ func OctagonAlert(opts ...Options) template.HTML {
 // OctagonMinus renders the "octagon-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "octagon-minus" }}
+//
+//	{{ lucide "octagon-minus" }}
 //
 // Direct usage in Go:
-//   lucide.OctagonMinus()
-//   lucide.OctagonMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.OctagonMinus()
+//	lucide.OctagonMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func OctagonMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24684,11 +26778,13 @@ func OctagonMinus(opts ...Options) template.HTML {
 // OctagonPause renders the "octagon-pause" icon.
 //
 // Usage in templates:
-//   {{ lucide "octagon-pause" }}
+//
+//	{{ lucide "octagon-pause" }}
 //
 // Direct usage in Go:
-//   lucide.OctagonPause()
-//   lucide.OctagonPause(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.OctagonPause()
+//	lucide.OctagonPause(lucide.Options{Size: 32, Class: "my-icon"})
 func OctagonPause(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24706,11 +26802,13 @@ func OctagonPause(opts ...Options) template.HTML {
 // OctagonX renders the "octagon-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "octagon-x" }}
+//
+//	{{ lucide "octagon-x" }}
 //
 // Direct usage in Go:
-//   lucide.OctagonX()
-//   lucide.OctagonX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.OctagonX()
+//	lucide.OctagonX(lucide.Options{Size: 32, Class: "my-icon"})
 func OctagonX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24728,11 +26826,13 @@ func OctagonX(opts ...Options) template.HTML {
 // Omega renders the "omega" icon.
 //
 // Usage in templates:
-//   {{ lucide "omega" }}
+//
+//	{{ lucide "omega" }}
 //
 // Direct usage in Go:
-//   lucide.Omega()
-//   lucide.Omega(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Omega()
+//	lucide.Omega(lucide.Options{Size: 32, Class: "my-icon"})
 func Omega(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24750,11 +26850,13 @@ func Omega(opts ...Options) template.HTML {
 // Option renders the "option" icon.
 //
 // Usage in templates:
-//   {{ lucide "option" }}
+//
+//	{{ lucide "option" }}
 //
 // Direct usage in Go:
-//   lucide.Option()
-//   lucide.Option(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Option()
+//	lucide.Option(lucide.Options{Size: 32, Class: "my-icon"})
 func Option(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24772,11 +26874,13 @@ func Option(opts ...Options) template.HTML {
 // Orbit renders the "orbit" icon.
 //
 // Usage in templates:
-//   {{ lucide "orbit" }}
+//
+//	{{ lucide "orbit" }}
 //
 // Direct usage in Go:
-//   lucide.Orbit()
-//   lucide.Orbit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Orbit()
+//	lucide.Orbit(lucide.Options{Size: 32, Class: "my-icon"})
 func Orbit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24794,11 +26898,13 @@ func Orbit(opts ...Options) template.HTML {
 // Origami renders the "origami" icon.
 //
 // Usage in templates:
-//   {{ lucide "origami" }}
+//
+//	{{ lucide "origami" }}
 //
 // Direct usage in Go:
-//   lucide.Origami()
-//   lucide.Origami(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Origami()
+//	lucide.Origami(lucide.Options{Size: 32, Class: "my-icon"})
 func Origami(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24816,11 +26922,13 @@ func Origami(opts ...Options) template.HTML {
 // Package renders the "package" icon.
 //
 // Usage in templates:
-//   {{ lucide "package" }}
+//
+//	{{ lucide "package" }}
 //
 // Direct usage in Go:
-//   lucide.Package()
-//   lucide.Package(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Package()
+//	lucide.Package(lucide.Options{Size: 32, Class: "my-icon"})
 func Package(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24838,11 +26946,13 @@ func Package(opts ...Options) template.HTML {
 // Package2 renders the "package-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-2" }}
+//
+//	{{ lucide "package-2" }}
 //
 // Direct usage in Go:
-//   lucide.Package2()
-//   lucide.Package2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Package2()
+//	lucide.Package2(lucide.Options{Size: 32, Class: "my-icon"})
 func Package2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24860,11 +26970,13 @@ func Package2(opts ...Options) template.HTML {
 // PackageCheck renders the "package-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-check" }}
+//
+//	{{ lucide "package-check" }}
 //
 // Direct usage in Go:
-//   lucide.PackageCheck()
-//   lucide.PackageCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PackageCheck()
+//	lucide.PackageCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func PackageCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24882,11 +26994,13 @@ func PackageCheck(opts ...Options) template.HTML {
 // PackageMinus renders the "package-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-minus" }}
+//
+//	{{ lucide "package-minus" }}
 //
 // Direct usage in Go:
-//   lucide.PackageMinus()
-//   lucide.PackageMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PackageMinus()
+//	lucide.PackageMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func PackageMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24904,11 +27018,13 @@ func PackageMinus(opts ...Options) template.HTML {
 // PackageOpen renders the "package-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-open" }}
+//
+//	{{ lucide "package-open" }}
 //
 // Direct usage in Go:
-//   lucide.PackageOpen()
-//   lucide.PackageOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PackageOpen()
+//	lucide.PackageOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func PackageOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24926,11 +27042,13 @@ func PackageOpen(opts ...Options) template.HTML {
 // PackagePlus renders the "package-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-plus" }}
+//
+//	{{ lucide "package-plus" }}
 //
 // Direct usage in Go:
-//   lucide.PackagePlus()
-//   lucide.PackagePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PackagePlus()
+//	lucide.PackagePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func PackagePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24948,11 +27066,13 @@ func PackagePlus(opts ...Options) template.HTML {
 // PackageSearch renders the "package-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-search" }}
+//
+//	{{ lucide "package-search" }}
 //
 // Direct usage in Go:
-//   lucide.PackageSearch()
-//   lucide.PackageSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PackageSearch()
+//	lucide.PackageSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func PackageSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24970,11 +27090,13 @@ func PackageSearch(opts ...Options) template.HTML {
 // PackageX renders the "package-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "package-x" }}
+//
+//	{{ lucide "package-x" }}
 //
 // Direct usage in Go:
-//   lucide.PackageX()
-//   lucide.PackageX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PackageX()
+//	lucide.PackageX(lucide.Options{Size: 32, Class: "my-icon"})
 func PackageX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -24992,11 +27114,13 @@ func PackageX(opts ...Options) template.HTML {
 // PaintBucket renders the "paint-bucket" icon.
 //
 // Usage in templates:
-//   {{ lucide "paint-bucket" }}
+//
+//	{{ lucide "paint-bucket" }}
 //
 // Direct usage in Go:
-//   lucide.PaintBucket()
-//   lucide.PaintBucket(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PaintBucket()
+//	lucide.PaintBucket(lucide.Options{Size: 32, Class: "my-icon"})
 func PaintBucket(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25014,11 +27138,13 @@ func PaintBucket(opts ...Options) template.HTML {
 // PaintRoller renders the "paint-roller" icon.
 //
 // Usage in templates:
-//   {{ lucide "paint-roller" }}
+//
+//	{{ lucide "paint-roller" }}
 //
 // Direct usage in Go:
-//   lucide.PaintRoller()
-//   lucide.PaintRoller(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PaintRoller()
+//	lucide.PaintRoller(lucide.Options{Size: 32, Class: "my-icon"})
 func PaintRoller(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25036,11 +27162,13 @@ func PaintRoller(opts ...Options) template.HTML {
 // Paintbrush renders the "paintbrush" icon.
 //
 // Usage in templates:
-//   {{ lucide "paintbrush" }}
+//
+//	{{ lucide "paintbrush" }}
 //
 // Direct usage in Go:
-//   lucide.Paintbrush()
-//   lucide.Paintbrush(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Paintbrush()
+//	lucide.Paintbrush(lucide.Options{Size: 32, Class: "my-icon"})
 func Paintbrush(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25058,11 +27186,13 @@ func Paintbrush(opts ...Options) template.HTML {
 // PaintbrushVertical renders the "paintbrush-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "paintbrush-vertical" }}
+//
+//	{{ lucide "paintbrush-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.PaintbrushVertical()
-//   lucide.PaintbrushVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PaintbrushVertical()
+//	lucide.PaintbrushVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func PaintbrushVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25080,11 +27210,13 @@ func PaintbrushVertical(opts ...Options) template.HTML {
 // Palette renders the "palette" icon.
 //
 // Usage in templates:
-//   {{ lucide "palette" }}
+//
+//	{{ lucide "palette" }}
 //
 // Direct usage in Go:
-//   lucide.Palette()
-//   lucide.Palette(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Palette()
+//	lucide.Palette(lucide.Options{Size: 32, Class: "my-icon"})
 func Palette(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25102,11 +27234,13 @@ func Palette(opts ...Options) template.HTML {
 // Panda renders the "panda" icon.
 //
 // Usage in templates:
-//   {{ lucide "panda" }}
+//
+//	{{ lucide "panda" }}
 //
 // Direct usage in Go:
-//   lucide.Panda()
-//   lucide.Panda(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Panda()
+//	lucide.Panda(lucide.Options{Size: 32, Class: "my-icon"})
 func Panda(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25124,11 +27258,13 @@ func Panda(opts ...Options) template.HTML {
 // PanelBottom renders the "panel-bottom" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-bottom" }}
+//
+//	{{ lucide "panel-bottom" }}
 //
 // Direct usage in Go:
-//   lucide.PanelBottom()
-//   lucide.PanelBottom(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelBottom()
+//	lucide.PanelBottom(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelBottom(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25146,11 +27282,13 @@ func PanelBottom(opts ...Options) template.HTML {
 // PanelBottomClose renders the "panel-bottom-close" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-bottom-close" }}
+//
+//	{{ lucide "panel-bottom-close" }}
 //
 // Direct usage in Go:
-//   lucide.PanelBottomClose()
-//   lucide.PanelBottomClose(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelBottomClose()
+//	lucide.PanelBottomClose(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelBottomClose(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25168,11 +27306,13 @@ func PanelBottomClose(opts ...Options) template.HTML {
 // PanelBottomDashed renders the "panel-bottom-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-bottom-dashed" }}
+//
+//	{{ lucide "panel-bottom-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.PanelBottomDashed()
-//   lucide.PanelBottomDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelBottomDashed()
+//	lucide.PanelBottomDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelBottomDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25190,11 +27330,13 @@ func PanelBottomDashed(opts ...Options) template.HTML {
 // PanelBottomOpen renders the "panel-bottom-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-bottom-open" }}
+//
+//	{{ lucide "panel-bottom-open" }}
 //
 // Direct usage in Go:
-//   lucide.PanelBottomOpen()
-//   lucide.PanelBottomOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelBottomOpen()
+//	lucide.PanelBottomOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelBottomOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25212,11 +27354,13 @@ func PanelBottomOpen(opts ...Options) template.HTML {
 // PanelLeft renders the "panel-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-left" }}
+//
+//	{{ lucide "panel-left" }}
 //
 // Direct usage in Go:
-//   lucide.PanelLeft()
-//   lucide.PanelLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelLeft()
+//	lucide.PanelLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25234,11 +27378,13 @@ func PanelLeft(opts ...Options) template.HTML {
 // PanelLeftClose renders the "panel-left-close" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-left-close" }}
+//
+//	{{ lucide "panel-left-close" }}
 //
 // Direct usage in Go:
-//   lucide.PanelLeftClose()
-//   lucide.PanelLeftClose(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelLeftClose()
+//	lucide.PanelLeftClose(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelLeftClose(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25256,11 +27402,13 @@ func PanelLeftClose(opts ...Options) template.HTML {
 // PanelLeftDashed renders the "panel-left-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-left-dashed" }}
+//
+//	{{ lucide "panel-left-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.PanelLeftDashed()
-//   lucide.PanelLeftDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelLeftDashed()
+//	lucide.PanelLeftDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelLeftDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25278,11 +27426,13 @@ func PanelLeftDashed(opts ...Options) template.HTML {
 // PanelLeftOpen renders the "panel-left-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-left-open" }}
+//
+//	{{ lucide "panel-left-open" }}
 //
 // Direct usage in Go:
-//   lucide.PanelLeftOpen()
-//   lucide.PanelLeftOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelLeftOpen()
+//	lucide.PanelLeftOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelLeftOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25300,11 +27450,13 @@ func PanelLeftOpen(opts ...Options) template.HTML {
 // PanelLeftRightDashed renders the "panel-left-right-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-left-right-dashed" }}
+//
+//	{{ lucide "panel-left-right-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.PanelLeftRightDashed()
-//   lucide.PanelLeftRightDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelLeftRightDashed()
+//	lucide.PanelLeftRightDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelLeftRightDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25322,11 +27474,13 @@ func PanelLeftRightDashed(opts ...Options) template.HTML {
 // PanelRight renders the "panel-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-right" }}
+//
+//	{{ lucide "panel-right" }}
 //
 // Direct usage in Go:
-//   lucide.PanelRight()
-//   lucide.PanelRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelRight()
+//	lucide.PanelRight(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25344,11 +27498,13 @@ func PanelRight(opts ...Options) template.HTML {
 // PanelRightClose renders the "panel-right-close" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-right-close" }}
+//
+//	{{ lucide "panel-right-close" }}
 //
 // Direct usage in Go:
-//   lucide.PanelRightClose()
-//   lucide.PanelRightClose(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelRightClose()
+//	lucide.PanelRightClose(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelRightClose(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25366,11 +27522,13 @@ func PanelRightClose(opts ...Options) template.HTML {
 // PanelRightDashed renders the "panel-right-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-right-dashed" }}
+//
+//	{{ lucide "panel-right-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.PanelRightDashed()
-//   lucide.PanelRightDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelRightDashed()
+//	lucide.PanelRightDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelRightDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25388,11 +27546,13 @@ func PanelRightDashed(opts ...Options) template.HTML {
 // PanelRightOpen renders the "panel-right-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-right-open" }}
+//
+//	{{ lucide "panel-right-open" }}
 //
 // Direct usage in Go:
-//   lucide.PanelRightOpen()
-//   lucide.PanelRightOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelRightOpen()
+//	lucide.PanelRightOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelRightOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25410,11 +27570,13 @@ func PanelRightOpen(opts ...Options) template.HTML {
 // PanelTop renders the "panel-top" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-top" }}
+//
+//	{{ lucide "panel-top" }}
 //
 // Direct usage in Go:
-//   lucide.PanelTop()
-//   lucide.PanelTop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelTop()
+//	lucide.PanelTop(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelTop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25432,11 +27594,13 @@ func PanelTop(opts ...Options) template.HTML {
 // PanelTopBottomDashed renders the "panel-top-bottom-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-top-bottom-dashed" }}
+//
+//	{{ lucide "panel-top-bottom-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.PanelTopBottomDashed()
-//   lucide.PanelTopBottomDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelTopBottomDashed()
+//	lucide.PanelTopBottomDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelTopBottomDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25454,11 +27618,13 @@ func PanelTopBottomDashed(opts ...Options) template.HTML {
 // PanelTopClose renders the "panel-top-close" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-top-close" }}
+//
+//	{{ lucide "panel-top-close" }}
 //
 // Direct usage in Go:
-//   lucide.PanelTopClose()
-//   lucide.PanelTopClose(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelTopClose()
+//	lucide.PanelTopClose(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelTopClose(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25476,11 +27642,13 @@ func PanelTopClose(opts ...Options) template.HTML {
 // PanelTopDashed renders the "panel-top-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-top-dashed" }}
+//
+//	{{ lucide "panel-top-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.PanelTopDashed()
-//   lucide.PanelTopDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelTopDashed()
+//	lucide.PanelTopDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelTopDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25498,11 +27666,13 @@ func PanelTopDashed(opts ...Options) template.HTML {
 // PanelTopOpen renders the "panel-top-open" icon.
 //
 // Usage in templates:
-//   {{ lucide "panel-top-open" }}
+//
+//	{{ lucide "panel-top-open" }}
 //
 // Direct usage in Go:
-//   lucide.PanelTopOpen()
-//   lucide.PanelTopOpen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelTopOpen()
+//	lucide.PanelTopOpen(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelTopOpen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25520,11 +27690,13 @@ func PanelTopOpen(opts ...Options) template.HTML {
 // PanelsLeftBottom renders the "panels-left-bottom" icon.
 //
 // Usage in templates:
-//   {{ lucide "panels-left-bottom" }}
+//
+//	{{ lucide "panels-left-bottom" }}
 //
 // Direct usage in Go:
-//   lucide.PanelsLeftBottom()
-//   lucide.PanelsLeftBottom(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelsLeftBottom()
+//	lucide.PanelsLeftBottom(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelsLeftBottom(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25542,11 +27714,13 @@ func PanelsLeftBottom(opts ...Options) template.HTML {
 // PanelsRightBottom renders the "panels-right-bottom" icon.
 //
 // Usage in templates:
-//   {{ lucide "panels-right-bottom" }}
+//
+//	{{ lucide "panels-right-bottom" }}
 //
 // Direct usage in Go:
-//   lucide.PanelsRightBottom()
-//   lucide.PanelsRightBottom(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelsRightBottom()
+//	lucide.PanelsRightBottom(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelsRightBottom(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25564,11 +27738,13 @@ func PanelsRightBottom(opts ...Options) template.HTML {
 // PanelsTopLeft renders the "panels-top-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "panels-top-left" }}
+//
+//	{{ lucide "panels-top-left" }}
 //
 // Direct usage in Go:
-//   lucide.PanelsTopLeft()
-//   lucide.PanelsTopLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PanelsTopLeft()
+//	lucide.PanelsTopLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func PanelsTopLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25586,11 +27762,13 @@ func PanelsTopLeft(opts ...Options) template.HTML {
 // Paperclip renders the "paperclip" icon.
 //
 // Usage in templates:
-//   {{ lucide "paperclip" }}
+//
+//	{{ lucide "paperclip" }}
 //
 // Direct usage in Go:
-//   lucide.Paperclip()
-//   lucide.Paperclip(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Paperclip()
+//	lucide.Paperclip(lucide.Options{Size: 32, Class: "my-icon"})
 func Paperclip(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25608,11 +27786,13 @@ func Paperclip(opts ...Options) template.HTML {
 // Parentheses renders the "parentheses" icon.
 //
 // Usage in templates:
-//   {{ lucide "parentheses" }}
+//
+//	{{ lucide "parentheses" }}
 //
 // Direct usage in Go:
-//   lucide.Parentheses()
-//   lucide.Parentheses(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Parentheses()
+//	lucide.Parentheses(lucide.Options{Size: 32, Class: "my-icon"})
 func Parentheses(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25630,11 +27810,13 @@ func Parentheses(opts ...Options) template.HTML {
 // ParkingMeter renders the "parking-meter" icon.
 //
 // Usage in templates:
-//   {{ lucide "parking-meter" }}
+//
+//	{{ lucide "parking-meter" }}
 //
 // Direct usage in Go:
-//   lucide.ParkingMeter()
-//   lucide.ParkingMeter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ParkingMeter()
+//	lucide.ParkingMeter(lucide.Options{Size: 32, Class: "my-icon"})
 func ParkingMeter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25652,11 +27834,13 @@ func ParkingMeter(opts ...Options) template.HTML {
 // PartyPopper renders the "party-popper" icon.
 //
 // Usage in templates:
-//   {{ lucide "party-popper" }}
+//
+//	{{ lucide "party-popper" }}
 //
 // Direct usage in Go:
-//   lucide.PartyPopper()
-//   lucide.PartyPopper(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PartyPopper()
+//	lucide.PartyPopper(lucide.Options{Size: 32, Class: "my-icon"})
 func PartyPopper(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25674,11 +27858,13 @@ func PartyPopper(opts ...Options) template.HTML {
 // Pause renders the "pause" icon.
 //
 // Usage in templates:
-//   {{ lucide "pause" }}
+//
+//	{{ lucide "pause" }}
 //
 // Direct usage in Go:
-//   lucide.Pause()
-//   lucide.Pause(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pause()
+//	lucide.Pause(lucide.Options{Size: 32, Class: "my-icon"})
 func Pause(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25696,11 +27882,13 @@ func Pause(opts ...Options) template.HTML {
 // PawPrint renders the "paw-print" icon.
 //
 // Usage in templates:
-//   {{ lucide "paw-print" }}
+//
+//	{{ lucide "paw-print" }}
 //
 // Direct usage in Go:
-//   lucide.PawPrint()
-//   lucide.PawPrint(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PawPrint()
+//	lucide.PawPrint(lucide.Options{Size: 32, Class: "my-icon"})
 func PawPrint(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25718,11 +27906,13 @@ func PawPrint(opts ...Options) template.HTML {
 // PcCase renders the "pc-case" icon.
 //
 // Usage in templates:
-//   {{ lucide "pc-case" }}
+//
+//	{{ lucide "pc-case" }}
 //
 // Direct usage in Go:
-//   lucide.PcCase()
-//   lucide.PcCase(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PcCase()
+//	lucide.PcCase(lucide.Options{Size: 32, Class: "my-icon"})
 func PcCase(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25740,11 +27930,13 @@ func PcCase(opts ...Options) template.HTML {
 // Pen renders the "pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "pen" }}
+//
+//	{{ lucide "pen" }}
 //
 // Direct usage in Go:
-//   lucide.Pen()
-//   lucide.Pen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pen()
+//	lucide.Pen(lucide.Options{Size: 32, Class: "my-icon"})
 func Pen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25762,11 +27954,13 @@ func Pen(opts ...Options) template.HTML {
 // PenLine renders the "pen-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "pen-line" }}
+//
+//	{{ lucide "pen-line" }}
 //
 // Direct usage in Go:
-//   lucide.PenLine()
-//   lucide.PenLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PenLine()
+//	lucide.PenLine(lucide.Options{Size: 32, Class: "my-icon"})
 func PenLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25784,11 +27978,13 @@ func PenLine(opts ...Options) template.HTML {
 // PenOff renders the "pen-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "pen-off" }}
+//
+//	{{ lucide "pen-off" }}
 //
 // Direct usage in Go:
-//   lucide.PenOff()
-//   lucide.PenOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PenOff()
+//	lucide.PenOff(lucide.Options{Size: 32, Class: "my-icon"})
 func PenOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25806,11 +28002,13 @@ func PenOff(opts ...Options) template.HTML {
 // PenTool renders the "pen-tool" icon.
 //
 // Usage in templates:
-//   {{ lucide "pen-tool" }}
+//
+//	{{ lucide "pen-tool" }}
 //
 // Direct usage in Go:
-//   lucide.PenTool()
-//   lucide.PenTool(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PenTool()
+//	lucide.PenTool(lucide.Options{Size: 32, Class: "my-icon"})
 func PenTool(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25828,11 +28026,13 @@ func PenTool(opts ...Options) template.HTML {
 // Pencil renders the "pencil" icon.
 //
 // Usage in templates:
-//   {{ lucide "pencil" }}
+//
+//	{{ lucide "pencil" }}
 //
 // Direct usage in Go:
-//   lucide.Pencil()
-//   lucide.Pencil(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pencil()
+//	lucide.Pencil(lucide.Options{Size: 32, Class: "my-icon"})
 func Pencil(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25850,11 +28050,13 @@ func Pencil(opts ...Options) template.HTML {
 // PencilLine renders the "pencil-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "pencil-line" }}
+//
+//	{{ lucide "pencil-line" }}
 //
 // Direct usage in Go:
-//   lucide.PencilLine()
-//   lucide.PencilLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PencilLine()
+//	lucide.PencilLine(lucide.Options{Size: 32, Class: "my-icon"})
 func PencilLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25872,11 +28074,13 @@ func PencilLine(opts ...Options) template.HTML {
 // PencilOff renders the "pencil-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "pencil-off" }}
+//
+//	{{ lucide "pencil-off" }}
 //
 // Direct usage in Go:
-//   lucide.PencilOff()
-//   lucide.PencilOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PencilOff()
+//	lucide.PencilOff(lucide.Options{Size: 32, Class: "my-icon"})
 func PencilOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25894,11 +28098,13 @@ func PencilOff(opts ...Options) template.HTML {
 // PencilRuler renders the "pencil-ruler" icon.
 //
 // Usage in templates:
-//   {{ lucide "pencil-ruler" }}
+//
+//	{{ lucide "pencil-ruler" }}
 //
 // Direct usage in Go:
-//   lucide.PencilRuler()
-//   lucide.PencilRuler(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PencilRuler()
+//	lucide.PencilRuler(lucide.Options{Size: 32, Class: "my-icon"})
 func PencilRuler(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25916,11 +28122,13 @@ func PencilRuler(opts ...Options) template.HTML {
 // Pentagon renders the "pentagon" icon.
 //
 // Usage in templates:
-//   {{ lucide "pentagon" }}
+//
+//	{{ lucide "pentagon" }}
 //
 // Direct usage in Go:
-//   lucide.Pentagon()
-//   lucide.Pentagon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pentagon()
+//	lucide.Pentagon(lucide.Options{Size: 32, Class: "my-icon"})
 func Pentagon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25938,11 +28146,13 @@ func Pentagon(opts ...Options) template.HTML {
 // Percent renders the "percent" icon.
 //
 // Usage in templates:
-//   {{ lucide "percent" }}
+//
+//	{{ lucide "percent" }}
 //
 // Direct usage in Go:
-//   lucide.Percent()
-//   lucide.Percent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Percent()
+//	lucide.Percent(lucide.Options{Size: 32, Class: "my-icon"})
 func Percent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25960,11 +28170,13 @@ func Percent(opts ...Options) template.HTML {
 // PersonStanding renders the "person-standing" icon.
 //
 // Usage in templates:
-//   {{ lucide "person-standing" }}
+//
+//	{{ lucide "person-standing" }}
 //
 // Direct usage in Go:
-//   lucide.PersonStanding()
-//   lucide.PersonStanding(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PersonStanding()
+//	lucide.PersonStanding(lucide.Options{Size: 32, Class: "my-icon"})
 func PersonStanding(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -25982,11 +28194,13 @@ func PersonStanding(opts ...Options) template.HTML {
 // PhilippinePeso renders the "philippine-peso" icon.
 //
 // Usage in templates:
-//   {{ lucide "philippine-peso" }}
+//
+//	{{ lucide "philippine-peso" }}
 //
 // Direct usage in Go:
-//   lucide.PhilippinePeso()
-//   lucide.PhilippinePeso(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhilippinePeso()
+//	lucide.PhilippinePeso(lucide.Options{Size: 32, Class: "my-icon"})
 func PhilippinePeso(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26004,11 +28218,13 @@ func PhilippinePeso(opts ...Options) template.HTML {
 // Phone renders the "phone" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone" }}
+//
+//	{{ lucide "phone" }}
 //
 // Direct usage in Go:
-//   lucide.Phone()
-//   lucide.Phone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Phone()
+//	lucide.Phone(lucide.Options{Size: 32, Class: "my-icon"})
 func Phone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26026,11 +28242,13 @@ func Phone(opts ...Options) template.HTML {
 // PhoneCall renders the "phone-call" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone-call" }}
+//
+//	{{ lucide "phone-call" }}
 //
 // Direct usage in Go:
-//   lucide.PhoneCall()
-//   lucide.PhoneCall(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhoneCall()
+//	lucide.PhoneCall(lucide.Options{Size: 32, Class: "my-icon"})
 func PhoneCall(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26048,11 +28266,13 @@ func PhoneCall(opts ...Options) template.HTML {
 // PhoneForwarded renders the "phone-forwarded" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone-forwarded" }}
+//
+//	{{ lucide "phone-forwarded" }}
 //
 // Direct usage in Go:
-//   lucide.PhoneForwarded()
-//   lucide.PhoneForwarded(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhoneForwarded()
+//	lucide.PhoneForwarded(lucide.Options{Size: 32, Class: "my-icon"})
 func PhoneForwarded(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26070,11 +28290,13 @@ func PhoneForwarded(opts ...Options) template.HTML {
 // PhoneIncoming renders the "phone-incoming" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone-incoming" }}
+//
+//	{{ lucide "phone-incoming" }}
 //
 // Direct usage in Go:
-//   lucide.PhoneIncoming()
-//   lucide.PhoneIncoming(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhoneIncoming()
+//	lucide.PhoneIncoming(lucide.Options{Size: 32, Class: "my-icon"})
 func PhoneIncoming(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26092,11 +28314,13 @@ func PhoneIncoming(opts ...Options) template.HTML {
 // PhoneMissed renders the "phone-missed" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone-missed" }}
+//
+//	{{ lucide "phone-missed" }}
 //
 // Direct usage in Go:
-//   lucide.PhoneMissed()
-//   lucide.PhoneMissed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhoneMissed()
+//	lucide.PhoneMissed(lucide.Options{Size: 32, Class: "my-icon"})
 func PhoneMissed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26114,11 +28338,13 @@ func PhoneMissed(opts ...Options) template.HTML {
 // PhoneOff renders the "phone-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone-off" }}
+//
+//	{{ lucide "phone-off" }}
 //
 // Direct usage in Go:
-//   lucide.PhoneOff()
-//   lucide.PhoneOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhoneOff()
+//	lucide.PhoneOff(lucide.Options{Size: 32, Class: "my-icon"})
 func PhoneOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26136,11 +28362,13 @@ func PhoneOff(opts ...Options) template.HTML {
 // PhoneOutgoing renders the "phone-outgoing" icon.
 //
 // Usage in templates:
-//   {{ lucide "phone-outgoing" }}
+//
+//	{{ lucide "phone-outgoing" }}
 //
 // Direct usage in Go:
-//   lucide.PhoneOutgoing()
-//   lucide.PhoneOutgoing(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PhoneOutgoing()
+//	lucide.PhoneOutgoing(lucide.Options{Size: 32, Class: "my-icon"})
 func PhoneOutgoing(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26158,11 +28386,13 @@ func PhoneOutgoing(opts ...Options) template.HTML {
 // Pi renders the "pi" icon.
 //
 // Usage in templates:
-//   {{ lucide "pi" }}
+//
+//	{{ lucide "pi" }}
 //
 // Direct usage in Go:
-//   lucide.Pi()
-//   lucide.Pi(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pi()
+//	lucide.Pi(lucide.Options{Size: 32, Class: "my-icon"})
 func Pi(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26180,11 +28410,13 @@ func Pi(opts ...Options) template.HTML {
 // Piano renders the "piano" icon.
 //
 // Usage in templates:
-//   {{ lucide "piano" }}
+//
+//	{{ lucide "piano" }}
 //
 // Direct usage in Go:
-//   lucide.Piano()
-//   lucide.Piano(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Piano()
+//	lucide.Piano(lucide.Options{Size: 32, Class: "my-icon"})
 func Piano(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26202,11 +28434,13 @@ func Piano(opts ...Options) template.HTML {
 // Pickaxe renders the "pickaxe" icon.
 //
 // Usage in templates:
-//   {{ lucide "pickaxe" }}
+//
+//	{{ lucide "pickaxe" }}
 //
 // Direct usage in Go:
-//   lucide.Pickaxe()
-//   lucide.Pickaxe(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pickaxe()
+//	lucide.Pickaxe(lucide.Options{Size: 32, Class: "my-icon"})
 func Pickaxe(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26224,11 +28458,13 @@ func Pickaxe(opts ...Options) template.HTML {
 // PictureInPicture renders the "picture-in-picture" icon.
 //
 // Usage in templates:
-//   {{ lucide "picture-in-picture" }}
+//
+//	{{ lucide "picture-in-picture" }}
 //
 // Direct usage in Go:
-//   lucide.PictureInPicture()
-//   lucide.PictureInPicture(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PictureInPicture()
+//	lucide.PictureInPicture(lucide.Options{Size: 32, Class: "my-icon"})
 func PictureInPicture(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26246,11 +28482,13 @@ func PictureInPicture(opts ...Options) template.HTML {
 // PictureInPicture2 renders the "picture-in-picture-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "picture-in-picture-2" }}
+//
+//	{{ lucide "picture-in-picture-2" }}
 //
 // Direct usage in Go:
-//   lucide.PictureInPicture2()
-//   lucide.PictureInPicture2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PictureInPicture2()
+//	lucide.PictureInPicture2(lucide.Options{Size: 32, Class: "my-icon"})
 func PictureInPicture2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26268,11 +28506,13 @@ func PictureInPicture2(opts ...Options) template.HTML {
 // PiggyBank renders the "piggy-bank" icon.
 //
 // Usage in templates:
-//   {{ lucide "piggy-bank" }}
+//
+//	{{ lucide "piggy-bank" }}
 //
 // Direct usage in Go:
-//   lucide.PiggyBank()
-//   lucide.PiggyBank(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PiggyBank()
+//	lucide.PiggyBank(lucide.Options{Size: 32, Class: "my-icon"})
 func PiggyBank(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26290,11 +28530,13 @@ func PiggyBank(opts ...Options) template.HTML {
 // Pilcrow renders the "pilcrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "pilcrow" }}
+//
+//	{{ lucide "pilcrow" }}
 //
 // Direct usage in Go:
-//   lucide.Pilcrow()
-//   lucide.Pilcrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pilcrow()
+//	lucide.Pilcrow(lucide.Options{Size: 32, Class: "my-icon"})
 func Pilcrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26312,11 +28554,13 @@ func Pilcrow(opts ...Options) template.HTML {
 // PilcrowLeft renders the "pilcrow-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "pilcrow-left" }}
+//
+//	{{ lucide "pilcrow-left" }}
 //
 // Direct usage in Go:
-//   lucide.PilcrowLeft()
-//   lucide.PilcrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PilcrowLeft()
+//	lucide.PilcrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func PilcrowLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26334,11 +28578,13 @@ func PilcrowLeft(opts ...Options) template.HTML {
 // PilcrowRight renders the "pilcrow-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "pilcrow-right" }}
+//
+//	{{ lucide "pilcrow-right" }}
 //
 // Direct usage in Go:
-//   lucide.PilcrowRight()
-//   lucide.PilcrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PilcrowRight()
+//	lucide.PilcrowRight(lucide.Options{Size: 32, Class: "my-icon"})
 func PilcrowRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26356,11 +28602,13 @@ func PilcrowRight(opts ...Options) template.HTML {
 // Pill renders the "pill" icon.
 //
 // Usage in templates:
-//   {{ lucide "pill" }}
+//
+//	{{ lucide "pill" }}
 //
 // Direct usage in Go:
-//   lucide.Pill()
-//   lucide.Pill(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pill()
+//	lucide.Pill(lucide.Options{Size: 32, Class: "my-icon"})
 func Pill(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26378,11 +28626,13 @@ func Pill(opts ...Options) template.HTML {
 // PillBottle renders the "pill-bottle" icon.
 //
 // Usage in templates:
-//   {{ lucide "pill-bottle" }}
+//
+//	{{ lucide "pill-bottle" }}
 //
 // Direct usage in Go:
-//   lucide.PillBottle()
-//   lucide.PillBottle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PillBottle()
+//	lucide.PillBottle(lucide.Options{Size: 32, Class: "my-icon"})
 func PillBottle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26400,11 +28650,13 @@ func PillBottle(opts ...Options) template.HTML {
 // Pin renders the "pin" icon.
 //
 // Usage in templates:
-//   {{ lucide "pin" }}
+//
+//	{{ lucide "pin" }}
 //
 // Direct usage in Go:
-//   lucide.Pin()
-//   lucide.Pin(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pin()
+//	lucide.Pin(lucide.Options{Size: 32, Class: "my-icon"})
 func Pin(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26422,11 +28674,13 @@ func Pin(opts ...Options) template.HTML {
 // PinOff renders the "pin-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "pin-off" }}
+//
+//	{{ lucide "pin-off" }}
 //
 // Direct usage in Go:
-//   lucide.PinOff()
-//   lucide.PinOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PinOff()
+//	lucide.PinOff(lucide.Options{Size: 32, Class: "my-icon"})
 func PinOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26444,11 +28698,13 @@ func PinOff(opts ...Options) template.HTML {
 // Pipette renders the "pipette" icon.
 //
 // Usage in templates:
-//   {{ lucide "pipette" }}
+//
+//	{{ lucide "pipette" }}
 //
 // Direct usage in Go:
-//   lucide.Pipette()
-//   lucide.Pipette(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pipette()
+//	lucide.Pipette(lucide.Options{Size: 32, Class: "my-icon"})
 func Pipette(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26466,11 +28722,13 @@ func Pipette(opts ...Options) template.HTML {
 // Pizza renders the "pizza" icon.
 //
 // Usage in templates:
-//   {{ lucide "pizza" }}
+//
+//	{{ lucide "pizza" }}
 //
 // Direct usage in Go:
-//   lucide.Pizza()
-//   lucide.Pizza(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pizza()
+//	lucide.Pizza(lucide.Options{Size: 32, Class: "my-icon"})
 func Pizza(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26488,11 +28746,13 @@ func Pizza(opts ...Options) template.HTML {
 // Plane renders the "plane" icon.
 //
 // Usage in templates:
-//   {{ lucide "plane" }}
+//
+//	{{ lucide "plane" }}
 //
 // Direct usage in Go:
-//   lucide.Plane()
-//   lucide.Plane(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Plane()
+//	lucide.Plane(lucide.Options{Size: 32, Class: "my-icon"})
 func Plane(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26510,11 +28770,13 @@ func Plane(opts ...Options) template.HTML {
 // PlaneLanding renders the "plane-landing" icon.
 //
 // Usage in templates:
-//   {{ lucide "plane-landing" }}
+//
+//	{{ lucide "plane-landing" }}
 //
 // Direct usage in Go:
-//   lucide.PlaneLanding()
-//   lucide.PlaneLanding(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PlaneLanding()
+//	lucide.PlaneLanding(lucide.Options{Size: 32, Class: "my-icon"})
 func PlaneLanding(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26532,11 +28794,13 @@ func PlaneLanding(opts ...Options) template.HTML {
 // PlaneTakeoff renders the "plane-takeoff" icon.
 //
 // Usage in templates:
-//   {{ lucide "plane-takeoff" }}
+//
+//	{{ lucide "plane-takeoff" }}
 //
 // Direct usage in Go:
-//   lucide.PlaneTakeoff()
-//   lucide.PlaneTakeoff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PlaneTakeoff()
+//	lucide.PlaneTakeoff(lucide.Options{Size: 32, Class: "my-icon"})
 func PlaneTakeoff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26554,11 +28818,13 @@ func PlaneTakeoff(opts ...Options) template.HTML {
 // Play renders the "play" icon.
 //
 // Usage in templates:
-//   {{ lucide "play" }}
+//
+//	{{ lucide "play" }}
 //
 // Direct usage in Go:
-//   lucide.Play()
-//   lucide.Play(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Play()
+//	lucide.Play(lucide.Options{Size: 32, Class: "my-icon"})
 func Play(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26576,11 +28842,13 @@ func Play(opts ...Options) template.HTML {
 // Plug renders the "plug" icon.
 //
 // Usage in templates:
-//   {{ lucide "plug" }}
+//
+//	{{ lucide "plug" }}
 //
 // Direct usage in Go:
-//   lucide.Plug()
-//   lucide.Plug(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Plug()
+//	lucide.Plug(lucide.Options{Size: 32, Class: "my-icon"})
 func Plug(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26598,11 +28866,13 @@ func Plug(opts ...Options) template.HTML {
 // Plug2 renders the "plug-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "plug-2" }}
+//
+//	{{ lucide "plug-2" }}
 //
 // Direct usage in Go:
-//   lucide.Plug2()
-//   lucide.Plug2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Plug2()
+//	lucide.Plug2(lucide.Options{Size: 32, Class: "my-icon"})
 func Plug2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26620,11 +28890,13 @@ func Plug2(opts ...Options) template.HTML {
 // PlugZap renders the "plug-zap" icon.
 //
 // Usage in templates:
-//   {{ lucide "plug-zap" }}
+//
+//	{{ lucide "plug-zap" }}
 //
 // Direct usage in Go:
-//   lucide.PlugZap()
-//   lucide.PlugZap(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PlugZap()
+//	lucide.PlugZap(lucide.Options{Size: 32, Class: "my-icon"})
 func PlugZap(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26642,11 +28914,13 @@ func PlugZap(opts ...Options) template.HTML {
 // Plus renders the "plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "plus" }}
+//
+//	{{ lucide "plus" }}
 //
 // Direct usage in Go:
-//   lucide.Plus()
-//   lucide.Plus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Plus()
+//	lucide.Plus(lucide.Options{Size: 32, Class: "my-icon"})
 func Plus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26664,11 +28938,13 @@ func Plus(opts ...Options) template.HTML {
 // Pocket renders the "pocket" icon.
 //
 // Usage in templates:
-//   {{ lucide "pocket" }}
+//
+//	{{ lucide "pocket" }}
 //
 // Direct usage in Go:
-//   lucide.Pocket()
-//   lucide.Pocket(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pocket()
+//	lucide.Pocket(lucide.Options{Size: 32, Class: "my-icon"})
 func Pocket(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26686,11 +28962,13 @@ func Pocket(opts ...Options) template.HTML {
 // PocketKnife renders the "pocket-knife" icon.
 //
 // Usage in templates:
-//   {{ lucide "pocket-knife" }}
+//
+//	{{ lucide "pocket-knife" }}
 //
 // Direct usage in Go:
-//   lucide.PocketKnife()
-//   lucide.PocketKnife(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PocketKnife()
+//	lucide.PocketKnife(lucide.Options{Size: 32, Class: "my-icon"})
 func PocketKnife(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26708,11 +28986,13 @@ func PocketKnife(opts ...Options) template.HTML {
 // Podcast renders the "podcast" icon.
 //
 // Usage in templates:
-//   {{ lucide "podcast" }}
+//
+//	{{ lucide "podcast" }}
 //
 // Direct usage in Go:
-//   lucide.Podcast()
-//   lucide.Podcast(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Podcast()
+//	lucide.Podcast(lucide.Options{Size: 32, Class: "my-icon"})
 func Podcast(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26730,11 +29010,13 @@ func Podcast(opts ...Options) template.HTML {
 // Pointer renders the "pointer" icon.
 //
 // Usage in templates:
-//   {{ lucide "pointer" }}
+//
+//	{{ lucide "pointer" }}
 //
 // Direct usage in Go:
-//   lucide.Pointer()
-//   lucide.Pointer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pointer()
+//	lucide.Pointer(lucide.Options{Size: 32, Class: "my-icon"})
 func Pointer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26752,11 +29034,13 @@ func Pointer(opts ...Options) template.HTML {
 // PointerOff renders the "pointer-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "pointer-off" }}
+//
+//	{{ lucide "pointer-off" }}
 //
 // Direct usage in Go:
-//   lucide.PointerOff()
-//   lucide.PointerOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PointerOff()
+//	lucide.PointerOff(lucide.Options{Size: 32, Class: "my-icon"})
 func PointerOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26774,11 +29058,13 @@ func PointerOff(opts ...Options) template.HTML {
 // Popcorn renders the "popcorn" icon.
 //
 // Usage in templates:
-//   {{ lucide "popcorn" }}
+//
+//	{{ lucide "popcorn" }}
 //
 // Direct usage in Go:
-//   lucide.Popcorn()
-//   lucide.Popcorn(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Popcorn()
+//	lucide.Popcorn(lucide.Options{Size: 32, Class: "my-icon"})
 func Popcorn(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26796,11 +29082,13 @@ func Popcorn(opts ...Options) template.HTML {
 // Popsicle renders the "popsicle" icon.
 //
 // Usage in templates:
-//   {{ lucide "popsicle" }}
+//
+//	{{ lucide "popsicle" }}
 //
 // Direct usage in Go:
-//   lucide.Popsicle()
-//   lucide.Popsicle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Popsicle()
+//	lucide.Popsicle(lucide.Options{Size: 32, Class: "my-icon"})
 func Popsicle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26818,11 +29106,13 @@ func Popsicle(opts ...Options) template.HTML {
 // PoundSterling renders the "pound-sterling" icon.
 //
 // Usage in templates:
-//   {{ lucide "pound-sterling" }}
+//
+//	{{ lucide "pound-sterling" }}
 //
 // Direct usage in Go:
-//   lucide.PoundSterling()
-//   lucide.PoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PoundSterling()
+//	lucide.PoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
 func PoundSterling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26840,11 +29130,13 @@ func PoundSterling(opts ...Options) template.HTML {
 // Power renders the "power" icon.
 //
 // Usage in templates:
-//   {{ lucide "power" }}
+//
+//	{{ lucide "power" }}
 //
 // Direct usage in Go:
-//   lucide.Power()
-//   lucide.Power(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Power()
+//	lucide.Power(lucide.Options{Size: 32, Class: "my-icon"})
 func Power(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26862,11 +29154,13 @@ func Power(opts ...Options) template.HTML {
 // PowerOff renders the "power-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "power-off" }}
+//
+//	{{ lucide "power-off" }}
 //
 // Direct usage in Go:
-//   lucide.PowerOff()
-//   lucide.PowerOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PowerOff()
+//	lucide.PowerOff(lucide.Options{Size: 32, Class: "my-icon"})
 func PowerOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26884,11 +29178,13 @@ func PowerOff(opts ...Options) template.HTML {
 // Presentation renders the "presentation" icon.
 //
 // Usage in templates:
-//   {{ lucide "presentation" }}
+//
+//	{{ lucide "presentation" }}
 //
 // Direct usage in Go:
-//   lucide.Presentation()
-//   lucide.Presentation(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Presentation()
+//	lucide.Presentation(lucide.Options{Size: 32, Class: "my-icon"})
 func Presentation(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26906,11 +29202,13 @@ func Presentation(opts ...Options) template.HTML {
 // Printer renders the "printer" icon.
 //
 // Usage in templates:
-//   {{ lucide "printer" }}
+//
+//	{{ lucide "printer" }}
 //
 // Direct usage in Go:
-//   lucide.Printer()
-//   lucide.Printer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Printer()
+//	lucide.Printer(lucide.Options{Size: 32, Class: "my-icon"})
 func Printer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26928,11 +29226,13 @@ func Printer(opts ...Options) template.HTML {
 // PrinterCheck renders the "printer-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "printer-check" }}
+//
+//	{{ lucide "printer-check" }}
 //
 // Direct usage in Go:
-//   lucide.PrinterCheck()
-//   lucide.PrinterCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.PrinterCheck()
+//	lucide.PrinterCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func PrinterCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26950,11 +29250,13 @@ func PrinterCheck(opts ...Options) template.HTML {
 // Projector renders the "projector" icon.
 //
 // Usage in templates:
-//   {{ lucide "projector" }}
+//
+//	{{ lucide "projector" }}
 //
 // Direct usage in Go:
-//   lucide.Projector()
-//   lucide.Projector(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Projector()
+//	lucide.Projector(lucide.Options{Size: 32, Class: "my-icon"})
 func Projector(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26972,11 +29274,13 @@ func Projector(opts ...Options) template.HTML {
 // Proportions renders the "proportions" icon.
 //
 // Usage in templates:
-//   {{ lucide "proportions" }}
+//
+//	{{ lucide "proportions" }}
 //
 // Direct usage in Go:
-//   lucide.Proportions()
-//   lucide.Proportions(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Proportions()
+//	lucide.Proportions(lucide.Options{Size: 32, Class: "my-icon"})
 func Proportions(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -26994,11 +29298,13 @@ func Proportions(opts ...Options) template.HTML {
 // Puzzle renders the "puzzle" icon.
 //
 // Usage in templates:
-//   {{ lucide "puzzle" }}
+//
+//	{{ lucide "puzzle" }}
 //
 // Direct usage in Go:
-//   lucide.Puzzle()
-//   lucide.Puzzle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Puzzle()
+//	lucide.Puzzle(lucide.Options{Size: 32, Class: "my-icon"})
 func Puzzle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27016,11 +29322,13 @@ func Puzzle(opts ...Options) template.HTML {
 // Pyramid renders the "pyramid" icon.
 //
 // Usage in templates:
-//   {{ lucide "pyramid" }}
+//
+//	{{ lucide "pyramid" }}
 //
 // Direct usage in Go:
-//   lucide.Pyramid()
-//   lucide.Pyramid(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Pyramid()
+//	lucide.Pyramid(lucide.Options{Size: 32, Class: "my-icon"})
 func Pyramid(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27038,11 +29346,13 @@ func Pyramid(opts ...Options) template.HTML {
 // QrCode renders the "qr-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "qr-code" }}
+//
+//	{{ lucide "qr-code" }}
 //
 // Direct usage in Go:
-//   lucide.QrCode()
-//   lucide.QrCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.QrCode()
+//	lucide.QrCode(lucide.Options{Size: 32, Class: "my-icon"})
 func QrCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27060,11 +29370,13 @@ func QrCode(opts ...Options) template.HTML {
 // Quote renders the "quote" icon.
 //
 // Usage in templates:
-//   {{ lucide "quote" }}
+//
+//	{{ lucide "quote" }}
 //
 // Direct usage in Go:
-//   lucide.Quote()
-//   lucide.Quote(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Quote()
+//	lucide.Quote(lucide.Options{Size: 32, Class: "my-icon"})
 func Quote(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27082,11 +29394,13 @@ func Quote(opts ...Options) template.HTML {
 // Rabbit renders the "rabbit" icon.
 //
 // Usage in templates:
-//   {{ lucide "rabbit" }}
+//
+//	{{ lucide "rabbit" }}
 //
 // Direct usage in Go:
-//   lucide.Rabbit()
-//   lucide.Rabbit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rabbit()
+//	lucide.Rabbit(lucide.Options{Size: 32, Class: "my-icon"})
 func Rabbit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27104,11 +29418,13 @@ func Rabbit(opts ...Options) template.HTML {
 // Radar renders the "radar" icon.
 //
 // Usage in templates:
-//   {{ lucide "radar" }}
+//
+//	{{ lucide "radar" }}
 //
 // Direct usage in Go:
-//   lucide.Radar()
-//   lucide.Radar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Radar()
+//	lucide.Radar(lucide.Options{Size: 32, Class: "my-icon"})
 func Radar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27126,11 +29442,13 @@ func Radar(opts ...Options) template.HTML {
 // Radiation renders the "radiation" icon.
 //
 // Usage in templates:
-//   {{ lucide "radiation" }}
+//
+//	{{ lucide "radiation" }}
 //
 // Direct usage in Go:
-//   lucide.Radiation()
-//   lucide.Radiation(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Radiation()
+//	lucide.Radiation(lucide.Options{Size: 32, Class: "my-icon"})
 func Radiation(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27148,11 +29466,13 @@ func Radiation(opts ...Options) template.HTML {
 // Radical renders the "radical" icon.
 //
 // Usage in templates:
-//   {{ lucide "radical" }}
+//
+//	{{ lucide "radical" }}
 //
 // Direct usage in Go:
-//   lucide.Radical()
-//   lucide.Radical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Radical()
+//	lucide.Radical(lucide.Options{Size: 32, Class: "my-icon"})
 func Radical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27170,11 +29490,13 @@ func Radical(opts ...Options) template.HTML {
 // Radio renders the "radio" icon.
 //
 // Usage in templates:
-//   {{ lucide "radio" }}
+//
+//	{{ lucide "radio" }}
 //
 // Direct usage in Go:
-//   lucide.Radio()
-//   lucide.Radio(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Radio()
+//	lucide.Radio(lucide.Options{Size: 32, Class: "my-icon"})
 func Radio(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27192,11 +29514,13 @@ func Radio(opts ...Options) template.HTML {
 // RadioReceiver renders the "radio-receiver" icon.
 //
 // Usage in templates:
-//   {{ lucide "radio-receiver" }}
+//
+//	{{ lucide "radio-receiver" }}
 //
 // Direct usage in Go:
-//   lucide.RadioReceiver()
-//   lucide.RadioReceiver(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RadioReceiver()
+//	lucide.RadioReceiver(lucide.Options{Size: 32, Class: "my-icon"})
 func RadioReceiver(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27214,11 +29538,13 @@ func RadioReceiver(opts ...Options) template.HTML {
 // RadioTower renders the "radio-tower" icon.
 //
 // Usage in templates:
-//   {{ lucide "radio-tower" }}
+//
+//	{{ lucide "radio-tower" }}
 //
 // Direct usage in Go:
-//   lucide.RadioTower()
-//   lucide.RadioTower(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RadioTower()
+//	lucide.RadioTower(lucide.Options{Size: 32, Class: "my-icon"})
 func RadioTower(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27236,11 +29562,13 @@ func RadioTower(opts ...Options) template.HTML {
 // Radius renders the "radius" icon.
 //
 // Usage in templates:
-//   {{ lucide "radius" }}
+//
+//	{{ lucide "radius" }}
 //
 // Direct usage in Go:
-//   lucide.Radius()
-//   lucide.Radius(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Radius()
+//	lucide.Radius(lucide.Options{Size: 32, Class: "my-icon"})
 func Radius(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27258,11 +29586,13 @@ func Radius(opts ...Options) template.HTML {
 // RailSymbol renders the "rail-symbol" icon.
 //
 // Usage in templates:
-//   {{ lucide "rail-symbol" }}
+//
+//	{{ lucide "rail-symbol" }}
 //
 // Direct usage in Go:
-//   lucide.RailSymbol()
-//   lucide.RailSymbol(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RailSymbol()
+//	lucide.RailSymbol(lucide.Options{Size: 32, Class: "my-icon"})
 func RailSymbol(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27280,11 +29610,13 @@ func RailSymbol(opts ...Options) template.HTML {
 // Rainbow renders the "rainbow" icon.
 //
 // Usage in templates:
-//   {{ lucide "rainbow" }}
+//
+//	{{ lucide "rainbow" }}
 //
 // Direct usage in Go:
-//   lucide.Rainbow()
-//   lucide.Rainbow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rainbow()
+//	lucide.Rainbow(lucide.Options{Size: 32, Class: "my-icon"})
 func Rainbow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27302,11 +29634,13 @@ func Rainbow(opts ...Options) template.HTML {
 // Rat renders the "rat" icon.
 //
 // Usage in templates:
-//   {{ lucide "rat" }}
+//
+//	{{ lucide "rat" }}
 //
 // Direct usage in Go:
-//   lucide.Rat()
-//   lucide.Rat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rat()
+//	lucide.Rat(lucide.Options{Size: 32, Class: "my-icon"})
 func Rat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27324,11 +29658,13 @@ func Rat(opts ...Options) template.HTML {
 // Ratio renders the "ratio" icon.
 //
 // Usage in templates:
-//   {{ lucide "ratio" }}
+//
+//	{{ lucide "ratio" }}
 //
 // Direct usage in Go:
-//   lucide.Ratio()
-//   lucide.Ratio(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ratio()
+//	lucide.Ratio(lucide.Options{Size: 32, Class: "my-icon"})
 func Ratio(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27346,11 +29682,13 @@ func Ratio(opts ...Options) template.HTML {
 // Receipt renders the "receipt" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt" }}
+//
+//	{{ lucide "receipt" }}
 //
 // Direct usage in Go:
-//   lucide.Receipt()
-//   lucide.Receipt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Receipt()
+//	lucide.Receipt(lucide.Options{Size: 32, Class: "my-icon"})
 func Receipt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27368,11 +29706,13 @@ func Receipt(opts ...Options) template.HTML {
 // ReceiptCent renders the "receipt-cent" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-cent" }}
+//
+//	{{ lucide "receipt-cent" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptCent()
-//   lucide.ReceiptCent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptCent()
+//	lucide.ReceiptCent(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptCent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27390,11 +29730,13 @@ func ReceiptCent(opts ...Options) template.HTML {
 // ReceiptEuro renders the "receipt-euro" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-euro" }}
+//
+//	{{ lucide "receipt-euro" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptEuro()
-//   lucide.ReceiptEuro(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptEuro()
+//	lucide.ReceiptEuro(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptEuro(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27412,11 +29754,13 @@ func ReceiptEuro(opts ...Options) template.HTML {
 // ReceiptIndianRupee renders the "receipt-indian-rupee" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-indian-rupee" }}
+//
+//	{{ lucide "receipt-indian-rupee" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptIndianRupee()
-//   lucide.ReceiptIndianRupee(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptIndianRupee()
+//	lucide.ReceiptIndianRupee(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptIndianRupee(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27434,11 +29778,13 @@ func ReceiptIndianRupee(opts ...Options) template.HTML {
 // ReceiptJapaneseYen renders the "receipt-japanese-yen" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-japanese-yen" }}
+//
+//	{{ lucide "receipt-japanese-yen" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptJapaneseYen()
-//   lucide.ReceiptJapaneseYen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptJapaneseYen()
+//	lucide.ReceiptJapaneseYen(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptJapaneseYen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27456,11 +29802,13 @@ func ReceiptJapaneseYen(opts ...Options) template.HTML {
 // ReceiptPoundSterling renders the "receipt-pound-sterling" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-pound-sterling" }}
+//
+//	{{ lucide "receipt-pound-sterling" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptPoundSterling()
-//   lucide.ReceiptPoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptPoundSterling()
+//	lucide.ReceiptPoundSterling(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptPoundSterling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27478,11 +29826,13 @@ func ReceiptPoundSterling(opts ...Options) template.HTML {
 // ReceiptRussianRuble renders the "receipt-russian-ruble" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-russian-ruble" }}
+//
+//	{{ lucide "receipt-russian-ruble" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptRussianRuble()
-//   lucide.ReceiptRussianRuble(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptRussianRuble()
+//	lucide.ReceiptRussianRuble(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptRussianRuble(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27500,11 +29850,13 @@ func ReceiptRussianRuble(opts ...Options) template.HTML {
 // ReceiptSwissFranc renders the "receipt-swiss-franc" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-swiss-franc" }}
+//
+//	{{ lucide "receipt-swiss-franc" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptSwissFranc()
-//   lucide.ReceiptSwissFranc(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptSwissFranc()
+//	lucide.ReceiptSwissFranc(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptSwissFranc(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27522,11 +29874,13 @@ func ReceiptSwissFranc(opts ...Options) template.HTML {
 // ReceiptText renders the "receipt-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-text" }}
+//
+//	{{ lucide "receipt-text" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptText()
-//   lucide.ReceiptText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptText()
+//	lucide.ReceiptText(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27544,11 +29898,13 @@ func ReceiptText(opts ...Options) template.HTML {
 // ReceiptTurkishLira renders the "receipt-turkish-lira" icon.
 //
 // Usage in templates:
-//   {{ lucide "receipt-turkish-lira" }}
+//
+//	{{ lucide "receipt-turkish-lira" }}
 //
 // Direct usage in Go:
-//   lucide.ReceiptTurkishLira()
-//   lucide.ReceiptTurkishLira(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReceiptTurkishLira()
+//	lucide.ReceiptTurkishLira(lucide.Options{Size: 32, Class: "my-icon"})
 func ReceiptTurkishLira(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27566,11 +29922,13 @@ func ReceiptTurkishLira(opts ...Options) template.HTML {
 // RectangleCircle renders the "rectangle-circle" icon.
 //
 // Usage in templates:
-//   {{ lucide "rectangle-circle" }}
+//
+//	{{ lucide "rectangle-circle" }}
 //
 // Direct usage in Go:
-//   lucide.RectangleCircle()
-//   lucide.RectangleCircle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RectangleCircle()
+//	lucide.RectangleCircle(lucide.Options{Size: 32, Class: "my-icon"})
 func RectangleCircle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27588,11 +29946,13 @@ func RectangleCircle(opts ...Options) template.HTML {
 // RectangleEllipsis renders the "rectangle-ellipsis" icon.
 //
 // Usage in templates:
-//   {{ lucide "rectangle-ellipsis" }}
+//
+//	{{ lucide "rectangle-ellipsis" }}
 //
 // Direct usage in Go:
-//   lucide.RectangleEllipsis()
-//   lucide.RectangleEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RectangleEllipsis()
+//	lucide.RectangleEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
 func RectangleEllipsis(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27610,11 +29970,13 @@ func RectangleEllipsis(opts ...Options) template.HTML {
 // RectangleGoggles renders the "rectangle-goggles" icon.
 //
 // Usage in templates:
-//   {{ lucide "rectangle-goggles" }}
+//
+//	{{ lucide "rectangle-goggles" }}
 //
 // Direct usage in Go:
-//   lucide.RectangleGoggles()
-//   lucide.RectangleGoggles(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RectangleGoggles()
+//	lucide.RectangleGoggles(lucide.Options{Size: 32, Class: "my-icon"})
 func RectangleGoggles(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27632,11 +29994,13 @@ func RectangleGoggles(opts ...Options) template.HTML {
 // RectangleHorizontal renders the "rectangle-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "rectangle-horizontal" }}
+//
+//	{{ lucide "rectangle-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.RectangleHorizontal()
-//   lucide.RectangleHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RectangleHorizontal()
+//	lucide.RectangleHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func RectangleHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27654,11 +30018,13 @@ func RectangleHorizontal(opts ...Options) template.HTML {
 // RectangleVertical renders the "rectangle-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "rectangle-vertical" }}
+//
+//	{{ lucide "rectangle-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.RectangleVertical()
-//   lucide.RectangleVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RectangleVertical()
+//	lucide.RectangleVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func RectangleVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27676,11 +30042,13 @@ func RectangleVertical(opts ...Options) template.HTML {
 // Recycle renders the "recycle" icon.
 //
 // Usage in templates:
-//   {{ lucide "recycle" }}
+//
+//	{{ lucide "recycle" }}
 //
 // Direct usage in Go:
-//   lucide.Recycle()
-//   lucide.Recycle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Recycle()
+//	lucide.Recycle(lucide.Options{Size: 32, Class: "my-icon"})
 func Recycle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27698,11 +30066,13 @@ func Recycle(opts ...Options) template.HTML {
 // Redo renders the "redo" icon.
 //
 // Usage in templates:
-//   {{ lucide "redo" }}
+//
+//	{{ lucide "redo" }}
 //
 // Direct usage in Go:
-//   lucide.Redo()
-//   lucide.Redo(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Redo()
+//	lucide.Redo(lucide.Options{Size: 32, Class: "my-icon"})
 func Redo(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27720,11 +30090,13 @@ func Redo(opts ...Options) template.HTML {
 // Redo2 renders the "redo-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "redo-2" }}
+//
+//	{{ lucide "redo-2" }}
 //
 // Direct usage in Go:
-//   lucide.Redo2()
-//   lucide.Redo2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Redo2()
+//	lucide.Redo2(lucide.Options{Size: 32, Class: "my-icon"})
 func Redo2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27742,11 +30114,13 @@ func Redo2(opts ...Options) template.HTML {
 // RedoDot renders the "redo-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "redo-dot" }}
+//
+//	{{ lucide "redo-dot" }}
 //
 // Direct usage in Go:
-//   lucide.RedoDot()
-//   lucide.RedoDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RedoDot()
+//	lucide.RedoDot(lucide.Options{Size: 32, Class: "my-icon"})
 func RedoDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27764,11 +30138,13 @@ func RedoDot(opts ...Options) template.HTML {
 // RefreshCcw renders the "refresh-ccw" icon.
 //
 // Usage in templates:
-//   {{ lucide "refresh-ccw" }}
+//
+//	{{ lucide "refresh-ccw" }}
 //
 // Direct usage in Go:
-//   lucide.RefreshCcw()
-//   lucide.RefreshCcw(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RefreshCcw()
+//	lucide.RefreshCcw(lucide.Options{Size: 32, Class: "my-icon"})
 func RefreshCcw(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27786,11 +30162,13 @@ func RefreshCcw(opts ...Options) template.HTML {
 // RefreshCcwDot renders the "refresh-ccw-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "refresh-ccw-dot" }}
+//
+//	{{ lucide "refresh-ccw-dot" }}
 //
 // Direct usage in Go:
-//   lucide.RefreshCcwDot()
-//   lucide.RefreshCcwDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RefreshCcwDot()
+//	lucide.RefreshCcwDot(lucide.Options{Size: 32, Class: "my-icon"})
 func RefreshCcwDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27808,11 +30186,13 @@ func RefreshCcwDot(opts ...Options) template.HTML {
 // RefreshCw renders the "refresh-cw" icon.
 //
 // Usage in templates:
-//   {{ lucide "refresh-cw" }}
+//
+//	{{ lucide "refresh-cw" }}
 //
 // Direct usage in Go:
-//   lucide.RefreshCw()
-//   lucide.RefreshCw(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RefreshCw()
+//	lucide.RefreshCw(lucide.Options{Size: 32, Class: "my-icon"})
 func RefreshCw(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27830,11 +30210,13 @@ func RefreshCw(opts ...Options) template.HTML {
 // RefreshCwOff renders the "refresh-cw-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "refresh-cw-off" }}
+//
+//	{{ lucide "refresh-cw-off" }}
 //
 // Direct usage in Go:
-//   lucide.RefreshCwOff()
-//   lucide.RefreshCwOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RefreshCwOff()
+//	lucide.RefreshCwOff(lucide.Options{Size: 32, Class: "my-icon"})
 func RefreshCwOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27852,11 +30234,13 @@ func RefreshCwOff(opts ...Options) template.HTML {
 // Refrigerator renders the "refrigerator" icon.
 //
 // Usage in templates:
-//   {{ lucide "refrigerator" }}
+//
+//	{{ lucide "refrigerator" }}
 //
 // Direct usage in Go:
-//   lucide.Refrigerator()
-//   lucide.Refrigerator(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Refrigerator()
+//	lucide.Refrigerator(lucide.Options{Size: 32, Class: "my-icon"})
 func Refrigerator(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27874,11 +30258,13 @@ func Refrigerator(opts ...Options) template.HTML {
 // Regex renders the "regex" icon.
 //
 // Usage in templates:
-//   {{ lucide "regex" }}
+//
+//	{{ lucide "regex" }}
 //
 // Direct usage in Go:
-//   lucide.Regex()
-//   lucide.Regex(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Regex()
+//	lucide.Regex(lucide.Options{Size: 32, Class: "my-icon"})
 func Regex(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27896,11 +30282,13 @@ func Regex(opts ...Options) template.HTML {
 // RemoveFormatting renders the "remove-formatting" icon.
 //
 // Usage in templates:
-//   {{ lucide "remove-formatting" }}
+//
+//	{{ lucide "remove-formatting" }}
 //
 // Direct usage in Go:
-//   lucide.RemoveFormatting()
-//   lucide.RemoveFormatting(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RemoveFormatting()
+//	lucide.RemoveFormatting(lucide.Options{Size: 32, Class: "my-icon"})
 func RemoveFormatting(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27918,11 +30306,13 @@ func RemoveFormatting(opts ...Options) template.HTML {
 // Repeat renders the "repeat" icon.
 //
 // Usage in templates:
-//   {{ lucide "repeat" }}
+//
+//	{{ lucide "repeat" }}
 //
 // Direct usage in Go:
-//   lucide.Repeat()
-//   lucide.Repeat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Repeat()
+//	lucide.Repeat(lucide.Options{Size: 32, Class: "my-icon"})
 func Repeat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27940,11 +30330,13 @@ func Repeat(opts ...Options) template.HTML {
 // Repeat1 renders the "repeat-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "repeat-1" }}
+//
+//	{{ lucide "repeat-1" }}
 //
 // Direct usage in Go:
-//   lucide.Repeat1()
-//   lucide.Repeat1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Repeat1()
+//	lucide.Repeat1(lucide.Options{Size: 32, Class: "my-icon"})
 func Repeat1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27962,11 +30354,13 @@ func Repeat1(opts ...Options) template.HTML {
 // Repeat2 renders the "repeat-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "repeat-2" }}
+//
+//	{{ lucide "repeat-2" }}
 //
 // Direct usage in Go:
-//   lucide.Repeat2()
-//   lucide.Repeat2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Repeat2()
+//	lucide.Repeat2(lucide.Options{Size: 32, Class: "my-icon"})
 func Repeat2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -27984,11 +30378,13 @@ func Repeat2(opts ...Options) template.HTML {
 // Replace renders the "replace" icon.
 //
 // Usage in templates:
-//   {{ lucide "replace" }}
+//
+//	{{ lucide "replace" }}
 //
 // Direct usage in Go:
-//   lucide.Replace()
-//   lucide.Replace(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Replace()
+//	lucide.Replace(lucide.Options{Size: 32, Class: "my-icon"})
 func Replace(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28006,11 +30402,13 @@ func Replace(opts ...Options) template.HTML {
 // ReplaceAll renders the "replace-all" icon.
 //
 // Usage in templates:
-//   {{ lucide "replace-all" }}
+//
+//	{{ lucide "replace-all" }}
 //
 // Direct usage in Go:
-//   lucide.ReplaceAll()
-//   lucide.ReplaceAll(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReplaceAll()
+//	lucide.ReplaceAll(lucide.Options{Size: 32, Class: "my-icon"})
 func ReplaceAll(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28028,11 +30426,13 @@ func ReplaceAll(opts ...Options) template.HTML {
 // Reply renders the "reply" icon.
 //
 // Usage in templates:
-//   {{ lucide "reply" }}
+//
+//	{{ lucide "reply" }}
 //
 // Direct usage in Go:
-//   lucide.Reply()
-//   lucide.Reply(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Reply()
+//	lucide.Reply(lucide.Options{Size: 32, Class: "my-icon"})
 func Reply(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28050,11 +30450,13 @@ func Reply(opts ...Options) template.HTML {
 // ReplyAll renders the "reply-all" icon.
 //
 // Usage in templates:
-//   {{ lucide "reply-all" }}
+//
+//	{{ lucide "reply-all" }}
 //
 // Direct usage in Go:
-//   lucide.ReplyAll()
-//   lucide.ReplyAll(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ReplyAll()
+//	lucide.ReplyAll(lucide.Options{Size: 32, Class: "my-icon"})
 func ReplyAll(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28072,11 +30474,13 @@ func ReplyAll(opts ...Options) template.HTML {
 // Rewind renders the "rewind" icon.
 //
 // Usage in templates:
-//   {{ lucide "rewind" }}
+//
+//	{{ lucide "rewind" }}
 //
 // Direct usage in Go:
-//   lucide.Rewind()
-//   lucide.Rewind(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rewind()
+//	lucide.Rewind(lucide.Options{Size: 32, Class: "my-icon"})
 func Rewind(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28094,11 +30498,13 @@ func Rewind(opts ...Options) template.HTML {
 // Ribbon renders the "ribbon" icon.
 //
 // Usage in templates:
-//   {{ lucide "ribbon" }}
+//
+//	{{ lucide "ribbon" }}
 //
 // Direct usage in Go:
-//   lucide.Ribbon()
-//   lucide.Ribbon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ribbon()
+//	lucide.Ribbon(lucide.Options{Size: 32, Class: "my-icon"})
 func Ribbon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28116,11 +30522,13 @@ func Ribbon(opts ...Options) template.HTML {
 // Rocket renders the "rocket" icon.
 //
 // Usage in templates:
-//   {{ lucide "rocket" }}
+//
+//	{{ lucide "rocket" }}
 //
 // Direct usage in Go:
-//   lucide.Rocket()
-//   lucide.Rocket(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rocket()
+//	lucide.Rocket(lucide.Options{Size: 32, Class: "my-icon"})
 func Rocket(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28138,11 +30546,13 @@ func Rocket(opts ...Options) template.HTML {
 // RockingChair renders the "rocking-chair" icon.
 //
 // Usage in templates:
-//   {{ lucide "rocking-chair" }}
+//
+//	{{ lucide "rocking-chair" }}
 //
 // Direct usage in Go:
-//   lucide.RockingChair()
-//   lucide.RockingChair(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RockingChair()
+//	lucide.RockingChair(lucide.Options{Size: 32, Class: "my-icon"})
 func RockingChair(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28160,11 +30570,13 @@ func RockingChair(opts ...Options) template.HTML {
 // RollerCoaster renders the "roller-coaster" icon.
 //
 // Usage in templates:
-//   {{ lucide "roller-coaster" }}
+//
+//	{{ lucide "roller-coaster" }}
 //
 // Direct usage in Go:
-//   lucide.RollerCoaster()
-//   lucide.RollerCoaster(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RollerCoaster()
+//	lucide.RollerCoaster(lucide.Options{Size: 32, Class: "my-icon"})
 func RollerCoaster(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28182,11 +30594,13 @@ func RollerCoaster(opts ...Options) template.HTML {
 // Rose renders the "rose" icon.
 //
 // Usage in templates:
-//   {{ lucide "rose" }}
+//
+//	{{ lucide "rose" }}
 //
 // Direct usage in Go:
-//   lucide.Rose()
-//   lucide.Rose(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rose()
+//	lucide.Rose(lucide.Options{Size: 32, Class: "my-icon"})
 func Rose(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28204,11 +30618,13 @@ func Rose(opts ...Options) template.HTML {
 // Rotate3d renders the "rotate-3d" icon.
 //
 // Usage in templates:
-//   {{ lucide "rotate-3d" }}
+//
+//	{{ lucide "rotate-3d" }}
 //
 // Direct usage in Go:
-//   lucide.Rotate3d()
-//   lucide.Rotate3d(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rotate3d()
+//	lucide.Rotate3d(lucide.Options{Size: 32, Class: "my-icon"})
 func Rotate3d(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28226,11 +30642,13 @@ func Rotate3d(opts ...Options) template.HTML {
 // RotateCcw renders the "rotate-ccw" icon.
 //
 // Usage in templates:
-//   {{ lucide "rotate-ccw" }}
+//
+//	{{ lucide "rotate-ccw" }}
 //
 // Direct usage in Go:
-//   lucide.RotateCcw()
-//   lucide.RotateCcw(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RotateCcw()
+//	lucide.RotateCcw(lucide.Options{Size: 32, Class: "my-icon"})
 func RotateCcw(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28248,11 +30666,13 @@ func RotateCcw(opts ...Options) template.HTML {
 // RotateCcwKey renders the "rotate-ccw-key" icon.
 //
 // Usage in templates:
-//   {{ lucide "rotate-ccw-key" }}
+//
+//	{{ lucide "rotate-ccw-key" }}
 //
 // Direct usage in Go:
-//   lucide.RotateCcwKey()
-//   lucide.RotateCcwKey(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RotateCcwKey()
+//	lucide.RotateCcwKey(lucide.Options{Size: 32, Class: "my-icon"})
 func RotateCcwKey(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28270,11 +30690,13 @@ func RotateCcwKey(opts ...Options) template.HTML {
 // RotateCcwSquare renders the "rotate-ccw-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "rotate-ccw-square" }}
+//
+//	{{ lucide "rotate-ccw-square" }}
 //
 // Direct usage in Go:
-//   lucide.RotateCcwSquare()
-//   lucide.RotateCcwSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RotateCcwSquare()
+//	lucide.RotateCcwSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func RotateCcwSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28292,11 +30714,13 @@ func RotateCcwSquare(opts ...Options) template.HTML {
 // RotateCw renders the "rotate-cw" icon.
 //
 // Usage in templates:
-//   {{ lucide "rotate-cw" }}
+//
+//	{{ lucide "rotate-cw" }}
 //
 // Direct usage in Go:
-//   lucide.RotateCw()
-//   lucide.RotateCw(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RotateCw()
+//	lucide.RotateCw(lucide.Options{Size: 32, Class: "my-icon"})
 func RotateCw(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28314,11 +30738,13 @@ func RotateCw(opts ...Options) template.HTML {
 // RotateCwSquare renders the "rotate-cw-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "rotate-cw-square" }}
+//
+//	{{ lucide "rotate-cw-square" }}
 //
 // Direct usage in Go:
-//   lucide.RotateCwSquare()
-//   lucide.RotateCwSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RotateCwSquare()
+//	lucide.RotateCwSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func RotateCwSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28336,11 +30762,13 @@ func RotateCwSquare(opts ...Options) template.HTML {
 // Route renders the "route" icon.
 //
 // Usage in templates:
-//   {{ lucide "route" }}
+//
+//	{{ lucide "route" }}
 //
 // Direct usage in Go:
-//   lucide.Route()
-//   lucide.Route(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Route()
+//	lucide.Route(lucide.Options{Size: 32, Class: "my-icon"})
 func Route(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28358,11 +30786,13 @@ func Route(opts ...Options) template.HTML {
 // RouteOff renders the "route-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "route-off" }}
+//
+//	{{ lucide "route-off" }}
 //
 // Direct usage in Go:
-//   lucide.RouteOff()
-//   lucide.RouteOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RouteOff()
+//	lucide.RouteOff(lucide.Options{Size: 32, Class: "my-icon"})
 func RouteOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28380,11 +30810,13 @@ func RouteOff(opts ...Options) template.HTML {
 // Router renders the "router" icon.
 //
 // Usage in templates:
-//   {{ lucide "router" }}
+//
+//	{{ lucide "router" }}
 //
 // Direct usage in Go:
-//   lucide.Router()
-//   lucide.Router(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Router()
+//	lucide.Router(lucide.Options{Size: 32, Class: "my-icon"})
 func Router(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28402,11 +30834,13 @@ func Router(opts ...Options) template.HTML {
 // Rows2 renders the "rows-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "rows-2" }}
+//
+//	{{ lucide "rows-2" }}
 //
 // Direct usage in Go:
-//   lucide.Rows2()
-//   lucide.Rows2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rows2()
+//	lucide.Rows2(lucide.Options{Size: 32, Class: "my-icon"})
 func Rows2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28424,11 +30858,13 @@ func Rows2(opts ...Options) template.HTML {
 // Rows3 renders the "rows-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "rows-3" }}
+//
+//	{{ lucide "rows-3" }}
 //
 // Direct usage in Go:
-//   lucide.Rows3()
-//   lucide.Rows3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rows3()
+//	lucide.Rows3(lucide.Options{Size: 32, Class: "my-icon"})
 func Rows3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28446,11 +30882,13 @@ func Rows3(opts ...Options) template.HTML {
 // Rows4 renders the "rows-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "rows-4" }}
+//
+//	{{ lucide "rows-4" }}
 //
 // Direct usage in Go:
-//   lucide.Rows4()
-//   lucide.Rows4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rows4()
+//	lucide.Rows4(lucide.Options{Size: 32, Class: "my-icon"})
 func Rows4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28468,11 +30906,13 @@ func Rows4(opts ...Options) template.HTML {
 // Rss renders the "rss" icon.
 //
 // Usage in templates:
-//   {{ lucide "rss" }}
+//
+//	{{ lucide "rss" }}
 //
 // Direct usage in Go:
-//   lucide.Rss()
-//   lucide.Rss(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Rss()
+//	lucide.Rss(lucide.Options{Size: 32, Class: "my-icon"})
 func Rss(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28490,11 +30930,13 @@ func Rss(opts ...Options) template.HTML {
 // Ruler renders the "ruler" icon.
 //
 // Usage in templates:
-//   {{ lucide "ruler" }}
+//
+//	{{ lucide "ruler" }}
 //
 // Direct usage in Go:
-//   lucide.Ruler()
-//   lucide.Ruler(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ruler()
+//	lucide.Ruler(lucide.Options{Size: 32, Class: "my-icon"})
 func Ruler(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28512,11 +30954,13 @@ func Ruler(opts ...Options) template.HTML {
 // RulerDimensionLine renders the "ruler-dimension-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "ruler-dimension-line" }}
+//
+//	{{ lucide "ruler-dimension-line" }}
 //
 // Direct usage in Go:
-//   lucide.RulerDimensionLine()
-//   lucide.RulerDimensionLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RulerDimensionLine()
+//	lucide.RulerDimensionLine(lucide.Options{Size: 32, Class: "my-icon"})
 func RulerDimensionLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28534,11 +30978,13 @@ func RulerDimensionLine(opts ...Options) template.HTML {
 // RussianRuble renders the "russian-ruble" icon.
 //
 // Usage in templates:
-//   {{ lucide "russian-ruble" }}
+//
+//	{{ lucide "russian-ruble" }}
 //
 // Direct usage in Go:
-//   lucide.RussianRuble()
-//   lucide.RussianRuble(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.RussianRuble()
+//	lucide.RussianRuble(lucide.Options{Size: 32, Class: "my-icon"})
 func RussianRuble(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28556,11 +31002,13 @@ func RussianRuble(opts ...Options) template.HTML {
 // Sailboat renders the "sailboat" icon.
 //
 // Usage in templates:
-//   {{ lucide "sailboat" }}
+//
+//	{{ lucide "sailboat" }}
 //
 // Direct usage in Go:
-//   lucide.Sailboat()
-//   lucide.Sailboat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sailboat()
+//	lucide.Sailboat(lucide.Options{Size: 32, Class: "my-icon"})
 func Sailboat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28578,11 +31026,13 @@ func Sailboat(opts ...Options) template.HTML {
 // Salad renders the "salad" icon.
 //
 // Usage in templates:
-//   {{ lucide "salad" }}
+//
+//	{{ lucide "salad" }}
 //
 // Direct usage in Go:
-//   lucide.Salad()
-//   lucide.Salad(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Salad()
+//	lucide.Salad(lucide.Options{Size: 32, Class: "my-icon"})
 func Salad(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28600,11 +31050,13 @@ func Salad(opts ...Options) template.HTML {
 // Sandwich renders the "sandwich" icon.
 //
 // Usage in templates:
-//   {{ lucide "sandwich" }}
+//
+//	{{ lucide "sandwich" }}
 //
 // Direct usage in Go:
-//   lucide.Sandwich()
-//   lucide.Sandwich(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sandwich()
+//	lucide.Sandwich(lucide.Options{Size: 32, Class: "my-icon"})
 func Sandwich(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28622,11 +31074,13 @@ func Sandwich(opts ...Options) template.HTML {
 // Satellite renders the "satellite" icon.
 //
 // Usage in templates:
-//   {{ lucide "satellite" }}
+//
+//	{{ lucide "satellite" }}
 //
 // Direct usage in Go:
-//   lucide.Satellite()
-//   lucide.Satellite(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Satellite()
+//	lucide.Satellite(lucide.Options{Size: 32, Class: "my-icon"})
 func Satellite(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28644,11 +31098,13 @@ func Satellite(opts ...Options) template.HTML {
 // SatelliteDish renders the "satellite-dish" icon.
 //
 // Usage in templates:
-//   {{ lucide "satellite-dish" }}
+//
+//	{{ lucide "satellite-dish" }}
 //
 // Direct usage in Go:
-//   lucide.SatelliteDish()
-//   lucide.SatelliteDish(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SatelliteDish()
+//	lucide.SatelliteDish(lucide.Options{Size: 32, Class: "my-icon"})
 func SatelliteDish(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28666,11 +31122,13 @@ func SatelliteDish(opts ...Options) template.HTML {
 // SaudiRiyal renders the "saudi-riyal" icon.
 //
 // Usage in templates:
-//   {{ lucide "saudi-riyal" }}
+//
+//	{{ lucide "saudi-riyal" }}
 //
 // Direct usage in Go:
-//   lucide.SaudiRiyal()
-//   lucide.SaudiRiyal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SaudiRiyal()
+//	lucide.SaudiRiyal(lucide.Options{Size: 32, Class: "my-icon"})
 func SaudiRiyal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28688,11 +31146,13 @@ func SaudiRiyal(opts ...Options) template.HTML {
 // Save renders the "save" icon.
 //
 // Usage in templates:
-//   {{ lucide "save" }}
+//
+//	{{ lucide "save" }}
 //
 // Direct usage in Go:
-//   lucide.Save()
-//   lucide.Save(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Save()
+//	lucide.Save(lucide.Options{Size: 32, Class: "my-icon"})
 func Save(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28710,11 +31170,13 @@ func Save(opts ...Options) template.HTML {
 // SaveAll renders the "save-all" icon.
 //
 // Usage in templates:
-//   {{ lucide "save-all" }}
+//
+//	{{ lucide "save-all" }}
 //
 // Direct usage in Go:
-//   lucide.SaveAll()
-//   lucide.SaveAll(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SaveAll()
+//	lucide.SaveAll(lucide.Options{Size: 32, Class: "my-icon"})
 func SaveAll(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28732,11 +31194,13 @@ func SaveAll(opts ...Options) template.HTML {
 // SaveOff renders the "save-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "save-off" }}
+//
+//	{{ lucide "save-off" }}
 //
 // Direct usage in Go:
-//   lucide.SaveOff()
-//   lucide.SaveOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SaveOff()
+//	lucide.SaveOff(lucide.Options{Size: 32, Class: "my-icon"})
 func SaveOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28754,11 +31218,13 @@ func SaveOff(opts ...Options) template.HTML {
 // Scale renders the "scale" icon.
 //
 // Usage in templates:
-//   {{ lucide "scale" }}
+//
+//	{{ lucide "scale" }}
 //
 // Direct usage in Go:
-//   lucide.Scale()
-//   lucide.Scale(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Scale()
+//	lucide.Scale(lucide.Options{Size: 32, Class: "my-icon"})
 func Scale(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28776,11 +31242,13 @@ func Scale(opts ...Options) template.HTML {
 // Scale3d renders the "scale-3d" icon.
 //
 // Usage in templates:
-//   {{ lucide "scale-3d" }}
+//
+//	{{ lucide "scale-3d" }}
 //
 // Direct usage in Go:
-//   lucide.Scale3d()
-//   lucide.Scale3d(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Scale3d()
+//	lucide.Scale3d(lucide.Options{Size: 32, Class: "my-icon"})
 func Scale3d(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28798,11 +31266,13 @@ func Scale3d(opts ...Options) template.HTML {
 // Scaling renders the "scaling" icon.
 //
 // Usage in templates:
-//   {{ lucide "scaling" }}
+//
+//	{{ lucide "scaling" }}
 //
 // Direct usage in Go:
-//   lucide.Scaling()
-//   lucide.Scaling(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Scaling()
+//	lucide.Scaling(lucide.Options{Size: 32, Class: "my-icon"})
 func Scaling(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28820,11 +31290,13 @@ func Scaling(opts ...Options) template.HTML {
 // Scan renders the "scan" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan" }}
+//
+//	{{ lucide "scan" }}
 //
 // Direct usage in Go:
-//   lucide.Scan()
-//   lucide.Scan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Scan()
+//	lucide.Scan(lucide.Options{Size: 32, Class: "my-icon"})
 func Scan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28842,11 +31314,13 @@ func Scan(opts ...Options) template.HTML {
 // ScanBarcode renders the "scan-barcode" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-barcode" }}
+//
+//	{{ lucide "scan-barcode" }}
 //
 // Direct usage in Go:
-//   lucide.ScanBarcode()
-//   lucide.ScanBarcode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanBarcode()
+//	lucide.ScanBarcode(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanBarcode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28864,11 +31338,13 @@ func ScanBarcode(opts ...Options) template.HTML {
 // ScanEye renders the "scan-eye" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-eye" }}
+//
+//	{{ lucide "scan-eye" }}
 //
 // Direct usage in Go:
-//   lucide.ScanEye()
-//   lucide.ScanEye(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanEye()
+//	lucide.ScanEye(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanEye(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28886,11 +31362,13 @@ func ScanEye(opts ...Options) template.HTML {
 // ScanFace renders the "scan-face" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-face" }}
+//
+//	{{ lucide "scan-face" }}
 //
 // Direct usage in Go:
-//   lucide.ScanFace()
-//   lucide.ScanFace(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanFace()
+//	lucide.ScanFace(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanFace(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28908,11 +31386,13 @@ func ScanFace(opts ...Options) template.HTML {
 // ScanHeart renders the "scan-heart" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-heart" }}
+//
+//	{{ lucide "scan-heart" }}
 //
 // Direct usage in Go:
-//   lucide.ScanHeart()
-//   lucide.ScanHeart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanHeart()
+//	lucide.ScanHeart(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanHeart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28930,11 +31410,13 @@ func ScanHeart(opts ...Options) template.HTML {
 // ScanLine renders the "scan-line" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-line" }}
+//
+//	{{ lucide "scan-line" }}
 //
 // Direct usage in Go:
-//   lucide.ScanLine()
-//   lucide.ScanLine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanLine()
+//	lucide.ScanLine(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanLine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28952,11 +31434,13 @@ func ScanLine(opts ...Options) template.HTML {
 // ScanQrCode renders the "scan-qr-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-qr-code" }}
+//
+//	{{ lucide "scan-qr-code" }}
 //
 // Direct usage in Go:
-//   lucide.ScanQrCode()
-//   lucide.ScanQrCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanQrCode()
+//	lucide.ScanQrCode(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanQrCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28974,11 +31458,13 @@ func ScanQrCode(opts ...Options) template.HTML {
 // ScanSearch renders the "scan-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-search" }}
+//
+//	{{ lucide "scan-search" }}
 //
 // Direct usage in Go:
-//   lucide.ScanSearch()
-//   lucide.ScanSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanSearch()
+//	lucide.ScanSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -28996,11 +31482,13 @@ func ScanSearch(opts ...Options) template.HTML {
 // ScanText renders the "scan-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "scan-text" }}
+//
+//	{{ lucide "scan-text" }}
 //
 // Direct usage in Go:
-//   lucide.ScanText()
-//   lucide.ScanText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScanText()
+//	lucide.ScanText(lucide.Options{Size: 32, Class: "my-icon"})
 func ScanText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29018,11 +31506,13 @@ func ScanText(opts ...Options) template.HTML {
 // School renders the "school" icon.
 //
 // Usage in templates:
-//   {{ lucide "school" }}
+//
+//	{{ lucide "school" }}
 //
 // Direct usage in Go:
-//   lucide.School()
-//   lucide.School(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.School()
+//	lucide.School(lucide.Options{Size: 32, Class: "my-icon"})
 func School(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29040,11 +31530,13 @@ func School(opts ...Options) template.HTML {
 // Scissors renders the "scissors" icon.
 //
 // Usage in templates:
-//   {{ lucide "scissors" }}
+//
+//	{{ lucide "scissors" }}
 //
 // Direct usage in Go:
-//   lucide.Scissors()
-//   lucide.Scissors(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Scissors()
+//	lucide.Scissors(lucide.Options{Size: 32, Class: "my-icon"})
 func Scissors(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29062,11 +31554,13 @@ func Scissors(opts ...Options) template.HTML {
 // ScissorsLineDashed renders the "scissors-line-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "scissors-line-dashed" }}
+//
+//	{{ lucide "scissors-line-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.ScissorsLineDashed()
-//   lucide.ScissorsLineDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScissorsLineDashed()
+//	lucide.ScissorsLineDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func ScissorsLineDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29084,11 +31578,13 @@ func ScissorsLineDashed(opts ...Options) template.HTML {
 // ScreenShare renders the "screen-share" icon.
 //
 // Usage in templates:
-//   {{ lucide "screen-share" }}
+//
+//	{{ lucide "screen-share" }}
 //
 // Direct usage in Go:
-//   lucide.ScreenShare()
-//   lucide.ScreenShare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScreenShare()
+//	lucide.ScreenShare(lucide.Options{Size: 32, Class: "my-icon"})
 func ScreenShare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29106,11 +31602,13 @@ func ScreenShare(opts ...Options) template.HTML {
 // ScreenShareOff renders the "screen-share-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "screen-share-off" }}
+//
+//	{{ lucide "screen-share-off" }}
 //
 // Direct usage in Go:
-//   lucide.ScreenShareOff()
-//   lucide.ScreenShareOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScreenShareOff()
+//	lucide.ScreenShareOff(lucide.Options{Size: 32, Class: "my-icon"})
 func ScreenShareOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29128,11 +31626,13 @@ func ScreenShareOff(opts ...Options) template.HTML {
 // Scroll renders the "scroll" icon.
 //
 // Usage in templates:
-//   {{ lucide "scroll" }}
+//
+//	{{ lucide "scroll" }}
 //
 // Direct usage in Go:
-//   lucide.Scroll()
-//   lucide.Scroll(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Scroll()
+//	lucide.Scroll(lucide.Options{Size: 32, Class: "my-icon"})
 func Scroll(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29150,11 +31650,13 @@ func Scroll(opts ...Options) template.HTML {
 // ScrollText renders the "scroll-text" icon.
 //
 // Usage in templates:
-//   {{ lucide "scroll-text" }}
+//
+//	{{ lucide "scroll-text" }}
 //
 // Direct usage in Go:
-//   lucide.ScrollText()
-//   lucide.ScrollText(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ScrollText()
+//	lucide.ScrollText(lucide.Options{Size: 32, Class: "my-icon"})
 func ScrollText(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29172,11 +31674,13 @@ func ScrollText(opts ...Options) template.HTML {
 // Search renders the "search" icon.
 //
 // Usage in templates:
-//   {{ lucide "search" }}
+//
+//	{{ lucide "search" }}
 //
 // Direct usage in Go:
-//   lucide.Search()
-//   lucide.Search(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Search()
+//	lucide.Search(lucide.Options{Size: 32, Class: "my-icon"})
 func Search(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29194,11 +31698,13 @@ func Search(opts ...Options) template.HTML {
 // SearchCheck renders the "search-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "search-check" }}
+//
+//	{{ lucide "search-check" }}
 //
 // Direct usage in Go:
-//   lucide.SearchCheck()
-//   lucide.SearchCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SearchCheck()
+//	lucide.SearchCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func SearchCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29216,11 +31722,13 @@ func SearchCheck(opts ...Options) template.HTML {
 // SearchCode renders the "search-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "search-code" }}
+//
+//	{{ lucide "search-code" }}
 //
 // Direct usage in Go:
-//   lucide.SearchCode()
-//   lucide.SearchCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SearchCode()
+//	lucide.SearchCode(lucide.Options{Size: 32, Class: "my-icon"})
 func SearchCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29238,11 +31746,13 @@ func SearchCode(opts ...Options) template.HTML {
 // SearchSlash renders the "search-slash" icon.
 //
 // Usage in templates:
-//   {{ lucide "search-slash" }}
+//
+//	{{ lucide "search-slash" }}
 //
 // Direct usage in Go:
-//   lucide.SearchSlash()
-//   lucide.SearchSlash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SearchSlash()
+//	lucide.SearchSlash(lucide.Options{Size: 32, Class: "my-icon"})
 func SearchSlash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29260,11 +31770,13 @@ func SearchSlash(opts ...Options) template.HTML {
 // SearchX renders the "search-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "search-x" }}
+//
+//	{{ lucide "search-x" }}
 //
 // Direct usage in Go:
-//   lucide.SearchX()
-//   lucide.SearchX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SearchX()
+//	lucide.SearchX(lucide.Options{Size: 32, Class: "my-icon"})
 func SearchX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29282,11 +31794,13 @@ func SearchX(opts ...Options) template.HTML {
 // Section renders the "section" icon.
 //
 // Usage in templates:
-//   {{ lucide "section" }}
+//
+//	{{ lucide "section" }}
 //
 // Direct usage in Go:
-//   lucide.Section()
-//   lucide.Section(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Section()
+//	lucide.Section(lucide.Options{Size: 32, Class: "my-icon"})
 func Section(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29304,11 +31818,13 @@ func Section(opts ...Options) template.HTML {
 // Send renders the "send" icon.
 //
 // Usage in templates:
-//   {{ lucide "send" }}
+//
+//	{{ lucide "send" }}
 //
 // Direct usage in Go:
-//   lucide.Send()
-//   lucide.Send(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Send()
+//	lucide.Send(lucide.Options{Size: 32, Class: "my-icon"})
 func Send(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29326,11 +31842,13 @@ func Send(opts ...Options) template.HTML {
 // SendHorizontal renders the "send-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "send-horizontal" }}
+//
+//	{{ lucide "send-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.SendHorizontal()
-//   lucide.SendHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SendHorizontal()
+//	lucide.SendHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func SendHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29348,11 +31866,13 @@ func SendHorizontal(opts ...Options) template.HTML {
 // SendToBack renders the "send-to-back" icon.
 //
 // Usage in templates:
-//   {{ lucide "send-to-back" }}
+//
+//	{{ lucide "send-to-back" }}
 //
 // Direct usage in Go:
-//   lucide.SendToBack()
-//   lucide.SendToBack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SendToBack()
+//	lucide.SendToBack(lucide.Options{Size: 32, Class: "my-icon"})
 func SendToBack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29370,11 +31890,13 @@ func SendToBack(opts ...Options) template.HTML {
 // SeparatorHorizontal renders the "separator-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "separator-horizontal" }}
+//
+//	{{ lucide "separator-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.SeparatorHorizontal()
-//   lucide.SeparatorHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SeparatorHorizontal()
+//	lucide.SeparatorHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func SeparatorHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29392,11 +31914,13 @@ func SeparatorHorizontal(opts ...Options) template.HTML {
 // SeparatorVertical renders the "separator-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "separator-vertical" }}
+//
+//	{{ lucide "separator-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.SeparatorVertical()
-//   lucide.SeparatorVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SeparatorVertical()
+//	lucide.SeparatorVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func SeparatorVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29414,11 +31938,13 @@ func SeparatorVertical(opts ...Options) template.HTML {
 // Server renders the "server" icon.
 //
 // Usage in templates:
-//   {{ lucide "server" }}
+//
+//	{{ lucide "server" }}
 //
 // Direct usage in Go:
-//   lucide.Server()
-//   lucide.Server(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Server()
+//	lucide.Server(lucide.Options{Size: 32, Class: "my-icon"})
 func Server(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29436,11 +31962,13 @@ func Server(opts ...Options) template.HTML {
 // ServerCog renders the "server-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "server-cog" }}
+//
+//	{{ lucide "server-cog" }}
 //
 // Direct usage in Go:
-//   lucide.ServerCog()
-//   lucide.ServerCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ServerCog()
+//	lucide.ServerCog(lucide.Options{Size: 32, Class: "my-icon"})
 func ServerCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29458,11 +31986,13 @@ func ServerCog(opts ...Options) template.HTML {
 // ServerCrash renders the "server-crash" icon.
 //
 // Usage in templates:
-//   {{ lucide "server-crash" }}
+//
+//	{{ lucide "server-crash" }}
 //
 // Direct usage in Go:
-//   lucide.ServerCrash()
-//   lucide.ServerCrash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ServerCrash()
+//	lucide.ServerCrash(lucide.Options{Size: 32, Class: "my-icon"})
 func ServerCrash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29480,11 +32010,13 @@ func ServerCrash(opts ...Options) template.HTML {
 // ServerOff renders the "server-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "server-off" }}
+//
+//	{{ lucide "server-off" }}
 //
 // Direct usage in Go:
-//   lucide.ServerOff()
-//   lucide.ServerOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ServerOff()
+//	lucide.ServerOff(lucide.Options{Size: 32, Class: "my-icon"})
 func ServerOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29502,11 +32034,13 @@ func ServerOff(opts ...Options) template.HTML {
 // Settings renders the "settings" icon.
 //
 // Usage in templates:
-//   {{ lucide "settings" }}
+//
+//	{{ lucide "settings" }}
 //
 // Direct usage in Go:
-//   lucide.Settings()
-//   lucide.Settings(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Settings()
+//	lucide.Settings(lucide.Options{Size: 32, Class: "my-icon"})
 func Settings(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29524,11 +32058,13 @@ func Settings(opts ...Options) template.HTML {
 // Settings2 renders the "settings-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "settings-2" }}
+//
+//	{{ lucide "settings-2" }}
 //
 // Direct usage in Go:
-//   lucide.Settings2()
-//   lucide.Settings2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Settings2()
+//	lucide.Settings2(lucide.Options{Size: 32, Class: "my-icon"})
 func Settings2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29546,11 +32082,13 @@ func Settings2(opts ...Options) template.HTML {
 // Shapes renders the "shapes" icon.
 //
 // Usage in templates:
-//   {{ lucide "shapes" }}
+//
+//	{{ lucide "shapes" }}
 //
 // Direct usage in Go:
-//   lucide.Shapes()
-//   lucide.Shapes(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shapes()
+//	lucide.Shapes(lucide.Options{Size: 32, Class: "my-icon"})
 func Shapes(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29568,11 +32106,13 @@ func Shapes(opts ...Options) template.HTML {
 // Share renders the "share" icon.
 //
 // Usage in templates:
-//   {{ lucide "share" }}
+//
+//	{{ lucide "share" }}
 //
 // Direct usage in Go:
-//   lucide.Share()
-//   lucide.Share(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Share()
+//	lucide.Share(lucide.Options{Size: 32, Class: "my-icon"})
 func Share(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29590,11 +32130,13 @@ func Share(opts ...Options) template.HTML {
 // Share2 renders the "share-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "share-2" }}
+//
+//	{{ lucide "share-2" }}
 //
 // Direct usage in Go:
-//   lucide.Share2()
-//   lucide.Share2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Share2()
+//	lucide.Share2(lucide.Options{Size: 32, Class: "my-icon"})
 func Share2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29612,11 +32154,13 @@ func Share2(opts ...Options) template.HTML {
 // Sheet renders the "sheet" icon.
 //
 // Usage in templates:
-//   {{ lucide "sheet" }}
+//
+//	{{ lucide "sheet" }}
 //
 // Direct usage in Go:
-//   lucide.Sheet()
-//   lucide.Sheet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sheet()
+//	lucide.Sheet(lucide.Options{Size: 32, Class: "my-icon"})
 func Sheet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29634,11 +32178,13 @@ func Sheet(opts ...Options) template.HTML {
 // Shell renders the "shell" icon.
 //
 // Usage in templates:
-//   {{ lucide "shell" }}
+//
+//	{{ lucide "shell" }}
 //
 // Direct usage in Go:
-//   lucide.Shell()
-//   lucide.Shell(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shell()
+//	lucide.Shell(lucide.Options{Size: 32, Class: "my-icon"})
 func Shell(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29656,11 +32202,13 @@ func Shell(opts ...Options) template.HTML {
 // Shield renders the "shield" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield" }}
+//
+//	{{ lucide "shield" }}
 //
 // Direct usage in Go:
-//   lucide.Shield()
-//   lucide.Shield(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shield()
+//	lucide.Shield(lucide.Options{Size: 32, Class: "my-icon"})
 func Shield(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29678,11 +32226,13 @@ func Shield(opts ...Options) template.HTML {
 // ShieldAlert renders the "shield-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-alert" }}
+//
+//	{{ lucide "shield-alert" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldAlert()
-//   lucide.ShieldAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldAlert()
+//	lucide.ShieldAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29700,11 +32250,13 @@ func ShieldAlert(opts ...Options) template.HTML {
 // ShieldBan renders the "shield-ban" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-ban" }}
+//
+//	{{ lucide "shield-ban" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldBan()
-//   lucide.ShieldBan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldBan()
+//	lucide.ShieldBan(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldBan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29722,11 +32274,13 @@ func ShieldBan(opts ...Options) template.HTML {
 // ShieldCheck renders the "shield-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-check" }}
+//
+//	{{ lucide "shield-check" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldCheck()
-//   lucide.ShieldCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldCheck()
+//	lucide.ShieldCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29744,11 +32298,13 @@ func ShieldCheck(opts ...Options) template.HTML {
 // ShieldEllipsis renders the "shield-ellipsis" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-ellipsis" }}
+//
+//	{{ lucide "shield-ellipsis" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldEllipsis()
-//   lucide.ShieldEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldEllipsis()
+//	lucide.ShieldEllipsis(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldEllipsis(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29766,11 +32322,13 @@ func ShieldEllipsis(opts ...Options) template.HTML {
 // ShieldHalf renders the "shield-half" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-half" }}
+//
+//	{{ lucide "shield-half" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldHalf()
-//   lucide.ShieldHalf(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldHalf()
+//	lucide.ShieldHalf(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldHalf(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29788,11 +32346,13 @@ func ShieldHalf(opts ...Options) template.HTML {
 // ShieldMinus renders the "shield-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-minus" }}
+//
+//	{{ lucide "shield-minus" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldMinus()
-//   lucide.ShieldMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldMinus()
+//	lucide.ShieldMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29810,11 +32370,13 @@ func ShieldMinus(opts ...Options) template.HTML {
 // ShieldOff renders the "shield-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-off" }}
+//
+//	{{ lucide "shield-off" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldOff()
-//   lucide.ShieldOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldOff()
+//	lucide.ShieldOff(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29832,11 +32394,13 @@ func ShieldOff(opts ...Options) template.HTML {
 // ShieldPlus renders the "shield-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-plus" }}
+//
+//	{{ lucide "shield-plus" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldPlus()
-//   lucide.ShieldPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldPlus()
+//	lucide.ShieldPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29854,11 +32418,13 @@ func ShieldPlus(opts ...Options) template.HTML {
 // ShieldQuestionMark renders the "shield-question-mark" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-question-mark" }}
+//
+//	{{ lucide "shield-question-mark" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldQuestionMark()
-//   lucide.ShieldQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldQuestionMark()
+//	lucide.ShieldQuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldQuestionMark(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29876,11 +32442,13 @@ func ShieldQuestionMark(opts ...Options) template.HTML {
 // ShieldUser renders the "shield-user" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-user" }}
+//
+//	{{ lucide "shield-user" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldUser()
-//   lucide.ShieldUser(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldUser()
+//	lucide.ShieldUser(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldUser(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29898,11 +32466,13 @@ func ShieldUser(opts ...Options) template.HTML {
 // ShieldX renders the "shield-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "shield-x" }}
+//
+//	{{ lucide "shield-x" }}
 //
 // Direct usage in Go:
-//   lucide.ShieldX()
-//   lucide.ShieldX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShieldX()
+//	lucide.ShieldX(lucide.Options{Size: 32, Class: "my-icon"})
 func ShieldX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29920,11 +32490,13 @@ func ShieldX(opts ...Options) template.HTML {
 // Ship renders the "ship" icon.
 //
 // Usage in templates:
-//   {{ lucide "ship" }}
+//
+//	{{ lucide "ship" }}
 //
 // Direct usage in Go:
-//   lucide.Ship()
-//   lucide.Ship(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ship()
+//	lucide.Ship(lucide.Options{Size: 32, Class: "my-icon"})
 func Ship(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29942,11 +32514,13 @@ func Ship(opts ...Options) template.HTML {
 // ShipWheel renders the "ship-wheel" icon.
 //
 // Usage in templates:
-//   {{ lucide "ship-wheel" }}
+//
+//	{{ lucide "ship-wheel" }}
 //
 // Direct usage in Go:
-//   lucide.ShipWheel()
-//   lucide.ShipWheel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShipWheel()
+//	lucide.ShipWheel(lucide.Options{Size: 32, Class: "my-icon"})
 func ShipWheel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29964,11 +32538,13 @@ func ShipWheel(opts ...Options) template.HTML {
 // Shirt renders the "shirt" icon.
 //
 // Usage in templates:
-//   {{ lucide "shirt" }}
+//
+//	{{ lucide "shirt" }}
 //
 // Direct usage in Go:
-//   lucide.Shirt()
-//   lucide.Shirt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shirt()
+//	lucide.Shirt(lucide.Options{Size: 32, Class: "my-icon"})
 func Shirt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -29986,11 +32562,13 @@ func Shirt(opts ...Options) template.HTML {
 // ShoppingBag renders the "shopping-bag" icon.
 //
 // Usage in templates:
-//   {{ lucide "shopping-bag" }}
+//
+//	{{ lucide "shopping-bag" }}
 //
 // Direct usage in Go:
-//   lucide.ShoppingBag()
-//   lucide.ShoppingBag(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShoppingBag()
+//	lucide.ShoppingBag(lucide.Options{Size: 32, Class: "my-icon"})
 func ShoppingBag(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30008,11 +32586,13 @@ func ShoppingBag(opts ...Options) template.HTML {
 // ShoppingBasket renders the "shopping-basket" icon.
 //
 // Usage in templates:
-//   {{ lucide "shopping-basket" }}
+//
+//	{{ lucide "shopping-basket" }}
 //
 // Direct usage in Go:
-//   lucide.ShoppingBasket()
-//   lucide.ShoppingBasket(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShoppingBasket()
+//	lucide.ShoppingBasket(lucide.Options{Size: 32, Class: "my-icon"})
 func ShoppingBasket(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30030,11 +32610,13 @@ func ShoppingBasket(opts ...Options) template.HTML {
 // ShoppingCart renders the "shopping-cart" icon.
 //
 // Usage in templates:
-//   {{ lucide "shopping-cart" }}
+//
+//	{{ lucide "shopping-cart" }}
 //
 // Direct usage in Go:
-//   lucide.ShoppingCart()
-//   lucide.ShoppingCart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShoppingCart()
+//	lucide.ShoppingCart(lucide.Options{Size: 32, Class: "my-icon"})
 func ShoppingCart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30052,11 +32634,13 @@ func ShoppingCart(opts ...Options) template.HTML {
 // Shovel renders the "shovel" icon.
 //
 // Usage in templates:
-//   {{ lucide "shovel" }}
+//
+//	{{ lucide "shovel" }}
 //
 // Direct usage in Go:
-//   lucide.Shovel()
-//   lucide.Shovel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shovel()
+//	lucide.Shovel(lucide.Options{Size: 32, Class: "my-icon"})
 func Shovel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30074,11 +32658,13 @@ func Shovel(opts ...Options) template.HTML {
 // ShowerHead renders the "shower-head" icon.
 //
 // Usage in templates:
-//   {{ lucide "shower-head" }}
+//
+//	{{ lucide "shower-head" }}
 //
 // Direct usage in Go:
-//   lucide.ShowerHead()
-//   lucide.ShowerHead(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ShowerHead()
+//	lucide.ShowerHead(lucide.Options{Size: 32, Class: "my-icon"})
 func ShowerHead(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30096,11 +32682,13 @@ func ShowerHead(opts ...Options) template.HTML {
 // Shredder renders the "shredder" icon.
 //
 // Usage in templates:
-//   {{ lucide "shredder" }}
+//
+//	{{ lucide "shredder" }}
 //
 // Direct usage in Go:
-//   lucide.Shredder()
-//   lucide.Shredder(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shredder()
+//	lucide.Shredder(lucide.Options{Size: 32, Class: "my-icon"})
 func Shredder(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30118,11 +32706,13 @@ func Shredder(opts ...Options) template.HTML {
 // Shrimp renders the "shrimp" icon.
 //
 // Usage in templates:
-//   {{ lucide "shrimp" }}
+//
+//	{{ lucide "shrimp" }}
 //
 // Direct usage in Go:
-//   lucide.Shrimp()
-//   lucide.Shrimp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shrimp()
+//	lucide.Shrimp(lucide.Options{Size: 32, Class: "my-icon"})
 func Shrimp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30140,11 +32730,13 @@ func Shrimp(opts ...Options) template.HTML {
 // Shrink renders the "shrink" icon.
 //
 // Usage in templates:
-//   {{ lucide "shrink" }}
+//
+//	{{ lucide "shrink" }}
 //
 // Direct usage in Go:
-//   lucide.Shrink()
-//   lucide.Shrink(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shrink()
+//	lucide.Shrink(lucide.Options{Size: 32, Class: "my-icon"})
 func Shrink(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30162,11 +32754,13 @@ func Shrink(opts ...Options) template.HTML {
 // Shrub renders the "shrub" icon.
 //
 // Usage in templates:
-//   {{ lucide "shrub" }}
+//
+//	{{ lucide "shrub" }}
 //
 // Direct usage in Go:
-//   lucide.Shrub()
-//   lucide.Shrub(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shrub()
+//	lucide.Shrub(lucide.Options{Size: 32, Class: "my-icon"})
 func Shrub(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30184,11 +32778,13 @@ func Shrub(opts ...Options) template.HTML {
 // Shuffle renders the "shuffle" icon.
 //
 // Usage in templates:
-//   {{ lucide "shuffle" }}
+//
+//	{{ lucide "shuffle" }}
 //
 // Direct usage in Go:
-//   lucide.Shuffle()
-//   lucide.Shuffle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Shuffle()
+//	lucide.Shuffle(lucide.Options{Size: 32, Class: "my-icon"})
 func Shuffle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30206,11 +32802,13 @@ func Shuffle(opts ...Options) template.HTML {
 // Sigma renders the "sigma" icon.
 //
 // Usage in templates:
-//   {{ lucide "sigma" }}
+//
+//	{{ lucide "sigma" }}
 //
 // Direct usage in Go:
-//   lucide.Sigma()
-//   lucide.Sigma(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sigma()
+//	lucide.Sigma(lucide.Options{Size: 32, Class: "my-icon"})
 func Sigma(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30228,11 +32826,13 @@ func Sigma(opts ...Options) template.HTML {
 // Signal renders the "signal" icon.
 //
 // Usage in templates:
-//   {{ lucide "signal" }}
+//
+//	{{ lucide "signal" }}
 //
 // Direct usage in Go:
-//   lucide.Signal()
-//   lucide.Signal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Signal()
+//	lucide.Signal(lucide.Options{Size: 32, Class: "my-icon"})
 func Signal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30250,11 +32850,13 @@ func Signal(opts ...Options) template.HTML {
 // SignalHigh renders the "signal-high" icon.
 //
 // Usage in templates:
-//   {{ lucide "signal-high" }}
+//
+//	{{ lucide "signal-high" }}
 //
 // Direct usage in Go:
-//   lucide.SignalHigh()
-//   lucide.SignalHigh(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SignalHigh()
+//	lucide.SignalHigh(lucide.Options{Size: 32, Class: "my-icon"})
 func SignalHigh(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30272,11 +32874,13 @@ func SignalHigh(opts ...Options) template.HTML {
 // SignalLow renders the "signal-low" icon.
 //
 // Usage in templates:
-//   {{ lucide "signal-low" }}
+//
+//	{{ lucide "signal-low" }}
 //
 // Direct usage in Go:
-//   lucide.SignalLow()
-//   lucide.SignalLow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SignalLow()
+//	lucide.SignalLow(lucide.Options{Size: 32, Class: "my-icon"})
 func SignalLow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30294,11 +32898,13 @@ func SignalLow(opts ...Options) template.HTML {
 // SignalMedium renders the "signal-medium" icon.
 //
 // Usage in templates:
-//   {{ lucide "signal-medium" }}
+//
+//	{{ lucide "signal-medium" }}
 //
 // Direct usage in Go:
-//   lucide.SignalMedium()
-//   lucide.SignalMedium(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SignalMedium()
+//	lucide.SignalMedium(lucide.Options{Size: 32, Class: "my-icon"})
 func SignalMedium(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30316,11 +32922,13 @@ func SignalMedium(opts ...Options) template.HTML {
 // SignalZero renders the "signal-zero" icon.
 //
 // Usage in templates:
-//   {{ lucide "signal-zero" }}
+//
+//	{{ lucide "signal-zero" }}
 //
 // Direct usage in Go:
-//   lucide.SignalZero()
-//   lucide.SignalZero(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SignalZero()
+//	lucide.SignalZero(lucide.Options{Size: 32, Class: "my-icon"})
 func SignalZero(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30338,11 +32946,13 @@ func SignalZero(opts ...Options) template.HTML {
 // Signature renders the "signature" icon.
 //
 // Usage in templates:
-//   {{ lucide "signature" }}
+//
+//	{{ lucide "signature" }}
 //
 // Direct usage in Go:
-//   lucide.Signature()
-//   lucide.Signature(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Signature()
+//	lucide.Signature(lucide.Options{Size: 32, Class: "my-icon"})
 func Signature(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30360,11 +32970,13 @@ func Signature(opts ...Options) template.HTML {
 // Signpost renders the "signpost" icon.
 //
 // Usage in templates:
-//   {{ lucide "signpost" }}
+//
+//	{{ lucide "signpost" }}
 //
 // Direct usage in Go:
-//   lucide.Signpost()
-//   lucide.Signpost(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Signpost()
+//	lucide.Signpost(lucide.Options{Size: 32, Class: "my-icon"})
 func Signpost(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30382,11 +32994,13 @@ func Signpost(opts ...Options) template.HTML {
 // SignpostBig renders the "signpost-big" icon.
 //
 // Usage in templates:
-//   {{ lucide "signpost-big" }}
+//
+//	{{ lucide "signpost-big" }}
 //
 // Direct usage in Go:
-//   lucide.SignpostBig()
-//   lucide.SignpostBig(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SignpostBig()
+//	lucide.SignpostBig(lucide.Options{Size: 32, Class: "my-icon"})
 func SignpostBig(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30404,11 +33018,13 @@ func SignpostBig(opts ...Options) template.HTML {
 // Siren renders the "siren" icon.
 //
 // Usage in templates:
-//   {{ lucide "siren" }}
+//
+//	{{ lucide "siren" }}
 //
 // Direct usage in Go:
-//   lucide.Siren()
-//   lucide.Siren(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Siren()
+//	lucide.Siren(lucide.Options{Size: 32, Class: "my-icon"})
 func Siren(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30426,11 +33042,13 @@ func Siren(opts ...Options) template.HTML {
 // SkipBack renders the "skip-back" icon.
 //
 // Usage in templates:
-//   {{ lucide "skip-back" }}
+//
+//	{{ lucide "skip-back" }}
 //
 // Direct usage in Go:
-//   lucide.SkipBack()
-//   lucide.SkipBack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SkipBack()
+//	lucide.SkipBack(lucide.Options{Size: 32, Class: "my-icon"})
 func SkipBack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30448,11 +33066,13 @@ func SkipBack(opts ...Options) template.HTML {
 // SkipForward renders the "skip-forward" icon.
 //
 // Usage in templates:
-//   {{ lucide "skip-forward" }}
+//
+//	{{ lucide "skip-forward" }}
 //
 // Direct usage in Go:
-//   lucide.SkipForward()
-//   lucide.SkipForward(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SkipForward()
+//	lucide.SkipForward(lucide.Options{Size: 32, Class: "my-icon"})
 func SkipForward(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30470,11 +33090,13 @@ func SkipForward(opts ...Options) template.HTML {
 // Skull renders the "skull" icon.
 //
 // Usage in templates:
-//   {{ lucide "skull" }}
+//
+//	{{ lucide "skull" }}
 //
 // Direct usage in Go:
-//   lucide.Skull()
-//   lucide.Skull(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Skull()
+//	lucide.Skull(lucide.Options{Size: 32, Class: "my-icon"})
 func Skull(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30492,11 +33114,13 @@ func Skull(opts ...Options) template.HTML {
 // Slack renders the "slack" icon.
 //
 // Usage in templates:
-//   {{ lucide "slack" }}
+//
+//	{{ lucide "slack" }}
 //
 // Direct usage in Go:
-//   lucide.Slack()
-//   lucide.Slack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Slack()
+//	lucide.Slack(lucide.Options{Size: 32, Class: "my-icon"})
 func Slack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30514,11 +33138,13 @@ func Slack(opts ...Options) template.HTML {
 // Slash renders the "slash" icon.
 //
 // Usage in templates:
-//   {{ lucide "slash" }}
+//
+//	{{ lucide "slash" }}
 //
 // Direct usage in Go:
-//   lucide.Slash()
-//   lucide.Slash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Slash()
+//	lucide.Slash(lucide.Options{Size: 32, Class: "my-icon"})
 func Slash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30536,11 +33162,13 @@ func Slash(opts ...Options) template.HTML {
 // Slice renders the "slice" icon.
 //
 // Usage in templates:
-//   {{ lucide "slice" }}
+//
+//	{{ lucide "slice" }}
 //
 // Direct usage in Go:
-//   lucide.Slice()
-//   lucide.Slice(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Slice()
+//	lucide.Slice(lucide.Options{Size: 32, Class: "my-icon"})
 func Slice(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30558,11 +33186,13 @@ func Slice(opts ...Options) template.HTML {
 // SlidersHorizontal renders the "sliders-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "sliders-horizontal" }}
+//
+//	{{ lucide "sliders-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.SlidersHorizontal()
-//   lucide.SlidersHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SlidersHorizontal()
+//	lucide.SlidersHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func SlidersHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30580,11 +33210,13 @@ func SlidersHorizontal(opts ...Options) template.HTML {
 // SlidersVertical renders the "sliders-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "sliders-vertical" }}
+//
+//	{{ lucide "sliders-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.SlidersVertical()
-//   lucide.SlidersVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SlidersVertical()
+//	lucide.SlidersVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func SlidersVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30602,11 +33234,13 @@ func SlidersVertical(opts ...Options) template.HTML {
 // Smartphone renders the "smartphone" icon.
 //
 // Usage in templates:
-//   {{ lucide "smartphone" }}
+//
+//	{{ lucide "smartphone" }}
 //
 // Direct usage in Go:
-//   lucide.Smartphone()
-//   lucide.Smartphone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Smartphone()
+//	lucide.Smartphone(lucide.Options{Size: 32, Class: "my-icon"})
 func Smartphone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30624,11 +33258,13 @@ func Smartphone(opts ...Options) template.HTML {
 // SmartphoneCharging renders the "smartphone-charging" icon.
 //
 // Usage in templates:
-//   {{ lucide "smartphone-charging" }}
+//
+//	{{ lucide "smartphone-charging" }}
 //
 // Direct usage in Go:
-//   lucide.SmartphoneCharging()
-//   lucide.SmartphoneCharging(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SmartphoneCharging()
+//	lucide.SmartphoneCharging(lucide.Options{Size: 32, Class: "my-icon"})
 func SmartphoneCharging(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30646,11 +33282,13 @@ func SmartphoneCharging(opts ...Options) template.HTML {
 // SmartphoneNfc renders the "smartphone-nfc" icon.
 //
 // Usage in templates:
-//   {{ lucide "smartphone-nfc" }}
+//
+//	{{ lucide "smartphone-nfc" }}
 //
 // Direct usage in Go:
-//   lucide.SmartphoneNfc()
-//   lucide.SmartphoneNfc(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SmartphoneNfc()
+//	lucide.SmartphoneNfc(lucide.Options{Size: 32, Class: "my-icon"})
 func SmartphoneNfc(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30668,11 +33306,13 @@ func SmartphoneNfc(opts ...Options) template.HTML {
 // Smile renders the "smile" icon.
 //
 // Usage in templates:
-//   {{ lucide "smile" }}
+//
+//	{{ lucide "smile" }}
 //
 // Direct usage in Go:
-//   lucide.Smile()
-//   lucide.Smile(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Smile()
+//	lucide.Smile(lucide.Options{Size: 32, Class: "my-icon"})
 func Smile(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30690,11 +33330,13 @@ func Smile(opts ...Options) template.HTML {
 // SmilePlus renders the "smile-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "smile-plus" }}
+//
+//	{{ lucide "smile-plus" }}
 //
 // Direct usage in Go:
-//   lucide.SmilePlus()
-//   lucide.SmilePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SmilePlus()
+//	lucide.SmilePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func SmilePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30712,11 +33354,13 @@ func SmilePlus(opts ...Options) template.HTML {
 // Snail renders the "snail" icon.
 //
 // Usage in templates:
-//   {{ lucide "snail" }}
+//
+//	{{ lucide "snail" }}
 //
 // Direct usage in Go:
-//   lucide.Snail()
-//   lucide.Snail(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Snail()
+//	lucide.Snail(lucide.Options{Size: 32, Class: "my-icon"})
 func Snail(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30734,11 +33378,13 @@ func Snail(opts ...Options) template.HTML {
 // Snowflake renders the "snowflake" icon.
 //
 // Usage in templates:
-//   {{ lucide "snowflake" }}
+//
+//	{{ lucide "snowflake" }}
 //
 // Direct usage in Go:
-//   lucide.Snowflake()
-//   lucide.Snowflake(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Snowflake()
+//	lucide.Snowflake(lucide.Options{Size: 32, Class: "my-icon"})
 func Snowflake(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30756,11 +33402,13 @@ func Snowflake(opts ...Options) template.HTML {
 // SoapDispenserDroplet renders the "soap-dispenser-droplet" icon.
 //
 // Usage in templates:
-//   {{ lucide "soap-dispenser-droplet" }}
+//
+//	{{ lucide "soap-dispenser-droplet" }}
 //
 // Direct usage in Go:
-//   lucide.SoapDispenserDroplet()
-//   lucide.SoapDispenserDroplet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SoapDispenserDroplet()
+//	lucide.SoapDispenserDroplet(lucide.Options{Size: 32, Class: "my-icon"})
 func SoapDispenserDroplet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30778,11 +33426,13 @@ func SoapDispenserDroplet(opts ...Options) template.HTML {
 // Sofa renders the "sofa" icon.
 //
 // Usage in templates:
-//   {{ lucide "sofa" }}
+//
+//	{{ lucide "sofa" }}
 //
 // Direct usage in Go:
-//   lucide.Sofa()
-//   lucide.Sofa(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sofa()
+//	lucide.Sofa(lucide.Options{Size: 32, Class: "my-icon"})
 func Sofa(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30800,11 +33450,13 @@ func Sofa(opts ...Options) template.HTML {
 // Soup renders the "soup" icon.
 //
 // Usage in templates:
-//   {{ lucide "soup" }}
+//
+//	{{ lucide "soup" }}
 //
 // Direct usage in Go:
-//   lucide.Soup()
-//   lucide.Soup(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Soup()
+//	lucide.Soup(lucide.Options{Size: 32, Class: "my-icon"})
 func Soup(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30822,11 +33474,13 @@ func Soup(opts ...Options) template.HTML {
 // Space renders the "space" icon.
 //
 // Usage in templates:
-//   {{ lucide "space" }}
+//
+//	{{ lucide "space" }}
 //
 // Direct usage in Go:
-//   lucide.Space()
-//   lucide.Space(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Space()
+//	lucide.Space(lucide.Options{Size: 32, Class: "my-icon"})
 func Space(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30844,11 +33498,13 @@ func Space(opts ...Options) template.HTML {
 // Spade renders the "spade" icon.
 //
 // Usage in templates:
-//   {{ lucide "spade" }}
+//
+//	{{ lucide "spade" }}
 //
 // Direct usage in Go:
-//   lucide.Spade()
-//   lucide.Spade(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Spade()
+//	lucide.Spade(lucide.Options{Size: 32, Class: "my-icon"})
 func Spade(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30866,11 +33522,13 @@ func Spade(opts ...Options) template.HTML {
 // Sparkle renders the "sparkle" icon.
 //
 // Usage in templates:
-//   {{ lucide "sparkle" }}
+//
+//	{{ lucide "sparkle" }}
 //
 // Direct usage in Go:
-//   lucide.Sparkle()
-//   lucide.Sparkle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sparkle()
+//	lucide.Sparkle(lucide.Options{Size: 32, Class: "my-icon"})
 func Sparkle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30888,11 +33546,13 @@ func Sparkle(opts ...Options) template.HTML {
 // Sparkles renders the "sparkles" icon.
 //
 // Usage in templates:
-//   {{ lucide "sparkles" }}
+//
+//	{{ lucide "sparkles" }}
 //
 // Direct usage in Go:
-//   lucide.Sparkles()
-//   lucide.Sparkles(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sparkles()
+//	lucide.Sparkles(lucide.Options{Size: 32, Class: "my-icon"})
 func Sparkles(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30910,11 +33570,13 @@ func Sparkles(opts ...Options) template.HTML {
 // Speaker renders the "speaker" icon.
 //
 // Usage in templates:
-//   {{ lucide "speaker" }}
+//
+//	{{ lucide "speaker" }}
 //
 // Direct usage in Go:
-//   lucide.Speaker()
-//   lucide.Speaker(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Speaker()
+//	lucide.Speaker(lucide.Options{Size: 32, Class: "my-icon"})
 func Speaker(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30932,11 +33594,13 @@ func Speaker(opts ...Options) template.HTML {
 // Speech renders the "speech" icon.
 //
 // Usage in templates:
-//   {{ lucide "speech" }}
+//
+//	{{ lucide "speech" }}
 //
 // Direct usage in Go:
-//   lucide.Speech()
-//   lucide.Speech(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Speech()
+//	lucide.Speech(lucide.Options{Size: 32, Class: "my-icon"})
 func Speech(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30954,11 +33618,13 @@ func Speech(opts ...Options) template.HTML {
 // SpellCheck renders the "spell-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "spell-check" }}
+//
+//	{{ lucide "spell-check" }}
 //
 // Direct usage in Go:
-//   lucide.SpellCheck()
-//   lucide.SpellCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SpellCheck()
+//	lucide.SpellCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func SpellCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30976,11 +33642,13 @@ func SpellCheck(opts ...Options) template.HTML {
 // SpellCheck2 renders the "spell-check-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "spell-check-2" }}
+//
+//	{{ lucide "spell-check-2" }}
 //
 // Direct usage in Go:
-//   lucide.SpellCheck2()
-//   lucide.SpellCheck2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SpellCheck2()
+//	lucide.SpellCheck2(lucide.Options{Size: 32, Class: "my-icon"})
 func SpellCheck2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -30998,11 +33666,13 @@ func SpellCheck2(opts ...Options) template.HTML {
 // Spline renders the "spline" icon.
 //
 // Usage in templates:
-//   {{ lucide "spline" }}
+//
+//	{{ lucide "spline" }}
 //
 // Direct usage in Go:
-//   lucide.Spline()
-//   lucide.Spline(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Spline()
+//	lucide.Spline(lucide.Options{Size: 32, Class: "my-icon"})
 func Spline(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31020,11 +33690,13 @@ func Spline(opts ...Options) template.HTML {
 // SplinePointer renders the "spline-pointer" icon.
 //
 // Usage in templates:
-//   {{ lucide "spline-pointer" }}
+//
+//	{{ lucide "spline-pointer" }}
 //
 // Direct usage in Go:
-//   lucide.SplinePointer()
-//   lucide.SplinePointer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SplinePointer()
+//	lucide.SplinePointer(lucide.Options{Size: 32, Class: "my-icon"})
 func SplinePointer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31042,11 +33714,13 @@ func SplinePointer(opts ...Options) template.HTML {
 // Split renders the "split" icon.
 //
 // Usage in templates:
-//   {{ lucide "split" }}
+//
+//	{{ lucide "split" }}
 //
 // Direct usage in Go:
-//   lucide.Split()
-//   lucide.Split(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Split()
+//	lucide.Split(lucide.Options{Size: 32, Class: "my-icon"})
 func Split(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31064,11 +33738,13 @@ func Split(opts ...Options) template.HTML {
 // Spool renders the "spool" icon.
 //
 // Usage in templates:
-//   {{ lucide "spool" }}
+//
+//	{{ lucide "spool" }}
 //
 // Direct usage in Go:
-//   lucide.Spool()
-//   lucide.Spool(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Spool()
+//	lucide.Spool(lucide.Options{Size: 32, Class: "my-icon"})
 func Spool(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31086,11 +33762,13 @@ func Spool(opts ...Options) template.HTML {
 // Spotlight renders the "spotlight" icon.
 //
 // Usage in templates:
-//   {{ lucide "spotlight" }}
+//
+//	{{ lucide "spotlight" }}
 //
 // Direct usage in Go:
-//   lucide.Spotlight()
-//   lucide.Spotlight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Spotlight()
+//	lucide.Spotlight(lucide.Options{Size: 32, Class: "my-icon"})
 func Spotlight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31108,11 +33786,13 @@ func Spotlight(opts ...Options) template.HTML {
 // SprayCan renders the "spray-can" icon.
 //
 // Usage in templates:
-//   {{ lucide "spray-can" }}
+//
+//	{{ lucide "spray-can" }}
 //
 // Direct usage in Go:
-//   lucide.SprayCan()
-//   lucide.SprayCan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SprayCan()
+//	lucide.SprayCan(lucide.Options{Size: 32, Class: "my-icon"})
 func SprayCan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31130,11 +33810,13 @@ func SprayCan(opts ...Options) template.HTML {
 // Sprout renders the "sprout" icon.
 //
 // Usage in templates:
-//   {{ lucide "sprout" }}
+//
+//	{{ lucide "sprout" }}
 //
 // Direct usage in Go:
-//   lucide.Sprout()
-//   lucide.Sprout(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sprout()
+//	lucide.Sprout(lucide.Options{Size: 32, Class: "my-icon"})
 func Sprout(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31152,11 +33834,13 @@ func Sprout(opts ...Options) template.HTML {
 // Square renders the "square" icon.
 //
 // Usage in templates:
-//   {{ lucide "square" }}
+//
+//	{{ lucide "square" }}
 //
 // Direct usage in Go:
-//   lucide.Square()
-//   lucide.Square(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Square()
+//	lucide.Square(lucide.Options{Size: 32, Class: "my-icon"})
 func Square(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31174,11 +33858,13 @@ func Square(opts ...Options) template.HTML {
 // SquareActivity renders the "square-activity" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-activity" }}
+//
+//	{{ lucide "square-activity" }}
 //
 // Direct usage in Go:
-//   lucide.SquareActivity()
-//   lucide.SquareActivity(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareActivity()
+//	lucide.SquareActivity(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareActivity(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31196,11 +33882,13 @@ func SquareActivity(opts ...Options) template.HTML {
 // SquareArrowDown renders the "square-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-down" }}
+//
+//	{{ lucide "square-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowDown()
-//   lucide.SquareArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowDown()
+//	lucide.SquareArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31218,11 +33906,13 @@ func SquareArrowDown(opts ...Options) template.HTML {
 // SquareArrowDownLeft renders the "square-arrow-down-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-down-left" }}
+//
+//	{{ lucide "square-arrow-down-left" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowDownLeft()
-//   lucide.SquareArrowDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowDownLeft()
+//	lucide.SquareArrowDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowDownLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31240,11 +33930,13 @@ func SquareArrowDownLeft(opts ...Options) template.HTML {
 // SquareArrowDownRight renders the "square-arrow-down-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-down-right" }}
+//
+//	{{ lucide "square-arrow-down-right" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowDownRight()
-//   lucide.SquareArrowDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowDownRight()
+//	lucide.SquareArrowDownRight(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowDownRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31262,11 +33954,13 @@ func SquareArrowDownRight(opts ...Options) template.HTML {
 // SquareArrowLeft renders the "square-arrow-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-left" }}
+//
+//	{{ lucide "square-arrow-left" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowLeft()
-//   lucide.SquareArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowLeft()
+//	lucide.SquareArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31284,11 +33978,13 @@ func SquareArrowLeft(opts ...Options) template.HTML {
 // SquareArrowOutDownLeft renders the "square-arrow-out-down-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-out-down-left" }}
+//
+//	{{ lucide "square-arrow-out-down-left" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowOutDownLeft()
-//   lucide.SquareArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowOutDownLeft()
+//	lucide.SquareArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowOutDownLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31306,11 +34002,13 @@ func SquareArrowOutDownLeft(opts ...Options) template.HTML {
 // SquareArrowOutDownRight renders the "square-arrow-out-down-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-out-down-right" }}
+//
+//	{{ lucide "square-arrow-out-down-right" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowOutDownRight()
-//   lucide.SquareArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowOutDownRight()
+//	lucide.SquareArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowOutDownRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31328,11 +34026,13 @@ func SquareArrowOutDownRight(opts ...Options) template.HTML {
 // SquareArrowOutUpLeft renders the "square-arrow-out-up-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-out-up-left" }}
+//
+//	{{ lucide "square-arrow-out-up-left" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowOutUpLeft()
-//   lucide.SquareArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowOutUpLeft()
+//	lucide.SquareArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowOutUpLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31350,11 +34050,13 @@ func SquareArrowOutUpLeft(opts ...Options) template.HTML {
 // SquareArrowOutUpRight renders the "square-arrow-out-up-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-out-up-right" }}
+//
+//	{{ lucide "square-arrow-out-up-right" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowOutUpRight()
-//   lucide.SquareArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowOutUpRight()
+//	lucide.SquareArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowOutUpRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31372,11 +34074,13 @@ func SquareArrowOutUpRight(opts ...Options) template.HTML {
 // SquareArrowRight renders the "square-arrow-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-right" }}
+//
+//	{{ lucide "square-arrow-right" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowRight()
-//   lucide.SquareArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowRight()
+//	lucide.SquareArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31394,11 +34098,13 @@ func SquareArrowRight(opts ...Options) template.HTML {
 // SquareArrowUp renders the "square-arrow-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-up" }}
+//
+//	{{ lucide "square-arrow-up" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowUp()
-//   lucide.SquareArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowUp()
+//	lucide.SquareArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31416,11 +34122,13 @@ func SquareArrowUp(opts ...Options) template.HTML {
 // SquareArrowUpLeft renders the "square-arrow-up-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-up-left" }}
+//
+//	{{ lucide "square-arrow-up-left" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowUpLeft()
-//   lucide.SquareArrowUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowUpLeft()
+//	lucide.SquareArrowUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowUpLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31438,11 +34146,13 @@ func SquareArrowUpLeft(opts ...Options) template.HTML {
 // SquareArrowUpRight renders the "square-arrow-up-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-arrow-up-right" }}
+//
+//	{{ lucide "square-arrow-up-right" }}
 //
 // Direct usage in Go:
-//   lucide.SquareArrowUpRight()
-//   lucide.SquareArrowUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareArrowUpRight()
+//	lucide.SquareArrowUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareArrowUpRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31460,11 +34170,13 @@ func SquareArrowUpRight(opts ...Options) template.HTML {
 // SquareAsterisk renders the "square-asterisk" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-asterisk" }}
+//
+//	{{ lucide "square-asterisk" }}
 //
 // Direct usage in Go:
-//   lucide.SquareAsterisk()
-//   lucide.SquareAsterisk(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareAsterisk()
+//	lucide.SquareAsterisk(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareAsterisk(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31482,11 +34194,13 @@ func SquareAsterisk(opts ...Options) template.HTML {
 // SquareBottomDashedScissors renders the "square-bottom-dashed-scissors" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-bottom-dashed-scissors" }}
+//
+//	{{ lucide "square-bottom-dashed-scissors" }}
 //
 // Direct usage in Go:
-//   lucide.SquareBottomDashedScissors()
-//   lucide.SquareBottomDashedScissors(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareBottomDashedScissors()
+//	lucide.SquareBottomDashedScissors(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareBottomDashedScissors(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31504,11 +34218,13 @@ func SquareBottomDashedScissors(opts ...Options) template.HTML {
 // SquareChartGantt renders the "square-chart-gantt" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-chart-gantt" }}
+//
+//	{{ lucide "square-chart-gantt" }}
 //
 // Direct usage in Go:
-//   lucide.SquareChartGantt()
-//   lucide.SquareChartGantt(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareChartGantt()
+//	lucide.SquareChartGantt(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareChartGantt(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31526,11 +34242,13 @@ func SquareChartGantt(opts ...Options) template.HTML {
 // SquareCheck renders the "square-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-check" }}
+//
+//	{{ lucide "square-check" }}
 //
 // Direct usage in Go:
-//   lucide.SquareCheck()
-//   lucide.SquareCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareCheck()
+//	lucide.SquareCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31548,11 +34266,13 @@ func SquareCheck(opts ...Options) template.HTML {
 // SquareCheckBig renders the "square-check-big" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-check-big" }}
+//
+//	{{ lucide "square-check-big" }}
 //
 // Direct usage in Go:
-//   lucide.SquareCheckBig()
-//   lucide.SquareCheckBig(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareCheckBig()
+//	lucide.SquareCheckBig(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareCheckBig(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31570,11 +34290,13 @@ func SquareCheckBig(opts ...Options) template.HTML {
 // SquareChevronDown renders the "square-chevron-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-chevron-down" }}
+//
+//	{{ lucide "square-chevron-down" }}
 //
 // Direct usage in Go:
-//   lucide.SquareChevronDown()
-//   lucide.SquareChevronDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareChevronDown()
+//	lucide.SquareChevronDown(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareChevronDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31592,11 +34314,13 @@ func SquareChevronDown(opts ...Options) template.HTML {
 // SquareChevronLeft renders the "square-chevron-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-chevron-left" }}
+//
+//	{{ lucide "square-chevron-left" }}
 //
 // Direct usage in Go:
-//   lucide.SquareChevronLeft()
-//   lucide.SquareChevronLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareChevronLeft()
+//	lucide.SquareChevronLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareChevronLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31614,11 +34338,13 @@ func SquareChevronLeft(opts ...Options) template.HTML {
 // SquareChevronRight renders the "square-chevron-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-chevron-right" }}
+//
+//	{{ lucide "square-chevron-right" }}
 //
 // Direct usage in Go:
-//   lucide.SquareChevronRight()
-//   lucide.SquareChevronRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareChevronRight()
+//	lucide.SquareChevronRight(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareChevronRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31636,11 +34362,13 @@ func SquareChevronRight(opts ...Options) template.HTML {
 // SquareChevronUp renders the "square-chevron-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-chevron-up" }}
+//
+//	{{ lucide "square-chevron-up" }}
 //
 // Direct usage in Go:
-//   lucide.SquareChevronUp()
-//   lucide.SquareChevronUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareChevronUp()
+//	lucide.SquareChevronUp(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareChevronUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31658,11 +34386,13 @@ func SquareChevronUp(opts ...Options) template.HTML {
 // SquareCode renders the "square-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-code" }}
+//
+//	{{ lucide "square-code" }}
 //
 // Direct usage in Go:
-//   lucide.SquareCode()
-//   lucide.SquareCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareCode()
+//	lucide.SquareCode(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31680,11 +34410,13 @@ func SquareCode(opts ...Options) template.HTML {
 // SquareDashed renders the "square-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dashed" }}
+//
+//	{{ lucide "square-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDashed()
-//   lucide.SquareDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDashed()
+//	lucide.SquareDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31702,11 +34434,13 @@ func SquareDashed(opts ...Options) template.HTML {
 // SquareDashedBottom renders the "square-dashed-bottom" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dashed-bottom" }}
+//
+//	{{ lucide "square-dashed-bottom" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDashedBottom()
-//   lucide.SquareDashedBottom(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDashedBottom()
+//	lucide.SquareDashedBottom(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDashedBottom(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31724,11 +34458,13 @@ func SquareDashedBottom(opts ...Options) template.HTML {
 // SquareDashedBottomCode renders the "square-dashed-bottom-code" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dashed-bottom-code" }}
+//
+//	{{ lucide "square-dashed-bottom-code" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDashedBottomCode()
-//   lucide.SquareDashedBottomCode(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDashedBottomCode()
+//	lucide.SquareDashedBottomCode(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDashedBottomCode(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31746,11 +34482,13 @@ func SquareDashedBottomCode(opts ...Options) template.HTML {
 // SquareDashedKanban renders the "square-dashed-kanban" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dashed-kanban" }}
+//
+//	{{ lucide "square-dashed-kanban" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDashedKanban()
-//   lucide.SquareDashedKanban(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDashedKanban()
+//	lucide.SquareDashedKanban(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDashedKanban(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31768,11 +34506,13 @@ func SquareDashedKanban(opts ...Options) template.HTML {
 // SquareDashedMousePointer renders the "square-dashed-mouse-pointer" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dashed-mouse-pointer" }}
+//
+//	{{ lucide "square-dashed-mouse-pointer" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDashedMousePointer()
-//   lucide.SquareDashedMousePointer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDashedMousePointer()
+//	lucide.SquareDashedMousePointer(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDashedMousePointer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31790,11 +34530,13 @@ func SquareDashedMousePointer(opts ...Options) template.HTML {
 // SquareDashedTopSolid renders the "square-dashed-top-solid" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dashed-top-solid" }}
+//
+//	{{ lucide "square-dashed-top-solid" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDashedTopSolid()
-//   lucide.SquareDashedTopSolid(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDashedTopSolid()
+//	lucide.SquareDashedTopSolid(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDashedTopSolid(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31812,11 +34554,13 @@ func SquareDashedTopSolid(opts ...Options) template.HTML {
 // SquareDivide renders the "square-divide" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-divide" }}
+//
+//	{{ lucide "square-divide" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDivide()
-//   lucide.SquareDivide(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDivide()
+//	lucide.SquareDivide(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDivide(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31834,11 +34578,13 @@ func SquareDivide(opts ...Options) template.HTML {
 // SquareDot renders the "square-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-dot" }}
+//
+//	{{ lucide "square-dot" }}
 //
 // Direct usage in Go:
-//   lucide.SquareDot()
-//   lucide.SquareDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareDot()
+//	lucide.SquareDot(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31856,11 +34602,13 @@ func SquareDot(opts ...Options) template.HTML {
 // SquareEqual renders the "square-equal" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-equal" }}
+//
+//	{{ lucide "square-equal" }}
 //
 // Direct usage in Go:
-//   lucide.SquareEqual()
-//   lucide.SquareEqual(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareEqual()
+//	lucide.SquareEqual(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareEqual(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31878,11 +34626,13 @@ func SquareEqual(opts ...Options) template.HTML {
 // SquareFunction renders the "square-function" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-function" }}
+//
+//	{{ lucide "square-function" }}
 //
 // Direct usage in Go:
-//   lucide.SquareFunction()
-//   lucide.SquareFunction(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareFunction()
+//	lucide.SquareFunction(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareFunction(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31900,11 +34650,13 @@ func SquareFunction(opts ...Options) template.HTML {
 // SquareKanban renders the "square-kanban" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-kanban" }}
+//
+//	{{ lucide "square-kanban" }}
 //
 // Direct usage in Go:
-//   lucide.SquareKanban()
-//   lucide.SquareKanban(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareKanban()
+//	lucide.SquareKanban(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareKanban(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31922,11 +34674,13 @@ func SquareKanban(opts ...Options) template.HTML {
 // SquareLibrary renders the "square-library" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-library" }}
+//
+//	{{ lucide "square-library" }}
 //
 // Direct usage in Go:
-//   lucide.SquareLibrary()
-//   lucide.SquareLibrary(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareLibrary()
+//	lucide.SquareLibrary(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareLibrary(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31944,11 +34698,13 @@ func SquareLibrary(opts ...Options) template.HTML {
 // SquareM renders the "square-m" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-m" }}
+//
+//	{{ lucide "square-m" }}
 //
 // Direct usage in Go:
-//   lucide.SquareM()
-//   lucide.SquareM(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareM()
+//	lucide.SquareM(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareM(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31966,11 +34722,13 @@ func SquareM(opts ...Options) template.HTML {
 // SquareMenu renders the "square-menu" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-menu" }}
+//
+//	{{ lucide "square-menu" }}
 //
 // Direct usage in Go:
-//   lucide.SquareMenu()
-//   lucide.SquareMenu(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareMenu()
+//	lucide.SquareMenu(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareMenu(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -31988,11 +34746,13 @@ func SquareMenu(opts ...Options) template.HTML {
 // SquareMinus renders the "square-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-minus" }}
+//
+//	{{ lucide "square-minus" }}
 //
 // Direct usage in Go:
-//   lucide.SquareMinus()
-//   lucide.SquareMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareMinus()
+//	lucide.SquareMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32010,11 +34770,13 @@ func SquareMinus(opts ...Options) template.HTML {
 // SquareMousePointer renders the "square-mouse-pointer" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-mouse-pointer" }}
+//
+//	{{ lucide "square-mouse-pointer" }}
 //
 // Direct usage in Go:
-//   lucide.SquareMousePointer()
-//   lucide.SquareMousePointer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareMousePointer()
+//	lucide.SquareMousePointer(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareMousePointer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32032,11 +34794,13 @@ func SquareMousePointer(opts ...Options) template.HTML {
 // SquareParking renders the "square-parking" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-parking" }}
+//
+//	{{ lucide "square-parking" }}
 //
 // Direct usage in Go:
-//   lucide.SquareParking()
-//   lucide.SquareParking(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareParking()
+//	lucide.SquareParking(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareParking(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32054,11 +34818,13 @@ func SquareParking(opts ...Options) template.HTML {
 // SquareParkingOff renders the "square-parking-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-parking-off" }}
+//
+//	{{ lucide "square-parking-off" }}
 //
 // Direct usage in Go:
-//   lucide.SquareParkingOff()
-//   lucide.SquareParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareParkingOff()
+//	lucide.SquareParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareParkingOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32076,11 +34842,13 @@ func SquareParkingOff(opts ...Options) template.HTML {
 // SquarePause renders the "square-pause" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-pause" }}
+//
+//	{{ lucide "square-pause" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePause()
-//   lucide.SquarePause(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePause()
+//	lucide.SquarePause(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePause(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32098,11 +34866,13 @@ func SquarePause(opts ...Options) template.HTML {
 // SquarePen renders the "square-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-pen" }}
+//
+//	{{ lucide "square-pen" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePen()
-//   lucide.SquarePen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePen()
+//	lucide.SquarePen(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32120,11 +34890,13 @@ func SquarePen(opts ...Options) template.HTML {
 // SquarePercent renders the "square-percent" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-percent" }}
+//
+//	{{ lucide "square-percent" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePercent()
-//   lucide.SquarePercent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePercent()
+//	lucide.SquarePercent(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePercent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32142,11 +34914,13 @@ func SquarePercent(opts ...Options) template.HTML {
 // SquarePi renders the "square-pi" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-pi" }}
+//
+//	{{ lucide "square-pi" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePi()
-//   lucide.SquarePi(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePi()
+//	lucide.SquarePi(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePi(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32164,11 +34938,13 @@ func SquarePi(opts ...Options) template.HTML {
 // SquarePilcrow renders the "square-pilcrow" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-pilcrow" }}
+//
+//	{{ lucide "square-pilcrow" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePilcrow()
-//   lucide.SquarePilcrow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePilcrow()
+//	lucide.SquarePilcrow(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePilcrow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32186,11 +34962,13 @@ func SquarePilcrow(opts ...Options) template.HTML {
 // SquarePlay renders the "square-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-play" }}
+//
+//	{{ lucide "square-play" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePlay()
-//   lucide.SquarePlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePlay()
+//	lucide.SquarePlay(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32208,11 +34986,13 @@ func SquarePlay(opts ...Options) template.HTML {
 // SquarePlus renders the "square-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-plus" }}
+//
+//	{{ lucide "square-plus" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePlus()
-//   lucide.SquarePlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePlus()
+//	lucide.SquarePlus(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32230,11 +35010,13 @@ func SquarePlus(opts ...Options) template.HTML {
 // SquarePower renders the "square-power" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-power" }}
+//
+//	{{ lucide "square-power" }}
 //
 // Direct usage in Go:
-//   lucide.SquarePower()
-//   lucide.SquarePower(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquarePower()
+//	lucide.SquarePower(lucide.Options{Size: 32, Class: "my-icon"})
 func SquarePower(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32252,11 +35034,13 @@ func SquarePower(opts ...Options) template.HTML {
 // SquareRadical renders the "square-radical" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-radical" }}
+//
+//	{{ lucide "square-radical" }}
 //
 // Direct usage in Go:
-//   lucide.SquareRadical()
-//   lucide.SquareRadical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareRadical()
+//	lucide.SquareRadical(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareRadical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32274,11 +35058,13 @@ func SquareRadical(opts ...Options) template.HTML {
 // SquareRoundCorner renders the "square-round-corner" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-round-corner" }}
+//
+//	{{ lucide "square-round-corner" }}
 //
 // Direct usage in Go:
-//   lucide.SquareRoundCorner()
-//   lucide.SquareRoundCorner(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareRoundCorner()
+//	lucide.SquareRoundCorner(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareRoundCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32296,11 +35082,13 @@ func SquareRoundCorner(opts ...Options) template.HTML {
 // SquareScissors renders the "square-scissors" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-scissors" }}
+//
+//	{{ lucide "square-scissors" }}
 //
 // Direct usage in Go:
-//   lucide.SquareScissors()
-//   lucide.SquareScissors(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareScissors()
+//	lucide.SquareScissors(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareScissors(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32318,11 +35106,13 @@ func SquareScissors(opts ...Options) template.HTML {
 // SquareSigma renders the "square-sigma" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-sigma" }}
+//
+//	{{ lucide "square-sigma" }}
 //
 // Direct usage in Go:
-//   lucide.SquareSigma()
-//   lucide.SquareSigma(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareSigma()
+//	lucide.SquareSigma(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareSigma(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32340,11 +35130,13 @@ func SquareSigma(opts ...Options) template.HTML {
 // SquareSlash renders the "square-slash" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-slash" }}
+//
+//	{{ lucide "square-slash" }}
 //
 // Direct usage in Go:
-//   lucide.SquareSlash()
-//   lucide.SquareSlash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareSlash()
+//	lucide.SquareSlash(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareSlash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32362,11 +35154,13 @@ func SquareSlash(opts ...Options) template.HTML {
 // SquareSplitHorizontal renders the "square-split-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-split-horizontal" }}
+//
+//	{{ lucide "square-split-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.SquareSplitHorizontal()
-//   lucide.SquareSplitHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareSplitHorizontal()
+//	lucide.SquareSplitHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareSplitHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32384,11 +35178,13 @@ func SquareSplitHorizontal(opts ...Options) template.HTML {
 // SquareSplitVertical renders the "square-split-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-split-vertical" }}
+//
+//	{{ lucide "square-split-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.SquareSplitVertical()
-//   lucide.SquareSplitVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareSplitVertical()
+//	lucide.SquareSplitVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareSplitVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32406,11 +35202,13 @@ func SquareSplitVertical(opts ...Options) template.HTML {
 // SquareSquare renders the "square-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-square" }}
+//
+//	{{ lucide "square-square" }}
 //
 // Direct usage in Go:
-//   lucide.SquareSquare()
-//   lucide.SquareSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareSquare()
+//	lucide.SquareSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32428,11 +35226,13 @@ func SquareSquare(opts ...Options) template.HTML {
 // SquareStack renders the "square-stack" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-stack" }}
+//
+//	{{ lucide "square-stack" }}
 //
 // Direct usage in Go:
-//   lucide.SquareStack()
-//   lucide.SquareStack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareStack()
+//	lucide.SquareStack(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareStack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32450,11 +35250,13 @@ func SquareStack(opts ...Options) template.HTML {
 // SquareStar renders the "square-star" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-star" }}
+//
+//	{{ lucide "square-star" }}
 //
 // Direct usage in Go:
-//   lucide.SquareStar()
-//   lucide.SquareStar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareStar()
+//	lucide.SquareStar(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareStar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32472,11 +35274,13 @@ func SquareStar(opts ...Options) template.HTML {
 // SquareStop renders the "square-stop" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-stop" }}
+//
+//	{{ lucide "square-stop" }}
 //
 // Direct usage in Go:
-//   lucide.SquareStop()
-//   lucide.SquareStop(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareStop()
+//	lucide.SquareStop(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareStop(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32494,11 +35298,13 @@ func SquareStop(opts ...Options) template.HTML {
 // SquareTerminal renders the "square-terminal" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-terminal" }}
+//
+//	{{ lucide "square-terminal" }}
 //
 // Direct usage in Go:
-//   lucide.SquareTerminal()
-//   lucide.SquareTerminal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareTerminal()
+//	lucide.SquareTerminal(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareTerminal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32516,11 +35322,13 @@ func SquareTerminal(opts ...Options) template.HTML {
 // SquareUser renders the "square-user" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-user" }}
+//
+//	{{ lucide "square-user" }}
 //
 // Direct usage in Go:
-//   lucide.SquareUser()
-//   lucide.SquareUser(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareUser()
+//	lucide.SquareUser(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareUser(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32538,11 +35346,13 @@ func SquareUser(opts ...Options) template.HTML {
 // SquareUserRound renders the "square-user-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-user-round" }}
+//
+//	{{ lucide "square-user-round" }}
 //
 // Direct usage in Go:
-//   lucide.SquareUserRound()
-//   lucide.SquareUserRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareUserRound()
+//	lucide.SquareUserRound(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareUserRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32560,11 +35370,13 @@ func SquareUserRound(opts ...Options) template.HTML {
 // SquareX renders the "square-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "square-x" }}
+//
+//	{{ lucide "square-x" }}
 //
 // Direct usage in Go:
-//   lucide.SquareX()
-//   lucide.SquareX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquareX()
+//	lucide.SquareX(lucide.Options{Size: 32, Class: "my-icon"})
 func SquareX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32582,11 +35394,13 @@ func SquareX(opts ...Options) template.HTML {
 // SquaresExclude renders the "squares-exclude" icon.
 //
 // Usage in templates:
-//   {{ lucide "squares-exclude" }}
+//
+//	{{ lucide "squares-exclude" }}
 //
 // Direct usage in Go:
-//   lucide.SquaresExclude()
-//   lucide.SquaresExclude(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquaresExclude()
+//	lucide.SquaresExclude(lucide.Options{Size: 32, Class: "my-icon"})
 func SquaresExclude(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32604,11 +35418,13 @@ func SquaresExclude(opts ...Options) template.HTML {
 // SquaresIntersect renders the "squares-intersect" icon.
 //
 // Usage in templates:
-//   {{ lucide "squares-intersect" }}
+//
+//	{{ lucide "squares-intersect" }}
 //
 // Direct usage in Go:
-//   lucide.SquaresIntersect()
-//   lucide.SquaresIntersect(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquaresIntersect()
+//	lucide.SquaresIntersect(lucide.Options{Size: 32, Class: "my-icon"})
 func SquaresIntersect(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32626,11 +35442,13 @@ func SquaresIntersect(opts ...Options) template.HTML {
 // SquaresSubtract renders the "squares-subtract" icon.
 //
 // Usage in templates:
-//   {{ lucide "squares-subtract" }}
+//
+//	{{ lucide "squares-subtract" }}
 //
 // Direct usage in Go:
-//   lucide.SquaresSubtract()
-//   lucide.SquaresSubtract(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquaresSubtract()
+//	lucide.SquaresSubtract(lucide.Options{Size: 32, Class: "my-icon"})
 func SquaresSubtract(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32648,11 +35466,13 @@ func SquaresSubtract(opts ...Options) template.HTML {
 // SquaresUnite renders the "squares-unite" icon.
 //
 // Usage in templates:
-//   {{ lucide "squares-unite" }}
+//
+//	{{ lucide "squares-unite" }}
 //
 // Direct usage in Go:
-//   lucide.SquaresUnite()
-//   lucide.SquaresUnite(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquaresUnite()
+//	lucide.SquaresUnite(lucide.Options{Size: 32, Class: "my-icon"})
 func SquaresUnite(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32670,11 +35490,13 @@ func SquaresUnite(opts ...Options) template.HTML {
 // Squircle renders the "squircle" icon.
 //
 // Usage in templates:
-//   {{ lucide "squircle" }}
+//
+//	{{ lucide "squircle" }}
 //
 // Direct usage in Go:
-//   lucide.Squircle()
-//   lucide.Squircle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Squircle()
+//	lucide.Squircle(lucide.Options{Size: 32, Class: "my-icon"})
 func Squircle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32692,11 +35514,13 @@ func Squircle(opts ...Options) template.HTML {
 // SquircleDashed renders the "squircle-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "squircle-dashed" }}
+//
+//	{{ lucide "squircle-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.SquircleDashed()
-//   lucide.SquircleDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SquircleDashed()
+//	lucide.SquircleDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func SquircleDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32714,11 +35538,13 @@ func SquircleDashed(opts ...Options) template.HTML {
 // Squirrel renders the "squirrel" icon.
 //
 // Usage in templates:
-//   {{ lucide "squirrel" }}
+//
+//	{{ lucide "squirrel" }}
 //
 // Direct usage in Go:
-//   lucide.Squirrel()
-//   lucide.Squirrel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Squirrel()
+//	lucide.Squirrel(lucide.Options{Size: 32, Class: "my-icon"})
 func Squirrel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32736,11 +35562,13 @@ func Squirrel(opts ...Options) template.HTML {
 // Stamp renders the "stamp" icon.
 //
 // Usage in templates:
-//   {{ lucide "stamp" }}
+//
+//	{{ lucide "stamp" }}
 //
 // Direct usage in Go:
-//   lucide.Stamp()
-//   lucide.Stamp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Stamp()
+//	lucide.Stamp(lucide.Options{Size: 32, Class: "my-icon"})
 func Stamp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32758,11 +35586,13 @@ func Stamp(opts ...Options) template.HTML {
 // Star renders the "star" icon.
 //
 // Usage in templates:
-//   {{ lucide "star" }}
+//
+//	{{ lucide "star" }}
 //
 // Direct usage in Go:
-//   lucide.Star()
-//   lucide.Star(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Star()
+//	lucide.Star(lucide.Options{Size: 32, Class: "my-icon"})
 func Star(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32780,11 +35610,13 @@ func Star(opts ...Options) template.HTML {
 // StarHalf renders the "star-half" icon.
 //
 // Usage in templates:
-//   {{ lucide "star-half" }}
+//
+//	{{ lucide "star-half" }}
 //
 // Direct usage in Go:
-//   lucide.StarHalf()
-//   lucide.StarHalf(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StarHalf()
+//	lucide.StarHalf(lucide.Options{Size: 32, Class: "my-icon"})
 func StarHalf(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32802,11 +35634,13 @@ func StarHalf(opts ...Options) template.HTML {
 // StarOff renders the "star-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "star-off" }}
+//
+//	{{ lucide "star-off" }}
 //
 // Direct usage in Go:
-//   lucide.StarOff()
-//   lucide.StarOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StarOff()
+//	lucide.StarOff(lucide.Options{Size: 32, Class: "my-icon"})
 func StarOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32824,11 +35658,13 @@ func StarOff(opts ...Options) template.HTML {
 // StepBack renders the "step-back" icon.
 //
 // Usage in templates:
-//   {{ lucide "step-back" }}
+//
+//	{{ lucide "step-back" }}
 //
 // Direct usage in Go:
-//   lucide.StepBack()
-//   lucide.StepBack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StepBack()
+//	lucide.StepBack(lucide.Options{Size: 32, Class: "my-icon"})
 func StepBack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32846,11 +35682,13 @@ func StepBack(opts ...Options) template.HTML {
 // StepForward renders the "step-forward" icon.
 //
 // Usage in templates:
-//   {{ lucide "step-forward" }}
+//
+//	{{ lucide "step-forward" }}
 //
 // Direct usage in Go:
-//   lucide.StepForward()
-//   lucide.StepForward(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StepForward()
+//	lucide.StepForward(lucide.Options{Size: 32, Class: "my-icon"})
 func StepForward(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32868,11 +35706,13 @@ func StepForward(opts ...Options) template.HTML {
 // Stethoscope renders the "stethoscope" icon.
 //
 // Usage in templates:
-//   {{ lucide "stethoscope" }}
+//
+//	{{ lucide "stethoscope" }}
 //
 // Direct usage in Go:
-//   lucide.Stethoscope()
-//   lucide.Stethoscope(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Stethoscope()
+//	lucide.Stethoscope(lucide.Options{Size: 32, Class: "my-icon"})
 func Stethoscope(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32890,11 +35730,13 @@ func Stethoscope(opts ...Options) template.HTML {
 // Sticker renders the "sticker" icon.
 //
 // Usage in templates:
-//   {{ lucide "sticker" }}
+//
+//	{{ lucide "sticker" }}
 //
 // Direct usage in Go:
-//   lucide.Sticker()
-//   lucide.Sticker(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sticker()
+//	lucide.Sticker(lucide.Options{Size: 32, Class: "my-icon"})
 func Sticker(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32912,11 +35754,13 @@ func Sticker(opts ...Options) template.HTML {
 // StickyNote renders the "sticky-note" icon.
 //
 // Usage in templates:
-//   {{ lucide "sticky-note" }}
+//
+//	{{ lucide "sticky-note" }}
 //
 // Direct usage in Go:
-//   lucide.StickyNote()
-//   lucide.StickyNote(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StickyNote()
+//	lucide.StickyNote(lucide.Options{Size: 32, Class: "my-icon"})
 func StickyNote(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32934,11 +35778,13 @@ func StickyNote(opts ...Options) template.HTML {
 // Store renders the "store" icon.
 //
 // Usage in templates:
-//   {{ lucide "store" }}
+//
+//	{{ lucide "store" }}
 //
 // Direct usage in Go:
-//   lucide.Store()
-//   lucide.Store(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Store()
+//	lucide.Store(lucide.Options{Size: 32, Class: "my-icon"})
 func Store(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32956,11 +35802,13 @@ func Store(opts ...Options) template.HTML {
 // StretchHorizontal renders the "stretch-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "stretch-horizontal" }}
+//
+//	{{ lucide "stretch-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.StretchHorizontal()
-//   lucide.StretchHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StretchHorizontal()
+//	lucide.StretchHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func StretchHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -32978,11 +35826,13 @@ func StretchHorizontal(opts ...Options) template.HTML {
 // StretchVertical renders the "stretch-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "stretch-vertical" }}
+//
+//	{{ lucide "stretch-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.StretchVertical()
-//   lucide.StretchVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.StretchVertical()
+//	lucide.StretchVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func StretchVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33000,11 +35850,13 @@ func StretchVertical(opts ...Options) template.HTML {
 // Strikethrough renders the "strikethrough" icon.
 //
 // Usage in templates:
-//   {{ lucide "strikethrough" }}
+//
+//	{{ lucide "strikethrough" }}
 //
 // Direct usage in Go:
-//   lucide.Strikethrough()
-//   lucide.Strikethrough(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Strikethrough()
+//	lucide.Strikethrough(lucide.Options{Size: 32, Class: "my-icon"})
 func Strikethrough(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33022,11 +35874,13 @@ func Strikethrough(opts ...Options) template.HTML {
 // Subscript renders the "subscript" icon.
 //
 // Usage in templates:
-//   {{ lucide "subscript" }}
+//
+//	{{ lucide "subscript" }}
 //
 // Direct usage in Go:
-//   lucide.Subscript()
-//   lucide.Subscript(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Subscript()
+//	lucide.Subscript(lucide.Options{Size: 32, Class: "my-icon"})
 func Subscript(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33044,11 +35898,13 @@ func Subscript(opts ...Options) template.HTML {
 // Sun renders the "sun" icon.
 //
 // Usage in templates:
-//   {{ lucide "sun" }}
+//
+//	{{ lucide "sun" }}
 //
 // Direct usage in Go:
-//   lucide.Sun()
-//   lucide.Sun(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sun()
+//	lucide.Sun(lucide.Options{Size: 32, Class: "my-icon"})
 func Sun(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33066,11 +35922,13 @@ func Sun(opts ...Options) template.HTML {
 // SunDim renders the "sun-dim" icon.
 //
 // Usage in templates:
-//   {{ lucide "sun-dim" }}
+//
+//	{{ lucide "sun-dim" }}
 //
 // Direct usage in Go:
-//   lucide.SunDim()
-//   lucide.SunDim(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SunDim()
+//	lucide.SunDim(lucide.Options{Size: 32, Class: "my-icon"})
 func SunDim(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33088,11 +35946,13 @@ func SunDim(opts ...Options) template.HTML {
 // SunMedium renders the "sun-medium" icon.
 //
 // Usage in templates:
-//   {{ lucide "sun-medium" }}
+//
+//	{{ lucide "sun-medium" }}
 //
 // Direct usage in Go:
-//   lucide.SunMedium()
-//   lucide.SunMedium(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SunMedium()
+//	lucide.SunMedium(lucide.Options{Size: 32, Class: "my-icon"})
 func SunMedium(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33110,11 +35970,13 @@ func SunMedium(opts ...Options) template.HTML {
 // SunMoon renders the "sun-moon" icon.
 //
 // Usage in templates:
-//   {{ lucide "sun-moon" }}
+//
+//	{{ lucide "sun-moon" }}
 //
 // Direct usage in Go:
-//   lucide.SunMoon()
-//   lucide.SunMoon(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SunMoon()
+//	lucide.SunMoon(lucide.Options{Size: 32, Class: "my-icon"})
 func SunMoon(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33132,11 +35994,13 @@ func SunMoon(opts ...Options) template.HTML {
 // SunSnow renders the "sun-snow" icon.
 //
 // Usage in templates:
-//   {{ lucide "sun-snow" }}
+//
+//	{{ lucide "sun-snow" }}
 //
 // Direct usage in Go:
-//   lucide.SunSnow()
-//   lucide.SunSnow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SunSnow()
+//	lucide.SunSnow(lucide.Options{Size: 32, Class: "my-icon"})
 func SunSnow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33154,11 +36018,13 @@ func SunSnow(opts ...Options) template.HTML {
 // Sunrise renders the "sunrise" icon.
 //
 // Usage in templates:
-//   {{ lucide "sunrise" }}
+//
+//	{{ lucide "sunrise" }}
 //
 // Direct usage in Go:
-//   lucide.Sunrise()
-//   lucide.Sunrise(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sunrise()
+//	lucide.Sunrise(lucide.Options{Size: 32, Class: "my-icon"})
 func Sunrise(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33176,11 +36042,13 @@ func Sunrise(opts ...Options) template.HTML {
 // Sunset renders the "sunset" icon.
 //
 // Usage in templates:
-//   {{ lucide "sunset" }}
+//
+//	{{ lucide "sunset" }}
 //
 // Direct usage in Go:
-//   lucide.Sunset()
-//   lucide.Sunset(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sunset()
+//	lucide.Sunset(lucide.Options{Size: 32, Class: "my-icon"})
 func Sunset(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33198,11 +36066,13 @@ func Sunset(opts ...Options) template.HTML {
 // Superscript renders the "superscript" icon.
 //
 // Usage in templates:
-//   {{ lucide "superscript" }}
+//
+//	{{ lucide "superscript" }}
 //
 // Direct usage in Go:
-//   lucide.Superscript()
-//   lucide.Superscript(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Superscript()
+//	lucide.Superscript(lucide.Options{Size: 32, Class: "my-icon"})
 func Superscript(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33220,11 +36090,13 @@ func Superscript(opts ...Options) template.HTML {
 // SwatchBook renders the "swatch-book" icon.
 //
 // Usage in templates:
-//   {{ lucide "swatch-book" }}
+//
+//	{{ lucide "swatch-book" }}
 //
 // Direct usage in Go:
-//   lucide.SwatchBook()
-//   lucide.SwatchBook(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SwatchBook()
+//	lucide.SwatchBook(lucide.Options{Size: 32, Class: "my-icon"})
 func SwatchBook(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33242,11 +36114,13 @@ func SwatchBook(opts ...Options) template.HTML {
 // SwissFranc renders the "swiss-franc" icon.
 //
 // Usage in templates:
-//   {{ lucide "swiss-franc" }}
+//
+//	{{ lucide "swiss-franc" }}
 //
 // Direct usage in Go:
-//   lucide.SwissFranc()
-//   lucide.SwissFranc(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SwissFranc()
+//	lucide.SwissFranc(lucide.Options{Size: 32, Class: "my-icon"})
 func SwissFranc(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33264,11 +36138,13 @@ func SwissFranc(opts ...Options) template.HTML {
 // SwitchCamera renders the "switch-camera" icon.
 //
 // Usage in templates:
-//   {{ lucide "switch-camera" }}
+//
+//	{{ lucide "switch-camera" }}
 //
 // Direct usage in Go:
-//   lucide.SwitchCamera()
-//   lucide.SwitchCamera(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.SwitchCamera()
+//	lucide.SwitchCamera(lucide.Options{Size: 32, Class: "my-icon"})
 func SwitchCamera(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33286,11 +36162,13 @@ func SwitchCamera(opts ...Options) template.HTML {
 // Sword renders the "sword" icon.
 //
 // Usage in templates:
-//   {{ lucide "sword" }}
+//
+//	{{ lucide "sword" }}
 //
 // Direct usage in Go:
-//   lucide.Sword()
-//   lucide.Sword(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Sword()
+//	lucide.Sword(lucide.Options{Size: 32, Class: "my-icon"})
 func Sword(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33308,11 +36186,13 @@ func Sword(opts ...Options) template.HTML {
 // Swords renders the "swords" icon.
 //
 // Usage in templates:
-//   {{ lucide "swords" }}
+//
+//	{{ lucide "swords" }}
 //
 // Direct usage in Go:
-//   lucide.Swords()
-//   lucide.Swords(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Swords()
+//	lucide.Swords(lucide.Options{Size: 32, Class: "my-icon"})
 func Swords(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33330,11 +36210,13 @@ func Swords(opts ...Options) template.HTML {
 // Syringe renders the "syringe" icon.
 //
 // Usage in templates:
-//   {{ lucide "syringe" }}
+//
+//	{{ lucide "syringe" }}
 //
 // Direct usage in Go:
-//   lucide.Syringe()
-//   lucide.Syringe(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Syringe()
+//	lucide.Syringe(lucide.Options{Size: 32, Class: "my-icon"})
 func Syringe(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33352,11 +36234,13 @@ func Syringe(opts ...Options) template.HTML {
 // Table renders the "table" icon.
 //
 // Usage in templates:
-//   {{ lucide "table" }}
+//
+//	{{ lucide "table" }}
 //
 // Direct usage in Go:
-//   lucide.Table()
-//   lucide.Table(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Table()
+//	lucide.Table(lucide.Options{Size: 32, Class: "my-icon"})
 func Table(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33374,11 +36258,13 @@ func Table(opts ...Options) template.HTML {
 // Table2 renders the "table-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-2" }}
+//
+//	{{ lucide "table-2" }}
 //
 // Direct usage in Go:
-//   lucide.Table2()
-//   lucide.Table2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Table2()
+//	lucide.Table2(lucide.Options{Size: 32, Class: "my-icon"})
 func Table2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33396,11 +36282,13 @@ func Table2(opts ...Options) template.HTML {
 // TableCellsMerge renders the "table-cells-merge" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-cells-merge" }}
+//
+//	{{ lucide "table-cells-merge" }}
 //
 // Direct usage in Go:
-//   lucide.TableCellsMerge()
-//   lucide.TableCellsMerge(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TableCellsMerge()
+//	lucide.TableCellsMerge(lucide.Options{Size: 32, Class: "my-icon"})
 func TableCellsMerge(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33418,11 +36306,13 @@ func TableCellsMerge(opts ...Options) template.HTML {
 // TableCellsSplit renders the "table-cells-split" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-cells-split" }}
+//
+//	{{ lucide "table-cells-split" }}
 //
 // Direct usage in Go:
-//   lucide.TableCellsSplit()
-//   lucide.TableCellsSplit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TableCellsSplit()
+//	lucide.TableCellsSplit(lucide.Options{Size: 32, Class: "my-icon"})
 func TableCellsSplit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33440,11 +36330,13 @@ func TableCellsSplit(opts ...Options) template.HTML {
 // TableColumnsSplit renders the "table-columns-split" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-columns-split" }}
+//
+//	{{ lucide "table-columns-split" }}
 //
 // Direct usage in Go:
-//   lucide.TableColumnsSplit()
-//   lucide.TableColumnsSplit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TableColumnsSplit()
+//	lucide.TableColumnsSplit(lucide.Options{Size: 32, Class: "my-icon"})
 func TableColumnsSplit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33462,11 +36354,13 @@ func TableColumnsSplit(opts ...Options) template.HTML {
 // TableOfContents renders the "table-of-contents" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-of-contents" }}
+//
+//	{{ lucide "table-of-contents" }}
 //
 // Direct usage in Go:
-//   lucide.TableOfContents()
-//   lucide.TableOfContents(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TableOfContents()
+//	lucide.TableOfContents(lucide.Options{Size: 32, Class: "my-icon"})
 func TableOfContents(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33484,11 +36378,13 @@ func TableOfContents(opts ...Options) template.HTML {
 // TableProperties renders the "table-properties" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-properties" }}
+//
+//	{{ lucide "table-properties" }}
 //
 // Direct usage in Go:
-//   lucide.TableProperties()
-//   lucide.TableProperties(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TableProperties()
+//	lucide.TableProperties(lucide.Options{Size: 32, Class: "my-icon"})
 func TableProperties(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33506,11 +36402,13 @@ func TableProperties(opts ...Options) template.HTML {
 // TableRowsSplit renders the "table-rows-split" icon.
 //
 // Usage in templates:
-//   {{ lucide "table-rows-split" }}
+//
+//	{{ lucide "table-rows-split" }}
 //
 // Direct usage in Go:
-//   lucide.TableRowsSplit()
-//   lucide.TableRowsSplit(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TableRowsSplit()
+//	lucide.TableRowsSplit(lucide.Options{Size: 32, Class: "my-icon"})
 func TableRowsSplit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33528,11 +36426,13 @@ func TableRowsSplit(opts ...Options) template.HTML {
 // Tablet renders the "tablet" icon.
 //
 // Usage in templates:
-//   {{ lucide "tablet" }}
+//
+//	{{ lucide "tablet" }}
 //
 // Direct usage in Go:
-//   lucide.Tablet()
-//   lucide.Tablet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tablet()
+//	lucide.Tablet(lucide.Options{Size: 32, Class: "my-icon"})
 func Tablet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33550,11 +36450,13 @@ func Tablet(opts ...Options) template.HTML {
 // TabletSmartphone renders the "tablet-smartphone" icon.
 //
 // Usage in templates:
-//   {{ lucide "tablet-smartphone" }}
+//
+//	{{ lucide "tablet-smartphone" }}
 //
 // Direct usage in Go:
-//   lucide.TabletSmartphone()
-//   lucide.TabletSmartphone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TabletSmartphone()
+//	lucide.TabletSmartphone(lucide.Options{Size: 32, Class: "my-icon"})
 func TabletSmartphone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33572,11 +36474,13 @@ func TabletSmartphone(opts ...Options) template.HTML {
 // Tablets renders the "tablets" icon.
 //
 // Usage in templates:
-//   {{ lucide "tablets" }}
+//
+//	{{ lucide "tablets" }}
 //
 // Direct usage in Go:
-//   lucide.Tablets()
-//   lucide.Tablets(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tablets()
+//	lucide.Tablets(lucide.Options{Size: 32, Class: "my-icon"})
 func Tablets(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33594,11 +36498,13 @@ func Tablets(opts ...Options) template.HTML {
 // Tag renders the "tag" icon.
 //
 // Usage in templates:
-//   {{ lucide "tag" }}
+//
+//	{{ lucide "tag" }}
 //
 // Direct usage in Go:
-//   lucide.Tag()
-//   lucide.Tag(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tag()
+//	lucide.Tag(lucide.Options{Size: 32, Class: "my-icon"})
 func Tag(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33616,11 +36522,13 @@ func Tag(opts ...Options) template.HTML {
 // Tags renders the "tags" icon.
 //
 // Usage in templates:
-//   {{ lucide "tags" }}
+//
+//	{{ lucide "tags" }}
 //
 // Direct usage in Go:
-//   lucide.Tags()
-//   lucide.Tags(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tags()
+//	lucide.Tags(lucide.Options{Size: 32, Class: "my-icon"})
 func Tags(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33638,11 +36546,13 @@ func Tags(opts ...Options) template.HTML {
 // Tally1 renders the "tally-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "tally-1" }}
+//
+//	{{ lucide "tally-1" }}
 //
 // Direct usage in Go:
-//   lucide.Tally1()
-//   lucide.Tally1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tally1()
+//	lucide.Tally1(lucide.Options{Size: 32, Class: "my-icon"})
 func Tally1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33660,11 +36570,13 @@ func Tally1(opts ...Options) template.HTML {
 // Tally2 renders the "tally-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "tally-2" }}
+//
+//	{{ lucide "tally-2" }}
 //
 // Direct usage in Go:
-//   lucide.Tally2()
-//   lucide.Tally2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tally2()
+//	lucide.Tally2(lucide.Options{Size: 32, Class: "my-icon"})
 func Tally2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33682,11 +36594,13 @@ func Tally2(opts ...Options) template.HTML {
 // Tally3 renders the "tally-3" icon.
 //
 // Usage in templates:
-//   {{ lucide "tally-3" }}
+//
+//	{{ lucide "tally-3" }}
 //
 // Direct usage in Go:
-//   lucide.Tally3()
-//   lucide.Tally3(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tally3()
+//	lucide.Tally3(lucide.Options{Size: 32, Class: "my-icon"})
 func Tally3(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33704,11 +36618,13 @@ func Tally3(opts ...Options) template.HTML {
 // Tally4 renders the "tally-4" icon.
 //
 // Usage in templates:
-//   {{ lucide "tally-4" }}
+//
+//	{{ lucide "tally-4" }}
 //
 // Direct usage in Go:
-//   lucide.Tally4()
-//   lucide.Tally4(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tally4()
+//	lucide.Tally4(lucide.Options{Size: 32, Class: "my-icon"})
 func Tally4(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33726,11 +36642,13 @@ func Tally4(opts ...Options) template.HTML {
 // Tally5 renders the "tally-5" icon.
 //
 // Usage in templates:
-//   {{ lucide "tally-5" }}
+//
+//	{{ lucide "tally-5" }}
 //
 // Direct usage in Go:
-//   lucide.Tally5()
-//   lucide.Tally5(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tally5()
+//	lucide.Tally5(lucide.Options{Size: 32, Class: "my-icon"})
 func Tally5(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33748,11 +36666,13 @@ func Tally5(opts ...Options) template.HTML {
 // Tangent renders the "tangent" icon.
 //
 // Usage in templates:
-//   {{ lucide "tangent" }}
+//
+//	{{ lucide "tangent" }}
 //
 // Direct usage in Go:
-//   lucide.Tangent()
-//   lucide.Tangent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tangent()
+//	lucide.Tangent(lucide.Options{Size: 32, Class: "my-icon"})
 func Tangent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33770,11 +36690,13 @@ func Tangent(opts ...Options) template.HTML {
 // Target renders the "target" icon.
 //
 // Usage in templates:
-//   {{ lucide "target" }}
+//
+//	{{ lucide "target" }}
 //
 // Direct usage in Go:
-//   lucide.Target()
-//   lucide.Target(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Target()
+//	lucide.Target(lucide.Options{Size: 32, Class: "my-icon"})
 func Target(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33792,11 +36714,13 @@ func Target(opts ...Options) template.HTML {
 // Telescope renders the "telescope" icon.
 //
 // Usage in templates:
-//   {{ lucide "telescope" }}
+//
+//	{{ lucide "telescope" }}
 //
 // Direct usage in Go:
-//   lucide.Telescope()
-//   lucide.Telescope(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Telescope()
+//	lucide.Telescope(lucide.Options{Size: 32, Class: "my-icon"})
 func Telescope(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33814,11 +36738,13 @@ func Telescope(opts ...Options) template.HTML {
 // Tent renders the "tent" icon.
 //
 // Usage in templates:
-//   {{ lucide "tent" }}
+//
+//	{{ lucide "tent" }}
 //
 // Direct usage in Go:
-//   lucide.Tent()
-//   lucide.Tent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tent()
+//	lucide.Tent(lucide.Options{Size: 32, Class: "my-icon"})
 func Tent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33836,11 +36762,13 @@ func Tent(opts ...Options) template.HTML {
 // TentTree renders the "tent-tree" icon.
 //
 // Usage in templates:
-//   {{ lucide "tent-tree" }}
+//
+//	{{ lucide "tent-tree" }}
 //
 // Direct usage in Go:
-//   lucide.TentTree()
-//   lucide.TentTree(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TentTree()
+//	lucide.TentTree(lucide.Options{Size: 32, Class: "my-icon"})
 func TentTree(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33858,11 +36786,13 @@ func TentTree(opts ...Options) template.HTML {
 // Terminal renders the "terminal" icon.
 //
 // Usage in templates:
-//   {{ lucide "terminal" }}
+//
+//	{{ lucide "terminal" }}
 //
 // Direct usage in Go:
-//   lucide.Terminal()
-//   lucide.Terminal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Terminal()
+//	lucide.Terminal(lucide.Options{Size: 32, Class: "my-icon"})
 func Terminal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33880,11 +36810,13 @@ func Terminal(opts ...Options) template.HTML {
 // TestTube renders the "test-tube" icon.
 //
 // Usage in templates:
-//   {{ lucide "test-tube" }}
+//
+//	{{ lucide "test-tube" }}
 //
 // Direct usage in Go:
-//   lucide.TestTube()
-//   lucide.TestTube(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TestTube()
+//	lucide.TestTube(lucide.Options{Size: 32, Class: "my-icon"})
 func TestTube(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33902,11 +36834,13 @@ func TestTube(opts ...Options) template.HTML {
 // TestTubeDiagonal renders the "test-tube-diagonal" icon.
 //
 // Usage in templates:
-//   {{ lucide "test-tube-diagonal" }}
+//
+//	{{ lucide "test-tube-diagonal" }}
 //
 // Direct usage in Go:
-//   lucide.TestTubeDiagonal()
-//   lucide.TestTubeDiagonal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TestTubeDiagonal()
+//	lucide.TestTubeDiagonal(lucide.Options{Size: 32, Class: "my-icon"})
 func TestTubeDiagonal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33924,11 +36858,13 @@ func TestTubeDiagonal(opts ...Options) template.HTML {
 // TestTubes renders the "test-tubes" icon.
 //
 // Usage in templates:
-//   {{ lucide "test-tubes" }}
+//
+//	{{ lucide "test-tubes" }}
 //
 // Direct usage in Go:
-//   lucide.TestTubes()
-//   lucide.TestTubes(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TestTubes()
+//	lucide.TestTubes(lucide.Options{Size: 32, Class: "my-icon"})
 func TestTubes(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33946,11 +36882,13 @@ func TestTubes(opts ...Options) template.HTML {
 // TextAlignCenter renders the "text-align-center" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-align-center" }}
+//
+//	{{ lucide "text-align-center" }}
 //
 // Direct usage in Go:
-//   lucide.TextAlignCenter()
-//   lucide.TextAlignCenter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextAlignCenter()
+//	lucide.TextAlignCenter(lucide.Options{Size: 32, Class: "my-icon"})
 func TextAlignCenter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33968,11 +36906,13 @@ func TextAlignCenter(opts ...Options) template.HTML {
 // TextAlignEnd renders the "text-align-end" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-align-end" }}
+//
+//	{{ lucide "text-align-end" }}
 //
 // Direct usage in Go:
-//   lucide.TextAlignEnd()
-//   lucide.TextAlignEnd(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextAlignEnd()
+//	lucide.TextAlignEnd(lucide.Options{Size: 32, Class: "my-icon"})
 func TextAlignEnd(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -33990,11 +36930,13 @@ func TextAlignEnd(opts ...Options) template.HTML {
 // TextAlignJustify renders the "text-align-justify" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-align-justify" }}
+//
+//	{{ lucide "text-align-justify" }}
 //
 // Direct usage in Go:
-//   lucide.TextAlignJustify()
-//   lucide.TextAlignJustify(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextAlignJustify()
+//	lucide.TextAlignJustify(lucide.Options{Size: 32, Class: "my-icon"})
 func TextAlignJustify(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34012,11 +36954,13 @@ func TextAlignJustify(opts ...Options) template.HTML {
 // TextAlignStart renders the "text-align-start" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-align-start" }}
+//
+//	{{ lucide "text-align-start" }}
 //
 // Direct usage in Go:
-//   lucide.TextAlignStart()
-//   lucide.TextAlignStart(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextAlignStart()
+//	lucide.TextAlignStart(lucide.Options{Size: 32, Class: "my-icon"})
 func TextAlignStart(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34034,11 +36978,13 @@ func TextAlignStart(opts ...Options) template.HTML {
 // TextCursor renders the "text-cursor" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-cursor" }}
+//
+//	{{ lucide "text-cursor" }}
 //
 // Direct usage in Go:
-//   lucide.TextCursor()
-//   lucide.TextCursor(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextCursor()
+//	lucide.TextCursor(lucide.Options{Size: 32, Class: "my-icon"})
 func TextCursor(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34056,11 +37002,13 @@ func TextCursor(opts ...Options) template.HTML {
 // TextCursorInput renders the "text-cursor-input" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-cursor-input" }}
+//
+//	{{ lucide "text-cursor-input" }}
 //
 // Direct usage in Go:
-//   lucide.TextCursorInput()
-//   lucide.TextCursorInput(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextCursorInput()
+//	lucide.TextCursorInput(lucide.Options{Size: 32, Class: "my-icon"})
 func TextCursorInput(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34078,11 +37026,13 @@ func TextCursorInput(opts ...Options) template.HTML {
 // TextInitial renders the "text-initial" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-initial" }}
+//
+//	{{ lucide "text-initial" }}
 //
 // Direct usage in Go:
-//   lucide.TextInitial()
-//   lucide.TextInitial(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextInitial()
+//	lucide.TextInitial(lucide.Options{Size: 32, Class: "my-icon"})
 func TextInitial(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34100,11 +37050,13 @@ func TextInitial(opts ...Options) template.HTML {
 // TextQuote renders the "text-quote" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-quote" }}
+//
+//	{{ lucide "text-quote" }}
 //
 // Direct usage in Go:
-//   lucide.TextQuote()
-//   lucide.TextQuote(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextQuote()
+//	lucide.TextQuote(lucide.Options{Size: 32, Class: "my-icon"})
 func TextQuote(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34122,11 +37074,13 @@ func TextQuote(opts ...Options) template.HTML {
 // TextSearch renders the "text-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-search" }}
+//
+//	{{ lucide "text-search" }}
 //
 // Direct usage in Go:
-//   lucide.TextSearch()
-//   lucide.TextSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextSearch()
+//	lucide.TextSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func TextSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34144,11 +37098,13 @@ func TextSearch(opts ...Options) template.HTML {
 // TextSelect renders the "text-select" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-select" }}
+//
+//	{{ lucide "text-select" }}
 //
 // Direct usage in Go:
-//   lucide.TextSelect()
-//   lucide.TextSelect(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextSelect()
+//	lucide.TextSelect(lucide.Options{Size: 32, Class: "my-icon"})
 func TextSelect(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34166,11 +37122,13 @@ func TextSelect(opts ...Options) template.HTML {
 // TextWrap renders the "text-wrap" icon.
 //
 // Usage in templates:
-//   {{ lucide "text-wrap" }}
+//
+//	{{ lucide "text-wrap" }}
 //
 // Direct usage in Go:
-//   lucide.TextWrap()
-//   lucide.TextWrap(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TextWrap()
+//	lucide.TextWrap(lucide.Options{Size: 32, Class: "my-icon"})
 func TextWrap(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34188,11 +37146,13 @@ func TextWrap(opts ...Options) template.HTML {
 // Theater renders the "theater" icon.
 //
 // Usage in templates:
-//   {{ lucide "theater" }}
+//
+//	{{ lucide "theater" }}
 //
 // Direct usage in Go:
-//   lucide.Theater()
-//   lucide.Theater(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Theater()
+//	lucide.Theater(lucide.Options{Size: 32, Class: "my-icon"})
 func Theater(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34210,11 +37170,13 @@ func Theater(opts ...Options) template.HTML {
 // Thermometer renders the "thermometer" icon.
 //
 // Usage in templates:
-//   {{ lucide "thermometer" }}
+//
+//	{{ lucide "thermometer" }}
 //
 // Direct usage in Go:
-//   lucide.Thermometer()
-//   lucide.Thermometer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Thermometer()
+//	lucide.Thermometer(lucide.Options{Size: 32, Class: "my-icon"})
 func Thermometer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34232,11 +37194,13 @@ func Thermometer(opts ...Options) template.HTML {
 // ThermometerSnowflake renders the "thermometer-snowflake" icon.
 //
 // Usage in templates:
-//   {{ lucide "thermometer-snowflake" }}
+//
+//	{{ lucide "thermometer-snowflake" }}
 //
 // Direct usage in Go:
-//   lucide.ThermometerSnowflake()
-//   lucide.ThermometerSnowflake(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ThermometerSnowflake()
+//	lucide.ThermometerSnowflake(lucide.Options{Size: 32, Class: "my-icon"})
 func ThermometerSnowflake(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34254,11 +37218,13 @@ func ThermometerSnowflake(opts ...Options) template.HTML {
 // ThermometerSun renders the "thermometer-sun" icon.
 //
 // Usage in templates:
-//   {{ lucide "thermometer-sun" }}
+//
+//	{{ lucide "thermometer-sun" }}
 //
 // Direct usage in Go:
-//   lucide.ThermometerSun()
-//   lucide.ThermometerSun(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ThermometerSun()
+//	lucide.ThermometerSun(lucide.Options{Size: 32, Class: "my-icon"})
 func ThermometerSun(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34276,11 +37242,13 @@ func ThermometerSun(opts ...Options) template.HTML {
 // ThumbsDown renders the "thumbs-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "thumbs-down" }}
+//
+//	{{ lucide "thumbs-down" }}
 //
 // Direct usage in Go:
-//   lucide.ThumbsDown()
-//   lucide.ThumbsDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ThumbsDown()
+//	lucide.ThumbsDown(lucide.Options{Size: 32, Class: "my-icon"})
 func ThumbsDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34298,11 +37266,13 @@ func ThumbsDown(opts ...Options) template.HTML {
 // ThumbsUp renders the "thumbs-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "thumbs-up" }}
+//
+//	{{ lucide "thumbs-up" }}
 //
 // Direct usage in Go:
-//   lucide.ThumbsUp()
-//   lucide.ThumbsUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ThumbsUp()
+//	lucide.ThumbsUp(lucide.Options{Size: 32, Class: "my-icon"})
 func ThumbsUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34320,11 +37290,13 @@ func ThumbsUp(opts ...Options) template.HTML {
 // Ticket renders the "ticket" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket" }}
+//
+//	{{ lucide "ticket" }}
 //
 // Direct usage in Go:
-//   lucide.Ticket()
-//   lucide.Ticket(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ticket()
+//	lucide.Ticket(lucide.Options{Size: 32, Class: "my-icon"})
 func Ticket(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34342,11 +37314,13 @@ func Ticket(opts ...Options) template.HTML {
 // TicketCheck renders the "ticket-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket-check" }}
+//
+//	{{ lucide "ticket-check" }}
 //
 // Direct usage in Go:
-//   lucide.TicketCheck()
-//   lucide.TicketCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketCheck()
+//	lucide.TicketCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34364,11 +37338,13 @@ func TicketCheck(opts ...Options) template.HTML {
 // TicketMinus renders the "ticket-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket-minus" }}
+//
+//	{{ lucide "ticket-minus" }}
 //
 // Direct usage in Go:
-//   lucide.TicketMinus()
-//   lucide.TicketMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketMinus()
+//	lucide.TicketMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34386,11 +37362,13 @@ func TicketMinus(opts ...Options) template.HTML {
 // TicketPercent renders the "ticket-percent" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket-percent" }}
+//
+//	{{ lucide "ticket-percent" }}
 //
 // Direct usage in Go:
-//   lucide.TicketPercent()
-//   lucide.TicketPercent(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketPercent()
+//	lucide.TicketPercent(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketPercent(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34408,11 +37386,13 @@ func TicketPercent(opts ...Options) template.HTML {
 // TicketPlus renders the "ticket-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket-plus" }}
+//
+//	{{ lucide "ticket-plus" }}
 //
 // Direct usage in Go:
-//   lucide.TicketPlus()
-//   lucide.TicketPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketPlus()
+//	lucide.TicketPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34430,11 +37410,13 @@ func TicketPlus(opts ...Options) template.HTML {
 // TicketSlash renders the "ticket-slash" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket-slash" }}
+//
+//	{{ lucide "ticket-slash" }}
 //
 // Direct usage in Go:
-//   lucide.TicketSlash()
-//   lucide.TicketSlash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketSlash()
+//	lucide.TicketSlash(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketSlash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34452,11 +37434,13 @@ func TicketSlash(opts ...Options) template.HTML {
 // TicketX renders the "ticket-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "ticket-x" }}
+//
+//	{{ lucide "ticket-x" }}
 //
 // Direct usage in Go:
-//   lucide.TicketX()
-//   lucide.TicketX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketX()
+//	lucide.TicketX(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34474,11 +37458,13 @@ func TicketX(opts ...Options) template.HTML {
 // Tickets renders the "tickets" icon.
 //
 // Usage in templates:
-//   {{ lucide "tickets" }}
+//
+//	{{ lucide "tickets" }}
 //
 // Direct usage in Go:
-//   lucide.Tickets()
-//   lucide.Tickets(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tickets()
+//	lucide.Tickets(lucide.Options{Size: 32, Class: "my-icon"})
 func Tickets(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34496,11 +37482,13 @@ func Tickets(opts ...Options) template.HTML {
 // TicketsPlane renders the "tickets-plane" icon.
 //
 // Usage in templates:
-//   {{ lucide "tickets-plane" }}
+//
+//	{{ lucide "tickets-plane" }}
 //
 // Direct usage in Go:
-//   lucide.TicketsPlane()
-//   lucide.TicketsPlane(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TicketsPlane()
+//	lucide.TicketsPlane(lucide.Options{Size: 32, Class: "my-icon"})
 func TicketsPlane(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34518,11 +37506,13 @@ func TicketsPlane(opts ...Options) template.HTML {
 // Timer renders the "timer" icon.
 //
 // Usage in templates:
-//   {{ lucide "timer" }}
+//
+//	{{ lucide "timer" }}
 //
 // Direct usage in Go:
-//   lucide.Timer()
-//   lucide.Timer(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Timer()
+//	lucide.Timer(lucide.Options{Size: 32, Class: "my-icon"})
 func Timer(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34540,11 +37530,13 @@ func Timer(opts ...Options) template.HTML {
 // TimerOff renders the "timer-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "timer-off" }}
+//
+//	{{ lucide "timer-off" }}
 //
 // Direct usage in Go:
-//   lucide.TimerOff()
-//   lucide.TimerOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TimerOff()
+//	lucide.TimerOff(lucide.Options{Size: 32, Class: "my-icon"})
 func TimerOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34562,11 +37554,13 @@ func TimerOff(opts ...Options) template.HTML {
 // TimerReset renders the "timer-reset" icon.
 //
 // Usage in templates:
-//   {{ lucide "timer-reset" }}
+//
+//	{{ lucide "timer-reset" }}
 //
 // Direct usage in Go:
-//   lucide.TimerReset()
-//   lucide.TimerReset(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TimerReset()
+//	lucide.TimerReset(lucide.Options{Size: 32, Class: "my-icon"})
 func TimerReset(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34584,11 +37578,13 @@ func TimerReset(opts ...Options) template.HTML {
 // ToggleLeft renders the "toggle-left" icon.
 //
 // Usage in templates:
-//   {{ lucide "toggle-left" }}
+//
+//	{{ lucide "toggle-left" }}
 //
 // Direct usage in Go:
-//   lucide.ToggleLeft()
-//   lucide.ToggleLeft(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ToggleLeft()
+//	lucide.ToggleLeft(lucide.Options{Size: 32, Class: "my-icon"})
 func ToggleLeft(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34606,11 +37602,13 @@ func ToggleLeft(opts ...Options) template.HTML {
 // ToggleRight renders the "toggle-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "toggle-right" }}
+//
+//	{{ lucide "toggle-right" }}
 //
 // Direct usage in Go:
-//   lucide.ToggleRight()
-//   lucide.ToggleRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ToggleRight()
+//	lucide.ToggleRight(lucide.Options{Size: 32, Class: "my-icon"})
 func ToggleRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34628,11 +37626,13 @@ func ToggleRight(opts ...Options) template.HTML {
 // Toilet renders the "toilet" icon.
 //
 // Usage in templates:
-//   {{ lucide "toilet" }}
+//
+//	{{ lucide "toilet" }}
 //
 // Direct usage in Go:
-//   lucide.Toilet()
-//   lucide.Toilet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Toilet()
+//	lucide.Toilet(lucide.Options{Size: 32, Class: "my-icon"})
 func Toilet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34650,11 +37650,13 @@ func Toilet(opts ...Options) template.HTML {
 // ToolCase renders the "tool-case" icon.
 //
 // Usage in templates:
-//   {{ lucide "tool-case" }}
+//
+//	{{ lucide "tool-case" }}
 //
 // Direct usage in Go:
-//   lucide.ToolCase()
-//   lucide.ToolCase(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ToolCase()
+//	lucide.ToolCase(lucide.Options{Size: 32, Class: "my-icon"})
 func ToolCase(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34672,11 +37674,13 @@ func ToolCase(opts ...Options) template.HTML {
 // Tornado renders the "tornado" icon.
 //
 // Usage in templates:
-//   {{ lucide "tornado" }}
+//
+//	{{ lucide "tornado" }}
 //
 // Direct usage in Go:
-//   lucide.Tornado()
-//   lucide.Tornado(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tornado()
+//	lucide.Tornado(lucide.Options{Size: 32, Class: "my-icon"})
 func Tornado(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34694,11 +37698,13 @@ func Tornado(opts ...Options) template.HTML {
 // Torus renders the "torus" icon.
 //
 // Usage in templates:
-//   {{ lucide "torus" }}
+//
+//	{{ lucide "torus" }}
 //
 // Direct usage in Go:
-//   lucide.Torus()
-//   lucide.Torus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Torus()
+//	lucide.Torus(lucide.Options{Size: 32, Class: "my-icon"})
 func Torus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34716,11 +37722,13 @@ func Torus(opts ...Options) template.HTML {
 // Touchpad renders the "touchpad" icon.
 //
 // Usage in templates:
-//   {{ lucide "touchpad" }}
+//
+//	{{ lucide "touchpad" }}
 //
 // Direct usage in Go:
-//   lucide.Touchpad()
-//   lucide.Touchpad(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Touchpad()
+//	lucide.Touchpad(lucide.Options{Size: 32, Class: "my-icon"})
 func Touchpad(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34738,11 +37746,13 @@ func Touchpad(opts ...Options) template.HTML {
 // TouchpadOff renders the "touchpad-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "touchpad-off" }}
+//
+//	{{ lucide "touchpad-off" }}
 //
 // Direct usage in Go:
-//   lucide.TouchpadOff()
-//   lucide.TouchpadOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TouchpadOff()
+//	lucide.TouchpadOff(lucide.Options{Size: 32, Class: "my-icon"})
 func TouchpadOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34760,11 +37770,13 @@ func TouchpadOff(opts ...Options) template.HTML {
 // TowerControl renders the "tower-control" icon.
 //
 // Usage in templates:
-//   {{ lucide "tower-control" }}
+//
+//	{{ lucide "tower-control" }}
 //
 // Direct usage in Go:
-//   lucide.TowerControl()
-//   lucide.TowerControl(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TowerControl()
+//	lucide.TowerControl(lucide.Options{Size: 32, Class: "my-icon"})
 func TowerControl(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34782,11 +37794,13 @@ func TowerControl(opts ...Options) template.HTML {
 // ToyBrick renders the "toy-brick" icon.
 //
 // Usage in templates:
-//   {{ lucide "toy-brick" }}
+//
+//	{{ lucide "toy-brick" }}
 //
 // Direct usage in Go:
-//   lucide.ToyBrick()
-//   lucide.ToyBrick(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ToyBrick()
+//	lucide.ToyBrick(lucide.Options{Size: 32, Class: "my-icon"})
 func ToyBrick(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34804,11 +37818,13 @@ func ToyBrick(opts ...Options) template.HTML {
 // Tractor renders the "tractor" icon.
 //
 // Usage in templates:
-//   {{ lucide "tractor" }}
+//
+//	{{ lucide "tractor" }}
 //
 // Direct usage in Go:
-//   lucide.Tractor()
-//   lucide.Tractor(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tractor()
+//	lucide.Tractor(lucide.Options{Size: 32, Class: "my-icon"})
 func Tractor(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34826,11 +37842,13 @@ func Tractor(opts ...Options) template.HTML {
 // TrafficCone renders the "traffic-cone" icon.
 //
 // Usage in templates:
-//   {{ lucide "traffic-cone" }}
+//
+//	{{ lucide "traffic-cone" }}
 //
 // Direct usage in Go:
-//   lucide.TrafficCone()
-//   lucide.TrafficCone(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrafficCone()
+//	lucide.TrafficCone(lucide.Options{Size: 32, Class: "my-icon"})
 func TrafficCone(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34848,11 +37866,13 @@ func TrafficCone(opts ...Options) template.HTML {
 // TrainFront renders the "train-front" icon.
 //
 // Usage in templates:
-//   {{ lucide "train-front" }}
+//
+//	{{ lucide "train-front" }}
 //
 // Direct usage in Go:
-//   lucide.TrainFront()
-//   lucide.TrainFront(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrainFront()
+//	lucide.TrainFront(lucide.Options{Size: 32, Class: "my-icon"})
 func TrainFront(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34870,11 +37890,13 @@ func TrainFront(opts ...Options) template.HTML {
 // TrainFrontTunnel renders the "train-front-tunnel" icon.
 //
 // Usage in templates:
-//   {{ lucide "train-front-tunnel" }}
+//
+//	{{ lucide "train-front-tunnel" }}
 //
 // Direct usage in Go:
-//   lucide.TrainFrontTunnel()
-//   lucide.TrainFrontTunnel(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrainFrontTunnel()
+//	lucide.TrainFrontTunnel(lucide.Options{Size: 32, Class: "my-icon"})
 func TrainFrontTunnel(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34892,11 +37914,13 @@ func TrainFrontTunnel(opts ...Options) template.HTML {
 // TrainTrack renders the "train-track" icon.
 //
 // Usage in templates:
-//   {{ lucide "train-track" }}
+//
+//	{{ lucide "train-track" }}
 //
 // Direct usage in Go:
-//   lucide.TrainTrack()
-//   lucide.TrainTrack(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrainTrack()
+//	lucide.TrainTrack(lucide.Options{Size: 32, Class: "my-icon"})
 func TrainTrack(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34914,11 +37938,13 @@ func TrainTrack(opts ...Options) template.HTML {
 // TramFront renders the "tram-front" icon.
 //
 // Usage in templates:
-//   {{ lucide "tram-front" }}
+//
+//	{{ lucide "tram-front" }}
 //
 // Direct usage in Go:
-//   lucide.TramFront()
-//   lucide.TramFront(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TramFront()
+//	lucide.TramFront(lucide.Options{Size: 32, Class: "my-icon"})
 func TramFront(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34936,11 +37962,13 @@ func TramFront(opts ...Options) template.HTML {
 // Transgender renders the "transgender" icon.
 //
 // Usage in templates:
-//   {{ lucide "transgender" }}
+//
+//	{{ lucide "transgender" }}
 //
 // Direct usage in Go:
-//   lucide.Transgender()
-//   lucide.Transgender(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Transgender()
+//	lucide.Transgender(lucide.Options{Size: 32, Class: "my-icon"})
 func Transgender(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34958,11 +37986,13 @@ func Transgender(opts ...Options) template.HTML {
 // Trash renders the "trash" icon.
 //
 // Usage in templates:
-//   {{ lucide "trash" }}
+//
+//	{{ lucide "trash" }}
 //
 // Direct usage in Go:
-//   lucide.Trash()
-//   lucide.Trash(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Trash()
+//	lucide.Trash(lucide.Options{Size: 32, Class: "my-icon"})
 func Trash(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -34980,11 +38010,13 @@ func Trash(opts ...Options) template.HTML {
 // Trash2 renders the "trash-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "trash-2" }}
+//
+//	{{ lucide "trash-2" }}
 //
 // Direct usage in Go:
-//   lucide.Trash2()
-//   lucide.Trash2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Trash2()
+//	lucide.Trash2(lucide.Options{Size: 32, Class: "my-icon"})
 func Trash2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35002,11 +38034,13 @@ func Trash2(opts ...Options) template.HTML {
 // TreeDeciduous renders the "tree-deciduous" icon.
 //
 // Usage in templates:
-//   {{ lucide "tree-deciduous" }}
+//
+//	{{ lucide "tree-deciduous" }}
 //
 // Direct usage in Go:
-//   lucide.TreeDeciduous()
-//   lucide.TreeDeciduous(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TreeDeciduous()
+//	lucide.TreeDeciduous(lucide.Options{Size: 32, Class: "my-icon"})
 func TreeDeciduous(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35024,11 +38058,13 @@ func TreeDeciduous(opts ...Options) template.HTML {
 // TreePalm renders the "tree-palm" icon.
 //
 // Usage in templates:
-//   {{ lucide "tree-palm" }}
+//
+//	{{ lucide "tree-palm" }}
 //
 // Direct usage in Go:
-//   lucide.TreePalm()
-//   lucide.TreePalm(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TreePalm()
+//	lucide.TreePalm(lucide.Options{Size: 32, Class: "my-icon"})
 func TreePalm(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35046,11 +38082,13 @@ func TreePalm(opts ...Options) template.HTML {
 // TreePine renders the "tree-pine" icon.
 //
 // Usage in templates:
-//   {{ lucide "tree-pine" }}
+//
+//	{{ lucide "tree-pine" }}
 //
 // Direct usage in Go:
-//   lucide.TreePine()
-//   lucide.TreePine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TreePine()
+//	lucide.TreePine(lucide.Options{Size: 32, Class: "my-icon"})
 func TreePine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35068,11 +38106,13 @@ func TreePine(opts ...Options) template.HTML {
 // Trees renders the "trees" icon.
 //
 // Usage in templates:
-//   {{ lucide "trees" }}
+//
+//	{{ lucide "trees" }}
 //
 // Direct usage in Go:
-//   lucide.Trees()
-//   lucide.Trees(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Trees()
+//	lucide.Trees(lucide.Options{Size: 32, Class: "my-icon"})
 func Trees(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35090,11 +38130,13 @@ func Trees(opts ...Options) template.HTML {
 // Trello renders the "trello" icon.
 //
 // Usage in templates:
-//   {{ lucide "trello" }}
+//
+//	{{ lucide "trello" }}
 //
 // Direct usage in Go:
-//   lucide.Trello()
-//   lucide.Trello(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Trello()
+//	lucide.Trello(lucide.Options{Size: 32, Class: "my-icon"})
 func Trello(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35112,11 +38154,13 @@ func Trello(opts ...Options) template.HTML {
 // TrendingDown renders the "trending-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "trending-down" }}
+//
+//	{{ lucide "trending-down" }}
 //
 // Direct usage in Go:
-//   lucide.TrendingDown()
-//   lucide.TrendingDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrendingDown()
+//	lucide.TrendingDown(lucide.Options{Size: 32, Class: "my-icon"})
 func TrendingDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35134,11 +38178,13 @@ func TrendingDown(opts ...Options) template.HTML {
 // TrendingUp renders the "trending-up" icon.
 //
 // Usage in templates:
-//   {{ lucide "trending-up" }}
+//
+//	{{ lucide "trending-up" }}
 //
 // Direct usage in Go:
-//   lucide.TrendingUp()
-//   lucide.TrendingUp(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrendingUp()
+//	lucide.TrendingUp(lucide.Options{Size: 32, Class: "my-icon"})
 func TrendingUp(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35156,11 +38202,13 @@ func TrendingUp(opts ...Options) template.HTML {
 // TrendingUpDown renders the "trending-up-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "trending-up-down" }}
+//
+//	{{ lucide "trending-up-down" }}
 //
 // Direct usage in Go:
-//   lucide.TrendingUpDown()
-//   lucide.TrendingUpDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TrendingUpDown()
+//	lucide.TrendingUpDown(lucide.Options{Size: 32, Class: "my-icon"})
 func TrendingUpDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35178,11 +38226,13 @@ func TrendingUpDown(opts ...Options) template.HTML {
 // Triangle renders the "triangle" icon.
 //
 // Usage in templates:
-//   {{ lucide "triangle" }}
+//
+//	{{ lucide "triangle" }}
 //
 // Direct usage in Go:
-//   lucide.Triangle()
-//   lucide.Triangle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Triangle()
+//	lucide.Triangle(lucide.Options{Size: 32, Class: "my-icon"})
 func Triangle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35200,11 +38250,13 @@ func Triangle(opts ...Options) template.HTML {
 // TriangleAlert renders the "triangle-alert" icon.
 //
 // Usage in templates:
-//   {{ lucide "triangle-alert" }}
+//
+//	{{ lucide "triangle-alert" }}
 //
 // Direct usage in Go:
-//   lucide.TriangleAlert()
-//   lucide.TriangleAlert(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TriangleAlert()
+//	lucide.TriangleAlert(lucide.Options{Size: 32, Class: "my-icon"})
 func TriangleAlert(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35222,11 +38274,13 @@ func TriangleAlert(opts ...Options) template.HTML {
 // TriangleDashed renders the "triangle-dashed" icon.
 //
 // Usage in templates:
-//   {{ lucide "triangle-dashed" }}
+//
+//	{{ lucide "triangle-dashed" }}
 //
 // Direct usage in Go:
-//   lucide.TriangleDashed()
-//   lucide.TriangleDashed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TriangleDashed()
+//	lucide.TriangleDashed(lucide.Options{Size: 32, Class: "my-icon"})
 func TriangleDashed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35244,11 +38298,13 @@ func TriangleDashed(opts ...Options) template.HTML {
 // TriangleRight renders the "triangle-right" icon.
 //
 // Usage in templates:
-//   {{ lucide "triangle-right" }}
+//
+//	{{ lucide "triangle-right" }}
 //
 // Direct usage in Go:
-//   lucide.TriangleRight()
-//   lucide.TriangleRight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TriangleRight()
+//	lucide.TriangleRight(lucide.Options{Size: 32, Class: "my-icon"})
 func TriangleRight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35266,11 +38322,13 @@ func TriangleRight(opts ...Options) template.HTML {
 // Trophy renders the "trophy" icon.
 //
 // Usage in templates:
-//   {{ lucide "trophy" }}
+//
+//	{{ lucide "trophy" }}
 //
 // Direct usage in Go:
-//   lucide.Trophy()
-//   lucide.Trophy(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Trophy()
+//	lucide.Trophy(lucide.Options{Size: 32, Class: "my-icon"})
 func Trophy(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35288,11 +38346,13 @@ func Trophy(opts ...Options) template.HTML {
 // Truck renders the "truck" icon.
 //
 // Usage in templates:
-//   {{ lucide "truck" }}
+//
+//	{{ lucide "truck" }}
 //
 // Direct usage in Go:
-//   lucide.Truck()
-//   lucide.Truck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Truck()
+//	lucide.Truck(lucide.Options{Size: 32, Class: "my-icon"})
 func Truck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35310,11 +38370,13 @@ func Truck(opts ...Options) template.HTML {
 // TruckElectric renders the "truck-electric" icon.
 //
 // Usage in templates:
-//   {{ lucide "truck-electric" }}
+//
+//	{{ lucide "truck-electric" }}
 //
 // Direct usage in Go:
-//   lucide.TruckElectric()
-//   lucide.TruckElectric(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TruckElectric()
+//	lucide.TruckElectric(lucide.Options{Size: 32, Class: "my-icon"})
 func TruckElectric(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35332,11 +38394,13 @@ func TruckElectric(opts ...Options) template.HTML {
 // TurkishLira renders the "turkish-lira" icon.
 //
 // Usage in templates:
-//   {{ lucide "turkish-lira" }}
+//
+//	{{ lucide "turkish-lira" }}
 //
 // Direct usage in Go:
-//   lucide.TurkishLira()
-//   lucide.TurkishLira(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TurkishLira()
+//	lucide.TurkishLira(lucide.Options{Size: 32, Class: "my-icon"})
 func TurkishLira(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35354,11 +38418,13 @@ func TurkishLira(opts ...Options) template.HTML {
 // Turntable renders the "turntable" icon.
 //
 // Usage in templates:
-//   {{ lucide "turntable" }}
+//
+//	{{ lucide "turntable" }}
 //
 // Direct usage in Go:
-//   lucide.Turntable()
-//   lucide.Turntable(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Turntable()
+//	lucide.Turntable(lucide.Options{Size: 32, Class: "my-icon"})
 func Turntable(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35376,11 +38442,13 @@ func Turntable(opts ...Options) template.HTML {
 // Turtle renders the "turtle" icon.
 //
 // Usage in templates:
-//   {{ lucide "turtle" }}
+//
+//	{{ lucide "turtle" }}
 //
 // Direct usage in Go:
-//   lucide.Turtle()
-//   lucide.Turtle(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Turtle()
+//	lucide.Turtle(lucide.Options{Size: 32, Class: "my-icon"})
 func Turtle(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35398,11 +38466,13 @@ func Turtle(opts ...Options) template.HTML {
 // Tv renders the "tv" icon.
 //
 // Usage in templates:
-//   {{ lucide "tv" }}
+//
+//	{{ lucide "tv" }}
 //
 // Direct usage in Go:
-//   lucide.Tv()
-//   lucide.Tv(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Tv()
+//	lucide.Tv(lucide.Options{Size: 32, Class: "my-icon"})
 func Tv(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35420,11 +38490,13 @@ func Tv(opts ...Options) template.HTML {
 // TvMinimal renders the "tv-minimal" icon.
 //
 // Usage in templates:
-//   {{ lucide "tv-minimal" }}
+//
+//	{{ lucide "tv-minimal" }}
 //
 // Direct usage in Go:
-//   lucide.TvMinimal()
-//   lucide.TvMinimal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TvMinimal()
+//	lucide.TvMinimal(lucide.Options{Size: 32, Class: "my-icon"})
 func TvMinimal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35442,11 +38514,13 @@ func TvMinimal(opts ...Options) template.HTML {
 // TvMinimalPlay renders the "tv-minimal-play" icon.
 //
 // Usage in templates:
-//   {{ lucide "tv-minimal-play" }}
+//
+//	{{ lucide "tv-minimal-play" }}
 //
 // Direct usage in Go:
-//   lucide.TvMinimalPlay()
-//   lucide.TvMinimalPlay(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TvMinimalPlay()
+//	lucide.TvMinimalPlay(lucide.Options{Size: 32, Class: "my-icon"})
 func TvMinimalPlay(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35464,11 +38538,13 @@ func TvMinimalPlay(opts ...Options) template.HTML {
 // Twitch renders the "twitch" icon.
 //
 // Usage in templates:
-//   {{ lucide "twitch" }}
+//
+//	{{ lucide "twitch" }}
 //
 // Direct usage in Go:
-//   lucide.Twitch()
-//   lucide.Twitch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Twitch()
+//	lucide.Twitch(lucide.Options{Size: 32, Class: "my-icon"})
 func Twitch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35486,11 +38562,13 @@ func Twitch(opts ...Options) template.HTML {
 // Twitter renders the "twitter" icon.
 //
 // Usage in templates:
-//   {{ lucide "twitter" }}
+//
+//	{{ lucide "twitter" }}
 //
 // Direct usage in Go:
-//   lucide.Twitter()
-//   lucide.Twitter(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Twitter()
+//	lucide.Twitter(lucide.Options{Size: 32, Class: "my-icon"})
 func Twitter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35508,11 +38586,13 @@ func Twitter(opts ...Options) template.HTML {
 // Type renders the "type" icon.
 //
 // Usage in templates:
-//   {{ lucide "type" }}
+//
+//	{{ lucide "type" }}
 //
 // Direct usage in Go:
-//   lucide.Type()
-//   lucide.Type(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Type()
+//	lucide.Type(lucide.Options{Size: 32, Class: "my-icon"})
 func Type(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35530,11 +38610,13 @@ func Type(opts ...Options) template.HTML {
 // TypeOutline renders the "type-outline" icon.
 //
 // Usage in templates:
-//   {{ lucide "type-outline" }}
+//
+//	{{ lucide "type-outline" }}
 //
 // Direct usage in Go:
-//   lucide.TypeOutline()
-//   lucide.TypeOutline(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.TypeOutline()
+//	lucide.TypeOutline(lucide.Options{Size: 32, Class: "my-icon"})
 func TypeOutline(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35552,11 +38634,13 @@ func TypeOutline(opts ...Options) template.HTML {
 // Umbrella renders the "umbrella" icon.
 //
 // Usage in templates:
-//   {{ lucide "umbrella" }}
+//
+//	{{ lucide "umbrella" }}
 //
 // Direct usage in Go:
-//   lucide.Umbrella()
-//   lucide.Umbrella(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Umbrella()
+//	lucide.Umbrella(lucide.Options{Size: 32, Class: "my-icon"})
 func Umbrella(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35574,11 +38658,13 @@ func Umbrella(opts ...Options) template.HTML {
 // UmbrellaOff renders the "umbrella-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "umbrella-off" }}
+//
+//	{{ lucide "umbrella-off" }}
 //
 // Direct usage in Go:
-//   lucide.UmbrellaOff()
-//   lucide.UmbrellaOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UmbrellaOff()
+//	lucide.UmbrellaOff(lucide.Options{Size: 32, Class: "my-icon"})
 func UmbrellaOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35596,11 +38682,13 @@ func UmbrellaOff(opts ...Options) template.HTML {
 // Underline renders the "underline" icon.
 //
 // Usage in templates:
-//   {{ lucide "underline" }}
+//
+//	{{ lucide "underline" }}
 //
 // Direct usage in Go:
-//   lucide.Underline()
-//   lucide.Underline(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Underline()
+//	lucide.Underline(lucide.Options{Size: 32, Class: "my-icon"})
 func Underline(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35618,11 +38706,13 @@ func Underline(opts ...Options) template.HTML {
 // Undo renders the "undo" icon.
 //
 // Usage in templates:
-//   {{ lucide "undo" }}
+//
+//	{{ lucide "undo" }}
 //
 // Direct usage in Go:
-//   lucide.Undo()
-//   lucide.Undo(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Undo()
+//	lucide.Undo(lucide.Options{Size: 32, Class: "my-icon"})
 func Undo(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35640,11 +38730,13 @@ func Undo(opts ...Options) template.HTML {
 // Undo2 renders the "undo-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "undo-2" }}
+//
+//	{{ lucide "undo-2" }}
 //
 // Direct usage in Go:
-//   lucide.Undo2()
-//   lucide.Undo2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Undo2()
+//	lucide.Undo2(lucide.Options{Size: 32, Class: "my-icon"})
 func Undo2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35662,11 +38754,13 @@ func Undo2(opts ...Options) template.HTML {
 // UndoDot renders the "undo-dot" icon.
 //
 // Usage in templates:
-//   {{ lucide "undo-dot" }}
+//
+//	{{ lucide "undo-dot" }}
 //
 // Direct usage in Go:
-//   lucide.UndoDot()
-//   lucide.UndoDot(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UndoDot()
+//	lucide.UndoDot(lucide.Options{Size: 32, Class: "my-icon"})
 func UndoDot(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35684,11 +38778,13 @@ func UndoDot(opts ...Options) template.HTML {
 // UnfoldHorizontal renders the "unfold-horizontal" icon.
 //
 // Usage in templates:
-//   {{ lucide "unfold-horizontal" }}
+//
+//	{{ lucide "unfold-horizontal" }}
 //
 // Direct usage in Go:
-//   lucide.UnfoldHorizontal()
-//   lucide.UnfoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UnfoldHorizontal()
+//	lucide.UnfoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
 func UnfoldHorizontal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35706,11 +38802,13 @@ func UnfoldHorizontal(opts ...Options) template.HTML {
 // UnfoldVertical renders the "unfold-vertical" icon.
 //
 // Usage in templates:
-//   {{ lucide "unfold-vertical" }}
+//
+//	{{ lucide "unfold-vertical" }}
 //
 // Direct usage in Go:
-//   lucide.UnfoldVertical()
-//   lucide.UnfoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UnfoldVertical()
+//	lucide.UnfoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
 func UnfoldVertical(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35728,11 +38826,13 @@ func UnfoldVertical(opts ...Options) template.HTML {
 // Ungroup renders the "ungroup" icon.
 //
 // Usage in templates:
-//   {{ lucide "ungroup" }}
+//
+//	{{ lucide "ungroup" }}
 //
 // Direct usage in Go:
-//   lucide.Ungroup()
-//   lucide.Ungroup(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Ungroup()
+//	lucide.Ungroup(lucide.Options{Size: 32, Class: "my-icon"})
 func Ungroup(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35750,11 +38850,13 @@ func Ungroup(opts ...Options) template.HTML {
 // University renders the "university" icon.
 //
 // Usage in templates:
-//   {{ lucide "university" }}
+//
+//	{{ lucide "university" }}
 //
 // Direct usage in Go:
-//   lucide.University()
-//   lucide.University(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.University()
+//	lucide.University(lucide.Options{Size: 32, Class: "my-icon"})
 func University(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35772,11 +38874,13 @@ func University(opts ...Options) template.HTML {
 // Unlink renders the "unlink" icon.
 //
 // Usage in templates:
-//   {{ lucide "unlink" }}
+//
+//	{{ lucide "unlink" }}
 //
 // Direct usage in Go:
-//   lucide.Unlink()
-//   lucide.Unlink(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Unlink()
+//	lucide.Unlink(lucide.Options{Size: 32, Class: "my-icon"})
 func Unlink(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35794,11 +38898,13 @@ func Unlink(opts ...Options) template.HTML {
 // Unlink2 renders the "unlink-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "unlink-2" }}
+//
+//	{{ lucide "unlink-2" }}
 //
 // Direct usage in Go:
-//   lucide.Unlink2()
-//   lucide.Unlink2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Unlink2()
+//	lucide.Unlink2(lucide.Options{Size: 32, Class: "my-icon"})
 func Unlink2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35816,11 +38922,13 @@ func Unlink2(opts ...Options) template.HTML {
 // Unplug renders the "unplug" icon.
 //
 // Usage in templates:
-//   {{ lucide "unplug" }}
+//
+//	{{ lucide "unplug" }}
 //
 // Direct usage in Go:
-//   lucide.Unplug()
-//   lucide.Unplug(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Unplug()
+//	lucide.Unplug(lucide.Options{Size: 32, Class: "my-icon"})
 func Unplug(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35838,11 +38946,13 @@ func Unplug(opts ...Options) template.HTML {
 // Upload renders the "upload" icon.
 //
 // Usage in templates:
-//   {{ lucide "upload" }}
+//
+//	{{ lucide "upload" }}
 //
 // Direct usage in Go:
-//   lucide.Upload()
-//   lucide.Upload(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Upload()
+//	lucide.Upload(lucide.Options{Size: 32, Class: "my-icon"})
 func Upload(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35860,11 +38970,13 @@ func Upload(opts ...Options) template.HTML {
 // Usb renders the "usb" icon.
 //
 // Usage in templates:
-//   {{ lucide "usb" }}
+//
+//	{{ lucide "usb" }}
 //
 // Direct usage in Go:
-//   lucide.Usb()
-//   lucide.Usb(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Usb()
+//	lucide.Usb(lucide.Options{Size: 32, Class: "my-icon"})
 func Usb(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35882,11 +38994,13 @@ func Usb(opts ...Options) template.HTML {
 // User renders the "user" icon.
 //
 // Usage in templates:
-//   {{ lucide "user" }}
+//
+//	{{ lucide "user" }}
 //
 // Direct usage in Go:
-//   lucide.User()
-//   lucide.User(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.User()
+//	lucide.User(lucide.Options{Size: 32, Class: "my-icon"})
 func User(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35904,11 +39018,13 @@ func User(opts ...Options) template.HTML {
 // UserCheck renders the "user-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-check" }}
+//
+//	{{ lucide "user-check" }}
 //
 // Direct usage in Go:
-//   lucide.UserCheck()
-//   lucide.UserCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserCheck()
+//	lucide.UserCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func UserCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35926,11 +39042,13 @@ func UserCheck(opts ...Options) template.HTML {
 // UserCog renders the "user-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-cog" }}
+//
+//	{{ lucide "user-cog" }}
 //
 // Direct usage in Go:
-//   lucide.UserCog()
-//   lucide.UserCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserCog()
+//	lucide.UserCog(lucide.Options{Size: 32, Class: "my-icon"})
 func UserCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35948,11 +39066,13 @@ func UserCog(opts ...Options) template.HTML {
 // UserLock renders the "user-lock" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-lock" }}
+//
+//	{{ lucide "user-lock" }}
 //
 // Direct usage in Go:
-//   lucide.UserLock()
-//   lucide.UserLock(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserLock()
+//	lucide.UserLock(lucide.Options{Size: 32, Class: "my-icon"})
 func UserLock(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35970,11 +39090,13 @@ func UserLock(opts ...Options) template.HTML {
 // UserMinus renders the "user-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-minus" }}
+//
+//	{{ lucide "user-minus" }}
 //
 // Direct usage in Go:
-//   lucide.UserMinus()
-//   lucide.UserMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserMinus()
+//	lucide.UserMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func UserMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -35992,11 +39114,13 @@ func UserMinus(opts ...Options) template.HTML {
 // UserPen renders the "user-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-pen" }}
+//
+//	{{ lucide "user-pen" }}
 //
 // Direct usage in Go:
-//   lucide.UserPen()
-//   lucide.UserPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserPen()
+//	lucide.UserPen(lucide.Options{Size: 32, Class: "my-icon"})
 func UserPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36014,11 +39138,13 @@ func UserPen(opts ...Options) template.HTML {
 // UserPlus renders the "user-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-plus" }}
+//
+//	{{ lucide "user-plus" }}
 //
 // Direct usage in Go:
-//   lucide.UserPlus()
-//   lucide.UserPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserPlus()
+//	lucide.UserPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func UserPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36036,11 +39162,13 @@ func UserPlus(opts ...Options) template.HTML {
 // UserRound renders the "user-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round" }}
+//
+//	{{ lucide "user-round" }}
 //
 // Direct usage in Go:
-//   lucide.UserRound()
-//   lucide.UserRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRound()
+//	lucide.UserRound(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36058,11 +39186,13 @@ func UserRound(opts ...Options) template.HTML {
 // UserRoundCheck renders the "user-round-check" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-check" }}
+//
+//	{{ lucide "user-round-check" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundCheck()
-//   lucide.UserRoundCheck(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundCheck()
+//	lucide.UserRoundCheck(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundCheck(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36080,11 +39210,13 @@ func UserRoundCheck(opts ...Options) template.HTML {
 // UserRoundCog renders the "user-round-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-cog" }}
+//
+//	{{ lucide "user-round-cog" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundCog()
-//   lucide.UserRoundCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundCog()
+//	lucide.UserRoundCog(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36102,11 +39234,13 @@ func UserRoundCog(opts ...Options) template.HTML {
 // UserRoundMinus renders the "user-round-minus" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-minus" }}
+//
+//	{{ lucide "user-round-minus" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundMinus()
-//   lucide.UserRoundMinus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundMinus()
+//	lucide.UserRoundMinus(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundMinus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36124,11 +39258,13 @@ func UserRoundMinus(opts ...Options) template.HTML {
 // UserRoundPen renders the "user-round-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-pen" }}
+//
+//	{{ lucide "user-round-pen" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundPen()
-//   lucide.UserRoundPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundPen()
+//	lucide.UserRoundPen(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36146,11 +39282,13 @@ func UserRoundPen(opts ...Options) template.HTML {
 // UserRoundPlus renders the "user-round-plus" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-plus" }}
+//
+//	{{ lucide "user-round-plus" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundPlus()
-//   lucide.UserRoundPlus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundPlus()
+//	lucide.UserRoundPlus(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundPlus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36168,11 +39306,13 @@ func UserRoundPlus(opts ...Options) template.HTML {
 // UserRoundSearch renders the "user-round-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-search" }}
+//
+//	{{ lucide "user-round-search" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundSearch()
-//   lucide.UserRoundSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundSearch()
+//	lucide.UserRoundSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36190,11 +39330,13 @@ func UserRoundSearch(opts ...Options) template.HTML {
 // UserRoundX renders the "user-round-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-round-x" }}
+//
+//	{{ lucide "user-round-x" }}
 //
 // Direct usage in Go:
-//   lucide.UserRoundX()
-//   lucide.UserRoundX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserRoundX()
+//	lucide.UserRoundX(lucide.Options{Size: 32, Class: "my-icon"})
 func UserRoundX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36212,11 +39354,13 @@ func UserRoundX(opts ...Options) template.HTML {
 // UserSearch renders the "user-search" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-search" }}
+//
+//	{{ lucide "user-search" }}
 //
 // Direct usage in Go:
-//   lucide.UserSearch()
-//   lucide.UserSearch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserSearch()
+//	lucide.UserSearch(lucide.Options{Size: 32, Class: "my-icon"})
 func UserSearch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36234,11 +39378,13 @@ func UserSearch(opts ...Options) template.HTML {
 // UserStar renders the "user-star" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-star" }}
+//
+//	{{ lucide "user-star" }}
 //
 // Direct usage in Go:
-//   lucide.UserStar()
-//   lucide.UserStar(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserStar()
+//	lucide.UserStar(lucide.Options{Size: 32, Class: "my-icon"})
 func UserStar(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36256,11 +39402,13 @@ func UserStar(opts ...Options) template.HTML {
 // UserX renders the "user-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "user-x" }}
+//
+//	{{ lucide "user-x" }}
 //
 // Direct usage in Go:
-//   lucide.UserX()
-//   lucide.UserX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UserX()
+//	lucide.UserX(lucide.Options{Size: 32, Class: "my-icon"})
 func UserX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36278,11 +39426,13 @@ func UserX(opts ...Options) template.HTML {
 // Users renders the "users" icon.
 //
 // Usage in templates:
-//   {{ lucide "users" }}
+//
+//	{{ lucide "users" }}
 //
 // Direct usage in Go:
-//   lucide.Users()
-//   lucide.Users(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Users()
+//	lucide.Users(lucide.Options{Size: 32, Class: "my-icon"})
 func Users(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36300,11 +39450,13 @@ func Users(opts ...Options) template.HTML {
 // UsersRound renders the "users-round" icon.
 //
 // Usage in templates:
-//   {{ lucide "users-round" }}
+//
+//	{{ lucide "users-round" }}
 //
 // Direct usage in Go:
-//   lucide.UsersRound()
-//   lucide.UsersRound(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UsersRound()
+//	lucide.UsersRound(lucide.Options{Size: 32, Class: "my-icon"})
 func UsersRound(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36322,11 +39474,13 @@ func UsersRound(opts ...Options) template.HTML {
 // Utensils renders the "utensils" icon.
 //
 // Usage in templates:
-//   {{ lucide "utensils" }}
+//
+//	{{ lucide "utensils" }}
 //
 // Direct usage in Go:
-//   lucide.Utensils()
-//   lucide.Utensils(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Utensils()
+//	lucide.Utensils(lucide.Options{Size: 32, Class: "my-icon"})
 func Utensils(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36344,11 +39498,13 @@ func Utensils(opts ...Options) template.HTML {
 // UtensilsCrossed renders the "utensils-crossed" icon.
 //
 // Usage in templates:
-//   {{ lucide "utensils-crossed" }}
+//
+//	{{ lucide "utensils-crossed" }}
 //
 // Direct usage in Go:
-//   lucide.UtensilsCrossed()
-//   lucide.UtensilsCrossed(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UtensilsCrossed()
+//	lucide.UtensilsCrossed(lucide.Options{Size: 32, Class: "my-icon"})
 func UtensilsCrossed(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36366,11 +39522,13 @@ func UtensilsCrossed(opts ...Options) template.HTML {
 // UtilityPole renders the "utility-pole" icon.
 //
 // Usage in templates:
-//   {{ lucide "utility-pole" }}
+//
+//	{{ lucide "utility-pole" }}
 //
 // Direct usage in Go:
-//   lucide.UtilityPole()
-//   lucide.UtilityPole(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.UtilityPole()
+//	lucide.UtilityPole(lucide.Options{Size: 32, Class: "my-icon"})
 func UtilityPole(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36388,11 +39546,13 @@ func UtilityPole(opts ...Options) template.HTML {
 // Variable renders the "variable" icon.
 //
 // Usage in templates:
-//   {{ lucide "variable" }}
+//
+//	{{ lucide "variable" }}
 //
 // Direct usage in Go:
-//   lucide.Variable()
-//   lucide.Variable(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Variable()
+//	lucide.Variable(lucide.Options{Size: 32, Class: "my-icon"})
 func Variable(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36410,11 +39570,13 @@ func Variable(opts ...Options) template.HTML {
 // Vault renders the "vault" icon.
 //
 // Usage in templates:
-//   {{ lucide "vault" }}
+//
+//	{{ lucide "vault" }}
 //
 // Direct usage in Go:
-//   lucide.Vault()
-//   lucide.Vault(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Vault()
+//	lucide.Vault(lucide.Options{Size: 32, Class: "my-icon"})
 func Vault(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36432,11 +39594,13 @@ func Vault(opts ...Options) template.HTML {
 // VectorSquare renders the "vector-square" icon.
 //
 // Usage in templates:
-//   {{ lucide "vector-square" }}
+//
+//	{{ lucide "vector-square" }}
 //
 // Direct usage in Go:
-//   lucide.VectorSquare()
-//   lucide.VectorSquare(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VectorSquare()
+//	lucide.VectorSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func VectorSquare(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36454,11 +39618,13 @@ func VectorSquare(opts ...Options) template.HTML {
 // Vegan renders the "vegan" icon.
 //
 // Usage in templates:
-//   {{ lucide "vegan" }}
+//
+//	{{ lucide "vegan" }}
 //
 // Direct usage in Go:
-//   lucide.Vegan()
-//   lucide.Vegan(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Vegan()
+//	lucide.Vegan(lucide.Options{Size: 32, Class: "my-icon"})
 func Vegan(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36476,11 +39642,13 @@ func Vegan(opts ...Options) template.HTML {
 // VenetianMask renders the "venetian-mask" icon.
 //
 // Usage in templates:
-//   {{ lucide "venetian-mask" }}
+//
+//	{{ lucide "venetian-mask" }}
 //
 // Direct usage in Go:
-//   lucide.VenetianMask()
-//   lucide.VenetianMask(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VenetianMask()
+//	lucide.VenetianMask(lucide.Options{Size: 32, Class: "my-icon"})
 func VenetianMask(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36498,11 +39666,13 @@ func VenetianMask(opts ...Options) template.HTML {
 // Venus renders the "venus" icon.
 //
 // Usage in templates:
-//   {{ lucide "venus" }}
+//
+//	{{ lucide "venus" }}
 //
 // Direct usage in Go:
-//   lucide.Venus()
-//   lucide.Venus(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Venus()
+//	lucide.Venus(lucide.Options{Size: 32, Class: "my-icon"})
 func Venus(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36520,11 +39690,13 @@ func Venus(opts ...Options) template.HTML {
 // VenusAndMars renders the "venus-and-mars" icon.
 //
 // Usage in templates:
-//   {{ lucide "venus-and-mars" }}
+//
+//	{{ lucide "venus-and-mars" }}
 //
 // Direct usage in Go:
-//   lucide.VenusAndMars()
-//   lucide.VenusAndMars(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VenusAndMars()
+//	lucide.VenusAndMars(lucide.Options{Size: 32, Class: "my-icon"})
 func VenusAndMars(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36542,11 +39714,13 @@ func VenusAndMars(opts ...Options) template.HTML {
 // Vibrate renders the "vibrate" icon.
 //
 // Usage in templates:
-//   {{ lucide "vibrate" }}
+//
+//	{{ lucide "vibrate" }}
 //
 // Direct usage in Go:
-//   lucide.Vibrate()
-//   lucide.Vibrate(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Vibrate()
+//	lucide.Vibrate(lucide.Options{Size: 32, Class: "my-icon"})
 func Vibrate(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36564,11 +39738,13 @@ func Vibrate(opts ...Options) template.HTML {
 // VibrateOff renders the "vibrate-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "vibrate-off" }}
+//
+//	{{ lucide "vibrate-off" }}
 //
 // Direct usage in Go:
-//   lucide.VibrateOff()
-//   lucide.VibrateOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VibrateOff()
+//	lucide.VibrateOff(lucide.Options{Size: 32, Class: "my-icon"})
 func VibrateOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36586,11 +39762,13 @@ func VibrateOff(opts ...Options) template.HTML {
 // Video renders the "video" icon.
 //
 // Usage in templates:
-//   {{ lucide "video" }}
+//
+//	{{ lucide "video" }}
 //
 // Direct usage in Go:
-//   lucide.Video()
-//   lucide.Video(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Video()
+//	lucide.Video(lucide.Options{Size: 32, Class: "my-icon"})
 func Video(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36608,11 +39786,13 @@ func Video(opts ...Options) template.HTML {
 // VideoOff renders the "video-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "video-off" }}
+//
+//	{{ lucide "video-off" }}
 //
 // Direct usage in Go:
-//   lucide.VideoOff()
-//   lucide.VideoOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VideoOff()
+//	lucide.VideoOff(lucide.Options{Size: 32, Class: "my-icon"})
 func VideoOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36630,11 +39810,13 @@ func VideoOff(opts ...Options) template.HTML {
 // Videotape renders the "videotape" icon.
 //
 // Usage in templates:
-//   {{ lucide "videotape" }}
+//
+//	{{ lucide "videotape" }}
 //
 // Direct usage in Go:
-//   lucide.Videotape()
-//   lucide.Videotape(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Videotape()
+//	lucide.Videotape(lucide.Options{Size: 32, Class: "my-icon"})
 func Videotape(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36652,11 +39834,13 @@ func Videotape(opts ...Options) template.HTML {
 // View renders the "view" icon.
 //
 // Usage in templates:
-//   {{ lucide "view" }}
+//
+//	{{ lucide "view" }}
 //
 // Direct usage in Go:
-//   lucide.View()
-//   lucide.View(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.View()
+//	lucide.View(lucide.Options{Size: 32, Class: "my-icon"})
 func View(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36674,11 +39858,13 @@ func View(opts ...Options) template.HTML {
 // Voicemail renders the "voicemail" icon.
 //
 // Usage in templates:
-//   {{ lucide "voicemail" }}
+//
+//	{{ lucide "voicemail" }}
 //
 // Direct usage in Go:
-//   lucide.Voicemail()
-//   lucide.Voicemail(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Voicemail()
+//	lucide.Voicemail(lucide.Options{Size: 32, Class: "my-icon"})
 func Voicemail(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36696,11 +39882,13 @@ func Voicemail(opts ...Options) template.HTML {
 // Volleyball renders the "volleyball" icon.
 //
 // Usage in templates:
-//   {{ lucide "volleyball" }}
+//
+//	{{ lucide "volleyball" }}
 //
 // Direct usage in Go:
-//   lucide.Volleyball()
-//   lucide.Volleyball(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Volleyball()
+//	lucide.Volleyball(lucide.Options{Size: 32, Class: "my-icon"})
 func Volleyball(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36718,11 +39906,13 @@ func Volleyball(opts ...Options) template.HTML {
 // Volume renders the "volume" icon.
 //
 // Usage in templates:
-//   {{ lucide "volume" }}
+//
+//	{{ lucide "volume" }}
 //
 // Direct usage in Go:
-//   lucide.Volume()
-//   lucide.Volume(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Volume()
+//	lucide.Volume(lucide.Options{Size: 32, Class: "my-icon"})
 func Volume(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36740,11 +39930,13 @@ func Volume(opts ...Options) template.HTML {
 // Volume1 renders the "volume-1" icon.
 //
 // Usage in templates:
-//   {{ lucide "volume-1" }}
+//
+//	{{ lucide "volume-1" }}
 //
 // Direct usage in Go:
-//   lucide.Volume1()
-//   lucide.Volume1(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Volume1()
+//	lucide.Volume1(lucide.Options{Size: 32, Class: "my-icon"})
 func Volume1(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36762,11 +39954,13 @@ func Volume1(opts ...Options) template.HTML {
 // Volume2 renders the "volume-2" icon.
 //
 // Usage in templates:
-//   {{ lucide "volume-2" }}
+//
+//	{{ lucide "volume-2" }}
 //
 // Direct usage in Go:
-//   lucide.Volume2()
-//   lucide.Volume2(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Volume2()
+//	lucide.Volume2(lucide.Options{Size: 32, Class: "my-icon"})
 func Volume2(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36784,11 +39978,13 @@ func Volume2(opts ...Options) template.HTML {
 // VolumeOff renders the "volume-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "volume-off" }}
+//
+//	{{ lucide "volume-off" }}
 //
 // Direct usage in Go:
-//   lucide.VolumeOff()
-//   lucide.VolumeOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VolumeOff()
+//	lucide.VolumeOff(lucide.Options{Size: 32, Class: "my-icon"})
 func VolumeOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36806,11 +40002,13 @@ func VolumeOff(opts ...Options) template.HTML {
 // VolumeX renders the "volume-x" icon.
 //
 // Usage in templates:
-//   {{ lucide "volume-x" }}
+//
+//	{{ lucide "volume-x" }}
 //
 // Direct usage in Go:
-//   lucide.VolumeX()
-//   lucide.VolumeX(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.VolumeX()
+//	lucide.VolumeX(lucide.Options{Size: 32, Class: "my-icon"})
 func VolumeX(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36828,11 +40026,13 @@ func VolumeX(opts ...Options) template.HTML {
 // Vote renders the "vote" icon.
 //
 // Usage in templates:
-//   {{ lucide "vote" }}
+//
+//	{{ lucide "vote" }}
 //
 // Direct usage in Go:
-//   lucide.Vote()
-//   lucide.Vote(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Vote()
+//	lucide.Vote(lucide.Options{Size: 32, Class: "my-icon"})
 func Vote(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36850,11 +40050,13 @@ func Vote(opts ...Options) template.HTML {
 // Wallet renders the "wallet" icon.
 //
 // Usage in templates:
-//   {{ lucide "wallet" }}
+//
+//	{{ lucide "wallet" }}
 //
 // Direct usage in Go:
-//   lucide.Wallet()
-//   lucide.Wallet(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wallet()
+//	lucide.Wallet(lucide.Options{Size: 32, Class: "my-icon"})
 func Wallet(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36872,11 +40074,13 @@ func Wallet(opts ...Options) template.HTML {
 // WalletCards renders the "wallet-cards" icon.
 //
 // Usage in templates:
-//   {{ lucide "wallet-cards" }}
+//
+//	{{ lucide "wallet-cards" }}
 //
 // Direct usage in Go:
-//   lucide.WalletCards()
-//   lucide.WalletCards(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WalletCards()
+//	lucide.WalletCards(lucide.Options{Size: 32, Class: "my-icon"})
 func WalletCards(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36894,11 +40098,13 @@ func WalletCards(opts ...Options) template.HTML {
 // WalletMinimal renders the "wallet-minimal" icon.
 //
 // Usage in templates:
-//   {{ lucide "wallet-minimal" }}
+//
+//	{{ lucide "wallet-minimal" }}
 //
 // Direct usage in Go:
-//   lucide.WalletMinimal()
-//   lucide.WalletMinimal(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WalletMinimal()
+//	lucide.WalletMinimal(lucide.Options{Size: 32, Class: "my-icon"})
 func WalletMinimal(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36916,11 +40122,13 @@ func WalletMinimal(opts ...Options) template.HTML {
 // Wallpaper renders the "wallpaper" icon.
 //
 // Usage in templates:
-//   {{ lucide "wallpaper" }}
+//
+//	{{ lucide "wallpaper" }}
 //
 // Direct usage in Go:
-//   lucide.Wallpaper()
-//   lucide.Wallpaper(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wallpaper()
+//	lucide.Wallpaper(lucide.Options{Size: 32, Class: "my-icon"})
 func Wallpaper(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36938,11 +40146,13 @@ func Wallpaper(opts ...Options) template.HTML {
 // Wand renders the "wand" icon.
 //
 // Usage in templates:
-//   {{ lucide "wand" }}
+//
+//	{{ lucide "wand" }}
 //
 // Direct usage in Go:
-//   lucide.Wand()
-//   lucide.Wand(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wand()
+//	lucide.Wand(lucide.Options{Size: 32, Class: "my-icon"})
 func Wand(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36960,11 +40170,13 @@ func Wand(opts ...Options) template.HTML {
 // WandSparkles renders the "wand-sparkles" icon.
 //
 // Usage in templates:
-//   {{ lucide "wand-sparkles" }}
+//
+//	{{ lucide "wand-sparkles" }}
 //
 // Direct usage in Go:
-//   lucide.WandSparkles()
-//   lucide.WandSparkles(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WandSparkles()
+//	lucide.WandSparkles(lucide.Options{Size: 32, Class: "my-icon"})
 func WandSparkles(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -36982,11 +40194,13 @@ func WandSparkles(opts ...Options) template.HTML {
 // Warehouse renders the "warehouse" icon.
 //
 // Usage in templates:
-//   {{ lucide "warehouse" }}
+//
+//	{{ lucide "warehouse" }}
 //
 // Direct usage in Go:
-//   lucide.Warehouse()
-//   lucide.Warehouse(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Warehouse()
+//	lucide.Warehouse(lucide.Options{Size: 32, Class: "my-icon"})
 func Warehouse(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37004,11 +40218,13 @@ func Warehouse(opts ...Options) template.HTML {
 // WashingMachine renders the "washing-machine" icon.
 //
 // Usage in templates:
-//   {{ lucide "washing-machine" }}
+//
+//	{{ lucide "washing-machine" }}
 //
 // Direct usage in Go:
-//   lucide.WashingMachine()
-//   lucide.WashingMachine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WashingMachine()
+//	lucide.WashingMachine(lucide.Options{Size: 32, Class: "my-icon"})
 func WashingMachine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37026,11 +40242,13 @@ func WashingMachine(opts ...Options) template.HTML {
 // Watch renders the "watch" icon.
 //
 // Usage in templates:
-//   {{ lucide "watch" }}
+//
+//	{{ lucide "watch" }}
 //
 // Direct usage in Go:
-//   lucide.Watch()
-//   lucide.Watch(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Watch()
+//	lucide.Watch(lucide.Options{Size: 32, Class: "my-icon"})
 func Watch(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37048,11 +40266,13 @@ func Watch(opts ...Options) template.HTML {
 // Waves renders the "waves" icon.
 //
 // Usage in templates:
-//   {{ lucide "waves" }}
+//
+//	{{ lucide "waves" }}
 //
 // Direct usage in Go:
-//   lucide.Waves()
-//   lucide.Waves(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Waves()
+//	lucide.Waves(lucide.Options{Size: 32, Class: "my-icon"})
 func Waves(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37070,11 +40290,13 @@ func Waves(opts ...Options) template.HTML {
 // WavesLadder renders the "waves-ladder" icon.
 //
 // Usage in templates:
-//   {{ lucide "waves-ladder" }}
+//
+//	{{ lucide "waves-ladder" }}
 //
 // Direct usage in Go:
-//   lucide.WavesLadder()
-//   lucide.WavesLadder(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WavesLadder()
+//	lucide.WavesLadder(lucide.Options{Size: 32, Class: "my-icon"})
 func WavesLadder(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37092,11 +40314,13 @@ func WavesLadder(opts ...Options) template.HTML {
 // Waypoints renders the "waypoints" icon.
 //
 // Usage in templates:
-//   {{ lucide "waypoints" }}
+//
+//	{{ lucide "waypoints" }}
 //
 // Direct usage in Go:
-//   lucide.Waypoints()
-//   lucide.Waypoints(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Waypoints()
+//	lucide.Waypoints(lucide.Options{Size: 32, Class: "my-icon"})
 func Waypoints(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37114,11 +40338,13 @@ func Waypoints(opts ...Options) template.HTML {
 // Webcam renders the "webcam" icon.
 //
 // Usage in templates:
-//   {{ lucide "webcam" }}
+//
+//	{{ lucide "webcam" }}
 //
 // Direct usage in Go:
-//   lucide.Webcam()
-//   lucide.Webcam(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Webcam()
+//	lucide.Webcam(lucide.Options{Size: 32, Class: "my-icon"})
 func Webcam(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37136,11 +40362,13 @@ func Webcam(opts ...Options) template.HTML {
 // Webhook renders the "webhook" icon.
 //
 // Usage in templates:
-//   {{ lucide "webhook" }}
+//
+//	{{ lucide "webhook" }}
 //
 // Direct usage in Go:
-//   lucide.Webhook()
-//   lucide.Webhook(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Webhook()
+//	lucide.Webhook(lucide.Options{Size: 32, Class: "my-icon"})
 func Webhook(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37158,11 +40386,13 @@ func Webhook(opts ...Options) template.HTML {
 // WebhookOff renders the "webhook-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "webhook-off" }}
+//
+//	{{ lucide "webhook-off" }}
 //
 // Direct usage in Go:
-//   lucide.WebhookOff()
-//   lucide.WebhookOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WebhookOff()
+//	lucide.WebhookOff(lucide.Options{Size: 32, Class: "my-icon"})
 func WebhookOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37180,11 +40410,13 @@ func WebhookOff(opts ...Options) template.HTML {
 // Weight renders the "weight" icon.
 //
 // Usage in templates:
-//   {{ lucide "weight" }}
+//
+//	{{ lucide "weight" }}
 //
 // Direct usage in Go:
-//   lucide.Weight()
-//   lucide.Weight(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Weight()
+//	lucide.Weight(lucide.Options{Size: 32, Class: "my-icon"})
 func Weight(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37202,11 +40434,13 @@ func Weight(opts ...Options) template.HTML {
 // Wheat renders the "wheat" icon.
 //
 // Usage in templates:
-//   {{ lucide "wheat" }}
+//
+//	{{ lucide "wheat" }}
 //
 // Direct usage in Go:
-//   lucide.Wheat()
-//   lucide.Wheat(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wheat()
+//	lucide.Wheat(lucide.Options{Size: 32, Class: "my-icon"})
 func Wheat(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37224,11 +40458,13 @@ func Wheat(opts ...Options) template.HTML {
 // WheatOff renders the "wheat-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "wheat-off" }}
+//
+//	{{ lucide "wheat-off" }}
 //
 // Direct usage in Go:
-//   lucide.WheatOff()
-//   lucide.WheatOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WheatOff()
+//	lucide.WheatOff(lucide.Options{Size: 32, Class: "my-icon"})
 func WheatOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37246,11 +40482,13 @@ func WheatOff(opts ...Options) template.HTML {
 // WholeWord renders the "whole-word" icon.
 //
 // Usage in templates:
-//   {{ lucide "whole-word" }}
+//
+//	{{ lucide "whole-word" }}
 //
 // Direct usage in Go:
-//   lucide.WholeWord()
-//   lucide.WholeWord(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WholeWord()
+//	lucide.WholeWord(lucide.Options{Size: 32, Class: "my-icon"})
 func WholeWord(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37268,11 +40506,13 @@ func WholeWord(opts ...Options) template.HTML {
 // Wifi renders the "wifi" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi" }}
+//
+//	{{ lucide "wifi" }}
 //
 // Direct usage in Go:
-//   lucide.Wifi()
-//   lucide.Wifi(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wifi()
+//	lucide.Wifi(lucide.Options{Size: 32, Class: "my-icon"})
 func Wifi(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37290,11 +40530,13 @@ func Wifi(opts ...Options) template.HTML {
 // WifiCog renders the "wifi-cog" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-cog" }}
+//
+//	{{ lucide "wifi-cog" }}
 //
 // Direct usage in Go:
-//   lucide.WifiCog()
-//   lucide.WifiCog(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiCog()
+//	lucide.WifiCog(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiCog(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37312,11 +40554,13 @@ func WifiCog(opts ...Options) template.HTML {
 // WifiHigh renders the "wifi-high" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-high" }}
+//
+//	{{ lucide "wifi-high" }}
 //
 // Direct usage in Go:
-//   lucide.WifiHigh()
-//   lucide.WifiHigh(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiHigh()
+//	lucide.WifiHigh(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiHigh(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37334,11 +40578,13 @@ func WifiHigh(opts ...Options) template.HTML {
 // WifiLow renders the "wifi-low" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-low" }}
+//
+//	{{ lucide "wifi-low" }}
 //
 // Direct usage in Go:
-//   lucide.WifiLow()
-//   lucide.WifiLow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiLow()
+//	lucide.WifiLow(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiLow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37356,11 +40602,13 @@ func WifiLow(opts ...Options) template.HTML {
 // WifiOff renders the "wifi-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-off" }}
+//
+//	{{ lucide "wifi-off" }}
 //
 // Direct usage in Go:
-//   lucide.WifiOff()
-//   lucide.WifiOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiOff()
+//	lucide.WifiOff(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37378,11 +40626,13 @@ func WifiOff(opts ...Options) template.HTML {
 // WifiPen renders the "wifi-pen" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-pen" }}
+//
+//	{{ lucide "wifi-pen" }}
 //
 // Direct usage in Go:
-//   lucide.WifiPen()
-//   lucide.WifiPen(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiPen()
+//	lucide.WifiPen(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiPen(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37400,11 +40650,13 @@ func WifiPen(opts ...Options) template.HTML {
 // WifiSync renders the "wifi-sync" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-sync" }}
+//
+//	{{ lucide "wifi-sync" }}
 //
 // Direct usage in Go:
-//   lucide.WifiSync()
-//   lucide.WifiSync(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiSync()
+//	lucide.WifiSync(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiSync(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37422,11 +40674,13 @@ func WifiSync(opts ...Options) template.HTML {
 // WifiZero renders the "wifi-zero" icon.
 //
 // Usage in templates:
-//   {{ lucide "wifi-zero" }}
+//
+//	{{ lucide "wifi-zero" }}
 //
 // Direct usage in Go:
-//   lucide.WifiZero()
-//   lucide.WifiZero(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WifiZero()
+//	lucide.WifiZero(lucide.Options{Size: 32, Class: "my-icon"})
 func WifiZero(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37444,11 +40698,13 @@ func WifiZero(opts ...Options) template.HTML {
 // Wind renders the "wind" icon.
 //
 // Usage in templates:
-//   {{ lucide "wind" }}
+//
+//	{{ lucide "wind" }}
 //
 // Direct usage in Go:
-//   lucide.Wind()
-//   lucide.Wind(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wind()
+//	lucide.Wind(lucide.Options{Size: 32, Class: "my-icon"})
 func Wind(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37466,11 +40722,13 @@ func Wind(opts ...Options) template.HTML {
 // WindArrowDown renders the "wind-arrow-down" icon.
 //
 // Usage in templates:
-//   {{ lucide "wind-arrow-down" }}
+//
+//	{{ lucide "wind-arrow-down" }}
 //
 // Direct usage in Go:
-//   lucide.WindArrowDown()
-//   lucide.WindArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WindArrowDown()
+//	lucide.WindArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
 func WindArrowDown(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37488,11 +40746,13 @@ func WindArrowDown(opts ...Options) template.HTML {
 // Wine renders the "wine" icon.
 //
 // Usage in templates:
-//   {{ lucide "wine" }}
+//
+//	{{ lucide "wine" }}
 //
 // Direct usage in Go:
-//   lucide.Wine()
-//   lucide.Wine(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wine()
+//	lucide.Wine(lucide.Options{Size: 32, Class: "my-icon"})
 func Wine(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37510,11 +40770,13 @@ func Wine(opts ...Options) template.HTML {
 // WineOff renders the "wine-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "wine-off" }}
+//
+//	{{ lucide "wine-off" }}
 //
 // Direct usage in Go:
-//   lucide.WineOff()
-//   lucide.WineOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.WineOff()
+//	lucide.WineOff(lucide.Options{Size: 32, Class: "my-icon"})
 func WineOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37532,11 +40794,13 @@ func WineOff(opts ...Options) template.HTML {
 // Workflow renders the "workflow" icon.
 //
 // Usage in templates:
-//   {{ lucide "workflow" }}
+//
+//	{{ lucide "workflow" }}
 //
 // Direct usage in Go:
-//   lucide.Workflow()
-//   lucide.Workflow(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Workflow()
+//	lucide.Workflow(lucide.Options{Size: 32, Class: "my-icon"})
 func Workflow(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37554,11 +40818,13 @@ func Workflow(opts ...Options) template.HTML {
 // Worm renders the "worm" icon.
 //
 // Usage in templates:
-//   {{ lucide "worm" }}
+//
+//	{{ lucide "worm" }}
 //
 // Direct usage in Go:
-//   lucide.Worm()
-//   lucide.Worm(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Worm()
+//	lucide.Worm(lucide.Options{Size: 32, Class: "my-icon"})
 func Worm(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37576,11 +40842,13 @@ func Worm(opts ...Options) template.HTML {
 // Wrench renders the "wrench" icon.
 //
 // Usage in templates:
-//   {{ lucide "wrench" }}
+//
+//	{{ lucide "wrench" }}
 //
 // Direct usage in Go:
-//   lucide.Wrench()
-//   lucide.Wrench(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Wrench()
+//	lucide.Wrench(lucide.Options{Size: 32, Class: "my-icon"})
 func Wrench(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37598,11 +40866,13 @@ func Wrench(opts ...Options) template.HTML {
 // X renders the "x" icon.
 //
 // Usage in templates:
-//   {{ lucide "x" }}
+//
+//	{{ lucide "x" }}
 //
 // Direct usage in Go:
-//   lucide.X()
-//   lucide.X(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.X()
+//	lucide.X(lucide.Options{Size: 32, Class: "my-icon"})
 func X(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37620,11 +40890,13 @@ func X(opts ...Options) template.HTML {
 // Youtube renders the "youtube" icon.
 //
 // Usage in templates:
-//   {{ lucide "youtube" }}
+//
+//	{{ lucide "youtube" }}
 //
 // Direct usage in Go:
-//   lucide.Youtube()
-//   lucide.Youtube(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Youtube()
+//	lucide.Youtube(lucide.Options{Size: 32, Class: "my-icon"})
 func Youtube(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37642,11 +40914,13 @@ func Youtube(opts ...Options) template.HTML {
 // Zap renders the "zap" icon.
 //
 // Usage in templates:
-//   {{ lucide "zap" }}
+//
+//	{{ lucide "zap" }}
 //
 // Direct usage in Go:
-//   lucide.Zap()
-//   lucide.Zap(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.Zap()
+//	lucide.Zap(lucide.Options{Size: 32, Class: "my-icon"})
 func Zap(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37664,11 +40938,13 @@ func Zap(opts ...Options) template.HTML {
 // ZapOff renders the "zap-off" icon.
 //
 // Usage in templates:
-//   {{ lucide "zap-off" }}
+//
+//	{{ lucide "zap-off" }}
 //
 // Direct usage in Go:
-//   lucide.ZapOff()
-//   lucide.ZapOff(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ZapOff()
+//	lucide.ZapOff(lucide.Options{Size: 32, Class: "my-icon"})
 func ZapOff(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37686,11 +40962,13 @@ func ZapOff(opts ...Options) template.HTML {
 // ZoomIn renders the "zoom-in" icon.
 //
 // Usage in templates:
-//   {{ lucide "zoom-in" }}
+//
+//	{{ lucide "zoom-in" }}
 //
 // Direct usage in Go:
-//   lucide.ZoomIn()
-//   lucide.ZoomIn(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ZoomIn()
+//	lucide.ZoomIn(lucide.Options{Size: 32, Class: "my-icon"})
 func ZoomIn(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
@@ -37708,11 +40986,13 @@ func ZoomIn(opts ...Options) template.HTML {
 // ZoomOut renders the "zoom-out" icon.
 //
 // Usage in templates:
-//   {{ lucide "zoom-out" }}
+//
+//	{{ lucide "zoom-out" }}
 //
 // Direct usage in Go:
-//   lucide.ZoomOut()
-//   lucide.ZoomOut(lucide.Options{Size: 32, Class: "my-icon"})
+//
+//	lucide.ZoomOut()
+//	lucide.ZoomOut(lucide.Options{Size: 32, Class: "my-icon"})
 func ZoomOut(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
