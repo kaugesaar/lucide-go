@@ -110,14 +110,14 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: |
-          Update Lucide icons to ${{ steps.check-updates.outputs.new_version }}
+          chore: update lucide icons to ${{ steps.check-updates.outputs.new_version }}
 
           - Updated from ${{ steps.check-updates.outputs.current_version }} to ${{ steps.check-updates.outputs.new_version }}
           - Regenerated icon functions
           - Updated CHANGELOG.md
         branch: update-lucide-icons
         delete-branch: true
-        title: 'Update Lucide icons to ${{ steps.check-updates.outputs.new_version }}'
+          title: 'chore: Update lucide icons to ${{ steps.check-updates.outputs.new_version }}'
         body: |
           ## 🎨 Lucide Icons Update
 
