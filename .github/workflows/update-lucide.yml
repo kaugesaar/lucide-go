@@ -117,7 +117,7 @@ jobs:
           - Updated CHANGELOG.md
         branch: update-lucide-icons
         delete-branch: true
-          title: 'chore: Update lucide icons to ${{ steps.check-updates.outputs.new_version }}'
+        title: 'chore: Update lucide icons to ${{ steps.check-updates.outputs.new_version }}'
         body: |
           ## 🎨 Lucide Icons Update
 
