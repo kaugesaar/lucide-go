@@ -1,6 +1,6 @@
 # Lucide Go
 
-Implementation of the [Lucide icon library](https://github.com/lucide-icons/lucide) for Go's `html/template`. 
+Lucide icons for Go's `html/template`. Each icon renders as an inline SVG and can be used either in templates or directly in Go code. 
 
 ## Installation
 
@@ -46,6 +46,15 @@ Then use icons in your templates:
 <!-- Multiple classes (Tailwind example) -->
 {{ lucide "menu" (dict "class" "w-6 h-6 text-gray-700 hover:text-gray-900") }}
 ```
+
+**Available options:**
+
+| name          | type     | default      |
+| ------------- | -------- | ------------ |
+| `size`        | *int*    | 24           |
+| `color`       | *string* | currentColor |
+| `strokeWidth` | *int*    | 2            |
+| `class`       | *string* |              |
 
 ### Configuration Options
 
@@ -151,6 +160,7 @@ func Play(opts ...Options) template.HTML
 ```go
 type Options struct {
     Size        int    // Width/height in pixels (default: 24)
+    Color       string // Stroke color (default: currentColor)
     StrokeWidth int    // Stroke width (default: 2)
     Class       string // CSS classes
 }
