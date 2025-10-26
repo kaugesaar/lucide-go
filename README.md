@@ -1,15 +1,14 @@
 # Lucide Go
 
-Implementation of the [Lucide icon library](https://github.com/lucide-icons/lucide) for Go templates.
+Implementation of the [Lucide icon library](https://github.com/lucide-icons/lucide) for Go templates. 
 
-Beautiful, consistent icons for server-side rendered Go applications. Use Lucide icons directly in your `html/template` templates without JavaScript dependencies.
+Use Lucide icons directly in your `html/template` templates without JavaScript dependencies.
 
 ## Features
 
-- 🎨 1600+ beautiful icons from [Lucide](https://lucide.dev)
-- 🔧 Customizable size, color, stroke width, and CSS classes
-- 📦 Works with Go's `html/template` package
-- 🎯 Type-safe icon functions for direct Go usage
+- 1600+ icons from [Lucide](https://lucide.dev)
+- Customizable size, color, stroke width, and CSS classes
+- Works with Go's `html/template` package
 
 ## Installation
 
@@ -19,7 +18,7 @@ go get github.com/kaugesaar/lucide-go
 
 ## Usage
 
-### In Templates (Primary use case)
+### In Templates
 
 Register the icon function in your template:
 
@@ -67,7 +66,7 @@ tmpl.Funcs(lucide.FuncMap(&lucide.Config{
 }))
 ```
 
-**Disable dict helper** (if using [Sprig](https://masterminds.github.io/sprig/) or providing your own):
+**Disable dict helper** (e.g. using [Sprig](https://masterminds.github.io/sprig/) or providing your own):
 
 ```go
 tmpl.Funcs(lucide.FuncMap(&lucide.Config{
@@ -75,7 +74,7 @@ tmpl.Funcs(lucide.FuncMap(&lucide.Config{
 }))
 ```
 
-**Manual registration** (if building your own FuncMap):
+**Manual registration**:
 
 ```go
 tmpl.Funcs(template.FuncMap{
@@ -86,7 +85,7 @@ tmpl.Funcs(template.FuncMap{
 
 ### Direct Go Usage
 
-You can also use icons directly in Go code with type-safe functions:
+You can also use icons directly in Go code:
 
 ```go
 package main
