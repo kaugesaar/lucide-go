@@ -96,6 +96,17 @@ func main() {
         </div>
 
         <div class="example">
+            <h3>Custom Stroke Color</h3>
+            <div class="icon-row">
+                {{ lucide "circle" (dict "color" "red") }}
+                {{ lucide "square" (dict "color" "green") }}
+                {{ lucide "triangle" (dict "color" "blue") }}
+                {{ lucide "hexagon" (dict "color" "gray") }}
+                <code>{{ "{{" }} lucide "circle" (dict "color" "red") {{ "}}" }}</code>
+            </div>
+        </div>
+
+        <div class="example">
             <h3>With CSS Classes</h3>
             <div class="icon-row">
                 {{ lucide "circle" (dict "class" "red") }}

@@ -7,7 +7,7 @@ Beautiful, consistent icons for server-side rendered Go applications. Use Lucide
 ## Features
 
 - 🎨 1600+ beautiful icons from [Lucide](https://lucide.dev)
-- 🔧 Customizable size, stroke width, and CSS classes
+- 🔧 Customizable size, color, stroke width, and CSS classes
 - 📦 Works with Go's `html/template` package
 - 🎯 Type-safe icon functions for direct Go usage
 
@@ -49,8 +49,8 @@ Then use icons in your templates:
 <!-- With custom size -->
 {{ lucide "chevron-down" (dict "size" 32) }}
 
-<!-- With custom size, stroke width, and CSS class -->
-{{ lucide "play" (dict "size" 48 "strokeWidth" 3 "class" "text-blue-500") }}
+<!-- With custom size, color, stroke width, and CSS class -->
+{{ lucide "play" (dict "size" 48 "color" "red" "strokeWidth" 3 "class" "hover:text-red-800") }}
 
 <!-- Multiple classes (Tailwind example) -->
 {{ lucide "menu" (dict "class" "w-6 h-6 text-gray-700 hover:text-gray-900") }}
@@ -121,6 +121,7 @@ The main template function. Returns an SVG as `template.HTML`.
 - `name`: Icon name (e.g., `"circle-x"`, `"chevron-down"`)
 - `options`: Optional map with:
   - `size` (int): Width and height in pixels (default: 24)
+  - `color` (string): Stroke color (default: currentColor)
   - `strokeWidth` (int): Stroke width (default: 2)
   - `class` (string): CSS classes to add
 
