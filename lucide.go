@@ -39,6 +39,9 @@ type Options struct {
 	// Size sets both width and height in pixels (default: 24)
 	Size int
 
+	// Color sets the color of the stroke. (default: currentColor)
+	Color string
+
 	// StrokeWidth sets the stroke width (default: 2)
 	StrokeWidth int
 
@@ -57,23 +60,27 @@ var iconRegistry = make(map[string]func(opts ...Options) template.HTML)
 //
 //	{{ lucide "circle-x" }}
 //	{{ lucide "play" (dict "size" 32) }}
-//	{{ lucide "menu" (dict "size" 24 "strokeWidth" 2 "class" "my-icon") }}
+//	{{ lucide "menu" (dict "size" 24 "color" "red" "strokeWidth" 2 "class" "my-icon") }}
 func Icon(name string, options ...map[string]any) template.HTML {
 	opts := Options{
 		Size:        24,
+		Color:       "currentColor",
 		StrokeWidth: 2,
 		Class:       "",
 	}
 
 	if len(options) > 0 {
-		if s, ok := options[0]["size"].(int); ok {
-			opts.Size = s
+		if size, ok := options[0]["size"].(int); ok {
+			opts.Size = size
 		}
-		if sw, ok := options[0]["strokeWidth"].(int); ok {
-			opts.StrokeWidth = sw
+		if color, ok := options[0]["color"].(string); ok {
+			opts.Color = color
 		}
-		if c, ok := options[0]["class"].(string); ok {
-			opts.Class = c
+		if strokeWidth, ok := options[0]["strokeWidth"].(int); ok {
+			opts.StrokeWidth = strokeWidth
+		}
+		if class, ok := options[0]["class"].(string); ok {
+			opts.Class = class
 		}
 	}
 
@@ -170,9 +177,10 @@ func buildSVG(paths string, opts Options) template.HTML {
 	}
 
 	svg := fmt.Sprintf(
-		`<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="%d" stroke-linecap="round" stroke-linejoin="round"%s>%s</svg>`,
+		`<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 24 24" fill="none" stroke="%s" stroke-width="%d" stroke-linecap="round" stroke-linejoin="round"%s>%s</svg>`,
 		opts.Size,
 		opts.Size,
+		opts.Color,
 		opts.StrokeWidth,
 		classAttr,
 		paths,
