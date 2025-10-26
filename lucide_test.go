@@ -38,6 +38,12 @@ func TestIcon(t *testing.T) {
 			want: `stroke-width="3"`,
 		},
 		{
+			name: "icon with color",
+			icon: "circle-x",
+			opts: map[string]any{"color": "red"},
+			want: `stroke="red"`,
+		},
+		{
 			name: "non-existent icon",
 			icon: "doesnt-exist",
 			want: "",
