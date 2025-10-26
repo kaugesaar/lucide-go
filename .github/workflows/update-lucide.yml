@@ -1,0 +1,148 @@
+name: Update Lucide Icons
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Check for Lucide updates
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: true
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: '1.21'
+
+    - name: Check for submodule updates
+      id: check-updates
+      run: |
+        cd lucide
+        git fetch origin
+        LOCAL=$(git rev-parse HEAD)
+        REMOTE=$(git rev-parse origin/master)
+
+        if [ "$LOCAL" != "$REMOTE" ]; then
+          echo "updates=true" >> $GITHUB_OUTPUT
+
+          CURRENT_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
+          echo "current_version=$CURRENT_TAG" >> $GITHUB_OUTPUT
+
+          git checkout origin/master
+
+          NEW_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
+          echo "new_version=$NEW_TAG" >> $GITHUB_OUTPUT
+
+          if [ "$CURRENT_TAG" != "unknown" ] && [ "$NEW_TAG" != "unknown" ]; then
+            COMMITS=$(git rev-list --count ${CURRENT_TAG}..${NEW_TAG})
+            echo "commit_count=$COMMITS" >> $GITHUB_OUTPUT
+          fi
+        else
+          echo "updates=false" >> $GITHUB_OUTPUT
+        fi
+        cd ..
+
+    - name: Update submodule
+      if: steps.check-updates.outputs.updates == 'true'
+      run: |
+        git submodule update --remote lucide
+
+    - name: Regenerate icons
+      if: steps.check-updates.outputs.updates == 'true'
+      run: |
+        go run cmd/generate/main.go
+
+    - name: Count icon changes
+      if: steps.check-updates.outputs.updates == 'true'
+      id: count-changes
+      run: |
+        if git diff --name-only | grep -q "icons.go"; then
+          ADDED=$(git diff icons.go | grep -c "^+func " || echo "0")
+          REMOVED=$(git diff icons.go | grep -c "^-func " || echo "0")
+          echo "icons_added=$ADDED" >> $GITHUB_OUTPUT
+          echo "icons_removed=$REMOVED" >> $GITHUB_OUTPUT
+        else
+          echo "icons_added=0" >> $GITHUB_OUTPUT
+          echo "icons_removed=0" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Update changelog
+      if: steps.check-updates.outputs.updates == 'true'
+      run: |
+        DATE=$(date +%Y-%m-%d)
+        NEW_VERSION="${{ steps.check-updates.outputs.new_version }}"
+        ICONS_ADDED="${{ steps.count-changes.outputs.icons_added }}"
+        ICONS_REMOVED="${{ steps.count-changes.outputs.icons_removed }}"
+
+        # Create changelog entry
+        ENTRY="## [Unreleased] - ${DATE}
+
+        ### Changed
+        - Updated Lucide icons from ${{ steps.check-updates.outputs.current_version }} to ${NEW_VERSION}"
+
+        if [ "$ICONS_ADDED" != "0" ]; then
+          ENTRY="${ENTRY}
+        - Added ${ICONS_ADDED} new icon(s)"
+        fi
+
+        if [ "$ICONS_REMOVED" != "0" ]; then
+          ENTRY="${ENTRY}
+        - Removed ${ICONS_REMOVED} icon(s)"
+        fi
+
+        ENTRY="${ENTRY}
+
+        "
+
+        # Insert entry after the header (line 5) in CHANGELOG.md
+        # Using awk to insert at the right place
+        awk -v entry="$ENTRY" 'NR==5{print entry}1' CHANGELOG.md > CHANGELOG.md.tmp
+        mv CHANGELOG.md.tmp CHANGELOG.md
+
+    - name: Create Pull Request
+      if: steps.check-updates.outputs.updates == 'true'
+      uses: peter-evans/create-pull-request@v7
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: |
+          Update Lucide icons to ${{ steps.check-updates.outputs.new_version }}
+
+          - Updated from ${{ steps.check-updates.outputs.current_version }} to ${{ steps.check-updates.outputs.new_version }}
+          - Regenerated icon functions
+          - Updated CHANGELOG.md
+        branch: update-lucide-icons
+        delete-branch: true
+        title: 'Update Lucide icons to ${{ steps.check-updates.outputs.new_version }}'
+        body: |
+          ## 🎨 Lucide Icons Update
+
+          This PR updates the Lucide icons submodule and regenerates the icon functions.
+
+          ### Changes
+          - **Previous version:** `${{ steps.check-updates.outputs.current_version }}`
+          - **New version:** `${{ steps.check-updates.outputs.new_version }}`
+          - **Icons added:** ${{ steps.count-changes.outputs.icons_added }}
+          - **Icons removed:** ${{ steps.count-changes.outputs.icons_removed }}
+
+          ### Upstream Changes
+          See the full changelog at: https://github.com/lucide-icons/lucide/releases/tag/${{ steps.check-updates.outputs.new_version }}
+
+          ### Files Updated
+          - `lucide` submodule
+          - `icons.go` (regenerated)
+          - `CHANGELOG.md`
+
+          ---
+
+          🤖 This PR was automatically generated
+        labels: |
+          dependencies
+          automated
