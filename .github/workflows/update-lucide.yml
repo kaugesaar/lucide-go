@@ -28,7 +28,7 @@ jobs:
         cd lucide
         git fetch origin
         LOCAL=$(git rev-parse HEAD)
-        REMOTE=$(git rev-parse origin/master)
+        REMOTE=$(git rev-parse origin/main)
 
         if [ "$LOCAL" != "$REMOTE" ]; then
           echo "updates=true" >> $GITHUB_OUTPUT
@@ -36,7 +36,7 @@ jobs:
           CURRENT_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
           echo "current_version=$CURRENT_TAG" >> $GITHUB_OUTPUT
 
-          git checkout origin/master
+          git checkout origin/main
 
           NEW_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
           echo "new_version=$NEW_TAG" >> $GITHUB_OUTPUT
@@ -82,7 +82,6 @@ jobs:
         ICONS_ADDED="${{ steps.count-changes.outputs.icons_added }}"
         ICONS_REMOVED="${{ steps.count-changes.outputs.icons_removed }}"
 
-        # Create changelog entry
         ENTRY="## [Unreleased] - ${DATE}
 
         ### Changed
@@ -102,9 +101,7 @@ jobs:
 
         "
 
-        # Insert entry after the header (line 5) in CHANGELOG.md
-        # Using awk to insert at the right place
-        awk -v entry="$ENTRY" 'NR==5{print entry}1' CHANGELOG.md > CHANGELOG.md.tmp
+        awk -v entry="$ENTRY" 'NR==6{print entry}1' CHANGELOG.md > CHANGELOG.md.tmp
         mv CHANGELOG.md.tmp CHANGELOG.md
 
     - name: Create Pull Request
