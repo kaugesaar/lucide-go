@@ -30,20 +30,21 @@ jobs:
       id: check-updates
       run: |
         cd lucide
-        git fetch origin --tags  # ← Add this to fetch all tags
+        git fetch origin --tags
+
         LOCAL=$(git rev-parse HEAD)
         REMOTE=$(git rev-parse origin/main)
-    
+
         if [ "$LOCAL" != "$REMOTE" ]; then
           echo "updates=true" >> $GITHUB_OUTPUT
-    
-          CURRENT_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
+
+          CURRENT_TAG=$(git describe --tags HEAD 2>/dev/null | cut -d'-' -f1)
           echo "current_version=$CURRENT_TAG" >> $GITHUB_OUTPUT
-    
-          NEW_TAG=$(git describe --tags --abbrev=0 origin/main 2>/dev/null || echo "unknown")
+
+          NEW_TAG=$(git describe --tags origin/main 2>/dev/null | cut -d'-' -f1)
           echo "new_version=$NEW_TAG" >> $GITHUB_OUTPUT
-    
-          if [ "$CURRENT_TAG" != "unknown" ] && [ "$NEW_TAG" != "unknown" ]; then
+
+          if [ -n "$CURRENT_TAG" ] && [ -n "$NEW_TAG" ]; then
             COMMITS=$(git rev-list --count ${CURRENT_TAG}..origin/main)
             echo "commit_count=$COMMITS" >> $GITHUB_OUTPUT
           fi
