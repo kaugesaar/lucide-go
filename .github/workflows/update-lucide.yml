@@ -39,19 +39,29 @@ jobs:
         if [ "$LOCAL" != "$REMOTE" ]; then
           echo "updates=true" >> $GITHUB_OUTPUT
 
-          CURRENT_TAG=$(git describe --tags HEAD 2>/dev/null | cut -d'-' -f1)
+          CURRENT_TAG=$(git describe --tags HEAD 2>/dev/null | sed 's/-[0-9]*-g[0-9a-f]*$//' || echo "unknown")
+          [ -z "$CURRENT_TAG" ] && CURRENT_TAG="unknown"
           echo "current_version=$CURRENT_TAG" >> $GITHUB_OUTPUT
 
-          NEW_TAG=$(git describe --tags origin/main 2>/dev/null | cut -d'-' -f1)
+          NEW_TAG=$(git tag --sort=-version:refname | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | head -1)
+          [ -z "$NEW_TAG" ] && NEW_TAG="unknown"
           echo "new_version=$NEW_TAG" >> $GITHUB_OUTPUT
 
-          if [ -n "$CURRENT_TAG" ] && [ -n "$NEW_TAG" ]; then
-            COMMITS=$(git rev-list --count ${CURRENT_TAG}..origin/main)
+          if [ "$CURRENT_TAG" != "unknown" ] && [ "$NEW_TAG" != "unknown" ]; then
+            COMMITS=$(git rev-list --count ${CURRENT_TAG}..${REMOTE})
             echo "commit_count=$COMMITS" >> $GITHUB_OUTPUT
           fi
         else
           echo "updates=false" >> $GITHUB_OUTPUT
         fi
+        cd ..
+
+    - name: Debug submodule state
+      run: |
+        cd lucide
+        echo "HEAD: $(git rev-parse HEAD)"
+        echo "Tags available: $(git tag | wc -l)"
+        git describe --tags HEAD || echo "describe failed"
         cd ..
 
     - name: Update submodule
@@ -133,7 +143,7 @@ jobs:
           - **Icons removed:** ${{ steps.count-changes.outputs.icons_removed }}
 
           ### Upstream Changes
-          See the full changelog at: https://github.com/lucide-icons/lucide/releases/tag/${{ steps.check-updates.outputs.new_version }}
+          See the full changelog at: https://github.com/lucide-icons/lucide/compare/${{ steps.check-updates.outputs.current_version }}...${{ steps.check-updates.outputs.new_version }}
 
           ### Files Updated
           - `lucide` submodule
