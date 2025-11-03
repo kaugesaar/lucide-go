@@ -31,6 +31,7 @@ jobs:
       run: |
         cd lucide
         git fetch origin --tags
+        git fetch origin main
 
         LOCAL=$(git rev-parse HEAD)
         REMOTE=$(git rev-parse origin/main)
