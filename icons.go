@@ -419,6 +419,7 @@ func init() {
 	registerIcon("clock-alert", ClockAlert)
 	registerIcon("clock-arrow-down", ClockArrowDown)
 	registerIcon("clock-arrow-up", ClockArrowUp)
+	registerIcon("clock-check", ClockCheck)
 	registerIcon("clock-fading", ClockFading)
 	registerIcon("clock-plus", ClockPlus)
 	registerIcon("closed-caption", ClosedCaption)
@@ -576,47 +577,45 @@ func init() {
 	registerIcon("figma", Figma)
 	registerIcon("file", File)
 	registerIcon("file-archive", FileArchive)
-	registerIcon("file-audio", FileAudio)
-	registerIcon("file-audio-2", FileAudio2)
 	registerIcon("file-axis-3d", FileAxis3d)
 	registerIcon("file-badge", FileBadge)
-	registerIcon("file-badge-2", FileBadge2)
 	registerIcon("file-box", FileBox)
+	registerIcon("file-braces", FileBraces)
+	registerIcon("file-braces-corner", FileBracesCorner)
 	registerIcon("file-chart-column", FileChartColumn)
 	registerIcon("file-chart-column-increasing", FileChartColumnIncreasing)
 	registerIcon("file-chart-line", FileChartLine)
 	registerIcon("file-chart-pie", FileChartPie)
 	registerIcon("file-check", FileCheck)
-	registerIcon("file-check-2", FileCheck2)
+	registerIcon("file-check-corner", FileCheckCorner)
 	registerIcon("file-clock", FileClock)
 	registerIcon("file-code", FileCode)
-	registerIcon("file-code-2", FileCode2)
+	registerIcon("file-code-corner", FileCodeCorner)
 	registerIcon("file-cog", FileCog)
 	registerIcon("file-diff", FileDiff)
 	registerIcon("file-digit", FileDigit)
 	registerIcon("file-down", FileDown)
+	registerIcon("file-exclamation-point", FileExclamationPoint)
+	registerIcon("file-headphone", FileHeadphone)
 	registerIcon("file-heart", FileHeart)
 	registerIcon("file-image", FileImage)
 	registerIcon("file-input", FileInput)
-	registerIcon("file-json", FileJson)
-	registerIcon("file-json-2", FileJson2)
 	registerIcon("file-key", FileKey)
-	registerIcon("file-key-2", FileKey2)
 	registerIcon("file-lock", FileLock)
-	registerIcon("file-lock-2", FileLock2)
 	registerIcon("file-minus", FileMinus)
-	registerIcon("file-minus-2", FileMinus2)
+	registerIcon("file-minus-corner", FileMinusCorner)
 	registerIcon("file-music", FileMusic)
 	registerIcon("file-output", FileOutput)
 	registerIcon("file-pen", FilePen)
 	registerIcon("file-pen-line", FilePenLine)
 	registerIcon("file-play", FilePlay)
 	registerIcon("file-plus", FilePlus)
-	registerIcon("file-plus-2", FilePlus2)
+	registerIcon("file-plus-corner", FilePlusCorner)
 	registerIcon("file-question-mark", FileQuestionMark)
 	registerIcon("file-scan", FileScan)
 	registerIcon("file-search", FileSearch)
-	registerIcon("file-search-2", FileSearch2)
+	registerIcon("file-search-corner", FileSearchCorner)
+	registerIcon("file-signal", FileSignal)
 	registerIcon("file-sliders", FileSliders)
 	registerIcon("file-spreadsheet", FileSpreadsheet)
 	registerIcon("file-stack", FileStack)
@@ -624,15 +623,13 @@ func init() {
 	registerIcon("file-terminal", FileTerminal)
 	registerIcon("file-text", FileText)
 	registerIcon("file-type", FileType)
-	registerIcon("file-type-2", FileType2)
+	registerIcon("file-type-corner", FileTypeCorner)
 	registerIcon("file-up", FileUp)
 	registerIcon("file-user", FileUser)
 	registerIcon("file-video-camera", FileVideoCamera)
 	registerIcon("file-volume", FileVolume)
-	registerIcon("file-volume-2", FileVolume2)
-	registerIcon("file-warning", FileWarning)
 	registerIcon("file-x", FileX)
-	registerIcon("file-x-2", FileX2)
+	registerIcon("file-x-corner", FileXCorner)
 	registerIcon("files", Files)
 	registerIcon("film", Film)
 	registerIcon("fingerprint", Fingerprint)
@@ -717,6 +714,7 @@ func init() {
 	registerIcon("ghost", Ghost)
 	registerIcon("gift", Gift)
 	registerIcon("git-branch", GitBranch)
+	registerIcon("git-branch-minus", GitBranchMinus)
 	registerIcon("git-branch-plus", GitBranchPlus)
 	registerIcon("git-commit-horizontal", GitCommitHorizontal)
 	registerIcon("git-commit-vertical", GitCommitVertical)
@@ -791,6 +789,7 @@ func init() {
 	registerIcon("heart-plus", HeartPlus)
 	registerIcon("heart-pulse", HeartPulse)
 	registerIcon("heater", Heater)
+	registerIcon("helicopter", Helicopter)
 	registerIcon("hexagon", Hexagon)
 	registerIcon("highlighter", Highlighter)
 	registerIcon("history", History)
@@ -1013,6 +1012,7 @@ func init() {
 	registerIcon("mouse-off", MouseOff)
 	registerIcon("mouse-pointer", MousePointer)
 	registerIcon("mouse-pointer-2", MousePointer2)
+	registerIcon("mouse-pointer-2-off", MousePointer2Off)
 	registerIcon("mouse-pointer-ban", MousePointerBan)
 	registerIcon("mouse-pointer-click", MousePointerClick)
 	registerIcon("move", Move)
@@ -1330,6 +1330,7 @@ func init() {
 	registerIcon("snowflake", Snowflake)
 	registerIcon("soap-dispenser-droplet", SoapDispenserDroplet)
 	registerIcon("sofa", Sofa)
+	registerIcon("solar-panel", SolarPanel)
 	registerIcon("soup", Soup)
 	registerIcon("space", Space)
 	registerIcon("spade", Spade)
@@ -7836,7 +7837,7 @@ func CalendarFold(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <path d="M21 17V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11Z" /> <path d="M3 10h18" /> <path d="M15 22v-4a2 2 0 0 1 2-2h4" />`, opt)
+	return buildSVG(`<path d="M3 20a2 2 0 0 0 2 2h10a2.4 2.4 0 0 0 1.706-.706l3.588-3.588A2.4 2.4 0 0 0 21 16V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z" /> <path d="M15 22v-5a1 1 0 0 1 1-1h5" /> <path d="M8 2v4" /> <path d="M16 2v4" /> <path d="M3 10h18" />`, opt)
 }
 
 // CalendarHeart renders the "calendar-heart" icon.
@@ -11583,6 +11584,30 @@ func ClockArrowUp(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 6v6l1.56.78" /> <path d="M13.227 21.925a10 10 0 1 1 8.767-9.588" /> <path d="m14 18 4-4 4 4" /> <path d="M18 22v-8" />`, opt)
 }
 
+// ClockCheck renders the "clock-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "clock-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ClockCheck()
+//	lucide.ClockCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func ClockCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 6v6l4 2" /> <path d="M22 12a10 10 0 1 0-11 9.95" /> <path d="m22 16-5.5 5.5L14 19" />`, opt)
+}
+
 // ClockFading renders the "clock-fading" icon.
 //
 // Usage in templates:
@@ -15324,7 +15349,7 @@ func File(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" />`, opt)
 }
 
 // FileArchive renders the "file-archive" icon.
@@ -15348,55 +15373,7 @@ func FileArchive(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 12v-1" /> <path d="M10 18v-2" /> <path d="M10 7V6" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M15.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v16a2 2 0 0 0 .274 1.01" /> <circle cx="10" cy="20" r="2" />`, opt)
-}
-
-// FileAudio renders the "file-audio" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-audio" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileAudio()
-//	lucide.FileAudio(lucide.Options{Size: 32, Class: "my-icon"})
-func FileAudio(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M17.5 22h.5a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M2 19a2 2 0 1 1 4 0v1a2 2 0 1 1-4 0v-4a6 6 0 0 1 12 0v4a2 2 0 1 1-4 0v-1a2 2 0 1 1 4 0" />`, opt)
-}
-
-// FileAudio2 renders the "file-audio-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-audio-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileAudio2()
-//	lucide.FileAudio2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileAudio2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v2" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <circle cx="3" cy="17" r="1" /> <path d="M2 17v-3a4 4 0 0 1 8 0v3" /> <circle cx="9" cy="17" r="1" />`, opt)
+	return buildSVG(`<path d="M13.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v11.5" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 12v-1" /> <path d="M8 18v-2" /> <path d="M8 7V6" /> <circle cx="8" cy="20" r="2" />`, opt)
 }
 
 // FileAxis3d renders the "file-axis-3d" icon.
@@ -15420,7 +15397,7 @@ func FileAxis3d(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m8 18 4-4" /> <path d="M8 10v8h8" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m8 18 4-4" /> <path d="M8 10v8h8" />`, opt)
 }
 
 // FileBadge renders the "file-badge" icon.
@@ -15444,31 +15421,7 @@ func FileBadge(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 22h6a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3.072" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m6.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.88.001l-1.846.85a.5.5 0 0 1-.693-.593l1.29-4.88" /> <circle cx="5" cy="14" r="3" />`, opt)
-}
-
-// FileBadge2 renders the "file-badge-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-badge-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileBadge2()
-//	lucide.FileBadge2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileBadge2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="m13.69 12.479 1.29 4.88a.5.5 0 0 1-.697.591l-1.844-.849a1 1 0 0 0-.88.001l-1.846.85a.5.5 0 0 1-.693-.593l1.29-4.88" /> <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" /> <circle cx="12" cy="10" r="3" />`, opt)
+	return buildSVG(`<path d="M13 22h5a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.3" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m7.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88" /> <circle cx="6" cy="14" r="3" />`, opt)
 }
 
 // FileBox renders the "file-box" icon.
@@ -15492,7 +15445,55 @@ func FileBox(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M3 13.1a2 2 0 0 0-1 1.76v3.24a2 2 0 0 0 .97 1.78L6 21.7a2 2 0 0 0 2.03.01L11 19.9a2 2 0 0 0 1-1.76V14.9a2 2 0 0 0-.97-1.78L8 11.3a2 2 0 0 0-2.03-.01Z" /> <path d="M7 17v5" /> <path d="M11.7 14.2 7 17l-4.7-2.8" />`, opt)
+	return buildSVG(`<path d="M14.5 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.8" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M11.7 14.2 7 17l-4.7-2.8" /> <path d="M3 13.1a2 2 0 0 0-.999 1.76v3.24a2 2 0 0 0 .969 1.78L6 21.7a2 2 0 0 0 2.03.01L11 19.9a2 2 0 0 0 1-1.76V14.9a2 2 0 0 0-.97-1.78L8 11.3a2 2 0 0 0-2.03-.01z" /> <path d="M7 17v5" />`, opt)
+}
+
+// FileBraces renders the "file-braces" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-braces" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileBraces()
+//	lucide.FileBraces(lucide.Options{Size: 32, Class: "my-icon"})
+func FileBraces(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1" /> <path d="M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1" />`, opt)
+}
+
+// FileBracesCorner renders the "file-braces-corner" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-braces-corner" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileBracesCorner()
+//	lucide.FileBracesCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileBracesCorner(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 22h4a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M5 14a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1 1 1 0 0 1 1 1v2a1 1 0 0 0 1 1" /> <path d="M9 22a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1" />`, opt)
 }
 
 // FileChartColumn renders the "file-chart-column" icon.
@@ -15516,7 +15517,7 @@ func FileChartColumn(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M8 18v-1" /> <path d="M12 18v-6" /> <path d="M16 18v-3" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 18v-1" /> <path d="M12 18v-6" /> <path d="M16 18v-3" />`, opt)
 }
 
 // FileChartColumnIncreasing renders the "file-chart-column-increasing" icon.
@@ -15540,7 +15541,7 @@ func FileChartColumnIncreasing(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M8 18v-2" /> <path d="M12 18v-4" /> <path d="M16 18v-6" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 18v-2" /> <path d="M12 18v-4" /> <path d="M16 18v-6" />`, opt)
 }
 
 // FileChartLine renders the "file-chart-line" icon.
@@ -15564,7 +15565,7 @@ func FileChartLine(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m16 13-3.5 3.5-2-2L8 17" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m16 13-3.5 3.5-2-2L8 17" />`, opt)
 }
 
 // FileChartPie renders the "file-chart-pie" icon.
@@ -15588,7 +15589,7 @@ func FileChartPie(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3.5" /> <path d="M4.017 11.512a6 6 0 1 0 8.466 8.475" /> <path d="M9 16a1 1 0 0 1-1-1v-4c0-.552.45-1.008.995-.917a6 6 0 0 1 4.922 4.922c.091.544-.365.995-.917.995z" />`, opt)
+	return buildSVG(`<path d="M15.941 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.704l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.512" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M4.017 11.512a6 6 0 1 0 8.466 8.475" /> <path d="M9 16a1 1 0 0 1-1-1v-4c0-.552.45-1.008.995-.917a6 6 0 0 1 4.922 4.922c.091.544-.365.995-.917.995z" />`, opt)
 }
 
 // FileCheck renders the "file-check" icon.
@@ -15612,20 +15613,20 @@ func FileCheck(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m9 15 2 2 4-4" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m9 15 2 2 4-4" />`, opt)
 }
 
-// FileCheck2 renders the "file-check-2" icon.
+// FileCheckCorner renders the "file-check-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-check-2" }}
+//	{{ lucide "file-check-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FileCheck2()
-//	lucide.FileCheck2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileCheck2(opts ...Options) template.HTML {
+//	lucide.FileCheckCorner()
+//	lucide.FileCheckCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileCheckCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -15636,7 +15637,7 @@ func FileCheck2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m3 15 2 2 4-4" />`, opt)
+	return buildSVG(`<path d="M10.5 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m14 20 2 2 4-4" />`, opt)
 }
 
 // FileClock renders the "file-clock" icon.
@@ -15660,7 +15661,7 @@ func FileClock(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" /> <path d="M8 14v2.2l1.6 1" /> <circle cx="8" cy="16" r="6" />`, opt)
+	return buildSVG(`<path d="M16 22h2a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v2.85" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 14v2.2l1.6 1" /> <circle cx="8" cy="16" r="6" />`, opt)
 }
 
 // FileCode renders the "file-code" icon.
@@ -15684,20 +15685,20 @@ func FileCode(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 12.5 8 15l2 2.5" /> <path d="m14 12.5 2 2.5-2 2.5" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 12.5 8 15l2 2.5" /> <path d="m14 12.5 2 2.5-2 2.5" />`, opt)
 }
 
-// FileCode2 renders the "file-code-2" icon.
+// FileCodeCorner renders the "file-code-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-code-2" }}
+//	{{ lucide "file-code-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FileCode2()
-//	lucide.FileCode2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileCode2(opts ...Options) template.HTML {
+//	lucide.FileCodeCorner()
+//	lucide.FileCodeCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileCodeCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -15708,7 +15709,7 @@ func FileCode2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m5 12-3 3 3 3" /> <path d="m9 18 3-3-3-3" />`, opt)
+	return buildSVG(`<path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m5 16-3 3 3 3" /> <path d="m9 22 3-3-3-3" />`, opt)
 }
 
 // FileCog renders the "file-cog" icon.
@@ -15732,7 +15733,7 @@ func FileCog(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m2.305 15.53.923-.382" /> <path d="m3.228 12.852-.924-.383" /> <path d="M4.677 21.5a2 2 0 0 0 1.313.5H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v2.5" /> <path d="m4.852 11.228-.383-.923" /> <path d="m4.852 16.772-.383.924" /> <path d="m7.148 11.228.383-.923" /> <path d="m7.53 17.696-.382-.924" /> <path d="m8.772 12.852.923-.383" /> <path d="m8.772 15.148.923.383" /> <circle cx="6" cy="14" r="3" />`, opt)
+	return buildSVG(`<path d="M13.85 22H18a2 2 0 0 0 2-2V8a2 2 0 0 0-.586-1.414l-4-4A2 2 0 0 0 14 2H6a2 2 0 0 0-2 2v6.6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m3.305 19.53.923-.382" /> <path d="m4.228 16.852-.924-.383" /> <path d="m5.852 15.228-.383-.923" /> <path d="m5.852 20.772-.383.924" /> <path d="m8.148 15.228.383-.923" /> <path d="m8.53 21.696-.382-.924" /> <path d="m9.773 16.852.922-.383" /> <path d="m9.773 19.148.922.383" /> <circle cx="7" cy="18" r="3" />`, opt)
 }
 
 // FileDiff renders the "file-diff" icon.
@@ -15756,7 +15757,7 @@ func FileDiff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M9 10h6" /> <path d="M12 13V7" /> <path d="M9 17h6" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M9 10h6" /> <path d="M12 13V7" /> <path d="M9 17h6" />`, opt)
 }
 
 // FileDigit renders the "file-digit" icon.
@@ -15780,7 +15781,7 @@ func FileDigit(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <rect width="4" height="6" x="2" y="12" rx="2" /> <path d="M10 12h2v6" /> <path d="M10 18h4" />`, opt)
+	return buildSVG(`<path d="M4 12V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 16h2v6" /> <path d="M10 22h4" /> <rect x="2" y="16" width="4" height="6" rx="2" />`, opt)
 }
 
 // FileDown renders the "file-down" icon.
@@ -15804,7 +15805,55 @@ func FileDown(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M12 18v-6" /> <path d="m9 15 3 3 3-3" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M12 18v-6" /> <path d="m9 15 3 3 3-3" />`, opt)
+}
+
+// FileExclamationPoint renders the "file-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileExclamationPoint()
+//	lucide.FileExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func FileExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M12 9v4" /> <path d="M12 17h.01" />`, opt)
+}
+
+// FileHeadphone renders the "file-headphone" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-headphone" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileHeadphone()
+//	lucide.FileHeadphone(lucide.Options{Size: 32, Class: "my-icon"})
+func FileHeadphone(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 6.835V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-.343" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M2 19a2 2 0 0 1 4 0v1a2 2 0 0 1-4 0v-4a6 6 0 0 1 12 0v4a2 2 0 0 1-4 0v-1a2 2 0 0 1 4 0" />`, opt)
 }
 
 // FileHeart renders the "file-heart" icon.
@@ -15828,7 +15877,7 @@ func FileHeart(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M2.62 13.8A2.25 2.25 0 1 1 6 10.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z" /> <path d="M4 6.005V4a2 2 0 0 1 2-2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-1.9-1.376" />`, opt)
+	return buildSVG(`<path d="M13 22h5a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v7" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M3.62 18.8A2.25 2.25 0 1 1 7 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a1 1 0 0 1-1.507 0z" />`, opt)
 }
 
 // FileImage renders the "file-image" icon.
@@ -15852,7 +15901,7 @@ func FileImage(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <circle cx="10" cy="12" r="2" /> <path d="m20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <circle cx="10" cy="12" r="2" /> <path d="m20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22" />`, opt)
 }
 
 // FileInput renders the "file-input" icon.
@@ -15876,55 +15925,7 @@ func FileInput(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M2 15h10" /> <path d="m9 18 3-3-3-3" />`, opt)
-}
-
-// FileJson renders the "file-json" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-json" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileJson()
-//	lucide.FileJson(lucide.Options{Size: 32, Class: "my-icon"})
-func FileJson(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1" /> <path d="M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1" />`, opt)
-}
-
-// FileJson2 renders the "file-json-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-json-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileJson2()
-//	lucide.FileJson2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileJson2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M4 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1" /> <path d="M8 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1" />`, opt)
+	return buildSVG(`<path d="M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M2 15h10" /> <path d="m9 18 3-3-3-3" />`, opt)
 }
 
 // FileKey renders the "file-key" icon.
@@ -15948,31 +15949,7 @@ func FileKey(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <circle cx="10" cy="16" r="2" /> <path d="m16 10-4.5 4.5" /> <path d="m15 11 1 1" />`, opt)
-}
-
-// FileKey2 renders the "file-key-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-key-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileKey2()
-//	lucide.FileKey2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileKey2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v6" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <circle cx="4" cy="16" r="2" /> <path d="m10 10-4.5 4.5" /> <path d="m9 11 1 1" />`, opt)
+	return buildSVG(`<path d="M10.65 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v10.1" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m10 15 1 1" /> <path d="m11 14-4.586 4.586" /> <circle cx="5" cy="20" r="2" />`, opt)
 }
 
 // FileLock renders the "file-lock" icon.
@@ -15996,31 +15973,7 @@ func FileLock(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <rect width="8" height="6" x="8" y="12" rx="1" /> <path d="M10 12v-2a2 2 0 1 1 4 0v2" />`, opt)
-}
-
-// FileLock2 renders the "file-lock-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-lock-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileLock2()
-//	lucide.FileLock2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileLock2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v1" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <rect width="8" height="5" x="2" y="13" rx="1" /> <path d="M8 13v-2a2 2 0 1 0-4 0v2" />`, opt)
+	return buildSVG(`<path d="M4 9.8V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M9 17v-2a2 2 0 0 0-4 0v2" /> <rect width="8" height="5" x="3" y="17" rx="1" />`, opt)
 }
 
 // FileMinus renders the "file-minus" icon.
@@ -16044,20 +15997,20 @@ func FileMinus(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M9 15h6" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M9 15h6" />`, opt)
 }
 
-// FileMinus2 renders the "file-minus-2" icon.
+// FileMinusCorner renders the "file-minus-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-minus-2" }}
+//	{{ lucide "file-minus-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FileMinus2()
-//	lucide.FileMinus2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileMinus2(opts ...Options) template.HTML {
+//	lucide.FileMinusCorner()
+//	lucide.FileMinusCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileMinusCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -16068,7 +16021,7 @@ func FileMinus2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M3 15h6" />`, opt)
+	return buildSVG(`<path d="M20 14V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M14 18h6" />`, opt)
 }
 
 // FileMusic renders the "file-music" icon.
@@ -16092,7 +16045,7 @@ func FileMusic(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v8.4" /> <path d="M8 18v-7.7L16 9v7" /> <circle cx="14" cy="16" r="2" /> <circle cx="6" cy="18" r="2" />`, opt)
+	return buildSVG(`<path d="M11.65 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v10.35" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 20v-7l3 1.474" /> <circle cx="6" cy="20" r="2" />`, opt)
 }
 
 // FileOutput renders the "file-output" icon.
@@ -16116,7 +16069,7 @@ func FileOutput(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M4 7V4a2 2 0 0 1 2-2 2 2 0 0 0-2 2" /> <path d="M4.063 20.999a2 2 0 0 0 2 1L18 22a2 2 0 0 0 2-2V7l-5-5H6" /> <path d="m5 11-3 3" /> <path d="m5 17-3-3h10" />`, opt)
+	return buildSVG(`<path d="M4.226 20.925A2 2 0 0 0 6 22h12a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.127" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m5 11-3 3" /> <path d="m5 17-3-3h10" />`, opt)
 }
 
 // FilePen renders the "file-pen" icon.
@@ -16140,7 +16093,7 @@ func FilePen(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v9.5" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />`, opt)
+	return buildSVG(`<path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z" />`, opt)
 }
 
 // FilePenLine renders the "file-pen-line" icon.
@@ -16164,7 +16117,7 @@ func FilePenLine(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m18 5-2.414-2.414A2 2 0 0 0 14.172 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2" /> <path d="M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" /> <path d="M8 18h1" />`, opt)
+	return buildSVG(`<path d="m18.226 5.226-2.52-2.52A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.351" /> <path d="M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" /> <path d="M8 18h1" />`, opt)
 }
 
 // FilePlay renders the "file-play" icon.
@@ -16188,7 +16141,7 @@ func FilePlay(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" /> <path d="M15.033 13.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56v-4.704a.645.645 0 0 1 .967-.56z" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M15.033 13.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56v-4.704a.645.645 0 0 1 .967-.56z" />`, opt)
 }
 
 // FilePlus renders the "file-plus" icon.
@@ -16212,20 +16165,20 @@ func FilePlus(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M9 15h6" /> <path d="M12 18v-6" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M9 15h6" /> <path d="M12 18v-6" />`, opt)
 }
 
-// FilePlus2 renders the "file-plus-2" icon.
+// FilePlusCorner renders the "file-plus-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-plus-2" }}
+//	{{ lucide "file-plus-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FilePlus2()
-//	lucide.FilePlus2(lucide.Options{Size: 32, Class: "my-icon"})
-func FilePlus2(opts ...Options) template.HTML {
+//	lucide.FilePlusCorner()
+//	lucide.FilePlusCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FilePlusCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -16236,7 +16189,7 @@ func FilePlus2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M3 15h6" /> <path d="M6 12v6" />`, opt)
+	return buildSVG(`<path d="M11.35 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5.35" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M14 19h6" /> <path d="M17 16v6" />`, opt)
 }
 
 // FileQuestionMark renders the "file-question-mark" icon.
@@ -16260,7 +16213,7 @@ func FileQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 17h.01" /> <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" /> <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M12 17h.01" /> <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" />`, opt)
 }
 
 // FileScan renders the "file-scan" icon.
@@ -16284,7 +16237,7 @@ func FileScan(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M20 10V7l-5-5H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M16 14a2 2 0 0 0-2 2" /> <path d="M20 14a2 2 0 0 1 2 2" /> <path d="M20 22a2 2 0 0 0 2-2" /> <path d="M16 22a2 2 0 0 1-2-2" />`, opt)
+	return buildSVG(`<path d="M20 10V8a2.4 2.4 0 0 0-.706-1.704l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.35" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M16 14a2 2 0 0 0-2 2" /> <path d="M16 22a2 2 0 0 1-2-2" /> <path d="M20 14a2 2 0 0 1 2 2" /> <path d="M20 22a2 2 0 0 0 2-2" />`, opt)
 }
 
 // FileSearch renders the "file-search" icon.
@@ -16308,20 +16261,20 @@ func FileSearch(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M4.268 21a2 2 0 0 0 1.727 1H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3" /> <path d="m9 18-1.5-1.5" /> <circle cx="5" cy="14" r="3" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <circle cx="11.5" cy="14.5" r="2.5" /> <path d="M13.3 16.3 15 18" />`, opt)
 }
 
-// FileSearch2 renders the "file-search-2" icon.
+// FileSearchCorner renders the "file-search-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-search-2" }}
+//	{{ lucide "file-search-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FileSearch2()
-//	lucide.FileSearch2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileSearch2(opts ...Options) template.HTML {
+//	lucide.FileSearchCorner()
+//	lucide.FileSearchCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileSearchCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -16332,7 +16285,31 @@ func FileSearch2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <circle cx="11.5" cy="14.5" r="2.5" /> <path d="M13.3 16.3 15 18" />`, opt)
+	return buildSVG(`<path d="M11.1 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.589 3.588A2.4 2.4 0 0 1 20 8v3.25" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m21 22-2.88-2.88" /> <circle cx="16" cy="17" r="3" />`, opt)
+}
+
+// FileSignal renders the "file-signal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-signal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileSignal()
+//	lucide.FileSignal(lucide.Options{Size: 32, Class: "my-icon"})
+func FileSignal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 15h.01" /> <path d="M11.5 13.5a2.5 2.5 0 0 1 0 3" /> <path d="M15 12a5 5 0 0 1 0 6" />`, opt)
 }
 
 // FileSliders renders the "file-sliders" icon.
@@ -16356,7 +16333,7 @@ func FileSliders(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M8 12h8" /> <path d="M10 11v2" /> <path d="M8 17h8" /> <path d="M14 16v2" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 12h8" /> <path d="M10 11v2" /> <path d="M8 17h8" /> <path d="M14 16v2" />`, opt)
 }
 
 // FileSpreadsheet renders the "file-spreadsheet" icon.
@@ -16380,7 +16357,7 @@ func FileSpreadsheet(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M8 13h2" /> <path d="M14 13h2" /> <path d="M8 17h2" /> <path d="M14 17h2" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 13h2" /> <path d="M14 13h2" /> <path d="M8 17h2" /> <path d="M14 17h2" />`, opt)
 }
 
 // FileStack renders the "file-stack" icon.
@@ -16428,7 +16405,7 @@ func FileSymlink(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m10 18 3-3-3-3" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M4 11V4a2 2 0 0 1 2-2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h7" />`, opt)
+	return buildSVG(`<path d="M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h7" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m10 18 3-3-3-3" />`, opt)
 }
 
 // FileTerminal renders the "file-terminal" icon.
@@ -16452,7 +16429,7 @@ func FileTerminal(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m8 16 2-2-2-2" /> <path d="M12 18h4" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m8 16 2-2-2-2" /> <path d="M12 18h4" />`, opt)
 }
 
 // FileText renders the "file-text" icon.
@@ -16476,7 +16453,7 @@ func FileText(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 9H8" /> <path d="M16 13H8" /> <path d="M16 17H8" />`, opt)
 }
 
 // FileType renders the "file-type" icon.
@@ -16500,20 +16477,20 @@ func FileType(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M9 13v-1h6v1" /> <path d="M12 12v6" /> <path d="M11 18h2" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M11 18h2" /> <path d="M12 12v6" /> <path d="M9 13v-.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v.5" />`, opt)
 }
 
-// FileType2 renders the "file-type-2" icon.
+// FileTypeCorner renders the "file-type-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-type-2" }}
+//	{{ lucide "file-type-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FileType2()
-//	lucide.FileType2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileType2(opts ...Options) template.HTML {
+//	lucide.FileTypeCorner()
+//	lucide.FileTypeCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileTypeCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -16524,7 +16501,7 @@ func FileType2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M2 13v-1h6v1" /> <path d="M5 12v6" /> <path d="M4 18h2" />`, opt)
+	return buildSVG(`<path d="M12 22h6a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M3 16v-1.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5V16" /> <path d="M6 22h2" /> <path d="M7 14v8" />`, opt)
 }
 
 // FileUp renders the "file-up" icon.
@@ -16548,7 +16525,7 @@ func FileUp(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M12 12v6" /> <path d="m15 15-3-3-3 3" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M12 12v6" /> <path d="m15 15-3-3-3 3" />`, opt)
 }
 
 // FileUser renders the "file-user" icon.
@@ -16572,7 +16549,7 @@ func FileUser(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M15 18a3 3 0 1 0-6 0" /> <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z" /> <circle cx="12" cy="13" r="2" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M16 22a4 4 0 0 0-8 0" /> <circle cx="12" cy="15" r="3" />`, opt)
 }
 
 // FileVideoCamera renders the "file-video-camera" icon.
@@ -16596,7 +16573,7 @@ func FileVideoCamera(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <rect width="8" height="6" x="2" y="12" rx="1" /> <path d="m10 13.843 3.033-1.755a.645.645 0 0 1 .967.56v4.704a.645.645 0 0 1-.967.56L10 16.157" />`, opt)
+	return buildSVG(`<path d="M4 12V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m10 17.843 3.033-1.755a.64.64 0 0 1 .967.56v4.704a.65.65 0 0 1-.967.56L10 20.157" /> <rect width="7" height="6" x="3" y="16" rx="1" />`, opt)
 }
 
 // FileVolume renders the "file-volume" icon.
@@ -16620,55 +16597,7 @@ func FileVolume(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M11 11a5 5 0 0 1 0 6" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M4 6.765V4a2 2 0 0 1 2-2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-.93-.23" /> <path d="M7 10.51a.5.5 0 0 0-.826-.38l-1.893 1.628A1 1 0 0 1 3.63 12H2.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h1.129a1 1 0 0 1 .652.242l1.893 1.63a.5.5 0 0 0 .826-.38z" />`, opt)
-}
-
-// FileVolume2 renders the "file-volume-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-volume-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileVolume2()
-//	lucide.FileVolume2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileVolume2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M8 15h.01" /> <path d="M11.5 13.5a2.5 2.5 0 0 1 0 3" /> <path d="M15 12a5 5 0 0 1 0 6" />`, opt)
-}
-
-// FileWarning renders the "file-warning" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "file-warning" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FileWarning()
-//	lucide.FileWarning(lucide.Options{Size: 32, Class: "my-icon"})
-func FileWarning(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M12 9v4" /> <path d="M12 17h.01" />`, opt)
+	return buildSVG(`<path d="M4 11.55V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-1.95" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M12 15a5 5 0 0 1 0 6" /> <path d="M8 14.502a.5.5 0 0 0-.826-.381l-1.893 1.631a1 1 0 0 1-.651.243H3.5a.5.5 0 0 0-.5.501v3.006a.5.5 0 0 0 .5.501h1.129a1 1 0 0 1 .652.243l1.893 1.633a.5.5 0 0 0 .826-.38z" />`, opt)
 }
 
 // FileX renders the "file-x" icon.
@@ -16692,20 +16621,20 @@ func FileX(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m14.5 12.5-5 5" /> <path d="m9.5 12.5 5 5" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m14.5 12.5-5 5" /> <path d="m9.5 12.5 5 5" />`, opt)
 }
 
-// FileX2 renders the "file-x-2" icon.
+// FileXCorner renders the "file-x-corner" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "file-x-2" }}
+//	{{ lucide "file-x-corner" }}
 //
 // Direct usage in Go:
 //
-//	lucide.FileX2()
-//	lucide.FileX2(lucide.Options{Size: 32, Class: "my-icon"})
-func FileX2(opts ...Options) template.HTML {
+//	lucide.FileXCorner()
+//	lucide.FileXCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func FileXCorner(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -16716,7 +16645,7 @@ func FileX2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="m8 12.5-5 5" /> <path d="m3 12.5 5 5" />`, opt)
+	return buildSVG(`<path d="M11 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m15 17 5 5" /> <path d="m20 17-5 5" />`, opt)
 }
 
 // Files renders the "files" icon.
@@ -16740,7 +16669,7 @@ func Files(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 2a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 21 8v7a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" /> <path d="M15 2v4a2 2 0 0 0 2 2h4" /> <path d="M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1" />`, opt)
+	return buildSVG(`<path d="M15 2h-4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8" /> <path d="M16.706 2.706A2.4 2.4 0 0 0 15 2v5a1 1 0 0 0 1 1h5a2.4 2.4 0 0 0-.706-1.706z" /> <path d="M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1" />`, opt)
 }
 
 // Film renders the "film" icon.
@@ -18735,6 +18664,30 @@ func GitBranch(opts ...Options) template.HTML {
 	return buildSVG(`<line x1="6" x2="6" y1="3" y2="15" /> <circle cx="18" cy="6" r="3" /> <circle cx="6" cy="18" r="3" /> <path d="M18 9a9 9 0 0 1-9 9" />`, opt)
 }
 
+// GitBranchMinus renders the "git-branch-minus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "git-branch-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GitBranchMinus()
+//	lucide.GitBranchMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func GitBranchMinus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 6a9 9 0 0 0-9 9V3" /> <path d="M21 18h-6" /> <circle cx="18" cy="6" r="3" /> <circle cx="6" cy="18" r="3" />`, opt)
+}
+
 // GitBranchPlus renders the "git-branch-plus" icon.
 //
 // Usage in templates:
@@ -20509,6 +20462,30 @@ func Heater(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M11 8c2-3-2-3 0-6" /> <path d="M15.5 8c2-3-2-3 0-6" /> <path d="M6 10h.01" /> <path d="M6 14h.01" /> <path d="M10 16v-4" /> <path d="M14 16v-4" /> <path d="M18 16v-4" /> <path d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3" /> <path d="M5 20v2" /> <path d="M19 20v2" />`, opt)
+}
+
+// Helicopter renders the "helicopter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "helicopter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Helicopter()
+//	lucide.Helicopter(lucide.Options{Size: 32, Class: "my-icon"})
+func Helicopter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 17v4" /> <path d="M14 3v8a2 2 0 0 0 2 2h5.865" /> <path d="M17 17v4" /> <path d="M18 17a4 4 0 0 0 4-4 8 6 0 0 0-8-6 6 5 0 0 0-6 5v3a2 2 0 0 0 2 2z" /> <path d="M2 10v5" /> <path d="M6 3h16" /> <path d="M7 21h14" /> <path d="M8 13H2" />`, opt)
 }
 
 // Hexagon renders the "hexagon" icon.
@@ -25839,6 +25816,30 @@ func MousePointer2(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z" />`, opt)
 }
 
+// MousePointer2Off renders the "mouse-pointer-2-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mouse-pointer-2-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MousePointer2Off()
+//	lucide.MousePointer2Off(lucide.Options{Size: 32, Class: "my-icon"})
+func MousePointer2Off(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15.55 8.45 5.138 2.087a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063L8.45 15.551" /> <path d="M22 2 2 22" /> <path d="m6.816 11.528-2.779-6.84a.495.495 0 0 1 .651-.651l6.84 2.779" />`, opt)
+}
+
 // MousePointerBan renders the "mouse-pointer-ban" icon.
 //
 // Usage in templates:
@@ -30972,7 +30973,7 @@ func RulerDimensionLine(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 15v-3.014" /> <path d="M16 15v-3.014" /> <path d="M20 6H4" /> <path d="M20 8V4" /> <path d="M4 8V4" /> <path d="M8 15v-3.014" /> <rect x="3" y="12" width="18" height="7" rx="1" />`, opt)
+	return buildSVG(`<path d="M10 15v-3" /> <path d="M14 15v-3" /> <path d="M18 15v-3" /> <path d="M2 8V4" /> <path d="M22 6H2" /> <path d="M22 8V4" /> <path d="M6 15v-3" /> <rect x="2" y="12" width="20" height="8" rx="2" />`, opt)
 }
 
 // RussianRuble renders the "russian-ruble" icon.
@@ -32700,7 +32701,7 @@ func Shredder(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 22v-5" /> <path d="M14 19v-2" /> <path d="M14 2v4a2 2 0 0 0 2 2h4" /> <path d="M18 20v-3" /> <path d="M2 13h20" /> <path d="M20 13V7l-5-5H6a2 2 0 0 0-2 2v9" /> <path d="M6 20v-3" />`, opt)
+	return buildSVG(`<path d="M4 13V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 22v-5" /> <path d="M14 19v-2" /> <path d="M18 20v-3" /> <path d="M2 13h20" /> <path d="M6 20v-3" />`, opt)
 }
 
 // Shrimp renders the "shrimp" icon.
@@ -33445,6 +33446,30 @@ func Sofa(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3" /> <path d="M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z" /> <path d="M4 18v2" /> <path d="M20 18v2" /> <path d="M12 4v9" />`, opt)
+}
+
+// SolarPanel renders the "solar-panel" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "solar-panel" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SolarPanel()
+//	lucide.SolarPanel(lucide.Options{Size: 32, Class: "my-icon"})
+func SolarPanel(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 2h2" /> <path d="m14.28 14-4.56 8" /> <path d="m21 22-1.558-4H4.558" /> <path d="M3 10v2" /> <path d="M6.245 15.04A2 2 0 0 1 8 14h12a1 1 0 0 1 .864 1.505l-3.11 5.457A2 2 0 0 1 16 22H4a1 1 0 0 1-.863-1.506z" /> <path d="M7 2a4 4 0 0 1-4 4" /> <path d="m8.66 7.66 1.41 1.41" />`, opt)
 }
 
 // Soup renders the "soup" icon.
@@ -35748,7 +35773,7 @@ func Sticker(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z" /> <path d="M14 3v4a2 2 0 0 0 2 2h4" /> <path d="M8 13h.01" /> <path d="M16 13h.01" /> <path d="M10 16s.8 1 2 1c1.3 0 2-1 2-1" />`, opt)
+	return buildSVG(`<path d="M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z" /> <path d="M15 3v5a1 1 0 0 0 1 1h5" /> <path d="M8 13h.01" /> <path d="M16 13h.01" /> <path d="M10 16s.8 1 2 1c1.3 0 2-1 2-1" />`, opt)
 }
 
 // StickyNote renders the "sticky-note" icon.
@@ -35772,7 +35797,7 @@ func StickyNote(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8Z" /> <path d="M15 3v4a2 2 0 0 0 2 2h4" />`, opt)
+	return buildSVG(`<path d="M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z" /> <path d="M15 3v5a1 1 0 0 0 1 1h5" />`, opt)
 }
 
 // Store renders the "store" icon.
