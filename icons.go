@@ -324,6 +324,12 @@ func init() {
 	registerIcon("check-line", CheckLine)
 	registerIcon("chef-hat", ChefHat)
 	registerIcon("cherry", Cherry)
+	registerIcon("chess-bishop", ChessBishop)
+	registerIcon("chess-king", ChessKing)
+	registerIcon("chess-knight", ChessKnight)
+	registerIcon("chess-pawn", ChessPawn)
+	registerIcon("chess-queen", ChessQueen)
+	registerIcon("chess-rook", ChessRook)
 	registerIcon("chevron-down", ChevronDown)
 	registerIcon("chevron-first", ChevronFirst)
 	registerIcon("chevron-last", ChevronLast)
@@ -9302,6 +9308,150 @@ func Cherry(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z" /> <path d="M12 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z" /> <path d="M7 14c3.22-2.91 4.29-8.75 5-12 1.66 2.38 4.94 9 5 12" /> <path d="M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z" />`, opt)
+}
+
+// ChessBishop renders the "chess-bishop" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chess-bishop" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChessBishop()
+//	lucide.ChessBishop(lucide.Options{Size: 32, Class: "my-icon"})
+func ChessBishop(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" /> <path d="M15 18c1.5-.615 3-2.461 3-4.923C18 8.769 14.5 4.462 12 2 9.5 4.462 6 8.77 6 13.077 6 15.539 7.5 17.385 9 18" /> <path d="m16 7-2.5 2.5" /> <path d="M9 2h6" />`, opt)
+}
+
+// ChessKing renders the "chess-king" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chess-king" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChessKing()
+//	lucide.ChessKing(lucide.Options{Size: 32, Class: "my-icon"})
+func ChessKing(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" /> <path d="m6.7 18-1-1C4.35 15.682 3 14.09 3 12a5 5 0 0 1 4.95-5c1.584 0 2.7.455 4.05 1.818C13.35 7.455 14.466 7 16.05 7A5 5 0 0 1 21 12c0 2.082-1.359 3.673-2.7 5l-1 1" /> <path d="M10 4h4" /> <path d="M12 2v6.818" />`, opt)
+}
+
+// ChessKnight renders the "chess-knight" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chess-knight" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChessKnight()
+//	lucide.ChessKnight(lucide.Options{Size: 32, Class: "my-icon"})
+func ChessKnight(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" /> <path d="M16.5 18c1-2 2.5-5 2.5-9a7 7 0 0 0-7-7H6.635a1 1 0 0 0-.768 1.64L7 5l-2.32 5.802a2 2 0 0 0 .95 2.526l2.87 1.456" /> <path d="m15 5 1.425-1.425" /> <path d="m17 8 1.53-1.53" /> <path d="M9.713 12.185 7 18" />`, opt)
+}
+
+// ChessPawn renders the "chess-pawn" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chess-pawn" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChessPawn()
+//	lucide.ChessPawn(lucide.Options{Size: 32, Class: "my-icon"})
+func ChessPawn(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" /> <path d="m14.5 10 1.5 8" /> <path d="M7 10h10" /> <path d="m8 18 1.5-8" /> <circle cx="12" cy="6" r="4" />`, opt)
+}
+
+// ChessQueen renders the "chess-queen" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chess-queen" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChessQueen()
+//	lucide.ChessQueen(lucide.Options{Size: 32, Class: "my-icon"})
+func ChessQueen(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" /> <path d="m12.474 5.943 1.567 5.34a1 1 0 0 0 1.75.328l2.616-3.402" /> <path d="m20 9-3 9" /> <path d="m5.594 8.209 2.615 3.403a1 1 0 0 0 1.75-.329l1.567-5.34" /> <path d="M7 18 4 9" /> <circle cx="12" cy="4" r="2" /> <circle cx="20" cy="7" r="2" /> <circle cx="4" cy="7" r="2" />`, opt)
+}
+
+// ChessRook renders the "chess-rook" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chess-rook" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChessRook()
+//	lucide.ChessRook(lucide.Options{Size: 32, Class: "my-icon"})
+func ChessRook(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" /> <path d="M10 2v2" /> <path d="M14 2v2" /> <path d="m17 18-1-9" /> <path d="M6 2v5a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2" /> <path d="M6 4h12" /> <path d="m7 18 1-9" />`, opt)
 }
 
 // ChevronDown renders the "chevron-down" icon.
