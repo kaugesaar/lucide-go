@@ -14,8 +14,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        submodules: true
 
     - name: Set up Go
       uses: actions/setup-go@v5
@@ -50,21 +48,29 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        submodules: true
 
     - name: Set up Go
       uses: actions/setup-go@v5
       with:
         go-version: '1.21'
 
+    - name: Download current icons
+      run: |
+        VERSION=$(cat .lucide-version)
+        curl -sL "https://github.com/lucide-icons/lucide/releases/download/${VERSION}/lucide-icons-${VERSION}.zip" -o icons.zip
+        unzip -q icons.zip
+        mkdir -p lucide-icons
+        mv icons/*.svg lucide-icons/ || true
+        mv icons/*.json lucide-icons/ || true
+        rm -rf icons icons.zip
+
     - name: Run generator
-      run: go run cmd/generate/main.go
+      run: go run cmd/tool/main.go generate
 
     - name: Check for uncommitted changes
       run: |
         if [ -n "$(git status --porcelain)" ]; then
-          echo "Generated files are out of sync. Please run 'go run cmd/generate/main.go' and commit the changes."
+          echo "Generated files are out of sync. Please run 'go run cmd/tool/main.go generate' and commit the changes."
           git diff
           exit 1
         fi

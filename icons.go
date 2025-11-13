@@ -14,9 +14,12 @@ func init() {
 	registerIcon("airplay", Airplay)
 	registerIcon("alarm-clock", AlarmClock)
 	registerIcon("alarm-clock-check", AlarmClockCheck)
+	registerIcon("alarm-check", AlarmCheck)
 	registerIcon("alarm-clock-minus", AlarmClockMinus)
+	registerIcon("alarm-minus", AlarmMinus)
 	registerIcon("alarm-clock-off", AlarmClockOff)
 	registerIcon("alarm-clock-plus", AlarmClockPlus)
+	registerIcon("alarm-plus", AlarmPlus)
 	registerIcon("alarm-smoke", AlarmSmoke)
 	registerIcon("album", Album)
 	registerIcon("align-center-horizontal", AlignCenterHorizontal)
@@ -70,6 +73,7 @@ func init() {
 	registerIcon("arrow-down-0-1", ArrowDown01)
 	registerIcon("arrow-down-1-0", ArrowDown10)
 	registerIcon("arrow-down-a-z", ArrowDownAZ)
+	registerIcon("arrow-down-az", ArrowDownAz)
 	registerIcon("arrow-down-from-line", ArrowDownFromLine)
 	registerIcon("arrow-down-left", ArrowDownLeft)
 	registerIcon("arrow-down-narrow-wide", ArrowDownNarrowWide)
@@ -78,7 +82,9 @@ func init() {
 	registerIcon("arrow-down-to-line", ArrowDownToLine)
 	registerIcon("arrow-down-up", ArrowDownUp)
 	registerIcon("arrow-down-wide-narrow", ArrowDownWideNarrow)
+	registerIcon("sort-desc", SortDesc)
 	registerIcon("arrow-down-z-a", ArrowDownZA)
+	registerIcon("arrow-down-za", ArrowDownZa)
 	registerIcon("arrow-left", ArrowLeft)
 	registerIcon("arrow-left-from-line", ArrowLeftFromLine)
 	registerIcon("arrow-left-right", ArrowLeftRight)
@@ -91,15 +97,18 @@ func init() {
 	registerIcon("arrow-up-0-1", ArrowUp01)
 	registerIcon("arrow-up-1-0", ArrowUp10)
 	registerIcon("arrow-up-a-z", ArrowUpAZ)
+	registerIcon("arrow-up-az", ArrowUpAz)
 	registerIcon("arrow-up-down", ArrowUpDown)
 	registerIcon("arrow-up-from-dot", ArrowUpFromDot)
 	registerIcon("arrow-up-from-line", ArrowUpFromLine)
 	registerIcon("arrow-up-left", ArrowUpLeft)
 	registerIcon("arrow-up-narrow-wide", ArrowUpNarrowWide)
+	registerIcon("sort-asc", SortAsc)
 	registerIcon("arrow-up-right", ArrowUpRight)
 	registerIcon("arrow-up-to-line", ArrowUpToLine)
 	registerIcon("arrow-up-wide-narrow", ArrowUpWideNarrow)
 	registerIcon("arrow-up-z-a", ArrowUpZA)
+	registerIcon("arrow-up-za", ArrowUpZa)
 	registerIcon("arrows-up-from-line", ArrowsUpFromLine)
 	registerIcon("asterisk", Asterisk)
 	registerIcon("at-sign", AtSign)
@@ -109,12 +118,14 @@ func init() {
 	registerIcon("award", Award)
 	registerIcon("axe", Axe)
 	registerIcon("axis-3d", Axis3d)
+	registerIcon("axis-3-d", Axis3D)
 	registerIcon("baby", Baby)
 	registerIcon("backpack", Backpack)
 	registerIcon("badge", Badge)
 	registerIcon("badge-alert", BadgeAlert)
 	registerIcon("badge-cent", BadgeCent)
 	registerIcon("badge-check", BadgeCheck)
+	registerIcon("verified", Verified)
 	registerIcon("badge-dollar-sign", BadgeDollarSign)
 	registerIcon("badge-euro", BadgeEuro)
 	registerIcon("badge-indian-rupee", BadgeIndianRupee)
@@ -125,6 +136,7 @@ func init() {
 	registerIcon("badge-plus", BadgePlus)
 	registerIcon("badge-pound-sterling", BadgePoundSterling)
 	registerIcon("badge-question-mark", BadgeQuestionMark)
+	registerIcon("badge-help", BadgeHelp)
 	registerIcon("badge-russian-ruble", BadgeRussianRuble)
 	registerIcon("badge-swiss-franc", BadgeSwissFranc)
 	registerIcon("badge-turkish-lira", BadgeTurkishLira)
@@ -165,7 +177,9 @@ func init() {
 	registerIcon("bell-plus", BellPlus)
 	registerIcon("bell-ring", BellRing)
 	registerIcon("between-horizontal-end", BetweenHorizontalEnd)
+	registerIcon("between-horizonal-end", BetweenHorizonalEnd)
 	registerIcon("between-horizontal-start", BetweenHorizontalStart)
+	registerIcon("between-horizonal-start", BetweenHorizonalStart)
 	registerIcon("between-vertical-end", BetweenVerticalEnd)
 	registerIcon("between-vertical-start", BetweenVerticalStart)
 	registerIcon("biceps-flexed", BicepsFlexed)
@@ -194,6 +208,7 @@ func init() {
 	registerIcon("book-check", BookCheck)
 	registerIcon("book-copy", BookCopy)
 	registerIcon("book-dashed", BookDashed)
+	registerIcon("book-template", BookTemplate)
 	registerIcon("book-down", BookDown)
 	registerIcon("book-headphones", BookHeadphones)
 	registerIcon("book-heart", BookHeart)
@@ -226,6 +241,7 @@ func init() {
 	registerIcon("box", Box)
 	registerIcon("boxes", Boxes)
 	registerIcon("braces", Braces)
+	registerIcon("curly-braces", CurlyBraces)
 	registerIcon("brackets", Brackets)
 	registerIcon("brain", Brain)
 	registerIcon("brain-circuit", BrainCircuit)
@@ -281,6 +297,7 @@ func init() {
 	registerIcon("candy-off", CandyOff)
 	registerIcon("cannabis", Cannabis)
 	registerIcon("captions", Captions)
+	registerIcon("subtitles", Subtitles)
 	registerIcon("captions-off", CaptionsOff)
 	registerIcon("car", Car)
 	registerIcon("car-front", CarFront)
@@ -297,27 +314,40 @@ func init() {
 	registerIcon("cat", Cat)
 	registerIcon("cctv", Cctv)
 	registerIcon("chart-area", ChartArea)
+	registerIcon("area-chart", AreaChart)
 	registerIcon("chart-bar", ChartBar)
+	registerIcon("bar-chart-horizontal", BarChartHorizontal)
 	registerIcon("chart-bar-big", ChartBarBig)
+	registerIcon("bar-chart-horizontal-big", BarChartHorizontalBig)
 	registerIcon("chart-bar-decreasing", ChartBarDecreasing)
 	registerIcon("chart-bar-increasing", ChartBarIncreasing)
 	registerIcon("chart-bar-stacked", ChartBarStacked)
 	registerIcon("chart-candlestick", ChartCandlestick)
+	registerIcon("candlestick-chart", CandlestickChart)
 	registerIcon("chart-column", ChartColumn)
+	registerIcon("bar-chart-3", BarChart3)
 	registerIcon("chart-column-big", ChartColumnBig)
+	registerIcon("bar-chart-big", BarChartBig)
 	registerIcon("chart-column-decreasing", ChartColumnDecreasing)
 	registerIcon("chart-column-increasing", ChartColumnIncreasing)
+	registerIcon("bar-chart-4", BarChart4)
 	registerIcon("chart-column-stacked", ChartColumnStacked)
 	registerIcon("chart-gantt", ChartGantt)
 	registerIcon("chart-line", ChartLine)
+	registerIcon("line-chart", LineChart)
 	registerIcon("chart-network", ChartNetwork)
 	registerIcon("chart-no-axes-column", ChartNoAxesColumn)
+	registerIcon("bar-chart-2", BarChart2)
 	registerIcon("chart-no-axes-column-decreasing", ChartNoAxesColumnDecreasing)
 	registerIcon("chart-no-axes-column-increasing", ChartNoAxesColumnIncreasing)
+	registerIcon("bar-chart", BarChart)
 	registerIcon("chart-no-axes-combined", ChartNoAxesCombined)
 	registerIcon("chart-no-axes-gantt", ChartNoAxesGantt)
+	registerIcon("gantt-chart", GanttChart)
 	registerIcon("chart-pie", ChartPie)
+	registerIcon("pie-chart", PieChart)
 	registerIcon("chart-scatter", ChartScatter)
+	registerIcon("scatter-chart", ScatterChart)
 	registerIcon("chart-spline", ChartSpline)
 	registerIcon("check", Check)
 	registerIcon("check-check", CheckCheck)
@@ -346,27 +376,44 @@ func init() {
 	registerIcon("chevrons-up", ChevronsUp)
 	registerIcon("chevrons-up-down", ChevronsUpDown)
 	registerIcon("chromium", Chromium)
+	registerIcon("chrome", Chrome)
 	registerIcon("church", Church)
 	registerIcon("cigarette", Cigarette)
 	registerIcon("cigarette-off", CigaretteOff)
 	registerIcon("circle", Circle)
 	registerIcon("circle-alert", CircleAlert)
+	registerIcon("alert-circle", AlertCircle)
 	registerIcon("circle-arrow-down", CircleArrowDown)
+	registerIcon("arrow-down-circle", ArrowDownCircle)
 	registerIcon("circle-arrow-left", CircleArrowLeft)
+	registerIcon("arrow-left-circle", ArrowLeftCircle)
 	registerIcon("circle-arrow-out-down-left", CircleArrowOutDownLeft)
+	registerIcon("arrow-down-left-from-circle", ArrowDownLeftFromCircle)
 	registerIcon("circle-arrow-out-down-right", CircleArrowOutDownRight)
+	registerIcon("arrow-down-right-from-circle", ArrowDownRightFromCircle)
 	registerIcon("circle-arrow-out-up-left", CircleArrowOutUpLeft)
+	registerIcon("arrow-up-left-from-circle", ArrowUpLeftFromCircle)
 	registerIcon("circle-arrow-out-up-right", CircleArrowOutUpRight)
+	registerIcon("arrow-up-right-from-circle", ArrowUpRightFromCircle)
 	registerIcon("circle-arrow-right", CircleArrowRight)
+	registerIcon("arrow-right-circle", ArrowRightCircle)
 	registerIcon("circle-arrow-up", CircleArrowUp)
+	registerIcon("arrow-up-circle", ArrowUpCircle)
 	registerIcon("circle-check", CircleCheck)
+	registerIcon("check-circle-2", CheckCircle2)
 	registerIcon("circle-check-big", CircleCheckBig)
+	registerIcon("check-circle", CheckCircle)
 	registerIcon("circle-chevron-down", CircleChevronDown)
+	registerIcon("chevron-down-circle", ChevronDownCircle)
 	registerIcon("circle-chevron-left", CircleChevronLeft)
+	registerIcon("chevron-left-circle", ChevronLeftCircle)
 	registerIcon("circle-chevron-right", CircleChevronRight)
+	registerIcon("chevron-right-circle", ChevronRightCircle)
 	registerIcon("circle-chevron-up", CircleChevronUp)
+	registerIcon("chevron-up-circle", ChevronUpCircle)
 	registerIcon("circle-dashed", CircleDashed)
 	registerIcon("circle-divide", CircleDivide)
+	registerIcon("divide-circle", DivideCircle)
 	registerIcon("circle-dollar-sign", CircleDollarSign)
 	registerIcon("circle-dot", CircleDot)
 	registerIcon("circle-dot-dashed", CircleDotDashed)
@@ -375,25 +422,41 @@ func init() {
 	registerIcon("circle-fading-arrow-up", CircleFadingArrowUp)
 	registerIcon("circle-fading-plus", CircleFadingPlus)
 	registerIcon("circle-gauge", CircleGauge)
+	registerIcon("gauge-circle", GaugeCircle)
 	registerIcon("circle-minus", CircleMinus)
+	registerIcon("minus-circle", MinusCircle)
 	registerIcon("circle-off", CircleOff)
 	registerIcon("circle-parking", CircleParking)
+	registerIcon("parking-circle", ParkingCircle)
 	registerIcon("circle-parking-off", CircleParkingOff)
+	registerIcon("parking-circle-off", ParkingCircleOff)
 	registerIcon("circle-pause", CirclePause)
+	registerIcon("pause-circle", PauseCircle)
 	registerIcon("circle-percent", CirclePercent)
+	registerIcon("percent-circle", PercentCircle)
 	registerIcon("circle-play", CirclePlay)
+	registerIcon("play-circle", PlayCircle)
 	registerIcon("circle-plus", CirclePlus)
+	registerIcon("plus-circle", PlusCircle)
 	registerIcon("circle-pound-sterling", CirclePoundSterling)
 	registerIcon("circle-power", CirclePower)
+	registerIcon("power-circle", PowerCircle)
 	registerIcon("circle-question-mark", CircleQuestionMark)
+	registerIcon("help-circle", HelpCircle)
+	registerIcon("circle-help", CircleHelp)
 	registerIcon("circle-slash", CircleSlash)
 	registerIcon("circle-slash-2", CircleSlash2)
+	registerIcon("circle-slashed", CircleSlashed)
 	registerIcon("circle-small", CircleSmall)
 	registerIcon("circle-star", CircleStar)
 	registerIcon("circle-stop", CircleStop)
+	registerIcon("stop-circle", StopCircle)
 	registerIcon("circle-user", CircleUser)
+	registerIcon("user-circle", UserCircle)
 	registerIcon("circle-user-round", CircleUserRound)
+	registerIcon("user-circle-2", UserCircle2)
 	registerIcon("circle-x", CircleX)
+	registerIcon("x-circle", XCircle)
 	registerIcon("circuit-board", CircuitBoard)
 	registerIcon("citrus", Citrus)
 	registerIcon("clapperboard", Clapperboard)
@@ -405,7 +468,9 @@ func init() {
 	registerIcon("clipboard-minus", ClipboardMinus)
 	registerIcon("clipboard-paste", ClipboardPaste)
 	registerIcon("clipboard-pen", ClipboardPen)
+	registerIcon("clipboard-edit", ClipboardEdit)
 	registerIcon("clipboard-pen-line", ClipboardPenLine)
+	registerIcon("clipboard-signature", ClipboardSignature)
 	registerIcon("clipboard-plus", ClipboardPlus)
 	registerIcon("clipboard-type", ClipboardType)
 	registerIcon("clipboard-x", ClipboardX)
@@ -434,6 +499,7 @@ func init() {
 	registerIcon("cloud-check", CloudCheck)
 	registerIcon("cloud-cog", CloudCog)
 	registerIcon("cloud-download", CloudDownload)
+	registerIcon("download-cloud", DownloadCloud)
 	registerIcon("cloud-drizzle", CloudDrizzle)
 	registerIcon("cloud-fog", CloudFog)
 	registerIcon("cloud-hail", CloudHail)
@@ -447,19 +513,25 @@ func init() {
 	registerIcon("cloud-sun", CloudSun)
 	registerIcon("cloud-sun-rain", CloudSunRain)
 	registerIcon("cloud-upload", CloudUpload)
+	registerIcon("upload-cloud", UploadCloud)
 	registerIcon("cloudy", Cloudy)
 	registerIcon("clover", Clover)
 	registerIcon("club", Club)
 	registerIcon("code", Code)
 	registerIcon("code-xml", CodeXml)
+	registerIcon("code-2", Code2)
 	registerIcon("codepen", Codepen)
 	registerIcon("codesandbox", Codesandbox)
 	registerIcon("coffee", Coffee)
 	registerIcon("cog", Cog)
 	registerIcon("coins", Coins)
 	registerIcon("columns-2", Columns2)
+	registerIcon("columns", Columns)
 	registerIcon("columns-3", Columns3)
+	registerIcon("panels-left-right", PanelsLeftRight)
 	registerIcon("columns-3-cog", Columns3Cog)
+	registerIcon("columns-settings", ColumnsSettings)
+	registerIcon("table-config", TableConfig)
 	registerIcon("columns-4", Columns4)
 	registerIcon("combine", Combine)
 	registerIcon("command", Command)
@@ -471,6 +543,7 @@ func init() {
 	registerIcon("construction", Construction)
 	registerIcon("contact", Contact)
 	registerIcon("contact-round", ContactRound)
+	registerIcon("contact-2", Contact2)
 	registerIcon("container", Container)
 	registerIcon("contrast", Contrast)
 	registerIcon("cookie", Cookie)
@@ -515,6 +588,7 @@ func init() {
 	registerIcon("diamond", Diamond)
 	registerIcon("diamond-minus", DiamondMinus)
 	registerIcon("diamond-percent", DiamondPercent)
+	registerIcon("percent-diamond", PercentDiamond)
 	registerIcon("diamond-plus", DiamondPlus)
 	registerIcon("dice-1", Dice1)
 	registerIcon("dice-2", Dice2)
@@ -554,13 +628,16 @@ func init() {
 	registerIcon("ear", Ear)
 	registerIcon("ear-off", EarOff)
 	registerIcon("earth", Earth)
+	registerIcon("globe-2", Globe2)
 	registerIcon("earth-lock", EarthLock)
 	registerIcon("eclipse", Eclipse)
 	registerIcon("egg", Egg)
 	registerIcon("egg-fried", EggFried)
 	registerIcon("egg-off", EggOff)
 	registerIcon("ellipsis", Ellipsis)
+	registerIcon("more-horizontal", MoreHorizontal)
 	registerIcon("ellipsis-vertical", EllipsisVertical)
+	registerIcon("more-vertical", MoreVertical)
 	registerIcon("equal", Equal)
 	registerIcon("equal-approximately", EqualApproximately)
 	registerIcon("equal-not", EqualNot)
@@ -584,44 +661,68 @@ func init() {
 	registerIcon("file", File)
 	registerIcon("file-archive", FileArchive)
 	registerIcon("file-axis-3d", FileAxis3d)
+	registerIcon("file-axis-3-d", FileAxis3D)
 	registerIcon("file-badge", FileBadge)
+	registerIcon("file-badge-2", FileBadge2)
 	registerIcon("file-box", FileBox)
 	registerIcon("file-braces", FileBraces)
+	registerIcon("file-json", FileJson)
 	registerIcon("file-braces-corner", FileBracesCorner)
+	registerIcon("file-json-2", FileJson2)
 	registerIcon("file-chart-column", FileChartColumn)
+	registerIcon("file-bar-chart-2", FileBarChart2)
 	registerIcon("file-chart-column-increasing", FileChartColumnIncreasing)
+	registerIcon("file-bar-chart", FileBarChart)
 	registerIcon("file-chart-line", FileChartLine)
+	registerIcon("file-line-chart", FileLineChart)
 	registerIcon("file-chart-pie", FileChartPie)
+	registerIcon("file-pie-chart", FilePieChart)
 	registerIcon("file-check", FileCheck)
 	registerIcon("file-check-corner", FileCheckCorner)
+	registerIcon("file-check-2", FileCheck2)
 	registerIcon("file-clock", FileClock)
 	registerIcon("file-code", FileCode)
 	registerIcon("file-code-corner", FileCodeCorner)
+	registerIcon("file-code-2", FileCode2)
 	registerIcon("file-cog", FileCog)
+	registerIcon("file-cog-2", FileCog2)
 	registerIcon("file-diff", FileDiff)
 	registerIcon("file-digit", FileDigit)
 	registerIcon("file-down", FileDown)
 	registerIcon("file-exclamation-point", FileExclamationPoint)
+	registerIcon("file-warning", FileWarning)
 	registerIcon("file-headphone", FileHeadphone)
+	registerIcon("file-audio", FileAudio)
+	registerIcon("file-audio-2", FileAudio2)
 	registerIcon("file-heart", FileHeart)
 	registerIcon("file-image", FileImage)
 	registerIcon("file-input", FileInput)
 	registerIcon("file-key", FileKey)
+	registerIcon("file-key-2", FileKey2)
 	registerIcon("file-lock", FileLock)
+	registerIcon("file-lock-2", FileLock2)
 	registerIcon("file-minus", FileMinus)
 	registerIcon("file-minus-corner", FileMinusCorner)
+	registerIcon("file-minus-2", FileMinus2)
 	registerIcon("file-music", FileMusic)
 	registerIcon("file-output", FileOutput)
 	registerIcon("file-pen", FilePen)
+	registerIcon("file-edit", FileEdit)
 	registerIcon("file-pen-line", FilePenLine)
+	registerIcon("file-signature", FileSignature)
 	registerIcon("file-play", FilePlay)
+	registerIcon("file-video", FileVideo)
 	registerIcon("file-plus", FilePlus)
 	registerIcon("file-plus-corner", FilePlusCorner)
+	registerIcon("file-plus-2", FilePlus2)
 	registerIcon("file-question-mark", FileQuestionMark)
+	registerIcon("file-question", FileQuestion)
 	registerIcon("file-scan", FileScan)
 	registerIcon("file-search", FileSearch)
 	registerIcon("file-search-corner", FileSearchCorner)
+	registerIcon("file-search-2", FileSearch2)
 	registerIcon("file-signal", FileSignal)
+	registerIcon("file-volume-2", FileVolume2)
 	registerIcon("file-sliders", FileSliders)
 	registerIcon("file-spreadsheet", FileSpreadsheet)
 	registerIcon("file-stack", FileStack)
@@ -630,12 +731,15 @@ func init() {
 	registerIcon("file-text", FileText)
 	registerIcon("file-type", FileType)
 	registerIcon("file-type-corner", FileTypeCorner)
+	registerIcon("file-type-2", FileType2)
 	registerIcon("file-up", FileUp)
 	registerIcon("file-user", FileUser)
 	registerIcon("file-video-camera", FileVideoCamera)
+	registerIcon("file-video-2", FileVideo2)
 	registerIcon("file-volume", FileVolume)
 	registerIcon("file-x", FileX)
 	registerIcon("file-x-corner", FileXCorner)
+	registerIcon("file-x-2", FileX2)
 	registerIcon("files", Files)
 	registerIcon("film", Film)
 	registerIcon("fingerprint", Fingerprint)
@@ -670,6 +774,7 @@ func init() {
 	registerIcon("folder-closed", FolderClosed)
 	registerIcon("folder-code", FolderCode)
 	registerIcon("folder-cog", FolderCog)
+	registerIcon("folder-cog-2", FolderCog2)
 	registerIcon("folder-dot", FolderDot)
 	registerIcon("folder-down", FolderDown)
 	registerIcon("folder-git", FolderGit)
@@ -684,6 +789,7 @@ func init() {
 	registerIcon("folder-open-dot", FolderOpenDot)
 	registerIcon("folder-output", FolderOutput)
 	registerIcon("folder-pen", FolderPen)
+	registerIcon("folder-edit", FolderEdit)
 	registerIcon("folder-plus", FolderPlus)
 	registerIcon("folder-root", FolderRoot)
 	registerIcon("folder-search", FolderSearch)
@@ -703,8 +809,10 @@ func init() {
 	registerIcon("fuel", Fuel)
 	registerIcon("fullscreen", Fullscreen)
 	registerIcon("funnel", Funnel)
+	registerIcon("filter", Filter)
 	registerIcon("funnel-plus", FunnelPlus)
 	registerIcon("funnel-x", FunnelX)
+	registerIcon("filter-x", FilterX)
 	registerIcon("gallery-horizontal", GalleryHorizontal)
 	registerIcon("gallery-horizontal-end", GalleryHorizontalEnd)
 	registerIcon("gallery-thumbnails", GalleryThumbnails)
@@ -723,6 +831,7 @@ func init() {
 	registerIcon("git-branch-minus", GitBranchMinus)
 	registerIcon("git-branch-plus", GitBranchPlus)
 	registerIcon("git-commit-horizontal", GitCommitHorizontal)
+	registerIcon("git-commit", GitCommit)
 	registerIcon("git-commit-vertical", GitCommitVertical)
 	registerIcon("git-compare", GitCompare)
 	registerIcon("git-compare-arrows", GitCompareArrows)
@@ -746,11 +855,17 @@ func init() {
 	registerIcon("graduation-cap", GraduationCap)
 	registerIcon("grape", Grape)
 	registerIcon("grid-2x2", Grid2x2)
+	registerIcon("grid-2-x-2", Grid2X2)
 	registerIcon("grid-2x2-check", Grid2x2Check)
+	registerIcon("grid-2-x-2-check", Grid2X2Check)
 	registerIcon("grid-2x2-plus", Grid2x2Plus)
+	registerIcon("grid-2-x-2-plus", Grid2X2Plus)
 	registerIcon("grid-2x2-x", Grid2x2X)
+	registerIcon("grid-2-x-2-x", Grid2X2X)
 	registerIcon("grid-3x2", Grid3x2)
 	registerIcon("grid-3x3", Grid3x3)
+	registerIcon("grid", Grid)
+	registerIcon("grid-3-x-3", Grid3X3)
 	registerIcon("grip", Grip)
 	registerIcon("grip-horizontal", GripHorizontal)
 	registerIcon("grip-vertical", GripVertical)
@@ -763,8 +878,10 @@ func init() {
 	registerIcon("hand-coins", HandCoins)
 	registerIcon("hand-fist", HandFist)
 	registerIcon("hand-grab", HandGrab)
+	registerIcon("grab", Grab)
 	registerIcon("hand-heart", HandHeart)
 	registerIcon("hand-helping", HandHelping)
+	registerIcon("helping-hand", HelpingHand)
 	registerIcon("hand-metal", HandMetal)
 	registerIcon("hand-platter", HandPlatter)
 	registerIcon("handbag", Handbag)
@@ -805,12 +922,15 @@ func init() {
 	registerIcon("hotel", Hotel)
 	registerIcon("hourglass", Hourglass)
 	registerIcon("house", House)
+	registerIcon("home", Home)
 	registerIcon("house-heart", HouseHeart)
 	registerIcon("house-plug", HousePlug)
 	registerIcon("house-plus", HousePlus)
 	registerIcon("house-wifi", HouseWifi)
 	registerIcon("ice-cream-bowl", IceCreamBowl)
+	registerIcon("ice-cream-2", IceCream2)
 	registerIcon("ice-cream-cone", IceCreamCone)
+	registerIcon("ice-cream", IceCream)
 	registerIcon("id-card", IdCard)
 	registerIcon("id-card-lanyard", IdCardLanyard)
 	registerIcon("image", Image)
@@ -853,11 +973,13 @@ func init() {
 	registerIcon("languages", Languages)
 	registerIcon("laptop", Laptop)
 	registerIcon("laptop-minimal", LaptopMinimal)
+	registerIcon("laptop-2", Laptop2)
 	registerIcon("laptop-minimal-check", LaptopMinimalCheck)
 	registerIcon("lasso", Lasso)
 	registerIcon("lasso-select", LassoSelect)
 	registerIcon("laugh", Laugh)
 	registerIcon("layers", Layers)
+	registerIcon("layers-3", Layers3)
 	registerIcon("layers-2", Layers2)
 	registerIcon("layout-dashboard", LayoutDashboard)
 	registerIcon("layout-grid", LayoutGrid)
@@ -889,7 +1011,11 @@ func init() {
 	registerIcon("list-filter", ListFilter)
 	registerIcon("list-filter-plus", ListFilterPlus)
 	registerIcon("list-indent-decrease", ListIndentDecrease)
+	registerIcon("outdent", Outdent)
+	registerIcon("indent-decrease", IndentDecrease)
 	registerIcon("list-indent-increase", ListIndentIncrease)
+	registerIcon("indent", Indent)
+	registerIcon("indent-increase", IndentIncrease)
 	registerIcon("list-minus", ListMinus)
 	registerIcon("list-music", ListMusic)
 	registerIcon("list-ordered", ListOrdered)
@@ -902,6 +1028,7 @@ func init() {
 	registerIcon("list-x", ListX)
 	registerIcon("loader", Loader)
 	registerIcon("loader-circle", LoaderCircle)
+	registerIcon("loader-2", Loader2)
 	registerIcon("loader-pinwheel", LoaderPinwheel)
 	registerIcon("locate", Locate)
 	registerIcon("locate-fixed", LocateFixed)
@@ -909,7 +1036,9 @@ func init() {
 	registerIcon("lock", Lock)
 	registerIcon("lock-keyhole", LockKeyhole)
 	registerIcon("lock-keyhole-open", LockKeyholeOpen)
+	registerIcon("unlock-keyhole", UnlockKeyhole)
 	registerIcon("lock-open", LockOpen)
+	registerIcon("unlock", Unlock)
 	registerIcon("log-in", LogIn)
 	registerIcon("log-out", LogOut)
 	registerIcon("logs", Logs)
@@ -922,6 +1051,7 @@ func init() {
 	registerIcon("mail-open", MailOpen)
 	registerIcon("mail-plus", MailPlus)
 	registerIcon("mail-question-mark", MailQuestionMark)
+	registerIcon("mail-question", MailQuestion)
 	registerIcon("mail-search", MailSearch)
 	registerIcon("mail-warning", MailWarning)
 	registerIcon("mail-x", MailX)
@@ -937,6 +1067,7 @@ func init() {
 	registerIcon("map-pin-minus-inside", MapPinMinusInside)
 	registerIcon("map-pin-off", MapPinOff)
 	registerIcon("map-pin-pen", MapPinPen)
+	registerIcon("location-edit", LocationEdit)
 	registerIcon("map-pin-plus", MapPinPlus)
 	registerIcon("map-pin-plus-inside", MapPinPlusInside)
 	registerIcon("map-pin-x", MapPinX)
@@ -963,6 +1094,7 @@ func init() {
 	registerIcon("message-circle-off", MessageCircleOff)
 	registerIcon("message-circle-plus", MessageCirclePlus)
 	registerIcon("message-circle-question-mark", MessageCircleQuestionMark)
+	registerIcon("message-circle-question", MessageCircleQuestion)
 	registerIcon("message-circle-reply", MessageCircleReply)
 	registerIcon("message-circle-warning", MessageCircleWarning)
 	registerIcon("message-circle-x", MessageCircleX)
@@ -986,6 +1118,7 @@ func init() {
 	registerIcon("mic", Mic)
 	registerIcon("mic-off", MicOff)
 	registerIcon("mic-vocal", MicVocal)
+	registerIcon("mic-2", Mic2)
 	registerIcon("microchip", Microchip)
 	registerIcon("microscope", Microscope)
 	registerIcon("microwave", Microwave)
@@ -1023,6 +1156,7 @@ func init() {
 	registerIcon("mouse-pointer-click", MousePointerClick)
 	registerIcon("move", Move)
 	registerIcon("move-3d", Move3d)
+	registerIcon("move-3-d", Move3D)
 	registerIcon("move-diagonal", MoveDiagonal)
 	registerIcon("move-diagonal-2", MoveDiagonal2)
 	registerIcon("move-down", MoveDown)
@@ -1057,9 +1191,12 @@ func init() {
 	registerIcon("nut-off", NutOff)
 	registerIcon("octagon", Octagon)
 	registerIcon("octagon-alert", OctagonAlert)
+	registerIcon("alert-octagon", AlertOctagon)
 	registerIcon("octagon-minus", OctagonMinus)
 	registerIcon("octagon-pause", OctagonPause)
+	registerIcon("pause-octagon", PauseOctagon)
 	registerIcon("octagon-x", OctagonX)
+	registerIcon("x-octagon", XOctagon)
 	registerIcon("omega", Omega)
 	registerIcon("option", Option)
 	registerIcon("orbit", Orbit)
@@ -1076,29 +1213,38 @@ func init() {
 	registerIcon("paint-roller", PaintRoller)
 	registerIcon("paintbrush", Paintbrush)
 	registerIcon("paintbrush-vertical", PaintbrushVertical)
+	registerIcon("paintbrush-2", Paintbrush2)
 	registerIcon("palette", Palette)
 	registerIcon("panda", Panda)
 	registerIcon("panel-bottom", PanelBottom)
 	registerIcon("panel-bottom-close", PanelBottomClose)
 	registerIcon("panel-bottom-dashed", PanelBottomDashed)
+	registerIcon("panel-bottom-inactive", PanelBottomInactive)
 	registerIcon("panel-bottom-open", PanelBottomOpen)
 	registerIcon("panel-left", PanelLeft)
+	registerIcon("sidebar", Sidebar)
 	registerIcon("panel-left-close", PanelLeftClose)
+	registerIcon("sidebar-close", SidebarClose)
 	registerIcon("panel-left-dashed", PanelLeftDashed)
+	registerIcon("panel-left-inactive", PanelLeftInactive)
 	registerIcon("panel-left-open", PanelLeftOpen)
+	registerIcon("sidebar-open", SidebarOpen)
 	registerIcon("panel-left-right-dashed", PanelLeftRightDashed)
 	registerIcon("panel-right", PanelRight)
 	registerIcon("panel-right-close", PanelRightClose)
 	registerIcon("panel-right-dashed", PanelRightDashed)
+	registerIcon("panel-right-inactive", PanelRightInactive)
 	registerIcon("panel-right-open", PanelRightOpen)
 	registerIcon("panel-top", PanelTop)
 	registerIcon("panel-top-bottom-dashed", PanelTopBottomDashed)
 	registerIcon("panel-top-close", PanelTopClose)
 	registerIcon("panel-top-dashed", PanelTopDashed)
+	registerIcon("panel-top-inactive", PanelTopInactive)
 	registerIcon("panel-top-open", PanelTopOpen)
 	registerIcon("panels-left-bottom", PanelsLeftBottom)
 	registerIcon("panels-right-bottom", PanelsRightBottom)
 	registerIcon("panels-top-left", PanelsTopLeft)
+	registerIcon("layout", Layout)
 	registerIcon("paperclip", Paperclip)
 	registerIcon("parentheses", Parentheses)
 	registerIcon("parking-meter", ParkingMeter)
@@ -1107,7 +1253,9 @@ func init() {
 	registerIcon("paw-print", PawPrint)
 	registerIcon("pc-case", PcCase)
 	registerIcon("pen", Pen)
+	registerIcon("edit-2", Edit2)
 	registerIcon("pen-line", PenLine)
+	registerIcon("edit-3", Edit3)
 	registerIcon("pen-off", PenOff)
 	registerIcon("pen-tool", PenTool)
 	registerIcon("pencil", Pencil)
@@ -1147,6 +1295,7 @@ func init() {
 	registerIcon("plug", Plug)
 	registerIcon("plug-2", Plug2)
 	registerIcon("plug-zap", PlugZap)
+	registerIcon("plug-zap-2", PlugZap2)
 	registerIcon("plus", Plus)
 	registerIcon("pocket", Pocket)
 	registerIcon("pocket-knife", PocketKnife)
@@ -1191,6 +1340,7 @@ func init() {
 	registerIcon("receipt-turkish-lira", ReceiptTurkishLira)
 	registerIcon("rectangle-circle", RectangleCircle)
 	registerIcon("rectangle-ellipsis", RectangleEllipsis)
+	registerIcon("form-input", FormInput)
 	registerIcon("rectangle-goggles", RectangleGoggles)
 	registerIcon("rectangle-horizontal", RectangleHorizontal)
 	registerIcon("rectangle-vertical", RectangleVertical)
@@ -1219,6 +1369,7 @@ func init() {
 	registerIcon("roller-coaster", RollerCoaster)
 	registerIcon("rose", Rose)
 	registerIcon("rotate-3d", Rotate3d)
+	registerIcon("rotate-3-d", Rotate3D)
 	registerIcon("rotate-ccw", RotateCcw)
 	registerIcon("rotate-ccw-key", RotateCcwKey)
 	registerIcon("rotate-ccw-square", RotateCcwSquare)
@@ -1228,7 +1379,9 @@ func init() {
 	registerIcon("route-off", RouteOff)
 	registerIcon("router", Router)
 	registerIcon("rows-2", Rows2)
+	registerIcon("rows", Rows)
 	registerIcon("rows-3", Rows3)
+	registerIcon("panels-top-bottom", PanelsTopBottom)
 	registerIcon("rows-4", Rows4)
 	registerIcon("rss", Rss)
 	registerIcon("ruler", Ruler)
@@ -1245,6 +1398,7 @@ func init() {
 	registerIcon("save-off", SaveOff)
 	registerIcon("scale", Scale)
 	registerIcon("scale-3d", Scale3d)
+	registerIcon("scale-3-d", Scale3D)
 	registerIcon("scaling", Scaling)
 	registerIcon("scan", Scan)
 	registerIcon("scan-barcode", ScanBarcode)
@@ -1270,6 +1424,7 @@ func init() {
 	registerIcon("section", Section)
 	registerIcon("send", Send)
 	registerIcon("send-horizontal", SendHorizontal)
+	registerIcon("send-horizonal", SendHorizonal)
 	registerIcon("send-to-back", SendToBack)
 	registerIcon("separator-horizontal", SeparatorHorizontal)
 	registerIcon("separator-vertical", SeparatorVertical)
@@ -1294,8 +1449,10 @@ func init() {
 	registerIcon("shield-off", ShieldOff)
 	registerIcon("shield-plus", ShieldPlus)
 	registerIcon("shield-question-mark", ShieldQuestionMark)
+	registerIcon("shield-question", ShieldQuestion)
 	registerIcon("shield-user", ShieldUser)
 	registerIcon("shield-x", ShieldX)
+	registerIcon("shield-close", ShieldClose)
 	registerIcon("ship", Ship)
 	registerIcon("ship-wheel", ShipWheel)
 	registerIcon("shirt", Shirt)
@@ -1327,6 +1484,7 @@ func init() {
 	registerIcon("slice", Slice)
 	registerIcon("sliders-horizontal", SlidersHorizontal)
 	registerIcon("sliders-vertical", SlidersVertical)
+	registerIcon("sliders", Sliders)
 	registerIcon("smartphone", Smartphone)
 	registerIcon("smartphone-charging", SmartphoneCharging)
 	registerIcon("smartphone-nfc", SmartphoneNfc)
@@ -1342,6 +1500,7 @@ func init() {
 	registerIcon("spade", Spade)
 	registerIcon("sparkle", Sparkle)
 	registerIcon("sparkles", Sparkles)
+	registerIcon("stars", Stars)
 	registerIcon("speaker", Speaker)
 	registerIcon("speech", Speech)
 	registerIcon("spell-check", SpellCheck)
@@ -1355,69 +1514,126 @@ func init() {
 	registerIcon("sprout", Sprout)
 	registerIcon("square", Square)
 	registerIcon("square-activity", SquareActivity)
+	registerIcon("activity-square", ActivitySquare)
 	registerIcon("square-arrow-down", SquareArrowDown)
+	registerIcon("arrow-down-square", ArrowDownSquare)
 	registerIcon("square-arrow-down-left", SquareArrowDownLeft)
+	registerIcon("arrow-down-left-square", ArrowDownLeftSquare)
 	registerIcon("square-arrow-down-right", SquareArrowDownRight)
+	registerIcon("arrow-down-right-square", ArrowDownRightSquare)
 	registerIcon("square-arrow-left", SquareArrowLeft)
+	registerIcon("arrow-left-square", ArrowLeftSquare)
 	registerIcon("square-arrow-out-down-left", SquareArrowOutDownLeft)
+	registerIcon("arrow-down-left-from-square", ArrowDownLeftFromSquare)
 	registerIcon("square-arrow-out-down-right", SquareArrowOutDownRight)
+	registerIcon("arrow-down-right-from-square", ArrowDownRightFromSquare)
 	registerIcon("square-arrow-out-up-left", SquareArrowOutUpLeft)
+	registerIcon("arrow-up-left-from-square", ArrowUpLeftFromSquare)
 	registerIcon("square-arrow-out-up-right", SquareArrowOutUpRight)
+	registerIcon("arrow-up-right-from-square", ArrowUpRightFromSquare)
 	registerIcon("square-arrow-right", SquareArrowRight)
+	registerIcon("arrow-right-square", ArrowRightSquare)
 	registerIcon("square-arrow-up", SquareArrowUp)
+	registerIcon("arrow-up-square", ArrowUpSquare)
 	registerIcon("square-arrow-up-left", SquareArrowUpLeft)
+	registerIcon("arrow-up-left-square", ArrowUpLeftSquare)
 	registerIcon("square-arrow-up-right", SquareArrowUpRight)
+	registerIcon("arrow-up-right-square", ArrowUpRightSquare)
 	registerIcon("square-asterisk", SquareAsterisk)
+	registerIcon("asterisk-square", AsteriskSquare)
 	registerIcon("square-bottom-dashed-scissors", SquareBottomDashedScissors)
+	registerIcon("scissors-square-dashed-bottom", ScissorsSquareDashedBottom)
 	registerIcon("square-chart-gantt", SquareChartGantt)
+	registerIcon("gantt-chart-square", GanttChartSquare)
+	registerIcon("square-gantt-chart", SquareGanttChart)
 	registerIcon("square-check", SquareCheck)
+	registerIcon("check-square-2", CheckSquare2)
 	registerIcon("square-check-big", SquareCheckBig)
+	registerIcon("check-square", CheckSquare)
 	registerIcon("square-chevron-down", SquareChevronDown)
+	registerIcon("chevron-down-square", ChevronDownSquare)
 	registerIcon("square-chevron-left", SquareChevronLeft)
+	registerIcon("chevron-left-square", ChevronLeftSquare)
 	registerIcon("square-chevron-right", SquareChevronRight)
+	registerIcon("chevron-right-square", ChevronRightSquare)
 	registerIcon("square-chevron-up", SquareChevronUp)
+	registerIcon("chevron-up-square", ChevronUpSquare)
 	registerIcon("square-code", SquareCode)
+	registerIcon("code-square", CodeSquare)
 	registerIcon("square-dashed", SquareDashed)
+	registerIcon("box-select", BoxSelect)
 	registerIcon("square-dashed-bottom", SquareDashedBottom)
 	registerIcon("square-dashed-bottom-code", SquareDashedBottomCode)
 	registerIcon("square-dashed-kanban", SquareDashedKanban)
+	registerIcon("kanban-square-dashed", KanbanSquareDashed)
 	registerIcon("square-dashed-mouse-pointer", SquareDashedMousePointer)
+	registerIcon("mouse-pointer-square-dashed", MousePointerSquareDashed)
 	registerIcon("square-dashed-top-solid", SquareDashedTopSolid)
 	registerIcon("square-divide", SquareDivide)
+	registerIcon("divide-square", DivideSquare)
 	registerIcon("square-dot", SquareDot)
+	registerIcon("dot-square", DotSquare)
 	registerIcon("square-equal", SquareEqual)
+	registerIcon("equal-square", EqualSquare)
 	registerIcon("square-function", SquareFunction)
+	registerIcon("function-square", FunctionSquare)
 	registerIcon("square-kanban", SquareKanban)
+	registerIcon("kanban-square", KanbanSquare)
 	registerIcon("square-library", SquareLibrary)
+	registerIcon("library-square", LibrarySquare)
 	registerIcon("square-m", SquareM)
+	registerIcon("m-square", MSquare)
 	registerIcon("square-menu", SquareMenu)
+	registerIcon("menu-square", MenuSquare)
 	registerIcon("square-minus", SquareMinus)
+	registerIcon("minus-square", MinusSquare)
 	registerIcon("square-mouse-pointer", SquareMousePointer)
+	registerIcon("inspect", Inspect)
 	registerIcon("square-parking", SquareParking)
+	registerIcon("parking-square", ParkingSquare)
 	registerIcon("square-parking-off", SquareParkingOff)
+	registerIcon("parking-square-off", ParkingSquareOff)
 	registerIcon("square-pause", SquarePause)
 	registerIcon("square-pen", SquarePen)
+	registerIcon("pen-box", PenBox)
+	registerIcon("edit", Edit)
+	registerIcon("pen-square", PenSquare)
 	registerIcon("square-percent", SquarePercent)
+	registerIcon("percent-square", PercentSquare)
 	registerIcon("square-pi", SquarePi)
+	registerIcon("pi-square", PiSquare)
 	registerIcon("square-pilcrow", SquarePilcrow)
+	registerIcon("pilcrow-square", PilcrowSquare)
 	registerIcon("square-play", SquarePlay)
+	registerIcon("play-square", PlaySquare)
 	registerIcon("square-plus", SquarePlus)
+	registerIcon("plus-square", PlusSquare)
 	registerIcon("square-power", SquarePower)
+	registerIcon("power-square", PowerSquare)
 	registerIcon("square-radical", SquareRadical)
 	registerIcon("square-round-corner", SquareRoundCorner)
 	registerIcon("square-scissors", SquareScissors)
+	registerIcon("scissors-square", ScissorsSquare)
 	registerIcon("square-sigma", SquareSigma)
+	registerIcon("sigma-square", SigmaSquare)
 	registerIcon("square-slash", SquareSlash)
+	registerIcon("slash-square", SlashSquare)
 	registerIcon("square-split-horizontal", SquareSplitHorizontal)
+	registerIcon("split-square-horizontal", SplitSquareHorizontal)
 	registerIcon("square-split-vertical", SquareSplitVertical)
+	registerIcon("split-square-vertical", SplitSquareVertical)
 	registerIcon("square-square", SquareSquare)
 	registerIcon("square-stack", SquareStack)
 	registerIcon("square-star", SquareStar)
 	registerIcon("square-stop", SquareStop)
 	registerIcon("square-terminal", SquareTerminal)
+	registerIcon("terminal-square", TerminalSquare)
 	registerIcon("square-user", SquareUser)
+	registerIcon("user-square", UserSquare)
 	registerIcon("square-user-round", SquareUserRound)
+	registerIcon("user-square-2", UserSquare2)
 	registerIcon("square-x", SquareX)
+	registerIcon("x-square", XSquare)
 	registerIcon("squares-exclude", SquaresExclude)
 	registerIcon("squares-intersect", SquaresIntersect)
 	registerIcon("squares-subtract", SquaresSubtract)
@@ -1479,18 +1695,27 @@ func init() {
 	registerIcon("terminal", Terminal)
 	registerIcon("test-tube", TestTube)
 	registerIcon("test-tube-diagonal", TestTubeDiagonal)
+	registerIcon("test-tube-2", TestTube2)
 	registerIcon("test-tubes", TestTubes)
 	registerIcon("text-align-center", TextAlignCenter)
+	registerIcon("align-center", AlignCenter)
 	registerIcon("text-align-end", TextAlignEnd)
+	registerIcon("align-right", AlignRight)
 	registerIcon("text-align-justify", TextAlignJustify)
+	registerIcon("align-justify", AlignJustify)
 	registerIcon("text-align-start", TextAlignStart)
+	registerIcon("text", Text)
+	registerIcon("align-left", AlignLeft)
 	registerIcon("text-cursor", TextCursor)
 	registerIcon("text-cursor-input", TextCursorInput)
 	registerIcon("text-initial", TextInitial)
+	registerIcon("letter-text", LetterText)
 	registerIcon("text-quote", TextQuote)
 	registerIcon("text-search", TextSearch)
 	registerIcon("text-select", TextSelect)
+	registerIcon("text-selection", TextSelection)
 	registerIcon("text-wrap", TextWrap)
+	registerIcon("wrap-text", WrapText)
 	registerIcon("theater", Theater)
 	registerIcon("thermometer", Thermometer)
 	registerIcon("thermometer-snowflake", ThermometerSnowflake)
@@ -1525,11 +1750,13 @@ func init() {
 	registerIcon("train-front-tunnel", TrainFrontTunnel)
 	registerIcon("train-track", TrainTrack)
 	registerIcon("tram-front", TramFront)
+	registerIcon("train", Train)
 	registerIcon("transgender", Transgender)
 	registerIcon("trash", Trash)
 	registerIcon("trash-2", Trash2)
 	registerIcon("tree-deciduous", TreeDeciduous)
 	registerIcon("tree-palm", TreePalm)
+	registerIcon("palmtree", Palmtree)
 	registerIcon("tree-pine", TreePine)
 	registerIcon("trees", Trees)
 	registerIcon("trello", Trello)
@@ -1538,6 +1765,7 @@ func init() {
 	registerIcon("trending-up-down", TrendingUpDown)
 	registerIcon("triangle", Triangle)
 	registerIcon("triangle-alert", TriangleAlert)
+	registerIcon("alert-triangle", AlertTriangle)
 	registerIcon("triangle-dashed", TriangleDashed)
 	registerIcon("triangle-right", TriangleRight)
 	registerIcon("trophy", Trophy)
@@ -1548,6 +1776,7 @@ func init() {
 	registerIcon("turtle", Turtle)
 	registerIcon("tv", Tv)
 	registerIcon("tv-minimal", TvMinimal)
+	registerIcon("tv-2", Tv2)
 	registerIcon("tv-minimal-play", TvMinimalPlay)
 	registerIcon("twitch", Twitch)
 	registerIcon("twitter", Twitter)
@@ -1563,6 +1792,7 @@ func init() {
 	registerIcon("unfold-vertical", UnfoldVertical)
 	registerIcon("ungroup", Ungroup)
 	registerIcon("university", University)
+	registerIcon("school-2", School2)
 	registerIcon("unlink", Unlink)
 	registerIcon("unlink-2", Unlink2)
 	registerIcon("unplug", Unplug)
@@ -1576,20 +1806,29 @@ func init() {
 	registerIcon("user-pen", UserPen)
 	registerIcon("user-plus", UserPlus)
 	registerIcon("user-round", UserRound)
+	registerIcon("user-2", User2)
 	registerIcon("user-round-check", UserRoundCheck)
+	registerIcon("user-check-2", UserCheck2)
 	registerIcon("user-round-cog", UserRoundCog)
+	registerIcon("user-cog-2", UserCog2)
 	registerIcon("user-round-minus", UserRoundMinus)
+	registerIcon("user-minus-2", UserMinus2)
 	registerIcon("user-round-pen", UserRoundPen)
 	registerIcon("user-round-plus", UserRoundPlus)
+	registerIcon("user-plus-2", UserPlus2)
 	registerIcon("user-round-search", UserRoundSearch)
 	registerIcon("user-round-x", UserRoundX)
+	registerIcon("user-x-2", UserX2)
 	registerIcon("user-search", UserSearch)
 	registerIcon("user-star", UserStar)
 	registerIcon("user-x", UserX)
 	registerIcon("users", Users)
 	registerIcon("users-round", UsersRound)
+	registerIcon("users-2", Users2)
 	registerIcon("utensils", Utensils)
+	registerIcon("fork-knife", ForkKnife)
 	registerIcon("utensils-crossed", UtensilsCrossed)
+	registerIcon("fork-knife-crossed", ForkKnifeCrossed)
 	registerIcon("utility-pole", UtilityPole)
 	registerIcon("variable", Variable)
 	registerIcon("vault", Vault)
@@ -1615,9 +1854,11 @@ func init() {
 	registerIcon("wallet", Wallet)
 	registerIcon("wallet-cards", WalletCards)
 	registerIcon("wallet-minimal", WalletMinimal)
+	registerIcon("wallet-2", Wallet2)
 	registerIcon("wallpaper", Wallpaper)
 	registerIcon("wand", Wand)
 	registerIcon("wand-sparkles", WandSparkles)
+	registerIcon("wand-2", Wand2)
 	registerIcon("warehouse", Warehouse)
 	registerIcon("washing-machine", WashingMachine)
 	registerIcon("watch", Watch)
@@ -1870,6 +2111,24 @@ func AlarmClockCheck(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="13" r="8" /> <path d="M5 3 2 6" /> <path d="m22 6-3-3" /> <path d="M6.38 18.7 4 21" /> <path d="M17.64 18.67 20 21" /> <path d="m9 13 2 2 4-4" />`, opt)
 }
 
+// AlarmCheck is an alias for AlarmClockCheck.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use AlarmClockCheck instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alarm-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlarmCheck()
+//	lucide.AlarmCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func AlarmCheck(opts ...Options) template.HTML {
+	return AlarmClockCheck(opts...)
+}
+
 // AlarmClockMinus renders the "alarm-clock-minus" icon.
 //
 // Usage in templates:
@@ -1892,6 +2151,24 @@ func AlarmClockMinus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="13" r="8" /> <path d="M5 3 2 6" /> <path d="m22 6-3-3" /> <path d="M6.38 18.7 4 21" /> <path d="M17.64 18.67 20 21" /> <path d="M9 13h6" />`, opt)
+}
+
+// AlarmMinus is an alias for AlarmClockMinus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use AlarmClockMinus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alarm-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlarmMinus()
+//	lucide.AlarmMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func AlarmMinus(opts ...Options) template.HTML {
+	return AlarmClockMinus(opts...)
 }
 
 // AlarmClockOff renders the "alarm-clock-off" icon.
@@ -1940,6 +2217,24 @@ func AlarmClockPlus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="13" r="8" /> <path d="M5 3 2 6" /> <path d="m22 6-3-3" /> <path d="M6.38 18.7 4 21" /> <path d="M17.64 18.67 20 21" /> <path d="M12 10v6" /> <path d="M9 13h6" />`, opt)
+}
+
+// AlarmPlus is an alias for AlarmClockPlus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use AlarmClockPlus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alarm-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlarmPlus()
+//	lucide.AlarmPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func AlarmPlus(opts ...Options) template.HTML {
+	return AlarmClockPlus(opts...)
 }
 
 // AlarmSmoke renders the "alarm-smoke" icon.
@@ -3214,6 +3509,24 @@ func ArrowDownAZ(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m3 16 4 4 4-4" /> <path d="M7 20V4" /> <path d="M20 8h-5" /> <path d="M15 10V6.5a2.5 2.5 0 0 1 5 0V10" /> <path d="M15 14h5l-5 6h5" />`, opt)
 }
 
+// ArrowDownAz is an alias for ArrowDownAZ.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowDownAZ instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-az" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownAz()
+//	lucide.ArrowDownAz(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownAz(opts ...Options) template.HTML {
+	return ArrowDownAZ(opts...)
+}
+
 // ArrowDownFromLine renders the "arrow-down-from-line" icon.
 //
 // Usage in templates:
@@ -3406,6 +3719,24 @@ func ArrowDownWideNarrow(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m3 16 4 4 4-4" /> <path d="M7 20V4" /> <path d="M11 4h10" /> <path d="M11 8h7" /> <path d="M11 12h4" />`, opt)
 }
 
+// SortDesc is an alias for ArrowDownWideNarrow.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowDownWideNarrow instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sort-desc" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SortDesc()
+//	lucide.SortDesc(lucide.Options{Size: 32, Class: "my-icon"})
+func SortDesc(opts ...Options) template.HTML {
+	return ArrowDownWideNarrow(opts...)
+}
+
 // ArrowDownZA renders the "arrow-down-z-a" icon.
 //
 // Usage in templates:
@@ -3428,6 +3759,24 @@ func ArrowDownZA(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m3 16 4 4 4-4" /> <path d="M7 4v16" /> <path d="M15 4h5l-5 6h5" /> <path d="M15 20v-3.5a2.5 2.5 0 0 1 5 0V20" /> <path d="M20 18h-5" />`, opt)
+}
+
+// ArrowDownZa is an alias for ArrowDownZA.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowDownZA instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-za" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownZa()
+//	lucide.ArrowDownZa(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownZa(opts ...Options) template.HTML {
+	return ArrowDownZA(opts...)
 }
 
 // ArrowLeft renders the "arrow-left" icon.
@@ -3718,6 +4067,24 @@ func ArrowUpAZ(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m3 8 4-4 4 4" /> <path d="M7 4v16" /> <path d="M20 8h-5" /> <path d="M15 10V6.5a2.5 2.5 0 0 1 5 0V10" /> <path d="M15 14h5l-5 6h5" />`, opt)
 }
 
+// ArrowUpAz is an alias for ArrowUpAZ.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowUpAZ instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-az" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpAz()
+//	lucide.ArrowUpAz(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpAz(opts ...Options) template.HTML {
+	return ArrowUpAZ(opts...)
+}
+
 // ArrowUpDown renders the "arrow-up-down" icon.
 //
 // Usage in templates:
@@ -3838,6 +4205,24 @@ func ArrowUpNarrowWide(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m3 8 4-4 4 4" /> <path d="M7 4v16" /> <path d="M11 12h4" /> <path d="M11 16h7" /> <path d="M11 20h10" />`, opt)
 }
 
+// SortAsc is an alias for ArrowUpNarrowWide.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowUpNarrowWide instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sort-asc" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SortAsc()
+//	lucide.SortAsc(lucide.Options{Size: 32, Class: "my-icon"})
+func SortAsc(opts ...Options) template.HTML {
+	return ArrowUpNarrowWide(opts...)
+}
+
 // ArrowUpRight renders the "arrow-up-right" icon.
 //
 // Usage in templates:
@@ -3932,6 +4317,24 @@ func ArrowUpZA(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m3 8 4-4 4 4" /> <path d="M7 4v16" /> <path d="M15 4h5l-5 6h5" /> <path d="M15 20v-3.5a2.5 2.5 0 0 1 5 0V20" /> <path d="M20 18h-5" />`, opt)
+}
+
+// ArrowUpZa is an alias for ArrowUpZA.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowUpZA instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-za" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpZa()
+//	lucide.ArrowUpZa(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpZa(opts ...Options) template.HTML {
+	return ArrowUpZA(opts...)
 }
 
 // ArrowsUpFromLine renders the "arrows-up-from-line" icon.
@@ -4150,6 +4553,24 @@ func Axis3d(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M13.5 10.5 15 9" /> <path d="M4 4v15a1 1 0 0 0 1 1h15" /> <path d="M4.293 19.707 6 18" /> <path d="m9 15 1.5-1.5" />`, opt)
 }
 
+// Axis3D is an alias for Axis3d.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Axis3d instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "axis-3-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Axis3D()
+//	lucide.Axis3D(lucide.Options{Size: 32, Class: "my-icon"})
+func Axis3D(opts ...Options) template.HTML {
+	return Axis3d(opts...)
+}
+
 // Baby renders the "baby" icon.
 //
 // Usage in templates:
@@ -4292,6 +4713,24 @@ func BadgeCheck(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <path d="m9 12 2 2 4-4" />`, opt)
+}
+
+// Verified is an alias for BadgeCheck.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use BadgeCheck instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "verified" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Verified()
+//	lucide.Verified(lucide.Options{Size: 32, Class: "my-icon"})
+func Verified(opts ...Options) template.HTML {
+	return BadgeCheck(opts...)
 }
 
 // BadgeDollarSign renders the "badge-dollar-sign" icon.
@@ -4532,6 +4971,24 @@ func BadgeQuestionMark(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <line x1="12" x2="12.01" y1="17" y2="17" />`, opt)
+}
+
+// BadgeHelp is an alias for BadgeQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use BadgeQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "badge-help" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BadgeHelp()
+//	lucide.BadgeHelp(lucide.Options{Size: 32, Class: "my-icon"})
+func BadgeHelp(opts ...Options) template.HTML {
+	return BadgeQuestionMark(opts...)
 }
 
 // BadgeRussianRuble renders the "badge-russian-ruble" icon.
@@ -5494,6 +5951,24 @@ func BetweenHorizontalEnd(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="13" height="7" x="3" y="3" rx="1" /> <path d="m22 15-3-3 3-3" /> <rect width="13" height="7" x="3" y="14" rx="1" />`, opt)
 }
 
+// BetweenHorizonalEnd is an alias for BetweenHorizontalEnd.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.typo
+// Please use BetweenHorizontalEnd instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "between-horizonal-end" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BetweenHorizonalEnd()
+//	lucide.BetweenHorizonalEnd(lucide.Options{Size: 32, Class: "my-icon"})
+func BetweenHorizonalEnd(opts ...Options) template.HTML {
+	return BetweenHorizontalEnd(opts...)
+}
+
 // BetweenHorizontalStart renders the "between-horizontal-start" icon.
 //
 // Usage in templates:
@@ -5516,6 +5991,24 @@ func BetweenHorizontalStart(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="13" height="7" x="8" y="3" rx="1" /> <path d="m2 9 3 3-3 3" /> <rect width="13" height="7" x="8" y="14" rx="1" />`, opt)
+}
+
+// BetweenHorizonalStart is an alias for BetweenHorizontalStart.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.typo
+// Please use BetweenHorizontalStart instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "between-horizonal-start" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BetweenHorizonalStart()
+//	lucide.BetweenHorizonalStart(lucide.Options{Size: 32, Class: "my-icon"})
+func BetweenHorizonalStart(opts ...Options) template.HTML {
+	return BetweenHorizontalStart(opts...)
 }
 
 // BetweenVerticalEnd renders the "between-vertical-end" icon.
@@ -6188,6 +6681,24 @@ func BookDashed(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 17h1.5" /> <path d="M12 22h1.5" /> <path d="M12 2h1.5" /> <path d="M17.5 22H19a1 1 0 0 0 1-1" /> <path d="M17.5 2H19a1 1 0 0 1 1 1v1.5" /> <path d="M20 14v3h-2.5" /> <path d="M20 8.5V10" /> <path d="M4 10V8.5" /> <path d="M4 19.5V14" /> <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H8" /> <path d="M8 22H6.5a1 1 0 0 1 0-5H8" />`, opt)
+}
+
+// BookTemplate is an alias for BookDashed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use BookDashed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "book-template" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BookTemplate()
+//	lucide.BookTemplate(lucide.Options{Size: 32, Class: "my-icon"})
+func BookTemplate(opts ...Options) template.HTML {
+	return BookDashed(opts...)
 }
 
 // BookDown renders the "book-down" icon.
@@ -6956,6 +7467,24 @@ func Braces(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1" /> <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1" />`, opt)
+}
+
+// CurlyBraces is an alias for Braces.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Braces instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "curly-braces" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CurlyBraces()
+//	lucide.CurlyBraces(lucide.Options{Size: 32, Class: "my-icon"})
+func CurlyBraces(opts ...Options) template.HTML {
+	return Braces(opts...)
 }
 
 // Brackets renders the "brackets" icon.
@@ -8278,6 +8807,24 @@ func Captions(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="14" x="3" y="5" rx="2" ry="2" /> <path d="M7 15h4M15 15h2M7 11h2M13 11h4" />`, opt)
 }
 
+// Subtitles is an alias for Captions.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Captions instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "subtitles" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Subtitles()
+//	lucide.Subtitles(lucide.Options{Size: 32, Class: "my-icon"})
+func Subtitles(opts ...Options) template.HTML {
+	return Captions(opts...)
+}
+
 // CaptionsOff renders the "captions-off" icon.
 //
 // Usage in templates:
@@ -8662,6 +9209,24 @@ func ChartArea(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M7 11.207a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708 0l3.292 3.292a.5.5 0 0 0 .708 0l4.292-4.292a.5.5 0 0 1 .854.353V16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z" />`, opt)
 }
 
+// AreaChart is an alias for ChartArea.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartArea instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "area-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AreaChart()
+//	lucide.AreaChart(lucide.Options{Size: 32, Class: "my-icon"})
+func AreaChart(opts ...Options) template.HTML {
+	return ChartArea(opts...)
+}
+
 // ChartBar renders the "chart-bar" icon.
 //
 // Usage in templates:
@@ -8686,6 +9251,24 @@ func ChartBar(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M7 16h8" /> <path d="M7 11h12" /> <path d="M7 6h3" />`, opt)
 }
 
+// BarChartHorizontal is an alias for ChartBar.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartBar instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChartHorizontal()
+//	lucide.BarChartHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChartHorizontal(opts ...Options) template.HTML {
+	return ChartBar(opts...)
+}
+
 // ChartBarBig renders the "chart-bar-big" icon.
 //
 // Usage in templates:
@@ -8708,6 +9291,24 @@ func ChartBarBig(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <rect x="7" y="13" width="9" height="4" rx="1" /> <rect x="7" y="5" width="12" height="4" rx="1" />`, opt)
+}
+
+// BarChartHorizontalBig is an alias for ChartBarBig.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartBarBig instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart-horizontal-big" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChartHorizontalBig()
+//	lucide.BarChartHorizontalBig(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChartHorizontalBig(opts ...Options) template.HTML {
+	return ChartBarBig(opts...)
 }
 
 // ChartBarDecreasing renders the "chart-bar-decreasing" icon.
@@ -8806,6 +9407,24 @@ func ChartCandlestick(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M9 5v4" /> <rect width="4" height="6" x="7" y="9" rx="1" /> <path d="M9 15v2" /> <path d="M17 3v2" /> <rect width="4" height="8" x="15" y="5" rx="1" /> <path d="M17 13v3" /> <path d="M3 3v16a2 2 0 0 0 2 2h16" />`, opt)
 }
 
+// CandlestickChart is an alias for ChartCandlestick.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartCandlestick instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "candlestick-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CandlestickChart()
+//	lucide.CandlestickChart(lucide.Options{Size: 32, Class: "my-icon"})
+func CandlestickChart(opts ...Options) template.HTML {
+	return ChartCandlestick(opts...)
+}
+
 // ChartColumn renders the "chart-column" icon.
 //
 // Usage in templates:
@@ -8830,6 +9449,24 @@ func ChartColumn(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M18 17V9" /> <path d="M13 17V5" /> <path d="M8 17v-3" />`, opt)
 }
 
+// BarChart3 is an alias for ChartColumn.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartColumn instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart-3" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChart3()
+//	lucide.BarChart3(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChart3(opts ...Options) template.HTML {
+	return ChartColumn(opts...)
+}
+
 // ChartColumnBig renders the "chart-column-big" icon.
 //
 // Usage in templates:
@@ -8852,6 +9489,24 @@ func ChartColumnBig(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <rect x="15" y="5" width="4" height="12" rx="1" /> <rect x="7" y="8" width="4" height="9" rx="1" />`, opt)
+}
+
+// BarChartBig is an alias for ChartColumnBig.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartColumnBig instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart-big" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChartBig()
+//	lucide.BarChartBig(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChartBig(opts ...Options) template.HTML {
+	return ChartColumnBig(opts...)
 }
 
 // ChartColumnDecreasing renders the "chart-column-decreasing" icon.
@@ -8900,6 +9555,24 @@ func ChartColumnIncreasing(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 17V9" /> <path d="M18 17V5" /> <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M8 17v-3" />`, opt)
+}
+
+// BarChart4 is an alias for ChartColumnIncreasing.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartColumnIncreasing instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart-4" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChart4()
+//	lucide.BarChart4(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChart4(opts ...Options) template.HTML {
+	return ChartColumnIncreasing(opts...)
 }
 
 // ChartColumnStacked renders the "chart-column-stacked" icon.
@@ -8974,6 +9647,24 @@ func ChartLine(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="m19 9-5 5-4-4-3 3" />`, opt)
 }
 
+// LineChart is an alias for ChartLine.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartLine instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "line-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LineChart()
+//	lucide.LineChart(lucide.Options{Size: 32, Class: "my-icon"})
+func LineChart(opts ...Options) template.HTML {
+	return ChartLine(opts...)
+}
+
 // ChartNetwork renders the "chart-network" icon.
 //
 // Usage in templates:
@@ -9020,6 +9711,24 @@ func ChartNoAxesColumn(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M5 21v-6" /> <path d="M12 21V3" /> <path d="M19 21V9" />`, opt)
+}
+
+// BarChart2 is an alias for ChartNoAxesColumn.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartNoAxesColumn instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChart2()
+//	lucide.BarChart2(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChart2(opts ...Options) template.HTML {
+	return ChartNoAxesColumn(opts...)
 }
 
 // ChartNoAxesColumnDecreasing renders the "chart-no-axes-column-decreasing" icon.
@@ -9070,6 +9779,24 @@ func ChartNoAxesColumnIncreasing(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M5 21v-6" /> <path d="M12 21V9" /> <path d="M19 21V3" />`, opt)
 }
 
+// BarChart is an alias for ChartNoAxesColumnIncreasing.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartNoAxesColumnIncreasing instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "bar-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BarChart()
+//	lucide.BarChart(lucide.Options{Size: 32, Class: "my-icon"})
+func BarChart(opts ...Options) template.HTML {
+	return ChartNoAxesColumnIncreasing(opts...)
+}
+
 // ChartNoAxesCombined renders the "chart-no-axes-combined" icon.
 //
 // Usage in templates:
@@ -9118,6 +9845,24 @@ func ChartNoAxesGantt(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 5h12" /> <path d="M4 12h10" /> <path d="M12 19h8" />`, opt)
 }
 
+// GanttChart is an alias for ChartNoAxesGantt.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartNoAxesGantt instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "gantt-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GanttChart()
+//	lucide.GanttChart(lucide.Options{Size: 32, Class: "my-icon"})
+func GanttChart(opts ...Options) template.HTML {
+	return ChartNoAxesGantt(opts...)
+}
+
 // ChartPie renders the "chart-pie" icon.
 //
 // Usage in templates:
@@ -9142,6 +9887,24 @@ func ChartPie(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z" /> <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />`, opt)
 }
 
+// PieChart is an alias for ChartPie.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartPie instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pie-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PieChart()
+//	lucide.PieChart(lucide.Options{Size: 32, Class: "my-icon"})
+func PieChart(opts ...Options) template.HTML {
+	return ChartPie(opts...)
+}
+
 // ChartScatter renders the "chart-scatter" icon.
 //
 // Usage in templates:
@@ -9164,6 +9927,24 @@ func ChartScatter(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="7.5" cy="7.5" r=".5" fill="currentColor" /> <circle cx="18.5" cy="5.5" r=".5" fill="currentColor" /> <circle cx="11.5" cy="11.5" r=".5" fill="currentColor" /> <circle cx="7.5" cy="16.5" r=".5" fill="currentColor" /> <circle cx="17.5" cy="14.5" r=".5" fill="currentColor" /> <path d="M3 3v16a2 2 0 0 0 2 2h16" />`, opt)
+}
+
+// ScatterChart is an alias for ChartScatter.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ChartScatter instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "scatter-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ScatterChart()
+//	lucide.ScatterChart(lucide.Options{Size: 32, Class: "my-icon"})
+func ScatterChart(opts ...Options) template.HTML {
+	return ChartScatter(opts...)
 }
 
 // ChartSpline renders the "chart-spline" icon.
@@ -9838,6 +10619,24 @@ func Chromium(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10.88 21.94 15.46 14" /> <path d="M21.17 8H12" /> <path d="M3.95 6.06 8.54 14" /> <circle cx="12" cy="12" r="10" /> <circle cx="12" cy="12" r="4" />`, opt)
 }
 
+// Chrome is an alias for Chromium.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Chromium instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chrome" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Chrome()
+//	lucide.Chrome(lucide.Options{Size: 32, Class: "my-icon"})
+func Chrome(opts ...Options) template.HTML {
+	return Chromium(opts...)
+}
+
 // Church renders the "church" icon.
 //
 // Usage in templates:
@@ -9958,6 +10757,24 @@ func CircleAlert(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <line x1="12" x2="12" y1="8" y2="12" /> <line x1="12" x2="12.01" y1="16" y2="16" />`, opt)
 }
 
+// AlertCircle is an alias for CircleAlert.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleAlert instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alert-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlertCircle()
+//	lucide.AlertCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func AlertCircle(opts ...Options) template.HTML {
+	return CircleAlert(opts...)
+}
+
 // CircleArrowDown renders the "circle-arrow-down" icon.
 //
 // Usage in templates:
@@ -9980,6 +10797,24 @@ func CircleArrowDown(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M12 8v8" /> <path d="m8 12 4 4 4-4" />`, opt)
+}
+
+// ArrowDownCircle is an alias for CircleArrowDown.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowDown instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownCircle()
+//	lucide.ArrowDownCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownCircle(opts ...Options) template.HTML {
+	return CircleArrowDown(opts...)
 }
 
 // CircleArrowLeft renders the "circle-arrow-left" icon.
@@ -10006,6 +10841,24 @@ func CircleArrowLeft(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m12 8-4 4 4 4" /> <path d="M16 12H8" />`, opt)
 }
 
+// ArrowLeftCircle is an alias for CircleArrowLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-left-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowLeftCircle()
+//	lucide.ArrowLeftCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowLeftCircle(opts ...Options) template.HTML {
+	return CircleArrowLeft(opts...)
+}
+
 // CircleArrowOutDownLeft renders the "circle-arrow-out-down-left" icon.
 //
 // Usage in templates:
@@ -10028,6 +10881,24 @@ func CircleArrowOutDownLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 12a10 10 0 1 1 10 10" /> <path d="m2 22 10-10" /> <path d="M8 22H2v-6" />`, opt)
+}
+
+// ArrowDownLeftFromCircle is an alias for CircleArrowOutDownLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowOutDownLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-left-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownLeftFromCircle()
+//	lucide.ArrowDownLeftFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownLeftFromCircle(opts ...Options) template.HTML {
+	return CircleArrowOutDownLeft(opts...)
 }
 
 // CircleArrowOutDownRight renders the "circle-arrow-out-down-right" icon.
@@ -10054,6 +10925,24 @@ func CircleArrowOutDownRight(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 22a10 10 0 1 1 10-10" /> <path d="M22 22 12 12" /> <path d="M22 16v6h-6" />`, opt)
 }
 
+// ArrowDownRightFromCircle is an alias for CircleArrowOutDownRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowOutDownRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-right-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownRightFromCircle()
+//	lucide.ArrowDownRightFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownRightFromCircle(opts ...Options) template.HTML {
+	return CircleArrowOutDownRight(opts...)
+}
+
 // CircleArrowOutUpLeft renders the "circle-arrow-out-up-left" icon.
 //
 // Usage in templates:
@@ -10076,6 +10965,24 @@ func CircleArrowOutUpLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 8V2h6" /> <path d="m2 2 10 10" /> <path d="M12 2A10 10 0 1 1 2 12" />`, opt)
+}
+
+// ArrowUpLeftFromCircle is an alias for CircleArrowOutUpLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowOutUpLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-left-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpLeftFromCircle()
+//	lucide.ArrowUpLeftFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpLeftFromCircle(opts ...Options) template.HTML {
+	return CircleArrowOutUpLeft(opts...)
 }
 
 // CircleArrowOutUpRight renders the "circle-arrow-out-up-right" icon.
@@ -10102,6 +11009,24 @@ func CircleArrowOutUpRight(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M22 12A10 10 0 1 1 12 2" /> <path d="M22 2 12 12" /> <path d="M16 2h6v6" />`, opt)
 }
 
+// ArrowUpRightFromCircle is an alias for CircleArrowOutUpRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowOutUpRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-right-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpRightFromCircle()
+//	lucide.ArrowUpRightFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpRightFromCircle(opts ...Options) template.HTML {
+	return CircleArrowOutUpRight(opts...)
+}
+
 // CircleArrowRight renders the "circle-arrow-right" icon.
 //
 // Usage in templates:
@@ -10124,6 +11049,24 @@ func CircleArrowRight(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m12 16 4-4-4-4" /> <path d="M8 12h8" />`, opt)
+}
+
+// ArrowRightCircle is an alias for CircleArrowRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-right-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowRightCircle()
+//	lucide.ArrowRightCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowRightCircle(opts ...Options) template.HTML {
+	return CircleArrowRight(opts...)
 }
 
 // CircleArrowUp renders the "circle-arrow-up" icon.
@@ -10150,6 +11093,24 @@ func CircleArrowUp(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m16 12-4-4-4 4" /> <path d="M12 16V8" />`, opt)
 }
 
+// ArrowUpCircle is an alias for CircleArrowUp.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowUp instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpCircle()
+//	lucide.ArrowUpCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpCircle(opts ...Options) template.HTML {
+	return CircleArrowUp(opts...)
+}
+
 // CircleCheck renders the "circle-check" icon.
 //
 // Usage in templates:
@@ -10172,6 +11133,24 @@ func CircleCheck(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m9 12 2 2 4-4" />`, opt)
+}
+
+// CheckCircle2 is an alias for CircleCheck.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleCheck instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "check-circle-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CheckCircle2()
+//	lucide.CheckCircle2(lucide.Options{Size: 32, Class: "my-icon"})
+func CheckCircle2(opts ...Options) template.HTML {
+	return CircleCheck(opts...)
 }
 
 // CircleCheckBig renders the "circle-check-big" icon.
@@ -10198,6 +11177,24 @@ func CircleCheckBig(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21.801 10A10 10 0 1 1 17 3.335" /> <path d="m9 11 3 3L22 4" />`, opt)
 }
 
+// CheckCircle is an alias for CircleCheckBig.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleCheckBig instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "check-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CheckCircle()
+//	lucide.CheckCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func CheckCircle(opts ...Options) template.HTML {
+	return CircleCheckBig(opts...)
+}
+
 // CircleChevronDown renders the "circle-chevron-down" icon.
 //
 // Usage in templates:
@@ -10220,6 +11217,24 @@ func CircleChevronDown(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m16 10-4 4-4-4" />`, opt)
+}
+
+// ChevronDownCircle is an alias for CircleChevronDown.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleChevronDown instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-down-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronDownCircle()
+//	lucide.ChevronDownCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronDownCircle(opts ...Options) template.HTML {
+	return CircleChevronDown(opts...)
 }
 
 // CircleChevronLeft renders the "circle-chevron-left" icon.
@@ -10246,6 +11261,24 @@ func CircleChevronLeft(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m14 16-4-4 4-4" />`, opt)
 }
 
+// ChevronLeftCircle is an alias for CircleChevronLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleChevronLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-left-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronLeftCircle()
+//	lucide.ChevronLeftCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronLeftCircle(opts ...Options) template.HTML {
+	return CircleChevronLeft(opts...)
+}
+
 // CircleChevronRight renders the "circle-chevron-right" icon.
 //
 // Usage in templates:
@@ -10270,6 +11303,24 @@ func CircleChevronRight(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m10 8 4 4-4 4" />`, opt)
 }
 
+// ChevronRightCircle is an alias for CircleChevronRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleChevronRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-right-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronRightCircle()
+//	lucide.ChevronRightCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronRightCircle(opts ...Options) template.HTML {
+	return CircleChevronRight(opts...)
+}
+
 // CircleChevronUp renders the "circle-chevron-up" icon.
 //
 // Usage in templates:
@@ -10292,6 +11343,24 @@ func CircleChevronUp(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m8 14 4-4 4 4" />`, opt)
+}
+
+// ChevronUpCircle is an alias for CircleChevronUp.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleChevronUp instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-up-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronUpCircle()
+//	lucide.ChevronUpCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronUpCircle(opts ...Options) template.HTML {
+	return CircleChevronUp(opts...)
 }
 
 // CircleDashed renders the "circle-dashed" icon.
@@ -10340,6 +11409,24 @@ func CircleDivide(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<line x1="8" x2="16" y1="12" y2="12" /> <line x1="12" x2="12" y1="16" y2="16" /> <line x1="12" x2="12" y1="8" y2="8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// DivideCircle is an alias for CircleDivide.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleDivide instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "divide-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DivideCircle()
+//	lucide.DivideCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func DivideCircle(opts ...Options) template.HTML {
+	return CircleDivide(opts...)
 }
 
 // CircleDollarSign renders the "circle-dollar-sign" icon.
@@ -10534,6 +11621,24 @@ func CircleGauge(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M15.6 2.7a10 10 0 1 0 5.7 5.7" /> <circle cx="12" cy="12" r="2" /> <path d="M13.4 10.6 19 5" />`, opt)
 }
 
+// GaugeCircle is an alias for CircleGauge.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleGauge instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "gauge-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GaugeCircle()
+//	lucide.GaugeCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func GaugeCircle(opts ...Options) template.HTML {
+	return CircleGauge(opts...)
+}
+
 // CircleMinus renders the "circle-minus" icon.
 //
 // Usage in templates:
@@ -10556,6 +11661,24 @@ func CircleMinus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M8 12h8" />`, opt)
+}
+
+// MinusCircle is an alias for CircleMinus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleMinus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "minus-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MinusCircle()
+//	lucide.MinusCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func MinusCircle(opts ...Options) template.HTML {
+	return CircleMinus(opts...)
 }
 
 // CircleOff renders the "circle-off" icon.
@@ -10606,6 +11729,24 @@ func CircleParking(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M9 17V7h4a3 3 0 0 1 0 6H9" />`, opt)
 }
 
+// ParkingCircle is an alias for CircleParking.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleParking instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingCircle()
+//	lucide.ParkingCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingCircle(opts ...Options) template.HTML {
+	return CircleParking(opts...)
+}
+
 // CircleParkingOff renders the "circle-parking-off" icon.
 //
 // Usage in templates:
@@ -10628,6 +11769,24 @@ func CircleParkingOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12.656 7H13a3 3 0 0 1 2.984 3.307" /> <path d="M13 13H9" /> <path d="M19.071 19.071A1 1 0 0 1 4.93 4.93" /> <path d="m2 2 20 20" /> <path d="M8.357 2.687a10 10 0 0 1 12.956 12.956" /> <path d="M9 17V9" />`, opt)
+}
+
+// ParkingCircleOff is an alias for CircleParkingOff.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleParkingOff instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-circle-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingCircleOff()
+//	lucide.ParkingCircleOff(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingCircleOff(opts ...Options) template.HTML {
+	return CircleParkingOff(opts...)
 }
 
 // CirclePause renders the "circle-pause" icon.
@@ -10654,6 +11813,24 @@ func CirclePause(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <line x1="10" x2="10" y1="15" y2="9" /> <line x1="14" x2="14" y1="15" y2="9" />`, opt)
 }
 
+// PauseCircle is an alias for CirclePause.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CirclePause instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pause-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PauseCircle()
+//	lucide.PauseCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func PauseCircle(opts ...Options) template.HTML {
+	return CirclePause(opts...)
+}
+
 // CirclePercent renders the "circle-percent" icon.
 //
 // Usage in templates:
@@ -10676,6 +11853,24 @@ func CirclePercent(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m15 9-6 6" /> <path d="M9 9h.01" /> <path d="M15 15h.01" />`, opt)
+}
+
+// PercentCircle is an alias for CirclePercent.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CirclePercent instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "percent-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PercentCircle()
+//	lucide.PercentCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func PercentCircle(opts ...Options) template.HTML {
+	return CirclePercent(opts...)
 }
 
 // CirclePlay renders the "circle-play" icon.
@@ -10702,6 +11897,24 @@ func CirclePlay(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
+// PlayCircle is an alias for CirclePlay.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CirclePlay instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "play-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PlayCircle()
+//	lucide.PlayCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func PlayCircle(opts ...Options) template.HTML {
+	return CirclePlay(opts...)
+}
+
 // CirclePlus renders the "circle-plus" icon.
 //
 // Usage in templates:
@@ -10724,6 +11937,24 @@ func CirclePlus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M8 12h8" /> <path d="M12 8v8" />`, opt)
+}
+
+// PlusCircle is an alias for CirclePlus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CirclePlus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "plus-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PlusCircle()
+//	lucide.PlusCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func PlusCircle(opts ...Options) template.HTML {
+	return CirclePlus(opts...)
 }
 
 // CirclePoundSterling renders the "circle-pound-sterling" icon.
@@ -10774,6 +12005,24 @@ func CirclePower(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 7v4" /> <path d="M7.998 9.003a5 5 0 1 0 8-.005" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
+// PowerCircle is an alias for CirclePower.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CirclePower instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "power-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PowerCircle()
+//	lucide.PowerCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func PowerCircle(opts ...Options) template.HTML {
+	return CirclePower(opts...)
+}
+
 // CircleQuestionMark renders the "circle-question-mark" icon.
 //
 // Usage in templates:
@@ -10796,6 +12045,42 @@ func CircleQuestionMark(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <path d="M12 17h.01" />`, opt)
+}
+
+// HelpCircle is an alias for CircleQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "help-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HelpCircle()
+//	lucide.HelpCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func HelpCircle(opts ...Options) template.HTML {
+	return CircleQuestionMark(opts...)
+}
+
+// CircleHelp is an alias for CircleQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-help" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleHelp()
+//	lucide.CircleHelp(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleHelp(opts ...Options) template.HTML {
+	return CircleQuestionMark(opts...)
 }
 
 // CircleSlash renders the "circle-slash" icon.
@@ -10844,6 +12129,24 @@ func CircleSlash2(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M22 2 2 22" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleSlashed is an alias for CircleSlash2.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleSlash2 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-slashed" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleSlashed()
+//	lucide.CircleSlashed(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleSlashed(opts ...Options) template.HTML {
+	return CircleSlash2(opts...)
 }
 
 // CircleSmall renders the "circle-small" icon.
@@ -10918,6 +12221,24 @@ func CircleStop(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <rect x="9" y="9" width="6" height="6" rx="1" />`, opt)
 }
 
+// StopCircle is an alias for CircleStop.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleStop instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "stop-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StopCircle()
+//	lucide.StopCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func StopCircle(opts ...Options) template.HTML {
+	return CircleStop(opts...)
+}
+
 // CircleUser renders the "circle-user" icon.
 //
 // Usage in templates:
@@ -10940,6 +12261,24 @@ func CircleUser(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <circle cx="12" cy="10" r="3" /> <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662" />`, opt)
+}
+
+// UserCircle is an alias for CircleUser.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleUser instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserCircle()
+//	lucide.UserCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func UserCircle(opts ...Options) template.HTML {
+	return CircleUser(opts...)
 }
 
 // CircleUserRound renders the "circle-user-round" icon.
@@ -10966,6 +12305,24 @@ func CircleUserRound(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M18 20a6 6 0 0 0-12 0" /> <circle cx="12" cy="10" r="4" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
+// UserCircle2 is an alias for CircleUserRound.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleUserRound instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-circle-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserCircle2()
+//	lucide.UserCircle2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserCircle2(opts ...Options) template.HTML {
+	return CircleUserRound(opts...)
+}
+
 // CircleX renders the "circle-x" icon.
 //
 // Usage in templates:
@@ -10988,6 +12345,24 @@ func CircleX(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="m15 9-6 6" /> <path d="m9 9 6 6" />`, opt)
+}
+
+// XCircle is an alias for CircleX.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleX instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "x-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.XCircle()
+//	lucide.XCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func XCircle(opts ...Options) template.HTML {
+	return CircleX(opts...)
 }
 
 // CircuitBoard renders the "circuit-board" icon.
@@ -11254,6 +12629,24 @@ func ClipboardPen(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="8" height="4" x="8" y="2" rx="1" /> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5" /> <path d="M4 13.5V6a2 2 0 0 1 2-2h2" /> <path d="M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />`, opt)
 }
 
+// ClipboardEdit is an alias for ClipboardPen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ClipboardPen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "clipboard-edit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ClipboardEdit()
+//	lucide.ClipboardEdit(lucide.Options{Size: 32, Class: "my-icon"})
+func ClipboardEdit(opts ...Options) template.HTML {
+	return ClipboardPen(opts...)
+}
+
 // ClipboardPenLine renders the "clipboard-pen-line" icon.
 //
 // Usage in templates:
@@ -11276,6 +12669,24 @@ func ClipboardPenLine(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="8" height="4" x="8" y="2" rx="1" /> <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5" /> <path d="M16 4h2a2 2 0 0 1 1.73 1" /> <path d="M8 18h1" /> <path d="M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />`, opt)
+}
+
+// ClipboardSignature is an alias for ClipboardPenLine.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ClipboardPenLine instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "clipboard-signature" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ClipboardSignature()
+//	lucide.ClipboardSignature(lucide.Options{Size: 32, Class: "my-icon"})
+func ClipboardSignature(opts ...Options) template.HTML {
+	return ClipboardPenLine(opts...)
 }
 
 // ClipboardPlus renders the "clipboard-plus" icon.
@@ -11950,6 +13361,24 @@ func CloudDownload(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 13v8l-4-4" /> <path d="m12 21 4-4" /> <path d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284" />`, opt)
 }
 
+// DownloadCloud is an alias for CloudDownload.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CloudDownload instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "download-cloud" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DownloadCloud()
+//	lucide.DownloadCloud(lucide.Options{Size: 32, Class: "my-icon"})
+func DownloadCloud(opts ...Options) template.HTML {
+	return CloudDownload(opts...)
+}
+
 // CloudDrizzle renders the "cloud-drizzle" icon.
 //
 // Usage in templates:
@@ -12262,6 +13691,24 @@ func CloudUpload(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 13v8" /> <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" /> <path d="m8 17 4-4 4 4" />`, opt)
 }
 
+// UploadCloud is an alias for CloudUpload.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CloudUpload instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "upload-cloud" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UploadCloud()
+//	lucide.UploadCloud(lucide.Options{Size: 32, Class: "my-icon"})
+func UploadCloud(opts ...Options) template.HTML {
+	return CloudUpload(opts...)
+}
+
 // Cloudy renders the "cloudy" icon.
 //
 // Usage in templates:
@@ -12380,6 +13827,24 @@ func CodeXml(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m18 16 4-4-4-4" /> <path d="m6 8-4 4 4 4" /> <path d="m14.5 4-5 16" />`, opt)
+}
+
+// Code2 is an alias for CodeXml.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CodeXml instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "code-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Code2()
+//	lucide.Code2(lucide.Options{Size: 32, Class: "my-icon"})
+func Code2(opts ...Options) template.HTML {
+	return CodeXml(opts...)
 }
 
 // Codepen renders the "codepen" icon.
@@ -12526,6 +13991,24 @@ func Columns2(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M12 3v18" />`, opt)
 }
 
+// Columns is an alias for Columns2.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Columns2 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "columns" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Columns()
+//	lucide.Columns(lucide.Options{Size: 32, Class: "my-icon"})
+func Columns(opts ...Options) template.HTML {
+	return Columns2(opts...)
+}
+
 // Columns3 renders the "columns-3" icon.
 //
 // Usage in templates:
@@ -12550,6 +14033,24 @@ func Columns3(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 3v18" /> <path d="M15 3v18" />`, opt)
 }
 
+// PanelsLeftRight is an alias for Columns3.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Columns3 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "panels-left-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PanelsLeftRight()
+//	lucide.PanelsLeftRight(lucide.Options{Size: 32, Class: "my-icon"})
+func PanelsLeftRight(opts ...Options) template.HTML {
+	return Columns3(opts...)
+}
+
 // Columns3Cog renders the "columns-3-cog" icon.
 //
 // Usage in templates:
@@ -12572,6 +14073,42 @@ func Columns3Cog(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.5" /> <path d="m14.3 19.6 1-.4" /> <path d="M15 3v7.5" /> <path d="m15.2 16.9-.9-.3" /> <path d="m16.6 21.7.3-.9" /> <path d="m16.8 15.3-.4-1" /> <path d="m19.1 15.2.3-.9" /> <path d="m19.6 21.7-.4-1" /> <path d="m20.7 16.8 1-.4" /> <path d="m21.7 19.4-.9-.3" /> <path d="M9 3v18" /> <circle cx="18" cy="18" r="3" />`, opt)
+}
+
+// ColumnsSettings is an alias for Columns3Cog.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Columns3Cog instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "columns-settings" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ColumnsSettings()
+//	lucide.ColumnsSettings(lucide.Options{Size: 32, Class: "my-icon"})
+func ColumnsSettings(opts ...Options) template.HTML {
+	return Columns3Cog(opts...)
+}
+
+// TableConfig is an alias for Columns3Cog.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Columns3Cog instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "table-config" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TableConfig()
+//	lucide.TableConfig(lucide.Options{Size: 32, Class: "my-icon"})
+func TableConfig(opts ...Options) template.HTML {
+	return Columns3Cog(opts...)
 }
 
 // Columns4 renders the "columns-4" icon.
@@ -12836,6 +14373,24 @@ func ContactRound(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M16 2v2" /> <path d="M17.915 22a6 6 0 0 0-12 0" /> <path d="M8 2v2" /> <circle cx="12" cy="12" r="4" /> <rect x="3" y="4" width="18" height="18" rx="2" />`, opt)
+}
+
+// Contact2 is an alias for ContactRound.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ContactRound instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "contact-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Contact2()
+//	lucide.Contact2(lucide.Options{Size: 32, Class: "my-icon"})
+func Contact2(opts ...Options) template.HTML {
+	return ContactRound(opts...)
 }
 
 // Container renders the "container" icon.
@@ -13894,6 +15449,24 @@ func DiamondPercent(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41L13.7 2.71a2.41 2.41 0 0 0-3.41 0Z" /> <path d="M9.2 9.2h.01" /> <path d="m14.5 9.5-5 5" /> <path d="M14.7 14.8h.01" />`, opt)
 }
 
+// PercentDiamond is an alias for DiamondPercent.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use DiamondPercent instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "percent-diamond" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PercentDiamond()
+//	lucide.PercentDiamond(lucide.Options{Size: 32, Class: "my-icon"})
+func PercentDiamond(opts ...Options) template.HTML {
+	return DiamondPercent(opts...)
+}
+
 // DiamondPlus renders the "diamond-plus" icon.
 //
 // Usage in templates:
@@ -14830,6 +16403,24 @@ func Earth(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21.54 15H17a2 2 0 0 0-2 2v4.54" /> <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17" /> <path d="M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
+// Globe2 is an alias for Earth.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Earth instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "globe-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Globe2()
+//	lucide.Globe2(lucide.Options{Size: 32, Class: "my-icon"})
+func Globe2(opts ...Options) template.HTML {
+	return Earth(opts...)
+}
+
 // EarthLock renders the "earth-lock" icon.
 //
 // Usage in templates:
@@ -14974,6 +16565,24 @@ func Ellipsis(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="1" /> <circle cx="19" cy="12" r="1" /> <circle cx="5" cy="12" r="1" />`, opt)
 }
 
+// MoreHorizontal is an alias for Ellipsis.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Ellipsis instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "more-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MoreHorizontal()
+//	lucide.MoreHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func MoreHorizontal(opts ...Options) template.HTML {
+	return Ellipsis(opts...)
+}
+
 // EllipsisVertical renders the "ellipsis-vertical" icon.
 //
 // Usage in templates:
@@ -14996,6 +16605,24 @@ func EllipsisVertical(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="1" /> <circle cx="12" cy="5" r="1" /> <circle cx="12" cy="19" r="1" />`, opt)
+}
+
+// MoreVertical is an alias for EllipsisVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use EllipsisVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "more-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MoreVertical()
+//	lucide.MoreVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func MoreVertical(opts ...Options) template.HTML {
+	return EllipsisVertical(opts...)
 }
 
 // Equal renders the "equal" icon.
@@ -15550,6 +17177,24 @@ func FileAxis3d(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m8 18 4-4" /> <path d="M8 10v8h8" />`, opt)
 }
 
+// FileAxis3D is an alias for FileAxis3d.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileAxis3d instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-axis-3-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileAxis3D()
+//	lucide.FileAxis3D(lucide.Options{Size: 32, Class: "my-icon"})
+func FileAxis3D(opts ...Options) template.HTML {
+	return FileAxis3d(opts...)
+}
+
 // FileBadge renders the "file-badge" icon.
 //
 // Usage in templates:
@@ -15572,6 +17217,24 @@ func FileBadge(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 22h5a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.3" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m7.69 16.479 1.29 4.88a.5.5 0 0 1-.698.591l-1.843-.849a1 1 0 0 0-.879.001l-1.846.85a.5.5 0 0 1-.692-.593l1.29-4.88" /> <circle cx="6" cy="14" r="3" />`, opt)
+}
+
+// FileBadge2 is an alias for FileBadge.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.duplicate
+// Please use FileBadge instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-badge-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileBadge2()
+//	lucide.FileBadge2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileBadge2(opts ...Options) template.HTML {
+	return FileBadge(opts...)
 }
 
 // FileBox renders the "file-box" icon.
@@ -15622,6 +17285,24 @@ func FileBraces(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1" /> <path d="M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1" />`, opt)
 }
 
+// FileJson is an alias for FileBraces.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileBraces instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-json" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileJson()
+//	lucide.FileJson(lucide.Options{Size: 32, Class: "my-icon"})
+func FileJson(opts ...Options) template.HTML {
+	return FileBraces(opts...)
+}
+
 // FileBracesCorner renders the "file-braces-corner" icon.
 //
 // Usage in templates:
@@ -15644,6 +17325,24 @@ func FileBracesCorner(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M14 22h4a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M5 14a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1 1 1 0 0 1 1 1v2a1 1 0 0 0 1 1" /> <path d="M9 22a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1" />`, opt)
+}
+
+// FileJson2 is an alias for FileBracesCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileBracesCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-json-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileJson2()
+//	lucide.FileJson2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileJson2(opts ...Options) template.HTML {
+	return FileBracesCorner(opts...)
 }
 
 // FileChartColumn renders the "file-chart-column" icon.
@@ -15670,6 +17369,24 @@ func FileChartColumn(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 18v-1" /> <path d="M12 18v-6" /> <path d="M16 18v-3" />`, opt)
 }
 
+// FileBarChart2 is an alias for FileChartColumn.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileChartColumn instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-bar-chart-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileBarChart2()
+//	lucide.FileBarChart2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileBarChart2(opts ...Options) template.HTML {
+	return FileChartColumn(opts...)
+}
+
 // FileChartColumnIncreasing renders the "file-chart-column-increasing" icon.
 //
 // Usage in templates:
@@ -15692,6 +17409,24 @@ func FileChartColumnIncreasing(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 18v-2" /> <path d="M12 18v-4" /> <path d="M16 18v-6" />`, opt)
+}
+
+// FileBarChart is an alias for FileChartColumnIncreasing.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileChartColumnIncreasing instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-bar-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileBarChart()
+//	lucide.FileBarChart(lucide.Options{Size: 32, Class: "my-icon"})
+func FileBarChart(opts ...Options) template.HTML {
+	return FileChartColumnIncreasing(opts...)
 }
 
 // FileChartLine renders the "file-chart-line" icon.
@@ -15718,6 +17453,24 @@ func FileChartLine(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m16 13-3.5 3.5-2-2L8 17" />`, opt)
 }
 
+// FileLineChart is an alias for FileChartLine.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileChartLine instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-line-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileLineChart()
+//	lucide.FileLineChart(lucide.Options{Size: 32, Class: "my-icon"})
+func FileLineChart(opts ...Options) template.HTML {
+	return FileChartLine(opts...)
+}
+
 // FileChartPie renders the "file-chart-pie" icon.
 //
 // Usage in templates:
@@ -15740,6 +17493,24 @@ func FileChartPie(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M15.941 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.704l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.512" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M4.017 11.512a6 6 0 1 0 8.466 8.475" /> <path d="M9 16a1 1 0 0 1-1-1v-4c0-.552.45-1.008.995-.917a6 6 0 0 1 4.922 4.922c.091.544-.365.995-.917.995z" />`, opt)
+}
+
+// FilePieChart is an alias for FileChartPie.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileChartPie instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-pie-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FilePieChart()
+//	lucide.FilePieChart(lucide.Options{Size: 32, Class: "my-icon"})
+func FilePieChart(opts ...Options) template.HTML {
+	return FileChartPie(opts...)
 }
 
 // FileCheck renders the "file-check" icon.
@@ -15788,6 +17559,24 @@ func FileCheckCorner(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.5 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m14 20 2 2 4-4" />`, opt)
+}
+
+// FileCheck2 is an alias for FileCheckCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileCheckCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-check-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileCheck2()
+//	lucide.FileCheck2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileCheck2(opts ...Options) template.HTML {
+	return FileCheckCorner(opts...)
 }
 
 // FileClock renders the "file-clock" icon.
@@ -15862,6 +17651,24 @@ func FileCodeCorner(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m5 16-3 3 3 3" /> <path d="m9 22 3-3-3-3" />`, opt)
 }
 
+// FileCode2 is an alias for FileCodeCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileCodeCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-code-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileCode2()
+//	lucide.FileCode2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileCode2(opts ...Options) template.HTML {
+	return FileCodeCorner(opts...)
+}
+
 // FileCog renders the "file-cog" icon.
 //
 // Usage in templates:
@@ -15884,6 +17691,24 @@ func FileCog(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13.85 22H18a2 2 0 0 0 2-2V8a2 2 0 0 0-.586-1.414l-4-4A2 2 0 0 0 14 2H6a2 2 0 0 0-2 2v6.6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m3.305 19.53.923-.382" /> <path d="m4.228 16.852-.924-.383" /> <path d="m5.852 15.228-.383-.923" /> <path d="m5.852 20.772-.383.924" /> <path d="m8.148 15.228.383-.923" /> <path d="m8.53 21.696-.382-.924" /> <path d="m9.773 16.852.922-.383" /> <path d="m9.773 19.148.922.383" /> <circle cx="7" cy="18" r="3" />`, opt)
+}
+
+// FileCog2 is an alias for FileCog.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileCog instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-cog-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileCog2()
+//	lucide.FileCog2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileCog2(opts ...Options) template.HTML {
+	return FileCog(opts...)
 }
 
 // FileDiff renders the "file-diff" icon.
@@ -15982,6 +17807,24 @@ func FileExclamationPoint(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M12 9v4" /> <path d="M12 17h.01" />`, opt)
 }
 
+// FileWarning is an alias for FileExclamationPoint.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileExclamationPoint instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-warning" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileWarning()
+//	lucide.FileWarning(lucide.Options{Size: 32, Class: "my-icon"})
+func FileWarning(opts ...Options) template.HTML {
+	return FileExclamationPoint(opts...)
+}
+
 // FileHeadphone renders the "file-headphone" icon.
 //
 // Usage in templates:
@@ -16004,6 +17847,42 @@ func FileHeadphone(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M4 6.835V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-.343" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M2 19a2 2 0 0 1 4 0v1a2 2 0 0 1-4 0v-4a6 6 0 0 1 12 0v4a2 2 0 0 1-4 0v-1a2 2 0 0 1 4 0" />`, opt)
+}
+
+// FileAudio is an alias for FileHeadphone.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileHeadphone instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-audio" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileAudio()
+//	lucide.FileAudio(lucide.Options{Size: 32, Class: "my-icon"})
+func FileAudio(opts ...Options) template.HTML {
+	return FileHeadphone(opts...)
+}
+
+// FileAudio2 is an alias for FileHeadphone.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.duplicate
+// Please use FileHeadphone instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-audio-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileAudio2()
+//	lucide.FileAudio2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileAudio2(opts ...Options) template.HTML {
+	return FileHeadphone(opts...)
 }
 
 // FileHeart renders the "file-heart" icon.
@@ -16102,6 +17981,24 @@ func FileKey(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10.65 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v10.1" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m10 15 1 1" /> <path d="m11 14-4.586 4.586" /> <circle cx="5" cy="20" r="2" />`, opt)
 }
 
+// FileKey2 is an alias for FileKey.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.duplicate
+// Please use FileKey instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-key-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileKey2()
+//	lucide.FileKey2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileKey2(opts ...Options) template.HTML {
+	return FileKey(opts...)
+}
+
 // FileLock renders the "file-lock" icon.
 //
 // Usage in templates:
@@ -16124,6 +18021,24 @@ func FileLock(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M4 9.8V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M9 17v-2a2 2 0 0 0-4 0v2" /> <rect width="8" height="5" x="3" y="17" rx="1" />`, opt)
+}
+
+// FileLock2 is an alias for FileLock.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.duplicate
+// Please use FileLock instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-lock-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileLock2()
+//	lucide.FileLock2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileLock2(opts ...Options) template.HTML {
+	return FileLock(opts...)
 }
 
 // FileMinus renders the "file-minus" icon.
@@ -16172,6 +18087,24 @@ func FileMinusCorner(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M20 14V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M14 18h6" />`, opt)
+}
+
+// FileMinus2 is an alias for FileMinusCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileMinusCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-minus-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileMinus2()
+//	lucide.FileMinus2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileMinus2(opts ...Options) template.HTML {
+	return FileMinusCorner(opts...)
 }
 
 // FileMusic renders the "file-music" icon.
@@ -16246,6 +18179,24 @@ func FilePen(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z" />`, opt)
 }
 
+// FileEdit is an alias for FilePen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FilePen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-edit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileEdit()
+//	lucide.FileEdit(lucide.Options{Size: 32, Class: "my-icon"})
+func FileEdit(opts ...Options) template.HTML {
+	return FilePen(opts...)
+}
+
 // FilePenLine renders the "file-pen-line" icon.
 //
 // Usage in templates:
@@ -16270,6 +18221,24 @@ func FilePenLine(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m18.226 5.226-2.52-2.52A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.351" /> <path d="M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" /> <path d="M8 18h1" />`, opt)
 }
 
+// FileSignature is an alias for FilePenLine.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FilePenLine instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-signature" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileSignature()
+//	lucide.FileSignature(lucide.Options{Size: 32, Class: "my-icon"})
+func FileSignature(opts ...Options) template.HTML {
+	return FilePenLine(opts...)
+}
+
 // FilePlay renders the "file-play" icon.
 //
 // Usage in templates:
@@ -16292,6 +18261,24 @@ func FilePlay(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M15.033 13.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56v-4.704a.645.645 0 0 1 .967-.56z" />`, opt)
+}
+
+// FileVideo is an alias for FilePlay.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FilePlay instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-video" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileVideo()
+//	lucide.FileVideo(lucide.Options{Size: 32, Class: "my-icon"})
+func FileVideo(opts ...Options) template.HTML {
+	return FilePlay(opts...)
 }
 
 // FilePlus renders the "file-plus" icon.
@@ -16342,6 +18329,24 @@ func FilePlusCorner(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11.35 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5.35" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M14 19h6" /> <path d="M17 16v6" />`, opt)
 }
 
+// FilePlus2 is an alias for FilePlusCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FilePlusCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-plus-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FilePlus2()
+//	lucide.FilePlus2(lucide.Options{Size: 32, Class: "my-icon"})
+func FilePlus2(opts ...Options) template.HTML {
+	return FilePlusCorner(opts...)
+}
+
 // FileQuestionMark renders the "file-question-mark" icon.
 //
 // Usage in templates:
@@ -16364,6 +18369,24 @@ func FileQuestionMark(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M12 17h.01" /> <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" />`, opt)
+}
+
+// FileQuestion is an alias for FileQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-question" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileQuestion()
+//	lucide.FileQuestion(lucide.Options{Size: 32, Class: "my-icon"})
+func FileQuestion(opts ...Options) template.HTML {
+	return FileQuestionMark(opts...)
 }
 
 // FileScan renders the "file-scan" icon.
@@ -16438,6 +18461,24 @@ func FileSearchCorner(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11.1 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.589 3.588A2.4 2.4 0 0 1 20 8v3.25" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m21 22-2.88-2.88" /> <circle cx="16" cy="17" r="3" />`, opt)
 }
 
+// FileSearch2 is an alias for FileSearchCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileSearchCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-search-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileSearch2()
+//	lucide.FileSearch2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileSearch2(opts ...Options) template.HTML {
+	return FileSearchCorner(opts...)
+}
+
 // FileSignal renders the "file-signal" icon.
 //
 // Usage in templates:
@@ -16460,6 +18501,24 @@ func FileSignal(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M8 15h.01" /> <path d="M11.5 13.5a2.5 2.5 0 0 1 0 3" /> <path d="M15 12a5 5 0 0 1 0 6" />`, opt)
+}
+
+// FileVolume2 is an alias for FileSignal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileSignal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-volume-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileVolume2()
+//	lucide.FileVolume2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileVolume2(opts ...Options) template.HTML {
+	return FileSignal(opts...)
 }
 
 // FileSliders renders the "file-sliders" icon.
@@ -16654,6 +18713,24 @@ func FileTypeCorner(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 22h6a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M3 16v-1.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5V16" /> <path d="M6 22h2" /> <path d="M7 14v8" />`, opt)
 }
 
+// FileType2 is an alias for FileTypeCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileTypeCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-type-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileType2()
+//	lucide.FileType2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileType2(opts ...Options) template.HTML {
+	return FileTypeCorner(opts...)
+}
+
 // FileUp renders the "file-up" icon.
 //
 // Usage in templates:
@@ -16726,6 +18803,24 @@ func FileVideoCamera(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M4 12V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m10 17.843 3.033-1.755a.64.64 0 0 1 .967.56v4.704a.65.65 0 0 1-.967.56L10 20.157" /> <rect width="7" height="6" x="3" y="16" rx="1" />`, opt)
 }
 
+// FileVideo2 is an alias for FileVideoCamera.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileVideoCamera instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-video-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileVideo2()
+//	lucide.FileVideo2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileVideo2(opts ...Options) template.HTML {
+	return FileVideoCamera(opts...)
+}
+
 // FileVolume renders the "file-volume" icon.
 //
 // Usage in templates:
@@ -16796,6 +18891,24 @@ func FileXCorner(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M11 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="m15 17 5 5" /> <path d="m20 17-5 5" />`, opt)
+}
+
+// FileX2 is an alias for FileXCorner.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FileXCorner instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-x-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileX2()
+//	lucide.FileX2(lucide.Options{Size: 32, Class: "my-icon"})
+func FileX2(opts ...Options) template.HTML {
+	return FileXCorner(opts...)
 }
 
 // Files renders the "files" icon.
@@ -17614,6 +19727,24 @@ func FolderCog(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10.3 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.98a2 2 0 0 1 1.69.9l.66 1.2A2 2 0 0 0 12 6h8a2 2 0 0 1 2 2v3.3" /> <path d="m14.305 19.53.923-.382" /> <path d="m15.228 16.852-.923-.383" /> <path d="m16.852 15.228-.383-.923" /> <path d="m16.852 20.772-.383.924" /> <path d="m19.148 15.228.383-.923" /> <path d="m19.53 21.696-.382-.924" /> <path d="m20.772 16.852.924-.383" /> <path d="m20.772 19.148.924.383" /> <circle cx="18" cy="18" r="3" />`, opt)
 }
 
+// FolderCog2 is an alias for FolderCog.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FolderCog instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "folder-cog-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FolderCog2()
+//	lucide.FolderCog2(lucide.Options{Size: 32, Class: "my-icon"})
+func FolderCog2(opts ...Options) template.HTML {
+	return FolderCog(opts...)
+}
+
 // FolderDot renders the "folder-dot" icon.
 //
 // Usage in templates:
@@ -17948,6 +20079,24 @@ func FolderPen(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 11.5V5a2 2 0 0 1 2-2h3.9c.7 0 1.3.3 1.7.9l.8 1.2c.4.6 1 .9 1.7.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5" /> <path d="M11.378 13.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" />`, opt)
+}
+
+// FolderEdit is an alias for FolderPen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FolderPen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "folder-edit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FolderEdit()
+//	lucide.FolderEdit(lucide.Options{Size: 32, Class: "my-icon"})
+func FolderEdit(opts ...Options) template.HTML {
+	return FolderPen(opts...)
 }
 
 // FolderPlus renders the "folder-plus" icon.
@@ -18406,6 +20555,24 @@ func Funnel(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z" />`, opt)
 }
 
+// Filter is an alias for Funnel.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Funnel instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "filter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Filter()
+//	lucide.Filter(lucide.Options{Size: 32, Class: "my-icon"})
+func Filter(opts ...Options) template.HTML {
+	return Funnel(opts...)
+}
+
 // FunnelPlus renders the "funnel-plus" icon.
 //
 // Usage in templates:
@@ -18452,6 +20619,24 @@ func FunnelX(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12.531 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l.427-.473" /> <path d="m16.5 3.5 5 5" /> <path d="m21.5 3.5-5 5" />`, opt)
+}
+
+// FilterX is an alias for FunnelX.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FunnelX instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "filter-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FilterX()
+//	lucide.FilterX(lucide.Options{Size: 32, Class: "my-icon"})
+func FilterX(opts ...Options) template.HTML {
+	return FunnelX(opts...)
 }
 
 // GalleryHorizontal renders the "gallery-horizontal" icon.
@@ -18884,6 +21069,24 @@ func GitCommitHorizontal(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="3" /> <line x1="3" x2="9" y1="12" y2="12" /> <line x1="15" x2="21" y1="12" y2="12" />`, opt)
+}
+
+// GitCommit is an alias for GitCommitHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use GitCommitHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "git-commit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GitCommit()
+//	lucide.GitCommit(lucide.Options{Size: 32, Class: "my-icon"})
+func GitCommit(opts ...Options) template.HTML {
+	return GitCommitHorizontal(opts...)
 }
 
 // GitCommitVertical renders the "git-commit-vertical" icon.
@@ -19438,6 +21641,24 @@ func Grid2x2(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 3v18" /> <path d="M3 12h18" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
+// Grid2X2 is an alias for Grid2x2.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid2x2 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-2-x-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid2X2()
+//	lucide.Grid2X2(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid2X2(opts ...Options) template.HTML {
+	return Grid2x2(opts...)
+}
+
 // Grid2x2Check renders the "grid-2x2-check" icon.
 //
 // Usage in templates:
@@ -19460,6 +21681,24 @@ func Grid2x2Check(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3" /> <path d="m16 19 2 2 4-4" />`, opt)
+}
+
+// Grid2X2Check is an alias for Grid2x2Check.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid2x2Check instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-2-x-2-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid2X2Check()
+//	lucide.Grid2X2Check(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid2X2Check(opts ...Options) template.HTML {
+	return Grid2x2Check(opts...)
 }
 
 // Grid2x2Plus renders the "grid-2x2-plus" icon.
@@ -19486,6 +21725,24 @@ func Grid2x2Plus(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3" /> <path d="M16 19h6" /> <path d="M19 22v-6" />`, opt)
 }
 
+// Grid2X2Plus is an alias for Grid2x2Plus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid2x2Plus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-2-x-2-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid2X2Plus()
+//	lucide.Grid2X2Plus(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid2X2Plus(opts ...Options) template.HTML {
+	return Grid2x2Plus(opts...)
+}
+
 // Grid2x2X renders the "grid-2x2-x" icon.
 //
 // Usage in templates:
@@ -19508,6 +21765,24 @@ func Grid2x2X(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3" /> <path d="m16 16 5 5" /> <path d="m16 21 5-5" />`, opt)
+}
+
+// Grid2X2X is an alias for Grid2x2X.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid2x2X instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-2-x-2-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid2X2X()
+//	lucide.Grid2X2X(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid2X2X(opts ...Options) template.HTML {
+	return Grid2x2X(opts...)
 }
 
 // Grid3x2 renders the "grid-3x2" icon.
@@ -19556,6 +21831,42 @@ func Grid3x3(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M3 9h18" /> <path d="M3 15h18" /> <path d="M9 3v18" /> <path d="M15 3v18" />`, opt)
+}
+
+// Grid is an alias for Grid3x3.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid3x3 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid()
+//	lucide.Grid(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid(opts ...Options) template.HTML {
+	return Grid3x3(opts...)
+}
+
+// Grid3X3 is an alias for Grid3x3.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid3x3 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-3-x-3" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid3X3()
+//	lucide.Grid3X3(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid3X3(opts ...Options) template.HTML {
+	return Grid3x3(opts...)
 }
 
 // Grip renders the "grip" icon.
@@ -19846,6 +22157,24 @@ func HandGrab(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4" /> <path d="M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2" /> <path d="M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5" /> <path d="M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2" /> <path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0" />`, opt)
 }
 
+// Grab is an alias for HandGrab.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use HandGrab instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grab" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grab()
+//	lucide.Grab(lucide.Options{Size: 32, Class: "my-icon"})
+func Grab(opts ...Options) template.HTML {
+	return HandGrab(opts...)
+}
+
 // HandHeart renders the "hand-heart" icon.
 //
 // Usage in templates:
@@ -19892,6 +22221,24 @@ func HandHelping(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M11 12h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 14" /> <path d="m7 18 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" /> <path d="m2 13 6 6" />`, opt)
+}
+
+// HelpingHand is an alias for HandHelping.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use HandHelping instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "helping-hand" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HelpingHand()
+//	lucide.HelpingHand(lucide.Options{Size: 32, Class: "my-icon"})
+func HelpingHand(opts ...Options) template.HTML {
+	return HandHelping(opts...)
 }
 
 // HandMetal renders the "hand-metal" icon.
@@ -20854,6 +23201,24 @@ func House(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />`, opt)
 }
 
+// Home is an alias for House.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use House instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "home" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Home()
+//	lucide.Home(lucide.Options{Size: 32, Class: "my-icon"})
+func Home(opts ...Options) template.HTML {
+	return House(opts...)
+}
+
 // HouseHeart renders the "house-heart" icon.
 //
 // Usage in templates:
@@ -20974,6 +23339,24 @@ func IceCreamBowl(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 17c5 0 8-2.69 8-6H4c0 3.31 3 6 8 6m-4 4h8m-4-3v3M5.14 11a3.5 3.5 0 1 1 6.71 0" /> <path d="M12.14 11a3.5 3.5 0 1 1 6.71 0" /> <path d="M15.5 6.5a3.5 3.5 0 1 0-7 0" />`, opt)
 }
 
+// IceCream2 is an alias for IceCreamBowl.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use IceCreamBowl instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "ice-cream-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.IceCream2()
+//	lucide.IceCream2(lucide.Options{Size: 32, Class: "my-icon"})
+func IceCream2(opts ...Options) template.HTML {
+	return IceCreamBowl(opts...)
+}
+
 // IceCreamCone renders the "ice-cream-cone" icon.
 //
 // Usage in templates:
@@ -20996,6 +23379,24 @@ func IceCreamCone(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11" /> <path d="M17 7A5 5 0 0 0 7 7" /> <path d="M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4" />`, opt)
+}
+
+// IceCream is an alias for IceCreamCone.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use IceCreamCone instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "ice-cream" }}
+//
+// Direct usage in Go:
+//
+//	lucide.IceCream()
+//	lucide.IceCream(lucide.Options{Size: 32, Class: "my-icon"})
+func IceCream(opts ...Options) template.HTML {
+	return IceCreamCone(opts...)
 }
 
 // IdCard renders the "id-card" icon.
@@ -22006,6 +24407,24 @@ func LaptopMinimal(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="12" x="3" y="4" rx="2" ry="2" /> <line x1="2" x2="22" y1="20" y2="20" />`, opt)
 }
 
+// Laptop2 is an alias for LaptopMinimal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use LaptopMinimal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "laptop-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Laptop2()
+//	lucide.Laptop2(lucide.Options{Size: 32, Class: "my-icon"})
+func Laptop2(opts ...Options) template.HTML {
+	return LaptopMinimal(opts...)
+}
+
 // LaptopMinimalCheck renders the "laptop-minimal-check" icon.
 //
 // Usage in templates:
@@ -22124,6 +24543,24 @@ func Layers(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" /> <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" /> <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" />`, opt)
+}
+
+// Layers3 is an alias for Layers.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.duplicate
+// Please use Layers instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "layers-3" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Layers3()
+//	lucide.Layers3(lucide.Options{Size: 32, Class: "my-icon"})
+func Layers3(opts ...Options) template.HTML {
+	return Layers(opts...)
 }
 
 // Layers2 renders the "layers-2" icon.
@@ -22870,6 +25307,42 @@ func ListIndentDecrease(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 5H11" /> <path d="M21 12H11" /> <path d="M21 19H11" /> <path d="m7 8-4 4 4 4" />`, opt)
 }
 
+// Outdent is an alias for ListIndentDecrease.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ListIndentDecrease instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "outdent" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Outdent()
+//	lucide.Outdent(lucide.Options{Size: 32, Class: "my-icon"})
+func Outdent(opts ...Options) template.HTML {
+	return ListIndentDecrease(opts...)
+}
+
+// IndentDecrease is an alias for ListIndentDecrease.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ListIndentDecrease instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "indent-decrease" }}
+//
+// Direct usage in Go:
+//
+//	lucide.IndentDecrease()
+//	lucide.IndentDecrease(lucide.Options{Size: 32, Class: "my-icon"})
+func IndentDecrease(opts ...Options) template.HTML {
+	return ListIndentDecrease(opts...)
+}
+
 // ListIndentIncrease renders the "list-indent-increase" icon.
 //
 // Usage in templates:
@@ -22892,6 +25365,42 @@ func ListIndentIncrease(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 5H11" /> <path d="M21 12H11" /> <path d="M21 19H11" /> <path d="m3 8 4 4-4 4" />`, opt)
+}
+
+// Indent is an alias for ListIndentIncrease.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ListIndentIncrease instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "indent" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Indent()
+//	lucide.Indent(lucide.Options{Size: 32, Class: "my-icon"})
+func Indent(opts ...Options) template.HTML {
+	return ListIndentIncrease(opts...)
+}
+
+// IndentIncrease is an alias for ListIndentIncrease.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ListIndentIncrease instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "indent-increase" }}
+//
+// Direct usage in Go:
+//
+//	lucide.IndentIncrease()
+//	lucide.IndentIncrease(lucide.Options{Size: 32, Class: "my-icon"})
+func IndentIncrease(opts ...Options) template.HTML {
+	return ListIndentIncrease(opts...)
 }
 
 // ListMinus renders the "list-minus" icon.
@@ -23182,6 +25691,24 @@ func LoaderCircle(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 12a9 9 0 1 1-6.219-8.56" />`, opt)
 }
 
+// Loader2 is an alias for LoaderCircle.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use LoaderCircle instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "loader-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Loader2()
+//	lucide.Loader2(lucide.Options{Size: 32, Class: "my-icon"})
+func Loader2(opts ...Options) template.HTML {
+	return LoaderCircle(opts...)
+}
+
 // LoaderPinwheel renders the "loader-pinwheel" icon.
 //
 // Usage in templates:
@@ -23350,6 +25877,24 @@ func LockKeyholeOpen(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="16" r="1" /> <rect width="18" height="12" x="3" y="10" rx="2" /> <path d="M7 10V7a5 5 0 0 1 9.33-2.5" />`, opt)
 }
 
+// UnlockKeyhole is an alias for LockKeyholeOpen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use LockKeyholeOpen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "unlock-keyhole" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UnlockKeyhole()
+//	lucide.UnlockKeyhole(lucide.Options{Size: 32, Class: "my-icon"})
+func UnlockKeyhole(opts ...Options) template.HTML {
+	return LockKeyholeOpen(opts...)
+}
+
 // LockOpen renders the "lock-open" icon.
 //
 // Usage in templates:
@@ -23372,6 +25917,24 @@ func LockOpen(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 9.9-1" />`, opt)
+}
+
+// Unlock is an alias for LockOpen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use LockOpen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "unlock" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Unlock()
+//	lucide.Unlock(lucide.Options{Size: 32, Class: "my-icon"})
+func Unlock(opts ...Options) template.HTML {
+	return LockOpen(opts...)
 }
 
 // LogIn renders the "log-in" icon.
@@ -23660,6 +26223,24 @@ func MailQuestionMark(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> <path d="M18 15.28c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2" /> <path d="M20 22v.01" />`, opt)
+}
+
+// MailQuestion is an alias for MailQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use MailQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "mail-question" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MailQuestion()
+//	lucide.MailQuestion(lucide.Options{Size: 32, Class: "my-icon"})
+func MailQuestion(opts ...Options) template.HTML {
+	return MailQuestionMark(opts...)
 }
 
 // MailSearch renders the "mail-search" icon.
@@ -24020,6 +26601,24 @@ func MapPinPen(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M17.97 9.304A8 8 0 0 0 2 10c0 4.69 4.887 9.562 7.022 11.468" /> <path d="M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" /> <circle cx="10" cy="10" r="3" />`, opt)
+}
+
+// LocationEdit is an alias for MapPinPen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use MapPinPen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "location-edit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LocationEdit()
+//	lucide.LocationEdit(lucide.Options{Size: 32, Class: "my-icon"})
+func LocationEdit(opts ...Options) template.HTML {
+	return MapPinPen(opts...)
 }
 
 // MapPinPlus renders the "map-pin-plus" icon.
@@ -24646,6 +27245,24 @@ func MessageCircleQuestionMark(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <path d="M12 17h.01" />`, opt)
 }
 
+// MessageCircleQuestion is an alias for MessageCircleQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use MessageCircleQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-circle-question" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageCircleQuestion()
+//	lucide.MessageCircleQuestion(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageCircleQuestion(opts ...Options) template.HTML {
+	return MessageCircleQuestionMark(opts...)
+}
+
 // MessageCircleReply renders the "message-circle-reply" icon.
 //
 // Usage in templates:
@@ -25196,6 +27813,24 @@ func MicVocal(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12" /> <path d="M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5" /> <circle cx="16" cy="7" r="5" />`, opt)
+}
+
+// Mic2 is an alias for MicVocal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use MicVocal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "mic-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Mic2()
+//	lucide.Mic2(lucide.Options{Size: 32, Class: "my-icon"})
+func Mic2(opts ...Options) template.HTML {
+	return MicVocal(opts...)
 }
 
 // Microchip renders the "microchip" icon.
@@ -26086,6 +28721,24 @@ func Move3d(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M5 3v16h16" /> <path d="m5 19 6-6" /> <path d="m2 6 3-3 3 3" /> <path d="m18 16 3 3-3 3" />`, opt)
 }
 
+// Move3D is an alias for Move3d.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Move3d instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "move-3-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Move3D()
+//	lucide.Move3D(lucide.Options{Size: 32, Class: "my-icon"})
+func Move3D(opts ...Options) template.HTML {
+	return Move3d(opts...)
+}
+
 // MoveDiagonal renders the "move-diagonal" icon.
 //
 // Usage in templates:
@@ -26902,6 +29555,24 @@ func OctagonAlert(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 16h.01" /> <path d="M12 8v4" /> <path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z" />`, opt)
 }
 
+// AlertOctagon is an alias for OctagonAlert.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use OctagonAlert instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alert-octagon" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlertOctagon()
+//	lucide.AlertOctagon(lucide.Options{Size: 32, Class: "my-icon"})
+func AlertOctagon(opts ...Options) template.HTML {
+	return OctagonAlert(opts...)
+}
+
 // OctagonMinus renders the "octagon-minus" icon.
 //
 // Usage in templates:
@@ -26950,6 +29621,24 @@ func OctagonPause(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10 15V9" /> <path d="M14 15V9" /> <path d="M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z" />`, opt)
 }
 
+// PauseOctagon is an alias for OctagonPause.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use OctagonPause instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pause-octagon" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PauseOctagon()
+//	lucide.PauseOctagon(lucide.Options{Size: 32, Class: "my-icon"})
+func PauseOctagon(opts ...Options) template.HTML {
+	return OctagonPause(opts...)
+}
+
 // OctagonX renders the "octagon-x" icon.
 //
 // Usage in templates:
@@ -26972,6 +29661,24 @@ func OctagonX(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m15 9-6 6" /> <path d="M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z" /> <path d="m9 9 6 6" />`, opt)
+}
+
+// XOctagon is an alias for OctagonX.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use OctagonX instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "x-octagon" }}
+//
+// Direct usage in Go:
+//
+//	lucide.XOctagon()
+//	lucide.XOctagon(lucide.Options{Size: 32, Class: "my-icon"})
+func XOctagon(opts ...Options) template.HTML {
+	return OctagonX(opts...)
 }
 
 // Omega renders the "omega" icon.
@@ -27358,6 +30065,24 @@ func PaintbrushVertical(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10 2v2" /> <path d="M14 2v4" /> <path d="M17 2a1 1 0 0 1 1 1v9H6V3a1 1 0 0 1 1-1z" /> <path d="M6 12a1 1 0 0 0-1 1v1a2 2 0 0 0 2 2h2a1 1 0 0 1 1 1v2.9a2 2 0 1 0 4 0V17a1 1 0 0 1 1-1h2a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1" />`, opt)
 }
 
+// Paintbrush2 is an alias for PaintbrushVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PaintbrushVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "paintbrush-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Paintbrush2()
+//	lucide.Paintbrush2(lucide.Options{Size: 32, Class: "my-icon"})
+func Paintbrush2(opts ...Options) template.HTML {
+	return PaintbrushVertical(opts...)
+}
+
 // Palette renders the "palette" icon.
 //
 // Usage in templates:
@@ -27478,6 +30203,24 @@ func PanelBottomDashed(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M14 15h1" /> <path d="M19 15h2" /> <path d="M3 15h2" /> <path d="M9 15h1" />`, opt)
 }
 
+// PanelBottomInactive is an alias for PanelBottomDashed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelBottomDashed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "panel-bottom-inactive" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PanelBottomInactive()
+//	lucide.PanelBottomInactive(lucide.Options{Size: 32, Class: "my-icon"})
+func PanelBottomInactive(opts ...Options) template.HTML {
+	return PanelBottomDashed(opts...)
+}
+
 // PanelBottomOpen renders the "panel-bottom-open" icon.
 //
 // Usage in templates:
@@ -27526,6 +30269,24 @@ func PanelLeft(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 3v18" />`, opt)
 }
 
+// Sidebar is an alias for PanelLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sidebar" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Sidebar()
+//	lucide.Sidebar(lucide.Options{Size: 32, Class: "my-icon"})
+func Sidebar(opts ...Options) template.HTML {
+	return PanelLeft(opts...)
+}
+
 // PanelLeftClose renders the "panel-left-close" icon.
 //
 // Usage in templates:
@@ -27548,6 +30309,24 @@ func PanelLeftClose(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 3v18" /> <path d="m16 15-3-3 3-3" />`, opt)
+}
+
+// SidebarClose is an alias for PanelLeftClose.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelLeftClose instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sidebar-close" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SidebarClose()
+//	lucide.SidebarClose(lucide.Options{Size: 32, Class: "my-icon"})
+func SidebarClose(opts ...Options) template.HTML {
+	return PanelLeftClose(opts...)
 }
 
 // PanelLeftDashed renders the "panel-left-dashed" icon.
@@ -27574,6 +30353,24 @@ func PanelLeftDashed(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 14v1" /> <path d="M9 19v2" /> <path d="M9 3v2" /> <path d="M9 9v1" />`, opt)
 }
 
+// PanelLeftInactive is an alias for PanelLeftDashed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelLeftDashed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "panel-left-inactive" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PanelLeftInactive()
+//	lucide.PanelLeftInactive(lucide.Options{Size: 32, Class: "my-icon"})
+func PanelLeftInactive(opts ...Options) template.HTML {
+	return PanelLeftDashed(opts...)
+}
+
 // PanelLeftOpen renders the "panel-left-open" icon.
 //
 // Usage in templates:
@@ -27596,6 +30393,24 @@ func PanelLeftOpen(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 3v18" /> <path d="m14 9 3 3-3 3" />`, opt)
+}
+
+// SidebarOpen is an alias for PanelLeftOpen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelLeftOpen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sidebar-open" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SidebarOpen()
+//	lucide.SidebarOpen(lucide.Options{Size: 32, Class: "my-icon"})
+func SidebarOpen(opts ...Options) template.HTML {
+	return PanelLeftOpen(opts...)
 }
 
 // PanelLeftRightDashed renders the "panel-left-right-dashed" icon.
@@ -27692,6 +30507,24 @@ func PanelRightDashed(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M15 14v1" /> <path d="M15 19v2" /> <path d="M15 3v2" /> <path d="M15 9v1" />`, opt)
+}
+
+// PanelRightInactive is an alias for PanelRightDashed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelRightDashed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "panel-right-inactive" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PanelRightInactive()
+//	lucide.PanelRightInactive(lucide.Options{Size: 32, Class: "my-icon"})
+func PanelRightInactive(opts ...Options) template.HTML {
+	return PanelRightDashed(opts...)
 }
 
 // PanelRightOpen renders the "panel-right-open" icon.
@@ -27814,6 +30647,24 @@ func PanelTopDashed(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M14 9h1" /> <path d="M19 9h2" /> <path d="M3 9h2" /> <path d="M9 9h1" />`, opt)
 }
 
+// PanelTopInactive is an alias for PanelTopDashed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelTopDashed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "panel-top-inactive" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PanelTopInactive()
+//	lucide.PanelTopInactive(lucide.Options{Size: 32, Class: "my-icon"})
+func PanelTopInactive(opts ...Options) template.HTML {
+	return PanelTopDashed(opts...)
+}
+
 // PanelTopOpen renders the "panel-top-open" icon.
 //
 // Usage in templates:
@@ -27908,6 +30759,24 @@ func PanelsTopLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M3 9h18" /> <path d="M9 21V9" />`, opt)
+}
+
+// Layout is an alias for PanelsTopLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PanelsTopLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "layout" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Layout()
+//	lucide.Layout(lucide.Options{Size: 32, Class: "my-icon"})
+func Layout(opts ...Options) template.HTML {
+	return PanelsTopLeft(opts...)
 }
 
 // Paperclip renders the "paperclip" icon.
@@ -28102,6 +30971,24 @@ func Pen(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" />`, opt)
 }
 
+// Edit2 is an alias for Pen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Pen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "edit-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Edit2()
+//	lucide.Edit2(lucide.Options{Size: 32, Class: "my-icon"})
+func Edit2(opts ...Options) template.HTML {
+	return Pen(opts...)
+}
+
 // PenLine renders the "pen-line" icon.
 //
 // Usage in templates:
@@ -28124,6 +31011,24 @@ func PenLine(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 21h8" /> <path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" />`, opt)
+}
+
+// Edit3 is an alias for PenLine.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PenLine instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "edit-3" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Edit3()
+//	lucide.Edit3(lucide.Options{Size: 32, Class: "my-icon"})
+func Edit3(opts ...Options) template.HTML {
+	return PenLine(opts...)
 }
 
 // PenOff renders the "pen-off" icon.
@@ -29060,6 +31965,24 @@ func PlugZap(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z" /> <path d="m2 22 3-3" /> <path d="M7.5 13.5 10 11" /> <path d="M10.5 16.5 13 14" /> <path d="m18 3-4 4h6l-4 4" />`, opt)
+}
+
+// PlugZap2 is an alias for PlugZap.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use PlugZap instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "plug-zap-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PlugZap2()
+//	lucide.PlugZap2(lucide.Options{Size: 32, Class: "my-icon"})
+func PlugZap2(opts ...Options) template.HTML {
+	return PlugZap(opts...)
 }
 
 // Plus renders the "plus" icon.
@@ -30118,6 +33041,24 @@ func RectangleEllipsis(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="20" height="12" x="2" y="6" rx="2" /> <path d="M12 12h.01" /> <path d="M17 12h.01" /> <path d="M7 12h.01" />`, opt)
 }
 
+// FormInput is an alias for RectangleEllipsis.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use RectangleEllipsis instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "form-input" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FormInput()
+//	lucide.FormInput(lucide.Options{Size: 32, Class: "my-icon"})
+func FormInput(opts ...Options) template.HTML {
+	return RectangleEllipsis(opts...)
+}
+
 // RectangleGoggles renders the "rectangle-goggles" icon.
 //
 // Usage in templates:
@@ -30790,6 +33731,24 @@ func Rotate3d(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M16.466 7.5C15.643 4.237 13.952 2 12 2 9.239 2 7 6.477 7 12s2.239 10 5 10c.342 0 .677-.069 1-.2" /> <path d="m15.194 13.707 3.814 1.86-1.86 3.814" /> <path d="M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4" />`, opt)
 }
 
+// Rotate3D is an alias for Rotate3d.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Rotate3d instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "rotate-3-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Rotate3D()
+//	lucide.Rotate3D(lucide.Options{Size: 32, Class: "my-icon"})
+func Rotate3D(opts ...Options) template.HTML {
+	return Rotate3d(opts...)
+}
+
 // RotateCcw renders the "rotate-ccw" icon.
 //
 // Usage in templates:
@@ -31006,6 +33965,24 @@ func Rows2(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M3 12h18" />`, opt)
 }
 
+// Rows is an alias for Rows2.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Rows2 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "rows" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Rows()
+//	lucide.Rows(lucide.Options{Size: 32, Class: "my-icon"})
+func Rows(opts ...Options) template.HTML {
+	return Rows2(opts...)
+}
+
 // Rows3 renders the "rows-3" icon.
 //
 // Usage in templates:
@@ -31028,6 +34005,24 @@ func Rows3(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M21 9H3" /> <path d="M21 15H3" />`, opt)
+}
+
+// PanelsTopBottom is an alias for Rows3.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Rows3 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "panels-top-bottom" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PanelsTopBottom()
+//	lucide.PanelsTopBottom(lucide.Options{Size: 32, Class: "my-icon"})
+func PanelsTopBottom(opts ...Options) template.HTML {
+	return Rows3(opts...)
 }
 
 // Rows4 renders the "rows-4" icon.
@@ -31412,6 +34407,24 @@ func Scale3d(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M5 7v11a1 1 0 0 0 1 1h11" /> <path d="M5.293 18.707 11 13" /> <circle cx="19" cy="19" r="2" /> <circle cx="5" cy="5" r="2" />`, opt)
+}
+
+// Scale3D is an alias for Scale3d.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Scale3d instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "scale-3-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Scale3D()
+//	lucide.Scale3D(lucide.Options{Size: 32, Class: "my-icon"})
+func Scale3D(opts ...Options) template.HTML {
+	return Scale3d(opts...)
 }
 
 // Scaling renders the "scaling" icon.
@@ -32014,6 +35027,24 @@ func SendHorizontal(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z" /> <path d="M6 12h16" />`, opt)
 }
 
+// SendHorizonal is an alias for SendHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.typo
+// Please use SendHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "send-horizonal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SendHorizonal()
+//	lucide.SendHorizonal(lucide.Options{Size: 32, Class: "my-icon"})
+func SendHorizonal(opts ...Options) template.HTML {
+	return SendHorizontal(opts...)
+}
+
 // SendToBack renders the "send-to-back" icon.
 //
 // Usage in templates:
@@ -32590,6 +35621,24 @@ func ShieldQuestionMark(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" /> <path d="M12 17h.01" />`, opt)
 }
 
+// ShieldQuestion is an alias for ShieldQuestionMark.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ShieldQuestionMark instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "shield-question" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ShieldQuestion()
+//	lucide.ShieldQuestion(lucide.Options{Size: 32, Class: "my-icon"})
+func ShieldQuestion(opts ...Options) template.HTML {
+	return ShieldQuestionMark(opts...)
+}
+
 // ShieldUser renders the "shield-user" icon.
 //
 // Usage in templates:
@@ -32636,6 +35685,24 @@ func ShieldX(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m14.5 9.5-5 5" /> <path d="m9.5 9.5 5 5" />`, opt)
+}
+
+// ShieldClose is an alias for ShieldX.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ShieldX instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "shield-close" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ShieldClose()
+//	lucide.ShieldClose(lucide.Options{Size: 32, Class: "my-icon"})
+func ShieldClose(opts ...Options) template.HTML {
+	return ShieldX(opts...)
 }
 
 // Ship renders the "ship" icon.
@@ -33382,6 +36449,24 @@ func SlidersVertical(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10 8h4" /> <path d="M12 21v-9" /> <path d="M12 8V3" /> <path d="M17 16h4" /> <path d="M19 12V3" /> <path d="M19 21v-5" /> <path d="M3 14h4" /> <path d="M5 10V3" /> <path d="M5 21v-7" />`, opt)
 }
 
+// Sliders is an alias for SlidersVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SlidersVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sliders" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Sliders()
+//	lucide.Sliders(lucide.Options{Size: 32, Class: "my-icon"})
+func Sliders(opts ...Options) template.HTML {
+	return SlidersVertical(opts...)
+}
+
 // Smartphone renders the "smartphone" icon.
 //
 // Usage in templates:
@@ -33742,6 +36827,24 @@ func Sparkles(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /> <path d="M20 2v4" /> <path d="M22 4h-4" /> <circle cx="4" cy="20" r="2" />`, opt)
 }
 
+// Stars is an alias for Sparkles.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Sparkles instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "stars" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Stars()
+//	lucide.Stars(lucide.Options{Size: 32, Class: "my-icon"})
+func Stars(opts ...Options) template.HTML {
+	return Sparkles(opts...)
+}
+
 // Speaker renders the "speaker" icon.
 //
 // Usage in templates:
@@ -34054,6 +37157,24 @@ func SquareActivity(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M17 12h-2l-2 5-2-10-2 5H7" />`, opt)
 }
 
+// ActivitySquare is an alias for SquareActivity.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareActivity instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "activity-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ActivitySquare()
+//	lucide.ActivitySquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ActivitySquare(opts ...Options) template.HTML {
+	return SquareActivity(opts...)
+}
+
 // SquareArrowDown renders the "square-arrow-down" icon.
 //
 // Usage in templates:
@@ -34076,6 +37197,24 @@ func SquareArrowDown(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M12 8v8" /> <path d="m8 12 4 4 4-4" />`, opt)
+}
+
+// ArrowDownSquare is an alias for SquareArrowDown.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDown instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownSquare()
+//	lucide.ArrowDownSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownSquare(opts ...Options) template.HTML {
+	return SquareArrowDown(opts...)
 }
 
 // SquareArrowDownLeft renders the "square-arrow-down-left" icon.
@@ -34102,6 +37241,24 @@ func SquareArrowDownLeft(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m16 8-8 8" /> <path d="M16 16H8V8" />`, opt)
 }
 
+// ArrowDownLeftSquare is an alias for SquareArrowDownLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDownLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-left-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownLeftSquare()
+//	lucide.ArrowDownLeftSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownLeftSquare(opts ...Options) template.HTML {
+	return SquareArrowDownLeft(opts...)
+}
+
 // SquareArrowDownRight renders the "square-arrow-down-right" icon.
 //
 // Usage in templates:
@@ -34124,6 +37281,24 @@ func SquareArrowDownRight(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m8 8 8 8" /> <path d="M16 8v8H8" />`, opt)
+}
+
+// ArrowDownRightSquare is an alias for SquareArrowDownRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDownRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-right-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownRightSquare()
+//	lucide.ArrowDownRightSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownRightSquare(opts ...Options) template.HTML {
+	return SquareArrowDownRight(opts...)
 }
 
 // SquareArrowLeft renders the "square-arrow-left" icon.
@@ -34150,6 +37325,24 @@ func SquareArrowLeft(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m12 8-4 4 4 4" /> <path d="M16 12H8" />`, opt)
 }
 
+// ArrowLeftSquare is an alias for SquareArrowLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-left-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowLeftSquare()
+//	lucide.ArrowLeftSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowLeftSquare(opts ...Options) template.HTML {
+	return SquareArrowLeft(opts...)
+}
+
 // SquareArrowOutDownLeft renders the "square-arrow-out-down-left" icon.
 //
 // Usage in templates:
@@ -34172,6 +37365,24 @@ func SquareArrowOutDownLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 21h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6" /> <path d="m3 21 9-9" /> <path d="M9 21H3v-6" />`, opt)
+}
+
+// ArrowDownLeftFromSquare is an alias for SquareArrowOutDownLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowOutDownLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-left-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownLeftFromSquare()
+//	lucide.ArrowDownLeftFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownLeftFromSquare(opts ...Options) template.HTML {
+	return SquareArrowOutDownLeft(opts...)
 }
 
 // SquareArrowOutDownRight renders the "square-arrow-out-down-right" icon.
@@ -34198,6 +37409,24 @@ func SquareArrowOutDownRight(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6" /> <path d="m21 21-9-9" /> <path d="M21 15v6h-6" />`, opt)
 }
 
+// ArrowDownRightFromSquare is an alias for SquareArrowOutDownRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowOutDownRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-right-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownRightFromSquare()
+//	lucide.ArrowDownRightFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownRightFromSquare(opts ...Options) template.HTML {
+	return SquareArrowOutDownRight(opts...)
+}
+
 // SquareArrowOutUpLeft renders the "square-arrow-out-up-left" icon.
 //
 // Usage in templates:
@@ -34220,6 +37449,24 @@ func SquareArrowOutUpLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6" /> <path d="m3 3 9 9" /> <path d="M3 9V3h6" />`, opt)
+}
+
+// ArrowUpLeftFromSquare is an alias for SquareArrowOutUpLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowOutUpLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-left-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpLeftFromSquare()
+//	lucide.ArrowUpLeftFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpLeftFromSquare(opts ...Options) template.HTML {
+	return SquareArrowOutUpLeft(opts...)
 }
 
 // SquareArrowOutUpRight renders the "square-arrow-out-up-right" icon.
@@ -34246,6 +37493,24 @@ func SquareArrowOutUpRight(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" /> <path d="m21 3-9 9" /> <path d="M15 3h6v6" />`, opt)
 }
 
+// ArrowUpRightFromSquare is an alias for SquareArrowOutUpRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowOutUpRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-right-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpRightFromSquare()
+//	lucide.ArrowUpRightFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpRightFromSquare(opts ...Options) template.HTML {
+	return SquareArrowOutUpRight(opts...)
+}
+
 // SquareArrowRight renders the "square-arrow-right" icon.
 //
 // Usage in templates:
@@ -34268,6 +37533,24 @@ func SquareArrowRight(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M8 12h8" /> <path d="m12 16 4-4-4-4" />`, opt)
+}
+
+// ArrowRightSquare is an alias for SquareArrowRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-right-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowRightSquare()
+//	lucide.ArrowRightSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowRightSquare(opts ...Options) template.HTML {
+	return SquareArrowRight(opts...)
 }
 
 // SquareArrowUp renders the "square-arrow-up" icon.
@@ -34294,6 +37577,24 @@ func SquareArrowUp(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m16 12-4-4-4 4" /> <path d="M12 16V8" />`, opt)
 }
 
+// ArrowUpSquare is an alias for SquareArrowUp.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUp instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpSquare()
+//	lucide.ArrowUpSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpSquare(opts ...Options) template.HTML {
+	return SquareArrowUp(opts...)
+}
+
 // SquareArrowUpLeft renders the "square-arrow-up-left" icon.
 //
 // Usage in templates:
@@ -34316,6 +37617,24 @@ func SquareArrowUpLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M8 16V8h8" /> <path d="M16 16 8 8" />`, opt)
+}
+
+// ArrowUpLeftSquare is an alias for SquareArrowUpLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUpLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-left-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpLeftSquare()
+//	lucide.ArrowUpLeftSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpLeftSquare(opts ...Options) template.HTML {
+	return SquareArrowUpLeft(opts...)
 }
 
 // SquareArrowUpRight renders the "square-arrow-up-right" icon.
@@ -34342,6 +37661,24 @@ func SquareArrowUpRight(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M8 8h8v8" /> <path d="m8 16 8-8" />`, opt)
 }
 
+// ArrowUpRightSquare is an alias for SquareArrowUpRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUpRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-right-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpRightSquare()
+//	lucide.ArrowUpRightSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpRightSquare(opts ...Options) template.HTML {
+	return SquareArrowUpRight(opts...)
+}
+
 // SquareAsterisk renders the "square-asterisk" icon.
 //
 // Usage in templates:
@@ -34364,6 +37701,24 @@ func SquareAsterisk(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M12 8v8" /> <path d="m8.5 14 7-4" /> <path d="m8.5 10 7 4" />`, opt)
+}
+
+// AsteriskSquare is an alias for SquareAsterisk.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareAsterisk instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "asterisk-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AsteriskSquare()
+//	lucide.AsteriskSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func AsteriskSquare(opts ...Options) template.HTML {
+	return SquareAsterisk(opts...)
 }
 
 // SquareBottomDashedScissors renders the "square-bottom-dashed-scissors" icon.
@@ -34390,6 +37745,24 @@ func SquareBottomDashedScissors(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M4 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2" /> <path d="M10 22H8" /> <path d="M16 22h-2" /> <circle cx="8" cy="8" r="2" /> <path d="M9.414 9.414 12 12" /> <path d="M14.8 14.8 18 18" /> <circle cx="8" cy="16" r="2" /> <path d="m18 6-8.586 8.586" />`, opt)
 }
 
+// ScissorsSquareDashedBottom is an alias for SquareBottomDashedScissors.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareBottomDashedScissors instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "scissors-square-dashed-bottom" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ScissorsSquareDashedBottom()
+//	lucide.ScissorsSquareDashedBottom(lucide.Options{Size: 32, Class: "my-icon"})
+func ScissorsSquareDashedBottom(opts ...Options) template.HTML {
+	return SquareBottomDashedScissors(opts...)
+}
+
 // SquareChartGantt renders the "square-chart-gantt" icon.
 //
 // Usage in templates:
@@ -34412,6 +37785,42 @@ func SquareChartGantt(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 8h7" /> <path d="M8 12h6" /> <path d="M11 16h5" />`, opt)
+}
+
+// GanttChartSquare is an alias for SquareChartGantt.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareChartGantt instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "gantt-chart-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GanttChartSquare()
+//	lucide.GanttChartSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func GanttChartSquare(opts ...Options) template.HTML {
+	return SquareChartGantt(opts...)
+}
+
+// SquareGanttChart is an alias for SquareChartGantt.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareChartGantt instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-gantt-chart" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareGanttChart()
+//	lucide.SquareGanttChart(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareGanttChart(opts ...Options) template.HTML {
+	return SquareChartGantt(opts...)
 }
 
 // SquareCheck renders the "square-check" icon.
@@ -34438,6 +37847,24 @@ func SquareCheck(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m9 12 2 2 4-4" />`, opt)
 }
 
+// CheckSquare2 is an alias for SquareCheck.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareCheck instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "check-square-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CheckSquare2()
+//	lucide.CheckSquare2(lucide.Options{Size: 32, Class: "my-icon"})
+func CheckSquare2(opts ...Options) template.HTML {
+	return SquareCheck(opts...)
+}
+
 // SquareCheckBig renders the "square-check-big" icon.
 //
 // Usage in templates:
@@ -34460,6 +37887,24 @@ func SquareCheckBig(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344" /> <path d="m9 11 3 3L22 4" />`, opt)
+}
+
+// CheckSquare is an alias for SquareCheckBig.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareCheckBig instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "check-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CheckSquare()
+//	lucide.CheckSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func CheckSquare(opts ...Options) template.HTML {
+	return SquareCheckBig(opts...)
 }
 
 // SquareChevronDown renders the "square-chevron-down" icon.
@@ -34486,6 +37931,24 @@ func SquareChevronDown(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m16 10-4 4-4-4" />`, opt)
 }
 
+// ChevronDownSquare is an alias for SquareChevronDown.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareChevronDown instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-down-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronDownSquare()
+//	lucide.ChevronDownSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronDownSquare(opts ...Options) template.HTML {
+	return SquareChevronDown(opts...)
+}
+
 // SquareChevronLeft renders the "square-chevron-left" icon.
 //
 // Usage in templates:
@@ -34508,6 +37971,24 @@ func SquareChevronLeft(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m14 16-4-4 4-4" />`, opt)
+}
+
+// ChevronLeftSquare is an alias for SquareChevronLeft.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareChevronLeft instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-left-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronLeftSquare()
+//	lucide.ChevronLeftSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronLeftSquare(opts ...Options) template.HTML {
+	return SquareChevronLeft(opts...)
 }
 
 // SquareChevronRight renders the "square-chevron-right" icon.
@@ -34534,6 +38015,24 @@ func SquareChevronRight(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m10 8 4 4-4 4" />`, opt)
 }
 
+// ChevronRightSquare is an alias for SquareChevronRight.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareChevronRight instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-right-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronRightSquare()
+//	lucide.ChevronRightSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronRightSquare(opts ...Options) template.HTML {
+	return SquareChevronRight(opts...)
+}
+
 // SquareChevronUp renders the "square-chevron-up" icon.
 //
 // Usage in templates:
@@ -34556,6 +38055,24 @@ func SquareChevronUp(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m8 14 4-4 4 4" />`, opt)
+}
+
+// ChevronUpSquare is an alias for SquareChevronUp.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareChevronUp instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevron-up-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronUpSquare()
+//	lucide.ChevronUpSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronUpSquare(opts ...Options) template.HTML {
+	return SquareChevronUp(opts...)
 }
 
 // SquareCode renders the "square-code" icon.
@@ -34582,6 +38099,24 @@ func SquareCode(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m10 9-3 3 3 3" /> <path d="m14 15 3-3-3-3" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
+// CodeSquare is an alias for SquareCode.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareCode instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "code-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CodeSquare()
+//	lucide.CodeSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func CodeSquare(opts ...Options) template.HTML {
+	return SquareCode(opts...)
+}
+
 // SquareDashed renders the "square-dashed" icon.
 //
 // Usage in templates:
@@ -34604,6 +38139,24 @@ func SquareDashed(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M5 3a2 2 0 0 0-2 2" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M9 3h1" /> <path d="M9 21h1" /> <path d="M14 3h1" /> <path d="M14 21h1" /> <path d="M3 9v1" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M21 14v1" />`, opt)
+}
+
+// BoxSelect is an alias for SquareDashed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDashed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "box-select" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BoxSelect()
+//	lucide.BoxSelect(lucide.Options{Size: 32, Class: "my-icon"})
+func BoxSelect(opts ...Options) template.HTML {
+	return SquareDashed(opts...)
 }
 
 // SquareDashedBottom renders the "square-dashed-bottom" icon.
@@ -34678,6 +38231,24 @@ func SquareDashedKanban(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M8 7v7" /> <path d="M12 7v4" /> <path d="M16 7v9" /> <path d="M5 3a2 2 0 0 0-2 2" /> <path d="M9 3h1" /> <path d="M14 3h1" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M21 9v1" /> <path d="M21 14v1" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M14 21h1" /> <path d="M9 21h1" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M3 14v1" /> <path d="M3 9v1" />`, opt)
 }
 
+// KanbanSquareDashed is an alias for SquareDashedKanban.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDashedKanban instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "kanban-square-dashed" }}
+//
+// Direct usage in Go:
+//
+//	lucide.KanbanSquareDashed()
+//	lucide.KanbanSquareDashed(lucide.Options{Size: 32, Class: "my-icon"})
+func KanbanSquareDashed(opts ...Options) template.HTML {
+	return SquareDashedKanban(opts...)
+}
+
 // SquareDashedMousePointer renders the "square-dashed-mouse-pointer" icon.
 //
 // Usage in templates:
@@ -34700,6 +38271,24 @@ func SquareDashedMousePointer(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z" /> <path d="M5 3a2 2 0 0 0-2 2" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M9 3h1" /> <path d="M9 21h2" /> <path d="M14 3h1" /> <path d="M3 9v1" /> <path d="M21 9v2" /> <path d="M3 14v1" />`, opt)
+}
+
+// MousePointerSquareDashed is an alias for SquareDashedMousePointer.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDashedMousePointer instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "mouse-pointer-square-dashed" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MousePointerSquareDashed()
+//	lucide.MousePointerSquareDashed(lucide.Options{Size: 32, Class: "my-icon"})
+func MousePointerSquareDashed(opts ...Options) template.HTML {
+	return SquareDashedMousePointer(opts...)
 }
 
 // SquareDashedTopSolid renders the "square-dashed-top-solid" icon.
@@ -34750,6 +38339,24 @@ func SquareDivide(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" ry="2" /> <line x1="8" x2="16" y1="12" y2="12" /> <line x1="12" x2="12" y1="16" y2="16" /> <line x1="12" x2="12" y1="8" y2="8" />`, opt)
 }
 
+// DivideSquare is an alias for SquareDivide.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDivide instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "divide-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DivideSquare()
+//	lucide.DivideSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func DivideSquare(opts ...Options) template.HTML {
+	return SquareDivide(opts...)
+}
+
 // SquareDot renders the "square-dot" icon.
 //
 // Usage in templates:
@@ -34772,6 +38379,24 @@ func SquareDot(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <circle cx="12" cy="12" r="1" />`, opt)
+}
+
+// DotSquare is an alias for SquareDot.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDot instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "dot-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DotSquare()
+//	lucide.DotSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func DotSquare(opts ...Options) template.HTML {
+	return SquareDot(opts...)
 }
 
 // SquareEqual renders the "square-equal" icon.
@@ -34798,6 +38423,24 @@ func SquareEqual(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M7 10h10" /> <path d="M7 14h10" />`, opt)
 }
 
+// EqualSquare is an alias for SquareEqual.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareEqual instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "equal-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.EqualSquare()
+//	lucide.EqualSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func EqualSquare(opts ...Options) template.HTML {
+	return SquareEqual(opts...)
+}
+
 // SquareFunction renders the "square-function" icon.
 //
 // Usage in templates:
@@ -34820,6 +38463,24 @@ func SquareFunction(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" ry="2" /> <path d="M9 17c2 0 2.8-1 2.8-2.8V10c0-2 1-3.3 3.2-3" /> <path d="M9 11.2h5.7" />`, opt)
+}
+
+// FunctionSquare is an alias for SquareFunction.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareFunction instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "function-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FunctionSquare()
+//	lucide.FunctionSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func FunctionSquare(opts ...Options) template.HTML {
+	return SquareFunction(opts...)
 }
 
 // SquareKanban renders the "square-kanban" icon.
@@ -34846,6 +38507,24 @@ func SquareKanban(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M8 7v7" /> <path d="M12 7v4" /> <path d="M16 7v9" />`, opt)
 }
 
+// KanbanSquare is an alias for SquareKanban.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareKanban instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "kanban-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.KanbanSquare()
+//	lucide.KanbanSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func KanbanSquare(opts ...Options) template.HTML {
+	return SquareKanban(opts...)
+}
+
 // SquareLibrary renders the "square-library" icon.
 //
 // Usage in templates:
@@ -34868,6 +38547,24 @@ func SquareLibrary(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M7 7v10" /> <path d="M11 7v10" /> <path d="m15 7 2 10" />`, opt)
+}
+
+// LibrarySquare is an alias for SquareLibrary.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLibrary instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "library-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LibrarySquare()
+//	lucide.LibrarySquare(lucide.Options{Size: 32, Class: "my-icon"})
+func LibrarySquare(opts ...Options) template.HTML {
+	return SquareLibrary(opts...)
 }
 
 // SquareM renders the "square-m" icon.
@@ -34894,6 +38591,24 @@ func SquareM(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M8 16V8.5a.5.5 0 0 1 .9-.3l2.7 3.599a.5.5 0 0 0 .8 0l2.7-3.6a.5.5 0 0 1 .9.3V16" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
+// MSquare is an alias for SquareM.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareM instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "m-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MSquare()
+//	lucide.MSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func MSquare(opts ...Options) template.HTML {
+	return SquareM(opts...)
+}
+
 // SquareMenu renders the "square-menu" icon.
 //
 // Usage in templates:
@@ -34916,6 +38631,24 @@ func SquareMenu(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M7 8h10" /> <path d="M7 12h10" /> <path d="M7 16h10" />`, opt)
+}
+
+// MenuSquare is an alias for SquareMenu.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareMenu instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "menu-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MenuSquare()
+//	lucide.MenuSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func MenuSquare(opts ...Options) template.HTML {
+	return SquareMenu(opts...)
 }
 
 // SquareMinus renders the "square-minus" icon.
@@ -34942,6 +38675,24 @@ func SquareMinus(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M8 12h8" />`, opt)
 }
 
+// MinusSquare is an alias for SquareMinus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareMinus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "minus-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MinusSquare()
+//	lucide.MinusSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func MinusSquare(opts ...Options) template.HTML {
+	return SquareMinus(opts...)
+}
+
 // SquareMousePointer renders the "square-mouse-pointer" icon.
 //
 // Usage in templates:
@@ -34964,6 +38715,24 @@ func SquareMousePointer(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z" /> <path d="M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6" />`, opt)
+}
+
+// Inspect is an alias for SquareMousePointer.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareMousePointer instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "inspect" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Inspect()
+//	lucide.Inspect(lucide.Options{Size: 32, Class: "my-icon"})
+func Inspect(opts ...Options) template.HTML {
+	return SquareMousePointer(opts...)
 }
 
 // SquareParking renders the "square-parking" icon.
@@ -34990,6 +38759,24 @@ func SquareParking(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 17V7h4a3 3 0 0 1 0 6H9" />`, opt)
 }
 
+// ParkingSquare is an alias for SquareParking.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareParking instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingSquare()
+//	lucide.ParkingSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingSquare(opts ...Options) template.HTML {
+	return SquareParking(opts...)
+}
+
 // SquareParkingOff renders the "square-parking-off" icon.
 //
 // Usage in templates:
@@ -35012,6 +38799,24 @@ func SquareParkingOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3.6 3.6A2 2 0 0 1 5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-.59 1.41" /> <path d="M3 8.7V19a2 2 0 0 0 2 2h10.3" /> <path d="m2 2 20 20" /> <path d="M13 13a3 3 0 1 0 0-6H9v2" /> <path d="M9 17v-2.3" />`, opt)
+}
+
+// ParkingSquareOff is an alias for SquareParkingOff.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareParkingOff instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-square-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingSquareOff()
+//	lucide.ParkingSquareOff(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingSquareOff(opts ...Options) template.HTML {
+	return SquareParkingOff(opts...)
 }
 
 // SquarePause renders the "square-pause" icon.
@@ -35062,6 +38867,60 @@ func SquarePen(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" /> <path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z" />`, opt)
 }
 
+// PenBox is an alias for SquarePen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pen-box" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PenBox()
+//	lucide.PenBox(lucide.Options{Size: 32, Class: "my-icon"})
+func PenBox(opts ...Options) template.HTML {
+	return SquarePen(opts...)
+}
+
+// Edit is an alias for SquarePen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "edit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Edit()
+//	lucide.Edit(lucide.Options{Size: 32, Class: "my-icon"})
+func Edit(opts ...Options) template.HTML {
+	return SquarePen(opts...)
+}
+
+// PenSquare is an alias for SquarePen.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePen instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pen-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PenSquare()
+//	lucide.PenSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PenSquare(opts ...Options) template.HTML {
+	return SquarePen(opts...)
+}
+
 // SquarePercent renders the "square-percent" icon.
 //
 // Usage in templates:
@@ -35084,6 +38943,24 @@ func SquarePercent(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="m15 9-6 6" /> <path d="M9 9h.01" /> <path d="M15 15h.01" />`, opt)
+}
+
+// PercentSquare is an alias for SquarePercent.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePercent instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "percent-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PercentSquare()
+//	lucide.PercentSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PercentSquare(opts ...Options) template.HTML {
+	return SquarePercent(opts...)
 }
 
 // SquarePi renders the "square-pi" icon.
@@ -35110,6 +38987,24 @@ func SquarePi(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M7 7h10" /> <path d="M10 7v10" /> <path d="M16 17a2 2 0 0 1-2-2V7" />`, opt)
 }
 
+// PiSquare is an alias for SquarePi.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePi instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pi-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PiSquare()
+//	lucide.PiSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PiSquare(opts ...Options) template.HTML {
+	return SquarePi(opts...)
+}
+
 // SquarePilcrow renders the "square-pilcrow" icon.
 //
 // Usage in templates:
@@ -35132,6 +39027,24 @@ func SquarePilcrow(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M12 12H9.5a2.5 2.5 0 0 1 0-5H17" /> <path d="M12 7v10" /> <path d="M16 7v10" />`, opt)
+}
+
+// PilcrowSquare is an alias for SquarePilcrow.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePilcrow instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "pilcrow-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PilcrowSquare()
+//	lucide.PilcrowSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PilcrowSquare(opts ...Options) template.HTML {
+	return SquarePilcrow(opts...)
 }
 
 // SquarePlay renders the "square-play" icon.
@@ -35158,6 +39071,24 @@ func SquarePlay(opts ...Options) template.HTML {
 	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z" />`, opt)
 }
 
+// PlaySquare is an alias for SquarePlay.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePlay instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "play-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PlaySquare()
+//	lucide.PlaySquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PlaySquare(opts ...Options) template.HTML {
+	return SquarePlay(opts...)
+}
+
 // SquarePlus renders the "square-plus" icon.
 //
 // Usage in templates:
@@ -35182,6 +39113,24 @@ func SquarePlus(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M8 12h8" /> <path d="M12 8v8" />`, opt)
 }
 
+// PlusSquare is an alias for SquarePlus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePlus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "plus-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PlusSquare()
+//	lucide.PlusSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PlusSquare(opts ...Options) template.HTML {
+	return SquarePlus(opts...)
+}
+
 // SquarePower renders the "square-power" icon.
 //
 // Usage in templates:
@@ -35204,6 +39153,24 @@ func SquarePower(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 7v4" /> <path d="M7.998 9.003a5 5 0 1 0 8-.005" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// PowerSquare is an alias for SquarePower.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquarePower instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "power-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PowerSquare()
+//	lucide.PowerSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func PowerSquare(opts ...Options) template.HTML {
+	return SquarePower(opts...)
 }
 
 // SquareRadical renders the "square-radical" icon.
@@ -35278,6 +39245,24 @@ func SquareScissors(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="20" height="20" x="2" y="2" rx="2" /> <circle cx="8" cy="8" r="2" /> <path d="M9.414 9.414 12 12" /> <path d="M14.8 14.8 18 18" /> <circle cx="8" cy="16" r="2" /> <path d="m18 6-8.586 8.586" />`, opt)
 }
 
+// ScissorsSquare is an alias for SquareScissors.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareScissors instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "scissors-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ScissorsSquare()
+//	lucide.ScissorsSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ScissorsSquare(opts ...Options) template.HTML {
+	return SquareScissors(opts...)
+}
+
 // SquareSigma renders the "square-sigma" icon.
 //
 // Usage in templates:
@@ -35300,6 +39285,24 @@ func SquareSigma(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M16 8.9V7H8l4 5-4 5h8v-1.9" />`, opt)
+}
+
+// SigmaSquare is an alias for SquareSigma.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareSigma instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "sigma-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SigmaSquare()
+//	lucide.SigmaSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func SigmaSquare(opts ...Options) template.HTML {
+	return SquareSigma(opts...)
 }
 
 // SquareSlash renders the "square-slash" icon.
@@ -35326,6 +39329,24 @@ func SquareSlash(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <line x1="9" x2="15" y1="15" y2="9" />`, opt)
 }
 
+// SlashSquare is an alias for SquareSlash.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareSlash instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "slash-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SlashSquare()
+//	lucide.SlashSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func SlashSquare(opts ...Options) template.HTML {
+	return SquareSlash(opts...)
+}
+
 // SquareSplitHorizontal renders the "square-split-horizontal" icon.
 //
 // Usage in templates:
@@ -35350,6 +39371,24 @@ func SquareSplitHorizontal(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M8 19H5c-1 0-2-1-2-2V7c0-1 1-2 2-2h3" /> <path d="M16 5h3c1 0 2 1 2 2v10c0 1-1 2-2 2h-3" /> <line x1="12" x2="12" y1="4" y2="20" />`, opt)
 }
 
+// SplitSquareHorizontal is an alias for SquareSplitHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareSplitHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "split-square-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SplitSquareHorizontal()
+//	lucide.SplitSquareHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func SplitSquareHorizontal(opts ...Options) template.HTML {
+	return SquareSplitHorizontal(opts...)
+}
+
 // SquareSplitVertical renders the "square-split-vertical" icon.
 //
 // Usage in templates:
@@ -35372,6 +39411,24 @@ func SquareSplitVertical(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M5 8V5c0-1 1-2 2-2h10c1 0 2 1 2 2v3" /> <path d="M19 16v3c0 1-1 2-2 2H7c-1 0-2-1-2-2v-3" /> <line x1="4" x2="20" y1="12" y2="12" />`, opt)
+}
+
+// SplitSquareVertical is an alias for SquareSplitVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareSplitVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "split-square-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SplitSquareVertical()
+//	lucide.SplitSquareVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func SplitSquareVertical(opts ...Options) template.HTML {
+	return SquareSplitVertical(opts...)
 }
 
 // SquareSquare renders the "square-square" icon.
@@ -35494,6 +39551,24 @@ func SquareTerminal(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m7 11 2-2-2-2" /> <path d="M11 13h4" /> <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />`, opt)
 }
 
+// TerminalSquare is an alias for SquareTerminal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareTerminal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "terminal-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TerminalSquare()
+//	lucide.TerminalSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func TerminalSquare(opts ...Options) template.HTML {
+	return SquareTerminal(opts...)
+}
+
 // SquareUser renders the "square-user" icon.
 //
 // Usage in templates:
@@ -35516,6 +39591,24 @@ func SquareUser(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <circle cx="12" cy="10" r="3" /> <path d="M7 21v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />`, opt)
+}
+
+// UserSquare is an alias for SquareUser.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareUser instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserSquare()
+//	lucide.UserSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func UserSquare(opts ...Options) template.HTML {
+	return SquareUser(opts...)
 }
 
 // SquareUserRound renders the "square-user-round" icon.
@@ -35542,6 +39635,24 @@ func SquareUserRound(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M18 21a6 6 0 0 0-12 0" /> <circle cx="12" cy="11" r="4" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
 }
 
+// UserSquare2 is an alias for SquareUserRound.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareUserRound instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-square-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserSquare2()
+//	lucide.UserSquare2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserSquare2(opts ...Options) template.HTML {
+	return SquareUserRound(opts...)
+}
+
 // SquareX renders the "square-x" icon.
 //
 // Usage in templates:
@@ -35564,6 +39675,24 @@ func SquareX(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" ry="2" /> <path d="m15 9-6 6" /> <path d="m9 9 6 6" />`, opt)
+}
+
+// XSquare is an alias for SquareX.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareX instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "x-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.XSquare()
+//	lucide.XSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func XSquare(opts ...Options) template.HTML {
+	return SquareX(opts...)
 }
 
 // SquaresExclude renders the "squares-exclude" icon.
@@ -37030,6 +41159,24 @@ func TestTubeDiagonal(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3" /> <path d="m16 2 6 6" /> <path d="M12 16H4" />`, opt)
 }
 
+// TestTube2 is an alias for TestTubeDiagonal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TestTubeDiagonal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "test-tube-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TestTube2()
+//	lucide.TestTube2(lucide.Options{Size: 32, Class: "my-icon"})
+func TestTube2(opts ...Options) template.HTML {
+	return TestTubeDiagonal(opts...)
+}
+
 // TestTubes renders the "test-tubes" icon.
 //
 // Usage in templates:
@@ -37078,6 +41225,24 @@ func TextAlignCenter(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 5H3" /> <path d="M17 12H7" /> <path d="M19 19H5" />`, opt)
 }
 
+// AlignCenter is an alias for TextAlignCenter.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextAlignCenter instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "align-center" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlignCenter()
+//	lucide.AlignCenter(lucide.Options{Size: 32, Class: "my-icon"})
+func AlignCenter(opts ...Options) template.HTML {
+	return TextAlignCenter(opts...)
+}
+
 // TextAlignEnd renders the "text-align-end" icon.
 //
 // Usage in templates:
@@ -37100,6 +41265,24 @@ func TextAlignEnd(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 5H3" /> <path d="M21 12H9" /> <path d="M21 19H7" />`, opt)
+}
+
+// AlignRight is an alias for TextAlignEnd.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextAlignEnd instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "align-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlignRight()
+//	lucide.AlignRight(lucide.Options{Size: 32, Class: "my-icon"})
+func AlignRight(opts ...Options) template.HTML {
+	return TextAlignEnd(opts...)
 }
 
 // TextAlignJustify renders the "text-align-justify" icon.
@@ -37126,6 +41309,24 @@ func TextAlignJustify(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 5h18" /> <path d="M3 12h18" /> <path d="M3 19h18" />`, opt)
 }
 
+// AlignJustify is an alias for TextAlignJustify.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextAlignJustify instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "align-justify" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlignJustify()
+//	lucide.AlignJustify(lucide.Options{Size: 32, Class: "my-icon"})
+func AlignJustify(opts ...Options) template.HTML {
+	return TextAlignJustify(opts...)
+}
+
 // TextAlignStart renders the "text-align-start" icon.
 //
 // Usage in templates:
@@ -37148,6 +41349,42 @@ func TextAlignStart(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 5H3" /> <path d="M15 12H3" /> <path d="M17 19H3" />`, opt)
+}
+
+// Text is an alias for TextAlignStart.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.duplicate
+// Please use TextAlignStart instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "text" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Text()
+//	lucide.Text(lucide.Options{Size: 32, Class: "my-icon"})
+func Text(opts ...Options) template.HTML {
+	return TextAlignStart(opts...)
+}
+
+// AlignLeft is an alias for TextAlignStart.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextAlignStart instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "align-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlignLeft()
+//	lucide.AlignLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func AlignLeft(opts ...Options) template.HTML {
+	return TextAlignStart(opts...)
 }
 
 // TextCursor renders the "text-cursor" icon.
@@ -37222,6 +41459,24 @@ func TextInitial(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M15 5h6" /> <path d="M15 12h6" /> <path d="M3 19h18" /> <path d="m3 12 3.553-7.724a.5.5 0 0 1 .894 0L11 12" /> <path d="M3.92 10h6.16" />`, opt)
 }
 
+// LetterText is an alias for TextInitial.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextInitial instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-text" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterText()
+//	lucide.LetterText(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterText(opts ...Options) template.HTML {
+	return TextInitial(opts...)
+}
+
 // TextQuote renders the "text-quote" icon.
 //
 // Usage in templates:
@@ -37294,6 +41549,24 @@ func TextSelect(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M14 21h1" /> <path d="M14 3h1" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M21 14v1" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M3 9v1" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M5 3a2 2 0 0 0-2 2" /> <path d="M7 12h10" /> <path d="M7 16h6" /> <path d="M7 8h8" /> <path d="M9 21h1" /> <path d="M9 3h1" />`, opt)
 }
 
+// TextSelection is an alias for TextSelect.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextSelect instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "text-selection" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TextSelection()
+//	lucide.TextSelection(lucide.Options{Size: 32, Class: "my-icon"})
+func TextSelection(opts ...Options) template.HTML {
+	return TextSelect(opts...)
+}
+
 // TextWrap renders the "text-wrap" icon.
 //
 // Usage in templates:
@@ -37316,6 +41589,24 @@ func TextWrap(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m16 16-3 3 3 3" /> <path d="M3 12h14.5a1 1 0 0 1 0 7H13" /> <path d="M3 19h6" /> <path d="M3 5h18" />`, opt)
+}
+
+// WrapText is an alias for TextWrap.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TextWrap instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "wrap-text" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WrapText()
+//	lucide.WrapText(lucide.Options{Size: 32, Class: "my-icon"})
+func WrapText(opts ...Options) template.HTML {
+	return TextWrap(opts...)
 }
 
 // Theater renders the "theater" icon.
@@ -38134,6 +42425,24 @@ func TramFront(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="16" height="16" x="4" y="3" rx="2" /> <path d="M4 11h16" /> <path d="M12 3v8" /> <path d="m8 19-2 3" /> <path d="m18 22-2-3" /> <path d="M8 15h.01" /> <path d="M16 15h.01" />`, opt)
 }
 
+// Train is an alias for TramFront.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TramFront instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "train" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Train()
+//	lucide.Train(lucide.Options{Size: 32, Class: "my-icon"})
+func Train(opts ...Options) template.HTML {
+	return TramFront(opts...)
+}
+
 // Transgender renders the "transgender" icon.
 //
 // Usage in templates:
@@ -38252,6 +42561,24 @@ func TreePalm(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 8c0-2.76-2.46-5-5.5-5S2 5.24 2 8h2l1-1 1 1h4" /> <path d="M13 7.14A5.82 5.82 0 0 1 16.5 6c3.04 0 5.5 2.24 5.5 5h-3l-1-1-1 1h-3" /> <path d="M5.89 9.71c-2.15 2.15-2.3 5.47-.35 7.43l4.24-4.25.7-.7.71-.71 2.12-2.12c-1.95-1.96-5.27-1.8-7.42.35" /> <path d="M11 15.5c.5 2.5-.17 4.5-1 6.5h4c2-5.5-.5-12-1-14" />`, opt)
+}
+
+// Palmtree is an alias for TreePalm.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TreePalm instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "palmtree" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Palmtree()
+//	lucide.Palmtree(lucide.Options{Size: 32, Class: "my-icon"})
+func Palmtree(opts ...Options) template.HTML {
+	return TreePalm(opts...)
 }
 
 // TreePine renders the "tree-pine" icon.
@@ -38444,6 +42771,24 @@ func TriangleAlert(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /> <path d="M12 9v4" /> <path d="M12 17h.01" />`, opt)
+}
+
+// AlertTriangle is an alias for TriangleAlert.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TriangleAlert instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alert-triangle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlertTriangle()
+//	lucide.AlertTriangle(lucide.Options{Size: 32, Class: "my-icon"})
+func AlertTriangle(opts ...Options) template.HTML {
+	return TriangleAlert(opts...)
 }
 
 // TriangleDashed renders the "triangle-dashed" icon.
@@ -38684,6 +43029,24 @@ func TvMinimal(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M7 21h10" /> <rect width="20" height="14" x="2" y="3" rx="2" />`, opt)
+}
+
+// Tv2 is an alias for TvMinimal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TvMinimal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "tv-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Tv2()
+//	lucide.Tv2(lucide.Options{Size: 32, Class: "my-icon"})
+func Tv2(opts ...Options) template.HTML {
+	return TvMinimal(opts...)
 }
 
 // TvMinimalPlay renders the "tv-minimal-play" icon.
@@ -39046,6 +43409,24 @@ func University(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M14 21v-3a2 2 0 0 0-4 0v3" /> <path d="M18 12h.01" /> <path d="M18 16h.01" /> <path d="M22 7a1 1 0 0 0-1-1h-2a2 2 0 0 1-1.143-.359L13.143 2.36a2 2 0 0 0-2.286-.001L6.143 5.64A2 2 0 0 1 5 6H3a1 1 0 0 0-1 1v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2z" /> <path d="M6 12h.01" /> <path d="M6 16h.01" /> <circle cx="12" cy="10" r="2" />`, opt)
 }
 
+// School2 is an alias for University.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use University instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "school-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.School2()
+//	lucide.School2(lucide.Options{Size: 32, Class: "my-icon"})
+func School2(opts ...Options) template.HTML {
+	return University(opts...)
+}
+
 // Unlink renders the "unlink" icon.
 //
 // Usage in templates:
@@ -39358,6 +43739,24 @@ func UserRound(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="8" r="5" /> <path d="M20 21a8 8 0 0 0-16 0" />`, opt)
 }
 
+// User2 is an alias for UserRound.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UserRound instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.User2()
+//	lucide.User2(lucide.Options{Size: 32, Class: "my-icon"})
+func User2(opts ...Options) template.HTML {
+	return UserRound(opts...)
+}
+
 // UserRoundCheck renders the "user-round-check" icon.
 //
 // Usage in templates:
@@ -39380,6 +43779,24 @@ func UserRoundCheck(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 21a8 8 0 0 1 13.292-6" /> <circle cx="10" cy="8" r="5" /> <path d="m16 19 2 2 4-4" />`, opt)
+}
+
+// UserCheck2 is an alias for UserRoundCheck.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UserRoundCheck instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-check-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserCheck2()
+//	lucide.UserCheck2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserCheck2(opts ...Options) template.HTML {
+	return UserRoundCheck(opts...)
 }
 
 // UserRoundCog renders the "user-round-cog" icon.
@@ -39406,6 +43823,24 @@ func UserRoundCog(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m14.305 19.53.923-.382" /> <path d="m15.228 16.852-.923-.383" /> <path d="m16.852 15.228-.383-.923" /> <path d="m16.852 20.772-.383.924" /> <path d="m19.148 15.228.383-.923" /> <path d="m19.53 21.696-.382-.924" /> <path d="M2 21a8 8 0 0 1 10.434-7.62" /> <path d="m20.772 16.852.924-.383" /> <path d="m20.772 19.148.924.383" /> <circle cx="10" cy="8" r="5" /> <circle cx="18" cy="18" r="3" />`, opt)
 }
 
+// UserCog2 is an alias for UserRoundCog.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UserRoundCog instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-cog-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserCog2()
+//	lucide.UserCog2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserCog2(opts ...Options) template.HTML {
+	return UserRoundCog(opts...)
+}
+
 // UserRoundMinus renders the "user-round-minus" icon.
 //
 // Usage in templates:
@@ -39428,6 +43863,24 @@ func UserRoundMinus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 21a8 8 0 0 1 13.292-6" /> <circle cx="10" cy="8" r="5" /> <path d="M22 19h-6" />`, opt)
+}
+
+// UserMinus2 is an alias for UserRoundMinus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UserRoundMinus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-minus-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserMinus2()
+//	lucide.UserMinus2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserMinus2(opts ...Options) template.HTML {
+	return UserRoundMinus(opts...)
 }
 
 // UserRoundPen renders the "user-round-pen" icon.
@@ -39478,6 +43931,24 @@ func UserRoundPlus(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M2 21a8 8 0 0 1 13.292-6" /> <circle cx="10" cy="8" r="5" /> <path d="M19 16v6" /> <path d="M22 19h-6" />`, opt)
 }
 
+// UserPlus2 is an alias for UserRoundPlus.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UserRoundPlus instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-plus-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserPlus2()
+//	lucide.UserPlus2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserPlus2(opts ...Options) template.HTML {
+	return UserRoundPlus(opts...)
+}
+
 // UserRoundSearch renders the "user-round-search" icon.
 //
 // Usage in templates:
@@ -39524,6 +43995,24 @@ func UserRoundX(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 21a8 8 0 0 1 11.873-7" /> <circle cx="10" cy="8" r="5" /> <path d="m17 17 5 5" /> <path d="m22 17-5 5" />`, opt)
+}
+
+// UserX2 is an alias for UserRoundX.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UserRoundX instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-x-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserX2()
+//	lucide.UserX2(lucide.Options{Size: 32, Class: "my-icon"})
+func UserX2(opts ...Options) template.HTML {
+	return UserRoundX(opts...)
 }
 
 // UserSearch renders the "user-search" icon.
@@ -39646,6 +44135,24 @@ func UsersRound(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M18 21a8 8 0 0 0-16 0" /> <circle cx="10" cy="8" r="5" /> <path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />`, opt)
 }
 
+// Users2 is an alias for UsersRound.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UsersRound instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "users-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Users2()
+//	lucide.Users2(lucide.Options{Size: 32, Class: "my-icon"})
+func Users2(opts ...Options) template.HTML {
+	return UsersRound(opts...)
+}
+
 // Utensils renders the "utensils" icon.
 //
 // Usage in templates:
@@ -39670,6 +44177,24 @@ func Utensils(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" /> <path d="M7 2v20" /> <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />`, opt)
 }
 
+// ForkKnife is an alias for Utensils.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Utensils instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "fork-knife" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ForkKnife()
+//	lucide.ForkKnife(lucide.Options{Size: 32, Class: "my-icon"})
+func ForkKnife(opts ...Options) template.HTML {
+	return Utensils(opts...)
+}
+
 // UtensilsCrossed renders the "utensils-crossed" icon.
 //
 // Usage in templates:
@@ -39692,6 +44217,24 @@ func UtensilsCrossed(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8" /> <path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7" /> <path d="m2.1 21.8 6.4-6.3" /> <path d="m19 5-7 7" />`, opt)
+}
+
+// ForkKnifeCrossed is an alias for UtensilsCrossed.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use UtensilsCrossed instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "fork-knife-crossed" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ForkKnifeCrossed()
+//	lucide.ForkKnifeCrossed(lucide.Options{Size: 32, Class: "my-icon"})
+func ForkKnifeCrossed(opts ...Options) template.HTML {
+	return UtensilsCrossed(opts...)
 }
 
 // UtilityPole renders the "utility-pole" icon.
@@ -40294,6 +44837,24 @@ func WalletMinimal(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M17 14h.01" /> <path d="M7 7h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14" />`, opt)
 }
 
+// Wallet2 is an alias for WalletMinimal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use WalletMinimal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "wallet-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Wallet2()
+//	lucide.Wallet2(lucide.Options{Size: 32, Class: "my-icon"})
+func Wallet2(opts ...Options) template.HTML {
+	return WalletMinimal(opts...)
+}
+
 // Wallpaper renders the "wallpaper" icon.
 //
 // Usage in templates:
@@ -40364,6 +44925,24 @@ func WandSparkles(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72" /> <path d="m14 7 3 3" /> <path d="M5 6v4" /> <path d="M19 14v4" /> <path d="M10 2v2" /> <path d="M7 8H3" /> <path d="M21 16h-4" /> <path d="M11 3H9" />`, opt)
+}
+
+// Wand2 is an alias for WandSparkles.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use WandSparkles instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "wand-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Wand2()
+//	lucide.Wand2(lucide.Options{Size: 32, Class: "my-icon"})
+func Wand2(opts ...Options) template.HTML {
+	return WandSparkles(opts...)
 }
 
 // Warehouse renders the "warehouse" icon.
