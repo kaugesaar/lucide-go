@@ -31,7 +31,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Run the update tool and capture JSON output
-        go run cmd/tool/main.go update > result.json 2>&1 || true
+        go run cmd/tool/main.go update > result.json || true
 
         # Parse the JSON result
         if [ -f result.json ]; then
