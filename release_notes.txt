@@ -1,0 +1,32 @@
+## What's Changed
+* fix(icons): Rename fingerprint icon to fingerprint-pattern by @ericfennis in https://github.com/lucide-icons/lucide/pull/3767
+* feat(docs): added lucide-rails third-party package by @theiereman in https://github.com/lucide-icons/lucide/pull/3769
+* fix(icons): changed `ampersand` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3771
+* fix(icons): changed `folder-git-2` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3790
+* fix(icons): update `anchor` icon by @jamiemlaw in https://github.com/lucide-icons/lucide/pull/2523
+* feat(icons): added `calendars` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3788
+
+## Breaking change
+For `lucide-react` and `lucide-solid`, imports for `Fingerprint` icon are changed to `FingerprintPattern`.
+
+### Lucide React
+```diff
+- import { Fingerprint } from "lucide-react";
++ import { FingerprintPattern } from "lucide-react";
+```
+
+### Lucide Solid
+```diff
+- import { Fingerprint } from "lucide/solid";
++ import { FingerprintPattern } from "lucide/solid";
+
+// Or
+
+- import Fingerprint from "lucide/solid/icons/fingerprint";
++ import FingerprintPattern from "lucide/solid/icons/fingerprint-pattern";
+```
+
+## New Contributors
+* @theiereman made their first contribution in https://github.com/lucide-icons/lucide/pull/3769
+
+**Full Changelog**: https://github.com/lucide-icons/lucide/compare/0.553.0...0.554.0
