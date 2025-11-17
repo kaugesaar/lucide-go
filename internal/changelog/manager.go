@@ -126,6 +126,7 @@ func (m *Manager) AddVersionLink(version string) error {
 	newLines = append(newLines, "")
 	newLines = append(newLines, linkLine)
 	newLines = append(newLines, lines[separatorIdx+2:]...)
+	newLines = append(newLines, "")
 
 	newContent := strings.Join(newLines, "\n")
 	return os.WriteFile(m.Path, []byte(newContent), 0o644)

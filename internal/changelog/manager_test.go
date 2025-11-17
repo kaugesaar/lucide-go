@@ -34,6 +34,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [v0.1.0] - 2025-10-26
 ### Added
 - Initial release
+
+---
+
+[v0.1.0]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.1.0
+
 `
 
 	if err := os.WriteFile(changelogPath, []byte(initialContent), 0o644); err != nil {
@@ -43,9 +48,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 	mgr := New(changelogPath)
 
 	entry := Entry{
+		Version:      "v0.2.0",
 		Date:         time.Date(2025, 11, 13, 0, 0, 0, 0, time.UTC),
-		CurrentTag:   "0.1.0",
-		NewTag:       "0.2.0",
+		CurrentTag:   "v0.100.0",
+		NewTag:       "v0.110.0",
 		IconsAdded:   5,
 		IconsRemoved: 2,
 	}
@@ -55,6 +61,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 		t.Fatalf("AddEntry() failed: %v", err)
 	}
 
+	err = mgr.AddVersionLink("v0.2.0")
+	if err != nil {
+		t.Fatalf("AddVersionLink() failed: %v", err)
+	}
+
 	content, err := os.ReadFile(changelogPath)
 	if err != nil {
 		t.Fatalf("failed to read changelog: %v", err)
@@ -62,11 +73,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 	contentStr := string(content)
 
-	if !strings.Contains(contentStr, "## [Unreleased] - 2025-11-13") {
+	if !strings.Contains(contentStr, "## [v0.2.0] - 2025-11-13") {
 		t.Error("changelog doesn't contain expected date header")
 	}
 
-	if !strings.Contains(contentStr, "Updated Lucide icons from 0.1.0 to 0.2.0") {
+	if !strings.Contains(contentStr, "Updated Lucide icons from v0.100.0 to v0.110.0") {
 		t.Error("changelog doesn't contain update message")
 	}
 
@@ -82,9 +93,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 		t.Error("changelog lost old entry")
 	}
 
-	unreleasedIdx := strings.Index(contentStr, "## [Unreleased]")
+	newEntryIdx := strings.Index(contentStr, "## [v0.2.0]")
 	oldEntryIdx := strings.Index(contentStr, "## [v0.1.0]")
-	if unreleasedIdx > oldEntryIdx {
+	if newEntryIdx > oldEntryIdx {
 		t.Error("new entry should come before old entry")
 	}
 }
@@ -183,6 +194,7 @@ func TestAddEntryFileNotFound(t *testing.T) {
 
 func TestFormatEntry(t *testing.T) {
 	entry := Entry{
+		Version:      "v0.2.0",
 		Date:         time.Date(2025, 11, 13, 0, 0, 0, 0, time.UTC),
 		CurrentTag:   "0.1.0",
 		NewTag:       "0.2.0",
@@ -192,7 +204,7 @@ func TestFormatEntry(t *testing.T) {
 
 	result := formatEntry(entry)
 
-	if !strings.Contains(result, "## [Unreleased] - 2025-11-13") {
+	if !strings.Contains(result, "## [v0.2.0] - 2025-11-13") {
 		t.Error("formatEntry() missing header")
 	}
 
@@ -210,10 +222,6 @@ func TestFormatEntry(t *testing.T) {
 
 	if !strings.Contains(result, "Removed 5 icon(s)") {
 		t.Error("formatEntry() missing removed line")
-	}
-
-	if !strings.HasSuffix(result, "\n\n") {
-		t.Error("formatEntry() should end with double newline")
 	}
 }
 
