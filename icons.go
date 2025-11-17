@@ -290,6 +290,7 @@ func init() {
 	registerIcon("calendar-sync", CalendarSync)
 	registerIcon("calendar-x", CalendarX)
 	registerIcon("calendar-x-2", CalendarX2)
+	registerIcon("calendars", Calendars)
 	registerIcon("camera", Camera)
 	registerIcon("camera-off", CameraOff)
 	registerIcon("candy", Candy)
@@ -742,6 +743,7 @@ func init() {
 	registerIcon("file-x-2", FileX2)
 	registerIcon("files", Files)
 	registerIcon("film", Film)
+	registerIcon("fingerprint-pattern", FingerprintPattern)
 	registerIcon("fingerprint", Fingerprint)
 	registerIcon("fire-extinguisher", FireExtinguisher)
 	registerIcon("fish", Fish)
@@ -2858,7 +2860,7 @@ func Ampersand(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M17.5 12c0 4.4-3.6 8-8 8A4.5 4.5 0 0 1 5 15.5c0-6 8-4 8-8.5a3 3 0 1 0-6 0c0 3 2.5 8.5 12 13" /> <path d="M16 12h3" />`, opt)
+	return buildSVG(`<path d="M16 12h3" /> <path d="M17.5 12a8 8 0 0 1-8 8A4.5 4.5 0 0 1 5 15.5c0-6 8-4 8-8.5a3 3 0 1 0-6 0c0 3 2.5 8.5 12 13" />`, opt)
 }
 
 // Ampersands renders the "ampersands" icon.
@@ -2930,7 +2932,7 @@ func Anchor(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 22V8" /> <path d="M5 12H2a10 10 0 0 0 20 0h-3" /> <circle cx="12" cy="5" r="3" />`, opt)
+	return buildSVG(`<path d="M12 6v16" /> <path d="m19 13 2-1a9 9 0 0 1-18 0l2 1" /> <path d="M9 11h6" /> <circle cx="12" cy="4" r="2" />`, opt)
 }
 
 // Angry renders the "angry" icon.
@@ -8637,6 +8639,30 @@ func CalendarX2(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" /> <path d="M3 10h18" /> <path d="m17 22 5-5" /> <path d="m17 17 5 5" />`, opt)
+}
+
+// Calendars renders the "calendars" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "calendars" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Calendars()
+//	lucide.Calendars(lucide.Options{Size: 32, Class: "my-icon"})
+func Calendars(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v2" /> <path d="M15.726 21.01A2 2 0 0 1 14 22H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2" /> <path d="M18 2v2" /> <path d="M8 8h14" /> <rect x="8" y="3" width="14" height="14" rx="2" />`, opt)
 }
 
 // Camera renders the "camera" icon.
@@ -18959,17 +18985,17 @@ func Film(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M7 3v18" /> <path d="M3 7.5h4" /> <path d="M3 12h18" /> <path d="M3 16.5h4" /> <path d="M17 3v18" /> <path d="M17 7.5h4" /> <path d="M17 16.5h4" />`, opt)
 }
 
-// Fingerprint renders the "fingerprint" icon.
+// FingerprintPattern renders the "fingerprint-pattern" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "fingerprint" }}
+//	{{ lucide "fingerprint-pattern" }}
 //
 // Direct usage in Go:
 //
-//	lucide.Fingerprint()
-//	lucide.Fingerprint(lucide.Options{Size: 32, Class: "my-icon"})
-func Fingerprint(opts ...Options) template.HTML {
+//	lucide.FingerprintPattern()
+//	lucide.FingerprintPattern(lucide.Options{Size: 32, Class: "my-icon"})
+func FingerprintPattern(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -18981,6 +19007,24 @@ func Fingerprint(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4" /> <path d="M14 13.12c0 2.38 0 6.38-1 8.88" /> <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02" /> <path d="M2 12a10 10 0 0 1 18-6" /> <path d="M2 16h.01" /> <path d="M21.8 16c.2-2 .131-5.354 0-6" /> <path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2" /> <path d="M8.65 22c.21-.66.45-1.32.57-2" /> <path d="M9 6.8a6 6 0 0 1 9 5.2v2" />`, opt)
+}
+
+// Fingerprint is an alias for FingerprintPattern.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use FingerprintPattern instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "fingerprint" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Fingerprint()
+//	lucide.Fingerprint(lucide.Options{Size: 32, Class: "my-icon"})
+func Fingerprint(opts ...Options) template.HTML {
+	return FingerprintPattern(opts...)
 }
 
 // FireExtinguisher renders the "fire-extinguisher" icon.
@@ -19838,7 +19882,7 @@ func FolderGit2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5" /> <circle cx="13" cy="12" r="2" /> <path d="M18 19c-2.8 0-5-2.2-5-5v8" /> <circle cx="20" cy="19" r="2" />`, opt)
+	return buildSVG(`<path d="M18 19a5 5 0 0 1-5-5v8" /> <path d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5" /> <circle cx="13" cy="12" r="2" /> <circle cx="20" cy="19" r="2" />`, opt)
 }
 
 // FolderHeart renders the "folder-heart" icon.
