@@ -25,11 +25,19 @@ type UpdateResult struct {
 	HasUpdates    bool   `json:"has_updates"`
 	CurrentTag    string `json:"current_tag"`
 	LatestTag     string `json:"latest_tag"`
+	Version       string `json:"version,omitempty"`
 	IconsAdded    int    `json:"icons_added"`
 	IconsRemoved  int    `json:"icons_removed"`
 	ReleaseURL    string `json:"release_url"`
 	ReleaseNotes  string `json:"release_notes,omitempty"`
 	ChangelogPath string `json:"changelog_path,omitempty"`
+}
+
+type ReleaseResult struct {
+	Version       string `json:"version"`
+	TagCreated    bool   `json:"tag_created"`
+	ReleaseURL    string `json:"release_url,omitempty"`
+	AlreadyExists bool   `json:"already_exists"`
 }
 
 func main() {
@@ -56,6 +64,11 @@ func main() {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 			os.Exit(1)
 		}
+	case "release":
+		if err := runRelease(); err != nil {
+			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+			os.Exit(1)
+		}
 	case "help", "--help", "-h":
 		printUsage()
 	default:
@@ -72,6 +85,7 @@ Usage:
   tool check      Check if updates are available
   tool update     Download latest release and regenerate icons
   tool generate   Regenerate icons from current icon files
+  tool release    Create a release from the latest changelog version
   tool help       Show this help message
 
 Commands:
@@ -85,8 +99,11 @@ Commands:
   generate       Regenerates icons.go from icon files in the lucide-icons
                  directory without downloading or updating anything.
 
+  release        Creates a git tag and GitHub release for the latest version
+                 in CHANGELOG.md if it doesn't already exist. Outputs JSON result.
+
 Global Flags:
-  --dry-run      Preview changes without writing (update command only)
+  --dry-run      Preview changes without writing (update/release commands)
 `)
 }
 
@@ -191,8 +208,15 @@ func runUpdate() error {
 	result.IconsRemoved = removed
 	fmt.Fprintf(os.Stderr, "Icons added: %d, removed: %d\n", added, removed)
 
+	nextVersion, err := changelog.GetNextVersion()
+	if err != nil {
+		return fmt.Errorf("failed to determine next version: %w", err)
+	}
+	fmt.Fprintf(os.Stderr, "Next version: %s\n", nextVersion)
+
 	changelogMgr := changelog.New("CHANGELOG.md")
 	entry := changelog.Entry{
+		Version:      nextVersion,
 		Date:         time.Now(),
 		CurrentTag:   currentTag,
 		NewTag:       release.TagName,
@@ -202,8 +226,14 @@ func runUpdate() error {
 	if err := changelogMgr.AddEntry(entry); err != nil {
 		return fmt.Errorf("failed to update changelog: %w", err)
 	}
+
+	if err := changelogMgr.AddVersionLink(nextVersion); err != nil {
+		return fmt.Errorf("failed to add version link: %w", err)
+	}
+
+	result.Version = nextVersion
 	result.ChangelogPath = "CHANGELOG.md"
-	fmt.Fprintf(os.Stderr, "Updated CHANGELOG.md\n")
+	fmt.Fprintf(os.Stderr, "Updated CHANGELOG.md with version %s\n", nextVersion)
 
 	if err := lucide.SetCurrentVersion(release.TagName); err != nil {
 		return fmt.Errorf("failed to update version file: %w", err)
@@ -225,6 +255,76 @@ func runGenerate() error {
 
 	fmt.Fprintf(os.Stderr, "✓ Successfully generated %d icons to %s\n", result.IconsGenerated, outputFile)
 	return nil
+}
+
+func runRelease() error {
+	fs := flag.NewFlagSet("release", flag.ExitOnError)
+	dryRun := fs.Bool("dry-run", false, "Preview changes without writing")
+	if err := fs.Parse(os.Args[2:]); err != nil {
+		return err
+	}
+
+	ctx := context.Background()
+
+	changelogMgr := changelog.New("CHANGELOG.md")
+	version, err := changelogMgr.GetLatestVersion()
+	if err != nil {
+		return fmt.Errorf("failed to get latest version from changelog: %w", err)
+	}
+	fmt.Fprintf(os.Stderr, "Latest version in changelog: %s\n", version)
+
+	cmd := exec.Command("git", "tag", "-l", version)
+	output, err := cmd.Output()
+	if err != nil {
+		return fmt.Errorf("failed to check git tags: %w", err)
+	}
+
+	result := ReleaseResult{
+		Version: version,
+	}
+
+	if strings.TrimSpace(string(output)) != "" {
+		fmt.Fprintf(os.Stderr, "Tag %s already exists\n", version)
+		result.AlreadyExists = true
+		result.TagCreated = false
+		return outputJSON(result)
+	}
+
+	if *dryRun {
+		fmt.Fprintf(os.Stderr, "DRY RUN: Would create tag %s and GitHub release\n", version)
+		result.TagCreated = false
+		return outputJSON(result)
+	}
+
+	releaseNotes, err := changelogMgr.GetReleaseNotes(version)
+	if err != nil {
+		return fmt.Errorf("failed to get release notes: %w", err)
+	}
+
+	fmt.Fprintf(os.Stderr, "Creating git tag %s...\n", version)
+	cmd = exec.Command("git", "tag", "-a", version, "-m", releaseNotes)
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("failed to create git tag: %w", err)
+	}
+	result.TagCreated = true
+
+	fmt.Fprintf(os.Stderr, "Pushing tag to origin...\n")
+	cmd = exec.Command("git", "push", "origin", version)
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("failed to push tag: %w", err)
+	}
+
+	fmt.Fprintf(os.Stderr, "Creating GitHub release...\n")
+	client := lucide.NewClient(os.Getenv("GITHUB_TOKEN"))
+	releaseURL, err := client.CreateRelease(ctx, version, releaseNotes)
+	if err != nil {
+		return fmt.Errorf("failed to create GitHub release: %w", err)
+	}
+	result.ReleaseURL = releaseURL
+
+	fmt.Fprintf(os.Stderr, "\n✓ Release %s created successfully!\n", version)
+	fmt.Fprintf(os.Stderr, "Release URL: %s\n", releaseURL)
+	return outputJSON(result)
 }
 
 func countIconChanges() (added, removed int, err error) {

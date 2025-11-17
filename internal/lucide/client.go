@@ -8,8 +8,10 @@ import (
 )
 
 const (
-	owner = "lucide-icons"
-	repo  = "lucide"
+	owner       = "kaugesaar"
+	repo        = "lucide-go"
+	lucideOwner = "lucide-icons"
+	lucideRepo  = "lucide"
 )
 
 // Client provides access to the Lucide icon repository via GitHub API.
@@ -41,7 +43,7 @@ func NewClient(token string) *Client {
 
 // GetLatestRelease fetches the latest release from the Lucide repository.
 func (c *Client) GetLatestRelease(ctx context.Context) (*Release, error) {
-	release, _, err := c.gh.Repositories.GetLatestRelease(ctx, owner, repo)
+	release, _, err := c.gh.Repositories.GetLatestRelease(ctx, lucideOwner, lucideRepo)
 	if err != nil {
 		return nil, fmt.Errorf("failed to fetch latest release: %w", err)
 	}
@@ -64,4 +66,21 @@ func (r *Release) FindIconsAsset() (*github.ReleaseAsset, error) {
 		}
 	}
 	return nil, fmt.Errorf("icons asset not found in release %s", r.TagName)
+}
+
+// CreateRelease creates a GitHub release for the lucide-go repository.
+// Returns the HTML URL of the created release.
+func (c *Client) CreateRelease(ctx context.Context, version, releaseNotes string) (string, error) {
+	release := &github.RepositoryRelease{
+		TagName: github.Ptr(version),
+		Name:    github.Ptr(version),
+		Body:    github.Ptr(releaseNotes),
+	}
+
+	created, _, err := c.gh.Repositories.CreateRelease(ctx, owner, repo, release)
+	if err != nil {
+		return "", fmt.Errorf("failed to create release: %w", err)
+	}
+
+	return created.GetHTMLURL(), nil
 }

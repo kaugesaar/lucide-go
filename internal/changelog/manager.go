@@ -77,7 +77,7 @@ func formatEntry(e Entry) string {
 	dateStr := e.Date.Format("2006-01-02")
 
 	var b strings.Builder
-	b.WriteString(fmt.Sprintf("## [Unreleased] - %s\n", dateStr))
+	b.WriteString(fmt.Sprintf("## [%s] - %s\n", e.Version, dateStr))
 	b.WriteString("### Changed\n")
 	b.WriteString(fmt.Sprintf("- Updated Lucide icons from %s to %s\n", e.CurrentTag, e.NewTag))
 
@@ -89,7 +89,44 @@ func formatEntry(e Entry) string {
 		b.WriteString(fmt.Sprintf("- Removed %d icon(s)\n", e.IconsRemoved))
 	}
 
-	b.WriteString("\n")
-
 	return b.String()
+}
+
+func (m *Manager) AddVersionLink(version string) error {
+	content, err := os.ReadFile(m.Path)
+	if err != nil {
+		return fmt.Errorf("failed to read changelog: %w", err)
+	}
+
+	lines := strings.Split(string(content), "\n")
+
+	separatorIdx := -1
+	for i, line := range lines {
+		if strings.TrimSpace(line) == "---" {
+			separatorIdx = i
+			break
+		}
+	}
+
+	if separatorIdx == -1 {
+		return fmt.Errorf("changelog separator '---' not found")
+	}
+
+	linkLine := fmt.Sprintf("[%s]: https://github.com/kaugesaar/lucide-go/releases/tag/%s", version, version)
+	for i := separatorIdx + 1; i < len(lines); i++ {
+		if strings.Contains(lines[i], fmt.Sprintf("[%s]:", version)) {
+			lines[i] = linkLine
+			newContent := strings.Join(lines, "\n")
+			return os.WriteFile(m.Path, []byte(newContent), 0o644)
+		}
+	}
+
+	newLines := make([]string, 0, len(lines)+1)
+	newLines = append(newLines, lines[:separatorIdx+1]...)
+	newLines = append(newLines, "")
+	newLines = append(newLines, linkLine)
+	newLines = append(newLines, lines[separatorIdx+2:]...)
+
+	newContent := strings.Join(newLines, "\n")
+	return os.WriteFile(m.Path, []byte(newContent), 0o644)
 }
