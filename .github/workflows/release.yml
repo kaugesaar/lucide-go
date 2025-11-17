@@ -1,0 +1,70 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch all history for tags
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: '1.21'
+
+    - name: Run release command
+      id: release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Run the release tool and capture JSON output
+        go run cmd/tool/main.go release > result.json || true
+
+        # Parse the JSON result
+        if [ -f result.json ]; then
+          cat result.json
+
+          VERSION=$(jq -r '.version' result.json)
+          TAG_CREATED=$(jq -r '.tag_created' result.json)
+          RELEASE_URL=$(jq -r '.release_url' result.json)
+          ALREADY_EXISTS=$(jq -r '.already_exists' result.json)
+
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag_created=$TAG_CREATED" >> $GITHUB_OUTPUT
+          echo "release_url=$RELEASE_URL" >> $GITHUB_OUTPUT
+          echo "already_exists=$ALREADY_EXISTS" >> $GITHUB_OUTPUT
+        else
+          echo "tag_created=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Show Release Summary
+      if: steps.release.outputs.tag_created == 'true'
+      run: |
+        echo "## 🚀 Release Created" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Version:** ${{ steps.release.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+        echo "**Release URL:** ${{ steps.release.outputs.release_url }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "The release has been published to GitHub and will be indexed by pkg.go.dev shortly." >> $GITHUB_STEP_SUMMARY
+
+    - name: Show Already Exists Message
+      if: steps.release.outputs.already_exists == 'true'
+      run: |
+        echo "## ℹ️ Release Already Exists" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Version:** ${{ steps.release.outputs.version }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "A release for this version already exists. No new release was created." >> $GITHUB_STEP_SUMMARY
