@@ -1,6 +1,6 @@
 # Lucide Go
 
-Lucide icons for Go's `html/template`. Each icon renders as an inline SVG and can be used either in templates or directly in Go code. 
+Lucide icons for Go. Each icon renders as an inline SVG and can be used with any template system (`html/template`, `templ`, etc.) or directly in Go code. 
 
 ## Installation
 
@@ -10,7 +10,7 @@ go get github.com/kaugesaar/lucide-go
 
 ## Usage
 
-### In Templates
+### With html/template
 
 Register the icon function in your template:
 
@@ -56,7 +56,7 @@ Then use icons in your templates:
 | `strokeWidth` | *int*    | 2            |
 | `class`       | *string* |              |
 
-### Configuration Options
+#### Configuration Options
 
 **Customize function names** to avoid conflicts:
 
@@ -84,9 +84,59 @@ tmpl.Funcs(template.FuncMap{
 })
 ```
 
+### With Other Template Systems
+
+For template systems other than `html/template`, call `Icon()` directly from your Go code:
+
+```go
+import "github.com/kaugesaar/lucide-go"
+
+// Dynamic icon lookup by name
+icon := lucide.Icon("circle-x", map[string]any{
+    "size":  32,
+    "class": "logo",
+})
+// Returns template.HTML - integrate with your template system
+
+// Or use individual functions when icon is known at compile time
+icon := lucide.Menu(lucide.Options{
+    Size:  24,
+    Class: "menu-icon",
+})
+```
+
+**Integration examples:**
+- **templ**: `@templ.Raw(icon)`
+- **Direct rendering**: `fmt.Fprintf(w, "%s", icon)`
+- **Other systems**: Use `template.HTML` value as needed
+
 ### Direct Go Usage
 
-You can also use icons directly in Go code:
+Use icons directly in Go code with two approaches:
+
+**Dynamic lookup by name**:
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/kaugesaar/lucide-go"
+)
+
+func main() {
+    // Look up icon by name - great for dynamic scenarios
+    icon := lucide.Icon("circle-x", map[string]any{
+        "size":        32,
+        "strokeWidth": 2,
+        "class":       "icon-danger",
+    })
+
+    fmt.Println(icon)
+}
+```
+
+**Type-safe individual functions**:
 
 ```go
 package main
@@ -104,10 +154,10 @@ func main() {
         Class:       "icon-danger",
     })
 
-    fmt.Println(icon) // Returns template.HTML
+    fmt.Println(icon)
 
     // Or use defaults (24px, stroke-width 2)
-    icon := lucide.Play()
+    icon = lucide.Play()
 }
 ```
 
