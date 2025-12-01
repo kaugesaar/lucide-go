@@ -804,6 +804,7 @@ func init() {
 	registerIcon("folders", Folders)
 	registerIcon("footprints", Footprints)
 	registerIcon("forklift", Forklift)
+	registerIcon("form", Form)
 	registerIcon("forward", Forward)
 	registerIcon("frame", Frame)
 	registerIcon("framer", Framer)
@@ -1865,6 +1866,8 @@ func init() {
 	registerIcon("washing-machine", WashingMachine)
 	registerIcon("watch", Watch)
 	registerIcon("waves", Waves)
+	registerIcon("waves-arrow-down", WavesArrowDown)
+	registerIcon("waves-arrow-up", WavesArrowUp)
 	registerIcon("waves-ladder", WavesLadder)
 	registerIcon("waypoints", Waypoints)
 	registerIcon("webcam", Webcam)
@@ -8662,7 +8665,7 @@ func Calendars(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 2v2" /> <path d="M15.726 21.01A2 2 0 0 1 14 22H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2" /> <path d="M18 2v2" /> <path d="M8 8h14" /> <rect x="8" y="3" width="14" height="14" rx="2" />`, opt)
+	return buildSVG(`<path d="M12 2v2" /> <path d="M15.726 21.01A2 2 0 0 1 14 22H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2" /> <path d="M18 2v2" /> <path d="M2 13h2" /> <path d="M8 8h14" /> <rect x="8" y="3" width="14" height="14" rx="2" />`, opt)
 }
 
 // Camera renders the "camera" icon.
@@ -20429,6 +20432,30 @@ func Forklift(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 12H5a2 2 0 0 0-2 2v5" /> <circle cx="13" cy="19" r="2" /> <circle cx="5" cy="19" r="2" /> <path d="M8 19h3m5-17v17h6M6 12V7c0-1.1.9-2 2-2h3l5 5" />`, opt)
+}
+
+// Form renders the "form" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "form" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Form()
+//	lucide.Form(lucide.Options{Size: 32, Class: "my-icon"})
+func Form(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 14h6" /> <path d="M4 2h10" /> <rect x="4" y="18" width="16" height="4" rx="1" /> <rect x="4" y="6" width="16" height="4" rx="1" />`, opt)
 }
 
 // Forward renders the "forward" icon.
@@ -34426,7 +34453,7 @@ func Scale(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" /> <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" /> <path d="M7 21h10" /> <path d="M12 3v18" /> <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />`, opt)
+	return buildSVG(`<path d="M12 3v18" /> <path d="m19 8 3 8a5 5 0 0 1-6 0zV7" /> <path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1" /> <path d="m5 8 3 8a5 5 0 0 1-6 0zV7" /> <path d="M7 21h10" />`, opt)
 }
 
 // Scale3d renders the "scale-3d" icon.
@@ -45083,6 +45110,54 @@ func Waves(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />`, opt)
+}
+
+// WavesArrowDown renders the "waves-arrow-down" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "waves-arrow-down" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WavesArrowDown()
+//	lucide.WavesArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+func WavesArrowDown(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 10L12 2" /> <path d="M16 6L12 10L8 6" /> <path d="M2 15C2.6 15.5 3.2 16 4.5 16C7 16 7 14 9.5 14C12.1 14 11.9 16 14.5 16C17 16 17 14 19.5 14C20.8 14 21.4 14.5 22 15" /> <path d="M2 21C2.6 21.5 3.2 22 4.5 22C7 22 7 20 9.5 20C12.1 20 11.9 22 14.5 22C17 22 17 20 19.5 20C20.8 20 21.4 20.5 22 21" />`, opt)
+}
+
+// WavesArrowUp renders the "waves-arrow-up" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "waves-arrow-up" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WavesArrowUp()
+//	lucide.WavesArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+func WavesArrowUp(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v8" /> <path d="M2 15c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="m8 6 4-4 4 4" />`, opt)
 }
 
 // WavesLadder renders the "waves-ladder" icon.

@@ -1,0 +1,11 @@
+{
+  "has_updates": true,
+  "current_tag": "0.554.0",
+  "latest_tag": "0.555.0",
+  "version": "v0.1.0",
+  "icons_added": 3,
+  "icons_removed": 0,
+  "release_url": "https://github.com/lucide-icons/lucide/releases/tag/0.555.0",
+  "release_notes": "## What's Changed\n* fix(icons): changed `calendars` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3795\n* fix(docs): correct package name and description for Flutter and Lustre package (#3701) by @epifaniofrancisco in https://github.com/lucide-icons/lucide/pull/3703\n* feat(angular): Angular V21 Support by @JeevanMahesha in https://github.com/lucide-icons/lucide/pull/3807\n* chore(metadata): Adjust navigation category by @ericfennis in https://github.com/lucide-icons/lucide/pull/3461\n* feat(icons): Add `waves-arrow-up` and `waves-arrow-down` by @ericfennis in https://github.com/lucide-icons/lucide/pull/3463\n* fix(icons): changed `scale` icon by @jamiemlaw in https://github.com/lucide-icons/lucide/pull/3800\n* feat(icons): added `form` icon by @jguddas in https://github.com/lucide-icons/lucide/pull/3558\n\n\n**Full Changelog**: https://github.com/lucide-icons/lucide/compare/0.554.0...0.555.0",
+  "changelog_path": "CHANGELOG.md"
+}
