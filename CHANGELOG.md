@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.6.0] - 2025-12-01
+### Changed
+- Updated Lucide icons from 0.554.0 to 0.555.0
+- Added 3 new icon(s)
+
 ## [v0.5.0] - 2025-11-17
 ### Changed
 - Updated Lucide icons from 0.553.0 to 0.554.0
