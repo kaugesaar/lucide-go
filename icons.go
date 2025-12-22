@@ -1753,6 +1753,7 @@ func init() {
 	registerIcon("toggle-right", ToggleRight)
 	registerIcon("toilet", Toilet)
 	registerIcon("tool-case", ToolCase)
+	registerIcon("toolbox", Toolbox)
 	registerIcon("tornado", Tornado)
 	registerIcon("torus", Torus)
 	registerIcon("touchpad", Touchpad)
@@ -30291,7 +30292,7 @@ func PaintBucket(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M19 12H2" /> <path d="M21.145 18.38A3.34 3.34 0 0 1 20 16.5a3.3 3.3 0 0 1-1.145 1.88c-.575.46-.855 1.02-.855 1.595A2 2 0 0 0 20 22a2 2 0 0 0 2-2.025c0-.58-.285-1.13-.855-1.595" /> <path d="m6 2 5 5" /> <path d="m8.5 4.5 2.148-2.148a1.205 1.205 0 0 1 1.704 0l7.296 7.296a1.205 1.205 0 0 1 0 1.704l-7.592 7.592a3.615 3.615 0 0 1-5.112 0l-3.888-3.888a3.615 3.615 0 0 1 0-5.112L5.67 7.33" />`, opt)
+	return buildSVG(`<path d="M11 7 6 2" /> <path d="M18.992 12H2.041" /> <path d="M21.145 18.38A3.34 3.34 0 0 1 20 16.5a3.3 3.3 0 0 1-1.145 1.88c-.575.46-.855 1.02-.855 1.595A2 2 0 0 0 20 22a2 2 0 0 0 2-2.025c0-.58-.285-1.13-.855-1.595" /> <path d="m8.5 4.5 2.148-2.148a1.205 1.205 0 0 1 1.704 0l7.296 7.296a1.205 1.205 0 0 1 0 1.704l-7.592 7.592a3.615 3.615 0 0 1-5.112 0l-3.888-3.888a3.615 3.615 0 0 1 0-5.112L5.67 7.33" />`, opt)
 }
 
 // PaintRoller renders the "paint-roller" icon.
@@ -42508,6 +42509,30 @@ func ToolCase(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10 15h4" /> <path d="m14.817 10.995-.971-1.45 1.034-1.232a2 2 0 0 0-2.025-3.238l-1.82.364L9.91 3.885a2 2 0 0 0-3.625.748L6.141 6.55l-1.725.426a2 2 0 0 0-.19 3.756l.657.27" /> <path d="m18.822 10.995 2.26-5.38a1 1 0 0 0-.557-1.318L16.954 2.9a1 1 0 0 0-1.281.533l-.924 2.122" /> <path d="M4 12.006A1 1 0 0 1 4.994 11H19a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />`, opt)
+}
+
+// Toolbox renders the "toolbox" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "toolbox" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Toolbox()
+//	lucide.Toolbox(lucide.Options{Size: 32, Class: "my-icon"})
+func Toolbox(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M16 12v4" /> <path d="M16 6a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 .586-1.414l4-4A2 2 0 0 1 8 6z" /> <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" /> <path d="M2 14h20" /> <path d="M8 12v4" />`, opt)
 }
 
 // Tornado renders the "tornado" icon.
