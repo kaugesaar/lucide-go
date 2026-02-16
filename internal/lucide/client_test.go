@@ -1,6 +1,7 @@
 package lucide
 
 import (
+	"context"
 	"testing"
 
 	"github.com/google/go-github/v78/github"
@@ -21,6 +22,25 @@ func TestNewClient(t *testing.T) {
 	}
 	if client.gh == nil {
 		t.Error("NewClient(\"test-token\").gh is nil")
+	}
+}
+
+func TestGetSourceArchiveURL(t *testing.T) {
+	client := NewClient("")
+	if client == nil {
+		t.Fatal("NewClient returned nil")
+	}
+
+	ctx := context.Background()
+	archiveURL, err := client.GetSourceArchiveURL(ctx, "0.460.0")
+	if err != nil {
+		t.Fatalf("GetSourceArchiveURL() error = %v", err)
+	}
+	if archiveURL == nil {
+		t.Fatal("GetSourceArchiveURL() returned nil URL")
+	}
+	if archiveURL.String() == "" {
+		t.Error("GetSourceArchiveURL() returned empty URL")
 	}
 }
 

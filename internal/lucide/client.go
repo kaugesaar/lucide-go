@@ -3,9 +3,12 @@ package lucide
 import (
 	"context"
 	"fmt"
+	"net/url"
 
 	"github.com/google/go-github/v78/github"
 )
+
+const maxRedirects = 10
 
 const (
 	owner       = "kaugesaar"
@@ -66,6 +69,18 @@ func (r *Release) FindIconsAsset() (*github.ReleaseAsset, error) {
 		}
 	}
 	return nil, fmt.Errorf("icons asset not found in release %s", r.TagName)
+}
+
+// GetSourceArchiveURL returns the URL for downloading the source tarball of a given tag.
+func (c *Client) GetSourceArchiveURL(ctx context.Context, tag string) (*url.URL, error) {
+	archiveURL, _, err := c.gh.Repositories.GetArchiveLink(
+		ctx, lucideOwner, lucideRepo, github.Tarball,
+		&github.RepositoryContentGetOptions{Ref: tag}, maxRedirects,
+	)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get source archive URL for tag %s: %w", tag, err)
+	}
+	return archiveURL, nil
 }
 
 // CreateRelease creates a GitHub release for the lucide-go repository.
