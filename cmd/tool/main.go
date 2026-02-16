@@ -183,13 +183,20 @@ func runUpdate() error {
 	}
 
 	asset, err := release.FindIconsAsset()
-	if err != nil {
-		return err
-	}
-	fmt.Fprintf(os.Stderr, "Downloading %s...\n", asset.GetName())
-
-	if err := lucide.DownloadAndExtract(ctx, client, asset, iconsDir); err != nil {
-		return fmt.Errorf("failed to download icons: %w", err)
+	if err == nil {
+		fmt.Fprintf(os.Stderr, "Downloading %s...\n", asset.GetName())
+		if err := lucide.DownloadAndExtract(ctx, client, asset, iconsDir); err != nil {
+			return fmt.Errorf("failed to download icons: %w", err)
+		}
+	} else {
+		fmt.Fprintf(os.Stderr, "Icons zip asset not found, falling back to source tarball...\n")
+		archiveURL, err := client.GetSourceArchiveURL(ctx, release.TagName)
+		if err != nil {
+			return fmt.Errorf("failed to get source archive URL: %w", err)
+		}
+		if err := lucide.DownloadAndExtractTarball(ctx, archiveURL.String(), iconsDir); err != nil {
+			return fmt.Errorf("failed to download icons from source tarball: %w", err)
+		}
 	}
 
 	fmt.Fprintf(os.Stderr, "Regenerating icons...\n")

@@ -1,7 +1,9 @@
 package lucide
 
 import (
+	"archive/tar"
 	"archive/zip"
+	"compress/gzip"
 	"context"
 	"fmt"
 	"io"
@@ -41,6 +43,96 @@ func DownloadAndExtract(ctx context.Context, client *Client, asset *github.Relea
 	}
 
 	return nil
+}
+
+// DownloadAndExtractTarball downloads a source tarball and extracts icon files from it.
+// It expects the tarball to contain an icons/ directory with SVG and JSON files.
+func DownloadAndExtractTarball(ctx context.Context, archiveURL, destDir string) error {
+	tmpFile, err := os.CreateTemp("", "lucide-source-*.tar.gz")
+	if err != nil {
+		return fmt.Errorf("failed to create temp file: %w", err)
+	}
+	defer os.Remove(tmpFile.Name()) //nolint:errcheck // Best-effort cleanup
+
+	if err := downloadFile(ctx, archiveURL, tmpFile); err != nil {
+		tmpFile.Close() //nolint:errcheck // Cleanup on error path
+		return fmt.Errorf("failed to download tarball: %w", err)
+	}
+
+	if err := tmpFile.Close(); err != nil {
+		return fmt.Errorf("failed to close temp file: %w", err)
+	}
+
+	if err := extractIconsFromTarball(tmpFile.Name(), destDir); err != nil {
+		return fmt.Errorf("failed to extract icons from tarball: %w", err)
+	}
+
+	return nil
+}
+
+func extractIconsFromTarball(tarballPath, destDir string) error {
+	f, err := os.Open(tarballPath)
+	if err != nil {
+		return err
+	}
+	defer f.Close() //nolint:errcheck // File cleanup
+
+	gz, err := gzip.NewReader(f)
+	if err != nil {
+		return err
+	}
+	defer gz.Close() //nolint:errcheck // Gzip reader cleanup
+
+	if err := os.MkdirAll(destDir, 0o755); err != nil {
+		return err
+	}
+
+	if err := clearDirectory(destDir); err != nil {
+		return fmt.Errorf("failed to clear destination directory: %w", err)
+	}
+
+	tr := tar.NewReader(gz)
+	for {
+		header, err := tr.Next()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			return err
+		}
+
+		if header.Typeflag != tar.TypeReg {
+			continue
+		}
+
+		parts := strings.Split(header.Name, "/")
+		if len(parts) < 3 || parts[1] != "icons" {
+			continue
+		}
+
+		filename := parts[len(parts)-1]
+		if !strings.HasSuffix(filename, ".svg") && !strings.HasSuffix(filename, ".json") {
+			continue
+		}
+
+		destPath := filepath.Join(destDir, filename)
+		if err := writeFile(destPath, tr); err != nil {
+			return fmt.Errorf("failed to extract %s: %w", header.Name, err)
+		}
+	}
+
+	return nil
+}
+
+func writeFile(destPath string, r io.Reader) error {
+	dest, err := os.Create(destPath)
+	if err != nil {
+		return err
+	}
+	defer dest.Close() //nolint:errcheck // File will be synced by Copy
+
+	_, err = io.Copy(dest, r)
+	return err
 }
 
 func downloadFile(ctx context.Context, url string, dest *os.File) error {
