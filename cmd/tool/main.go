@@ -59,6 +59,11 @@ func main() {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 			os.Exit(1)
 		}
+	case "download":
+		if err := runDownload(); err != nil {
+			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+			os.Exit(1)
+		}
 	case "generate":
 		if err := runGenerate(); err != nil {
 			fmt.Fprintf(os.Stderr, "Error: %v\n", err)
@@ -84,6 +89,7 @@ func printUsage() {
 Usage:
   tool check      Check if updates are available
   tool update     Download latest release and regenerate icons
+  tool download   Download icons for current version
   tool generate   Regenerate icons from current icon files
   tool release    Create a release from the latest changelog version
   tool help       Show this help message
@@ -96,6 +102,9 @@ Commands:
                  regenerates icons, updates changelog, and updates version file.
                  Outputs JSON result for CI consumption.
 
+  download       Downloads icons for the version in .lucide-version to the
+                 lucide-icons directory. Useful for CI or setting up a fresh clone.
+
   generate       Regenerates icons.go from icon files in the lucide-icons
                  directory without downloading or updating anything.
 
@@ -105,6 +114,42 @@ Commands:
 Global Flags:
   --dry-run      Preview changes without writing (update/release commands)
 `)
+}
+
+func runDownload() error {
+	ctx := context.Background()
+
+	currentTag, err := lucide.GetCurrentVersion()
+	if err != nil {
+		return fmt.Errorf("failed to get current version: %w", err)
+	}
+	fmt.Fprintf(os.Stderr, "Downloading icons for version %s...\n", currentTag)
+
+	client := lucide.NewClient(os.Getenv("GITHUB_TOKEN"))
+	release, err := client.GetReleaseByTag(ctx, currentTag)
+	if err != nil {
+		return fmt.Errorf("failed to get release: %w", err)
+	}
+
+	asset, err := release.FindIconsAsset()
+	if err == nil {
+		fmt.Fprintf(os.Stderr, "Downloading %s...\n", asset.GetName())
+		if err := lucide.DownloadAndExtract(ctx, client, asset, iconsDir); err != nil {
+			return fmt.Errorf("failed to download icons: %w", err)
+		}
+	} else {
+		fmt.Fprintf(os.Stderr, "Icons zip asset not found, falling back to source tarball...\n")
+		archiveURL, err := client.GetSourceArchiveURL(ctx, release.TagName)
+		if err != nil {
+			return fmt.Errorf("failed to get source archive URL: %w", err)
+		}
+		if err := lucide.DownloadAndExtractTarball(ctx, archiveURL.String(), iconsDir); err != nil {
+			return fmt.Errorf("failed to download icons from source tarball: %w", err)
+		}
+	}
+
+	fmt.Fprintf(os.Stderr, "✓ Icons downloaded to %s\n", iconsDir)
+	return nil
 }
 
 func runCheck() error {
