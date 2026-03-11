@@ -642,6 +642,7 @@ func init() {
 	registerIcon("egg", Egg)
 	registerIcon("egg-fried", EggFried)
 	registerIcon("egg-off", EggOff)
+	registerIcon("ellipse", Ellipse)
 	registerIcon("ellipsis", Ellipsis)
 	registerIcon("more-horizontal", MoreHorizontal)
 	registerIcon("ellipsis-vertical", EllipsisVertical)
@@ -757,6 +758,7 @@ func init() {
 	registerIcon("fish-off", FishOff)
 	registerIcon("fish-symbol", FishSymbol)
 	registerIcon("fishing-hook", FishingHook)
+	registerIcon("fishing-rod", FishingRod)
 	registerIcon("flag", Flag)
 	registerIcon("flag-off", FlagOff)
 	registerIcon("flag-triangle-left", FlagTriangleLeft)
@@ -1935,6 +1937,19 @@ func init() {
 	registerIcon("youtube", Youtube)
 	registerIcon("zap", Zap)
 	registerIcon("zap-off", ZapOff)
+	registerIcon("zodiac-aquarius", ZodiacAquarius)
+	registerIcon("zodiac-aries", ZodiacAries)
+	registerIcon("zodiac-cancer", ZodiacCancer)
+	registerIcon("zodiac-capricorn", ZodiacCapricorn)
+	registerIcon("zodiac-gemini", ZodiacGemini)
+	registerIcon("zodiac-leo", ZodiacLeo)
+	registerIcon("zodiac-libra", ZodiacLibra)
+	registerIcon("zodiac-ophiuchus", ZodiacOphiuchus)
+	registerIcon("zodiac-pisces", ZodiacPisces)
+	registerIcon("zodiac-sagittarius", ZodiacSagittarius)
+	registerIcon("zodiac-scorpio", ZodiacScorpio)
+	registerIcon("zodiac-taurus", ZodiacTaurus)
+	registerIcon("zodiac-virgo", ZodiacVirgo)
 	registerIcon("zoom-in", ZoomIn)
 	registerIcon("zoom-out", ZoomOut)
 }
@@ -15298,7 +15313,7 @@ func Cuboid(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m21.12 6.4-6.05-4.06a2 2 0 0 0-2.17-.05L2.95 8.41a2 2 0 0 0-.95 1.7v5.82a2 2 0 0 0 .88 1.66l6.05 4.07a2 2 0 0 0 2.17.05l9.95-6.12a2 2 0 0 0 .95-1.7V8.06a2 2 0 0 0-.88-1.66Z" /> <path d="M10 22v-8L2.25 9.15" /> <path d="m10 14 11.77-6.87" />`, opt)
+	return buildSVG(`<path d="M10 22v-8" /> <path d="M2.336 8.89 10 14l11.715-7.029" /> <path d="M22 14a2 2 0 0 1-.971 1.715l-10 6a2 2 0 0 1-2.138-.05l-6-4A2 2 0 0 1 2 16v-6a2 2 0 0 1 .971-1.715l10-6a2 2 0 0 1 2.138.05l6 4A2 2 0 0 1 22 8z" />`, opt)
 }
 
 // CupSoda renders the "cup-soda" icon.
@@ -16775,6 +16790,30 @@ func EggOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m2 2 20 20" /> <path d="M20 14.347V14c0-6-4-12-8-12-1.078 0-2.157.436-3.157 1.19" /> <path d="M6.206 6.21C4.871 8.4 4 11.2 4 14a8 8 0 0 0 14.568 4.568" />`, opt)
+}
+
+// Ellipse renders the "ellipse" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "ellipse" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Ellipse()
+//	lucide.Ellipse(lucide.Options{Size: 32, Class: "my-icon"})
+func Ellipse(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<ellipse cx="12" cy="12" rx="10" ry="6" />`, opt)
 }
 
 // Ellipsis renders the "ellipsis" icon.
@@ -19355,6 +19394,30 @@ func FishingHook(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m17.586 11.414-5.93 5.93a1 1 0 0 1-8-8l3.137-3.137a.707.707 0 0 1 1.207.5V10" /> <path d="M20.414 8.586 22 7" /> <circle cx="19" cy="10" r="2" />`, opt)
+}
+
+// FishingRod renders the "fishing-rod" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "fishing-rod" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FishingRod()
+//	lucide.FishingRod(lucide.Options{Size: 32, Class: "my-icon"})
+func FishingRod(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 11h1" /> <path d="M8 15a2 2 0 0 1-4 0V3a1 1 0 0 1 1-1h.5C14 2 20 9 20 18v4" /> <circle cx="18" cy="18" r="2" />`, opt)
 }
 
 // Flag renders the "flag" icon.
@@ -30460,7 +30523,7 @@ func PackageCheck(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m16 16 2 2 4-4" /> <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" /> <path d="m7.5 4.27 9 5.15" /> <polyline points="3.29 7 12 12 20.71 7" /> <line x1="12" x2="12" y1="22" y2="12" />`, opt)
+	return buildSVG(`<path d="M12 22V12" /> <path d="m16 17 2 2 4-4" /> <path d="M21 11.127V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.32-.753" /> <path d="M3.29 7 12 12l8.71-5" /> <path d="m7.5 4.27 8.997 5.148" />`, opt)
 }
 
 // PackageMinus renders the "package-minus" icon.
@@ -30484,7 +30547,7 @@ func PackageMinus(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 16h6" /> <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" /> <path d="m7.5 4.27 9 5.15" /> <polyline points="3.29 7 12 12 20.71 7" /> <line x1="12" x2="12" y1="22" y2="12" />`, opt)
+	return buildSVG(`<path d="M12 22V12" /> <path d="M16 17h6" /> <path d="M21 13V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955" /> <path d="M3.29 7 12 12l8.71-5" /> <path d="m7.5 4.27 8.997 5.148" />`, opt)
 }
 
 // PackageOpen renders the "package-open" icon.
@@ -30532,7 +30595,7 @@ func PackagePlus(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 16h6" /> <path d="M19 13v6" /> <path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" /> <path d="m7.5 4.27 9 5.15" /> <polyline points="3.29 7 12 12 20.71 7" /> <line x1="12" x2="12" y1="22" y2="12" />`, opt)
+	return buildSVG(`<path d="M12 22V12" /> <path d="M16 17h6" /> <path d="M19 14v6" /> <path d="M21 10.535V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955" /> <path d="M3.29 7 12 12l8.71-5" /> <path d="m7.5 4.27 8.997 5.148" />`, opt)
 }
 
 // PackageSearch renders the "package-search" icon.
@@ -30556,7 +30619,7 @@ func PackageSearch(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" /> <path d="m7.5 4.27 9 5.15" /> <polyline points="3.29 7 12 12 20.71 7" /> <line x1="12" x2="12" y1="22" y2="12" /> <circle cx="18.5" cy="15.5" r="2.5" /> <path d="M20.27 17.27 22 19" />`, opt)
+	return buildSVG(`<path d="M12 22V12" /> <path d="M20.27 18.27 22 20" /> <path d="M21 10.498V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l.98-.559" /> <path d="M3.29 7 12 12l8.71-5" /> <path d="m7.5 4.27 8.997 5.148" /> <circle cx="18.5" cy="16.5" r="2.5" />`, opt)
 }
 
 // PackageX renders the "package-x" icon.
@@ -30580,7 +30643,7 @@ func PackageX(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" /> <path d="m7.5 4.27 9 5.15" /> <polyline points="3.29 7 12 12 20.71 7" /> <line x1="12" x2="12" y1="22" y2="12" /> <path d="m17 13 5 5m-5 0 5-5" />`, opt)
+	return buildSVG(`<path d="M12 22V12" /> <path d="m16.5 14.5 5 5" /> <path d="m16.5 19.5 5-5" /> <path d="M21 10.5V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l.13-.074" /> <path d="M3.29 7 12 12l8.71-5" /> <path d="m7.5 4.27 8.997 5.148" />`, opt)
 }
 
 // PaintBucket renders the "paint-bucket" icon.
@@ -33412,7 +33475,7 @@ func Receipt(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /> <path d="M12 17.5v-11" />`, opt)
+	return buildSVG(`<path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" />`, opt)
 }
 
 // ReceiptCent renders the "receipt-cent" icon.
@@ -33436,7 +33499,7 @@ func ReceiptCent(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M12 6.5v11" /> <path d="M15 9.4a4 4 0 1 0 0 5.2" />`, opt)
+	return buildSVG(`<path d="M12 7v10" /> <path d="M14.828 14.829a4 4 0 0 1-5.656 0 4 4 0 0 1 0-5.657 4 4 0 0 1 5.656 0" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" />`, opt)
 }
 
 // ReceiptEuro renders the "receipt-euro" icon.
@@ -33460,7 +33523,7 @@ func ReceiptEuro(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M8 12h5" /> <path d="M16 9.5a4 4 0 1 0 0 5.2" />`, opt)
+	return buildSVG(`<path d="M15.828 14.829a4 4 0 0 1-5.656 0 4 4 0 0 1 0-5.657 4 4 0 0 1 5.656 0" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> <path d="M8 12h5" />`, opt)
 }
 
 // ReceiptIndianRupee renders the "receipt-indian-rupee" icon.
@@ -33484,7 +33547,7 @@ func ReceiptIndianRupee(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M8 7h8" /> <path d="M12 17.5 8 15h1a4 4 0 0 0 0-8" /> <path d="M8 11h8" />`, opt)
+	return buildSVG(`<path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> <path d="M8 11h8" /> <path d="M8 7h8" /> <path d="M9 7a4 4 0 0 1 0 8H8l3 2" />`, opt)
 }
 
 // ReceiptJapaneseYen renders the "receipt-japanese-yen" icon.
@@ -33508,7 +33571,7 @@ func ReceiptJapaneseYen(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="m12 10 3-3" /> <path d="m9 7 3 3v7.5" /> <path d="M9 11h6" /> <path d="M9 15h6" />`, opt)
+	return buildSVG(`<path d="m12 10 3-3" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> <path d="M9 11h6" /> <path d="M9 15h6" /> <path d="m9 7 3 3v7" />`, opt)
 }
 
 // ReceiptPoundSterling renders the "receipt-pound-sterling" icon.
@@ -33532,7 +33595,7 @@ func ReceiptPoundSterling(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M8 13h5" /> <path d="M10 17V9.5a2.5 2.5 0 0 1 5 0" /> <path d="M8 17h7" />`, opt)
+	return buildSVG(`<path d="M10 17V9.5a1 1 0 0 1 5 0" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> <path d="M8 13h5" /> <path d="M8 17h7" />`, opt)
 }
 
 // ReceiptRussianRuble renders the "receipt-russian-ruble" icon.
@@ -33556,7 +33619,7 @@ func ReceiptRussianRuble(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M8 15h5" /> <path d="M8 11h5a2 2 0 1 0 0-4h-3v10" />`, opt)
+	return buildSVG(`<path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> <path d="M8 11h5a2 2 0 0 0 0-4h-3v10" /> <path d="M8 15h5" />`, opt)
 }
 
 // ReceiptSwissFranc renders the "receipt-swiss-franc" icon.
@@ -33580,7 +33643,7 @@ func ReceiptSwissFranc(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z" /> <path d="M10 17V7h5" /> <path d="M10 11h4" /> <path d="M8 15h5" />`, opt)
+	return buildSVG(`<path d="M10 11h4" /> <path d="M10 17V7h5" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /> <path d="M8 15h5" />`, opt)
 }
 
 // ReceiptText renders the "receipt-text" icon.
@@ -33628,7 +33691,7 @@ func ReceiptTurkishLira(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 6.5v11a5.5 5.5 0 0 0 5.5-5.5" /> <path d="m14 8-6 3" /> <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1z" />`, opt)
+	return buildSVG(`<path d="M10 7v10a5 5 0 0 0 5-5" /> <path d="m14 8-6 3" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" />`, opt)
 }
 
 // RectangleCircle renders the "rectangle-circle" icon.
@@ -46793,6 +46856,318 @@ func ZapOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317" /> <path d="M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773" /> <path d="M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643" /> <path d="m2 2 20 20" />`, opt)
+}
+
+// ZodiacAquarius renders the "zodiac-aquarius" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-aquarius" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacAquarius()
+//	lucide.ZodiacAquarius(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacAquarius(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m2 10 2.456-3.684a.7.7 0 0 1 1.106-.013l2.39 3.413a.7.7 0 0 0 1.096-.001l2.402-3.432a.7.7 0 0 1 1.098 0l2.402 3.432a.7.7 0 0 0 1.098 0l2.389-3.413a.7.7 0 0 1 1.106.013L22 10" /> <path d="m2 18.002 2.456-3.684a.7.7 0 0 1 1.106-.013l2.39 3.413a.7.7 0 0 0 1.097 0l2.402-3.432a.7.7 0 0 1 1.098 0l2.402 3.432a.7.7 0 0 0 1.098 0l2.389-3.413a.7.7 0 0 1 1.106.013L22 18.002" />`, opt)
+}
+
+// ZodiacAries renders the "zodiac-aries" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-aries" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacAries()
+//	lucide.ZodiacAries(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacAries(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 7.5a4.5 4.5 0 1 1 5 4.5" /> <path d="M7 12a4.5 4.5 0 1 1 5-4.5V21" />`, opt)
+}
+
+// ZodiacCancer renders the "zodiac-cancer" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-cancer" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacCancer()
+//	lucide.ZodiacCancer(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacCancer(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 14.5A9 6.5 0 0 1 5.5 19" /> <path d="M3 9.5A9 6.5 0 0 1 18.5 5" /> <circle cx="17.5" cy="14.5" r="3.5" /> <circle cx="6.5" cy="9.5" r="3.5" />`, opt)
+}
+
+// ZodiacCapricorn renders the "zodiac-capricorn" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-capricorn" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacCapricorn()
+//	lucide.ZodiacCapricorn(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacCapricorn(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 21a3 3 0 0 0 3-3V6.5a1 1 0 0 0-7 0" /> <path d="M7 19V6a3 3 0 0 0-3-3h0" /> <circle cx="17" cy="17" r="3" />`, opt)
+}
+
+// ZodiacGemini renders the "zodiac-gemini" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-gemini" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacGemini()
+//	lucide.ZodiacGemini(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacGemini(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M16 4.525v14.948" /> <path d="M20 3A17 17 0 0 1 4 3" /> <path d="M4 21a17 17 0 0 1 16 0" /> <path d="M8 4.525v14.948" />`, opt)
+}
+
+// ZodiacLeo renders the "zodiac-leo" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-leo" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacLeo()
+//	lucide.ZodiacLeo(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacLeo(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 16c0-4-3-4.5-3-8a5 5 0 0 1 10 0c0 3.466-3 6.196-3 10a3 3 0 0 0 6 0" /> <circle cx="7" cy="16" r="3" />`, opt)
+}
+
+// ZodiacLibra renders the "zodiac-libra" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-libra" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacLibra()
+//	lucide.ZodiacLibra(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacLibra(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3 16h6.857c.162-.012.19-.323.038-.38a6 6 0 1 1 4.212 0c-.153.057-.125.368.038.38H21" /> <path d="M3 20h18" />`, opt)
+}
+
+// ZodiacOphiuchus renders the "zodiac-ophiuchus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-ophiuchus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacOphiuchus()
+//	lucide.ZodiacOphiuchus(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacOphiuchus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3 10A6.06 6.06 0 0 1 12 10 A6.06 6.06 0 0 0 21 10" /> <path d="M6 3v12a6 6 0 0 0 12 0V3" />`, opt)
+}
+
+// ZodiacPisces renders the "zodiac-pisces" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-pisces" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacPisces()
+//	lucide.ZodiacPisces(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacPisces(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M19 21a15 15 0 0 1 0-18" /> <path d="M20 12H4" /> <path d="M5 3a15 15 0 0 1 0 18" />`, opt)
+}
+
+// ZodiacSagittarius renders the "zodiac-sagittarius" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-sagittarius" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacSagittarius()
+//	lucide.ZodiacSagittarius(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacSagittarius(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 3h6v6" /> <path d="M21 3 3 21" /> <path d="m9 9 6 6" />`, opt)
+}
+
+// ZodiacScorpio renders the "zodiac-scorpio" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-scorpio" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacScorpio()
+//	lucide.ZodiacScorpio(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacScorpio(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 19V5.5a1 1 0 0 1 5 0V17a2 2 0 0 0 2 2h5l-3-3" /> <path d="m22 19-3 3" /> <path d="M5 19V5.5a1 1 0 0 1 5 0" /> <path d="M5 5.5A2.5 2.5 0 0 0 2.5 3" />`, opt)
+}
+
+// ZodiacTaurus renders the "zodiac-taurus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-taurus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacTaurus()
+//	lucide.ZodiacTaurus(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacTaurus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="15" r="6" /> <path d="M18 3A6 6 0 0 1 6 3" />`, opt)
+}
+
+// ZodiacVirgo renders the "zodiac-virgo" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "zodiac-virgo" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ZodiacVirgo()
+//	lucide.ZodiacVirgo(lucide.Options{Size: 32, Class: "my-icon"})
+func ZodiacVirgo(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 5.5a1 1 0 0 1 5 0V16a5 5 0 0 0 5 5" /> <path d="M16 11.5a1 1 0 0 1 5 0V16a5 5 0 0 1-5 5" /> <path d="M6 19V6a3 3 0 0 0-3-3h0" /> <path d="M6 5.5a1 1 0 0 1 5 0V19" />`, opt)
 }
 
 // ZoomIn renders the "zoom-in" icon.
