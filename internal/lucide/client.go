@@ -71,6 +71,22 @@ func (r *Release) FindIconsAsset() (*github.ReleaseAsset, error) {
 	return nil, fmt.Errorf("icons asset not found in release %s", r.TagName)
 }
 
+// GetReleaseByTag fetches a specific release by its tag name.
+func (c *Client) GetReleaseByTag(ctx context.Context, tag string) (*Release, error) {
+	release, _, err := c.gh.Repositories.GetReleaseByTag(ctx, lucideOwner, lucideRepo, tag)
+	if err != nil {
+		return nil, fmt.Errorf("failed to fetch release for tag %s: %w", tag, err)
+	}
+
+	return &Release{
+		TagName: release.GetTagName(),
+		Name:    release.GetName(),
+		URL:     release.GetHTMLURL(),
+		Body:    release.GetBody(),
+		Assets:  release.Assets,
+	}, nil
+}
+
 // GetSourceArchiveURL returns the URL for downloading the source tarball of a given tag.
 func (c *Client) GetSourceArchiveURL(ctx context.Context, tag string) (*url.URL, error) {
 	archiveURL, _, err := c.gh.Repositories.GetArchiveLink(
