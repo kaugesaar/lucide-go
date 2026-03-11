@@ -9,28 +9,41 @@ import (
 	"strings"
 )
 
-// GetNextVersion determines the next minor version by reading git tags.
+// GetNextVersion determines the next minor version by reading git tags,
+// falling back to the changelog if tags are unavailable (e.g. shallow clones in CI).
 // Returns the next version in format "v0.5.0".
 func GetNextVersion() (string, error) {
+	currentVersion := ""
+
 	cmd := exec.Command("git", "describe", "--tags", "--abbrev=0")
 	output, err := cmd.Output()
-	if err != nil {
-		return "v0.1.0", nil
+	if err == nil {
+		currentVersion = strings.TrimSpace(string(output))
 	}
 
-	currentVersion := strings.TrimSpace(string(output))
+	if currentVersion == "" {
+		mgr := New("")
+		v, err := mgr.GetLatestVersion()
+		if err != nil {
+			return "", fmt.Errorf("failed to determine current version: no git tags and %w", err)
+		}
+		currentVersion = v
+	}
 
+	return bumpMinor(currentVersion), nil
+}
+
+func bumpMinor(version string) string {
 	re := regexp.MustCompile(`^v(\d+)\.(\d+)\.(\d+)$`)
-	matches := re.FindStringSubmatch(currentVersion)
+	matches := re.FindStringSubmatch(version)
 	if len(matches) != 4 {
-		return "", fmt.Errorf("invalid version format: %s", currentVersion)
+		return ""
 	}
 
 	major, _ := strconv.Atoi(matches[1])
 	minor, _ := strconv.Atoi(matches[2])
 
-	nextVersion := fmt.Sprintf("v%d.%d.0", major, minor+1)
-	return nextVersion, nil
+	return fmt.Sprintf("v%d.%d.0", major, minor+1)
 }
 
 // GetLatestVersion parses the topmost version from the changelog.
