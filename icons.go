@@ -233,6 +233,7 @@ func init() {
 	registerIcon("bookmark", Bookmark)
 	registerIcon("bookmark-check", BookmarkCheck)
 	registerIcon("bookmark-minus", BookmarkMinus)
+	registerIcon("bookmark-off", BookmarkOff)
 	registerIcon("bookmark-plus", BookmarkPlus)
 	registerIcon("bookmark-x", BookmarkX)
 	registerIcon("boom-box", BoomBox)
@@ -1598,6 +1599,9 @@ func init() {
 	registerIcon("kanban-square-dashed", KanbanSquareDashed)
 	registerIcon("square-dashed-mouse-pointer", SquareDashedMousePointer)
 	registerIcon("mouse-pointer-square-dashed", MousePointerSquareDashed)
+	registerIcon("square-dashed-text", SquareDashedText)
+	registerIcon("text-selection", TextSelection)
+	registerIcon("text-select", TextSelect)
 	registerIcon("square-dashed-top-solid", SquareDashedTopSolid)
 	registerIcon("square-divide", SquareDivide)
 	registerIcon("divide-square", DivideSquare)
@@ -1743,8 +1747,6 @@ func init() {
 	registerIcon("letter-text", LetterText)
 	registerIcon("text-quote", TextQuote)
 	registerIcon("text-search", TextSearch)
-	registerIcon("text-select", TextSelect)
-	registerIcon("text-selection", TextSelection)
 	registerIcon("text-wrap", TextWrap)
 	registerIcon("wrap-text", WrapText)
 	registerIcon("theater", Theater)
@@ -7324,6 +7326,30 @@ func BookmarkMinus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M15 10H9" /> <path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z" />`, opt)
+}
+
+// BookmarkOff renders the "bookmark-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bookmark-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BookmarkOff()
+//	lucide.BookmarkOff(lucide.Options{Size: 32, Class: "my-icon"})
+func BookmarkOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M19 19v1a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5" /> <path d="m2 2 20 20" /> <path d="M8.656 3H17a2 2 0 0 1 2 2v8.344" />`, opt)
 }
 
 // BookmarkPlus renders the "bookmark-plus" icon.
@@ -33087,7 +33113,7 @@ func RadioOff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10.4103 10.7852C10.1529 11.1218 10 11.5425 10 11.999C10 13.1036 10.8954 13.999 12 13.999C12.5077 13.999 12.9713 13.8098 13.324 13.498" /> <path d="M16.1992 7.80078C17.4739 9.07549 18.0422 10.8109 17.9039 12.5134" /> <path d="M19.0996 4.89844C22.0892 7.88804 22.7871 12.2879 21.1932 15.936" /> <path d="M2 2L22 22" /> <path d="M4.89961 19.0984C0.999609 15.1984 0.999609 8.79844 4.89961 4.89844" /> <path d="M7.79922 16.1992C5.66828 14.0683 5.51165 10.6498 7.32931 8.25" />`, opt)
+	return buildSVG(`<path d="M13.414 13.414a2 2 0 1 1-2.828-2.828" /> <path d="M16.247 7.761a6 6 0 0 1 1.744 4.572" /> <path d="M19.075 4.933a10 10 0 0 1 2.234 10.72" /> <path d="m2 2 20 20" /> <path d="M4.925 19.067a10 10 0 0 1 0-14.134" /> <path d="M7.753 16.239a6 6 0 0 1 0-8.478" />`, opt)
 }
 
 // RadioReceiver renders the "radio-receiver" icon.
@@ -39048,6 +39074,66 @@ func MousePointerSquareDashed(opts ...Options) template.HTML {
 	return SquareDashedMousePointer(opts...)
 }
 
+// SquareDashedText renders the "square-dashed-text" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-dashed-text" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareDashedText()
+//	lucide.SquareDashedText(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareDashedText(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 21h1" /> <path d="M14 3h1" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M21 14v1" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M3 9v1" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M5 3a2 2 0 0 0-2 2" /> <path d="M7 12h10" /> <path d="M7 16h6" /> <path d="M7 8h8" /> <path d="M9 21h1" /> <path d="M9 3h1" />`, opt)
+}
+
+// TextSelection is an alias for SquareDashedText.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDashedText instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "text-selection" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TextSelection()
+//	lucide.TextSelection(lucide.Options{Size: 32, Class: "my-icon"})
+func TextSelection(opts ...Options) template.HTML {
+	return SquareDashedText(opts...)
+}
+
+// TextSelect is an alias for SquareDashedText.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareDashedText instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "text-select" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TextSelect()
+//	lucide.TextSelect(lucide.Options{Size: 32, Class: "my-icon"})
+func TextSelect(opts ...Options) template.HTML {
+	return SquareDashedText(opts...)
+}
+
 // SquareDashedTopSolid renders the "square-dashed-top-solid" icon.
 //
 // Usage in templates:
@@ -42304,48 +42390,6 @@ func TextSearch(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 5H3" /> <path d="M10 12H3" /> <path d="M10 19H3" /> <circle cx="17" cy="15" r="3" /> <path d="m21 19-1.9-1.9" />`, opt)
-}
-
-// TextSelect renders the "text-select" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "text-select" }}
-//
-// Direct usage in Go:
-//
-//	lucide.TextSelect()
-//	lucide.TextSelect(lucide.Options{Size: 32, Class: "my-icon"})
-func TextSelect(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M14 21h1" /> <path d="M14 3h1" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M21 14v1" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M3 9v1" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M5 3a2 2 0 0 0-2 2" /> <path d="M7 12h10" /> <path d="M7 16h6" /> <path d="M7 8h8" /> <path d="M9 21h1" /> <path d="M9 3h1" />`, opt)
-}
-
-// TextSelection is an alias for TextSelect.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use TextSelect instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "text-selection" }}
-//
-// Direct usage in Go:
-//
-//	lucide.TextSelection()
-//	lucide.TextSelection(lucide.Options{Size: 32, Class: "my-icon"})
-func TextSelection(opts ...Options) template.HTML {
-	return TextSelect(opts...)
 }
 
 // TextWrap renders the "text-wrap" icon.
