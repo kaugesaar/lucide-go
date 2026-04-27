@@ -172,6 +172,7 @@ func init() {
 	registerIcon("beer", Beer)
 	registerIcon("beer-off", BeerOff)
 	registerIcon("bell", Bell)
+	registerIcon("bell-check", BellCheck)
 	registerIcon("bell-dot", BellDot)
 	registerIcon("bell-electric", BellElectric)
 	registerIcon("bell-minus", BellMinus)
@@ -919,6 +920,7 @@ func init() {
 	registerIcon("heart-off", HeartOff)
 	registerIcon("heart-plus", HeartPlus)
 	registerIcon("heart-pulse", HeartPulse)
+	registerIcon("heart-x", HeartX)
 	registerIcon("heater", Heater)
 	registerIcon("helicopter", Helicopter)
 	registerIcon("hexagon", Hexagon)
@@ -988,6 +990,7 @@ func init() {
 	registerIcon("layers", Layers)
 	registerIcon("layers-3", Layers3)
 	registerIcon("layers-2", Layers2)
+	registerIcon("layers-minus", LayersMinus)
 	registerIcon("layers-plus", LayersPlus)
 	registerIcon("layout-dashboard", LayoutDashboard)
 	registerIcon("layout-grid", LayoutGrid)
@@ -1764,6 +1767,7 @@ func init() {
 	registerIcon("ticket-x", TicketX)
 	registerIcon("tickets", Tickets)
 	registerIcon("tickets-plane", TicketsPlane)
+	registerIcon("timeline", Timeline)
 	registerIcon("timer", Timer)
 	registerIcon("timer-off", TimerOff)
 	registerIcon("timer-reset", TimerReset)
@@ -5880,6 +5884,30 @@ func Bell(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.268 21a2 2 0 0 0 3.464 0" /> <path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" />`, opt)
+}
+
+// BellCheck renders the "bell-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bell-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BellCheck()
+//	lucide.BellCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func BellCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10.268 21a2 2 0 0 0 3.464 0" /> <path d="m15 8 2 2 4-4" /> <path d="M16.8607 4.4824A6 6 0 0 0 6 8C6 12.499 4.589 13.956 3.262 15.326" /> <path d="M3.262 15.326A1 1 0 0 0 4 17H20A1 1 0 0 0 20.74 15.327C20.209 14.779 19.665 14.218 19.203 13.454" />`, opt)
 }
 
 // BellDot renders the "bell-dot" icon.
@@ -23180,6 +23208,30 @@ func HeartPulse(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" /> <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />`, opt)
 }
 
+// HeartX renders the "heart-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "heart-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HeartX()
+//	lucide.HeartX(lucide.Options{Size: 32, Class: "my-icon"})
+func HeartX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15.5 12.5 5 5" /> <path d="m20.5 12.5-5 5" /> <path d="M21.955 8.774a5.5 5.5 0 0 0-9.546-2.95.6.6 0 0 1-.818 0A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.508 5.332a2 2 0 0 0 2.57.352" />`, opt)
+}
+
 // Heater renders the "heater" icon.
 //
 // Usage in templates:
@@ -24804,6 +24856,30 @@ func Layers2(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 13.74a2 2 0 0 1-2 0L2.5 8.87a1 1 0 0 1 0-1.74L11 2.26a2 2 0 0 1 2 0l8.5 4.87a1 1 0 0 1 0 1.74z" /> <path d="m20 14.285 1.5.845a1 1 0 0 1 0 1.74L13 21.74a2 2 0 0 1-2 0l-8.5-4.87a1 1 0 0 1 0-1.74l1.5-.845" />`, opt)
+}
+
+// LayersMinus renders the "layers-minus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "layers-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LayersMinus()
+//	lucide.LayersMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func LayersMinus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 .83.18 2 2 0 0 0 .83-.18l8.58-3.9a1 1 0 0 0 0-1.832z" /> <path d="M16 17h6" /> <path d="M2.003 11.995a1 1 0 0 0 .597.915l8.58 3.91a2 2 0 0 0 .83.18" /> <path d="M2.003 16.995a1 1 0 0 0 .597.915l8.58 3.91a2 2 0 0 0 .83.18 2 2 0 0 0 .83-.18l2.11-.96" /> <path d="M22.018 12.004a1 1 0 0 1-.598.916l-.177.08" />`, opt)
 }
 
 // LayersPlus renders the "layers-plus" icon.
@@ -34259,7 +34335,7 @@ func Rotate3d(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16.466 7.5C15.643 4.237 13.952 2 12 2 9.239 2 7 6.477 7 12s2.239 10 5 10c.342 0 .677-.069 1-.2" /> <path d="m15.194 13.707 3.814 1.86-1.86 3.814" /> <path d="M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4" />`, opt)
+	return buildSVG(`<path d="m15.194 13.707 3.814 1.86-1.86 3.814" /> <path d="M16.47214 7.52786 A 5 10 0 1 0 13 21.79796" /> <path d="M21.79796 11 A 10 5 0 1 0 19 15.57071" />`, opt)
 }
 
 // Rotate3D is an alias for Rotate3d.
@@ -42792,6 +42868,30 @@ func TicketsPlane(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12" /> <path d="m12 13.5 3.794.506" /> <path d="m3.173 8.18 11-5a2 2 0 0 1 2.647.993L18.56 8" /> <path d="M6 10V8" /> <path d="M6 14v1" /> <path d="M6 19v2" /> <rect x="2" y="8" width="20" height="13" rx="2" />`, opt)
+}
+
+// Timeline renders the "timeline" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "timeline" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Timeline()
+//	lucide.Timeline(lucide.Options{Size: 32, Class: "my-icon"})
+func Timeline(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 12h.01" /> <path d="M4 16h.01" /> <path d="M4 20h.01" /> <path d="M4 4h.01" /> <path d="M4 8h.01" /> <path d="M9.414 13.414a2 2 0 0 0 1.414.586H19a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 12z" /> <path d="M9.414 21.414a2 2 0 0 0 1.414.586H19a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 20z" /> <path d="M9.414 5.414A2 2 0 0 0 10.828 6H19a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 4z" />`, opt)
 }
 
 // Timer renders the "timer" icon.
