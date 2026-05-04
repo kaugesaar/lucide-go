@@ -111,6 +111,7 @@ func init() {
 	registerIcon("arrow-up-za", ArrowUpZa)
 	registerIcon("arrows-up-from-line", ArrowsUpFromLine)
 	registerIcon("asterisk", Asterisk)
+	registerIcon("astroid", Astroid)
 	registerIcon("at-sign", AtSign)
 	registerIcon("atom", Atom)
 	registerIcon("audio-lines", AudioLines)
@@ -776,6 +777,7 @@ func init() {
 	registerIcon("fold-vertical", FoldVertical)
 	registerIcon("folder", Folder)
 	registerIcon("folder-archive", FolderArchive)
+	registerIcon("folder-bookmark", FolderBookmark)
 	registerIcon("folder-check", FolderCheck)
 	registerIcon("folder-clock", FolderClock)
 	registerIcon("folder-closed", FolderClosed)
@@ -1380,6 +1382,7 @@ func init() {
 	registerIcon("repeat", Repeat)
 	registerIcon("repeat-1", Repeat1)
 	registerIcon("repeat-2", Repeat2)
+	registerIcon("repeat-off", RepeatOff)
 	registerIcon("replace", Replace)
 	registerIcon("replace-all", ReplaceAll)
 	registerIcon("reply", Reply)
@@ -1901,10 +1904,12 @@ func init() {
 	registerIcon("warehouse", Warehouse)
 	registerIcon("washing-machine", WashingMachine)
 	registerIcon("watch", Watch)
-	registerIcon("waves", Waves)
 	registerIcon("waves-arrow-down", WavesArrowDown)
 	registerIcon("waves-arrow-up", WavesArrowUp)
+	registerIcon("waves-horizontal", WavesHorizontal)
+	registerIcon("waves", Waves)
 	registerIcon("waves-ladder", WavesLadder)
+	registerIcon("waves-vertical", WavesVertical)
 	registerIcon("waypoints", Waypoints)
 	registerIcon("webcam", Webcam)
 	registerIcon("webhook", Webhook)
@@ -4438,6 +4443,30 @@ func Asterisk(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 6v12" /> <path d="M17.196 9 6.804 15" /> <path d="m6.804 9 10.392 6" />`, opt)
+}
+
+// Astroid renders the "astroid" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "astroid" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Astroid()
+//	lucide.Astroid(lucide.Options{Size: 32, Class: "my-icon"})
+func Astroid(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.983 21.186a1 1 0 0 1-1.966 0 10 10 0 0 0-8.203-8.203 1 1 0 0 1 0-1.966 10 10 0 0 0 8.203-8.203 1 1 0 0 1 1.966 0 10 10 0 0 0 8.203 8.203 1 1 0 0 1 0 1.966 10 10 0 0 0-8.203 8.203" />`, opt)
 }
 
 // AtSign renders the "at-sign" icon.
@@ -19830,6 +19859,30 @@ func FolderArchive(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="15" cy="19" r="2" /> <path d="M20.9 19.8A2 2 0 0 0 22 18V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h5.1" /> <path d="M15 11v-1" /> <path d="M15 17v-2" />`, opt)
 }
 
+// FolderBookmark renders the "folder-bookmark" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "folder-bookmark" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FolderBookmark()
+//	lucide.FolderBookmark(lucide.Options{Size: 32, Class: "my-icon"})
+func FolderBookmark(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 6v8l3-3 3 3V6" /> <path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z" />`, opt)
+}
+
 // FolderCheck renders the "folder-check" icon.
 //
 // Usage in templates:
@@ -34050,6 +34103,30 @@ func Repeat2(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m2 9 3-3 3 3" /> <path d="M13 18H7a2 2 0 0 1-2-2V6" /> <path d="m22 15-3 3-3-3" /> <path d="M11 6h6a2 2 0 0 1 2 2v10" />`, opt)
 }
 
+// RepeatOff renders the "repeat-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "repeat-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.RepeatOff()
+//	lucide.RepeatOff(lucide.Options{Size: 32, Class: "my-icon"})
+func RepeatOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11.656 6H21l-4-4" /> <path d="M17.898 17.898A4 4 0 0 1 17 18H3l4-4" /> <path d="m2 2 20 20" /> <path d="M21 13v1a4 4 0 0 1-.171 1.159" /> <path d="m21 6-4 4" /> <path d="M3 11v-1a4 4 0 0 1 3.102-3.898" /> <path d="m7 22-4-4" />`, opt)
+}
+
 // Replace renders the "replace" icon.
 //
 // Usage in templates:
@@ -45990,30 +46067,6 @@ func Watch(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 10v2.2l1.6 1" /> <path d="m16.13 7.66-.81-4.05a2 2 0 0 0-2-1.61h-2.68a2 2 0 0 0-2 1.61l-.78 4.05" /> <path d="m7.88 16.36.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05" /> <circle cx="12" cy="12" r="6" />`, opt)
 }
 
-// Waves renders the "waves" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "waves" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Waves()
-//	lucide.Waves(lucide.Options{Size: 32, Class: "my-icon"})
-func Waves(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />`, opt)
-}
-
 // WavesArrowDown renders the "waves-arrow-down" icon.
 //
 // Usage in templates:
@@ -46062,6 +46115,48 @@ func WavesArrowUp(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 2v8" /> <path d="M2 15c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="m8 6 4-4 4 4" />`, opt)
 }
 
+// WavesHorizontal renders the "waves-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "waves-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WavesHorizontal()
+//	lucide.WavesHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func WavesHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M2 12q2.5 2 5 0t5 0 5 0 5 0" /> <path d="M2 19q2.5 2 5 0t5 0 5 0 5 0" /> <path d="M2 5q2.5 2 5 0t5 0 5 0 5 0" />`, opt)
+}
+
+// Waves is an alias for WavesHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use WavesHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "waves" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Waves()
+//	lucide.Waves(lucide.Options{Size: 32, Class: "my-icon"})
+func Waves(opts ...Options) template.HTML {
+	return WavesHorizontal(opts...)
+}
+
 // WavesLadder renders the "waves-ladder" icon.
 //
 // Usage in templates:
@@ -46084,6 +46179,30 @@ func WavesLadder(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M19 5a2 2 0 0 0-2 2v11" /> <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" /> <path d="M7 13h10" /> <path d="M7 9h10" /> <path d="M9 5a2 2 0 0 0-2 2v11" />`, opt)
+}
+
+// WavesVertical renders the "waves-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "waves-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WavesVertical()
+//	lucide.WavesVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func WavesVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2q2 2.5 0 5t0 5 0 5 0 5" /> <path d="M19 2q2 2.5 0 5t0 5 0 5 0 5" /> <path d="M5 2q2 2.5 0 5t0 5 0 5 0 5" />`, opt)
 }
 
 // Waypoints renders the "waypoints" icon.
