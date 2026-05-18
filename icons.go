@@ -195,6 +195,7 @@ func init() {
 	registerIcon("birdhouse", Birdhouse)
 	registerIcon("bitcoin", Bitcoin)
 	registerIcon("blend", Blend)
+	registerIcon("blender", Blender)
 	registerIcon("blinds", Blinds)
 	registerIcon("blocks", Blocks)
 	registerIcon("bluetooth", Bluetooth)
@@ -260,6 +261,7 @@ func init() {
 	registerIcon("briefcase-conveyor-belt", BriefcaseConveyorBelt)
 	registerIcon("briefcase-medical", BriefcaseMedical)
 	registerIcon("bring-to-front", BringToFront)
+	registerIcon("broccoli", Broccoli)
 	registerIcon("brush", Brush)
 	registerIcon("brush-cleaning", BrushCleaning)
 	registerIcon("bubbles", Bubbles)
@@ -1690,6 +1692,12 @@ func init() {
 	registerIcon("stethoscope", Stethoscope)
 	registerIcon("sticker", Sticker)
 	registerIcon("sticky-note", StickyNote)
+	registerIcon("sticky-note-check", StickyNoteCheck)
+	registerIcon("sticky-note-minus", StickyNoteMinus)
+	registerIcon("sticky-note-off", StickyNoteOff)
+	registerIcon("sticky-note-plus", StickyNotePlus)
+	registerIcon("sticky-note-x", StickyNoteX)
+	registerIcon("sticky-notes", StickyNotes)
 	registerIcon("stone", Stone)
 	registerIcon("store", Store)
 	registerIcon("stretch-horizontal", StretchHorizontal)
@@ -6431,6 +6439,30 @@ func Blend(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="9" cy="9" r="7" /> <circle cx="15" cy="15" r="7" />`, opt)
 }
 
+// Blender renders the "blender" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "blender" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Blender()
+//	lucide.Blender(lucide.Options{Size: 32, Class: "my-icon"})
+func Blender(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M8 14a2 2 0 0 0-1.963 1.615l-1.018 5.193A1 1 0 0 0 6 22h12a1 1 0 0 0 .981-1.192l-1.018-5.193A2 2 0 0 0 16 14z" /> <path d="m17 2-1 12" /> <path d="M8.006 14 7 2" /> <path d="M7.565 8.787A5 5 0 0 0 12 8a5 5 0 0 1 4.56-.75" /> <path d="M19 2H5a2 2 0 0 0-2 2v5a2 2 0 0 0 .688 1.5" /> <path d="M12 18h.01" />`, opt)
+}
+
 // Blinds renders the "blinds" icon.
 //
 // Usage in templates:
@@ -7979,6 +8011,30 @@ func BringToFront(opts ...Options) template.HTML {
 	return buildSVG(`<rect x="8" y="8" width="8" height="8" rx="2" /> <path d="M4 10a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2" /> <path d="M14 20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2" />`, opt)
 }
 
+// Broccoli renders the "broccoli" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "broccoli" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Broccoli()
+//	lucide.Broccoli(lucide.Options{Size: 32, Class: "my-icon"})
+func Broccoli(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 13a3 3 0 0 1-2.121-5.121" /> <path d="M15.606 14.204c-3.5 1.5-5.899 4.503-8.899 7.503A1 1 0 0 1 6 22c-2 0-4-2-4-4a1 1 0 0 1 .293-.707c1.911-1.911 3.823-3.578 5.347-5.441" /> <path d="M16.573 14.737A4 4 0 0 1 14 11" /> <path d="M7.14 10.907a4 4 0 1 1 2.756-7.43A4 4 0 0 1 16.7 4.48a2 2 0 0 1 2.82 2.82 4 4 0 0 1 1.002 6.805A4 4 0 1 1 13 16" />`, opt)
+}
+
 // Brush renders the "brush" icon.
 //
 // Usage in templates:
@@ -8960,7 +9016,7 @@ func CandyCane(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M5.7 21a2 2 0 0 1-3.5-2l8.6-14a6 6 0 0 1 10.4 6 2 2 0 1 1-3.464-2 2 2 0 1 0-3.464-2Z" /> <path d="M17.75 7 15 2.1" /> <path d="M10.9 4.8 13 9" /> <path d="m7.9 9.7 2 4.4" /> <path d="M4.9 14.7 7 18.9" />`, opt)
+	return buildSVG(`<path d="m10.8 5 2.111 4.223" /> <path d="M17.75 7 15 2.1" /> <path d="m4.874 14.647 2.12 4.24" /> <path d="M5.7 21a2 2 0 0 1-3.5-2l8.6-14a6 6 0 0 1 10.4 6 2 2 0 1 1-3.464-2 2 2 0 1 0-3.464-2z" /> <path d="m7.906 9.712 2.005 4.411" />`, opt)
 }
 
 // CandyOff renders the "candy-off" icon.
@@ -10094,7 +10150,7 @@ func ChartNoAxesCombined(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 16v5" /> <path d="M16 14v7" /> <path d="M20 10v11" /> <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15" /> <path d="M4 18v3" /> <path d="M8 14v7" />`, opt)
+	return buildSVG(`<path d="M12 16v5" /> <path d="M16 14.639V21" /> <path d="M20 10.656V21" /> <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15" /> <path d="M4 18.463V21" /> <path d="M8 14.656V21" />`, opt)
 }
 
 // ChartNoAxesGantt renders the "chart-no-axes-gantt" icon.
@@ -24656,7 +24712,7 @@ func Landmark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 18v-7" /> <path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" />`, opt)
+	return buildSVG(`<path d="M10 18v-7" /> <path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z" /> <path d="M14 18v-7" /> <path d="M18 18v-7" /> <path d="M3 22h18" /> <path d="M6 18v-7" />`, opt)
 }
 
 // Languages renders the "languages" icon.
@@ -41075,6 +41131,150 @@ func StickyNote(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2z" /> <path d="M15 3v5a1 1 0 0 0 1 1h5" />`, opt)
 }
 
+// StickyNoteCheck renders the "sticky-note-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sticky-note-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StickyNoteCheck()
+//	lucide.StickyNoteCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func StickyNoteCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15 19 2 2 4-4" /> <path d="M15 3v5a1 1 0 0 0 1 1h5" /> <path d="M21 13V9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6.5" />`, opt)
+}
+
+// StickyNoteMinus renders the "sticky-note-minus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sticky-note-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StickyNoteMinus()
+//	lucide.StickyNoteMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func StickyNoteMinus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 3v5a1 1 0 0 0 1 1h5" /> <path d="M21 14V9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.35" /> <path d="M21 18h-6" />`, opt)
+}
+
+// StickyNoteOff renders the "sticky-note-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sticky-note-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StickyNoteOff()
+//	lucide.StickyNoteOff(lucide.Options{Size: 32, Class: "my-icon"})
+func StickyNoteOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 3v5a1 1 0 0 0 1 1h5" /> <path d="m2 2 20 20" /> <path d="M3.586 3.586A2 2 0 0 0 3 5v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.414-.586" /> <path d="M8.656 3H15a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 21 9v6.344" />`, opt)
+}
+
+// StickyNotePlus renders the "sticky-note-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sticky-note-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StickyNotePlus()
+//	lucide.StickyNotePlus(lucide.Options{Size: 32, Class: "my-icon"})
+func StickyNotePlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 3v5a1 1 0 0 0 1 1h5" /> <path d="M18 15v6" /> <path d="M21 12.356V9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.355" /> <path d="M21 18h-6" />`, opt)
+}
+
+// StickyNoteX renders the "sticky-note-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sticky-note-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StickyNoteX()
+//	lucide.StickyNoteX(lucide.Options{Size: 32, Class: "my-icon"})
+func StickyNoteX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 3v5a1 1 0 0 0 1 1h5" /> <path d="m16 16 5 5" /> <path d="M21 12V9a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 15 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7" /> <path d="m21 16-5 5" />`, opt)
+}
+
+// StickyNotes renders the "sticky-notes" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sticky-notes" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StickyNotes()
+//	lucide.StickyNotes(lucide.Options{Size: 32, Class: "my-icon"})
+func StickyNotes(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 16 14v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2z" /> <path d="M10 8v5a1 1 0 0 0 1 1h5" /> <path d="M8 4a2 2 0 0 1 2-2h6a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 22 8v6a2 2 0 0 1-2 2" /> <path d="M16 2v5a1 1 0 0 0 1 1h5" />`, opt)
+}
+
 // Stone renders the "stone" icon.
 //
 // Usage in templates:
@@ -42428,7 +42628,7 @@ func TextCursor(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1" /> <path d="M7 22h1a4 4 0 0 0 4-4v-1" /> <path d="M7 2h1a4 4 0 0 1 4 4v1" />`, opt)
+	return buildSVG(`<path d="M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1" /> <path d="M7 22h1a4 4 0 0 0 4-4" /> <path d="M7 2h1a4 4 0 0 1 4 4" />`, opt)
 }
 
 // TextCursorInput renders the "text-cursor-input" icon.
@@ -45668,7 +45868,7 @@ func Volleyball(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M11.1 7.1a16.55 16.55 0 0 1 10.9 4" /> <path d="M12 12a12.6 12.6 0 0 1-8.7 5" /> <path d="M16.8 13.6a16.55 16.55 0 0 1-9 7.5" /> <path d="M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10" /> <path d="M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5" /> <circle cx="12" cy="12" r="10" />`, opt)
+	return buildSVG(`<path d="M11 7a16 16 20 0 1 10.98 4.362" /> <path d="M12 12a13 13 0 0 1-8.66 5" /> <path d="M16.83 13.634a16 16 0 0 1-9.267 7.328" /> <path d="M20.66 17A13 13 0 0 0 12 12a13 13 0 0 1 0-10" /> <path d="M8.17 15.366a16 16 0 0 1-1.713-11.69" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
 // Volume renders the "volume" icon.
