@@ -859,6 +859,7 @@ func init() {
 	registerIcon("glass-water", GlassWater)
 	registerIcon("glasses", Glasses)
 	registerIcon("globe", Globe)
+	registerIcon("globe-check", GlobeCheck)
 	registerIcon("globe-lock", GlobeLock)
 	registerIcon("globe-off", GlobeOff)
 	registerIcon("globe-x", GlobeX)
@@ -1272,6 +1273,7 @@ func init() {
 	registerIcon("panels-top-left", PanelsTopLeft)
 	registerIcon("layout", Layout)
 	registerIcon("paperclip", Paperclip)
+	registerIcon("parasol", Parasol)
 	registerIcon("parentheses", Parentheses)
 	registerIcon("parking-meter", ParkingMeter)
 	registerIcon("party-popper", PartyPopper)
@@ -21805,6 +21807,30 @@ func Globe(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" />`, opt)
 }
 
+// GlobeCheck renders the "globe-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "globe-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GlobeCheck()
+//	lucide.GlobeCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func GlobeCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15 6 2 2 4-4" /> <path d="M2 12h20A10 10 0 1 1 12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 4-10" />`, opt)
+}
+
 // GlobeLock renders the "globe-lock" icon.
 //
 // Usage in templates:
@@ -27358,7 +27384,7 @@ func Martini(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 22h8" /> <path d="M12 11v11" /> <path d="m19 3-7 8-7-8Z" />`, opt)
+	return buildSVG(`<path d="M12 12 4.207 4.207A.707.707 0 0 1 4.707 3h14.586a.707.707 0 0 1 .5 1.207z" /> <path d="M12 12v10" /> <path d="M7 22h10" />`, opt)
 }
 
 // Maximize renders the "maximize" icon.
@@ -31493,6 +31519,30 @@ func Paperclip(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551" />`, opt)
+}
+
+// Parasol renders the "parasol" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "parasol" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Parasol()
+//	lucide.Parasol(lucide.Options{Size: 32, Class: "my-icon"})
+func Parasol(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.5 11.134 18.196 21" /> <path d="M20.425 5.299a10 10 0 0 0-16.941 9.78c.183.563.843.774 1.355.478L20.16 6.711c.512-.296.66-.973.264-1.413" /> <path d="M21 21H3" />`, opt)
 }
 
 // Parentheses renders the "parentheses" icon.
