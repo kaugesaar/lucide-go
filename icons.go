@@ -10,6 +10,7 @@ func init() {
 	registerIcon("a-large-small", ALargeSmall)
 	registerIcon("accessibility", Accessibility)
 	registerIcon("activity", Activity)
+	registerIcon("ad", Ad)
 	registerIcon("air-vent", AirVent)
 	registerIcon("airplay", Airplay)
 	registerIcon("alarm-clock", AlarmClock)
@@ -660,6 +661,7 @@ func init() {
 	registerIcon("external-link", ExternalLink)
 	registerIcon("eye", Eye)
 	registerIcon("eye-closed", EyeClosed)
+	registerIcon("eye-dashed", EyeDashed)
 	registerIcon("eye-off", EyeOff)
 	registerIcon("factory", Factory)
 	registerIcon("fan", Fan)
@@ -1040,6 +1042,8 @@ func init() {
 	registerIcon("list-ordered", ListOrdered)
 	registerIcon("list-plus", ListPlus)
 	registerIcon("list-restart", ListRestart)
+	registerIcon("list-sort-ascending", ListSortAscending)
+	registerIcon("list-sort-descending", ListSortDescending)
 	registerIcon("list-start", ListStart)
 	registerIcon("list-todo", ListTodo)
 	registerIcon("list-tree", ListTree)
@@ -1320,6 +1324,7 @@ func init() {
 	registerIcon("plane-landing", PlaneLanding)
 	registerIcon("plane-takeoff", PlaneTakeoff)
 	registerIcon("play", Play)
+	registerIcon("play-off", PlayOff)
 	registerIcon("plug", Plug)
 	registerIcon("plug-2", Plug2)
 	registerIcon("plug-zap", PlugZap)
@@ -1327,6 +1332,7 @@ func init() {
 	registerIcon("plus", Plus)
 	registerIcon("pocket-knife", PocketKnife)
 	registerIcon("podcast", Podcast)
+	registerIcon("podium", Podium)
 	registerIcon("pointer", Pointer)
 	registerIcon("pointer-off", PointerOff)
 	registerIcon("popcorn", Popcorn)
@@ -1426,6 +1432,8 @@ func init() {
 	registerIcon("save", Save)
 	registerIcon("save-all", SaveAll)
 	registerIcon("save-off", SaveOff)
+	registerIcon("save-pen", SavePen)
+	registerIcon("save-plus", SavePlus)
 	registerIcon("scale", Scale)
 	registerIcon("scale-3d", Scale3d)
 	registerIcon("scale-3-d", Scale3D)
@@ -1687,8 +1695,12 @@ func init() {
 	registerIcon("squirrel", Squirrel)
 	registerIcon("stamp", Stamp)
 	registerIcon("star", Star)
+	registerIcon("star-check", StarCheck)
 	registerIcon("star-half", StarHalf)
+	registerIcon("star-minus", StarMinus)
 	registerIcon("star-off", StarOff)
+	registerIcon("star-plus", StarPlus)
+	registerIcon("star-x", StarX)
 	registerIcon("step-back", StepBack)
 	registerIcon("step-forward", StepForward)
 	registerIcon("stethoscope", Stethoscope)
@@ -1922,6 +1934,7 @@ func init() {
 	registerIcon("waves-vertical", WavesVertical)
 	registerIcon("waypoints", Waypoints)
 	registerIcon("webcam", Webcam)
+	registerIcon("webcam-off", WebcamOff)
 	registerIcon("webhook", Webhook)
 	registerIcon("webhook-off", WebhookOff)
 	registerIcon("weight", Weight)
@@ -1944,6 +1957,7 @@ func init() {
 	registerIcon("workflow", Workflow)
 	registerIcon("worm", Worm)
 	registerIcon("wrench", Wrench)
+	registerIcon("wrench-off", WrenchOff)
 	registerIcon("x", X)
 	registerIcon("x-line-top", XLineTop)
 	registerIcon("zap", Zap)
@@ -2083,6 +2097,30 @@ func Activity(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" />`, opt)
+}
+
+// Ad renders the "ad" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "ad" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Ad()
+//	lucide.Ad(lucide.Options{Size: 32, Class: "my-icon"})
+func Ad(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 13H6" /> <path d="M10 15v-4a2 2 0 0 0-4 0v4" /> <path d="M14 14.5a.5.5 0 0 0 .5.5h1a2.5 2.5 0 0 0 2.5-2.5v-1A2.5 2.5 0 0 0 15.5 9h-1a.5.5 0 0 0-.5.5z" /> <rect x="2" y="5" width="20" height="14" rx="2" />`, opt)
 }
 
 // AirVent renders the "air-vent" icon.
@@ -17229,6 +17267,30 @@ func EyeClosed(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m15 18-.722-3.25" /> <path d="M2 8a10.645 10.645 0 0 0 20 0" /> <path d="m20 15-1.726-2.05" /> <path d="m4 15 1.726-2.05" /> <path d="m9 18 .722-3.25" />`, opt)
 }
 
+// EyeDashed renders the "eye-dashed" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "eye-dashed" }}
+//
+// Direct usage in Go:
+//
+//	lucide.EyeDashed()
+//	lucide.EyeDashed(lucide.Options{Size: 32, Class: "my-icon"})
+func EyeDashed(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13.054 18.946a11 11 0 0 1-2.11 0" /> <path d="M13.054 5.054a11 11 0 0 0-2.11-.001" /> <path d="M17.072 6.274a11 11 0 0 1 1.753 1.173" /> <path d="M18.825 16.552a11 11 0 0 1-1.753 1.174" /> <path d="M2.514 13.303a11 11 0 0 1-.452-.954 1 1 0 0 1 0-.697 11 11 0 0 1 .45-.955" /> <path d="M21.485 10.697a11 11 0 0 1 .453.955 1 1 0 0 1 0 .697 11 11 0 0 1-.453.954" /> <path d="M5.173 7.448a11 11 0 0 1 1.753-1.174" /> <path d="M6.926 17.726a11 11 0 0 1-1.753-1.174" /> <circle cx="12" cy="12" r="3" />`, opt)
+}
+
 // EyeOff renders the "eye-off" icon.
 //
 // Usage in templates:
@@ -26049,6 +26111,54 @@ func ListRestart(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 5H3" /> <path d="M7 12H3" /> <path d="M7 19H3" /> <path d="M12 18a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L11 14" /> <path d="M11 10v4h4" />`, opt)
 }
 
+// ListSortAscending renders the "list-sort-ascending" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "list-sort-ascending" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ListSortAscending()
+//	lucide.ListSortAscending(lucide.Options{Size: 32, Class: "my-icon"})
+func ListSortAscending(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3 19h18" /> <path d="M15 12H3" /> <path d="M9 5H3" />`, opt)
+}
+
+// ListSortDescending renders the "list-sort-descending" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "list-sort-descending" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ListSortDescending()
+//	lucide.ListSortDescending(lucide.Options{Size: 32, Class: "my-icon"})
+func ListSortDescending(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 12H3" /> <path d="M3 5h18" /> <path d="M9 19H3" />`, opt)
+}
+
 // ListStart renders the "list-start" icon.
 //
 // Usage in templates:
@@ -32637,6 +32747,30 @@ func Play(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z" />`, opt)
 }
 
+// PlayOff renders the "play-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "play-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PlayOff()
+//	lucide.PlayOff(lucide.Options{Size: 32, Class: "my-icon"})
+func PlayOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m10.215 4.56 9.79 5.71a2 2 0 0 1 .003 3.458l-.393.23" /> <path d="m16.042 16.042-8.034 4.686A2 2 0 0 1 5 19V5" /> <path d="m2 2 20 20" />`, opt)
+}
+
 // Plug renders the "plug" icon.
 //
 // Usage in templates:
@@ -32797,6 +32931,30 @@ func Podcast(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z" fill="currentColor" /> <path d="M16.85 18.58a9 9 0 1 0-9.7 0" /> <path d="M8 14a5 5 0 1 1 8 0" /> <circle cx="12" cy="11" r="1" fill="currentColor" />`, opt)
+}
+
+// Podium renders the "podium" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "podium" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Podium()
+//	lucide.Podium(lucide.Options{Size: 32, Class: "my-icon"})
+func Podium(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 6V2h-1" /> <path d="M9 15a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1" /> <path d="M9 21V11a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v10" />`, opt)
 }
 
 // Pointer renders the "pointer" icon.
@@ -35149,6 +35307,54 @@ func SaveOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13 13H8a1 1 0 0 0-1 1v7" /> <path d="M14 8h1" /> <path d="M17 21v-4" /> <path d="m2 2 20 20" /> <path d="M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41" /> <path d="M29.5 11.5s5 5 4 5" /> <path d="M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15" />`, opt)
+}
+
+// SavePen renders the "save-pen" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "save-pen" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SavePen()
+//	lucide.SavePen(lucide.Options{Size: 32, Class: "my-icon"})
+func SavePen(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13.33 13H8a1 1 0 00-1 1v7" /> <path d="M14.363 17.634a2 2 0 00-.506.854l-.837 2.87a.5.5 0 00.62.62l2.87-.837a2 2 0 00.854-.506l4.013-4.009a1 1 0 10-3.004-3.004z" /> <path d="M7 3v4a1 1 0 001 1h7" /> <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h10.2a2 2 0 011.4.6l3.8 3.8a2 2 0 01.6 1.4v.3" />`, opt)
+}
+
+// SavePlus renders the "save-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "save-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SavePlus()
+//	lucide.SavePlus(lucide.Options{Size: 32, Class: "my-icon"})
+func SavePlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h10.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V12" /> <path d="M16 13H8a1 1 0 0 0-1 1v7" /> <path d="M19 22v-6" /> <path d="M22 19h-6" /> <path d="M7 3v4a1 1 0 0 0 1 1h7" />`, opt)
 }
 
 // Scale renders the "scale" icon.
@@ -41013,6 +41219,30 @@ func Star(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />`, opt)
 }
 
+// StarCheck renders the "star-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "star-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StarCheck()
+//	lucide.StarCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func StarCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m19.06 12.501 2.78-2.707a.53.53 0 0 0-.294-.905l-5.166-.755a2.1 2.1 0 0 1-1.595-1.16l-2.31-4.68a.53.53 0 0 0-.95.001L9.216 6.974a2.1 2.1 0 0 1-1.597 1.16l-5.165.755a.53.53 0 0 0-.294.906l3.736 3.637a2.1 2.1 0 0 1 .611 1.879l-.88 5.139a.53.53 0 0 0 .769.56l4.617-2.428.027-.014" /> <path d="m15 18 2 2 4-4" />`, opt)
+}
+
 // StarHalf renders the "star-half" icon.
 //
 // Usage in templates:
@@ -41037,6 +41267,30 @@ func StarHalf(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 18.338a2.1 2.1 0 0 0-.987.244L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16l2.309-4.679A.53.53 0 0 1 12 2" />`, opt)
 }
 
+// StarMinus renders the "star-minus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "star-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StarMinus()
+//	lucide.StarMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func StarMinus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 18h6" /> <path d="M17.688 14a2.1 2.1 0 0 1 .416-.568l3.736-3.638a.53.53 0 0 0-.294-.905l-5.166-.755a2.1 2.1 0 0 1-1.595-1.16l-2.31-4.68a.53.53 0 0 0-.95.001L9.216 6.974a2.1 2.1 0 0 1-1.597 1.16l-5.165.755a.53.53 0 0 0-.294.906l3.736 3.637a2.1 2.1 0 0 1 .611 1.879l-.88 5.139a.53.53 0 0 0 .769.56l4.617-2.428.027-.014" />`, opt)
+}
+
 // StarOff renders the "star-off" icon.
 //
 // Usage in templates:
@@ -41059,6 +41313,54 @@ func StarOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m10.344 4.688 1.181-2.393a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.237 3.152" /> <path d="m17.945 17.945.43 2.505a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a8 8 0 0 0 .4-.099" /> <path d="m2 2 20 20" />`, opt)
+}
+
+// StarPlus renders the "star-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "star-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StarPlus()
+//	lucide.StarPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func StarPlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11.013 18.582 6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16l2.309-4.679a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904L20 11.5" /> <path d="M15 18h6" /> <path d="M18 15v6" />`, opt)
+}
+
+// StarX renders the "star-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "star-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StarX()
+//	lucide.StarX(lucide.Options{Size: 32, Class: "my-icon"})
+func StarX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15.5 15.5 5 5" /> <path d="m20.063 11.525 1.777-1.731a.53.53 0 0 0-.294-.905l-5.166-.755a2.1 2.1 0 0 1-1.595-1.16l-2.31-4.68a.53.53 0 0 0-.95.001L9.216 6.974a2.1 2.1 0 0 1-1.597 1.16l-5.165.755a.53.53 0 0 0-.294.906l3.736 3.637a2.1 2.1 0 0 1 .611 1.879l-.88 5.139a.53.53 0 0 0 .769.56l4.617-2.428a2.1 2.1 0 0 1 .987-.243 2 2 0 0 1 .132.004" /> <path d="m20.5 15.5-5 5" />`, opt)
 }
 
 // StepBack renders the "step-back" icon.
@@ -46110,7 +46412,7 @@ func WalletCards(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2" /> <path d="M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21" />`, opt)
+	return buildSVG(`<path d="M3 11h3.75a2 2 0 0 1 1.6.8l.45.6a4 4 0 0 0 6.4 0l.45-.6a2 2 0 0 1 1.6-.8H21" /> <path d="M3 7h18" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
 // WalletMinimal renders the "wallet-minimal" icon.
@@ -46501,6 +46803,30 @@ func Webcam(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="10" r="8" /> <circle cx="12" cy="10" r="3" /> <path d="M7 22h10" /> <path d="M12 22v-4" />`, opt)
+}
+
+// WebcamOff renders the "webcam-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "webcam-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WebcamOff()
+//	lucide.WebcamOff(lucide.Options{Size: 32, Class: "my-icon"})
+func WebcamOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22v-4" /> <path d="M12.754 7.096a3 3 0 0 1 2.15 2.15" /> <path d="M12.863 12.873a3 3 0 0 1-3.736-3.735" /> <path d="M16.566 16.57A8 8 0 0 1 5.43 5.433" /> <path d="m2 2 20 20" /> <path d="M7 22h10" /> <path d="M8.478 2.817a8 8 0 0 1 10.705 10.705" />`, opt)
 }
 
 // Webhook renders the "webhook" icon.
@@ -47029,6 +47355,30 @@ func Wrench(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z" />`, opt)
+}
+
+// WrenchOff renders the "wrench-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "wrench-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WrenchOff()
+//	lucide.WrenchOff(lucide.Options{Size: 32, Class: "my-icon"})
+func WrenchOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10.747 5.093a6 6 0 0 1 6.841-2.882c.438.12.54.662.219.984L14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-2.882 6.842" /> <path d="m13.5 13.5-7.88 7.88a1 1 0 0 1-2.999-3l7.88-7.88" /> <path d="m2 2 20 20" />`, opt)
 }
 
 // X renders the "x" icon.
