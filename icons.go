@@ -593,8 +593,14 @@ func init() {
 	registerIcon("cylinder", Cylinder)
 	registerIcon("dam", Dam)
 	registerIcon("database", Database)
+	registerIcon("database-arrow-down", DatabaseArrowDown)
+	registerIcon("database-arrow-up", DatabaseArrowUp)
 	registerIcon("database-backup", DatabaseBackup)
+	registerIcon("database-check", DatabaseCheck)
+	registerIcon("database-minus", DatabaseMinus)
+	registerIcon("database-plus", DatabasePlus)
 	registerIcon("database-search", DatabaseSearch)
+	registerIcon("database-x", DatabaseX)
 	registerIcon("database-zap", DatabaseZap)
 	registerIcon("decimals-arrow-left", DecimalsArrowLeft)
 	registerIcon("decimals-arrow-right", DecimalsArrowRight)
@@ -1302,6 +1308,7 @@ func init() {
 	registerIcon("pentagon", Pentagon)
 	registerIcon("percent", Percent)
 	registerIcon("person-standing", PersonStanding)
+	registerIcon("phi", Phi)
 	registerIcon("philippine-peso", PhilippinePeso)
 	registerIcon("phone", Phone)
 	registerIcon("phone-call", PhoneCall)
@@ -9396,7 +9403,7 @@ func Carrot(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M2.27 21.7s9.87-3.5 12.73-6.36a4.5 4.5 0 0 0-6.36-6.37C5.77 11.84 2.27 21.7 2.27 21.7zM8.64 14l-2.05-2.04M15.34 15l-2.46-2.46" /> <path d="M22 9s-1.33-2-3.5-2C16.86 7 15 9 15 9s1.33 2 3.5 2S22 9 22 9z" /> <path d="M15 2s-2 1.33-2 3.5S15 9 15 9s2-1.84 2-3.5C17 3.33 15 2 15 2z" />`, opt)
+	return buildSVG(`<path d="M15 16a1 1 0 0 0-7-7q-4 4-5.987 12.385a.5.5 0 0 0 .602.602Q11 20 15 16l-3-3" /> <path d="M15 9q4 4 7 0-3-4-7 0 4-4 0-7-4 3 0 7" /> <path d="m8 15-2.58-2.58" />`, opt)
 }
 
 // CaseLower renders the "case-lower" icon.
@@ -15669,6 +15676,54 @@ func Database(opts ...Options) template.HTML {
 	return buildSVG(`<ellipse cx="12" cy="5" rx="9" ry="3" /> <path d="M3 5V19A9 3 0 0 0 21 19V5" /> <path d="M3 12A9 3 0 0 0 21 12" />`, opt)
 }
 
+// DatabaseArrowDown renders the "database-arrow-down" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "database-arrow-down" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DatabaseArrowDown()
+//	lucide.DatabaseArrowDown(lucide.Options{Size: 32, Class: "my-icon"})
+func DatabaseArrowDown(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m16 19 3 3 3-3" /> <path d="M19 16v6" /> <path d="M21 12.536V5" /> <path d="M3 12A9 3 0 0 0 15.182 14.806" /> <path d="M3 5V19A9 3 0 0 0 13.318 21.968" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
+}
+
+// DatabaseArrowUp renders the "database-arrow-up" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "database-arrow-up" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DatabaseArrowUp()
+//	lucide.DatabaseArrowUp(lucide.Options{Size: 32, Class: "my-icon"})
+func DatabaseArrowUp(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M19 22v-6" /> <path d="M21 12.536V5" /> <path d="m22 19-3-3-3 3" /> <path d="M3 12A9 3 0 0 0 14.457 14.886" /> <path d="M3 5V19A9 3 0 0 0 13.318 21.968" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
+}
+
 // DatabaseBackup renders the "database-backup" icon.
 //
 // Usage in templates:
@@ -15693,6 +15748,78 @@ func DatabaseBackup(opts ...Options) template.HTML {
 	return buildSVG(`<ellipse cx="12" cy="5" rx="9" ry="3" /> <path d="M3 12a9 3 0 0 0 5 2.69" /> <path d="M21 9.3V5" /> <path d="M3 5v14a9 3 0 0 0 6.47 2.88" /> <path d="M12 12v4h4" /> <path d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16" />`, opt)
 }
 
+// DatabaseCheck renders the "database-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "database-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DatabaseCheck()
+//	lucide.DatabaseCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func DatabaseCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m16 19 2 2 4-4" /> <path d="M21 13.127V5" /> <path d="M3 12A9 3 0 0 0 21 12" /> <path d="M3 5V19A9 3 0 0 0 13.318 21.968" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
+}
+
+// DatabaseMinus renders the "database-minus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "database-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DatabaseMinus()
+//	lucide.DatabaseMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func DatabaseMinus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 15V5" /> <path d="M22 19h-6" /> <path d="M3 12A9 3 0 0 0 21 12" /> <path d="M3 5V19A9 3 0 0 0 13.318 21.968" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
+}
+
+// DatabasePlus renders the "database-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "database-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DatabasePlus()
+//	lucide.DatabasePlus(lucide.Options{Size: 32, Class: "my-icon"})
+func DatabasePlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M19 16v6" /> <path d="M21 12.536V5" /> <path d="M22 19h-6" /> <path d="M3 12A9 3 0 0 0 15.1824 14.8061" /> <path d="M3 5V19A9 3 0 0 0 13.318 21.968" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
+}
+
 // DatabaseSearch renders the "database-search" icon.
 //
 // Usage in templates:
@@ -15715,6 +15842,30 @@ func DatabaseSearch(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 11.693V5" /> <path d="m22 22-1.875-1.875" /> <path d="M3 12a9 3 0 0 0 8.697 2.998" /> <path d="M3 5v14a9 3 0 0 0 9.28 2.999" /> <circle cx="18" cy="18" r="3" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
+}
+
+// DatabaseX renders the "database-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "database-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DatabaseX()
+//	lucide.DatabaseX(lucide.Options{Size: 32, Class: "my-icon"})
+func DatabaseX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m17 17 5 5" /> <path d="M19.323 13.744A9 3 0 0 0 21 12" /> <path d="M21 13.127V5" /> <path d="m22 17-5 5" /> <path d="M3 12A9 3 0 0 0 13.563 14.954" /> <path d="M3 5V19A9 3 0 0 0 13 21.981" /> <ellipse cx="12" cy="5" rx="9" ry="3" />`, opt)
 }
 
 // DatabaseZap renders the "database-zap" icon.
@@ -32229,6 +32380,30 @@ func PersonStanding(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="5" r="1" /> <path d="m9 20 3-6 3 6" /> <path d="m6 8 6 2 6-2" /> <path d="M12 10v4" />`, opt)
 }
 
+// Phi renders the "phi" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "phi" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Phi()
+//	lucide.Phi(lucide.Options{Size: 32, Class: "my-icon"})
+func Phi(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v20" /> <circle cx="12" cy="12" r="7" />`, opt)
+}
+
 // PhilippinePeso renders the "philippine-peso" icon.
 //
 // Usage in templates:
@@ -45138,7 +45313,7 @@ func Ungroup(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<rect width="8" height="6" x="5" y="4" rx="1" /> <rect width="8" height="6" x="11" y="14" rx="1" />`, opt)
+	return buildSVG(`<rect x="11" y="14" width="10" height="7" rx="2" /> <rect x="3" y="3" width="10" height="7" rx="2" />`, opt)
 }
 
 // University renders the "university" icon.
