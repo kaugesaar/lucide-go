@@ -431,6 +431,7 @@ func init() {
 	registerIcon("circle-dot-dashed", CircleDotDashed)
 	registerIcon("circle-ellipsis", CircleEllipsis)
 	registerIcon("circle-equal", CircleEqual)
+	registerIcon("circle-euro", CircleEuro)
 	registerIcon("circle-fading-arrow-up", CircleFadingArrowUp)
 	registerIcon("circle-fading-plus", CircleFadingPlus)
 	registerIcon("circle-gauge", CircleGauge)
@@ -1454,6 +1455,7 @@ func init() {
 	registerIcon("scaling", Scaling)
 	registerIcon("scan", Scan)
 	registerIcon("scan-barcode", ScanBarcode)
+	registerIcon("scan-box", ScanBox)
 	registerIcon("scan-eye", ScanEye)
 	registerIcon("scan-face", ScanFace)
 	registerIcon("scan-heart", ScanHeart)
@@ -1486,6 +1488,7 @@ func init() {
 	registerIcon("server-cog", ServerCog)
 	registerIcon("server-crash", ServerCrash)
 	registerIcon("server-off", ServerOff)
+	registerIcon("server-plus", ServerPlus)
 	registerIcon("settings", Settings)
 	registerIcon("settings-2", Settings2)
 	registerIcon("shapes", Shapes)
@@ -11945,6 +11948,30 @@ func CircleEqual(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M7 10h10" /> <path d="M7 14h10" />`, opt)
 }
 
+// CircleEuro renders the "circle-euro" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-euro" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleEuro()
+//	lucide.CircleEuro(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleEuro(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 9.4a4 4 0 1 0 0 5.2" /> <path d="M7 12h5" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
 // CircleFadingArrowUp renders the "circle-fading-arrow-up" icon.
 //
 // Usage in templates:
@@ -16676,7 +16703,7 @@ func Dot(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<circle cx="12.1" cy="12.1" r="1" />`, opt)
+	return buildSVG(`<circle cx="12" cy="12" r="1" />`, opt)
 }
 
 // Download renders the "download" icon.
@@ -17378,7 +17405,7 @@ func EthernetPort(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3z" /> <path d="M6 8v1" /> <path d="M10 8v1" /> <path d="M14 8v1" /> <path d="M18 8v1" />`, opt)
+	return buildSVG(`<path d="M10 8v1" /> <path d="M14 8v1" /> <path d="M18 8v1" /> <path d="M19 17a2 2 0 00-1.765 1.059l-.47.882A2 2 0 0115 20H9a2 2 0 01-1.765-1.059l-.47-.882A2 2 0 005 17H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v9a2 2 0 01-2 2z" /> <path d="M6 8v1" />`, opt)
 }
 
 // Euro renders the "euro" icon.
@@ -17870,7 +17897,7 @@ func FileBox(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M14.5 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.8" /> <path d="M14 2v5a1 1 0 0 0 1 1h5" /> <path d="M11.7 14.2 7 17l-4.7-2.8" /> <path d="M3 13.1a2 2 0 0 0-.999 1.76v3.24a2 2 0 0 0 .969 1.78L6 21.7a2 2 0 0 0 2.03.01L11 19.9a2 2 0 0 0 1-1.76V14.9a2 2 0 0 0-.97-1.78L8 11.3a2 2 0 0 0-2.03-.01z" /> <path d="M7 17v5" />`, opt)
+	return buildSVG(`<path d="M14 2v5a1 1 0 001 1h5" /> <path d="M14.692 22H18a2 2 0 002-2V8a2.4 2.4 0 00-.706-1.706l-3.588-3.588A2.4 2.4 0 0014 2H6a2 2 0 00-2 2v3.804" /> <path d="M2.264 13.752 7 16.5l4.737-2.748" /> <path d="M2.995 13.014A2 2 0 002 14.744v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0012 18.26v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z" /> <path d="M7 16.5V22" />`, opt)
 }
 
 // FileBraces renders the "file-braces" icon.
@@ -23252,7 +23279,7 @@ func HdmiPort(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z" /> <path d="M7.5 12h9" />`, opt)
+	return buildSVG(`<path d="M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z" /> <path d="M8 12h8" />`, opt)
 }
 
 // Heading renders the "heading" icon.
@@ -30812,7 +30839,7 @@ func Option(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M3 3h6l6 18h6" /> <path d="M14 3h7" />`, opt)
+	return buildSVG(`<path d="M14 3h7" /> <path d="M3 3h5.28a1 1 0 0 1 .948.684l5.544 16.632a1 1 0 0 0 .949.684H21" />`, opt)
 }
 
 // Orbit renders the "orbit" icon.
@@ -35849,6 +35876,30 @@ func ScanBarcode(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 7V5a2 2 0 0 1 2-2h2" /> <path d="M17 3h2a2 2 0 0 1 2 2v2" /> <path d="M21 17v2a2 2 0 0 1-2 2h-2" /> <path d="M7 21H5a2 2 0 0 1-2-2v-2" /> <path d="M8 7v10" /> <path d="M12 7v10" /> <path d="M17 7v10" />`, opt)
 }
 
+// ScanBox renders the "scan-box" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "scan-box" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ScanBox()
+//	lucide.ScanBox(lucide.Options{Size: 32, Class: "my-icon"})
+func ScanBox(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12v5.5" /> <path d="M17 3h2a2 2 0 012 2v2" /> <path d="M21 17v2a2 2 0 01-2 2h-2" /> <path d="M3 7V5a2 2 0 012-2h2" /> <path d="M7 21H5a2 2 0 01-2-2v-2" /> <path d="M7.264 9.252 12 12l4.737-2.748" /> <path d="M7.995 8.514A2 2 0 007 10.244v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0017 13.76v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z" />`, opt)
+}
+
 // ScanEye renders the "scan-eye" icon.
 //
 // Usage in templates:
@@ -36609,6 +36660,30 @@ func ServerOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M7 2h13a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-5" /> <path d="M10 10 2.5 2.5C2 2 2 2.5 2 5v3a2 2 0 0 0 2 2h6z" /> <path d="M22 17v-1a2 2 0 0 0-2-2h-1" /> <path d="M4 14a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16.5l1-.5.5.5-8-8H4z" /> <path d="M6 18h.01" /> <path d="m2 2 20 20" />`, opt)
+}
+
+// ServerPlus renders the "server-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "server-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ServerPlus()
+//	lucide.ServerPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func ServerPlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2" /> <path d="M16 12h6" /> <path d="M19 9v6" /> <path d="M22 18v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h8.5" /> <path d="M6 18h.01" /> <path d="M6 6h.01" />`, opt)
 }
 
 // Settings renders the "settings" icon.
