@@ -943,7 +943,6 @@ func init() {
 	registerIcon("helicopter", Helicopter)
 	registerIcon("hexagon", Hexagon)
 	registerIcon("highlighter", Highlighter)
-	registerIcon("history", History)
 	registerIcon("hop", Hop)
 	registerIcon("hop-off", HopOff)
 	registerIcon("hospital", Hospital)
@@ -1011,6 +1010,7 @@ func init() {
 	registerIcon("layers-minus", LayersMinus)
 	registerIcon("layers-plus", LayersPlus)
 	registerIcon("layout-dashboard", LayoutDashboard)
+	registerIcon("layout-freeform", LayoutFreeform)
 	registerIcon("layout-grid", LayoutGrid)
 	registerIcon("layout-list", LayoutList)
 	registerIcon("layout-panel-left", LayoutPanelLeft)
@@ -1154,7 +1154,10 @@ func init() {
 	registerIcon("messages-square", MessagesSquare)
 	registerIcon("metronome", Metronome)
 	registerIcon("mic", Mic)
+	registerIcon("mic-audio-lines", MicAudioLines)
 	registerIcon("mic-off", MicOff)
+	registerIcon("mic-signal", MicSignal)
+	registerIcon("podcast", Podcast)
 	registerIcon("mic-vocal", MicVocal)
 	registerIcon("mic-2", Mic2)
 	registerIcon("microchip", Microchip)
@@ -1184,6 +1187,7 @@ func init() {
 	registerIcon("monitor-x", MonitorX)
 	registerIcon("moon", Moon)
 	registerIcon("moon-star", MoonStar)
+	registerIcon("mosque", Mosque)
 	registerIcon("motorbike", Motorbike)
 	registerIcon("mountain", Mountain)
 	registerIcon("mountain-snow", MountainSnow)
@@ -1345,7 +1349,6 @@ func init() {
 	registerIcon("plug-zap-2", PlugZap2)
 	registerIcon("plus", Plus)
 	registerIcon("pocket-knife", PocketKnife)
-	registerIcon("podcast", Podcast)
 	registerIcon("podium", Podium)
 	registerIcon("pointer", Pointer)
 	registerIcon("pointer-off", PointerOff)
@@ -1421,9 +1424,12 @@ func init() {
 	registerIcon("rotate-3d", Rotate3d)
 	registerIcon("rotate-3-d", Rotate3D)
 	registerIcon("rotate-ccw", RotateCcw)
+	registerIcon("rotate-ccw-clock", RotateCcwClock)
+	registerIcon("history", History)
 	registerIcon("rotate-ccw-key", RotateCcwKey)
 	registerIcon("rotate-ccw-square", RotateCcwSquare)
 	registerIcon("rotate-cw", RotateCw)
+	registerIcon("rotate-cw-fading-clock", RotateCwFadingClock)
 	registerIcon("rotate-cw-square", RotateCwSquare)
 	registerIcon("route", Route)
 	registerIcon("route-off", RouteOff)
@@ -1462,6 +1468,7 @@ func init() {
 	registerIcon("scan-line", ScanLine)
 	registerIcon("scan-qr-code", ScanQrCode)
 	registerIcon("scan-search", ScanSearch)
+	registerIcon("scan-square", ScanSquare)
 	registerIcon("scan-text", ScanText)
 	registerIcon("school", School)
 	registerIcon("scissors", Scissors)
@@ -1505,6 +1512,7 @@ func init() {
 	registerIcon("shield-cog-corner", ShieldCogCorner)
 	registerIcon("shield-ellipsis", ShieldEllipsis)
 	registerIcon("shield-half", ShieldHalf)
+	registerIcon("shield-keyhole", ShieldKeyhole)
 	registerIcon("shield-minus", ShieldMinus)
 	registerIcon("shield-off", ShieldOff)
 	registerIcon("shield-plus", ShieldPlus)
@@ -1658,6 +1666,7 @@ func init() {
 	registerIcon("minus-square", MinusSquare)
 	registerIcon("square-mouse-pointer", SquareMousePointer)
 	registerIcon("inspect", Inspect)
+	registerIcon("square-off", SquareOff)
 	registerIcon("square-parking", SquareParking)
 	registerIcon("parking-square", ParkingSquare)
 	registerIcon("square-parking-off", SquareParkingOff)
@@ -1904,6 +1913,7 @@ func init() {
 	registerIcon("user-round-x", UserRoundX)
 	registerIcon("user-x-2", UserX2)
 	registerIcon("user-search", UserSearch)
+	registerIcon("user-shield", UserShield)
 	registerIcon("user-star", UserStar)
 	registerIcon("user-x", UserX)
 	registerIcon("users", Users)
@@ -5525,7 +5535,7 @@ func Barrel(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 3a41 41 0 0 0 0 18" /> <path d="M14 3a41 41 0 0 1 0 18" /> <path d="M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z" /> <path d="M3.84 17h16.32" /> <path d="M3.84 7h16.32" />`, opt)
+	return buildSVG(`<path d="M10 3a41 41 0 000 18" /> <path d="M14 3a41 41 0 010 18" /> <path d="M16.997 21a2 2 0 001.68-.92 15.25 15.25 0 000-16.16 2 2 0 00-1.68-.92h-10a2 2 0 00-1.681.92 15.25 15.25 0 000 16.16 2 2 0 001.681.92z" /> <path d="M3.54 16h16.914" /> <path d="M3.54 8h16.914" />`, opt)
 }
 
 // Baseline renders the "baseline" icon.
@@ -7211,7 +7221,7 @@ func BookOpen(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 7v14" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />`, opt)
+	return buildSVG(`<path d="M12 5v16" /> <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" />`, opt)
 }
 
 // BookOpenCheck renders the "book-open-check" icon.
@@ -7235,7 +7245,7 @@ func BookOpenCheck(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 21V7" /> <path d="m16 12 2 2 4-4" /> <path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3" />`, opt)
+	return buildSVG(`<path d="M12 5v16" /> <path d="m16 12 2 2 4-4" /> <path d="M22 6V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2h4.001A2 2 0 0022 17v-1.344" />`, opt)
 }
 
 // BookOpenText renders the "book-open-text" icon.
@@ -7259,7 +7269,7 @@ func BookOpenText(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 7v14" /> <path d="M16 12h2" /> <path d="M16 8h2" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> <path d="M6 12h2" /> <path d="M6 8h2" />`, opt)
+	return buildSVG(`<path d="M12 5v16" /> <path d="M16 13h2" /> <path d="M16 9h2" /> <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /> <path d="M6 13h2" /> <path d="M6 9h2" />`, opt)
 }
 
 // BookPlus renders the "book-plus" icon.
@@ -8525,7 +8535,7 @@ func Calendar(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" />`, opt)
+	return buildSVG(`<path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" />`, opt)
 }
 
 // Calendar1 renders the "calendar-1" icon.
@@ -8549,7 +8559,7 @@ func Calendar1(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M11 14h1v4" /> <path d="M16 2v4" /> <path d="M3 10h18" /> <path d="M8 2v4" /> <rect x="3" y="4" width="18" height="18" rx="2" />`, opt)
+	return buildSVG(`<path d="M11 13h1v4" /> <path d="M16 2v3" /> <path d="M3 9h18" /> <path d="M8 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
 // CalendarArrowDown renders the "calendar-arrow-down" icon.
@@ -8573,7 +8583,7 @@ func CalendarArrowDown(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m14 18 4 4 4-4" /> <path d="M16 2v4" /> <path d="M18 14v8" /> <path d="M21 11.354V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.343" /> <path d="M3 10h18" /> <path d="M8 2v4" />`, opt)
+	return buildSVG(`<path d="m14 17 4 4 4-4" /> <path d="M16 2v3" /> <path d="M18 13v8" /> <path d="M21 10.354V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h7.343" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarArrowUp renders the "calendar-arrow-up" icon.
@@ -8597,7 +8607,7 @@ func CalendarArrowUp(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m14 18 4-4 4 4" /> <path d="M16 2v4" /> <path d="M18 22v-8" /> <path d="M21 11.343V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9" /> <path d="M3 10h18" /> <path d="M8 2v4" />`, opt)
+	return buildSVG(`<path d="m14 17 4-4 4 4" /> <path d="M16 2v3" /> <path d="M18 21v-8" /> <path d="M21 10.343V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h9" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarCheck renders the "calendar-check" icon.
@@ -8621,7 +8631,7 @@ func CalendarCheck(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="m9 16 2 2 4-4" />`, opt)
+	return buildSVG(`<path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="m9 15 2 2 4-4" />`, opt)
 }
 
 // CalendarCheck2 renders the "calendar-check-2" icon.
@@ -8645,7 +8655,7 @@ func CalendarCheck2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" /> <path d="M3 10h18" /> <path d="m16 20 2 2 4-4" />`, opt)
+	return buildSVG(`<path d="M 19 3 L 5 3" /> <path d="M 21 13 L 21 5" /> <path d="M 21 5 A2 2 0 0 0 19 3" /> <path d="M 3 19 A2 2 0 0 0 5 21" /> <path d="M 3 5 L 3 19" /> <path d="M 5 3 A2 2 0 0 0 3 5" /> <path d="m16 19 2 2 4-4" /> <path d="M16 2v3" /> <path d="M3 9h18" /> <path d="M5 21 L12.5 21" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarClock renders the "calendar-clock" icon.
@@ -8669,7 +8679,7 @@ func CalendarClock(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 14v2.2l1.6 1" /> <path d="M16 2v4" /> <path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5" /> <path d="M3 10h5" /> <path d="M8 2v4" /> <circle cx="16" cy="16" r="6" />`, opt)
+	return buildSVG(`<path d="M16 14v2.2l1.6 1" /> <path d="M16 2v3" /> <path d="M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338" /> <path d="M3 9h5.859" /> <path d="M8 2v3" /> <circle cx="16" cy="16" r="6" />`, opt)
 }
 
 // CalendarCog renders the "calendar-cog" icon.
@@ -8693,7 +8703,7 @@ func CalendarCog(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m15.228 16.852-.923-.383" /> <path d="m15.228 19.148-.923.383" /> <path d="M16 2v4" /> <path d="m16.47 14.305.382.923" /> <path d="m16.852 20.772-.383.924" /> <path d="m19.148 15.228.383-.923" /> <path d="m19.53 21.696-.382-.924" /> <path d="m20.772 16.852.924-.383" /> <path d="m20.772 19.148.924.383" /> <path d="M21 10.592V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6" /> <path d="M3 10h18" /> <path d="M8 2v4" /> <circle cx="18" cy="18" r="3" />`, opt)
+	return buildSVG(`<path d="m15.228 16.852-.923-.383" /> <path d="m15.228 19.148-.923.383" /> <path d="M16 2v3" /> <path d="m16.47 14.305.382.923" /> <path d="m16.852 20.772-.383.924" /> <path d="m19.148 15.228.383-.923" /> <path d="m19.53 21.696-.382-.924" /> <path d="m20.773 16.852.924-.383" /> <path d="m20.773 19.148.924.383" /> <path d="M21 10.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h5.5" /> <path d="M3 9h18" /> <path d="M8 2v3" /> <circle cx="18" cy="18" r="3" />`, opt)
 }
 
 // CalendarDays renders the "calendar-days" icon.
@@ -8717,7 +8727,7 @@ func CalendarDays(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="M8 14h.01" /> <path d="M12 14h.01" /> <path d="M16 14h.01" /> <path d="M8 18h.01" /> <path d="M12 18h.01" /> <path d="M16 18h.01" />`, opt)
+	return buildSVG(`<path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="M8 13h.01" /> <path d="M12 13h.01" /> <path d="M16 13h.01" /> <path d="M8 17h.01" /> <path d="M12 17h.01" /> <path d="M16 17h.01" />`, opt)
 }
 
 // CalendarFold renders the "calendar-fold" icon.
@@ -8741,7 +8751,7 @@ func CalendarFold(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M3 20a2 2 0 0 0 2 2h10a2.4 2.4 0 0 0 1.706-.706l3.588-3.588A2.4 2.4 0 0 0 21 16V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z" /> <path d="M15 22v-5a1 1 0 0 1 1-1h5" /> <path d="M8 2v4" /> <path d="M16 2v4" /> <path d="M3 10h18" />`, opt)
+	return buildSVG(`<path d="M16 2v3" /> <path d="M21 15V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h10v-5a1 1 0 011-1za2.4 2.4 0 01-.706 1.706l-3.588 3.588A2.4 2.4 0 0115 21" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarHeart renders the "calendar-heart" icon.
@@ -8765,7 +8775,7 @@ func CalendarHeart(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12.127 22H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.125" /> <path d="M14.62 18.8A2.25 2.25 0 1 1 18 15.836a2.25 2.25 0 1 1 3.38 2.966l-2.626 2.856a.998.998 0 0 1-1.507 0z" /> <path d="M16 2v4" /> <path d="M3 10h18" /> <path d="M8 2v4" />`, opt)
+	return buildSVG(`<path d="M12.127 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.125" /> <path d="M14.62 17.8A2.25 2.25 0 1118 14.836a2.25 2.25 0 113.38 2.966l-2.626 2.856a.998.998 0 01-1.507 0z" /> <path d="M16 2v3" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarMinus renders the "calendar-minus" icon.
@@ -8789,7 +8799,7 @@ func CalendarMinus(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 19h6" /> <path d="M16 2v4" /> <path d="M21 15V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5" /> <path d="M3 10h18" /> <path d="M8 2v4" />`, opt)
+	return buildSVG(`<path d="M16 18h6" /> <path d="M16 2v3" /> <path d="M21 14V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarMinus2 renders the "calendar-minus-2" icon.
@@ -8813,7 +8823,7 @@ func CalendarMinus2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="M10 16h4" />`, opt)
+	return buildSVG(`<path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="M10 15h4" />`, opt)
 }
 
 // CalendarOff renders the "calendar-off" icon.
@@ -8837,7 +8847,7 @@ func CalendarOff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4.2 4.2A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18" /> <path d="M21 15.5V6a2 2 0 0 0-2-2H9.5" /> <path d="M16 2v4" /> <path d="M3 10h7" /> <path d="M21 10h-5.5" /> <path d="m2 2 20 20" />`, opt)
+	return buildSVG(`<path d="M16 2v3" /> <path d="m2 2 20 20" /> <path d="M21 9h-5.5" /> <path d="M3 9h6" /> <path d="M3.586 3.586A2 2 0 003 5v14a2 2 0 002 2h14a2 2 0 001.414-.586" /> <path d="M8.656 3H19a2 2 0 012 2v10.344" />`, opt)
 }
 
 // CalendarPlus renders the "calendar-plus" icon.
@@ -8861,7 +8871,7 @@ func CalendarPlus(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 19h6" /> <path d="M16 2v4" /> <path d="M19 16v6" /> <path d="M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5" /> <path d="M3 10h18" /> <path d="M8 2v4" />`, opt)
+	return buildSVG(`<path d="M16 18h6" /> <path d="M16 2v3" /> <path d="M19 15v6" /> <path d="M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarPlus2 renders the "calendar-plus-2" icon.
@@ -8885,7 +8895,7 @@ func CalendarPlus2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="M10 16h4" /> <path d="M12 14v4" />`, opt)
+	return buildSVG(`<path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="M10 15h4" /> <path d="M12 13v4" />`, opt)
 }
 
 // CalendarRange renders the "calendar-range" icon.
@@ -8909,7 +8919,7 @@ func CalendarRange(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M16 2v4" /> <path d="M3 10h18" /> <path d="M8 2v4" /> <path d="M17 14h-6" /> <path d="M13 18H7" /> <path d="M7 14h.01" /> <path d="M17 18h.01" />`, opt)
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M16 2v3" /> <path d="M3 9h18" /> <path d="M8 2v3" /> <path d="M17 13h-6" /> <path d="M13 17H7" /> <path d="M7 13h.01" /> <path d="M17 17h.01" />`, opt)
 }
 
 // CalendarSearch renders the "calendar-search" icon.
@@ -8933,7 +8943,7 @@ func CalendarSearch(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 2v4" /> <path d="M21 11.75V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.25" /> <path d="m22 22-1.875-1.875" /> <path d="M3 10h18" /> <path d="M8 2v4" /> <circle cx="18" cy="18" r="3" />`, opt)
+	return buildSVG(`<path d="M16 2v3" /> <path d="M21 10.69V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h7.25" /> <path d="m22 21-1.875-1.875" /> <path d="M3 9h18" /> <path d="M8 2v3" /> <circle cx="18" cy="17" r="3" />`, opt)
 }
 
 // CalendarSync renders the "calendar-sync" icon.
@@ -8957,7 +8967,7 @@ func CalendarSync(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M11 10v4h4" /> <path d="m11 14 1.535-1.605a5 5 0 0 1 8 1.5" /> <path d="M16 2v4" /> <path d="m21 18-1.535 1.605a5 5 0 0 1-8-1.5" /> <path d="M21 22v-4h-4" /> <path d="M21 8.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4.3" /> <path d="M3 10h4" /> <path d="M8 2v4" />`, opt)
+	return buildSVG(`<path d="M11 10v4h4" /> <path d="m11 14 1.535-1.605a5 5 0 018 1.5" /> <path d="M16 2v3" /> <path d="m21 18-1.535 1.605a5 5 0 01-8-1.5" /> <path d="M21 22v-4h-4" /> <path d="M21 8.517V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.517" /> <path d="M3 9h4" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarX renders the "calendar-x" icon.
@@ -8981,7 +8991,7 @@ func CalendarX(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <rect width="18" height="18" x="3" y="4" rx="2" /> <path d="M3 10h18" /> <path d="m14 14-4 4" /> <path d="m10 14 4 4" />`, opt)
+	return buildSVG(`<path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="m14 13-4 4" /> <path d="m10 13 4 4" />`, opt)
 }
 
 // CalendarX2 renders the "calendar-x-2" icon.
@@ -9005,7 +9015,7 @@ func CalendarX2(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M8 2v4" /> <path d="M16 2v4" /> <path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" /> <path d="M3 10h18" /> <path d="m17 22 5-5" /> <path d="m17 17 5 5" />`, opt)
+	return buildSVG(`<path d="M16 2v3" /> <path d="m17 16 5 5" /> <path d="m17 21 5-5" /> <path d="M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // Calendars renders the "calendars" icon.
@@ -14567,7 +14577,7 @@ func Columns3Cog(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.5" /> <path d="m14.3 19.6 1-.4" /> <path d="M15 3v7.5" /> <path d="m15.2 16.9-.9-.3" /> <path d="m16.6 21.7.3-.9" /> <path d="m16.8 15.3-.4-1" /> <path d="m19.1 15.2.3-.9" /> <path d="m19.6 21.7-.4-1" /> <path d="m20.7 16.8 1-.4" /> <path d="m21.7 19.4-.9-.3" /> <path d="M9 3v18" /> <circle cx="18" cy="18" r="3" />`, opt)
+	return buildSVG(`<path d="M10.6 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v5.6" /> <path d="m14.305 19.53.923-.382" /> <path d="M15 3v7.6" /> <path d="m15.229 16.852-.924-.383" /> <path d="m16.852 15.228-.383-.923" /> <path d="m16.852 20.772-.383.924" /> <path d="m19.148 15.228.383-.923" /> <path d="m19.53 21.696-.382-.924" /> <path d="m20.773 16.852.922-.383" /> <path d="m20.773 19.148.922.383" /> <path d="M9 3v18" /> <circle cx="18" cy="18" r="3" />`, opt)
 }
 
 // ColumnsSettings is an alias for Columns3Cog.
@@ -14843,7 +14853,7 @@ func Contact(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 2v2" /> <path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" /> <path d="M8 2v2" /> <circle cx="12" cy="11" r="3" /> <rect x="3" y="4" width="18" height="18" rx="2" />`, opt)
+	return buildSVG(`<path d="M16 2v2" /> <path d="M7 21v-2a2 2 0 012-2h6a2 2 0 012 2v2" /> <path d="M8 2v2" /> <circle cx="12" cy="10" r="3" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
 // ContactRound renders the "contact-round" icon.
@@ -14867,7 +14877,7 @@ func ContactRound(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 2v2" /> <path d="M17.915 22a6 6 0 0 0-12 0" /> <path d="M8 2v2" /> <circle cx="12" cy="12" r="4" /> <rect x="3" y="4" width="18" height="18" rx="2" />`, opt)
+	return buildSVG(`<path d="M16 2v2" /> <path d="M17.915 21a6 6 0 10-12 0" /> <path d="M8 2v2" /> <circle cx="12" cy="11" r="4" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
 // Contact2 is an alias for ContactRound.
@@ -17693,7 +17703,7 @@ func Feather(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z" /> <path d="M16 8 2 22" /> <path d="M17.5 15H9" />`, opt)
+	return buildSVG(`<path d="M14.086 18.412A2 2 0 0112.67 19H5v-7.672a2 2 0 01.586-1.414L11.75 3.75a6 6 0 118.49 8.49z" /> <path d="M16 8 2 22" /> <path d="M17.488 15H9" />`, opt)
 }
 
 // Fence renders the "fence" icon.
@@ -23810,30 +23820,6 @@ func Highlighter(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m9 11-6 6v3h9l3-3" /> <path d="m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4" />`, opt)
 }
 
-// History renders the "history" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "history" }}
-//
-// Direct usage in Go:
-//
-//	lucide.History()
-//	lucide.History(lucide.Options{Size: 32, Class: "my-icon"})
-func History(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /> <path d="M3 3v5h5" /> <path d="M12 7v5l4 2" />`, opt)
-}
-
 // Hop renders the "hop" icon.
 //
 // Usage in templates:
@@ -25410,6 +25396,30 @@ func LayoutDashboard(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<rect width="7" height="9" x="3" y="3" rx="1" /> <rect width="7" height="5" x="14" y="3" rx="1" /> <rect width="7" height="9" x="14" y="12" rx="1" /> <rect width="7" height="5" x="3" y="16" rx="1" />`, opt)
+}
+
+// LayoutFreeform renders the "layout-freeform" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "layout-freeform" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LayoutFreeform()
+//	lucide.LayoutFreeform(lucide.Options{Size: 32, Class: "my-icon"})
+func LayoutFreeform(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect width="7" height="7" x="3" y="3" rx="1" /> <rect width="7" height="7" x="14" y="4" rx="1" /> <rect width="7" height="7" x="4" y="14" rx="1" />`, opt)
 }
 
 // LayoutGrid renders the "layout-grid" icon.
@@ -28784,6 +28794,30 @@ func Mic(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 19v3" /> <path d="M19 10v2a7 7 0 0 1-14 0v-2" /> <rect x="9" y="2" width="6" height="13" rx="3" />`, opt)
 }
 
+// MicAudioLines renders the "mic-audio-lines" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mic-audio-lines" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MicAudioLines()
+//	lucide.MicAudioLines(lucide.Options{Size: 32, Class: "my-icon"})
+func MicAudioLines(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 3v2.341" /> <path d="M12 17v4" /> <path d="M14 5v.341" /> <path d="M18 5v13" /> <path d="M2 10v3" /> <path d="M22 10v3" /> <path d="M6 6v11" /> <path d="M9 21h6" /> <rect width="4" height="8" x="10" y="9" rx="2" />`, opt)
+}
+
 // MicOff renders the "mic-off" icon.
 //
 // Usage in templates:
@@ -28806,6 +28840,48 @@ func MicOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 19v3" /> <path d="M15 9.34V5a3 3 0 0 0-5.68-1.33" /> <path d="M16.95 16.95A7 7 0 0 1 5 12v-2" /> <path d="M18.89 13.23A7 7 0 0 0 19 12v-2" /> <path d="m2 2 20 20" /> <path d="M9 9v3a3 3 0 0 0 5.12 2.12" />`, opt)
+}
+
+// MicSignal renders the "mic-signal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mic-signal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MicSignal()
+//	lucide.MicSignal(lucide.Options{Size: 32, Class: "my-icon"})
+func MicSignal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 17v4" /> <path d="M18 11a6 6 0 00-3-5.197" /> <path d="M2 11a10 10 0 015-8.662" /> <path d="M22 11a10 10 0 00-5-8.662" /> <path d="M6 11a6 6 0 013-5.197" /> <path d="M9 21h6" /> <rect x="10" y="9" width="4" height="8" rx="2" />`, opt)
+}
+
+// Podcast is an alias for MicSignal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use MicSignal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "podcast" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Podcast()
+//	lucide.Podcast(lucide.Options{Size: 32, Class: "my-icon"})
+func Podcast(opts ...Options) template.HTML {
+	return MicSignal(opts...)
 }
 
 // MicVocal renders the "mic-vocal" icon.
@@ -29496,6 +29572,30 @@ func MoonStar(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M18 5h4" /> <path d="M20 3v4" /> <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />`, opt)
+}
+
+// Mosque renders the "mosque" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mosque" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Mosque()
+//	lucide.Mosque(lucide.Options{Size: 32, Class: "my-icon"})
+func Mosque(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.268 2a2 2 0 003.465 2" /> <path d="M14 5 L14 8" /> <path d="M16 22v-3a2 2 0 00-4 0v3" /> <path d="M21 13c-.662-1.497-1.666-2.753-2.9-3.63C16.825 8.47 15.422 8 14 8s-2.826.47-4.1 1.37C8.668 10.248 7.663 11.504 7 13z" /> <path d="M3 9h4" /> <path d="M7 22V6a5 5 0 00-2-4 5 5 0 00-2 4v14a2 2 0 002 2h14a2 2 0 002-2v-7" />`, opt)
 }
 
 // Motorbike renders the "motorbike" icon.
@@ -33266,30 +33366,6 @@ func PocketKnife(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2" /> <path d="M18 6h.01" /> <path d="M6 18h.01" /> <path d="M20.83 8.83a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z" /> <path d="M18 11.66V22a4 4 0 0 0 4-4V6" />`, opt)
 }
 
-// Podcast renders the "podcast" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "podcast" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Podcast()
-//	lucide.Podcast(lucide.Options{Size: 32, Class: "my-icon"})
-func Podcast(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z" fill="currentColor" /> <path d="M16.85 18.58a9 9 0 1 0-9.7 0" /> <path d="M8 14a5 5 0 1 1 8 0" /> <circle cx="12" cy="11" r="1" fill="currentColor" />`, opt)
-}
-
 // Podium renders the "podium" icon.
 //
 // Usage in templates:
@@ -35078,6 +35154,48 @@ func RotateCcw(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /> <path d="M3 3v5h5" />`, opt)
 }
 
+// RotateCcwClock renders the "rotate-ccw-clock" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "rotate-ccw-clock" }}
+//
+// Direct usage in Go:
+//
+//	lucide.RotateCcwClock()
+//	lucide.RotateCcwClock(lucide.Options{Size: 32, Class: "my-icon"})
+func RotateCcwClock(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /> <path d="M3 3v5h5" /> <path d="M12 7v5l4 2" />`, opt)
+}
+
+// History is an alias for RotateCcwClock.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use RotateCcwClock instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "history" }}
+//
+// Direct usage in Go:
+//
+//	lucide.History()
+//	lucide.History(lucide.Options{Size: 32, Class: "my-icon"})
+func History(opts ...Options) template.HTML {
+	return RotateCcwClock(opts...)
+}
+
 // RotateCcwKey renders the "rotate-ccw-key" icon.
 //
 // Usage in templates:
@@ -35148,6 +35266,30 @@ func RotateCw(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" />`, opt)
+}
+
+// RotateCwFadingClock renders the "rotate-cw-fading-clock" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "rotate-cw-fading-clock" }}
+//
+// Direct usage in Go:
+//
+//	lucide.RotateCwFadingClock()
+//	lucide.RotateCwFadingClock(lucide.Options{Size: 32, Class: "my-icon"})
+func RotateCwFadingClock(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 3a9.75 9.75 0 0 1 6.74 2.74" /> <path d="M18.74 5.74 21 8" /> <path d="M21 8V3" /> <path d="M7.5 19.794c-6-3.464-6-12.124 0-15.588" /> <path d="M7.5 4.206A9 9 0 0 1 12 3" /> <path d="M12 7v5l4 2" /> <path d="M14 20.775A9 9 0 0 1 12 21" /> <path d="M19 17.656a9 9 0 0 1-1.5 1.456" /> <path d="M21 12a9 9 0 0 1-.228 2" /> <path d="M21 8h-5" />`, opt)
 }
 
 // RotateCwSquare renders the "rotate-cw-square" icon.
@@ -36042,6 +36184,30 @@ func ScanSearch(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3 7V5a2 2 0 0 1 2-2h2" /> <path d="M17 3h2a2 2 0 0 1 2 2v2" /> <path d="M21 17v2a2 2 0 0 1-2 2h-2" /> <path d="M7 21H5a2 2 0 0 1-2-2v-2" /> <circle cx="12" cy="12" r="3" /> <path d="m16 16-1.9-1.9" />`, opt)
+}
+
+// ScanSquare renders the "scan-square" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "scan-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ScanSquare()
+//	lucide.ScanSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ScanSquare(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3 7V5a2 2 0 0 1 2-2h2" /> <path d="M17 3h2a2 2 0 0 1 2 2v2" /> <path d="M21 17v2a2 2 0 0 1-2 2h-2" /> <path d="M7 21H5a2 2 0 0 1-2-2v-2" /> <rect width="8" height="8" x="8" y="8" rx="1" />`, opt)
 }
 
 // ScanText renders the "scan-text" icon.
@@ -37068,6 +37234,30 @@ func ShieldHalf(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M12 22V2" />`, opt)
+}
+
+// ShieldKeyhole renders the "shield-keyhole" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "shield-keyhole" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ShieldKeyhole()
+//	lucide.ShieldKeyhole(lucide.Options{Size: 32, Class: "my-icon"})
+func ShieldKeyhole(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 13v3" /> <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 01-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 011-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 011.52 0C14.51 3.81 17 5 19 5a1 1 0 011 1z" /> <circle cx="12" cy="11" r="2" />`, opt)
 }
 
 // ShieldMinus renders the "shield-minus" icon.
@@ -39335,7 +39525,7 @@ func SquareBottomDashedScissors(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<line x1="5" y1="3" x2="19" y2="3" /> <line x1="3" y1="5" x2="3" y2="19" /> <line x1="21" y1="5" x2="21" y2="19" /> <line x1="9" y1="21" x2="10" y2="21" /> <line x1="14" y1="21" x2="15" y2="21" /> <path d="M 3 5 A2 2 0 0 1 5 3" /> <path d="M 19 3 A2 2 0 0 1 21 5" /> <path d="M 5 21 A2 2 0 0 1 3 19" /> <path d="M 21 19 A2 2 0 0 1 19 21" /> <circle cx="8.5" cy="8.5" r="1.5" /> <line x1="9.56066" y1="9.56066" x2="12" y2="12" /> <line x1="17" y1="17" x2="14.82" y2="14.82" /> <circle cx="8.5" cy="15.5" r="1.5" /> <line x1="9.56066" y1="14.43934" x2="17" y2="7" />`, opt)
+	return buildSVG(`<path d="M14 21h1" /> <path d="m17 17-2.18-2.18" /> <path d="M5 21a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2" /> <path d="M9 21h1" /> <path d="M9.56 14.44 17 7" /> <path d="M9.56 9.56 12 12" /> <circle cx="8.5" cy="15.5" r="1.5" /> <circle cx="8.5" cy="8.5" r="1.5" />`, opt)
 }
 
 // ScissorsSquareDashedBottom is an alias for SquareBottomDashedScissors.
@@ -40472,6 +40662,30 @@ func Inspect(opts ...Options) template.HTML {
 	return SquareMousePointer(opts...)
 }
 
+// SquareOff renders the "square-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareOff()
+//	lucide.SquareOff(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41" /> <path d="M21 15.3V5a2 2 0 00-2-2H8.7" /> <path d="M22 22 2 2" />`, opt)
+}
+
 // SquareParking renders the "square-parking" icon.
 //
 // Usage in templates:
@@ -40979,7 +41193,7 @@ func SquareScissors(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <circle cx="8.5" cy="8.5" r="1.5" /> <line x1="9.56066" y1="9.56066" x2="12" y2="12" /> <line x1="17" y1="17" x2="14.82" y2="14.82" /> <circle cx="8.5" cy="15.5" r="1.5" /> <line x1="9.56066" y1="14.43934" x2="17" y2="7" />`, opt)
+	return buildSVG(`<path d="m17 17-2.18-2.18" /> <path d="M9.56 14.44 17 7" /> <path d="M9.56 9.56 12 12" /> <circle cx="8.5" cy="15.5" r="1.5" /> <circle cx="8.5" cy="8.5" r="1.5" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
 // ScissorsSquare is an alias for SquareScissors.
@@ -44213,7 +44427,7 @@ func Toolbox(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M16 12v4" /> <path d="M16 6a2 2 0 0 1 1.414.586l4 4A2 2 0 0 1 22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 .586-1.414l4-4A2 2 0 0 1 8 6z" /> <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" /> <path d="M2 14h20" /> <path d="M8 12v4" />`, opt)
+	return buildSVG(`<path d="M16 12v4" /> <path d="M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" /> <path d="M17 6a2 2 0 011.414.586l3 3A2 2 0 0122 11v8a2 2 0 01-2 2H4a2 2 0 01-2-2v-8a2 2 0 01.586-1.414l3-3A2 2 0 017 6z" /> <path d="M2 14h20" /> <path d="M8 12v4" />`, opt)
 }
 
 // Tornado renders the "tornado" icon.
@@ -44939,7 +45153,7 @@ func Trophy(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978" /> <path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978" /> <path d="M18 9h1.5a1 1 0 0 0 0-5H18" /> <path d="M4 22h16" /> <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /> <path d="M6 9H4.5a1 1 0 0 1 0-5H6" />`, opt)
+	return buildSVG(`<path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /> <path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /> <path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /> <path d="M4 22h16" /> <path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /> <path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" />`, opt)
 }
 
 // Truck renders the "truck" icon.
@@ -46140,6 +46354,30 @@ func UserSearch(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="10" cy="7" r="4" /> <path d="M10.3 15H7a4 4 0 0 0-4 4v2" /> <circle cx="17" cy="17" r="3" /> <path d="m21 21-1.9-1.9" />`, opt)
+}
+
+// UserShield renders the "user-shield" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "user-shield" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UserShield()
+//	lucide.UserShield(lucide.Options{Size: 32, Class: "my-icon"})
+func UserShield(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 15H6a4 4 0 0 0-4 4v2" /> <path d="M22 17.5c0 2.499-1.75 3.749-3.83 4.474a.5.5 0 0 1-.335-.005c-2.085-.72-3.835-1.97-3.835-4.47V14a.5.5 0 0 1 .5-.499c1 0 2.25-.6 3.12-1.36a.6.6 0 0 1 .76-.001c.875.765 2.12 1.36 3.12 1.36a.5.5 0 0 1 .5.5z" /> <circle cx="9" cy="7" r="4" />`, opt)
 }
 
 // UserStar renders the "user-star" icon.
@@ -47975,7 +48213,7 @@ func Zap(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />`, opt)
+	return buildSVG(`<path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" />`, opt)
 }
 
 // ZapOff renders the "zap-off" icon.
@@ -47999,7 +48237,7 @@ func ZapOff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10.513 4.856 13.12 2.17a.5.5 0 0 1 .86.46l-1.377 4.317" /> <path d="M15.656 10H20a1 1 0 0 1 .78 1.63l-1.72 1.773" /> <path d="M16.273 16.273 10.88 21.83a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14H4a1 1 0 0 1-.78-1.63l4.507-4.643" /> <path d="m2 2 20 20" />`, opt)
+	return buildSVG(`<path d="M10.768 5.111 13.44 2.44a1.5 1.5 0 012.474 1.561l-1.633 4.625" /> <path d="m18.889 13.232.672-.672A1.5 1.5 0 0018.5 10h-2.844" /> <path d="m2 2 20 20" /> <path d="m7.94 7.94-3.5 3.499A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l5.5-5.5" />`, opt)
 }
 
 // ZodiacAquarius renders the "zodiac-aquarius" icon.
