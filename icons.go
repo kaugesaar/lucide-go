@@ -611,6 +611,7 @@ func init() {
 	registerIcon("crown", Crown)
 	registerIcon("cuboid", Cuboid)
 	registerIcon("cup-soda", CupSoda)
+	registerIcon("cupcake", Cupcake)
 	registerIcon("currency", Currency)
 	registerIcon("cylinder", Cylinder)
 	registerIcon("dam", Dam)
@@ -656,6 +657,7 @@ func init() {
 	registerIcon("donut", Donut)
 	registerIcon("door-closed", DoorClosed)
 	registerIcon("door-closed-locked", DoorClosedLocked)
+	registerIcon("door-closed-package", DoorClosedPackage)
 	registerIcon("door-open", DoorOpen)
 	registerIcon("door-stairwell", DoorStairwell)
 	registerIcon("dot", Dot)
@@ -717,6 +719,7 @@ func init() {
 	registerIcon("factory", Factory)
 	registerIcon("fan", Fan)
 	registerIcon("fast-forward", FastForward)
+	registerIcon("faucet", Faucet)
 	registerIcon("feather", Feather)
 	registerIcon("fence", Fence)
 	registerIcon("ferris-wheel", FerrisWheel)
@@ -1034,6 +1037,7 @@ func init() {
 	registerIcon("keyboard", Keyboard)
 	registerIcon("keyboard-music", KeyboardMusic)
 	registerIcon("keyboard-off", KeyboardOff)
+	registerIcon("lambda", Lambda)
 	registerIcon("lamp", Lamp)
 	registerIcon("lamp-ceiling", LampCeiling)
 	registerIcon("lamp-desk", LampDesk)
@@ -1286,6 +1290,7 @@ func init() {
 	registerIcon("navigation-2", Navigation2)
 	registerIcon("navigation-2-off", Navigation2Off)
 	registerIcon("navigation-off", NavigationOff)
+	registerIcon("nepali-rupee", NepaliRupee)
 	registerIcon("network", Network)
 	registerIcon("newspaper", Newspaper)
 	registerIcon("nfc", Nfc)
@@ -1500,6 +1505,7 @@ func init() {
 	registerIcon("rotate-ccw-key", RotateCcwKey)
 	registerIcon("rotate-ccw-square", RotateCcwSquare)
 	registerIcon("rotate-cw", RotateCw)
+	registerIcon("rotate-cw-clock", RotateCwClock)
 	registerIcon("rotate-cw-fading-clock", RotateCwFadingClock)
 	registerIcon("rotate-cw-square", RotateCwSquare)
 	registerIcon("route", Route)
@@ -1718,10 +1724,13 @@ func init() {
 	registerIcon("kanban-square-dashed", KanbanSquareDashed)
 	registerIcon("square-dashed-mouse-pointer", SquareDashedMousePointer)
 	registerIcon("mouse-pointer-square-dashed", MousePointerSquareDashed)
+	registerIcon("square-dashed-plus", SquareDashedPlus)
 	registerIcon("square-dashed-text", SquareDashedText)
 	registerIcon("text-selection", TextSelection)
 	registerIcon("text-select", TextSelect)
 	registerIcon("square-dashed-top-solid", SquareDashedTopSolid)
+	registerIcon("square-dashed-x", SquareDashedX)
+	registerIcon("square-dashed-x-corner", SquareDashedXCorner)
 	registerIcon("square-dimensions", SquareDimensions)
 	registerIcon("square-divide", SquareDivide)
 	registerIcon("divide-square", DivideSquare)
@@ -1951,6 +1960,7 @@ func init() {
 	registerIcon("trophy", Trophy)
 	registerIcon("truck", Truck)
 	registerIcon("truck-electric", TruckElectric)
+	registerIcon("tube-lotion", TubeLotion)
 	registerIcon("turkish-lira", TurkishLira)
 	registerIcon("turntable", Turntable)
 	registerIcon("turtle", Turtle)
@@ -8288,7 +8298,7 @@ func Broccoli(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 13a3 3 0 0 1-2.121-5.121" /> <path d="M15.606 14.204c-3.5 1.5-5.899 4.503-8.899 7.503A1 1 0 0 1 6 22c-2 0-4-2-4-4a1 1 0 0 1 .293-.707c1.911-1.911 3.823-3.578 5.347-5.441" /> <path d="M16.573 14.737A4 4 0 0 1 14 11" /> <path d="M7.14 10.907a4 4 0 1 1 2.756-7.43A4 4 0 0 1 16.7 4.48a2 2 0 0 1 2.82 2.82 4 4 0 0 1 1.002 6.805A4 4 0 1 1 13 16" />`, opt)
+	return buildSVG(`<path d="M10 13a3 3 0 01-2.121-5.121" /> <path d="M15.606 14.204c-3.5 1.5-5.899 4.503-8.899 7.503A1 1 0 016 22c-2 0-4-2-4-4a1 1 0 01.293-.707c1.911-1.911 3.823-3.578 5.347-5.441" /> <path d="M16.573 14.737A4 4 0 0114 11" /> <path d="M7.14 10.907a4 4 0 112.756-7.43A4 4 0 0116.7 4.48a2 2 0 012.82 2.82 4 4 0 011.002 6.805 4 4 0 11-7.51 1.59" />`, opt)
 }
 
 // Broom renders the "broom" icon.
@@ -8906,7 +8916,7 @@ func CalendarChevronsRight(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m13 21 3-3-3-3" /> <path d="M16 2v3" /> <path d="m19 21 3-3-3-3" /> <path d="M21 11.5V5.05a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2L9 21" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
+	return buildSVG(`<path d="m13 21 3-3-3-3" /> <path d="M16 2v3" /> <path d="m19 21 3-3-3-3" /> <path d="M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h4" /> <path d="M3 9h18" /> <path d="M8 2v3" />`, opt)
 }
 
 // CalendarClock renders the "calendar-clock" icon.
@@ -16205,6 +16215,30 @@ func CupSoda(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8" /> <path d="M5 8h14" /> <path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0" /> <path d="m12 8 1-6h2" />`, opt)
 }
 
+// Cupcake renders the "cupcake" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "cupcake" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Cupcake()
+//	lucide.Cupcake(lucide.Options{Size: 32, Class: "my-icon"})
+func Cupcake(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22v-9" /> <path d="M14 4h1a3 3 0 013 3l-.004.125A4 4 0 0121 11v2" /> <path d="m15.5 22 1.5-9" /> <path d="M21 13a1 1 0 01.919 1.394l-2.74 6.394A2 2 0 0117.34 22H6.659a2 2 0 01-1.838-1.212l-2.74-6.394A1 1 0 013 13z" /> <path d="M3 13v-2a4 4 0 013.003-3.875L6 7a3 3 0 013-3h1" /> <path d="M8.5 22 7 13" /> <circle cx="12" cy="4" r="2" />`, opt)
+}
+
 // Currency renders the "currency" icon.
 //
 // Usage in templates:
@@ -17277,6 +17311,30 @@ func DoorClosedLocked(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M19 8V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16" /> <path d="M2 21h8" /> <path d="M20 16v-2a2 2 0 00-4 0v2" /> <path d="M9 12h.01" /> <rect x="14" y="16" width="8" height="5" rx="1" />`, opt)
+}
+
+// DoorClosedPackage renders the "door-closed-package" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "door-closed-package" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DoorClosedPackage()
+//	lucide.DoorClosedPackage(lucide.Options{Size: 32, Class: "my-icon"})
+func DoorClosedPackage(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M18 13v3" /> <path d="M19 9V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16" /> <path d="M2 21h8" /> <path d="M9 12h.01" /> <rect x="14" y="13" width="8" height="8" rx="1" />`, opt)
 }
 
 // DoorOpen renders the "door-open" icon.
@@ -18681,6 +18739,30 @@ func FastForward(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z" /> <path d="M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z" />`, opt)
+}
+
+// Faucet renders the "faucet" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "faucet" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Faucet()
+//	lucide.Faucet(lucide.Options{Size: 32, Class: "my-icon"})
+func Faucet(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10.083 5.428 5.57 4.083a2 2 0 10.001 3.834l4.512-1.345" /> <path d="M12 8v3" /> <path d="m13.917 5.428 4.511-1.345a2 2 0 110 3.834l-4.51-1.345" /> <path d="M18 17v-4.006" /> <path d="M22 11v8" /> <path d="M22 12h-3a1 1 0 00-1 .994h-2.539a4 4 0 00-6.915-.012L7 13a5 5 0 00-5 5v1a1 1 0 001 1h2a1 1 0 001-1v-1a1 1 0 01.995-1l1.552.018a4 4 0 006.907 0L18 17a1 1 0 001 1h3" /> <circle cx="12" cy="6" r="2" />`, opt)
 }
 
 // Feather renders the "feather" icon.
@@ -26027,6 +26109,30 @@ func KeyboardOff(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M 20 4 A2 2 0 0 1 22 6" /> <path d="M 22 6 L 22 16.41" /> <path d="M 7 16 L 16 16" /> <path d="M 9.69 4 L 20 4" /> <path d="M14 8h.01" /> <path d="M18 8h.01" /> <path d="m2 2 20 20" /> <path d="M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2" /> <path d="M6 8h.01" /> <path d="M8 12h.01" />`, opt)
 }
 
+// Lambda renders the "lambda" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "lambda" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Lambda()
+//	lucide.Lambda(lucide.Options{Size: 32, Class: "my-icon"})
+func Lambda(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11.38 10 5 20" /> <path d="M19 18a2 2 0 01-2 2c-4.87-.003-5.052-16-10-16a2 2 0 00-2 2" />`, opt)
+}
+
 // Lamp renders the "lamp" icon.
 //
 // Usage in templates:
@@ -31985,6 +32091,30 @@ func NavigationOff(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M8.43 8.43 3 11l8 2 2 8 2.57-5.43" /> <path d="M17.39 11.73 22 2l-9.73 4.61" /> <line x1="2" x2="22" y1="2" y2="22" />`, opt)
 }
 
+// NepaliRupee renders the "nepali-rupee" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "nepali-rupee" }}
+//
+// Direct usage in Go:
+//
+//	lucide.NepaliRupee()
+//	lucide.NepaliRupee(lucide.Options{Size: 32, Class: "my-icon"})
+func NepaliRupee(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M18 16.173 A4.74 4.74 0 0 0 13.496 8.005" /> <path d="M4 3 L20 3" /> <path d="M5 13 L13.5 21" /> <path d="M5 13 L9 13" /> <path d="M8 13 C15.5 13 14.667 3 8 3" />`, opt)
+}
+
 // Network renders the "network" icon.
 //
 // Usage in templates:
@@ -37013,6 +37143,30 @@ func RotateCw(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8" /> <path d="M21 3v5h-5" />`, opt)
 }
 
+// RotateCwClock renders the "rotate-cw-clock" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "rotate-cw-clock" }}
+//
+// Direct usage in Go:
+//
+//	lucide.RotateCwClock()
+//	lucide.RotateCwClock(lucide.Options{Size: 32, Class: "my-icon"})
+func RotateCwClock(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 7v5l4 2" /> <path d="M16 8h5V3" /> <path d="m21 8-2.3-2.3A9.7 9.7 0 0012 3a9 9 0 109 9" />`, opt)
+}
+
 // RotateCwFadingClock renders the "rotate-cw-fading-clock" icon.
 //
 // Usage in templates:
@@ -37574,7 +37728,7 @@ func SaveOff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M13 13H8a1 1 0 0 0-1 1v7" /> <path d="M14 8h1" /> <path d="M17 21v-4" /> <path d="m2 2 20 20" /> <path d="M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41" /> <path d="M29.5 11.5s5 5 4 5" /> <path d="M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15" />`, opt)
+	return buildSVG(`<path d="M13 13H8a1 1 0 0 0-1 1v7" /> <path d="M14 8h1" /> <path d="M17 21v-4" /> <path d="m2 2 20 20" /> <path d="M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41" /> <path d="M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15" />`, opt)
 }
 
 // SavePen renders the "save-pen" icon.
@@ -42017,6 +42171,30 @@ func MousePointerSquareDashed(opts ...Options) template.HTML {
 	return SquareDashedMousePointer(opts...)
 }
 
+// SquareDashedPlus renders the "square-dashed-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-dashed-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareDashedPlus()
+//	lucide.SquareDashedPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareDashedPlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M5 3a2 2 0 0 0-2 2" /> <path d="M19 3a2 2 0 0 1 2 2" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M9 3h1" /> <path d="M9 21h1" /> <path d="M14 3h1" /> <path d="M14 21h1" /> <path d="M3 9v1" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M21 14v1" /> <path d="M8 12h8" /> <path d="M12 8v8" />`, opt)
+}
+
 // SquareDashedText renders the "square-dashed-text" icon.
 //
 // Usage in templates:
@@ -42099,6 +42277,54 @@ func SquareDashedTopSolid(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M14 21h1" /> <path d="M21 14v1" /> <path d="M21 19a2 2 0 0 1-2 2" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2" /> <path d="M3 9v1" /> <path d="M5 21a2 2 0 0 1-2-2" /> <path d="M9 21h1" />`, opt)
+}
+
+// SquareDashedX renders the "square-dashed-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-dashed-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareDashedX()
+//	lucide.SquareDashedX(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareDashedX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 21h1" /> <path d="M14 3h1" /> <path d="M19 3a2 2 0 012 2" /> <path d="M21 14v1" /> <path d="M21 19a2 2 0 01-2 2" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M3 9v1" /> <path d="M5 21a2 2 0 01-2-2" /> <path d="M5 3a2 2 0 00-2 2" /> <path d="m9 15 6-6" /> <path d="M9 21h1" /> <path d="M9 3h1" /> <path d="m9 9 6 6" />`, opt)
+}
+
+// SquareDashedXCorner renders the "square-dashed-x-corner" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-dashed-x-corner" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareDashedXCorner()
+//	lucide.SquareDashedXCorner(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareDashedXCorner(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 3h1" /> <path d="m16 16 5 5" /> <path d="M19 3a2 2 0 012 2" /> <path d="m21 16-5 5" /> <path d="M21 9v1" /> <path d="M3 14v1" /> <path d="M3 9v1" /> <path d="M5 21a2 2 0 01-2-2" /> <path d="M5 3a2 2 0 00-2 2" /> <path d="M9 21h1" /> <path d="M9 3h1" />`, opt)
 }
 
 // SquareDimensions renders the "square-dimensions" icon.
@@ -47331,6 +47557,30 @@ func TruckElectric(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M14 19V7a2 2 0 0 0-2-2H9" /> <path d="M15 19H9" /> <path d="M19 19h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L18.3 9.38a1 1 0 0 0-.78-.38H14" /> <path d="M2 13v5a1 1 0 0 0 1 1h2" /> <path d="M4 3 2.15 5.15a.495.495 0 0 0 .35.86h2.15a.47.47 0 0 1 .35.86L3 9.02" /> <circle cx="17" cy="19" r="2" /> <circle cx="7" cy="19" r="2" />`, opt)
+}
+
+// TubeLotion renders the "tube-lotion" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "tube-lotion" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TubeLotion()
+//	lucide.TubeLotion(lucide.Options{Size: 32, Class: "my-icon"})
+func TubeLotion(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 18v3a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-3" /> <path d="M17 2a2 2 0 0 1 1.6 3.2A8 8 0 0 0 17 10v6a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-6a8 8 0 0 0-1.6-4.8A2 2 0 0 1 7 2z" /> <path d="M7 10a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0" />`, opt)
 }
 
 // TurkishLira renders the "turkish-lira" icon.
