@@ -353,25 +353,19 @@ func runRelease() error {
 		return fmt.Errorf("failed to get release notes: %w", err)
 	}
 
-	fmt.Fprintf(os.Stderr, "Creating git tag %s...\n", version)
-	cmd = exec.Command("git", "tag", "-a", version, "-m", releaseNotes)
-	if err := cmd.Run(); err != nil {
-		return fmt.Errorf("failed to create git tag: %w", err)
+	output, err = exec.Command("git", "rev-parse", "HEAD").Output()
+	if err != nil {
+		return fmt.Errorf("failed to resolve HEAD: %w", err)
 	}
-	result.TagCreated = true
+	commit := strings.TrimSpace(string(output))
 
-	fmt.Fprintf(os.Stderr, "Pushing tag to origin...\n")
-	cmd = exec.Command("git", "push", "origin", version)
-	if err := cmd.Run(); err != nil {
-		return fmt.Errorf("failed to push tag: %w", err)
-	}
-
-	fmt.Fprintf(os.Stderr, "Creating GitHub release...\n")
+	fmt.Fprintf(os.Stderr, "Creating GitHub release and tag %s at %s...\n", version, commit)
 	client := lucide.NewClient(os.Getenv("GITHUB_TOKEN"))
-	releaseURL, err := client.CreateRelease(ctx, version, releaseNotes)
+	releaseURL, err := client.CreateRelease(ctx, version, commit, releaseNotes)
 	if err != nil {
 		return fmt.Errorf("failed to create GitHub release: %w", err)
 	}
+	result.TagCreated = true
 	result.ReleaseURL = releaseURL
 
 	fmt.Fprintf(os.Stderr, "\n✓ Release %s created successfully!\n", version)
