@@ -1,10 +1,15 @@
 name: Release
 
 on:
-   workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths: [ CHANGELOG.md ]
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency: release
 
 jobs:
   release:
@@ -29,24 +34,13 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Run the release tool and capture JSON output
-        go run cmd/tool/main.go release > result.json || true
+        go run cmd/tool/main.go release > result.json
+        cat result.json
 
-        # Parse the JSON result
-        if [ -f result.json ]; then
-          cat result.json
-
-          VERSION=$(jq -r '.version' result.json)
-          TAG_CREATED=$(jq -r '.tag_created' result.json)
-          RELEASE_URL=$(jq -r '.release_url' result.json)
-          ALREADY_EXISTS=$(jq -r '.already_exists' result.json)
-
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-          echo "tag_created=$TAG_CREATED" >> $GITHUB_OUTPUT
-          echo "release_url=$RELEASE_URL" >> $GITHUB_OUTPUT
-          echo "already_exists=$ALREADY_EXISTS" >> $GITHUB_OUTPUT
-        else
-          echo "tag_created=false" >> $GITHUB_OUTPUT
-        fi
+        echo "version=$(jq -r '.version' result.json)" >> $GITHUB_OUTPUT
+        echo "tag_created=$(jq -r '.tag_created' result.json)" >> $GITHUB_OUTPUT
+        echo "release_url=$(jq -r '.release_url' result.json)" >> $GITHUB_OUTPUT
+        echo "already_exists=$(jq -r '.already_exists' result.json)" >> $GITHUB_OUTPUT
 
     - name: Show Release Summary
       if: steps.release.outputs.tag_created == 'true'
