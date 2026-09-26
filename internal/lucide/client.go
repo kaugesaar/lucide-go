@@ -100,12 +100,14 @@ func (c *Client) GetSourceArchiveURL(ctx context.Context, tag string) (*url.URL,
 }
 
 // CreateRelease creates a GitHub release for the lucide-go repository.
+// GitHub creates the tag at commit if it does not exist yet.
 // Returns the HTML URL of the created release.
-func (c *Client) CreateRelease(ctx context.Context, version, releaseNotes string) (string, error) {
+func (c *Client) CreateRelease(ctx context.Context, version, commit, releaseNotes string) (string, error) {
 	release := &github.RepositoryRelease{
-		TagName: github.Ptr(version),
-		Name:    github.Ptr(version),
-		Body:    github.Ptr(releaseNotes),
+		TagName:         github.Ptr(version),
+		TargetCommitish: github.Ptr(commit),
+		Name:            github.Ptr(version),
+		Body:            github.Ptr(releaseNotes),
 	}
 
 	created, _, err := c.gh.Repositories.CreateRelease(ctx, owner, repo, release)

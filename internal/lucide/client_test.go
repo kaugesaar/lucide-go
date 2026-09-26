@@ -2,6 +2,10 @@ package lucide
 
 import (
 	"context"
+	"encoding/json"
+	"net/http"
+	"net/http/httptest"
+	"net/url"
 	"testing"
 
 	"github.com/google/go-github/v78/github"
@@ -118,5 +122,38 @@ func TestReleaseFindIconsAsset(t *testing.T) {
 				}
 			}
 		})
+	}
+}
+
+func TestCreateRelease(t *testing.T) {
+	var got map[string]any
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodPost || r.URL.Path != "/repos/kaugesaar/lucide-go/releases" {
+			t.Errorf("request = %s %s", r.Method, r.URL.Path)
+		}
+		if err := json.NewDecoder(r.Body).Decode(&got); err != nil {
+			t.Fatal(err)
+		}
+		w.WriteHeader(http.StatusCreated)
+		w.Write([]byte(`{"html_url":"https://github.com/kaugesaar/lucide-go/releases/tag/v1.2.3"}`))
+	}))
+	defer server.Close()
+
+	gh := github.NewClient(nil)
+	gh.BaseURL, _ = url.Parse(server.URL + "/")
+	client := &Client{gh: gh}
+
+	releaseURL, err := client.CreateRelease(context.Background(), "v1.2.3", "abc123", "notes")
+	if err != nil {
+		t.Fatalf("CreateRelease() error = %v", err)
+	}
+	if releaseURL != "https://github.com/kaugesaar/lucide-go/releases/tag/v1.2.3" {
+		t.Errorf("CreateRelease() = %q", releaseURL)
+	}
+	want := map[string]any{"tag_name": "v1.2.3", "target_commitish": "abc123", "name": "v1.2.3", "body": "notes"}
+	for k, v := range want {
+		if got[k] != v {
+			t.Errorf("request %s = %v, want %v", k, got[k], v)
+		}
 	}
 }
