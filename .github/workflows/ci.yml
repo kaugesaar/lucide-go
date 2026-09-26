@@ -55,6 +55,8 @@ jobs:
         go-version: '1.21'
 
     - name: Download current icons
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: go run cmd/tool/main.go download
 
     - name: Run generator
