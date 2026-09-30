@@ -148,6 +148,7 @@ func init() {
 	registerIcon("ban", Ban)
 	registerIcon("banana", Banana)
 	registerIcon("bandage", Bandage)
+	registerIcon("bangladeshi-taka", BangladeshiTaka)
 	registerIcon("banknote", Banknote)
 	registerIcon("banknote-arrow-down", BanknoteArrowDown)
 	registerIcon("banknote-arrow-up", BanknoteArrowUp)
@@ -1078,6 +1079,7 @@ func init() {
 	registerIcon("lectern", Lectern)
 	registerIcon("lens-concave", LensConcave)
 	registerIcon("lens-convex", LensConvex)
+	registerIcon("letters", Letters)
 	registerIcon("library", Library)
 	registerIcon("library-big", LibraryBig)
 	registerIcon("life-buoy", LifeBuoy)
@@ -1438,6 +1440,7 @@ func init() {
 	registerIcon("power-off", PowerOff)
 	registerIcon("presentation", Presentation)
 	registerIcon("printer", Printer)
+	registerIcon("printer-3d", Printer3d)
 	registerIcon("printer-check", PrinterCheck)
 	registerIcon("printer-x", PrinterX)
 	registerIcon("projector", Projector)
@@ -5479,6 +5482,30 @@ func Bandage(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10 10.01h.01" /> <path d="M10 14.01h.01" /> <path d="M14 10.01h.01" /> <path d="M14 14.01h.01" /> <path d="M18 6v12" /> <path d="M6 6v12" /> <rect x="2" y="6" width="20" height="12" rx="2" />`, opt)
+}
+
+// BangladeshiTaka renders the "bangladeshi-taka" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bangladeshi-taka" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BangladeshiTaka()
+//	lucide.BangladeshiTaka(lucide.Options{Size: 32, Class: "my-icon"})
+func BangladeshiTaka(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 5a2 2 0 0 1 4 0v12a4 4 0 0 0 8 0 2 2 0 0 0-4 0" /> <path d="M6 9h12" />`, opt)
 }
 
 // Banknote renders the "banknote" icon.
@@ -27087,6 +27114,30 @@ func LensConvex(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M13.433 2a1 1 0 0 1 .824.448 18 18 0 0 1 0 19.104 1 1 0 0 1-.824.448h-2.866a1 1 0 0 1-.824-.448 18 18 0 0 1 0-19.104A1 1 0 0 1 10.567 2z" />`, opt)
 }
 
+// Letters renders the "letters" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letters" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Letters()
+//	lucide.Letters(lucide.Options{Size: 32, Class: "my-icon"})
+func Letters(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8H9" /> <path d="M21 15.354a4 4 0 100 5.292" /> <path d="M3 18h4a2 2 0 010 4H3.5a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5H6a2 2 0 010 4" /> <path d="m8 10 3.453-7.648a.6.6 0 011.094 0L16 10" />`, opt)
+}
+
 // Library renders the "library" icon.
 //
 // Usage in templates:
@@ -35557,6 +35608,30 @@ func Printer(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" /> <path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6" /> <rect x="6" y="14" width="12" height="8" rx="1" />`, opt)
+}
+
+// Printer3d renders the "printer-3d" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "printer-3d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Printer3d()
+//	lucide.Printer3d(lucide.Options{Size: 32, Class: "my-icon"})
+func Printer3d(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 11v1" /> <path d="M12 8h8" /> <path d="M15 20v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3" /> <path d="M4 20h16" /> <path d="M4 22V4a2 2 0 012-2h12a2 2 0 012 2v18" /> <path d="M4 8h4" /> <path d="M8.635 10.093A2 2 0 018 8.631V7a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-.293.707l-1 1a1 1 0 01-1.414 0z" />`, opt)
 }
 
 // PrinterCheck renders the "printer-check" icon.
