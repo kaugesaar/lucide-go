@@ -1070,6 +1070,7 @@ func init() {
 	registerIcon("layout-dashboard", LayoutDashboard)
 	registerIcon("layout-freeform", LayoutFreeform)
 	registerIcon("layout-grid", LayoutGrid)
+	registerIcon("layout-grid-circles", LayoutGridCircles)
 	registerIcon("layout-list", LayoutList)
 	registerIcon("layout-panel-left", LayoutPanelLeft)
 	registerIcon("layout-panel-top", LayoutPanelTop)
@@ -26898,6 +26899,30 @@ func LayoutGrid(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="7" height="7" x="3" y="3" rx="1" /> <rect width="7" height="7" x="14" y="3" rx="1" /> <rect width="7" height="7" x="14" y="14" rx="1" /> <rect width="7" height="7" x="3" y="14" rx="1" />`, opt)
 }
 
+// LayoutGridCircles renders the "layout-grid-circles" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "layout-grid-circles" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LayoutGridCircles()
+//	lucide.LayoutGridCircles(lucide.Options{Size: 32, Class: "my-icon"})
+func LayoutGridCircles(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="17.5" cy="17.5" r="3.5" /> <circle cx="17.5" cy="6.5" r="3.5" /> <circle cx="6.5" cy="17.5" r="3.5" /> <circle cx="6.5" cy="6.5" r="3.5" />`, opt)
+}
+
 // LayoutList renders the "layout-list" icon.
 //
 // Usage in templates:
@@ -32577,7 +32602,7 @@ func Nut(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 4V2" /> <path d="M5 10v4a7.004 7.004 0 0 0 5.277 6.787c.412.104.802.292 1.102.592L12 22l.621-.621c.3-.3.69-.488 1.102-.592A7.003 7.003 0 0 0 19 14v-4" /> <path d="M12 4C8 4 4.5 6 4 8c-.243.97-.919 1.952-2 3 1.31-.082 1.972-.29 3-1 .54.92.982 1.356 2 2 1.452-.647 1.954-1.098 2.5-2 .595.995 1.151 1.427 2.5 2 1.31-.621 1.862-1.058 2.5-2 .629.977 1.162 1.423 2.5 2 1.209-.548 1.68-.967 2-2 1.032.916 1.683 1.157 3 1-1.297-1.036-1.758-2.03-2-3-.5-2-4-4-8-4Z" />`, opt)
+	return buildSVG(`<path d="M16.847 5.847 20 9a7.23 7.23 0 011.551 7.516C21.241 17.352 21 17.932 21 19v1a1 1 0 01-1 1h-1c-1.069 0-1.648.242-2.485.552A7.2 7.2 0 019.002 20l-3.155-3.153" /> <path d="M18.21 5.43c-1.71.69-5.07 1.07-6.71 1.07.46 1.38.91 2.74.61 4.88a.88.88 0 01-.73.74c-1.78.28-3.54-.17-4.88-.62 0 1.64-.38 5-1.07 6.71-.21.52-.82.55-1.17.12A10 10 0 0118.33 4.26c.43.35.4.97-.12 1.17" /> <path d="M4.93 4.93 3 3a.7.7 0 010-1" />`, opt)
 }
 
 // NutOff renders the "nut-off" icon.
@@ -32601,7 +32626,7 @@ func NutOff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 4V2" /> <path d="M5 10v4a7.004 7.004 0 0 0 5.277 6.787c.412.104.802.292 1.102.592L12 22l.621-.621c.3-.3.69-.488 1.102-.592a7.01 7.01 0 0 0 4.125-2.939" /> <path d="M19 10v3.343" /> <path d="M12 12c-1.349-.573-1.905-1.005-2.5-2-.546.902-1.048 1.353-2.5 2-1.018-.644-1.46-1.08-2-2-1.028.71-1.69.918-3 1 1.081-1.048 1.757-2.03 2-3 .194-.776.84-1.551 1.79-2.21m11.654 5.997c.887-.457 1.28-.891 1.556-1.787 1.032.916 1.683 1.157 3 1-1.297-1.036-1.758-2.03-2-3-.5-2-4-4-8-4-.74 0-1.461.068-2.15.192" /> <line x1="2" x2="22" y1="2" y2="22" />`, opt)
+	return buildSVG(`<path d="M11.868 11.868a.88.88 0 01-.488.252c-1.78.28-3.54-.17-4.88-.62 0 1.272-.229 3.578-.653 5.347a10 10 0 01-.417 1.363c-.21.52-.82.55-1.17.12a10 10 0 01.677-13.393" /> <path d="M12.14 6.485a27.4 27.4 0 004.707-.638L20 9a7.23 7.23 0 011.706 7.05" /> <path d="m2 2 20 20" /> <path d="M20.707 20.707A1 1 0 0120 21h-1c-1.069 0-1.648.242-2.485.552A7.2 7.2 0 019.002 20l-3.155-3.153" /> <path d="M8.356 2.7a10 10 0 019.974 1.56c.43.35.4.97-.12 1.17a10 10 0 01-1.363.417" />`, opt)
 }
 
 // Octagon renders the "octagon" icon.
