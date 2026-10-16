@@ -344,6 +344,7 @@ func init() {
 	registerIcon("cat", Cat)
 	registerIcon("cctv", Cctv)
 	registerIcon("cctv-off", CctvOff)
+	registerIcon("certificate", Certificate)
 	registerIcon("chart-area", ChartArea)
 	registerIcon("area-chart", AreaChart)
 	registerIcon("chart-bar", ChartBar)
@@ -689,6 +690,10 @@ func init() {
 	registerIcon("egg", Egg)
 	registerIcon("egg-fried", EggFried)
 	registerIcon("egg-off", EggOff)
+	registerIcon("eighth-note", EighthNote)
+	registerIcon("music-2", Music2)
+	registerIcon("eighth-notes", EighthNotes)
+	registerIcon("music", Music)
 	registerIcon("eject", Eject)
 	registerIcon("ellipse", Ellipse)
 	registerIcon("ellipsis", Ellipsis)
@@ -956,6 +961,8 @@ func init() {
 	registerIcon("group", Group)
 	registerIcon("guitar", Guitar)
 	registerIcon("guitar-electric", GuitarElectric)
+	registerIcon("half-note", HalfNote)
+	registerIcon("music-3", Music3)
 	registerIcon("ham", Ham)
 	registerIcon("hamburger", Hamburger)
 	registerIcon("hammer", Hammer)
@@ -1307,10 +1314,6 @@ func init() {
 	registerIcon("move-up-left", MoveUpLeft)
 	registerIcon("move-up-right", MoveUpRight)
 	registerIcon("move-vertical", MoveVertical)
-	registerIcon("music", Music)
-	registerIcon("music-2", Music2)
-	registerIcon("music-3", Music3)
-	registerIcon("music-4", Music4)
 	registerIcon("navigation", Navigation)
 	registerIcon("navigation-2", Navigation2)
 	registerIcon("navigation-2-off", Navigation2Off)
@@ -1659,6 +1662,8 @@ func init() {
 	registerIcon("signpost", Signpost)
 	registerIcon("signpost-big", SignpostBig)
 	registerIcon("siren", Siren)
+	registerIcon("sixteenth-notes", SixteenthNotes)
+	registerIcon("music-4", Music4)
 	registerIcon("skip-back", SkipBack)
 	registerIcon("skip-forward", SkipForward)
 	registerIcon("skull", Skull)
@@ -5730,7 +5735,7 @@ func Barrel(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 3a41 41 0 000 18" /> <path d="M14 3a41 41 0 010 18" /> <path d="M16.997 21a2 2 0 001.68-.92 15.25 15.25 0 000-16.16 2 2 0 00-1.68-.92h-10a2 2 0 00-1.681.92 15.25 15.25 0 000 16.16 2 2 0 001.681.92z" /> <path d="M3.54 16h16.914" /> <path d="M3.54 8h16.914" />`, opt)
+	return buildSVG(`<path d="M10.5 2a34.5 34.5 0 000 20" /> <path d="M13.5 2a34.5 34.5 0 010 20" /> <path d="M4.67 17h14.67" /> <path d="M4.67 7h14.67" /> <path d="M6.23 3.06a19 19 0 000 17.88A2 2 0 008 22h8a2 2 0 001.77-1.06 19 19 0 000-17.88A2 2 0 0016 2H8a2 2 0 00-1.77 1.06" />`, opt)
 }
 
 // Baseline renders the "baseline" icon.
@@ -10177,6 +10182,30 @@ func CctvOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m12.309 6.652 4.797 2.401a1 1 0 0 1 .447 1.341l-.501 1.001.605.605h2.725a1 1 0 0 1 .894 1.447l-.724 1.448" /> <path d="m15.166 15.166-.719 1.439a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.9 2.9 0 0 1 .873-1.037" /> <path d="M2 19h3.76a2 2 0 0 0 1.8-1.1l1.441-2.902" /> <path d="m2 2 20 20" /> <path d="M2 21v-4" /> <path d="M7 9h.01" />`, opt)
+}
+
+// Certificate renders the "certificate" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "certificate" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Certificate()
+//	lucide.Certificate(lucide.Options{Size: 32, Class: "my-icon"})
+func Certificate(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 10H6" /> <path d="m20.69 15.479 1.29 4.88a.5.5 0 01-.698.591l-1.843-.849a1 1 0 00-.879.001l-1.846.85a.5.5 0 01-.692-.593l1.29-4.88" /> <path d="M22 6.675V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2h8" /> <path d="M6 14h4" /> <circle cx="19" cy="13" r="3" />`, opt)
 }
 
 // ChartArea renders the "chart-area" icon.
@@ -18117,6 +18146,90 @@ func EggOff(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m2 2 20 20" /> <path d="M20 14.347V14c0-6-4-12-8-12-1.078 0-2.157.436-3.157 1.19" /> <path d="M6.206 6.21C4.871 8.4 4 11.2 4 14a8 8 0 0 0 14.568 4.568" />`, opt)
 }
 
+// EighthNote renders the "eighth-note" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "eighth-note" }}
+//
+// Direct usage in Go:
+//
+//	lucide.EighthNote()
+//	lucide.EighthNote(lucide.Options{Size: 32, Class: "my-icon"})
+func EighthNote(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m19 6-5.2-3.9a.5.5 0 0 0-.8.4V18" /> <circle cx="9" cy="18" r="4" />`, opt)
+}
+
+// Music2 is an alias for EighthNote.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use EighthNote instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "music-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Music2()
+//	lucide.Music2(lucide.Options{Size: 32, Class: "my-icon"})
+func Music2(opts ...Options) template.HTML {
+	return EighthNote(opts...)
+}
+
+// EighthNotes renders the "eighth-notes" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "eighth-notes" }}
+//
+// Direct usage in Go:
+//
+//	lucide.EighthNotes()
+//	lucide.EighthNotes(lucide.Options{Size: 32, Class: "my-icon"})
+func EighthNotes(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 16V3a1 1 0 0 0-1.28-.96l-10 2.917a1 1 0 0 0-.72.96V19" /> <circle cx="18" cy="16" r="3" /> <circle cx="6" cy="19" r="3" />`, opt)
+}
+
+// Music is an alias for EighthNotes.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use EighthNotes instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "music" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Music()
+//	lucide.Music(lucide.Options{Size: 32, Class: "my-icon"})
+func Music(opts ...Options) template.HTML {
+	return EighthNotes(opts...)
+}
+
 // Eject renders the "eject" icon.
 //
 // Usage in templates:
@@ -24235,6 +24348,48 @@ func GuitarElectric(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m12.172 11.828 4.242-4.242" /> <path d="M16.414 7.586A2 2 0 0017 6.172V5a2 2 0 011.177-1.823L20.59 2.09a1 1 0 011.32 1.32l-1.088 2.412A2 2 0 0119 7h-1a2 2 0 00-1.586.586" /> <path d="m6 16 2 2" /> <path d="M8.23 9.85a3 3 0 011.28-1.454 1 1 0 011.496.815 4 4 0 003.783 3.783 1 1 0 01.815 1.496 3 3 0 01-1.454 1.28l-.92.38A2 2 0 0012 18a4 4 0 01-4 4 6 6 0 01-6-6 4 4 0 014-4 2 2 0 001.85-1.23z" />`, opt)
+}
+
+// HalfNote renders the "half-note" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "half-note" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HalfNote()
+//	lucide.HalfNote(lucide.Options{Size: 32, Class: "my-icon"})
+func HalfNote(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="18" r="4" /> <path d="M16 18V2" />`, opt)
+}
+
+// Music3 is an alias for HalfNote.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use HalfNote instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "music-3" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Music3()
+//	lucide.Music3(lucide.Options{Size: 32, Class: "my-icon"})
+func Music3(opts ...Options) template.HTML {
+	return HalfNote(opts...)
 }
 
 // Ham renders the "ham" icon.
@@ -32541,102 +32696,6 @@ func MoveVertical(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 2v20" /> <path d="m8 18 4 4 4-4" /> <path d="m8 6 4-4 4 4" />`, opt)
 }
 
-// Music renders the "music" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "music" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Music()
-//	lucide.Music(lucide.Options{Size: 32, Class: "my-icon"})
-func Music(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M9 18V5l12-2v13" /> <circle cx="6" cy="18" r="3" /> <circle cx="18" cy="16" r="3" />`, opt)
-}
-
-// Music2 renders the "music-2" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "music-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Music2()
-//	lucide.Music2(lucide.Options{Size: 32, Class: "my-icon"})
-func Music2(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<circle cx="8" cy="18" r="4" /> <path d="M12 18V2l7 4" />`, opt)
-}
-
-// Music3 renders the "music-3" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "music-3" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Music3()
-//	lucide.Music3(lucide.Options{Size: 32, Class: "my-icon"})
-func Music3(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<circle cx="12" cy="18" r="4" /> <path d="M16 18V2" />`, opt)
-}
-
-// Music4 renders the "music-4" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "music-4" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Music4()
-//	lucide.Music4(lucide.Options{Size: 32, Class: "my-icon"})
-func Music4(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M9 18V5l12-2v13" /> <path d="m9 9 12-2" /> <circle cx="6" cy="18" r="3" /> <circle cx="18" cy="16" r="3" />`, opt)
-}
-
 // Navigation renders the "navigation" icon.
 //
 // Usage in templates:
@@ -40843,6 +40902,48 @@ func Siren(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M7 18v-6a5 5 0 1 1 10 0v6" /> <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" /> <path d="M21 12h1" /> <path d="M18.5 4.5 18 5" /> <path d="M2 12h1" /> <path d="M12 2v1" /> <path d="m4.929 4.929.707.707" /> <path d="M12 12v6" />`, opt)
+}
+
+// SixteenthNotes renders the "sixteenth-notes" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "sixteenth-notes" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SixteenthNotes()
+//	lucide.SixteenthNotes(lucide.Options{Size: 32, Class: "my-icon"})
+func SixteenthNotes(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 16V3a1 1 0 0 0-1.28-.96l-10 2.917a1 1 0 0 0-.72.96V19" /> <path d="M21 6 9 9.5" /> <circle cx="18" cy="16" r="3" /> <circle cx="6" cy="19" r="3" />`, opt)
+}
+
+// Music4 is an alias for SixteenthNotes.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SixteenthNotes instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "music-4" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Music4()
+//	lucide.Music4(lucide.Options{Size: 32, Class: "my-icon"})
+func Music4(opts ...Options) template.HTML {
+	return SixteenthNotes(opts...)
 }
 
 // SkipBack renders the "skip-back" icon.
