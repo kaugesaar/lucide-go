@@ -213,7 +213,6 @@ func init() {
 	registerIcon("bluetooth-connected", BluetoothConnected)
 	registerIcon("bluetooth-off", BluetoothOff)
 	registerIcon("bluetooth-searching", BluetoothSearching)
-	registerIcon("bold", Bold)
 	registerIcon("bolt", Bolt)
 	registerIcon("bomb", Bomb)
 	registerIcon("bone", Bone)
@@ -364,6 +363,7 @@ func init() {
 	registerIcon("chart-bar-decreasing", ChartBarDecreasing)
 	registerIcon("chart-bar-increasing", ChartBarIncreasing)
 	registerIcon("chart-bar-stacked", ChartBarStacked)
+	registerIcon("chart-bell-curve", ChartBellCurve)
 	registerIcon("chart-candlestick", ChartCandlestick)
 	registerIcon("candlestick-chart", CandlestickChart)
 	registerIcon("chart-column", ChartColumn)
@@ -472,13 +472,41 @@ func init() {
 	registerIcon("circle-fading-plus", CircleFadingPlus)
 	registerIcon("circle-gauge", CircleGauge)
 	registerIcon("gauge-circle", GaugeCircle)
+	registerIcon("circle-letter-a", CircleLetterA)
+	registerIcon("circle-letter-b", CircleLetterB)
+	registerIcon("circle-letter-c", CircleLetterC)
+	registerIcon("copyright", Copyright)
+	registerIcon("circle-letter-d", CircleLetterD)
+	registerIcon("circle-letter-e", CircleLetterE)
+	registerIcon("circle-letter-f", CircleLetterF)
+	registerIcon("circle-letter-g", CircleLetterG)
+	registerIcon("circle-letter-h", CircleLetterH)
+	registerIcon("circle-letter-i", CircleLetterI)
+	registerIcon("circle-letter-j", CircleLetterJ)
+	registerIcon("circle-letter-k", CircleLetterK)
+	registerIcon("circle-letter-l", CircleLetterL)
+	registerIcon("circle-letter-m", CircleLetterM)
+	registerIcon("circle-letter-n", CircleLetterN)
+	registerIcon("circle-letter-o", CircleLetterO)
+	registerIcon("circle-letter-p", CircleLetterP)
+	registerIcon("parking-circle", ParkingCircle)
+	registerIcon("circle-parking", CircleParking)
+	registerIcon("circle-letter-p-off", CircleLetterPOff)
+	registerIcon("parking-circle-off", ParkingCircleOff)
+	registerIcon("circle-parking-off", CircleParkingOff)
+	registerIcon("circle-letter-q", CircleLetterQ)
+	registerIcon("circle-letter-r", CircleLetterR)
+	registerIcon("circle-letter-s", CircleLetterS)
+	registerIcon("circle-letter-t", CircleLetterT)
+	registerIcon("circle-letter-u", CircleLetterU)
+	registerIcon("circle-letter-v", CircleLetterV)
+	registerIcon("circle-letter-w", CircleLetterW)
+	registerIcon("circle-letter-x", CircleLetterX)
+	registerIcon("circle-letter-y", CircleLetterY)
+	registerIcon("circle-letter-z", CircleLetterZ)
 	registerIcon("circle-minus", CircleMinus)
 	registerIcon("minus-circle", MinusCircle)
 	registerIcon("circle-off", CircleOff)
-	registerIcon("circle-parking", CircleParking)
-	registerIcon("parking-circle", ParkingCircle)
-	registerIcon("circle-parking-off", CircleParkingOff)
-	registerIcon("parking-circle-off", ParkingCircleOff)
 	registerIcon("circle-pause", CirclePause)
 	registerIcon("pause-circle", PauseCircle)
 	registerIcon("circle-percent", CirclePercent)
@@ -610,7 +638,6 @@ func init() {
 	registerIcon("copy-slash", CopySlash)
 	registerIcon("copy-x", CopyX)
 	registerIcon("copyleft", Copyleft)
-	registerIcon("copyright", Copyright)
 	registerIcon("corner-down-left", CornerDownLeft)
 	registerIcon("corner-down-right", CornerDownRight)
 	registerIcon("corner-left-down", CornerLeftDown)
@@ -784,6 +811,7 @@ func init() {
 	registerIcon("file-code-2", FileCode2)
 	registerIcon("file-cog", FileCog)
 	registerIcon("file-cog-2", FileCog2)
+	registerIcon("file-database", FileDatabase)
 	registerIcon("file-diff", FileDiff)
 	registerIcon("file-digit", FileDigit)
 	registerIcon("file-down", FileDown)
@@ -1009,7 +1037,6 @@ func init() {
 	registerIcon("haze", Haze)
 	registerIcon("hd", Hd)
 	registerIcon("hdmi-port", HdmiPort)
-	registerIcon("heading", Heading)
 	registerIcon("heading-1", Heading1)
 	registerIcon("heading-2", Heading2)
 	registerIcon("heading-3", Heading3)
@@ -1126,7 +1153,35 @@ func init() {
 	registerIcon("lens", Lens)
 	registerIcon("lens-concave", LensConcave)
 	registerIcon("lens-convex", LensConvex)
+	registerIcon("letter-a", LetterA)
+	registerIcon("letter-b", LetterB)
+	registerIcon("bold", Bold)
+	registerIcon("letter-c", LetterC)
+	registerIcon("letter-d", LetterD)
+	registerIcon("letter-e", LetterE)
+	registerIcon("letter-f", LetterF)
+	registerIcon("letter-g", LetterG)
+	registerIcon("letter-h", LetterH)
+	registerIcon("heading", Heading)
+	registerIcon("letter-i", LetterI)
+	registerIcon("letter-j", LetterJ)
+	registerIcon("letter-k", LetterK)
+	registerIcon("letter-l", LetterL)
+	registerIcon("letter-m", LetterM)
+	registerIcon("letter-n", LetterN)
+	registerIcon("letter-o", LetterO)
+	registerIcon("letter-p", LetterP)
+	registerIcon("letter-q", LetterQ)
+	registerIcon("letter-r", LetterR)
+	registerIcon("letter-s", LetterS)
 	registerIcon("letter-spacing", LetterSpacing)
+	registerIcon("letter-t", LetterT)
+	registerIcon("letter-u", LetterU)
+	registerIcon("letter-v", LetterV)
+	registerIcon("letter-w", LetterW)
+	registerIcon("letter-x", LetterX)
+	registerIcon("letter-y", LetterY)
+	registerIcon("letter-z", LetterZ)
 	registerIcon("letters", Letters)
 	registerIcon("library", Library)
 	registerIcon("library-big", LibraryBig)
@@ -1226,6 +1281,13 @@ func init() {
 	registerIcon("map-pin-x-inside", MapPinXInside)
 	registerIcon("map-pinned", MapPinned)
 	registerIcon("map-plus", MapPlus)
+	registerIcon("margin", Margin)
+	registerIcon("margin-bottom", MarginBottom)
+	registerIcon("margin-horizontal", MarginHorizontal)
+	registerIcon("margin-left", MarginLeft)
+	registerIcon("margin-right", MarginRight)
+	registerIcon("margin-top", MarginTop)
+	registerIcon("margin-vertical", MarginVertical)
 	registerIcon("mars", Mars)
 	registerIcon("mars-stroke", MarsStroke)
 	registerIcon("martini", Martini)
@@ -1292,6 +1354,7 @@ func init() {
 	registerIcon("mirror-rectangular", MirrorRectangular)
 	registerIcon("mirror-round", MirrorRound)
 	registerIcon("monitor", Monitor)
+	registerIcon("monitor-activity", MonitorActivity)
 	registerIcon("monitor-check", MonitorCheck)
 	registerIcon("monitor-cloud", MonitorCloud)
 	registerIcon("monitor-cog", MonitorCog)
@@ -1356,6 +1419,7 @@ func init() {
 	registerIcon("notebook-text", NotebookText)
 	registerIcon("notepad-text", NotepadText)
 	registerIcon("notepad-text-dashed", NotepadTextDashed)
+	registerIcon("numbers", Numbers)
 	registerIcon("nut", Nut)
 	registerIcon("nut-off", NutOff)
 	registerIcon("octagon", Octagon)
@@ -1813,10 +1877,42 @@ func init() {
 	registerIcon("function-square", FunctionSquare)
 	registerIcon("square-kanban", SquareKanban)
 	registerIcon("kanban-square", KanbanSquare)
+	registerIcon("square-kanban-plus", SquareKanbanPlus)
+	registerIcon("square-letter-a", SquareLetterA)
+	registerIcon("square-letter-b", SquareLetterB)
+	registerIcon("square-letter-c", SquareLetterC)
+	registerIcon("square-letter-d", SquareLetterD)
+	registerIcon("square-letter-e", SquareLetterE)
+	registerIcon("square-letter-f", SquareLetterF)
+	registerIcon("square-letter-g", SquareLetterG)
+	registerIcon("square-letter-h", SquareLetterH)
+	registerIcon("square-letter-i", SquareLetterI)
+	registerIcon("square-letter-j", SquareLetterJ)
+	registerIcon("square-letter-k", SquareLetterK)
+	registerIcon("square-letter-l", SquareLetterL)
+	registerIcon("square-letter-m", SquareLetterM)
+	registerIcon("m-square", MSquare)
+	registerIcon("square-m", SquareM)
+	registerIcon("square-letter-n", SquareLetterN)
+	registerIcon("square-letter-o", SquareLetterO)
+	registerIcon("square-letter-p", SquareLetterP)
+	registerIcon("parking-square", ParkingSquare)
+	registerIcon("square-parking", SquareParking)
+	registerIcon("square-letter-p-off", SquareLetterPOff)
+	registerIcon("parking-square-off", ParkingSquareOff)
+	registerIcon("square-parking-off", SquareParkingOff)
+	registerIcon("square-letter-q", SquareLetterQ)
+	registerIcon("square-letter-r", SquareLetterR)
+	registerIcon("square-letter-s", SquareLetterS)
+	registerIcon("square-letter-t", SquareLetterT)
+	registerIcon("square-letter-u", SquareLetterU)
+	registerIcon("square-letter-v", SquareLetterV)
+	registerIcon("square-letter-w", SquareLetterW)
+	registerIcon("square-letter-x", SquareLetterX)
+	registerIcon("square-letter-y", SquareLetterY)
+	registerIcon("square-letter-z", SquareLetterZ)
 	registerIcon("square-library", SquareLibrary)
 	registerIcon("library-square", LibrarySquare)
-	registerIcon("square-m", SquareM)
-	registerIcon("m-square", MSquare)
 	registerIcon("square-menu", SquareMenu)
 	registerIcon("menu-square", MenuSquare)
 	registerIcon("square-minus", SquareMinus)
@@ -1824,10 +1920,13 @@ func init() {
 	registerIcon("square-mouse-pointer", SquareMousePointer)
 	registerIcon("inspect", Inspect)
 	registerIcon("square-off", SquareOff)
-	registerIcon("square-parking", SquareParking)
-	registerIcon("parking-square", ParkingSquare)
-	registerIcon("square-parking-off", SquareParkingOff)
-	registerIcon("parking-square-off", ParkingSquareOff)
+	registerIcon("square-padding", SquarePadding)
+	registerIcon("square-padding-bottom", SquarePaddingBottom)
+	registerIcon("square-padding-horizontal", SquarePaddingHorizontal)
+	registerIcon("square-padding-left", SquarePaddingLeft)
+	registerIcon("square-padding-right", SquarePaddingRight)
+	registerIcon("square-padding-top", SquarePaddingTop)
+	registerIcon("square-padding-vertical", SquarePaddingVertical)
 	registerIcon("square-pause", SquarePause)
 	registerIcon("square-pen", SquarePen)
 	registerIcon("pen-box", PenBox)
@@ -7098,30 +7197,6 @@ func BluetoothSearching(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m7 7 10 10-5 5V2l5 5L7 17" /> <path d="M20.83 14.83a4 4 0 0 0 0-5.66" /> <path d="M18 12h.01" />`, opt)
 }
 
-// Bold renders the "bold" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "bold" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Bold()
-//	lucide.Bold(lucide.Options{Size: 32, Class: "my-icon"})
-func Bold(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8" />`, opt)
-}
-
 // Bolt renders the "bolt" icon.
 //
 // Usage in templates:
@@ -10674,6 +10749,30 @@ func ChartBarStacked(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11 13v4" /> <path d="M15 5v4" /> <path d="M3 3v16a2 2 0 0 0 2 2h16" /> <rect x="7" y="13" width="9" height="4" rx="1" /> <rect x="7" y="5" width="12" height="4" rx="1" />`, opt)
 }
 
+// ChartBellCurve renders the "chart-bell-curve" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chart-bell-curve" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChartBellCurve()
+//	lucide.ChartBellCurve(lucide.Options{Size: 32, Class: "my-icon"})
+func ChartBellCurve(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3 3v16a2 2 0 0 0 2 2h16" /> <path d="M7 16c3.5 0 2.5-10 6-10s2.5 10 6 10" />`, opt)
+}
+
 // ChartCandlestick renders the "chart-candlestick" icon.
 //
 // Usage in templates:
@@ -13104,6 +13203,740 @@ func GaugeCircle(opts ...Options) template.HTML {
 	return CircleGauge(opts...)
 }
 
+// CircleLetterA renders the "circle-letter-a" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-a" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterA()
+//	lucide.CircleLetterA(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterA(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 14H9" /> <circle cx="12" cy="12" r="10" /> <path d="m8 16 3.453-7.648a.6.6 0 0 1 1.094 0L16 16" />`, opt)
+}
+
+// CircleLetterB renders the "circle-letter-b" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-b" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterB()
+//	lucide.CircleLetterB(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterB(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 12h4.846a2.24 2.24 0 011.523.586 2 2 0 01.001 2.828 2.24 2.24 0 01-1.524.586H9.5a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5H13a2 2 0 010 4" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterC renders the "circle-letter-c" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-c" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterC()
+//	lucide.CircleLetterC(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterC(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 9.354a4 4 0 1 0 0 5.292" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// Copyright is an alias for CircleLetterC.
+//
+// Usage in templates:
+//
+//	{{ lucide "copyright" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Copyright()
+//	lucide.Copyright(lucide.Options{Size: 32, Class: "my-icon"})
+func Copyright(opts ...Options) template.HTML {
+	return CircleLetterC(opts...)
+}
+
+// CircleLetterD renders the "circle-letter-d" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterD()
+//	lucide.CircleLetterD(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterD(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8a4 4 0 010 8H9.412A.41.41 0 019 15.588V8.412A.41.41 0 019.412 8z" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterE renders the "circle-letter-e" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-e" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterE()
+//	lucide.CircleLetterE(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterE(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8H9.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H15" /> <path d="M9 12h4" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterF renders the "circle-letter-f" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-f" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterF()
+//	lucide.CircleLetterF(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterF(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8.5a.5.5 0 0 1 .5-.5H15" /> <path d="M9 12h4" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterG renders the "circle-letter-g" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-g" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterG()
+//	lucide.CircleLetterG(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterG(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.5 12H15v2.268a.88.88 0 01-.263.65A4 4 0 1112 8h2.5" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterH renders the "circle-letter-h" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-h" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterH()
+//	lucide.CircleLetterH(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterH(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8" /> <path d="M15 16V8" /> <path d="M9 12h6" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterI renders the "circle-letter-i" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-i" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterI()
+//	lucide.CircleLetterI(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterI(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 16V8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterJ renders the "circle-letter-j" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-j" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterJ()
+//	lucide.CircleLetterJ(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterJ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8v5a3 3 0 1 1-6 0" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterK renders the "circle-letter-k" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-k" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterK()
+//	lucide.CircleLetterK(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterK(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8" /> <path d="m11 12 4 4" /> <path d="m15 8-6 6" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterL renders the "circle-letter-l" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-l" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterL()
+//	lucide.CircleLetterL(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterL(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 8v7.5a.5.5 0 0 0 .5.5H15" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterM renders the "circle-letter-m" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-m" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterM()
+//	lucide.CircleLetterM(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterM(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M8 16.001v-7.5a.5.5 0 0 1 .9-.3l2.7 3.599a.5.5 0 0 0 .8 0l2.7-3.6a.5.5 0 0 1 .9.3v7.501" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterN renders the "circle-letter-n" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-n" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterN()
+//	lucide.CircleLetterN(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterN(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8.576a.496.496 0 01.937-.243l4.126 7.43A.496.496 0 0015 15.52V8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterO renders the "circle-letter-o" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-o" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterO()
+//	lucide.CircleLetterO(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterO(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="4" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterP renders the "circle-letter-p" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-p" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterP()
+//	lucide.CircleLetterP(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterP(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 12h4a2 2 0 0 0 0-4H9.5a.5.5 0 0 0-.5.5V16" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// ParkingCircle is an alias for CircleLetterP.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleLetterP instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingCircle()
+//	lucide.ParkingCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingCircle(opts ...Options) template.HTML {
+	return CircleLetterP(opts...)
+}
+
+// CircleParking is an alias for CircleLetterP.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleLetterP instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-parking" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleParking()
+//	lucide.CircleParking(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleParking(opts ...Options) template.HTML {
+	return CircleLetterP(opts...)
+}
+
+// CircleLetterPOff renders the "circle-letter-p-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-p-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterPOff()
+//	lucide.CircleLetterPOff(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterPOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12h1a2 2 0 000-4H9.5a.5.5 0 00-.5.5V9" /> <path d="M15.652 21.31A10 10 0 012.691 8.348" /> <path d="M22 22 2 2" /> <path d="M4.929 4.929a10 10 0 0116.729 4.483 10 10 0 01-2.588 9.658" /> <path d="M9 14.657V16" />`, opt)
+}
+
+// ParkingCircleOff is an alias for CircleLetterPOff.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleLetterPOff instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-circle-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingCircleOff()
+//	lucide.ParkingCircleOff(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingCircleOff(opts ...Options) template.HTML {
+	return CircleLetterPOff(opts...)
+}
+
+// CircleParkingOff is an alias for CircleLetterPOff.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleLetterPOff instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-parking-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleParkingOff()
+//	lucide.CircleParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleParkingOff(opts ...Options) template.HTML {
+	return CircleLetterPOff(opts...)
+}
+
+// CircleLetterQ renders the "circle-letter-q" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-q" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterQ()
+//	lucide.CircleLetterQ(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterQ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="4" /> <path d="m16 16-2.5-2.5" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterR renders the "circle-letter-r" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-r" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterR()
+//	lucide.CircleLetterR(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterR(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m11 12 4 4" /> <path d="M9 12h4a2 2 0 0 0 0-4H9.5a.5.5 0 0 0-.5.5V16" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterS renders the "circle-letter-s" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-s" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterS()
+//	lucide.CircleLetterS(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterS(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14.5 8H11a2 2 0 100 4h2a2 2 0 110 4H9" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterT renders the "circle-letter-t" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-t" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterT()
+//	lucide.CircleLetterT(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterT(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 16V8" /> <path d="M9 8h6" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterU renders the "circle-letter-u" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-u" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterU()
+//	lucide.CircleLetterU(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterU(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8v5a3 3 0 1 1-6 0V8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterV renders the "circle-letter-v" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-v" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterV()
+//	lucide.CircleLetterV(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterV(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m9 8 2.525 7.66a.5.5 0 0 0 .95 0L15 8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterW renders the "circle-letter-w" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-w" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterW()
+//	lucide.CircleLetterW(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterW(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m16 8-1.591 7.598a.497.497 0 01-.97.038l-.96-3.276a.5.5 0 00-.959 0l-.96 3.276a.496.496 0 01-.969-.038L8 8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterX renders the "circle-letter-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterX()
+//	lucide.CircleLetterX(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m9 16 6-8" /> <path d="m9 8 6 8" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterY renders the "circle-letter-y" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-y" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterY()
+//	lucide.CircleLetterY(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterY(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m9 8 3 4 3-4" /> <path d="M12 12v4" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
+// CircleLetterZ renders the "circle-letter-z" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-letter-z" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleLetterZ()
+//	lucide.CircleLetterZ(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleLetterZ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 8h5.501a.5.5 0 0 1 .37.836L9.13 15.164A.5.5 0 0 0 9.5 16H15" /> <circle cx="12" cy="12" r="10" />`, opt)
+}
+
 // CircleMinus renders the "circle-minus" icon.
 //
 // Usage in templates:
@@ -13168,90 +14001,6 @@ func CircleOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m2 2 20 20" /> <path d="M8.35 2.69A10 10 0 0 1 21.3 15.65" /> <path d="M19.08 19.08A10 10 0 1 1 4.92 4.92" />`, opt)
-}
-
-// CircleParking renders the "circle-parking" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-parking" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleParking()
-//	lucide.CircleParking(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleParking(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M9 17V7h4a3 3 0 0 1 0 6H9" />`, opt)
-}
-
-// ParkingCircle is an alias for CircleParking.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleParking instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "parking-circle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ParkingCircle()
-//	lucide.ParkingCircle(lucide.Options{Size: 32, Class: "my-icon"})
-func ParkingCircle(opts ...Options) template.HTML {
-	return CircleParking(opts...)
-}
-
-// CircleParkingOff renders the "circle-parking-off" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-parking-off" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleParkingOff()
-//	lucide.CircleParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleParkingOff(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12.656 7H13a3 3 0 0 1 2.984 3.307" /> <path d="M13 13H9" /> <path d="M19.071 19.071A1 1 0 0 1 4.93 4.93" /> <path d="m2 2 20 20" /> <path d="M8.357 2.687a10 10 0 0 1 12.956 12.956" /> <path d="M9 17V9" />`, opt)
-}
-
-// ParkingCircleOff is an alias for CircleParkingOff.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleParkingOff instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "parking-circle-off" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ParkingCircleOff()
-//	lucide.ParkingCircleOff(lucide.Options{Size: 32, Class: "my-icon"})
-func ParkingCircleOff(opts ...Options) template.HTML {
-	return CircleParkingOff(opts...)
 }
 
 // CirclePause renders the "circle-pause" icon.
@@ -16266,30 +17015,6 @@ func Copyleft(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M9.17 14.83a4 4 0 1 0 0-5.66" />`, opt)
 }
 
-// Copyright renders the "copyright" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "copyright" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Copyright()
-//	lucide.Copyright(lucide.Options{Size: 32, Class: "my-icon"})
-func Copyright(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M14.83 14.83a4 4 0 1 1 0-5.66" />`, opt)
-}
-
 // CornerDownLeft renders the "corner-down-left" icon.
 //
 // Usage in templates:
@@ -17889,7 +18614,7 @@ func DollarSign(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<line x1="12" x2="12" y1="2" y2="22" /> <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />`, opt)
+	return buildSVG(`<path d="M12 3v18" /> <path d="M17 5H9.5a1 1 0 000 7h5a1 1 0 010 7H6" />`, opt)
 }
 
 // Dome renders the "dome" icon.
@@ -20296,6 +21021,30 @@ func FileCog(opts ...Options) template.HTML {
 //	lucide.FileCog2(lucide.Options{Size: 32, Class: "my-icon"})
 func FileCog2(opts ...Options) template.HTML {
 	return FileCog(opts...)
+}
+
+// FileDatabase renders the "file-database" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "file-database" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FileDatabase()
+//	lucide.FileDatabase(lucide.Options{Size: 32, Class: "my-icon"})
+func FileDatabase(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12v8a5 2 0 01-10 0v-8" /> <path d="M12 16a5 2 0 01-10 0" /> <path d="M14 2v5a1 1 0 001 1h5" /> <path d="M4 6.3V4a2 2 0 012-2h8a2.4 2.4 0 011.706.706l3.588 3.588A2.4 2.4 0 0120 8v12a2 2 0 01-2 2h-2.43" /> <ellipse cx="7" cy="12" rx="5" ry="2" />`, opt)
 }
 
 // FileDiff renders the "file-diff" icon.
@@ -23601,7 +24350,7 @@ func GeorgianLari(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M11.5 21a7.5 7.5 0 1 1 7.35-9" /> <path d="M13 12V3" /> <path d="M4 21h16" /> <path d="M9 12V3" />`, opt)
+	return buildSVG(`<path d="M10 10V3" /> <path d="M14 10V3" /> <path d="M19 13a7 7 0 10-7 7" /> <path d="M5 20h14" />`, opt)
 }
 
 // Germ renders the "germ" icon.
@@ -25512,30 +26261,6 @@ func HdmiPort(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z" /> <path d="M8 12h8" />`, opt)
 }
 
-// Heading renders the "heading" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "heading" }}
-//
-// Direct usage in Go:
-//
-//	lucide.Heading()
-//	lucide.Heading(lucide.Options{Size: 32, Class: "my-icon"})
-func Heading(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M6 12h12" /> <path d="M6 20V4" /> <path d="M18 20V4" />`, opt)
-}
-
 // Heading1 renders the "heading-1" icon.
 //
 // Usage in templates:
@@ -26859,7 +27584,7 @@ func IndianRupee(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M6 3h12" /> <path d="M6 8h12" /> <path d="m6 13 8.5 8" /> <path d="M6 13h3" /> <path d="M9 13c6.667 0 6.667-10 0-10" />`, opt)
+	return buildSVG(`<path d="m14 20-8-8h4c5.333 0 5.333-8 0-8" /> <path d="M6 4h12" /> <path d="M6 8h12" />`, opt)
 }
 
 // Infinity renders the "infinity" icon.
@@ -27051,7 +27776,7 @@ func JapaneseYen(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 9.5V21m0-11.5L6 3m6 6.5L18 3" /> <path d="M6 15h12" /> <path d="M6 11h12" />`, opt)
+	return buildSVG(`<path d="M12 12v8" /> <path d="m6 4 6 8 6-8" /> <path d="M8 13h8" /> <path d="M8 17h8" />`, opt)
 }
 
 // Joystick renders the "joystick" icon.
@@ -28290,6 +29015,490 @@ func LensConvex(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M13.433 2a1 1 0 0 1 .824.448 18 18 0 0 1 0 19.104 1 1 0 0 1-.824.448h-2.866a1 1 0 0 1-.824-.448 18 18 0 0 1 0-19.104A1 1 0 0 1 10.567 2z" />`, opt)
 }
 
+// LetterA renders the "letter-a" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-a" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterA()
+//	lucide.LetterA(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterA(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M17.117 14H6.883" /> <path d="m4 20 7.55-15.712a.5.5 0 01.9 0L20 20" />`, opt)
+}
+
+// LetterB renders the "letter-b" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-b" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterB()
+//	lucide.LetterB(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterB(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 12h9a4 4 0 010 8H7a1 1 0 01-1-1V5a1 1 0 011-1h7a4 4 0 010 8" />`, opt)
+}
+
+// Bold is an alias for LetterB.
+//
+// Usage in templates:
+//
+//	{{ lucide "bold" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Bold()
+//	lucide.Bold(lucide.Options{Size: 32, Class: "my-icon"})
+func Bold(opts ...Options) template.HTML {
+	return LetterB(opts...)
+}
+
+// LetterC renders the "letter-c" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-c" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterC()
+//	lucide.LetterC(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterC(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M19 6.708a8 8 0 100 10.584" />`, opt)
+}
+
+// LetterD renders the "letter-d" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterD()
+//	lucide.LetterD(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterD(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 4a8 8 0 010 16H6.406A.406.406 0 016 19.594V4.406A.406.406 0 016.406 4z" />`, opt)
+}
+
+// LetterE renders the "letter-e" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-e" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterE()
+//	lucide.LetterE(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterE(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M18 4H7a1 1 0 00-1 1v14a1 1 0 001 1h11" /> <path d="M6 12h8" />`, opt)
+}
+
+// LetterF renders the "letter-f" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-f" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterF()
+//	lucide.LetterF(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterF(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 12h8" /> <path d="M6 20V5a1 1 0 011-1h11" />`, opt)
+}
+
+// LetterG renders the "letter-g" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-g" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterG()
+//	lucide.LetterG(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterG(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M19 6.708a8 8 0 10-.526 11.126c.355-.333.526-.811.526-1.299V13a1 1 0 00-1-1h-4" />`, opt)
+}
+
+// LetterH renders the "letter-h" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-h" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterH()
+//	lucide.LetterH(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterH(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M18 20V4" /> <path d="M6 12H18" /> <path d="M6 20V4" />`, opt)
+}
+
+// Heading is an alias for LetterH.
+//
+// Usage in templates:
+//
+//	{{ lucide "heading" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Heading()
+//	lucide.Heading(lucide.Options{Size: 32, Class: "my-icon"})
+func Heading(opts ...Options) template.HTML {
+	return LetterH(opts...)
+}
+
+// LetterI renders the "letter-i" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-i" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterI()
+//	lucide.LetterI(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterI(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 20V4" />`, opt)
+}
+
+// LetterJ renders the "letter-j" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-j" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterJ()
+//	lucide.LetterJ(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterJ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M17 4v11a5 5 0 01-10 0" />`, opt)
+}
+
+// LetterK renders the "letter-k" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-k" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterK()
+//	lucide.LetterK(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterK(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M17 4 6 15" /> <path d="M6 20V4" /> <path d="m9 12 8 8" />`, opt)
+}
+
+// LetterL renders the "letter-l" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-l" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterL()
+//	lucide.LetterL(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterL(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 4v15a1 1 0 001 1h11" />`, opt)
+}
+
+// LetterM renders the "letter-m" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-m" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterM()
+//	lucide.LetterM(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterM(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 20V4.253a.25.25 0 01.454-.144l6.727 9.467a1 1 0 001.63 0l6.735-9.468a.25.25 0 01.454.145V20" />`, opt)
+}
+
+// LetterN renders the "letter-n" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-n" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterN()
+//	lucide.LetterN(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterN(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 20V4.25a.25.25 0 01.455-.143l11.09 15.786a.25.25 0 00.455-.144V4" />`, opt)
+}
+
+// LetterO renders the "letter-o" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-o" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterO()
+//	lucide.LetterO(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterO(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="8" />`, opt)
+}
+
+// LetterP renders the "letter-p" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-p" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterP()
+//	lucide.LetterP(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterP(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 12h8a4 4 0 000-8H7a1 1 0 00-1 1v15" />`, opt)
+}
+
+// LetterQ renders the "letter-q" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-q" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterQ()
+//	lucide.LetterQ(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterQ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="8" /> <path d="M20 20L15 15" />`, opt)
+}
+
+// LetterR renders the "letter-r" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-r" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterR()
+//	lucide.LetterR(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterR(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m10 12 8 8" /> <path d="M6 12h8a4 4 0 000-8H7a1 1 0 00-1 1v15" />`, opt)
+}
+
+// LetterS renders the "letter-s" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-s" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterS()
+//	lucide.LetterS(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterS(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M17 4h-7a4 4 0 000 8h4a4 4 0 010 8H6" />`, opt)
+}
+
 // LetterSpacing renders the "letter-spacing" icon.
 //
 // Usage in templates:
@@ -28312,6 +29521,174 @@ func LetterSpacing(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M15 14H9" /> <path d="M21 3v18" /> <path d="M3 3v18" /> <path d="m8 16 3.453-7.648a.6.6 0 011.094.001L16 16" />`, opt)
+}
+
+// LetterT renders the "letter-t" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-t" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterT()
+//	lucide.LetterT(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterT(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 20V4" /> <path d="M5 4h14" />`, opt)
+}
+
+// LetterU renders the "letter-u" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-u" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterU()
+//	lucide.LetterU(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterU(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 4v10a6 6 0 0012 0V4" />`, opt)
+}
+
+// LetterV renders the "letter-v" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-v" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterV()
+//	lucide.LetterV(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterV(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m6 4 5.765 15.835a.25.25 0 00.47 0L18 4" />`, opt)
+}
+
+// LetterW renders the "letter-w" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-w" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterW()
+//	lucide.LetterW(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterW(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m21 4-4.794 15.821a.25.25 0 01-.471.021l-3.503-8.685a.25.25 0 00-.464 0l-3.503 8.685a.25.25 0 01-.47-.021L3 4" />`, opt)
+}
+
+// LetterX renders the "letter-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterX()
+//	lucide.LetterX(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M18 4 6 20" /> <path d="m6 4 12 16" />`, opt)
+}
+
+// LetterY renders the "letter-y" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-y" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterY()
+//	lucide.LetterY(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterY(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12v8" /> <path d="m6 4 6 8 6-8" />`, opt)
+}
+
+// LetterZ renders the "letter-z" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "letter-z" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LetterZ()
+//	lucide.LetterZ(lucide.Options{Size: 32, Class: "my-icon"})
+func LetterZ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M6 4h11.5a.5.5 0 01.387.817L6.114 19.183a.5.5 0 00.387.817H18" />`, opt)
 }
 
 // Letters renders the "letters" icon.
@@ -30636,6 +32013,174 @@ func MapPlus(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m11 19-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12" /> <path d="M15 5.764V12" /> <path d="M18 15v6" /> <path d="M21 18h-6" /> <path d="M9 3.236v15" />`, opt)
 }
 
+// Margin renders the "margin" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Margin()
+//	lucide.Margin(lucide.Options{Size: 32, Class: "my-icon"})
+func Margin(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M21 6v12" /> <path d="M3 6v12" /> <path d="M6 21h12" /> <path d="M6 3h12" />`, opt)
+}
+
+// MarginBottom renders the "margin-bottom" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin-bottom" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MarginBottom()
+//	lucide.MarginBottom(lucide.Options{Size: 32, Class: "my-icon"})
+func MarginBottom(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M3 21h18" />`, opt)
+}
+
+// MarginHorizontal renders the "margin-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MarginHorizontal()
+//	lucide.MarginHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func MarginHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M21 3v18" /> <path d="M3 3v18" />`, opt)
+}
+
+// MarginLeft renders the "margin-left" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MarginLeft()
+//	lucide.MarginLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func MarginLeft(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M3 3v18" />`, opt)
+}
+
+// MarginRight renders the "margin-right" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MarginRight()
+//	lucide.MarginRight(lucide.Options{Size: 32, Class: "my-icon"})
+func MarginRight(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M21 3v18" />`, opt)
+}
+
+// MarginTop renders the "margin-top" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin-top" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MarginTop()
+//	lucide.MarginTop(lucide.Options{Size: 32, Class: "my-icon"})
+func MarginTop(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M3 3h18" />`, opt)
+}
+
+// MarginVertical renders the "margin-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "margin-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MarginVertical()
+//	lucide.MarginVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func MarginVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="9" y="9" width="6" height="6" rx="1" /> <path d="M3 21h18" /> <path d="M3 3h18" />`, opt)
+}
+
 // Mars renders the "mars" icon.
 //
 // Usage in templates:
@@ -32202,6 +33747,30 @@ func Monitor(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="20" height="14" x="2" y="3" rx="2" /> <line x1="8" x2="16" y1="21" y2="21" /> <line x1="12" x2="12" y1="17" y2="21" />`, opt)
 }
 
+// MonitorActivity renders the "monitor-activity" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "monitor-activity" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MonitorActivity()
+//	lucide.MonitorActivity(lucide.Options{Size: 32, Class: "my-icon"})
+func MonitorActivity(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 17v4" /> <path d="M18 10h-2.315a1 1 0 00-.932.64l-.787 2.034a.5.5 0 01-.932 0l-2.068-5.348a.5.5 0 00-.932 0l-.787 2.035a1 1 0 01-.932.639H6" /> <path d="M8 21h8" /> <rect x="2" y="3" width="20" height="14" rx="2" />`, opt)
+}
+
 // MonitorCheck renders the "monitor-check" icon.
 //
 // Usage in templates:
@@ -33465,7 +35034,7 @@ func NepaliRupee(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M18 16.173 A4.74 4.74 0 0 0 13.496 8.005" /> <path d="M4 3 L20 3" /> <path d="M5 13 L13.5 21" /> <path d="M5 13 L9 13" /> <path d="M8 13 C15.5 13 14.667 3 8 3" />`, opt)
+	return buildSVG(`<path d="m14 20-8-8h4c5.333 0 5.333-8 0-8" /> <path d="M14 8c4.078 0 5.038 4.678 2.88 6.88" /> <path d="M6 4h12" />`, opt)
 }
 
 // Network renders the "network" icon.
@@ -33730,6 +35299,30 @@ func NotepadTextDashed(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M8 2v4" /> <path d="M12 2v4" /> <path d="M16 2v4" /> <path d="M16 4h2a2 2 0 0 1 2 2v2" /> <path d="M20 12v2" /> <path d="M20 18v2a2 2 0 0 1-2 2h-1" /> <path d="M13 22h-2" /> <path d="M7 22H6a2 2 0 0 1-2-2v-2" /> <path d="M4 14v-2" /> <path d="M4 8V6a2 2 0 0 1 2-2h2" /> <path d="M8 10h6" /> <path d="M8 14h8" /> <path d="M8 18h5" />`, opt)
+}
+
+// Numbers renders the "numbers" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "numbers" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Numbers()
+//	lucide.Numbers(lucide.Options{Size: 32, Class: "my-icon"})
+func Numbers(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m10 4 2.6-1.95a.25.25 0 01.4.2V10" /> <path d="M16 14.535A4 4 0 0118 14a2 2 0 010 4 2 2 0 010 4 4 4 0 01-2-.535" /> <path d="M8 22H4.5a.5.5 0 01-.5-.5c0-2.68 4-2.932 4-5.5a2 2 0 00-2-2 2.5 2.5 0 00-2 1" />`, opt)
 }
 
 // Nut renders the "nut" icon.
@@ -35685,7 +37278,7 @@ func PhilippinePeso(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M20 11H4" /> <path d="M20 7H4" /> <path d="M7 21V4a1 1 0 0 1 1-1h4a1 1 0 0 1 0 12H7" />`, opt)
+	return buildSVG(`<path d="M4 12h16" /> <path d="M4 8h16" /> <path d="M6 20V5a1 1 0 011-1h5a6 6 0 010 12H6" />`, opt)
 }
 
 // Phone renders the "phone" icon.
@@ -36735,7 +38328,7 @@ func PoundSterling(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M18 7c0-5.333-8-5.333-8 0" /> <path d="M10 7v14" /> <path d="M6 21h12" /> <path d="M6 13h10" />`, opt)
+	return buildSVG(`<path d="M17 18a2 2 0 01-2 2H5a3 3 0 003-3V8a4 4 0 018 0" /> <path d="M6 12h7" />`, opt)
 }
 
 // Power renders the "power" icon.
@@ -38937,7 +40530,7 @@ func RussianRuble(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M6 11h8a4 4 0 0 0 0-8H9v18" /> <path d="M6 15h8" />`, opt)
+	return buildSVG(`<path d="M4 16h6" /> <path d="M7 20V5a1 1 0 011-1h6a4 4 0 010 8H4" />`, opt)
 }
 
 // Sailboat renders the "sailboat" icon.
@@ -39081,7 +40674,7 @@ func SaudiRiyal(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m20 19.5-5.5 1.2" /> <path d="M14.5 4v11.22a1 1 0 0 0 1.242.97L20 15.2" /> <path d="m2.978 19.351 5.549-1.363A2 2 0 0 0 10 16V2" /> <path d="M20 10 4 13.5" />`, opt)
+	return buildSVG(`<path d="M10 2.977v13.19a2 2 0 01-1.23 1.846L4 19.999" /> <path d="M14 4v9.523a1 1 0 001.371.928L19 13" /> <path d="m19 18-5 2" /> <path d="M19 8 4 14" />`, opt)
 }
 
 // Save renders the "save" icon.
@@ -44316,6 +45909,786 @@ func KanbanSquare(opts ...Options) template.HTML {
 	return SquareKanban(opts...)
 }
 
+// SquareKanbanPlus renders the "square-kanban-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-kanban-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareKanbanPlus()
+//	lucide.SquareKanbanPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareKanbanPlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 7v4" /> <path d="M12.354 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v7.354" /> <path d="M15 18h6" /> <path d="M16 7v4.536" /> <path d="M18 21v-6" /> <path d="M8 7v7" />`, opt)
+}
+
+// SquareLetterA renders the "square-letter-a" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-a" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterA()
+//	lucide.SquareLetterA(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterA(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m8 16 3.453-7.648a.6.6 0 0 1 1.094 0L16 16" /> <path d="M15 14H9" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterB renders the "square-letter-b" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-b" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterB()
+//	lucide.SquareLetterB(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterB(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 12h4.846a2.24 2.24 0 011.523.586 2 2 0 01.001 2.828 2.24 2.24 0 01-1.524.586H9.5a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5H13a2 2 0 010 4" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// SquareLetterC renders the "square-letter-c" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-c" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterC()
+//	lucide.SquareLetterC(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterC(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 9.354a4 4 0 1 0 0 5.292" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterD renders the "square-letter-d" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterD()
+//	lucide.SquareLetterD(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterD(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8a4 4 0 010 8H9.412A.41.41 0 019 15.588V8.412A.41.41 0 019.412 8z" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterE renders the "square-letter-e" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-e" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterE()
+//	lucide.SquareLetterE(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterE(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8H9.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H15" /> <path d="M9 12h4" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterF renders the "square-letter-f" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-f" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterF()
+//	lucide.SquareLetterF(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterF(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8.5a.5.5 0 0 1 .5-.5H15" /> <path d="M9 12h4" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterG renders the "square-letter-g" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-g" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterG()
+//	lucide.SquareLetterG(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterG(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.5 12H15v2.268a.88.88 0 01-.263.65A4 4 0 1112 8h2.5" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterH renders the "square-letter-h" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-h" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterH()
+//	lucide.SquareLetterH(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterH(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8" /> <path d="M15 16V8" /> <path d="M9 12h6" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterI renders the "square-letter-i" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-i" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterI()
+//	lucide.SquareLetterI(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterI(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 16V8" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterJ renders the "square-letter-j" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-j" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterJ()
+//	lucide.SquareLetterJ(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterJ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8v5a3 3 0 1 1-6 0" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterK renders the "square-letter-k" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-k" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterK()
+//	lucide.SquareLetterK(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterK(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8" /> <path d="m11 12 4 4" /> <path d="m15 8-6 6" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterL renders the "square-letter-l" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-l" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterL()
+//	lucide.SquareLetterL(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterL(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 8v7.5a.5.5 0 0 0 .5.5H15" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterM renders the "square-letter-m" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-m" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterM()
+//	lucide.SquareLetterM(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterM(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M8 16.001v-7.5a.5.5 0 0 1 .9-.3l2.7 3.599a.5.5 0 0 0 .8 0l2.7-3.6a.5.5 0 0 1 .9.3v7.501" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// MSquare is an alias for SquareLetterM.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLetterM instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "m-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MSquare()
+//	lucide.MSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func MSquare(opts ...Options) template.HTML {
+	return SquareLetterM(opts...)
+}
+
+// SquareM is an alias for SquareLetterM.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLetterM instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-m" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareM()
+//	lucide.SquareM(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareM(opts ...Options) template.HTML {
+	return SquareLetterM(opts...)
+}
+
+// SquareLetterN renders the "square-letter-n" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-n" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterN()
+//	lucide.SquareLetterN(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterN(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 16V8.576a.496.496 0 01.937-.243l4.126 7.43A.496.496 0 0015 15.52V8" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// SquareLetterO renders the "square-letter-o" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-o" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterO()
+//	lucide.SquareLetterO(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterO(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="4" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterP renders the "square-letter-p" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-p" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterP()
+//	lucide.SquareLetterP(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterP(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 12h4a2 2 0 0 0 0-4H9.5a.5.5 0 0 0-.5.5V16" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// ParkingSquare is an alias for SquareLetterP.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLetterP instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingSquare()
+//	lucide.ParkingSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingSquare(opts ...Options) template.HTML {
+	return SquareLetterP(opts...)
+}
+
+// SquareParking is an alias for SquareLetterP.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLetterP instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-parking" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareParking()
+//	lucide.SquareParking(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareParking(opts ...Options) template.HTML {
+	return SquareLetterP(opts...)
+}
+
+// SquareLetterPOff renders the "square-letter-p-off" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-p-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterPOff()
+//	lucide.SquareLetterPOff(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterPOff(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12h1a2 2 0 000-4H9.5a.5.5 0 00-.5.5V9" /> <path d="M15.343 21H5a2 2 0 01-2-2V8.657" /> <path d="M22 22 2 2" /> <path d="M3.586 3.586A2 2 0 015 3h14a2 2 0 012 2v14a2 2 0 01-.586 1.414" /> <path d="M9 14.657V16" />`, opt)
+}
+
+// ParkingSquareOff is an alias for SquareLetterPOff.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLetterPOff instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "parking-square-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ParkingSquareOff()
+//	lucide.ParkingSquareOff(lucide.Options{Size: 32, Class: "my-icon"})
+func ParkingSquareOff(opts ...Options) template.HTML {
+	return SquareLetterPOff(opts...)
+}
+
+// SquareParkingOff is an alias for SquareLetterPOff.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareLetterPOff instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-parking-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareParkingOff()
+//	lucide.SquareParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareParkingOff(opts ...Options) template.HTML {
+	return SquareLetterPOff(opts...)
+}
+
+// SquareLetterQ renders the "square-letter-q" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-q" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterQ()
+//	lucide.SquareLetterQ(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterQ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="4" /> <path d="m16 16-2.5-2.5" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterR renders the "square-letter-r" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-r" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterR()
+//	lucide.SquareLetterR(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterR(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m11 12 4 4" /> <path d="M9 12h4a2 2 0 0 0 0-4H9.5a.5.5 0 0 0-.5.5V16" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterS renders the "square-letter-s" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-s" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterS()
+//	lucide.SquareLetterS(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterS(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14.5 8H11a2 2 0 100 4h2a2 2 0 110 4H9" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// SquareLetterT renders the "square-letter-t" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-t" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterT()
+//	lucide.SquareLetterT(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterT(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 16V8" /> <path d="M9 8h6" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// SquareLetterU renders the "square-letter-u" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-u" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterU()
+//	lucide.SquareLetterU(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterU(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 8v5a3 3 0 1 1-6 0V8" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterV renders the "square-letter-v" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-v" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterV()
+//	lucide.SquareLetterV(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterV(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m9 8 2.525 7.66a.5.5 0 0 0 .95 0L15 8" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterW renders the "square-letter-w" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-w" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterW()
+//	lucide.SquareLetterW(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterW(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m16 8-1.591 7.598a.497.497 0 01-.97.038l-.96-3.276a.5.5 0 00-.959 0l-.96 3.276a.496.496 0 01-.969-.038L8 8" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// SquareLetterX renders the "square-letter-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterX()
+//	lucide.SquareLetterX(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m9 16 6-8" /> <path d="m9 8 6 8" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
+}
+
+// SquareLetterY renders the "square-letter-y" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-y" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterY()
+//	lucide.SquareLetterY(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterY(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m9 8 3 4 3-4" /> <path d="M12 12v4" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
+// SquareLetterZ renders the "square-letter-z" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-letter-z" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareLetterZ()
+//	lucide.SquareLetterZ(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareLetterZ(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M9 8h5.501a.5.5 0 0 1 .37.836L9.13 15.164A.5.5 0 0 0 9.5 16H15" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+}
+
 // SquareLibrary renders the "square-library" icon.
 //
 // Usage in templates:
@@ -44356,48 +46729,6 @@ func SquareLibrary(opts ...Options) template.HTML {
 //	lucide.LibrarySquare(lucide.Options{Size: 32, Class: "my-icon"})
 func LibrarySquare(opts ...Options) template.HTML {
 	return SquareLibrary(opts...)
-}
-
-// SquareM renders the "square-m" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-m" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareM()
-//	lucide.SquareM(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareM(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M8 16V8.5a.5.5 0 0 1 .9-.3l2.7 3.599a.5.5 0 0 0 .8 0l2.7-3.6a.5.5 0 0 1 .9.3V16" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
-}
-
-// MSquare is an alias for SquareM.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareM instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "m-square" }}
-//
-// Direct usage in Go:
-//
-//	lucide.MSquare()
-//	lucide.MSquare(lucide.Options{Size: 32, Class: "my-icon"})
-func MSquare(opts ...Options) template.HTML {
-	return SquareM(opts...)
 }
 
 // SquareMenu renders the "square-menu" icon.
@@ -44550,17 +46881,17 @@ func SquareOff(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41" /> <path d="M21 15.3V5a2 2 0 00-2-2H8.7" /> <path d="M22 22 2 2" />`, opt)
 }
 
-// SquareParking renders the "square-parking" icon.
+// SquarePadding renders the "square-padding" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "square-parking" }}
+//	{{ lucide "square-padding" }}
 //
 // Direct usage in Go:
 //
-//	lucide.SquareParking()
-//	lucide.SquareParking(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareParking(opts ...Options) template.HTML {
+//	lucide.SquarePadding()
+//	lucide.SquarePadding(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePadding(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -44571,38 +46902,20 @@ func SquareParking(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M9 17V7h4a3 3 0 0 1 0 6H9" />`, opt)
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M14 17h-4" /> <path d="M14 7h-4" /> <path d="M17 14v-4" /> <path d="M7 14v-4" />`, opt)
 }
 
-// ParkingSquare is an alias for SquareParking.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareParking instead.
+// SquarePaddingBottom renders the "square-padding-bottom" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "parking-square" }}
+//	{{ lucide "square-padding-bottom" }}
 //
 // Direct usage in Go:
 //
-//	lucide.ParkingSquare()
-//	lucide.ParkingSquare(lucide.Options{Size: 32, Class: "my-icon"})
-func ParkingSquare(opts ...Options) template.HTML {
-	return SquareParking(opts...)
-}
-
-// SquareParkingOff renders the "square-parking-off" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-parking-off" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareParkingOff()
-//	lucide.SquareParkingOff(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareParkingOff(opts ...Options) template.HTML {
+//	lucide.SquarePaddingBottom()
+//	lucide.SquarePaddingBottom(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePaddingBottom(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -44613,25 +46926,127 @@ func SquareParkingOff(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M3.6 3.6A2 2 0 0 1 5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-.59 1.41" /> <path d="M3 8.7V19a2 2 0 0 0 2 2h10.3" /> <path d="m2 2 20 20" /> <path d="M13 13a3 3 0 1 0 0-6H9v2" /> <path d="M9 17v-2.3" />`, opt)
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M8 17h8" />`, opt)
 }
 
-// ParkingSquareOff is an alias for SquareParkingOff.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareParkingOff instead.
+// SquarePaddingHorizontal renders the "square-padding-horizontal" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "parking-square-off" }}
+//	{{ lucide "square-padding-horizontal" }}
 //
 // Direct usage in Go:
 //
-//	lucide.ParkingSquareOff()
-//	lucide.ParkingSquareOff(lucide.Options{Size: 32, Class: "my-icon"})
-func ParkingSquareOff(opts ...Options) template.HTML {
-	return SquareParkingOff(opts...)
+//	lucide.SquarePaddingHorizontal()
+//	lucide.SquarePaddingHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePaddingHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M17 16V8" /> <path d="M7 16V8" />`, opt)
+}
+
+// SquarePaddingLeft renders the "square-padding-left" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-padding-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquarePaddingLeft()
+//	lucide.SquarePaddingLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePaddingLeft(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M7 16V8" />`, opt)
+}
+
+// SquarePaddingRight renders the "square-padding-right" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-padding-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquarePaddingRight()
+//	lucide.SquarePaddingRight(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePaddingRight(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M17 16V8" />`, opt)
+}
+
+// SquarePaddingTop renders the "square-padding-top" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-padding-top" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquarePaddingTop()
+//	lucide.SquarePaddingTop(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePaddingTop(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M8 7h8" />`, opt)
+}
+
+// SquarePaddingVertical renders the "square-padding-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-padding-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquarePaddingVertical()
+//	lucide.SquarePaddingVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func SquarePaddingVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M8 17h8" /> <path d="M8 7h8" />`, opt)
 }
 
 // SquarePause renders the "square-pause" icon.
@@ -46587,7 +49002,7 @@ func SwissFranc(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 21V3h8" /> <path d="M6 16h9" /> <path d="M10 9.5h7" />`, opt)
+	return buildSVG(`<path d="M10 10h7" /> <path d="M10 20V5a1 1 0 011-1h7" /> <path d="M6 16h9" />`, opt)
 }
 
 // SwitchCamera renders the "switch-camera" icon.
@@ -49455,7 +51870,7 @@ func TurkishLira(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 4 5 9" /> <path d="m15 8.5-10 5" /> <path d="M18 12a9 9 0 0 1-9 9V3" />`, opt)
+	return buildSVG(`<path d="m14 10-8 4" /> <path d="M14 5 6 9" /> <path d="M18 12a8 8 0 01-7.003 7.937c-.547.07-.997-.385-.997-.937V4" />`, opt)
 }
 
 // Turntable renders the "turntable" icon.
