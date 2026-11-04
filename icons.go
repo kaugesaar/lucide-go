@@ -130,12 +130,13 @@ func init() {
 	registerIcon("backpack", Backpack)
 	registerIcon("bacon", Bacon)
 	registerIcon("badge", Badge)
-	registerIcon("badge-alert", BadgeAlert)
 	registerIcon("badge-cent", BadgeCent)
 	registerIcon("badge-check", BadgeCheck)
 	registerIcon("verified", Verified)
 	registerIcon("badge-dollar-sign", BadgeDollarSign)
 	registerIcon("badge-euro", BadgeEuro)
+	registerIcon("badge-exclamation-point", BadgeExclamationPoint)
+	registerIcon("badge-alert", BadgeAlert)
 	registerIcon("badge-indian-rupee", BadgeIndianRupee)
 	registerIcon("badge-info", BadgeInfo)
 	registerIcon("badge-japanese-yen", BadgeJapaneseYen)
@@ -167,11 +168,12 @@ func init() {
 	registerIcon("bath", Bath)
 	registerIcon("battery", Battery)
 	registerIcon("battery-charging", BatteryCharging)
+	registerIcon("battery-exclamation-point", BatteryExclamationPoint)
+	registerIcon("battery-warning", BatteryWarning)
 	registerIcon("battery-full", BatteryFull)
 	registerIcon("battery-low", BatteryLow)
 	registerIcon("battery-medium", BatteryMedium)
 	registerIcon("battery-plus", BatteryPlus)
-	registerIcon("battery-warning", BatteryWarning)
 	registerIcon("beaker", Beaker)
 	registerIcon("bean", Bean)
 	registerIcon("bean-off", BeanOff)
@@ -219,7 +221,6 @@ func init() {
 	registerIcon("bone-fracture", BoneFracture)
 	registerIcon("book", Book)
 	registerIcon("book-a", BookA)
-	registerIcon("book-alert", BookAlert)
 	registerIcon("book-audio", BookAudio)
 	registerIcon("book-bookmark", BookBookmark)
 	registerIcon("book-marked", BookMarked)
@@ -228,6 +229,8 @@ func init() {
 	registerIcon("book-dashed", BookDashed)
 	registerIcon("book-template", BookTemplate)
 	registerIcon("book-down", BookDown)
+	registerIcon("book-exclamation-point", BookExclamationPoint)
+	registerIcon("book-alert", BookAlert)
 	registerIcon("book-headphones", BookHeadphones)
 	registerIcon("book-heart", BookHeart)
 	registerIcon("book-image", BookImage)
@@ -423,8 +426,6 @@ func init() {
 	registerIcon("cigarette", Cigarette)
 	registerIcon("cigarette-off", CigaretteOff)
 	registerIcon("circle", Circle)
-	registerIcon("circle-alert", CircleAlert)
-	registerIcon("alert-circle", AlertCircle)
 	registerIcon("circle-arrow-down", CircleArrowDown)
 	registerIcon("arrow-down-circle", ArrowDownCircle)
 	registerIcon("circle-arrow-left", CircleArrowLeft)
@@ -467,6 +468,9 @@ func init() {
 	registerIcon("circle-ellipsis", CircleEllipsis)
 	registerIcon("circle-equal", CircleEqual)
 	registerIcon("circle-euro", CircleEuro)
+	registerIcon("circle-exclamation-point", CircleExclamationPoint)
+	registerIcon("alert-circle", AlertCircle)
+	registerIcon("circle-alert", CircleAlert)
 	registerIcon("circle-fading-arrow-up", CircleFadingArrowUp)
 	registerIcon("circle-fading-play", CircleFadingPlay)
 	registerIcon("circle-fading-plus", CircleFadingPlus)
@@ -568,23 +572,25 @@ func init() {
 	registerIcon("clock-7", Clock7)
 	registerIcon("clock-8", Clock8)
 	registerIcon("clock-9", Clock9)
-	registerIcon("clock-alert", ClockAlert)
 	registerIcon("clock-arrow-down", ClockArrowDown)
 	registerIcon("clock-arrow-left", ClockArrowLeft)
 	registerIcon("clock-arrow-right", ClockArrowRight)
 	registerIcon("clock-arrow-up", ClockArrowUp)
 	registerIcon("clock-check", ClockCheck)
+	registerIcon("clock-exclamation-point", ClockExclamationPoint)
+	registerIcon("clock-alert", ClockAlert)
 	registerIcon("clock-fading", ClockFading)
 	registerIcon("clock-plus", ClockPlus)
 	registerIcon("closed-caption", ClosedCaption)
 	registerIcon("cloud", Cloud)
-	registerIcon("cloud-alert", CloudAlert)
 	registerIcon("cloud-backup", CloudBackup)
 	registerIcon("cloud-check", CloudCheck)
 	registerIcon("cloud-cog", CloudCog)
 	registerIcon("cloud-download", CloudDownload)
 	registerIcon("download-cloud", DownloadCloud)
 	registerIcon("cloud-drizzle", CloudDrizzle)
+	registerIcon("cloud-exclamation-point", CloudExclamationPoint)
+	registerIcon("cloud-alert", CloudAlert)
 	registerIcon("cloud-fog", CloudFog)
 	registerIcon("cloud-hail", CloudHail)
 	registerIcon("cloud-lightning", CloudLightning)
@@ -681,6 +687,8 @@ func init() {
 	registerIcon("decimals-arrow-right", DecimalsArrowRight)
 	registerIcon("delete", Delete)
 	registerIcon("dessert", Dessert)
+	registerIcon("diagram-flow-horizontal", DiagramFlowHorizontal)
+	registerIcon("diagram-flow-vertical", DiagramFlowVertical)
 	registerIcon("diameter", Diameter)
 	registerIcon("diamond", Diamond)
 	registerIcon("diamond-minus", DiamondMinus)
@@ -980,10 +988,12 @@ func init() {
 	registerIcon("glass-water", GlassWater)
 	registerIcon("glasses", Glasses)
 	registerIcon("globe", Globe)
+	registerIcon("globe-ban", GlobeBan)
 	registerIcon("globe-check", GlobeCheck)
 	registerIcon("globe-code", GlobeCode)
 	registerIcon("globe-lock", GlobeLock)
 	registerIcon("globe-off", GlobeOff)
+	registerIcon("globe-plus", GlobePlus)
 	registerIcon("globe-x", GlobeX)
 	registerIcon("goal", Goal)
 	registerIcon("gpu", Gpu)
@@ -1252,6 +1262,9 @@ func init() {
 	registerIcon("mail-check", MailCheck)
 	registerIcon("mail-clock", MailClock)
 	registerIcon("mail-dot", MailDot)
+	registerIcon("mail-exclamation-point", MailExclamationPoint)
+	registerIcon("mail-warning", MailWarning)
+	registerIcon("mail-alert", MailAlert)
 	registerIcon("mail-minus", MailMinus)
 	registerIcon("mail-open", MailOpen)
 	registerIcon("mail-pen", MailPen)
@@ -1259,10 +1272,10 @@ func init() {
 	registerIcon("mail-question-mark", MailQuestionMark)
 	registerIcon("mail-question", MailQuestion)
 	registerIcon("mail-search", MailSearch)
-	registerIcon("mail-warning", MailWarning)
 	registerIcon("mail-x", MailX)
 	registerIcon("mailbox", Mailbox)
 	registerIcon("mails", Mails)
+	registerIcon("mango", Mango)
 	registerIcon("map", Map)
 	registerIcon("map-minus", MapMinus)
 	registerIcon("map-pin", MapPin)
@@ -1304,6 +1317,9 @@ func init() {
 	registerIcon("message-circle-code", MessageCircleCode)
 	registerIcon("message-circle-dashed", MessageCircleDashed)
 	registerIcon("message-circle-dashed-check", MessageCircleDashedCheck)
+	registerIcon("message-circle-exclamation-point", MessageCircleExclamationPoint)
+	registerIcon("message-circle-warning", MessageCircleWarning)
+	registerIcon("message-circle-alert", MessageCircleAlert)
 	registerIcon("message-circle-heart", MessageCircleHeart)
 	registerIcon("message-circle-more", MessageCircleMore)
 	registerIcon("message-circle-off", MessageCircleOff)
@@ -1312,7 +1328,6 @@ func init() {
 	registerIcon("message-circle-question", MessageCircleQuestion)
 	registerIcon("message-circle-reply", MessageCircleReply)
 	registerIcon("message-circle-text", MessageCircleText)
-	registerIcon("message-circle-warning", MessageCircleWarning)
 	registerIcon("message-circle-x", MessageCircleX)
 	registerIcon("message-square", MessageSquare)
 	registerIcon("message-square-check", MessageSquareCheck)
@@ -1320,6 +1335,9 @@ func init() {
 	registerIcon("message-square-dashed", MessageSquareDashed)
 	registerIcon("message-square-diff", MessageSquareDiff)
 	registerIcon("message-square-dot", MessageSquareDot)
+	registerIcon("message-square-exclamation-point", MessageSquareExclamationPoint)
+	registerIcon("message-square-warning", MessageSquareWarning)
+	registerIcon("message-square-alert", MessageSquareAlert)
 	registerIcon("message-square-heart", MessageSquareHeart)
 	registerIcon("message-square-lock", MessageSquareLock)
 	registerIcon("message-square-more", MessageSquareMore)
@@ -1329,7 +1347,6 @@ func init() {
 	registerIcon("message-square-reply", MessageSquareReply)
 	registerIcon("message-square-share", MessageSquareShare)
 	registerIcon("message-square-text", MessageSquareText)
-	registerIcon("message-square-warning", MessageSquareWarning)
 	registerIcon("message-square-x", MessageSquareX)
 	registerIcon("messages-circle", MessagesCircle)
 	registerIcon("messages-square", MessagesSquare)
@@ -1423,8 +1440,9 @@ func init() {
 	registerIcon("nut", Nut)
 	registerIcon("nut-off", NutOff)
 	registerIcon("octagon", Octagon)
-	registerIcon("octagon-alert", OctagonAlert)
+	registerIcon("octagon-exclamation-point", OctagonExclamationPoint)
 	registerIcon("alert-octagon", AlertOctagon)
+	registerIcon("octagon-alert", OctagonAlert)
 	registerIcon("octagon-minus", OctagonMinus)
 	registerIcon("octagon-pause", OctagonPause)
 	registerIcon("pause-octagon", PauseOctagon)
@@ -1680,9 +1698,10 @@ func init() {
 	registerIcon("scroll", Scroll)
 	registerIcon("scroll-text", ScrollText)
 	registerIcon("search", Search)
-	registerIcon("search-alert", SearchAlert)
 	registerIcon("search-check", SearchCheck)
 	registerIcon("search-code", SearchCode)
+	registerIcon("search-exclamation-point", SearchExclamationPoint)
+	registerIcon("search-alert", SearchAlert)
 	registerIcon("search-slash", SearchSlash)
 	registerIcon("search-x", SearchX)
 	registerIcon("section", Section)
@@ -1707,12 +1726,13 @@ func init() {
 	registerIcon("shell", Shell)
 	registerIcon("shelving-unit", ShelvingUnit)
 	registerIcon("shield", Shield)
-	registerIcon("shield-alert", ShieldAlert)
 	registerIcon("shield-ban", ShieldBan)
 	registerIcon("shield-check", ShieldCheck)
 	registerIcon("shield-cog", ShieldCog)
 	registerIcon("shield-cog-corner", ShieldCogCorner)
 	registerIcon("shield-ellipsis", ShieldEllipsis)
+	registerIcon("shield-exclamation-point", ShieldExclamationPoint)
+	registerIcon("shield-alert", ShieldAlert)
 	registerIcon("shield-half", ShieldHalf)
 	registerIcon("shield-house", ShieldHouse)
 	registerIcon("shield-keyhole", ShieldKeyhole)
@@ -2123,9 +2143,10 @@ func init() {
 	registerIcon("trending-up", TrendingUp)
 	registerIcon("trending-up-down", TrendingUpDown)
 	registerIcon("triangle", Triangle)
-	registerIcon("triangle-alert", TriangleAlert)
-	registerIcon("alert-triangle", AlertTriangle)
 	registerIcon("triangle-dashed", TriangleDashed)
+	registerIcon("triangle-exclamation-point", TriangleExclamationPoint)
+	registerIcon("alert-triangle", AlertTriangle)
+	registerIcon("triangle-alert", TriangleAlert)
 	registerIcon("triangle-right", TriangleRight)
 	registerIcon("triangles-centerline-dashed-horizontal", TrianglesCenterlineDashedHorizontal)
 	registerIcon("flip-horizontal-2", FlipHorizontal2)
@@ -5229,30 +5250,6 @@ func Badge(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />`, opt)
 }
 
-// BadgeAlert renders the "badge-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "badge-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.BadgeAlert()
-//	lucide.BadgeAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func BadgeAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <line x1="12" x2="12" y1="8" y2="12" /> <line x1="12" x2="12.01" y1="16" y2="16" />`, opt)
-}
-
 // BadgeCent renders the "badge-cent" icon.
 //
 // Usage in templates:
@@ -5365,6 +5362,44 @@ func BadgeEuro(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <path d="M7 12h5" /> <path d="M15 9.4a4 4 0 1 0 0 5.2" />`, opt)
+}
+
+// BadgeExclamationPoint renders the "badge-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "badge-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BadgeExclamationPoint()
+//	lucide.BadgeExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func BadgeExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <line x1="12" x2="12" y1="8" y2="12" /> <line x1="12" x2="12.01" y1="16" y2="16" />`, opt)
+}
+
+// BadgeAlert is an alias for BadgeExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "badge-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BadgeAlert()
+//	lucide.BadgeAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func BadgeAlert(opts ...Options) template.HTML {
+	return BadgeExclamationPoint(opts...)
 }
 
 // BadgeIndianRupee renders the "badge-indian-rupee" icon.
@@ -6105,6 +6140,44 @@ func BatteryCharging(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m11 7-3 5h4l-3 5" /> <path d="M14.856 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.935" /> <path d="M22 14v-4" /> <path d="M5.14 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.936" />`, opt)
 }
 
+// BatteryExclamationPoint renders the "battery-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "battery-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BatteryExclamationPoint()
+//	lucide.BatteryExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func BatteryExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 17h.01" /> <path d="M10 7v6" /> <path d="M14 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" /> <path d="M22 14v-4" /> <path d="M6 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2" />`, opt)
+}
+
+// BatteryWarning is an alias for BatteryExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "battery-warning" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BatteryWarning()
+//	lucide.BatteryWarning(lucide.Options{Size: 32, Class: "my-icon"})
+func BatteryWarning(opts ...Options) template.HTML {
+	return BatteryExclamationPoint(opts...)
+}
+
 // BatteryFull renders the "battery-full" icon.
 //
 // Usage in templates:
@@ -6199,30 +6272,6 @@ func BatteryPlus(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10 9v6" /> <path d="M12.543 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.605" /> <path d="M22 14v-4" /> <path d="M7 12h6" /> <path d="M7.606 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.606" />`, opt)
-}
-
-// BatteryWarning renders the "battery-warning" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "battery-warning" }}
-//
-// Direct usage in Go:
-//
-//	lucide.BatteryWarning()
-//	lucide.BatteryWarning(lucide.Options{Size: 32, Class: "my-icon"})
-func BatteryWarning(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M10 17h.01" /> <path d="M10 7v6" /> <path d="M14 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" /> <path d="M22 14v-4" /> <path d="M6 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2" />`, opt)
 }
 
 // Beaker renders the "beaker" icon.
@@ -7341,30 +7390,6 @@ func BookA(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" /> <path d="m8 13 4-7 4 7" /> <path d="M9.1 11h5.7" />`, opt)
 }
 
-// BookAlert renders the "book-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "book-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.BookAlert()
-//	lucide.BookAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func BookAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 13h.01" /> <path d="M12 6v3" /> <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />`, opt)
-}
-
 // BookAudio renders the "book-audio" icon.
 //
 // Usage in templates:
@@ -7543,6 +7568,44 @@ func BookDown(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 13V7" /> <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" /> <path d="m9 10 3 3 3-3" />`, opt)
+}
+
+// BookExclamationPoint renders the "book-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "book-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BookExclamationPoint()
+//	lucide.BookExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func BookExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 13h.01" /> <path d="M12 6v3" /> <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />`, opt)
+}
+
+// BookAlert is an alias for BookExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "book-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BookAlert()
+//	lucide.BookAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func BookAlert(opts ...Options) template.HTML {
+	return BookExclamationPoint(opts...)
 }
 
 // BookHeadphones renders the "book-headphones" icon.
@@ -11502,7 +11565,7 @@ func ChefHat(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z" /> <path d="M6 17h12" />`, opt)
+	return buildSVG(`<path d="M10 11v5" /> <path d="M14 11v5" /> <path d="M6 12.65c0-.457-.316-.844-.727-1.041A4 4 0 017.52 4.034a1.53 1.53 0 001.367-.547 4 4 0 016.225 0 1.53 1.53 0 001.367.547 4 4 0 012.248 7.575c-.411.197-.727.584-.727 1.04V19a2 2 0 01-2 2H8a2 2 0 01-2-2z" /> <path d="M6 16h12" />`, opt)
 }
 
 // Cherry renders the "cherry" icon.
@@ -12127,48 +12190,6 @@ func Circle(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="12" cy="12" r="10" />`, opt)
-}
-
-// CircleAlert renders the "circle-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleAlert()
-//	lucide.CircleAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<circle cx="12" cy="12" r="10" /> <line x1="12" x2="12" y1="8" y2="12" /> <line x1="12" x2="12.01" y1="16" y2="16" />`, opt)
-}
-
-// AlertCircle is an alias for CircleAlert.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleAlert instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "alert-circle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.AlertCircle()
-//	lucide.AlertCircle(lucide.Options{Size: 32, Class: "my-icon"})
-func AlertCircle(opts ...Options) template.HTML {
-	return CircleAlert(opts...)
 }
 
 // CircleArrowDown renders the "circle-arrow-down" icon.
@@ -13089,6 +13110,62 @@ func CircleEuro(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M15 9.4a4 4 0 1 0 0 5.2" /> <path d="M7 12h5" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
+// CircleExclamationPoint renders the "circle-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleExclamationPoint()
+//	lucide.CircleExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="12" cy="12" r="10" /> <line x1="12" x2="12" y1="8" y2="12" /> <line x1="12" x2="12.01" y1="16" y2="16" />`, opt)
+}
+
+// AlertCircle is an alias for CircleExclamationPoint.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleExclamationPoint instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alert-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlertCircle()
+//	lucide.AlertCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func AlertCircle(opts ...Options) template.HTML {
+	return CircleExclamationPoint(opts...)
+}
+
+// CircleAlert is an alias for CircleExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleAlert()
+//	lucide.CircleAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleAlert(opts ...Options) template.HTML {
+	return CircleExclamationPoint(opts...)
+}
+
 // CircleFadingArrowUp renders the "circle-fading-arrow-up" icon.
 //
 // Usage in templates:
@@ -13454,7 +13531,7 @@ func CircleLetterJ(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 8v5a3 3 0 1 1-6 0" /> <circle cx="12" cy="12" r="10" />`, opt)
+	return buildSVG(`<path d="M14 8v5.5a1 1 0 01-5 0V13" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
 // CircleLetterK renders the "circle-letter-k" icon.
@@ -15383,30 +15460,6 @@ func Clock9(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M12 6v6H8" />`, opt)
 }
 
-// ClockAlert renders the "clock-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "clock-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ClockAlert()
-//	lucide.ClockAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func ClockAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 6v6l4 2" /> <path d="M20 12v5" /> <path d="M20 21h.01" /> <path d="M21.25 8.2A10 10 0 1 0 16 21.16" />`, opt)
-}
-
 // ClockArrowDown renders the "clock-arrow-down" icon.
 //
 // Usage in templates:
@@ -15527,6 +15580,44 @@ func ClockCheck(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M21.95 13a10 10 0 1 0-8.685 8.92" /> <path d="M12 6v6l4 2" /> <path d="m16 19 2 2 4-4" />`, opt)
 }
 
+// ClockExclamationPoint renders the "clock-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "clock-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ClockExclamationPoint()
+//	lucide.ClockExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func ClockExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 6v6l4 2" /> <path d="M20 12v5" /> <path d="M20 21h.01" /> <path d="M21.25 8.2A10 10 0 1 0 16 21.16" />`, opt)
+}
+
+// ClockAlert is an alias for ClockExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "clock-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ClockAlert()
+//	lucide.ClockAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func ClockAlert(opts ...Options) template.HTML {
+	return ClockExclamationPoint(opts...)
+}
+
 // ClockFading renders the "clock-fading" icon.
 //
 // Usage in templates:
@@ -15621,30 +15712,6 @@ func Cloud(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />`, opt)
-}
-
-// CloudAlert renders the "cloud-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "cloud-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CloudAlert()
-//	lucide.CloudAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func CloudAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 12v4" /> <path d="M12 20h.01" /> <path d="M8.128 16.949A7 7 0 1 1 15.71 8h1.79a1 1 0 0 1 0 9h-1.642" />`, opt)
 }
 
 // CloudBackup renders the "cloud-backup" icon.
@@ -15783,6 +15850,44 @@ func CloudDrizzle(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" /> <path d="M8 19v1" /> <path d="M8 14v1" /> <path d="M16 19v1" /> <path d="M16 14v1" /> <path d="M12 21v1" /> <path d="M12 16v1" />`, opt)
+}
+
+// CloudExclamationPoint renders the "cloud-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "cloud-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CloudExclamationPoint()
+//	lucide.CloudExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func CloudExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12v4" /> <path d="M12 20h.01" /> <path d="M8.128 16.949A7 7 0 1 1 15.71 8h1.79a1 1 0 0 1 0 9h-1.642" />`, opt)
+}
+
+// CloudAlert is an alias for CloudExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "cloud-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CloudAlert()
+//	lucide.CloudAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func CloudAlert(opts ...Options) template.HTML {
+	return CloudExclamationPoint(opts...)
 }
 
 // CloudFog renders the "cloud-fog" icon.
@@ -18045,6 +18150,54 @@ func Dessert(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.162 3.167A10 10 0 0 0 2 13a2 2 0 0 0 4 0v-1a2 2 0 0 1 4 0v4a2 2 0 0 0 4 0v-4a2 2 0 0 1 4 0v1a2 2 0 0 0 4-.006 10 10 0 0 0-8.161-9.826" /> <path d="M20.804 14.869a9 9 0 0 1-17.608 0" /> <circle cx="12" cy="4" r="2" />`, opt)
+}
+
+// DiagramFlowHorizontal renders the "diagram-flow-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "diagram-flow-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DiagramFlowHorizontal()
+//	lucide.DiagramFlowHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func DiagramFlowHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M8 12h.5a3.5 3.5 0 013.5 3.5 3.5 3.5 0 003.5 3.5h.5" /> <path d="M8.5 12A3.5 3.5 0 0012 8.5 3.5 3.5 0 0115.5 5h.5" /> <rect x="16" y="16" width="6" height="6" rx="1" /> <rect x="16" y="2" width="6" height="6" rx="1" /> <rect x="2" y="9" width="6" height="6" rx="1" />`, opt)
+}
+
+// DiagramFlowVertical renders the "diagram-flow-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "diagram-flow-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.DiagramFlowVertical()
+//	lucide.DiagramFlowVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func DiagramFlowVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8.5a3.5 3.5 0 003.5 3.5 3.5 3.5 0 013.5 3.5v.5" /> <path d="M12 8v.5A3.5 3.5 0 018.5 12 3.5 3.5 0 005 15.5v.5" /> <rect x="16" y="16" width="6" height="6" rx="1" /> <rect x="2" y="16" width="6" height="6" rx="1" /> <rect x="9" y="2" width="6" height="6" rx="1" />`, opt)
 }
 
 // Diameter renders the "diameter" icon.
@@ -24947,6 +25100,30 @@ func Globe(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" /> <path d="M2 12h20" />`, opt)
 }
 
+// GlobeBan renders the "globe-ban" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "globe-ban" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GlobeBan()
+//	lucide.GlobeBan(lucide.Options{Size: 32, Class: "my-icon"})
+func GlobeBan(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22a14.48 14.48 0 01-4.008-10C7.993 9.136 9 5.258 11 2.05A10 10 0 0012 22" /> <path d="m15.172 3.172 5.656 5.656" /> <path d="M15.86 14a14.5 14.5 0 01-3.859 8 10 10 0 009.949-9" /> <path d="M2 12h10.5" /> <circle cx="18" cy="6" r="4" />`, opt)
+}
+
 // GlobeCheck renders the "globe-check" icon.
 //
 // Usage in templates:
@@ -25041,6 +25218,30 @@ func GlobeOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.114 4.462A14.5 14.5 0 0 1 12 2a10 10 0 0 1 9.313 13.643" /> <path d="M15.557 15.556A14.5 14.5 0 0 1 12 22 10 10 0 0 1 4.929 4.929" /> <path d="M15.892 10.234A14.5 14.5 0 0 0 12 2a10 10 0 0 0-3.643.687" /> <path d="M17.656 12H22" /> <path d="M19.071 19.071A10 10 0 0 1 12 22 14.5 14.5 0 0 1 8.44 8.45" /> <path d="M2 12h10" /> <path d="m2 2 20 20" />`, opt)
+}
+
+// GlobePlus renders the "globe-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "globe-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GlobePlus()
+//	lucide.GlobePlus(lucide.Options{Size: 32, Class: "my-icon"})
+func GlobePlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15.929 10.563A14.5 14.5 0 0112 22a1 1 0 010-20 15 15 0 01.68.768" /> <path d="M19 2v6" /> <path d="M21.92 10.734A10 10 0 0112 22a14.5 14.5 0 010-20 10 10 0 011.266.08" /> <path d="M22 12H2" /> <path d="M22 5h-6" />`, opt)
 }
 
 // GlobeX renders the "globe-x" icon.
@@ -31329,6 +31530,58 @@ func MailDot(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12.674 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4.675" /> <path d="m2 7 9 5.701a2 2 0 0 0 2 0l1.084-.686" /> <circle cx="19" cy="7" r="3" />`, opt)
 }
 
+// MailExclamationPoint renders the "mail-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mail-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MailExclamationPoint()
+//	lucide.MailExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func MailExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> <path d="M20 14v4" /> <path d="M20 22v.01" />`, opt)
+}
+
+// MailWarning is an alias for MailExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "mail-warning" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MailWarning()
+//	lucide.MailWarning(lucide.Options{Size: 32, Class: "my-icon"})
+func MailWarning(opts ...Options) template.HTML {
+	return MailExclamationPoint(opts...)
+}
+
+// MailAlert is an alias for MailExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "mail-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MailAlert()
+//	lucide.MailAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func MailAlert(opts ...Options) template.HTML {
+	return MailExclamationPoint(opts...)
+}
+
 // MailMinus renders the "mail-minus" icon.
 //
 // Usage in templates:
@@ -31491,30 +31744,6 @@ func MailSearch(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M22 12.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h7.5" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> <path d="M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" /> <circle cx="18" cy="18" r="3" /> <path d="m22 22-1.5-1.5" />`, opt)
 }
 
-// MailWarning renders the "mail-warning" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "mail-warning" }}
-//
-// Direct usage in Go:
-//
-//	lucide.MailWarning()
-//	lucide.MailWarning(lucide.Options{Size: 32, Class: "my-icon"})
-func MailWarning(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> <path d="M20 14v4" /> <path d="M20 22v.01" />`, opt)
-}
-
 // MailX renders the "mail-x" icon.
 //
 // Usage in templates:
@@ -31585,6 +31814,30 @@ func Mails(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M17 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 1-1.732" /> <path d="m22 5.5-6.419 4.179a2 2 0 0 1-2.162 0L7 5.5" /> <rect x="7" y="3" width="15" height="12" rx="2" />`, opt)
+}
+
+// Mango renders the "mango" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mango" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Mango()
+//	lucide.Mango(lucide.Options{Size: 32, Class: "my-icon"})
+func Mango(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m17 6 3-3" /> <path d="M7 22a4 4 0 01-2.62-7.023A2 2 0 005 13.383V10a8 8 0 1116 0A12 12 0 019 22z" />`, opt)
 }
 
 // Map renders the "map" icon.
@@ -32565,6 +32818,58 @@ func MessageCircleDashedCheck(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10.1 2.182a10 10 0 013.8 0" /> <path d="M13.9 21.818a10 10 0 01-3.8 0" /> <path d="M17.609 3.72a10 10 0 012.69 2.7" /> <path d="M2.182 13.9a10 10 0 010-3.8" /> <path d="M20.28 17.61a10 10 0 01-2.7 2.69" /> <path d="M21.818 10.1a10 10 0 010 3.8" /> <path d="M3.721 6.391a10 10 0 012.7-2.69" /> <path d="m6.163 21.117-2.906.85a1 1 0 01-1.236-1.169l.965-2.98" /> <path d="m16 9-5.5 5.5L8 12" />`, opt)
 }
 
+// MessageCircleExclamationPoint renders the "message-circle-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-circle-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageCircleExclamationPoint()
+//	lucide.MessageCircleExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageCircleExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /> <path d="M12 8v4" /> <path d="M12 16h.01" />`, opt)
+}
+
+// MessageCircleWarning is an alias for MessageCircleExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-circle-warning" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageCircleWarning()
+//	lucide.MessageCircleWarning(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageCircleWarning(opts ...Options) template.HTML {
+	return MessageCircleExclamationPoint(opts...)
+}
+
+// MessageCircleAlert is an alias for MessageCircleExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-circle-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageCircleAlert()
+//	lucide.MessageCircleAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageCircleAlert(opts ...Options) template.HTML {
+	return MessageCircleExclamationPoint(opts...)
+}
+
 // MessageCircleHeart renders the "message-circle-heart" icon.
 //
 // Usage in templates:
@@ -32751,30 +33056,6 @@ func MessageCircleText(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M3.086 17.509a2 2 0 00-.094-1.167 10 10 0 114.777 4.719 2 2 0 00-1.099-.092l-3.413.998a1 1 0 01-1.236-1.168z" /> <path d="M8 12h9" /> <path d="M8 16h5" /> <path d="M8 8h7" />`, opt)
 }
 
-// MessageCircleWarning renders the "message-circle-warning" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "message-circle-warning" }}
-//
-// Direct usage in Go:
-//
-//	lucide.MessageCircleWarning()
-//	lucide.MessageCircleWarning(lucide.Options{Size: 32, Class: "my-icon"})
-func MessageCircleWarning(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /> <path d="M12 8v4" /> <path d="M12 16h.01" />`, opt)
-}
-
 // MessageCircleX renders the "message-circle-x" icon.
 //
 // Usage in templates:
@@ -32941,6 +33222,58 @@ func MessageSquareDot(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12.7 3H4a2 2 0 0 0-2 2v16.286a.71.71 0 0 0 1.212.502l2.202-2.202A2 2 0 0 1 6.828 19H20a2 2 0 0 0 2-2v-4.7" /> <circle cx="19" cy="6" r="3" />`, opt)
+}
+
+// MessageSquareExclamationPoint renders the "message-square-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-square-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageSquareExclamationPoint()
+//	lucide.MessageSquareExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageSquareExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /> <path d="M12 15h.01" /> <path d="M12 7v4" />`, opt)
+}
+
+// MessageSquareWarning is an alias for MessageSquareExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-square-warning" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageSquareWarning()
+//	lucide.MessageSquareWarning(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageSquareWarning(opts ...Options) template.HTML {
+	return MessageSquareExclamationPoint(opts...)
+}
+
+// MessageSquareAlert is an alias for MessageSquareExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "message-square-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MessageSquareAlert()
+//	lucide.MessageSquareAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func MessageSquareAlert(opts ...Options) template.HTML {
+	return MessageSquareExclamationPoint(opts...)
 }
 
 // MessageSquareHeart renders the "message-square-heart" icon.
@@ -33157,30 +33490,6 @@ func MessageSquareText(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /> <path d="M7 11h10" /> <path d="M7 15h6" /> <path d="M7 7h8" />`, opt)
-}
-
-// MessageSquareWarning renders the "message-square-warning" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "message-square-warning" }}
-//
-// Direct usage in Go:
-//
-//	lucide.MessageSquareWarning()
-//	lucide.MessageSquareWarning(lucide.Options{Size: 32, Class: "my-icon"})
-func MessageSquareWarning(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z" /> <path d="M12 15h.01" /> <path d="M12 7v4" />`, opt)
 }
 
 // MessageSquareX renders the "message-square-x" icon.
@@ -35397,17 +35706,17 @@ func Octagon(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z" />`, opt)
 }
 
-// OctagonAlert renders the "octagon-alert" icon.
+// OctagonExclamationPoint renders the "octagon-exclamation-point" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "octagon-alert" }}
+//	{{ lucide "octagon-exclamation-point" }}
 //
 // Direct usage in Go:
 //
-//	lucide.OctagonAlert()
-//	lucide.OctagonAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func OctagonAlert(opts ...Options) template.HTML {
+//	lucide.OctagonExclamationPoint()
+//	lucide.OctagonExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func OctagonExclamationPoint(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -35421,11 +35730,11 @@ func OctagonAlert(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 16h.01" /> <path d="M12 8v4" /> <path d="M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z" />`, opt)
 }
 
-// AlertOctagon is an alias for OctagonAlert.
+// AlertOctagon is an alias for OctagonExclamationPoint.
 //
 // Deprecated: This icon name is deprecated and will be removed in a future version.
 // Reason: alias.name
-// Please use OctagonAlert instead.
+// Please use OctagonExclamationPoint instead.
 //
 // Usage in templates:
 //
@@ -35436,7 +35745,21 @@ func OctagonAlert(opts ...Options) template.HTML {
 //	lucide.AlertOctagon()
 //	lucide.AlertOctagon(lucide.Options{Size: 32, Class: "my-icon"})
 func AlertOctagon(opts ...Options) template.HTML {
-	return OctagonAlert(opts...)
+	return OctagonExclamationPoint(opts...)
+}
+
+// OctagonAlert is an alias for OctagonExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "octagon-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.OctagonAlert()
+//	lucide.OctagonAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func OctagonAlert(opts ...Options) template.HTML {
+	return OctagonExclamationPoint(opts...)
 }
 
 // OctagonMinus renders the "octagon-minus" icon.
@@ -41439,30 +41762,6 @@ func Search(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m21 21-4.34-4.34" /> <circle cx="11" cy="11" r="8" />`, opt)
 }
 
-// SearchAlert renders the "search-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "search-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SearchAlert()
-//	lucide.SearchAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func SearchAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<circle cx="11" cy="11" r="8" /> <path d="m21 21-4.3-4.3" /> <path d="M11 7v4" /> <path d="M11 15h.01" />`, opt)
-}
-
 // SearchCheck renders the "search-check" icon.
 //
 // Usage in templates:
@@ -41509,6 +41808,44 @@ func SearchCode(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m13 13.5 2-2.5-2-2.5" /> <path d="m21 21-4.3-4.3" /> <path d="M9 8.5 7 11l2 2.5" /> <circle cx="11" cy="11" r="8" />`, opt)
+}
+
+// SearchExclamationPoint renders the "search-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "search-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SearchExclamationPoint()
+//	lucide.SearchExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func SearchExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<circle cx="11" cy="11" r="8" /> <path d="m21 21-4.3-4.3" /> <path d="M11 7v4" /> <path d="M11 15h.01" />`, opt)
+}
+
+// SearchAlert is an alias for SearchExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "search-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SearchAlert()
+//	lucide.SearchAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func SearchAlert(opts ...Options) template.HTML {
+	return SearchExclamationPoint(opts...)
 }
 
 // SearchSlash renders the "search-slash" icon.
@@ -42081,30 +42418,6 @@ func Shield(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />`, opt)
 }
 
-// ShieldAlert renders the "shield-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "shield-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ShieldAlert()
-//	lucide.ShieldAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func ShieldAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M12 8v4" /> <path d="M12 16h.01" />`, opt)
-}
-
 // ShieldBan renders the "shield-ban" icon.
 //
 // Usage in templates:
@@ -42223,6 +42536,44 @@ func ShieldEllipsis(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M8 12h.01" /> <path d="M12 12h.01" /> <path d="M16 12h.01" />`, opt)
+}
+
+// ShieldExclamationPoint renders the "shield-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "shield-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ShieldExclamationPoint()
+//	lucide.ShieldExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func ShieldExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M12 8v4" /> <path d="M12 16h.01" />`, opt)
+}
+
+// ShieldAlert is an alias for ShieldExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "shield-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ShieldAlert()
+//	lucide.ShieldAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func ShieldAlert(opts ...Options) template.HTML {
+	return ShieldExclamationPoint(opts...)
 }
 
 // ShieldHalf renders the "shield-half" icon.
@@ -46170,7 +46521,7 @@ func SquareLetterJ(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M15 8v5a3 3 0 1 1-6 0" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
+	return buildSVG(`<path d="M14 8v5.5a1 1 0 01-5 0V13" /> <rect width="18" height="18" x="3" y="3" rx="2" />`, opt)
 }
 
 // SquareLetterK renders the "square-letter-k" icon.
@@ -51579,48 +51930,6 @@ func Triangle(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />`, opt)
 }
 
-// TriangleAlert renders the "triangle-alert" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "triangle-alert" }}
-//
-// Direct usage in Go:
-//
-//	lucide.TriangleAlert()
-//	lucide.TriangleAlert(lucide.Options{Size: 32, Class: "my-icon"})
-func TriangleAlert(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /> <path d="M12 9v4" /> <path d="M12 17h.01" />`, opt)
-}
-
-// AlertTriangle is an alias for TriangleAlert.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use TriangleAlert instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "alert-triangle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.AlertTriangle()
-//	lucide.AlertTriangle(lucide.Options{Size: 32, Class: "my-icon"})
-func AlertTriangle(opts ...Options) template.HTML {
-	return TriangleAlert(opts...)
-}
-
 // TriangleDashed renders the "triangle-dashed" icon.
 //
 // Usage in templates:
@@ -51643,6 +51952,62 @@ func TriangleDashed(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M10.17 4.193a2 2 0 0 1 3.666.013" /> <path d="M14 21h2" /> <path d="m15.874 7.743 1 1.732" /> <path d="m18.849 12.952 1 1.732" /> <path d="M21.824 18.18a2 2 0 0 1-1.835 2.824" /> <path d="M4.024 21a2 2 0 0 1-1.839-2.839" /> <path d="m5.136 12.952-1 1.732" /> <path d="M8 21h2" /> <path d="m8.102 7.743-1 1.732" />`, opt)
+}
+
+// TriangleExclamationPoint renders the "triangle-exclamation-point" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "triangle-exclamation-point" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TriangleExclamationPoint()
+//	lucide.TriangleExclamationPoint(lucide.Options{Size: 32, Class: "my-icon"})
+func TriangleExclamationPoint(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /> <path d="M12 9v4" /> <path d="M12 17h.01" />`, opt)
+}
+
+// AlertTriangle is an alias for TriangleExclamationPoint.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use TriangleExclamationPoint instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "alert-triangle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.AlertTriangle()
+//	lucide.AlertTriangle(lucide.Options{Size: 32, Class: "my-icon"})
+func AlertTriangle(opts ...Options) template.HTML {
+	return TriangleExclamationPoint(opts...)
+}
+
+// TriangleAlert is an alias for TriangleExclamationPoint.
+//
+// Usage in templates:
+//
+//	{{ lucide "triangle-alert" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TriangleAlert()
+//	lucide.TriangleAlert(lucide.Options{Size: 32, Class: "my-icon"})
+func TriangleAlert(opts ...Options) template.HTML {
+	return TriangleExclamationPoint(opts...)
 }
 
 // TriangleRight renders the "triangle-right" icon.
