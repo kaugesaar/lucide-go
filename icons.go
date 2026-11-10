@@ -399,6 +399,7 @@ func init() {
 	registerIcon("check", Check)
 	registerIcon("check-check", CheckCheck)
 	registerIcon("check-line", CheckLine)
+	registerIcon("cheese", Cheese)
 	registerIcon("chef-hat", ChefHat)
 	registerIcon("cherry", Cherry)
 	registerIcon("chess-bishop", ChessBishop)
@@ -428,20 +429,24 @@ func init() {
 	registerIcon("circle", Circle)
 	registerIcon("circle-arrow-down", CircleArrowDown)
 	registerIcon("arrow-down-circle", ArrowDownCircle)
+	registerIcon("circle-arrow-down-left-exit", CircleArrowDownLeftExit)
+	registerIcon("arrow-down-left-from-circle", ArrowDownLeftFromCircle)
+	registerIcon("circle-arrow-out-down-left", CircleArrowOutDownLeft)
+	registerIcon("circle-arrow-down-right-exit", CircleArrowDownRightExit)
+	registerIcon("arrow-down-right-from-circle", ArrowDownRightFromCircle)
+	registerIcon("circle-arrow-out-down-right", CircleArrowOutDownRight)
 	registerIcon("circle-arrow-left", CircleArrowLeft)
 	registerIcon("arrow-left-circle", ArrowLeftCircle)
-	registerIcon("circle-arrow-out-down-left", CircleArrowOutDownLeft)
-	registerIcon("arrow-down-left-from-circle", ArrowDownLeftFromCircle)
-	registerIcon("circle-arrow-out-down-right", CircleArrowOutDownRight)
-	registerIcon("arrow-down-right-from-circle", ArrowDownRightFromCircle)
-	registerIcon("circle-arrow-out-up-left", CircleArrowOutUpLeft)
-	registerIcon("arrow-up-left-from-circle", ArrowUpLeftFromCircle)
-	registerIcon("circle-arrow-out-up-right", CircleArrowOutUpRight)
-	registerIcon("arrow-up-right-from-circle", ArrowUpRightFromCircle)
 	registerIcon("circle-arrow-right", CircleArrowRight)
 	registerIcon("arrow-right-circle", ArrowRightCircle)
 	registerIcon("circle-arrow-up", CircleArrowUp)
 	registerIcon("arrow-up-circle", ArrowUpCircle)
+	registerIcon("circle-arrow-up-left-exit", CircleArrowUpLeftExit)
+	registerIcon("arrow-up-left-from-circle", ArrowUpLeftFromCircle)
+	registerIcon("circle-arrow-out-up-left", CircleArrowOutUpLeft)
+	registerIcon("circle-arrow-up-right-exit", CircleArrowUpRightExit)
+	registerIcon("arrow-up-right-from-circle", ArrowUpRightFromCircle)
+	registerIcon("circle-arrow-out-up-right", CircleArrowOutUpRight)
 	registerIcon("circle-check", CircleCheck)
 	registerIcon("check-circle-2", CheckCircle2)
 	registerIcon("circle-check-big", CircleCheckBig)
@@ -1011,10 +1016,12 @@ func init() {
 	registerIcon("grid-2x2-x", Grid2x2X)
 	registerIcon("grid-2-x-2-x", Grid2X2X)
 	registerIcon("grid-3x2", Grid3x2)
+	registerIcon("grid-3-x-2", Grid3X2)
 	registerIcon("grid-3x3", Grid3x3)
 	registerIcon("grid", Grid)
 	registerIcon("grid-3-x-3", Grid3X3)
 	registerIcon("grid-3x3-off", Grid3x3Off)
+	registerIcon("grid-3-x-3-off", Grid3X3Off)
 	registerIcon("grip", Grip)
 	registerIcon("grip-horizontal", GripHorizontal)
 	registerIcon("grip-vertical", GripVertical)
@@ -1578,6 +1585,7 @@ func init() {
 	registerIcon("presentation", Presentation)
 	registerIcon("printer", Printer)
 	registerIcon("printer-3d", Printer3d)
+	registerIcon("printer-3-d", Printer3D)
 	registerIcon("printer-check", PrinterCheck)
 	registerIcon("printer-x", PrinterX)
 	registerIcon("projector", Projector)
@@ -1821,30 +1829,44 @@ func init() {
 	registerIcon("activity-square", ActivitySquare)
 	registerIcon("square-arrow-down", SquareArrowDown)
 	registerIcon("arrow-down-square", ArrowDownSquare)
+	registerIcon("square-arrow-down-enter", SquareArrowDownEnter)
+	registerIcon("square-arrow-down-exit", SquareArrowDownExit)
 	registerIcon("square-arrow-down-left", SquareArrowDownLeft)
 	registerIcon("arrow-down-left-square", ArrowDownLeftSquare)
+	registerIcon("square-arrow-down-left-enter", SquareArrowDownLeftEnter)
+	registerIcon("square-arrow-down-left-exit", SquareArrowDownLeftExit)
+	registerIcon("arrow-down-left-from-square", ArrowDownLeftFromSquare)
+	registerIcon("square-arrow-out-down-left", SquareArrowOutDownLeft)
 	registerIcon("square-arrow-down-right", SquareArrowDownRight)
 	registerIcon("arrow-down-right-square", ArrowDownRightSquare)
+	registerIcon("square-arrow-down-right-enter", SquareArrowDownRightEnter)
+	registerIcon("square-arrow-down-right-exit", SquareArrowDownRightExit)
+	registerIcon("arrow-down-right-from-square", ArrowDownRightFromSquare)
+	registerIcon("square-arrow-out-down-right", SquareArrowOutDownRight)
 	registerIcon("square-arrow-left", SquareArrowLeft)
 	registerIcon("arrow-left-square", ArrowLeftSquare)
-	registerIcon("square-arrow-out-down-left", SquareArrowOutDownLeft)
-	registerIcon("arrow-down-left-from-square", ArrowDownLeftFromSquare)
-	registerIcon("square-arrow-out-down-right", SquareArrowOutDownRight)
-	registerIcon("arrow-down-right-from-square", ArrowDownRightFromSquare)
-	registerIcon("square-arrow-out-up-left", SquareArrowOutUpLeft)
-	registerIcon("arrow-up-left-from-square", ArrowUpLeftFromSquare)
-	registerIcon("square-arrow-out-up-right", SquareArrowOutUpRight)
-	registerIcon("arrow-up-right-from-square", ArrowUpRightFromSquare)
+	registerIcon("square-arrow-left-enter", SquareArrowLeftEnter)
+	registerIcon("square-arrow-left-exit", SquareArrowLeftExit)
 	registerIcon("square-arrow-right", SquareArrowRight)
 	registerIcon("arrow-right-square", ArrowRightSquare)
 	registerIcon("square-arrow-right-enter", SquareArrowRightEnter)
 	registerIcon("square-arrow-right-exit", SquareArrowRightExit)
 	registerIcon("square-arrow-up", SquareArrowUp)
 	registerIcon("arrow-up-square", ArrowUpSquare)
+	registerIcon("square-arrow-up-enter", SquareArrowUpEnter)
+	registerIcon("square-arrow-up-exit", SquareArrowUpExit)
 	registerIcon("square-arrow-up-left", SquareArrowUpLeft)
 	registerIcon("arrow-up-left-square", ArrowUpLeftSquare)
+	registerIcon("square-arrow-up-left-enter", SquareArrowUpLeftEnter)
+	registerIcon("square-arrow-up-left-exit", SquareArrowUpLeftExit)
+	registerIcon("arrow-up-left-from-square", ArrowUpLeftFromSquare)
+	registerIcon("square-arrow-out-up-left", SquareArrowOutUpLeft)
 	registerIcon("square-arrow-up-right", SquareArrowUpRight)
 	registerIcon("arrow-up-right-square", ArrowUpRightSquare)
+	registerIcon("square-arrow-up-right-enter", SquareArrowUpRightEnter)
+	registerIcon("square-arrow-up-right-exit", SquareArrowUpRightExit)
+	registerIcon("arrow-up-right-from-square", ArrowUpRightFromSquare)
+	registerIcon("square-arrow-out-up-right", SquareArrowOutUpRight)
 	registerIcon("square-asterisk", SquareAsterisk)
 	registerIcon("asterisk-square", AsteriskSquare)
 	registerIcon("square-bookmark", SquareBookmark)
@@ -2028,6 +2050,12 @@ func init() {
 	registerIcon("stretch-horizontal", StretchHorizontal)
 	registerIcon("stretch-vertical", StretchVertical)
 	registerIcon("strikethrough", Strikethrough)
+	registerIcon("stroke-line-cap-butt", StrokeLineCapButt)
+	registerIcon("stroke-line-cap-round", StrokeLineCapRound)
+	registerIcon("stroke-line-cap-square", StrokeLineCapSquare)
+	registerIcon("stroke-line-join-bevel", StrokeLineJoinBevel)
+	registerIcon("stroke-line-join-miter", StrokeLineJoinMiter)
+	registerIcon("stroke-line-join-round", StrokeLineJoinRound)
 	registerIcon("subscript", Subscript)
 	registerIcon("summary", Summary)
 	registerIcon("sun", Sun)
@@ -11553,6 +11581,30 @@ func CheckLine(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M20 4L9 15" /> <path d="M21 19L3 19" /> <path d="M9 15L4 10" />`, opt)
 }
 
+// Cheese renders the "cheese" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "cheese" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Cheese()
+//	lucide.Cheese(lucide.Options{Size: 32, Class: "my-icon"})
+func Cheese(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 11a3 3 0 01-6 0 5 5 0 016 0" /> <path d="M14.292 2.436a1.55 1.55 0 011.463-.088l.278.13A10.33 10.33 0 0122 11v8a2 2 0 01-2 2h-1.75a.28.28 0 01-.265-.25 2 2 0 00-3.97 0 .28.28 0 01-.265.25H4a2 2 0 01-2-2v-.75a.28.28 0 01.25-.265 2 2 0 00-.046-3.975.21.21 0 01-.204-.214v-2.678a2 2 0 01.952-1.703l6.062-3.732a.3.3 0 01.27-.002A2.5 2.5 0 0013 3.5l-.002-.104a.3.3 0 01.122-.24z" /> <path d="M22 11h-8" /> <path d="M8 11H2" />`, opt)
+}
+
 // ChefHat renders the "chef-hat" icon.
 //
 // Usage in templates:
@@ -12243,6 +12295,126 @@ func ArrowDownCircle(opts ...Options) template.HTML {
 	return CircleArrowDown(opts...)
 }
 
+// CircleArrowDownLeftExit renders the "circle-arrow-down-left-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-down-left-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowDownLeftExit()
+//	lucide.CircleArrowDownLeftExit(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowDownLeftExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M2 12a10 10 0 1 1 10 10" /> <path d="m2 22 10-10" /> <path d="M8 22H2v-6" />`, opt)
+}
+
+// ArrowDownLeftFromCircle is an alias for CircleArrowDownLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowDownLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-left-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownLeftFromCircle()
+//	lucide.ArrowDownLeftFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownLeftFromCircle(opts ...Options) template.HTML {
+	return CircleArrowDownLeftExit(opts...)
+}
+
+// CircleArrowOutDownLeft is an alias for CircleArrowDownLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowDownLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-out-down-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowOutDownLeft()
+//	lucide.CircleArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowOutDownLeft(opts ...Options) template.HTML {
+	return CircleArrowDownLeftExit(opts...)
+}
+
+// CircleArrowDownRightExit renders the "circle-arrow-down-right-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-down-right-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowDownRightExit()
+//	lucide.CircleArrowDownRightExit(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowDownRightExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22a10 10 0 1 1 10-10" /> <path d="M22 22 12 12" /> <path d="M22 16v6h-6" />`, opt)
+}
+
+// ArrowDownRightFromCircle is an alias for CircleArrowDownRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowDownRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-right-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownRightFromCircle()
+//	lucide.ArrowDownRightFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownRightFromCircle(opts ...Options) template.HTML {
+	return CircleArrowDownRightExit(opts...)
+}
+
+// CircleArrowOutDownRight is an alias for CircleArrowDownRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowDownRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-out-down-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowOutDownRight()
+//	lucide.CircleArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowOutDownRight(opts ...Options) template.HTML {
+	return CircleArrowDownRightExit(opts...)
+}
+
 // CircleArrowLeft renders the "circle-arrow-left" icon.
 //
 // Usage in templates:
@@ -12283,174 +12455,6 @@ func CircleArrowLeft(opts ...Options) template.HTML {
 //	lucide.ArrowLeftCircle(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowLeftCircle(opts ...Options) template.HTML {
 	return CircleArrowLeft(opts...)
-}
-
-// CircleArrowOutDownLeft renders the "circle-arrow-out-down-left" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-arrow-out-down-left" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleArrowOutDownLeft()
-//	lucide.CircleArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleArrowOutDownLeft(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M2 12a10 10 0 1 1 10 10" /> <path d="m2 22 10-10" /> <path d="M8 22H2v-6" />`, opt)
-}
-
-// ArrowDownLeftFromCircle is an alias for CircleArrowOutDownLeft.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleArrowOutDownLeft instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-down-left-from-circle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowDownLeftFromCircle()
-//	lucide.ArrowDownLeftFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowDownLeftFromCircle(opts ...Options) template.HTML {
-	return CircleArrowOutDownLeft(opts...)
-}
-
-// CircleArrowOutDownRight renders the "circle-arrow-out-down-right" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-arrow-out-down-right" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleArrowOutDownRight()
-//	lucide.CircleArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleArrowOutDownRight(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 22a10 10 0 1 1 10-10" /> <path d="M22 22 12 12" /> <path d="M22 16v6h-6" />`, opt)
-}
-
-// ArrowDownRightFromCircle is an alias for CircleArrowOutDownRight.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleArrowOutDownRight instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-down-right-from-circle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowDownRightFromCircle()
-//	lucide.ArrowDownRightFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowDownRightFromCircle(opts ...Options) template.HTML {
-	return CircleArrowOutDownRight(opts...)
-}
-
-// CircleArrowOutUpLeft renders the "circle-arrow-out-up-left" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-arrow-out-up-left" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleArrowOutUpLeft()
-//	lucide.CircleArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleArrowOutUpLeft(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M2 8V2h6" /> <path d="m2 2 10 10" /> <path d="M12 2A10 10 0 1 1 2 12" />`, opt)
-}
-
-// ArrowUpLeftFromCircle is an alias for CircleArrowOutUpLeft.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleArrowOutUpLeft instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-up-left-from-circle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowUpLeftFromCircle()
-//	lucide.ArrowUpLeftFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowUpLeftFromCircle(opts ...Options) template.HTML {
-	return CircleArrowOutUpLeft(opts...)
-}
-
-// CircleArrowOutUpRight renders the "circle-arrow-out-up-right" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "circle-arrow-out-up-right" }}
-//
-// Direct usage in Go:
-//
-//	lucide.CircleArrowOutUpRight()
-//	lucide.CircleArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
-func CircleArrowOutUpRight(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M22 12A10 10 0 1 1 12 2" /> <path d="M22 2 12 12" /> <path d="M16 2h6v6" />`, opt)
-}
-
-// ArrowUpRightFromCircle is an alias for CircleArrowOutUpRight.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use CircleArrowOutUpRight instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-up-right-from-circle" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowUpRightFromCircle()
-//	lucide.ArrowUpRightFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowUpRightFromCircle(opts ...Options) template.HTML {
-	return CircleArrowOutUpRight(opts...)
 }
 
 // CircleArrowRight renders the "circle-arrow-right" icon.
@@ -12535,6 +12539,126 @@ func CircleArrowUp(opts ...Options) template.HTML {
 //	lucide.ArrowUpCircle(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpCircle(opts ...Options) template.HTML {
 	return CircleArrowUp(opts...)
+}
+
+// CircleArrowUpLeftExit renders the "circle-arrow-up-left-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-up-left-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowUpLeftExit()
+//	lucide.CircleArrowUpLeftExit(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowUpLeftExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M2 8V2h6" /> <path d="m2 2 10 10" /> <path d="M12 2A10 10 0 1 1 2 12" />`, opt)
+}
+
+// ArrowUpLeftFromCircle is an alias for CircleArrowUpLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowUpLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-left-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpLeftFromCircle()
+//	lucide.ArrowUpLeftFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpLeftFromCircle(opts ...Options) template.HTML {
+	return CircleArrowUpLeftExit(opts...)
+}
+
+// CircleArrowOutUpLeft is an alias for CircleArrowUpLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowUpLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-out-up-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowOutUpLeft()
+//	lucide.CircleArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowOutUpLeft(opts ...Options) template.HTML {
+	return CircleArrowUpLeftExit(opts...)
+}
+
+// CircleArrowUpRightExit renders the "circle-arrow-up-right-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-up-right-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowUpRightExit()
+//	lucide.CircleArrowUpRightExit(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowUpRightExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M22 12A10 10 0 1 1 12 2" /> <path d="M22 2 12 12" /> <path d="M16 2h6v6" />`, opt)
+}
+
+// ArrowUpRightFromCircle is an alias for CircleArrowUpRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowUpRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-right-from-circle" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpRightFromCircle()
+//	lucide.ArrowUpRightFromCircle(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpRightFromCircle(opts ...Options) template.HTML {
+	return CircleArrowUpRightExit(opts...)
+}
+
+// CircleArrowOutUpRight is an alias for CircleArrowUpRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CircleArrowUpRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-arrow-out-up-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleArrowOutUpRight()
+//	lucide.CircleArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleArrowOutUpRight(opts ...Options) template.HTML {
+	return CircleArrowUpRightExit(opts...)
 }
 
 // CircleCheck renders the "circle-check" icon.
@@ -25637,6 +25761,24 @@ func Grid3x2(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M15 3v18" /> <path d="M3 12h18" /> <path d="M9 3v18" /> <rect x="3" y="3" width="18" height="18" rx="2" />`, opt)
 }
 
+// Grid3X2 is an alias for Grid3x2.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid3x2 instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-3-x-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid3X2()
+//	lucide.Grid3X2(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid3X2(opts ...Options) template.HTML {
+	return Grid3x2(opts...)
+}
+
 // Grid3x3 renders the "grid-3x3" icon.
 //
 // Usage in templates:
@@ -25719,6 +25861,24 @@ func Grid3x3Off(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M15 9.344V3" /> <path d="m2 2 20 20" /> <path d="M20.414 20.414A2 2 0 0119 21H5a2 2 0 01-2-2V5a2 2 0 01.586-1.414" /> <path d="M20.656 15H21" /> <path d="M21 9h-6.344" /> <path d="M3 15h12v6" /> <path d="M3 9h6v12" /> <path d="M8.656 3H19a2 2 0 012 2v10.343" /> <path d="M9 3v.344" />`, opt)
+}
+
+// Grid3X3Off is an alias for Grid3x3Off.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Grid3x3Off instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "grid-3-x-3-off" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Grid3X3Off()
+//	lucide.Grid3X3Off(lucide.Options{Size: 32, Class: "my-icon"})
+func Grid3X3Off(opts ...Options) template.HTML {
+	return Grid3x3Off(opts...)
 }
 
 // Grip renders the "grip" icon.
@@ -38927,6 +39087,24 @@ func Printer3d(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M10 11v1" /> <path d="M12 8h8" /> <path d="M15 20v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3" /> <path d="M4 20h16" /> <path d="M4 22V4a2 2 0 012-2h12a2 2 0 012 2v18" /> <path d="M4 8h4" /> <path d="M8.635 10.093A2 2 0 018 8.631V7a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 01-.293.707l-1 1a1 1 0 01-1.414 0z" />`, opt)
 }
 
+// Printer3D is an alias for Printer3d.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use Printer3d instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "printer-3-d" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Printer3D()
+//	lucide.Printer3D(lucide.Options{Size: 32, Class: "my-icon"})
+func Printer3D(opts ...Options) template.HTML {
+	return Printer3d(opts...)
+}
+
 // PrinterCheck renders the "printer-check" icon.
 //
 // Usage in templates:
@@ -44655,6 +44833,54 @@ func ArrowDownSquare(opts ...Options) template.HTML {
 	return SquareArrowDown(opts...)
 }
 
+// SquareArrowDownEnter renders the "square-arrow-down-enter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-down-enter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowDownEnter()
+//	lucide.SquareArrowDownEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowDownEnter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 3v10" /> <path d="M16 3h3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h3" /> <path d="m8 9 4 4 4-4" />`, opt)
+}
+
+// SquareArrowDownExit renders the "square-arrow-down-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-down-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowDownExit()
+//	lucide.SquareArrowDownExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowDownExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 11v10" /> <path d="M17.67 21H19a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h1.33" /> <path d="m8 17 4 4 4-4" />`, opt)
+}
+
 // SquareArrowDownLeft renders the "square-arrow-down-left" icon.
 //
 // Usage in templates:
@@ -44695,6 +44921,90 @@ func SquareArrowDownLeft(opts ...Options) template.HTML {
 //	lucide.ArrowDownLeftSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowDownLeftSquare(opts ...Options) template.HTML {
 	return SquareArrowDownLeft(opts...)
+}
+
+// SquareArrowDownLeftEnter renders the "square-arrow-down-left-enter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-down-left-enter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowDownLeftEnter()
+//	lucide.SquareArrowDownLeftEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowDownLeftEnter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 7v6h6" /> <path d="m20 4-9 9" /> <path d="M21 8.67V19a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h10.33" />`, opt)
+}
+
+// SquareArrowDownLeftExit renders the "square-arrow-down-left-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-down-left-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowDownLeftExit()
+//	lucide.SquareArrowDownLeftExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowDownLeftExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13 21h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6" /> <path d="m3 21 9-9" /> <path d="M9 21H3v-6" />`, opt)
+}
+
+// ArrowDownLeftFromSquare is an alias for SquareArrowDownLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDownLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-left-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownLeftFromSquare()
+//	lucide.ArrowDownLeftFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownLeftFromSquare(opts ...Options) template.HTML {
+	return SquareArrowDownLeftExit(opts...)
+}
+
+// SquareArrowOutDownLeft is an alias for SquareArrowDownLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDownLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-out-down-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowOutDownLeft()
+//	lucide.SquareArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowOutDownLeft(opts ...Options) template.HTML {
+	return SquareArrowDownLeftExit(opts...)
 }
 
 // SquareArrowDownRight renders the "square-arrow-down-right" icon.
@@ -44739,6 +45049,90 @@ func ArrowDownRightSquare(opts ...Options) template.HTML {
 	return SquareArrowDownRight(opts...)
 }
 
+// SquareArrowDownRightEnter renders the "square-arrow-down-right-enter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-down-right-enter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowDownRightEnter()
+//	lucide.SquareArrowDownRightEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowDownRightEnter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13 7v6H7" /> <path d="m4 4 9 9" /> <path d="M8.67 3H19a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V8.67" />`, opt)
+}
+
+// SquareArrowDownRightExit renders the "square-arrow-down-right-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-down-right-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowDownRightExit()
+//	lucide.SquareArrowDownRightExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowDownRightExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6" /> <path d="m21 21-9-9" /> <path d="M21 15v6h-6" />`, opt)
+}
+
+// ArrowDownRightFromSquare is an alias for SquareArrowDownRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDownRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-down-right-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowDownRightFromSquare()
+//	lucide.ArrowDownRightFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowDownRightFromSquare(opts ...Options) template.HTML {
+	return SquareArrowDownRightExit(opts...)
+}
+
+// SquareArrowOutDownRight is an alias for SquareArrowDownRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowDownRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-out-down-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowOutDownRight()
+//	lucide.SquareArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowOutDownRight(opts ...Options) template.HTML {
+	return SquareArrowDownRightExit(opts...)
+}
+
 // SquareArrowLeft renders the "square-arrow-left" icon.
 //
 // Usage in templates:
@@ -44781,17 +45175,17 @@ func ArrowLeftSquare(opts ...Options) template.HTML {
 	return SquareArrowLeft(opts...)
 }
 
-// SquareArrowOutDownLeft renders the "square-arrow-out-down-left" icon.
+// SquareArrowLeftEnter renders the "square-arrow-left-enter" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "square-arrow-out-down-left" }}
+//	{{ lucide "square-arrow-left-enter" }}
 //
 // Direct usage in Go:
 //
-//	lucide.SquareArrowOutDownLeft()
-//	lucide.SquareArrowOutDownLeft(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareArrowOutDownLeft(opts ...Options) template.HTML {
+//	lucide.SquareArrowLeftEnter()
+//	lucide.SquareArrowLeftEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowLeftEnter(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -44802,38 +45196,20 @@ func SquareArrowOutDownLeft(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M13 21h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6" /> <path d="m3 21 9-9" /> <path d="M9 21H3v-6" />`, opt)
+	return buildSVG(`<path d="m15 8-4 4 4 4" /> <path d="M21 12H11" /> <path d="M21 16v3a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v3" />`, opt)
 }
 
-// ArrowDownLeftFromSquare is an alias for SquareArrowOutDownLeft.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareArrowOutDownLeft instead.
+// SquareArrowLeftExit renders the "square-arrow-left-exit" icon.
 //
 // Usage in templates:
 //
-//	{{ lucide "arrow-down-left-from-square" }}
+//	{{ lucide "square-arrow-left-exit" }}
 //
 // Direct usage in Go:
 //
-//	lucide.ArrowDownLeftFromSquare()
-//	lucide.ArrowDownLeftFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowDownLeftFromSquare(opts ...Options) template.HTML {
-	return SquareArrowOutDownLeft(opts...)
-}
-
-// SquareArrowOutDownRight renders the "square-arrow-out-down-right" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-arrow-out-down-right" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareArrowOutDownRight()
-//	lucide.SquareArrowOutDownRight(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareArrowOutDownRight(opts ...Options) template.HTML {
+//	lucide.SquareArrowLeftExit()
+//	lucide.SquareArrowLeftExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowLeftExit(opts ...Options) template.HTML {
 	opt := Options{Size: 24, StrokeWidth: 2}
 	if len(opts) > 0 {
 		opt = opts[0]
@@ -44844,109 +45220,7 @@ func SquareArrowOutDownRight(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6" /> <path d="m21 21-9-9" /> <path d="M21 15v6h-6" />`, opt)
-}
-
-// ArrowDownRightFromSquare is an alias for SquareArrowOutDownRight.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareArrowOutDownRight instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-down-right-from-square" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowDownRightFromSquare()
-//	lucide.ArrowDownRightFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowDownRightFromSquare(opts ...Options) template.HTML {
-	return SquareArrowOutDownRight(opts...)
-}
-
-// SquareArrowOutUpLeft renders the "square-arrow-out-up-left" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-arrow-out-up-left" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareArrowOutUpLeft()
-//	lucide.SquareArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareArrowOutUpLeft(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M13 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6" /> <path d="m3 3 9 9" /> <path d="M3 9V3h6" />`, opt)
-}
-
-// ArrowUpLeftFromSquare is an alias for SquareArrowOutUpLeft.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareArrowOutUpLeft instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-up-left-from-square" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowUpLeftFromSquare()
-//	lucide.ArrowUpLeftFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowUpLeftFromSquare(opts ...Options) template.HTML {
-	return SquareArrowOutUpLeft(opts...)
-}
-
-// SquareArrowOutUpRight renders the "square-arrow-out-up-right" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-arrow-out-up-right" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareArrowOutUpRight()
-//	lucide.SquareArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareArrowOutUpRight(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" /> <path d="m21 3-9 9" /> <path d="M15 3h6v6" />`, opt)
-}
-
-// ArrowUpRightFromSquare is an alias for SquareArrowOutUpRight.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareArrowOutUpRight instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "arrow-up-right-from-square" }}
-//
-// Direct usage in Go:
-//
-//	lucide.ArrowUpRightFromSquare()
-//	lucide.ArrowUpRightFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
-func ArrowUpRightFromSquare(opts ...Options) template.HTML {
-	return SquareArrowOutUpRight(opts...)
+	return buildSVG(`<path d="M13 12H3" /> <path d="M3 17.67V19a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v1.33" /> <path d="m7 8-4 4 4 4" />`, opt)
 }
 
 // SquareArrowRight renders the "square-arrow-right" icon.
@@ -45012,7 +45286,7 @@ func SquareArrowRightEnter(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="m10 16 4-4-4-4" /> <path d="M3 12h11" /> <path d="M3 8V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3" />`, opt)
+	return buildSVG(`<path d="M3 12h10" /> <path d="M3 8V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2v-3" /> <path d="m9 16 4-4-4-4" />`, opt)
 }
 
 // SquareArrowRightExit renders the "square-arrow-right-exit" icon.
@@ -45036,7 +45310,7 @@ func SquareArrowRightExit(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 12h11" /> <path d="m17 16 4-4-4-4" /> <path d="M21 6.344V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-1.344" />`, opt)
+	return buildSVG(`<path d="M11 12h10" /> <path d="m17 16 4-4-4-4" /> <path d="M21 6.33V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-1.33" />`, opt)
 }
 
 // SquareArrowUp renders the "square-arrow-up" icon.
@@ -45081,6 +45355,54 @@ func ArrowUpSquare(opts ...Options) template.HTML {
 	return SquareArrowUp(opts...)
 }
 
+// SquareArrowUpEnter renders the "square-arrow-up-enter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-up-enter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowUpEnter()
+//	lucide.SquareArrowUpEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowUpEnter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 21V11" /> <path d="m16 15-4-4-4 4" /> <path d="M8 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2h-3" />`, opt)
+}
+
+// SquareArrowUpExit renders the "square-arrow-up-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-up-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowUpExit()
+//	lucide.SquareArrowUpExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowUpExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 13V3" /> <path d="m16 7-4-4-4 4" /> <path d="M6.33 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2h-1.33" />`, opt)
+}
+
 // SquareArrowUpLeft renders the "square-arrow-up-left" icon.
 //
 // Usage in templates:
@@ -45123,6 +45445,90 @@ func ArrowUpLeftSquare(opts ...Options) template.HTML {
 	return SquareArrowUpLeft(opts...)
 }
 
+// SquareArrowUpLeftEnter renders the "square-arrow-up-left-enter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-up-left-enter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowUpLeftEnter()
+//	lucide.SquareArrowUpLeftEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowUpLeftEnter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15.33 21H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v10.33" /> <path d="M17 11h-6v6" /> <path d="m20 20-9-9" />`, opt)
+}
+
+// SquareArrowUpLeftExit renders the "square-arrow-up-left-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-up-left-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowUpLeftExit()
+//	lucide.SquareArrowUpLeftExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowUpLeftExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6" /> <path d="m3 3 9 9" /> <path d="M3 9V3h6" />`, opt)
+}
+
+// ArrowUpLeftFromSquare is an alias for SquareArrowUpLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUpLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-left-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpLeftFromSquare()
+//	lucide.ArrowUpLeftFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpLeftFromSquare(opts ...Options) template.HTML {
+	return SquareArrowUpLeftExit(opts...)
+}
+
+// SquareArrowOutUpLeft is an alias for SquareArrowUpLeftExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUpLeftExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-out-up-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowOutUpLeft()
+//	lucide.SquareArrowOutUpLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowOutUpLeft(opts ...Options) template.HTML {
+	return SquareArrowUpLeftExit(opts...)
+}
+
 // SquareArrowUpRight renders the "square-arrow-up-right" icon.
 //
 // Usage in templates:
@@ -45163,6 +45569,90 @@ func SquareArrowUpRight(opts ...Options) template.HTML {
 //	lucide.ArrowUpRightSquare(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpRightSquare(opts ...Options) template.HTML {
 	return SquareArrowUpRight(opts...)
+}
+
+// SquareArrowUpRightEnter renders the "square-arrow-up-right-enter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-up-right-enter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowUpRightEnter()
+//	lucide.SquareArrowUpRightEnter(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowUpRightEnter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13 17v-6H7" /> <path d="M3 15.33V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H8.67" /> <path d="m4 20 9-9" />`, opt)
+}
+
+// SquareArrowUpRightExit renders the "square-arrow-up-right-exit" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-up-right-exit" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowUpRightExit()
+//	lucide.SquareArrowUpRightExit(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowUpRightExit(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" /> <path d="m21 3-9 9" /> <path d="M15 3h6v6" />`, opt)
+}
+
+// ArrowUpRightFromSquare is an alias for SquareArrowUpRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUpRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrow-up-right-from-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowUpRightFromSquare()
+//	lucide.ArrowUpRightFromSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowUpRightFromSquare(opts ...Options) template.HTML {
+	return SquareArrowUpRightExit(opts...)
+}
+
+// SquareArrowOutUpRight is an alias for SquareArrowUpRightExit.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareArrowUpRightExit instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-arrow-out-up-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareArrowOutUpRight()
+//	lucide.SquareArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareArrowOutUpRight(opts ...Options) template.HTML {
+	return SquareArrowUpRightExit(opts...)
 }
 
 // SquareAsterisk renders the "square-asterisk" icon.
@@ -49243,6 +49733,150 @@ func Strikethrough(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M16 4H9a3 3 0 0 0-2.83 4" /> <path d="M14 12a4 4 0 0 1 0 8H6" /> <line x1="4" x2="20" y1="12" y2="12" />`, opt)
+}
+
+// StrokeLineCapButt renders the "stroke-line-cap-butt" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-line-cap-butt" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeLineCapButt()
+//	lucide.StrokeLineCapButt(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeLineCapButt(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 12h2" /> <path d="M2 12h2" /> <path d="M2 4h18a2 2 0 012 2v12a2 2 0 01-2 2H2" /> <path d="M20 12h2" /> <path d="M8 12h2" />`, opt)
+}
+
+// StrokeLineCapRound renders the "stroke-line-cap-round" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-line-cap-round" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeLineCapRound()
+//	lucide.StrokeLineCapRound(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeLineCapRound(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13.99 12H14" /> <path d="M2 12h2" /> <path d="M2 4h12a8 8 0 010 16H2" /> <path d="M8 12h2" />`, opt)
+}
+
+// StrokeLineCapSquare renders the "stroke-line-cap-square" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-line-cap-square" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeLineCapSquare()
+//	lucide.StrokeLineCapSquare(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeLineCapSquare(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M13.99 12H14" /> <path d="M2 12h2" /> <path d="M2 4h18a2 2 0 012 2v12a2 2 0 01-2 2H2" /> <path d="M8 12h2" />`, opt)
+}
+
+// StrokeLineJoinBevel renders the "stroke-line-join-bevel" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-line-join-bevel" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeLineJoinBevel()
+//	lucide.StrokeLineJoinBevel(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeLineJoinBevel(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 21v-2.002" /> <path d="M3 3h8.002a2.4 2.4 0 011.704.706l7.588 7.588A2.4 2.4 0 0121 12.998V21" /> <path d="M5 13H3" /> <path d="M9 13h1a1 1 0 011 1v1" />`, opt)
+}
+
+// StrokeLineJoinMiter renders the "stroke-line-join-miter" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-line-join-miter" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeLineJoinMiter()
+//	lucide.StrokeLineJoinMiter(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeLineJoinMiter(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 21v-2.002" /> <path d="M3 3h16a2 2 0 012 2v16" /> <path d="M5 13H3" /> <path d="M9 13h1a1 1 0 011 1v1" />`, opt)
+}
+
+// StrokeLineJoinRound renders the "stroke-line-join-round" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-line-join-round" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeLineJoinRound()
+//	lucide.StrokeLineJoinRound(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeLineJoinRound(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 21v-2.002" /> <path d="M3 3h8a10 10 0 0110 10v8" /> <path d="M5 13H3" /> <path d="M9 13h1a1 1 0 011 1v1" />`, opt)
 }
 
 // Subscript renders the "subscript" icon.

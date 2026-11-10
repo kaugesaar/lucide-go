@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.43.0] - 2026-11-10
+### Changed
+- Updated Lucide icons from 1.70.0 to 1.71.0
+- Added 50 new icon(s)
+- Removed 22 icon(s)
+
 ## [v0.42.0] - 2026-11-06
 ### Changed
 - Updated Lucide icons from 1.68.0 to 1.70.0
@@ -238,6 +244,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+[v0.43.0]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.43.0
 [v0.42.0]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.42.0
 [v0.41.0]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.41.0
 [v0.40.0]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.40.0
@@ -276,6 +283,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 [v0.1.2]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.1.2
 [v0.1.1]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/kaugesaar/lucide-go/releases/tag/v0.1.0
+
 
 
 
