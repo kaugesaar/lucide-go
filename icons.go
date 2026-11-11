@@ -113,6 +113,7 @@ func init() {
 	registerIcon("arrow-up-za", ArrowUpZa)
 	registerIcon("arrows-up-from-line", ArrowsUpFromLine)
 	registerIcon("asterisk", Asterisk)
+	registerIcon("asterism", Asterism)
 	registerIcon("astroid", Astroid)
 	registerIcon("at-sign", AtSign)
 	registerIcon("atom", Atom)
@@ -770,6 +771,7 @@ func init() {
 	registerIcon("ethernet-port", EthernetPort)
 	registerIcon("euro", Euro)
 	registerIcon("ev-charger", EvCharger)
+	registerIcon("exclamation-mark", ExclamationMark)
 	registerIcon("expand", Expand)
 	registerIcon("external-link", ExternalLink)
 	registerIcon("eye", Eye)
@@ -1402,6 +1404,7 @@ func init() {
 	registerIcon("moped", Moped)
 	registerIcon("mosque", Mosque)
 	registerIcon("motorbike", Motorbike)
+	registerIcon("mound-shovel", MoundShovel)
 	registerIcon("mountain", Mountain)
 	registerIcon("mountain-snow", MountainSnow)
 	registerIcon("mouse", Mouse)
@@ -1593,6 +1596,7 @@ func init() {
 	registerIcon("puzzle", Puzzle)
 	registerIcon("pyramid", Pyramid)
 	registerIcon("qr-code", QrCode)
+	registerIcon("question-mark", QuestionMark)
 	registerIcon("quote", Quote)
 	registerIcon("rabbit", Rabbit)
 	registerIcon("radar", Radar)
@@ -1662,6 +1666,7 @@ func init() {
 	registerIcon("rotate-cw-fading-clock", RotateCwFadingClock)
 	registerIcon("rotate-cw-square", RotateCwSquare)
 	registerIcon("route", Route)
+	registerIcon("route-arrow-right", RouteArrowRight)
 	registerIcon("route-off", RouteOff)
 	registerIcon("router", Router)
 	registerIcon("rows-2", Rows2)
@@ -2118,6 +2123,7 @@ func init() {
 	registerIcon("text-cursor-input", TextCursorInput)
 	registerIcon("text-initial", TextInitial)
 	registerIcon("letter-text", LetterText)
+	registerIcon("text-pen", TextPen)
 	registerIcon("text-quote", TextQuote)
 	registerIcon("text-search", TextSearch)
 	registerIcon("text-wrap", TextWrap)
@@ -4885,6 +4891,30 @@ func Asterisk(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 5v14" /> <path d="m18.065 8.496-12.125 7" /> <path d="m5.94 8.504 12.125 7" />`, opt)
 }
 
+// Asterism renders the "asterism" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "asterism" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Asterism()
+//	lucide.Asterism(lucide.Options{Size: 32, Class: "my-icon"})
+func Asterism(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v8" /> <path d="m14.5 15 7 4" /> <path d="m14.5 19 7-4" /> <path d="M18 13v8" /> <path d="m2.5 15 7 4" /> <path d="m2.5 19 7-4" /> <path d="M6 13v8" /> <path d="m8.5 4 7 4" /> <path d="m8.5 8 7-4" />`, opt)
+}
+
 // Astroid renders the "astroid" icon.
 //
 // Usage in templates:
@@ -5628,7 +5658,7 @@ func BadgeQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <line x1="12" x2="12.01" y1="17" y2="17" />`, opt)
+	return buildSVG(`<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" /> <path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5" /> <path d="M12 17h.01" />`, opt)
 }
 
 // BadgeHelp is an alias for BadgeQuestionMark.
@@ -6198,7 +6228,7 @@ func BatteryExclamationPoint(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M10 17h.01" /> <path d="M10 7v6" /> <path d="M14 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" /> <path d="M22 14v-4" /> <path d="M6 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2" />`, opt)
+	return buildSVG(`<path d="M10 16h.01" /> <path d="M10 8v4" /> <path d="M14 6h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" /> <path d="M22 14v-4" /> <path d="M6 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2" />`, opt)
 }
 
 // BatteryWarning is an alias for BatteryExclamationPoint.
@@ -14516,7 +14546,7 @@ func CircleQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <path d="M12 17h.01" />`, opt)
+	return buildSVG(`<circle cx="12" cy="12" r="10" /> <path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5" /> <path d="M12 17h.01" />`, opt)
 }
 
 // HelpCircle is an alias for CircleQuestionMark.
@@ -20121,6 +20151,30 @@ func EvCharger(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0v-6.998a2 2 0 0 0-.59-1.42L18 5" /> <path d="M14 21V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16" /> <path d="M2 21h13" /> <path d="M3 7h11" /> <path d="m9 11-2 3h3l-2 3" />`, opt)
 }
 
+// ExclamationMark renders the "exclamation-mark" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "exclamation-mark" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ExclamationMark()
+//	lucide.ExclamationMark(lucide.Options{Size: 32, Class: "my-icon"})
+func ExclamationMark(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 15V4" /> <path d="M12 20h.01" />`, opt)
+}
+
 // Expand renders the "expand" icon.
 //
 // Usage in templates:
@@ -22014,7 +22068,7 @@ func FileQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M12 17h.01" /> <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" />`, opt)
+	return buildSVG(`<path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" /> <path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5" /> <path d="M12 17h.01" />`, opt)
 }
 
 // FileQuestion is an alias for FileQuestionMark.
@@ -31916,7 +31970,7 @@ func MailQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> <path d="M18 15.28c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2" /> <path d="M20 22v.01" />`, opt)
+	return buildSVG(`<path d="M22 10.35V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2h12.3" /> <path d="m22 7-8.97 5.7a2 2 0 01-2.06 0L2 7" /> <path d="M20 18.5c.5-1 2-1 2-2.5a2 2 0 00-2-2 2.5 2.5 0 00-2 1" /> <path d="M20 22h.01" />`, opt)
 }
 
 // MailQuestion is an alias for MailQuestionMark.
@@ -33204,7 +33258,7 @@ func MessageCircleQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <path d="M12 17h.01" />`, opt)
+	return buildSVG(`<path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /> <path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5" /> <path d="M12 17h.01" />`, opt)
 }
 
 // MessageCircleQuestion is an alias for MessageCircleQuestionMark.
@@ -34799,6 +34853,30 @@ func Motorbike(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="m18 14-1-3" /> <path d="m3 9 6 2a2 2 0 0 1 2-2h2a2 2 0 0 1 1.99 1.81" /> <path d="M8 17h3a1 1 0 0 0 1-1 6 6 0 0 1 6-6 1 1 0 0 0 1-1v-.75A5 5 0 0 0 17 5" /> <circle cx="19" cy="17" r="3" /> <circle cx="5" cy="17" r="3" />`, opt)
+}
+
+// MoundShovel renders the "mound-shovel" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "mound-shovel" }}
+//
+// Direct usage in Go:
+//
+//	lucide.MoundShovel()
+//	lucide.MoundShovel(lucide.Options{Size: 32, Class: "my-icon"})
+func MoundShovel(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m16 16 1.553-3.106a1 1 0 0 0-.447-1.341l-2.212-1.106a1 1 0 0 0-1.341.447l-1.193 2.387" /> <path d="m20 3-4 8" /> <path d="M21 21a1 1 0 0 0 .599-1.801c-1.333-.998-.992-4.21-3.599-4.199-1.271.006-1.5 1-2 1-2.5 0-3.209-4-6.5-4-5.106 0-4 5.107-7.059 7.17A1 1 0 0 0 3 21z" /> <path d="m22 4-4-2" />`, opt)
 }
 
 // Mountain renders the "mountain" icon.
@@ -36420,7 +36498,7 @@ func PackageQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M12 22V12l8.71-5" /> <path d="M17 15.27c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2" /> <path d="M19 21.99h.01" /> <path d="M21 10.342V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2.33-1.332" /> <path d="M3.29 7 12 12" /> <path d="m7.5 4.27 9 5.15" />`, opt)
+	return buildSVG(`<path d="M12 22V12l8.71-5" /> <path d="M21 10.342V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2.33-1.332" /> <path d="M3.29 7 12 12" /> <path d="m7.5 4.27 9 5.15" /> <path d="M19 18.5c.5-1 2-1 2-2.5a2 2 0 00-2-2 2.5 2.5 0 00-2 1" /> <path d="M19 22h.01" />`, opt)
 }
 
 // PackageSearch renders the "package-search" icon.
@@ -39273,6 +39351,30 @@ func QrCode(opts ...Options) template.HTML {
 	return buildSVG(`<rect width="5" height="5" x="3" y="3" rx="1" /> <rect width="5" height="5" x="16" y="3" rx="1" /> <rect width="5" height="5" x="3" y="16" rx="1" /> <path d="M21 16h-3a2 2 0 0 0-2 2v3" /> <path d="M21 21v.01" /> <path d="M12 7v3a2 2 0 0 1-2 2H7" /> <path d="M3 12h.01" /> <path d="M12 3h.01" /> <path d="M12 16v.01" /> <path d="M16 12h1" /> <path d="M21 12v.01" /> <path d="M12 21v-1" />`, opt)
 }
 
+// QuestionMark renders the "question-mark" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "question-mark" }}
+//
+// Direct usage in Go:
+//
+//	lucide.QuestionMark()
+//	lucide.QuestionMark(lucide.Options{Size: 32, Class: "my-icon"})
+func QuestionMark(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 15c0-2.48 5-2.99 5-6.5a5 4.5 0 00-10 0" /> <path d="M12 20h.01" />`, opt)
+}
+
 // Quote renders the "quote" icon.
 //
 // Usage in templates:
@@ -40908,7 +41010,31 @@ func Route(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<circle cx="6" cy="19" r="3" /> <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" /> <circle cx="18" cy="5" r="3" />`, opt)
+	return buildSVG(`<path d="M9 5h8.5a1 1 0 010 7h-11a1 1 0 000 7H15" /> <circle cx="18" cy="19" r="3" /> <circle cx="6" cy="5" r="3" />`, opt)
+}
+
+// RouteArrowRight renders the "route-arrow-right" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "route-arrow-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.RouteArrowRight()
+//	lucide.RouteArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+func RouteArrowRight(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m18 22 3-3-3-3" /> <path d="M9 5h8.5a1 1 0 010 7h-11a1 1 0 000 7H21" /> <circle cx="6" cy="5" r="3" />`, opt)
 }
 
 // RouteOff renders the "route-off" icon.
@@ -43096,7 +43222,7 @@ func ShieldQuestionMark(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3" /> <path d="M12 17h.01" />`, opt)
+	return buildSVG(`<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 01-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 011-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 011.52 0C14.51 3.81 17 5 19 5a1 1 0 011 1z" /> <path d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5" /> <path d="M12 17h.01" />`, opt)
 }
 
 // ShieldQuestion is an alias for ShieldQuestionMark.
@@ -51323,6 +51449,30 @@ func TextInitial(opts ...Options) template.HTML {
 //	lucide.LetterText(lucide.Options{Size: 32, Class: "my-icon"})
 func LetterText(opts ...Options) template.HTML {
 	return TextInitial(opts...)
+}
+
+// TextPen renders the "text-pen" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "text-pen" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TextPen()
+//	lucide.TextPen(lucide.Options{Size: 32, Class: "my-icon"})
+func TextPen(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 12H3" /> <path d="M21 5H3" /> <path d="M21.377 14.626a1 1 0 10-3.004-3.004l-5.01 5.012a2 2 0 00-.506.854l-.837 2.87a.5.5 0 00.62.62l2.87-.837a2 2 0 00.854-.506z" /> <path d="M8 19H3" />`, opt)
 }
 
 // TextQuote renders the "text-quote" icon.
