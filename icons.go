@@ -336,6 +336,7 @@ func init() {
 	registerIcon("candy-off", CandyOff)
 	registerIcon("cannabis", Cannabis)
 	registerIcon("cannabis-off", CannabisOff)
+	registerIcon("cap", Cap)
 	registerIcon("captions", Captions)
 	registerIcon("subtitles", Subtitles)
 	registerIcon("captions-off", CaptionsOff)
@@ -1008,6 +1009,7 @@ func init() {
 	registerIcon("graduation-cap", GraduationCap)
 	registerIcon("grape", Grape)
 	registerIcon("graph-hub", GraphHub)
+	registerIcon("graph-ring", GraphRing)
 	registerIcon("graph-star", GraphStar)
 	registerIcon("grid-2x2", Grid2x2)
 	registerIcon("grid-2-x-2", Grid2X2)
@@ -1164,6 +1166,7 @@ func init() {
 	registerIcon("layout-freeform", LayoutFreeform)
 	registerIcon("layout-grid", LayoutGrid)
 	registerIcon("layout-grid-circles", LayoutGridCircles)
+	registerIcon("layout-grid-plus", LayoutGridPlus)
 	registerIcon("layout-list", LayoutList)
 	registerIcon("layout-panel-left", LayoutPanelLeft)
 	registerIcon("layout-panel-top", LayoutPanelTop)
@@ -10157,6 +10160,30 @@ func CannabisOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 22v-4c1.5 1.5 3.5 3 6 3 0-1.5-.5-3.5-2-5" /> <path d="M13.988 8.327C13.902 6.054 13.365 3.82 12 2a9.3 9.3 0 0 0-1.445 2.9" /> <path d="M17.375 11.725C18.882 10.53 21 7.841 21 6c-2.324 0-5.08 1.296-6.662 2.684" /> <path d="m2 2 20 20" /> <path d="M21.024 15.378A15 15 0 0 0 22 15c-.426-1.279-2.67-2.557-4.25-2.907" /> <path d="M6.995 6.992C5.714 6.4 4.29 6 3 6c0 2 2.5 5 4 6-1.5 0-4.5 1.5-5 3 3.5 1.5 6 1 6 1-1.5 1.5-2 3.5-2 5 2.5 0 4.5-1.5 6-3" />`, opt)
+}
+
+// Cap renders the "cap" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "cap" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Cap()
+//	lucide.Cap(lucide.Options{Size: 32, Class: "my-icon"})
+func Cap(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11.04 4.017a12 12 0 00-2.631 11.101" /> <path d="M5 16c3.298 0 6-3 10-3a8 8 0 016.81 3.799 1.33 1.33 0 01.19.701.5.5 0 01-.5.5c-.732.001-2.04-1.004-3.5-1-3.005.008-5.197 2.982-8 3-2.761 0-5-1.79-5-4-1.5 0-2.543-.664-2.713-1.3A8.5 8.5 0 1119 12.5a8.6 8.6 0 01-.131 1.496" />`, opt)
 }
 
 // Captions renders the "captions" icon.
@@ -25599,6 +25626,30 @@ func GraphHub(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="7" r="4" /> <circle cx="4" cy="19" r="2" /> <circle cx="12" cy="19" r="2" /> <circle cx="20" cy="19" r="2" /> <path d="M8 7a4 4 0 0 0-4 4v6" /> <path d="M12 11v6" /> <path d="M16 7a4 4 0 0 1 4 4v6" />`, opt)
 }
 
+// GraphRing renders the "graph-ring" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "graph-ring" }}
+//
+// Direct usage in Go:
+//
+//	lucide.GraphRing()
+//	lucide.GraphRing(lucide.Options{Size: 32, Class: "my-icon"})
+func GraphRing(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M17.006 19.241a8 8 0 0 1-10.011 0" /> <path d="M19.919 14.143a8 8 0 0 0-4.971-8.583" /> <path d="M4.081 14.143A8 8 0 0 1 9.052 5.56" /> <circle cx="12" cy="5.001" r="3" /> <circle cx="19" cy="17" r="3" /> <circle cx="5" cy="17" r="3" />`, opt)
+}
+
 // GraphStar renders the "graph-star" icon.
 //
 // Usage in templates:
@@ -29245,6 +29296,30 @@ func LayoutGridCircles(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<circle cx="17.5" cy="17.5" r="3.5" /> <circle cx="17.5" cy="6.5" r="3.5" /> <circle cx="6.5" cy="17.5" r="3.5" /> <circle cx="6.5" cy="6.5" r="3.5" />`, opt)
+}
+
+// LayoutGridPlus renders the "layout-grid-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "layout-grid-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.LayoutGridPlus()
+//	lucide.LayoutGridPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func LayoutGridPlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M15 18h6" /> <path d="M18 15v6" /> <rect x="14" y="3" width="7" height="7" rx="1" /> <rect x="3" y="14" width="7" height="7" rx="1" /> <rect x="3" y="3" width="7" height="7" rx="1" />`, opt)
 }
 
 // LayoutList renders the "layout-list" icon.
