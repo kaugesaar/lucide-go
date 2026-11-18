@@ -111,6 +111,18 @@ func init() {
 	registerIcon("arrow-up-wide-narrow", ArrowUpWideNarrow)
 	registerIcon("arrow-up-z-a", ArrowUpZA)
 	registerIcon("arrow-up-za", ArrowUpZa)
+	registerIcon("arrows-from-axis-dashed-horizontal", ArrowsFromAxisDashedHorizontal)
+	registerIcon("unfold-vertical", UnfoldVertical)
+	registerIcon("arrows-from-axis-dashed-vertical", ArrowsFromAxisDashedVertical)
+	registerIcon("unfold-horizontal", UnfoldHorizontal)
+	registerIcon("arrows-from-axis-horizontal", ArrowsFromAxisHorizontal)
+	registerIcon("arrows-from-axis-vertical", ArrowsFromAxisVertical)
+	registerIcon("arrows-to-axis-dashed-horizontal", ArrowsToAxisDashedHorizontal)
+	registerIcon("fold-vertical", FoldVertical)
+	registerIcon("arrows-to-axis-dashed-vertical", ArrowsToAxisDashedVertical)
+	registerIcon("fold-horizontal", FoldHorizontal)
+	registerIcon("arrows-to-axis-horizontal", ArrowsToAxisHorizontal)
+	registerIcon("arrows-to-axis-vertical", ArrowsToAxisVertical)
 	registerIcon("arrows-up-from-line", ArrowsUpFromLine)
 	registerIcon("asterisk", Asterisk)
 	registerIcon("asterism", Asterism)
@@ -257,8 +269,12 @@ func init() {
 	registerIcon("bookmark-x", BookmarkX)
 	registerIcon("boom-box", BoomBox)
 	registerIcon("bot", Bot)
+	registerIcon("bot-check", BotCheck)
 	registerIcon("bot-message-square", BotMessageSquare)
+	registerIcon("bot-minus", BotMinus)
 	registerIcon("bot-off", BotOff)
+	registerIcon("bot-plus", BotPlus)
+	registerIcon("bot-x", BotX)
 	registerIcon("bottle-wine", BottleWine)
 	registerIcon("bow-arrow", BowArrow)
 	registerIcon("box", Box)
@@ -346,6 +362,18 @@ func init() {
 	registerIcon("car-taxi-front", CarTaxiFront)
 	registerIcon("caravan", Caravan)
 	registerIcon("card-sim", CardSim)
+	registerIcon("carets-from-axis-dashed-horizontal", CaretsFromAxisDashedHorizontal)
+	registerIcon("carets-from-axis-dashed-vertical", CaretsFromAxisDashedVertical)
+	registerIcon("carets-from-axis-horizontal", CaretsFromAxisHorizontal)
+	registerIcon("carets-from-axis-vertical", CaretsFromAxisVertical)
+	registerIcon("carets-to-axis-dashed-horizontal", CaretsToAxisDashedHorizontal)
+	registerIcon("flip-horizontal-2", FlipHorizontal2)
+	registerIcon("triangles-centerline-dashed-horizontal", TrianglesCenterlineDashedHorizontal)
+	registerIcon("carets-to-axis-dashed-vertical", CaretsToAxisDashedVertical)
+	registerIcon("flip-vertical-2", FlipVertical2)
+	registerIcon("triangles-centerline-dashed-vertical", TrianglesCenterlineDashedVertical)
+	registerIcon("carets-to-axis-horizontal", CaretsToAxisHorizontal)
+	registerIcon("carets-to-axis-vertical", CaretsToAxisVertical)
 	registerIcon("carrot", Carrot)
 	registerIcon("carton", Carton)
 	registerIcon("carton-off", CartonOff)
@@ -418,16 +446,25 @@ func init() {
 	registerIcon("chevron-up", ChevronUp)
 	registerIcon("chevrons-down", ChevronsDown)
 	registerIcon("chevrons-down-up", ChevronsDownUp)
+	registerIcon("chevrons-from-axis-dashed-horizontal", ChevronsFromAxisDashedHorizontal)
+	registerIcon("chevrons-from-axis-dashed-vertical", ChevronsFromAxisDashedVertical)
+	registerIcon("chevrons-from-axis-horizontal", ChevronsFromAxisHorizontal)
+	registerIcon("chevrons-from-axis-vertical", ChevronsFromAxisVertical)
 	registerIcon("chevrons-left", ChevronsLeft)
 	registerIcon("chevrons-left-right", ChevronsLeftRight)
 	registerIcon("chevrons-left-right-ellipsis", ChevronsLeftRightEllipsis)
 	registerIcon("chevrons-right", ChevronsRight)
 	registerIcon("chevrons-right-left", ChevronsRightLeft)
+	registerIcon("chevrons-to-axis-dashed-horizontal", ChevronsToAxisDashedHorizontal)
+	registerIcon("chevrons-to-axis-dashed-vertical", ChevronsToAxisDashedVertical)
+	registerIcon("chevrons-to-axis-horizontal", ChevronsToAxisHorizontal)
+	registerIcon("chevrons-to-axis-vertical", ChevronsToAxisVertical)
 	registerIcon("chevrons-up", ChevronsUp)
 	registerIcon("chevrons-up-down", ChevronsUpDown)
 	registerIcon("church", Church)
 	registerIcon("cigarette", Cigarette)
 	registerIcon("cigarette-off", CigaretteOff)
+	registerIcon("cinema", Cinema)
 	registerIcon("circle", Circle)
 	registerIcon("circle-arrow-down", CircleArrowDown)
 	registerIcon("arrow-down-circle", ArrowDownCircle)
@@ -449,6 +486,7 @@ func init() {
 	registerIcon("circle-arrow-up-right-exit", CircleArrowUpRightExit)
 	registerIcon("arrow-up-right-from-circle", ArrowUpRightFromCircle)
 	registerIcon("circle-arrow-out-up-right", CircleArrowOutUpRight)
+	registerIcon("circle-bounce", CircleBounce)
 	registerIcon("circle-check", CircleCheck)
 	registerIcon("check-circle-2", CheckCircle2)
 	registerIcon("circle-check-big", CircleCheckBig)
@@ -523,6 +561,7 @@ func init() {
 	registerIcon("pause-circle", PauseCircle)
 	registerIcon("circle-percent", CirclePercent)
 	registerIcon("percent-circle", PercentCircle)
+	registerIcon("circle-person-arms-spread", CirclePersonArmsSpread)
 	registerIcon("circle-pile", CirclePile)
 	registerIcon("circle-play", CirclePlay)
 	registerIcon("play-circle", PlayCircle)
@@ -720,6 +759,7 @@ func init() {
 	registerIcon("dna-off", DnaOff)
 	registerIcon("dock", Dock)
 	registerIcon("dog", Dog)
+	registerIcon("doghouse", Doghouse)
 	registerIcon("dollar-sign", DollarSign)
 	registerIcon("dome", Dome)
 	registerIcon("donut", Donut)
@@ -907,8 +947,6 @@ func init() {
 	registerIcon("flower", Flower)
 	registerIcon("flower-2", Flower2)
 	registerIcon("focus", Focus)
-	registerIcon("fold-horizontal", FoldHorizontal)
-	registerIcon("fold-vertical", FoldVertical)
 	registerIcon("folder", Folder)
 	registerIcon("folder-archive", FolderArchive)
 	registerIcon("folder-bookmark", FolderBookmark)
@@ -1048,6 +1086,7 @@ func init() {
 	registerIcon("helping-hand", HelpingHand)
 	registerIcon("hand-metal", HandMetal)
 	registerIcon("hand-platter", HandPlatter)
+	registerIcon("hand-truck", HandTruck)
 	registerIcon("handbag", Handbag)
 	registerIcon("handle-bottom-right", HandleBottomRight)
 	registerIcon("handshake", Handshake)
@@ -1092,6 +1131,8 @@ func init() {
 	registerIcon("hourglass-cog", HourglassCog)
 	registerIcon("house", House)
 	registerIcon("home", Home)
+	registerIcon("house-arrow-left", HouseArrowLeft)
+	registerIcon("house-arrow-right", HouseArrowRight)
 	registerIcon("house-cog", HouseCog)
 	registerIcon("house-heart", HouseHeart)
 	registerIcon("house-plug", HousePlug)
@@ -1123,6 +1164,7 @@ func init() {
 	registerIcon("iteration-ccw", IterationCcw)
 	registerIcon("iteration-cw", IterationCw)
 	registerIcon("iv-bag", IvBag)
+	registerIcon("jacket", Jacket)
 	registerIcon("japanese-yen", JapaneseYen)
 	registerIcon("joystick", Joystick)
 	registerIcon("kanban", Kanban)
@@ -1444,6 +1486,7 @@ func init() {
 	registerIcon("network", Network)
 	registerIcon("newspaper", Newspaper)
 	registerIcon("nfc", Nfc)
+	registerIcon("nigerian-naira", NigerianNaira)
 	registerIcon("non-binary", NonBinary)
 	registerIcon("notebook", Notebook)
 	registerIcon("notebook-dot", NotebookDot)
@@ -1480,6 +1523,7 @@ func init() {
 	registerIcon("package-search", PackageSearch)
 	registerIcon("package-x", PackageX)
 	registerIcon("paint-bucket", PaintBucket)
+	registerIcon("paint-gun", PaintGun)
 	registerIcon("paint-roller", PaintRoller)
 	registerIcon("paintbrush", Paintbrush)
 	registerIcon("paintbrush-vertical", PaintbrushVertical)
@@ -1877,14 +1921,18 @@ func init() {
 	registerIcon("square-arrow-out-up-right", SquareArrowOutUpRight)
 	registerIcon("square-asterisk", SquareAsterisk)
 	registerIcon("asterisk-square", AsteriskSquare)
+	registerIcon("square-axis-dashed-horizontal", SquareAxisDashedHorizontal)
+	registerIcon("flip-vertical", FlipVertical)
+	registerIcon("square-centerline-dashed-vertical", SquareCenterlineDashedVertical)
+	registerIcon("square-axis-dashed-vertical", SquareAxisDashedVertical)
+	registerIcon("flip-horizontal", FlipHorizontal)
+	registerIcon("square-centerline-dashed-horizontal", SquareCenterlineDashedHorizontal)
+	registerIcon("square-axis-horizontal", SquareAxisHorizontal)
+	registerIcon("square-axis-vertical", SquareAxisVertical)
 	registerIcon("square-bookmark", SquareBookmark)
 	registerIcon("album", Album)
 	registerIcon("square-bottom-dashed-scissors", SquareBottomDashedScissors)
 	registerIcon("scissors-square-dashed-bottom", ScissorsSquareDashedBottom)
-	registerIcon("square-centerline-dashed-horizontal", SquareCenterlineDashedHorizontal)
-	registerIcon("flip-horizontal", FlipHorizontal)
-	registerIcon("square-centerline-dashed-vertical", SquareCenterlineDashedVertical)
-	registerIcon("flip-vertical", FlipVertical)
 	registerIcon("square-chart-gantt", SquareChartGantt)
 	registerIcon("gantt-chart-square", GanttChartSquare)
 	registerIcon("square-gantt-chart", SquareGanttChart)
@@ -2064,6 +2112,7 @@ func init() {
 	registerIcon("stroke-line-join-bevel", StrokeLineJoinBevel)
 	registerIcon("stroke-line-join-miter", StrokeLineJoinMiter)
 	registerIcon("stroke-line-join-round", StrokeLineJoinRound)
+	registerIcon("stroke-width", StrokeWidth)
 	registerIcon("subscript", Subscript)
 	registerIcon("summary", Summary)
 	registerIcon("sun", Sun)
@@ -2192,10 +2241,6 @@ func init() {
 	registerIcon("alert-triangle", AlertTriangle)
 	registerIcon("triangle-alert", TriangleAlert)
 	registerIcon("triangle-right", TriangleRight)
-	registerIcon("triangles-centerline-dashed-horizontal", TrianglesCenterlineDashedHorizontal)
-	registerIcon("flip-horizontal-2", FlipHorizontal2)
-	registerIcon("triangles-centerline-dashed-vertical", TrianglesCenterlineDashedVertical)
-	registerIcon("flip-vertical-2", FlipVertical2)
 	registerIcon("trophy", Trophy)
 	registerIcon("truck", Truck)
 	registerIcon("truck-electric", TruckElectric)
@@ -2215,8 +2260,6 @@ func init() {
 	registerIcon("undo", Undo)
 	registerIcon("undo-2", Undo2)
 	registerIcon("undo-dot", UndoDot)
-	registerIcon("unfold-horizontal", UnfoldHorizontal)
-	registerIcon("unfold-vertical", UnfoldVertical)
 	registerIcon("ungroup", Ungroup)
 	registerIcon("university", University)
 	registerIcon("school-2", School2)
@@ -2304,6 +2347,7 @@ func init() {
 	registerIcon("wand-sparkles", WandSparkles)
 	registerIcon("wand-2", Wand2)
 	registerIcon("warehouse", Warehouse)
+	registerIcon("warehouse-waves", WarehouseWaves)
 	registerIcon("washing-machine", WashingMachine)
 	registerIcon("watch", Watch)
 	registerIcon("waves-arrow-down", WavesArrowDown)
@@ -4844,6 +4888,270 @@ func ArrowUpZA(opts ...Options) template.HTML {
 //	lucide.ArrowUpZa(lucide.Options{Size: 32, Class: "my-icon"})
 func ArrowUpZa(opts ...Options) template.HTML {
 	return ArrowUpZA(opts...)
+}
+
+// ArrowsFromAxisDashedHorizontal renders the "arrows-from-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-from-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsFromAxisDashedHorizontal()
+//	lucide.ArrowsFromAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsFromAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M12 16v6" /> <path d="M12 2v6" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="M4 12H2" /> <path d="m9 19 3 3 3-3" /> <path d="m9 5 3-3 3 3" />`, opt)
+}
+
+// UnfoldVertical is an alias for ArrowsFromAxisDashedHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowsFromAxisDashedHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "unfold-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UnfoldVertical()
+//	lucide.UnfoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func UnfoldVertical(opts ...Options) template.HTML {
+	return ArrowsFromAxisDashedHorizontal(opts...)
+}
+
+// ArrowsFromAxisDashedVertical renders the "arrows-from-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-from-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsFromAxisDashedVertical()
+//	lucide.ArrowsFromAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsFromAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 10V8" /> <path d="M12 16v-2" /> <path d="M12 22v-2" /> <path d="M12 4V2" /> <path d="m19 15 3-3-3-3" /> <path d="M22 12h-6" /> <path d="m5 15-3-3 3-3" /> <path d="M8 12H2" />`, opt)
+}
+
+// UnfoldHorizontal is an alias for ArrowsFromAxisDashedVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowsFromAxisDashedVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "unfold-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.UnfoldHorizontal()
+//	lucide.UnfoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func UnfoldHorizontal(opts ...Options) template.HTML {
+	return ArrowsFromAxisDashedVertical(opts...)
+}
+
+// ArrowsFromAxisHorizontal renders the "arrows-from-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-from-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsFromAxisHorizontal()
+//	lucide.ArrowsFromAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsFromAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 16v6" /> <path d="M12 2v6" /> <path d="m15 19-3 3-3-3" /> <path d="m15 5-3-3-3 3" /> <path d="M22 12H2" />`, opt)
+}
+
+// ArrowsFromAxisVertical renders the "arrows-from-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-from-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsFromAxisVertical()
+//	lucide.ArrowsFromAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsFromAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22V2" /> <path d="m19 15 3-3-3-3" /> <path d="M22 12h-6" /> <path d="m5 15-3-3 3-3" /> <path d="M8 12H2" />`, opt)
+}
+
+// ArrowsToAxisDashedHorizontal renders the "arrows-to-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-to-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsToAxisDashedHorizontal()
+//	lucide.ArrowsToAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsToAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M12 22v-6" /> <path d="M12 8V2" /> <path d="m15 19-3-3-3 3" /> <path d="m15 5-3 3-3-3" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="M4 12H2" />`, opt)
+}
+
+// FoldVertical is an alias for ArrowsToAxisDashedHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowsToAxisDashedHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "fold-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FoldVertical()
+//	lucide.FoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func FoldVertical(opts ...Options) template.HTML {
+	return ArrowsToAxisDashedHorizontal(opts...)
+}
+
+// ArrowsToAxisDashedVertical renders the "arrows-to-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-to-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsToAxisDashedVertical()
+//	lucide.ArrowsToAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsToAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 10V8" /> <path d="M12 16v-2" /> <path d="M12 22v-2" /> <path d="M12 4V2" /> <path d="M16 12h6" /> <path d="m19 15-3-3 3-3" /> <path d="M2 12h6" /> <path d="m5 15 3-3-3-3" />`, opt)
+}
+
+// FoldHorizontal is an alias for ArrowsToAxisDashedVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use ArrowsToAxisDashedVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "fold-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FoldHorizontal()
+//	lucide.FoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func FoldHorizontal(opts ...Options) template.HTML {
+	return ArrowsToAxisDashedVertical(opts...)
+}
+
+// ArrowsToAxisHorizontal renders the "arrows-to-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-to-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsToAxisHorizontal()
+//	lucide.ArrowsToAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsToAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22v-6" /> <path d="M12 8V2" /> <path d="m15 19-3-3-3 3" /> <path d="m15 5-3 3-3-3" /> <path d="M22 12H2" />`, opt)
+}
+
+// ArrowsToAxisVertical renders the "arrows-to-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "arrows-to-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ArrowsToAxisVertical()
+//	lucide.ArrowsToAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ArrowsToAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 22V2" /> <path d="M16 12h6" /> <path d="m19 15-3-3 3-3" /> <path d="M2 12h6" /> <path d="m5 15 3-3-3-3" />`, opt)
 }
 
 // ArrowsUpFromLine renders the "arrows-up-from-line" icon.
@@ -8278,6 +8586,30 @@ func Bot(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 8V4H8" /> <rect width="16" height="12" x="4" y="8" rx="2" /> <path d="M2 14h2" /> <path d="M20 14h2" /> <path d="M15 13v2" /> <path d="M9 13v2" />`, opt)
 }
 
+// BotCheck renders the "bot-check" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bot-check" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BotCheck()
+//	lucide.BotCheck(lucide.Options{Size: 32, Class: "my-icon"})
+func BotCheck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8V4H8" /> <path d="M15 13v2" /> <path d="m16 19 2 2 4-4" /> <path d="M2 14h2" /> <path d="M20 13.5V10a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h6" /> <path d="M9 13v2" />`, opt)
+}
+
 // BotMessageSquare renders the "bot-message-square" icon.
 //
 // Usage in templates:
@@ -8302,6 +8634,30 @@ func BotMessageSquare(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 6V2H8" /> <path d="M15 11v2" /> <path d="M2 12h2" /> <path d="M20 12h2" /> <path d="M20 16a2 2 0 0 1-2 2H8.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 4 20.286V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z" /> <path d="M9 11v2" />`, opt)
 }
 
+// BotMinus renders the "bot-minus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bot-minus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BotMinus()
+//	lucide.BotMinus(lucide.Options{Size: 32, Class: "my-icon"})
+func BotMinus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8V4H8" /> <path d="M15 13v2" /> <path d="M2 14h2" /> <path d="M20 15v-5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h6" /> <path d="M22 19h-6" /> <path d="M9 13v2" />`, opt)
+}
+
 // BotOff renders the "bot-off" icon.
 //
 // Usage in templates:
@@ -8324,6 +8680,54 @@ func BotOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M13.67 8H18a2 2 0 0 1 2 2v4.33" /> <path d="M2 14h2" /> <path d="M20 14h2" /> <path d="M22 22 2 2" /> <path d="M8 8H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 1.414-.586" /> <path d="M9 13v2" /> <path d="M9.67 4H12v2.33" />`, opt)
+}
+
+// BotPlus renders the "bot-plus" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bot-plus" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BotPlus()
+//	lucide.BotPlus(lucide.Options{Size: 32, Class: "my-icon"})
+func BotPlus(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8V4H8" /> <path d="M15 13v2" /> <path d="M19 16v6" /> <path d="M2 14h2" /> <path d="M20 12v-2a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h6" /> <path d="M22 19h-6" /> <path d="M9 13v2" />`, opt)
+}
+
+// BotX renders the "bot-x" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "bot-x" }}
+//
+// Direct usage in Go:
+//
+//	lucide.BotX()
+//	lucide.BotX(lucide.Options{Size: 32, Class: "my-icon"})
+func BotX(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 8V4H8" /> <path d="M15 13v1.5" /> <path d="m18 17 4 4" /> <path d="M2 14h2" /> <path d="M20 13.5V10a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8" /> <path d="m22 17-4 4" /> <path d="M9 13v2" />`, opt)
 }
 
 // BottleWine renders the "bottle-wine" icon.
@@ -10396,6 +10800,270 @@ func CardSim(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 14v4" /> <path d="M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" /> <path d="M8 14h8" /> <rect x="8" y="10" width="8" height="8" rx="2" />`, opt)
 }
 
+// CaretsFromAxisDashedHorizontal renders the "carets-from-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-from-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsFromAxisDashedHorizontal()
+//	lucide.CaretsFromAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsFromAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="M4 12H2" /> <path d="M7.298 17.712A1 1 0 0 1 8 16h8a1 1 0 0 1 .703 1.712l-3.991 3.99a1 1 0 0 1-1.424.001z" /> <path d="M7.298 6.288A1 1 0 0 0 8 8h8a1 1 0 0 0 .703-1.712l-3.991-3.99a1 1 0 0 0-1.424-.001z" />`, opt)
+}
+
+// CaretsFromAxisDashedVertical renders the "carets-from-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-from-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsFromAxisDashedVertical()
+//	lucide.CaretsFromAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsFromAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 14v2" /> <path d="M12 20v2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="M17.712 16.703A1 1 0 0 1 15.999 16V8a1 1 0 0 1 1.713-.703l3.99 3.991a1 1 0 0 1 .001 1.424z" /> <path d="M6.288 16.703A1 1 0 0 0 8.001 16V8a1 1 0 0 0-1.713-.703l-3.99 3.991a1 1 0 0 0-.001 1.424z" />`, opt)
+}
+
+// CaretsFromAxisHorizontal renders the "carets-from-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-from-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsFromAxisHorizontal()
+//	lucide.CaretsFromAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsFromAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M16.703 6.288A1 1 0 0 1 16 8H8a1 1 0 0 1-.703-1.712l3.991-3.99a1 1 0 0 1 1.425-.001z" /> <path d="M22 12H2" /> <path d="M7.298 17.712A1 1 0 0 1 8 16h8a1 1 0 0 1 .703 1.712l-3.991 3.99a1 1 0 0 1-1.424.001z" />`, opt)
+}
+
+// CaretsFromAxisVertical renders the "carets-from-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-from-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsFromAxisVertical()
+//	lucide.CaretsFromAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsFromAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v20" /> <path d="M17.712 16.703A1 1 0 0 1 15.999 16V8a1 1 0 0 1 1.713-.703l3.99 3.991a1 1 0 0 1 .001 1.424z" /> <path d="M6.288 16.703A1 1 0 0 0 8.001 16V8a1 1 0 0 0-1.713-.703l-3.99 3.991a1 1 0 0 0-.001 1.424z" />`, opt)
+}
+
+// CaretsToAxisDashedHorizontal renders the "carets-to-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-to-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsToAxisDashedHorizontal()
+//	lucide.CaretsToAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsToAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="M4 12H2" /> <path d="M7.298 20.288A1 1 0 0 0 8 22h8a1 1 0 0 0 .703-1.712l-3.991-3.99a1 1 0 0 0-1.424-.001z" /> <path d="M7.298 3.712A1 1 0 0 1 8 2h8a1 1 0 0 1 .703 1.712l-3.991 3.99a1 1 0 0 1-1.424.001z" />`, opt)
+}
+
+// FlipHorizontal2 is an alias for CaretsToAxisDashedHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CaretsToAxisDashedHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "flip-horizontal-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FlipHorizontal2()
+//	lucide.FlipHorizontal2(lucide.Options{Size: 32, Class: "my-icon"})
+func FlipHorizontal2(opts ...Options) template.HTML {
+	return CaretsToAxisDashedHorizontal(opts...)
+}
+
+// TrianglesCenterlineDashedHorizontal is an alias for CaretsToAxisDashedHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CaretsToAxisDashedHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "triangles-centerline-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TrianglesCenterlineDashedHorizontal()
+//	lucide.TrianglesCenterlineDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func TrianglesCenterlineDashedHorizontal(opts ...Options) template.HTML {
+	return CaretsToAxisDashedHorizontal(opts...)
+}
+
+// CaretsToAxisDashedVertical renders the "carets-to-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-to-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsToAxisDashedVertical()
+//	lucide.CaretsToAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsToAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 14v2" /> <path d="M12 20v2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="M20.288 16.703A1 1 0 0 0 22 16V8a1 1 0 0 0-1.712-.703l-3.99 3.991a1 1 0 0 0-.001 1.424z" /> <path d="M3.712 16.703A1 1 0 0 1 2 16V8a1 1 0 0 1 1.712-.703l3.99 3.991a1 1 0 0 1 .001 1.424z" />`, opt)
+}
+
+// FlipVertical2 is an alias for CaretsToAxisDashedVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CaretsToAxisDashedVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "flip-vertical-2" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FlipVertical2()
+//	lucide.FlipVertical2(lucide.Options{Size: 32, Class: "my-icon"})
+func FlipVertical2(opts ...Options) template.HTML {
+	return CaretsToAxisDashedVertical(opts...)
+}
+
+// TrianglesCenterlineDashedVertical is an alias for CaretsToAxisDashedVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use CaretsToAxisDashedVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "triangles-centerline-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.TrianglesCenterlineDashedVertical()
+//	lucide.TrianglesCenterlineDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func TrianglesCenterlineDashedVertical(opts ...Options) template.HTML {
+	return CaretsToAxisDashedVertical(opts...)
+}
+
+// CaretsToAxisHorizontal renders the "carets-to-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-to-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsToAxisHorizontal()
+//	lucide.CaretsToAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsToAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M22 12H2" /> <path d="M7.298 20.288A1 1 0 0 0 8 22h8a1 1 0 0 0 .703-1.712l-3.991-3.99a1 1 0 0 0-1.424-.001z" /> <path d="M7.298 3.712A1 1 0 0 1 8 2h8a1 1 0 0 1 .703 1.712l-3.991 3.99a1 1 0 0 1-1.424.001z" />`, opt)
+}
+
+// CaretsToAxisVertical renders the "carets-to-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "carets-to-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CaretsToAxisVertical()
+//	lucide.CaretsToAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func CaretsToAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v20" /> <path d="M20.288 16.703A1 1 0 0 0 22 16V8a1 1 0 0 0-1.712-.703l-3.99 3.991a1 1 0 0 0-.001 1.424z" /> <path d="M3.712 16.703A1 1 0 0 1 2 16V8a1 1 0 0 1 1.712-.703l3.99 3.991a1 1 0 0 1 .001 1.424z" />`, opt)
+}
+
 // Carrot renders the "carrot" icon.
 //
 // Usage in templates:
@@ -12046,6 +12714,102 @@ func ChevronsDownUp(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m7 20 5-5 5 5" /> <path d="m7 4 5 5 5-5" />`, opt)
 }
 
+// ChevronsFromAxisDashedHorizontal renders the "chevrons-from-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-from-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsFromAxisDashedHorizontal()
+//	lucide.ChevronsFromAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsFromAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="M4 12H2" /> <path d="m8 17 4 4 4-4" /> <path d="m8 7 4-4 4 4" />`, opt)
+}
+
+// ChevronsFromAxisDashedVertical renders the "chevrons-from-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-from-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsFromAxisDashedVertical()
+//	lucide.ChevronsFromAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsFromAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 14v2" /> <path d="M12 20v2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="m17 8 4 4-4 4" /> <path d="m7 8-4 4 4 4" />`, opt)
+}
+
+// ChevronsFromAxisHorizontal renders the "chevrons-from-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-from-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsFromAxisHorizontal()
+//	lucide.ChevronsFromAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsFromAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M22 12H2" /> <path d="m8 17 4 4 4-4" /> <path d="m8 7 4-4 4 4" />`, opt)
+}
+
+// ChevronsFromAxisVertical renders the "chevrons-from-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-from-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsFromAxisVertical()
+//	lucide.ChevronsFromAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsFromAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v20" /> <path d="m17 8 4 4-4 4" /> <path d="m7 8-4 4 4 4" />`, opt)
+}
+
 // ChevronsLeft renders the "chevrons-left" icon.
 //
 // Usage in templates:
@@ -12166,6 +12930,102 @@ func ChevronsRightLeft(opts ...Options) template.HTML {
 	return buildSVG(`<path d="m20 17-5-5 5-5" /> <path d="m4 17 5-5-5-5" />`, opt)
 }
 
+// ChevronsToAxisDashedHorizontal renders the "chevrons-to-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-to-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsToAxisDashedHorizontal()
+//	lucide.ChevronsToAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsToAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="m16 21-4-4-4 4" /> <path d="m16 3-4 4-4-4" /> <path d="M22 12h-2" /> <path d="M4 12H2" />`, opt)
+}
+
+// ChevronsToAxisDashedVertical renders the "chevrons-to-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-to-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsToAxisDashedVertical()
+//	lucide.ChevronsToAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsToAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 14v2" /> <path d="M12 20v2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="m21 8-4 4 4 4" /> <path d="m3 8 4 4-4 4" />`, opt)
+}
+
+// ChevronsToAxisHorizontal renders the "chevrons-to-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-to-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsToAxisHorizontal()
+//	lucide.ChevronsToAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsToAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m16 21-4-4-4 4" /> <path d="m16 3-4 4-4-4" /> <path d="M22 12H2" />`, opt)
+}
+
+// ChevronsToAxisVertical renders the "chevrons-to-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "chevrons-to-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.ChevronsToAxisVertical()
+//	lucide.ChevronsToAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func ChevronsToAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v20" /> <path d="m21 8-4 4 4 4" /> <path d="m3 8 4 4-4 4" />`, opt)
+}
+
 // ChevronsUp renders the "chevrons-up" icon.
 //
 // Usage in templates:
@@ -12284,6 +13144,30 @@ func CigaretteOff(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h13" /> <path d="M18 8c0-2.5-2-2.5-2-5" /> <path d="m2 2 20 20" /> <path d="M21 12a1 1 0 0 1 1 1v2a1 1 0 0 1-.5.866" /> <path d="M22 8c0-2.5-2-2.5-2-5" /> <path d="M7 12v4" />`, opt)
+}
+
+// Cinema renders the "cinema" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "cinema" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Cinema()
+//	lucide.Cinema(lucide.Options{Size: 32, Class: "my-icon"})
+func Cinema(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M14 22a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2" /> <path d="M15.03 8.44a.65.65 0 0 1 0 1.12l-4.06 2.35a.64.64 0 0 1-.97-.56v-4.7a.647.647 0 0 1 .96-.56z" /> <path d="M2 22a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2" /> <rect x="2" y="2" width="20" height="14" rx="2" />`, opt)
 }
 
 // Circle renders the "circle" icon.
@@ -12716,6 +13600,30 @@ func ArrowUpRightFromCircle(opts ...Options) template.HTML {
 //	lucide.CircleArrowOutUpRight(lucide.Options{Size: 32, Class: "my-icon"})
 func CircleArrowOutUpRight(opts ...Options) template.HTML {
 	return CircleArrowUpRightExit(opts...)
+}
+
+// CircleBounce renders the "circle-bounce" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-bounce" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CircleBounce()
+//	lucide.CircleBounce(lucide.Options{Size: 32, Class: "my-icon"})
+func CircleBounce(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M2 13c2.5.5 5 4 5 8 0-2.16 1.813-7.536 6-11.293" /> <circle cx="19" cy="6" r="3" />`, opt)
 }
 
 // CircleCheck renders the "circle-check" icon.
@@ -14376,6 +15284,30 @@ func CirclePercent(opts ...Options) template.HTML {
 //	lucide.PercentCircle(lucide.Options{Size: 32, Class: "my-icon"})
 func PercentCircle(opts ...Options) template.HTML {
 	return CirclePercent(opts...)
+}
+
+// CirclePersonArmsSpread renders the "circle-person-arms-spread" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "circle-person-arms-spread" }}
+//
+// Direct usage in Go:
+//
+//	lucide.CirclePersonArmsSpread()
+//	lucide.CirclePersonArmsSpread(lucide.Options{Size: 32, Class: "my-icon"})
+func CirclePersonArmsSpread(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15 17-3-3" /> <path d="M8 10s2 1 4 1 4-1 4-1" /> <path d="m9 17 3-3v-3" /> <circle cx="12" cy="12" r="10" /> <circle cx="12" cy="7" r=".5" fill="currentColor" />`, opt)
 }
 
 // CirclePile renders the "circle-pile" icon.
@@ -18960,6 +19892,30 @@ func Dog(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11.25 16.25h1.5L12 17z" /> <path d="M16 14v.5" /> <path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309" /> <path d="M8 14v.5" /> <path d="M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5" />`, opt)
 }
 
+// Doghouse renders the "doghouse" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "doghouse" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Doghouse()
+//	lucide.Doghouse(lucide.Options{Size: 32, Class: "my-icon"})
+func Doghouse(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m2 9.718 8.82-6.333a2 2 0 012.36 0L22 9.718" /> <path d="m20 8.282-1.007 10.902A2 2 0 0117 21H7a2 2 0 01-1.992-1.816L4 8.282" /> <path d="M8.5 9.938a7 7 0 017 0" /> <path d="M9 21v-5a3 3 0 016 0v5" />`, opt)
+}
+
 // DollarSign renders the "dollar-sign" icon.
 //
 // Usage in templates:
@@ -23208,54 +24164,6 @@ func Focus(opts ...Options) template.HTML {
 	return buildSVG(`<circle cx="12" cy="12" r="3" /> <path d="M3 7V5a2 2 0 0 1 2-2h2" /> <path d="M17 3h2a2 2 0 0 1 2 2v2" /> <path d="M21 17v2a2 2 0 0 1-2 2h-2" /> <path d="M7 21H5a2 2 0 0 1-2-2v-2" />`, opt)
 }
 
-// FoldHorizontal renders the "fold-horizontal" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "fold-horizontal" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FoldHorizontal()
-//	lucide.FoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
-func FoldHorizontal(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M2 12h6" /> <path d="M22 12h-6" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="M12 14v2" /> <path d="M12 20v2" /> <path d="m19 9-3 3 3 3" /> <path d="m5 15 3-3-3-3" />`, opt)
-}
-
-// FoldVertical renders the "fold-vertical" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "fold-vertical" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FoldVertical()
-//	lucide.FoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
-func FoldVertical(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 22v-6" /> <path d="M12 8V2" /> <path d="M4 12H2" /> <path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="m15 19-3-3-3 3" /> <path d="m15 5-3 3-3-3" />`, opt)
-}
-
 // Folder renders the "folder" icon.
 //
 // Usage in templates:
@@ -26496,6 +27404,30 @@ func HandPlatter(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M12 3V2" /> <path d="m15.4 17.4 3.2-2.8a2 2 0 1 1 2.8 2.9l-3.6 3.3c-.7.8-1.7 1.2-2.8 1.2h-4c-1.1 0-2.1-.4-2.8-1.2l-1.302-1.464A1 1 0 0 0 6.151 19H5" /> <path d="M2 14h12a2 2 0 0 1 0 4h-2" /> <path d="M4 10h16" /> <path d="M5 10a7 7 0 0 1 14 0" /> <path d="M5 14v6a1 1 0 0 1-1 1H2" />`, opt)
 }
 
+// HandTruck renders the "hand-truck" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "hand-truck" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HandTruck()
+//	lucide.HandTruck(lucide.Options{Size: 32, Class: "my-icon"})
+func HandTruck(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="m15.614 7.108-2.115-4.53a1 1 0 0 0-1.329-.484l-2.3 1.073a1 1 0 0 0-.484 1.33l4.783 10.247a1 1 0 0 0 1.329.483l5.925-2.765a1 1 0 0 0 .483-1.329l-2.245-4.81a1 1 0 0 0-1.329-.484l-6.831 3.188" /> <path d="M2 3.268a2 2 0 0 1 2.812.886l7 15a2 2 0 0 0 2.659.967L20 17.54" /> <circle cx="10" cy="20" r="2" />`, opt)
+}
+
 // Handbag renders the "handbag" icon.
 //
 // Usage in templates:
@@ -27546,6 +28478,54 @@ func Home(opts ...Options) template.HTML {
 	return House(opts...)
 }
 
+// HouseArrowLeft renders the "house-arrow-left" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "house-arrow-left" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HouseArrowLeft()
+//	lucide.HouseArrowLeft(lucide.Options{Size: 32, Class: "my-icon"})
+func HouseArrowLeft(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.343 21H5a2 2 0 01-2-2v-9a2 2 0 01.709-1.527l7-6a2 2 0 012.582 0l7 6A2 2 0 0121 10.001v2.354" /> <path d="m18 15-3 3" /> <path d="M21 18h-6l3 3" /> <path d="M9 21v-8a1 1 0 011-.999h4a1 1 0 01.857.485" />`, opt)
+}
+
+// HouseArrowRight renders the "house-arrow-right" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "house-arrow-right" }}
+//
+// Direct usage in Go:
+//
+//	lucide.HouseArrowRight()
+//	lucide.HouseArrowRight(lucide.Options{Size: 32, Class: "my-icon"})
+func HouseArrowRight(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12.353 21H5a2 2 0 01-2-2v-9a2 2 0 01.709-1.528l7-6a2 2 0 012.582 0l7 6A2 2 0 0121 10v2.344" /> <path d="M14.87 12.508A1 1 0 0014 12h-4a1 1 0 00-1 1v8" /> <path d="m17.999 21 3-3h-6" /> <path d="m20.999 18-3-3" />`, opt)
+}
+
 // HouseCog renders the "house-cog" icon.
 //
 // Usage in templates:
@@ -28276,6 +29256,30 @@ func IvBag(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M12 18v2a2 2 0 002 2h6" /> <path d="M6 11c.72.5 1.44 1 3 1 3 0 3-2 6-2 1.56 0 2.28.5 3 1" /> <path d="M9.293 3c.453 0 .887-.18 1.207-.5s.754-.5 1.207-.5h.586c.453 0 .887.18 1.207.5s.754.5 1.207.5H16a2 2 0 012 2v11a2 2 0 01-2 2H8a2 2 0 01-2-2V5a2 2 0 012-2z" />`, opt)
+}
+
+// Jacket renders the "jacket" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "jacket" }}
+//
+// Direct usage in Go:
+//
+//	lucide.Jacket()
+//	lucide.Jacket(lucide.Options{Size: 32, Class: "my-icon"})
+func Jacket(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 2a3 3 0 00-3 3c0 2.6 4 4.4 4 7 0-2.6 4-4.4 4-7a3 3 0 00-3-3" /> <path d="M12 12v10" /> <path d="M18 10v10a2 2 0 01-2 2H8a2 2 0 01-2-2V10" /> <path d="M18 17h-2" /> <path d="M18 20h3a1 1 0 001-1V9a7 7 0 00-7-7H9a7 7 0 00-7 7v10a1 1 0 001 1h3" /> <path d="M6 17h2" />`, opt)
 }
 
 // JapaneseYen renders the "japanese-yen" icon.
@@ -31405,7 +32409,7 @@ func LoaderPinwheel(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M22 12a1 1 0 0 1-10 0 1 1 0 0 0-10 0" /> <path d="M7 20.7a1 1 0 1 1 5-8.7 1 1 0 1 0 5-8.6" /> <path d="M7 3.3a1 1 0 1 1 5 8.6 1 1 0 1 0 5 8.6" /> <circle cx="12" cy="12" r="10" />`, opt)
+	return buildSVG(`<path d="M17 3.34A5 5 0 1112 12a5 5 0 10-5 8.66" /> <path d="M22 12a5 5 0 01-10 0 5 5 0 00-10 0" /> <path d="M7 3.34A5 5 0 1112 12a5 5 0 105 8.66" /> <circle cx="12" cy="12" r="10" />`, opt)
 }
 
 // Locate renders the "locate" icon.
@@ -35812,6 +36816,30 @@ func Nfc(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M6 8.32a7.43 7.43 0 0 1 0 7.36" /> <path d="M9.46 6.21a11.76 11.76 0 0 1 0 11.58" /> <path d="M12.91 4.1a15.91 15.91 0 0 1 .01 15.8" /> <path d="M16.37 2a20.16 20.16 0 0 1 0 20" />`, opt)
 }
 
+// NigerianNaira renders the "nigerian-naira" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "nigerian-naira" }}
+//
+// Direct usage in Go:
+//
+//	lucide.NigerianNaira()
+//	lucide.NigerianNaira(lucide.Options{Size: 32, Class: "my-icon"})
+func NigerianNaira(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M4 10h16" /> <path d="M4 14h16" /> <path d="M6 20V4.25a.25.25 0 01.455-.143l11.09 15.786a.25.25 0 00.455-.144V4" />`, opt)
+}
+
 // NonBinary renders the "non-binary" icon.
 //
 // Usage in templates:
@@ -36646,6 +37674,30 @@ func PaintBucket(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M11 7 6 2" /> <path d="M18.992 12H2.041" /> <path d="M21.145 18.38A3.34 3.34 0 0 1 20 16.5a3.3 3.3 0 0 1-1.145 1.88c-.575.46-.855 1.02-.855 1.595A2 2 0 0 0 20 22a2 2 0 0 0 2-2.025c0-.58-.285-1.13-.855-1.595" /> <path d="m8.5 4.5 2.148-2.148a1.205 1.205 0 0 1 1.704 0l7.296 7.296a1.205 1.205 0 0 1 0 1.704l-7.592 7.592a3.615 3.615 0 0 1-5.112 0l-3.888-3.888a3.615 3.615 0 0 1 0-5.112L5.67 7.33" />`, opt)
+}
+
+// PaintGun renders the "paint-gun" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "paint-gun" }}
+//
+// Direct usage in Go:
+//
+//	lucide.PaintGun()
+//	lucide.PaintGun(lucide.Options{Size: 32, Class: "my-icon"})
+func PaintGun(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M11 10v-.172a2 2 0 0 1 .586-1.414l.828-.828A2 2 0 0 0 13 6.172V3a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3.172a2 2 0 0 0 .586 1.414l.828.828A2 2 0 0 1 7 9.828V10" /> <path d="m12 14-.81 3.242a1 1 0 0 1-.97.758H7" /> <path d="M13 12h1" /> <path d="M18.01 10h.01" /> <path d="M18.01 14h.01" /> <path d="M22.01 12h.01" /> <path d="M22.01 16h.01" /> <path d="M22.01 8h.01" /> <path d="m4 14-1.845 7.379A.5.5 0 0 0 2.64 22h2.58a1 1 0 0 0 .97-.758L8 14" /> <rect x="2" y="10" width="11" height="4" rx="1" />`, opt)
 }
 
 // PaintRoller renders the "paint-roller" icon.
@@ -44899,7 +45951,7 @@ func SprayCan(opts ...Options) template.HTML {
 			opt.StrokeWidth = 2
 		}
 	}
-	return buildSVG(`<path d="M3 3h.01" /> <path d="M7 5h.01" /> <path d="M11 7h.01" /> <path d="M3 7h.01" /> <path d="M7 9h.01" /> <path d="M3 11h.01" /> <rect width="4" height="4" x="15" y="5" /> <path d="m19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2" /> <path d="m13 14 8-2" /> <path d="m13 19 8-2" />`, opt)
+	return buildSVG(`<path d="m12 19 8-3" /> <path d="M14 6h-2" /> <path d="M18 8.172V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v3.172" /> <path d="m20 11-8 3" /> <path d="M20 20a2 2 0 01-2 2h-4a2 2 0 01-2-2v-9a3 3 0 013-3h2a3 3 0 013 3z" /> <path d="M4 10h.01" /> <path d="M4 2h.01" /> <path d="M4 6h.01" /> <path d="M8 4h.01" /> <path d="M8 8h.01" />`, opt)
 }
 
 // Sprout renders the "sprout" icon.
@@ -45898,6 +46950,174 @@ func AsteriskSquare(opts ...Options) template.HTML {
 	return SquareAsterisk(opts...)
 }
 
+// SquareAxisDashedHorizontal renders the "square-axis-dashed-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-axis-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareAxisDashedHorizontal()
+//	lucide.SquareAxisDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareAxisDashedHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3" /> <path d="M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3" /> <path d="M22 12h-2" /> <path d="M4 12H2" />`, opt)
+}
+
+// FlipVertical is an alias for SquareAxisDashedHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareAxisDashedHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "flip-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FlipVertical()
+//	lucide.FlipVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func FlipVertical(opts ...Options) template.HTML {
+	return SquareAxisDashedHorizontal(opts...)
+}
+
+// SquareCenterlineDashedVertical is an alias for SquareAxisDashedHorizontal.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareAxisDashedHorizontal instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-centerline-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareCenterlineDashedVertical()
+//	lucide.SquareCenterlineDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareCenterlineDashedVertical(opts ...Options) template.HTML {
+	return SquareAxisDashedHorizontal(opts...)
+}
+
+// SquareAxisDashedVertical renders the "square-axis-dashed-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-axis-dashed-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareAxisDashedVertical()
+//	lucide.SquareAxisDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareAxisDashedVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 14v2" /> <path d="M12 20v2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3" /> <path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3" />`, opt)
+}
+
+// FlipHorizontal is an alias for SquareAxisDashedVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareAxisDashedVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "flip-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.FlipHorizontal()
+//	lucide.FlipHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func FlipHorizontal(opts ...Options) template.HTML {
+	return SquareAxisDashedVertical(opts...)
+}
+
+// SquareCenterlineDashedHorizontal is an alias for SquareAxisDashedVertical.
+//
+// Deprecated: This icon name is deprecated and will be removed in a future version.
+// Reason: alias.name
+// Please use SquareAxisDashedVertical instead.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-centerline-dashed-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareCenterlineDashedHorizontal()
+//	lucide.SquareCenterlineDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareCenterlineDashedHorizontal(opts ...Options) template.HTML {
+	return SquareAxisDashedVertical(opts...)
+}
+
+// SquareAxisHorizontal renders the "square-axis-horizontal" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-axis-horizontal" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareAxisHorizontal()
+//	lucide.SquareAxisHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareAxisHorizontal(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3" /> <path d="M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3" /> <path d="M22 12H2" />`, opt)
+}
+
+// SquareAxisVertical renders the "square-axis-vertical" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "square-axis-vertical" }}
+//
+// Direct usage in Go:
+//
+//	lucide.SquareAxisVertical()
+//	lucide.SquareAxisVertical(lucide.Options{Size: 32, Class: "my-icon"})
+func SquareAxisVertical(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M12 2v20" /> <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3" /> <path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3" />`, opt)
+}
+
 // SquareBookmark renders the "square-bookmark" icon.
 //
 // Usage in templates:
@@ -45980,90 +47200,6 @@ func SquareBottomDashedScissors(opts ...Options) template.HTML {
 //	lucide.ScissorsSquareDashedBottom(lucide.Options{Size: 32, Class: "my-icon"})
 func ScissorsSquareDashedBottom(opts ...Options) template.HTML {
 	return SquareBottomDashedScissors(opts...)
-}
-
-// SquareCenterlineDashedHorizontal renders the "square-centerline-dashed-horizontal" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-centerline-dashed-horizontal" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareCenterlineDashedHorizontal()
-//	lucide.SquareCenterlineDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareCenterlineDashedHorizontal(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h3" /> <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3" /> <path d="M12 20v2" /> <path d="M12 14v2" /> <path d="M12 8v2" /> <path d="M12 2v2" />`, opt)
-}
-
-// FlipHorizontal is an alias for SquareCenterlineDashedHorizontal.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareCenterlineDashedHorizontal instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "flip-horizontal" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FlipHorizontal()
-//	lucide.FlipHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
-func FlipHorizontal(opts ...Options) template.HTML {
-	return SquareCenterlineDashedHorizontal(opts...)
-}
-
-// SquareCenterlineDashedVertical renders the "square-centerline-dashed-vertical" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "square-centerline-dashed-vertical" }}
-//
-// Direct usage in Go:
-//
-//	lucide.SquareCenterlineDashedVertical()
-//	lucide.SquareCenterlineDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
-func SquareCenterlineDashedVertical(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M21 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v3" /> <path d="M21 16v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3" /> <path d="M4 12H2" /> <path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" />`, opt)
-}
-
-// FlipVertical is an alias for SquareCenterlineDashedVertical.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use SquareCenterlineDashedVertical instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "flip-vertical" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FlipVertical()
-//	lucide.FlipVertical(lucide.Options{Size: 32, Class: "my-icon"})
-func FlipVertical(opts ...Options) template.HTML {
-	return SquareCenterlineDashedVertical(opts...)
 }
 
 // SquareChartGantt renders the "square-chart-gantt" icon.
@@ -50080,6 +51216,30 @@ func StrokeLineJoinRound(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M11 21v-2.002" /> <path d="M3 3h8a10 10 0 0110 10v8" /> <path d="M5 13H3" /> <path d="M9 13h1a1 1 0 011 1v1" />`, opt)
 }
 
+// StrokeWidth renders the "stroke-width" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "stroke-width" }}
+//
+// Direct usage in Go:
+//
+//	lucide.StrokeWidth()
+//	lucide.StrokeWidth(lucide.Options{Size: 32, Class: "my-icon"})
+func StrokeWidth(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M3.25 3h17.5" /> <rect x="3" y="7" width="18" height="4" rx="1" /> <rect x="3" y="15" width="18" height="6" rx="1" />`, opt)
+}
+
 // Subscript renders the "subscript" icon.
 //
 // Usage in templates:
@@ -53070,90 +54230,6 @@ func TriangleRight(opts ...Options) template.HTML {
 	return buildSVG(`<path d="M22 18a2 2 0 0 1-2 2H3c-1.1 0-1.3-.6-.4-1.3L20.4 4.3c.9-.7 1.6-.4 1.6.7Z" />`, opt)
 }
 
-// TrianglesCenterlineDashedHorizontal renders the "triangles-centerline-dashed-horizontal" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "triangles-centerline-dashed-horizontal" }}
-//
-// Direct usage in Go:
-//
-//	lucide.TrianglesCenterlineDashedHorizontal()
-//	lucide.TrianglesCenterlineDashedHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
-func TrianglesCenterlineDashedHorizontal(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="M4 12H2" /> <path d="M7.298 20.288A1 1 0 008 22h8a1 1 0 00.703-1.712l-3.991-3.99a1 1 0 00-1.424-.001z" /> <path d="M7.298 3.712A1 1 0 018 2h8a1 1 0 01.703 1.712l-3.991 3.99a1 1 0 01-1.424.001z" />`, opt)
-}
-
-// FlipHorizontal2 is an alias for TrianglesCenterlineDashedHorizontal.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use TrianglesCenterlineDashedHorizontal instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "flip-horizontal-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FlipHorizontal2()
-//	lucide.FlipHorizontal2(lucide.Options{Size: 32, Class: "my-icon"})
-func FlipHorizontal2(opts ...Options) template.HTML {
-	return TrianglesCenterlineDashedHorizontal(opts...)
-}
-
-// TrianglesCenterlineDashedVertical renders the "triangles-centerline-dashed-vertical" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "triangles-centerline-dashed-vertical" }}
-//
-// Direct usage in Go:
-//
-//	lucide.TrianglesCenterlineDashedVertical()
-//	lucide.TrianglesCenterlineDashedVertical(lucide.Options{Size: 32, Class: "my-icon"})
-func TrianglesCenterlineDashedVertical(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 14v2" /> <path d="M12 20v2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="M20.288 16.703A1 1 0 0022 16V8a1 1 0 00-1.712-.703l-3.99 3.991a1 1 0 00-.001 1.424z" /> <path d="M3.712 16.703A1 1 0 012 16V8a1 1 0 011.712-.703l3.99 3.991a1 1 0 01.001 1.424z" />`, opt)
-}
-
-// FlipVertical2 is an alias for TrianglesCenterlineDashedVertical.
-//
-// Deprecated: This icon name is deprecated and will be removed in a future version.
-// Reason: alias.name
-// Please use TrianglesCenterlineDashedVertical instead.
-//
-// Usage in templates:
-//
-//	{{ lucide "flip-vertical-2" }}
-//
-// Direct usage in Go:
-//
-//	lucide.FlipVertical2()
-//	lucide.FlipVertical2(lucide.Options{Size: 32, Class: "my-icon"})
-func FlipVertical2(opts ...Options) template.HTML {
-	return TrianglesCenterlineDashedVertical(opts...)
-}
-
 // Trophy renders the "trophy" icon.
 //
 // Usage in templates:
@@ -53602,54 +54678,6 @@ func UndoDot(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M21 17a9 9 0 0 0-15-6.7L3 13" /> <path d="M3 7v6h6" /> <circle cx="12" cy="17" r="1" />`, opt)
-}
-
-// UnfoldHorizontal renders the "unfold-horizontal" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "unfold-horizontal" }}
-//
-// Direct usage in Go:
-//
-//	lucide.UnfoldHorizontal()
-//	lucide.UnfoldHorizontal(lucide.Options{Size: 32, Class: "my-icon"})
-func UnfoldHorizontal(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M16 12h6" /> <path d="M8 12H2" /> <path d="M12 2v2" /> <path d="M12 8v2" /> <path d="M12 14v2" /> <path d="M12 20v2" /> <path d="m19 15 3-3-3-3" /> <path d="m5 9-3 3 3 3" />`, opt)
-}
-
-// UnfoldVertical renders the "unfold-vertical" icon.
-//
-// Usage in templates:
-//
-//	{{ lucide "unfold-vertical" }}
-//
-// Direct usage in Go:
-//
-//	lucide.UnfoldVertical()
-//	lucide.UnfoldVertical(lucide.Options{Size: 32, Class: "my-icon"})
-func UnfoldVertical(opts ...Options) template.HTML {
-	opt := Options{Size: 24, StrokeWidth: 2}
-	if len(opts) > 0 {
-		opt = opts[0]
-		if opt.Size == 0 {
-			opt.Size = 24
-		}
-		if opt.StrokeWidth == 0 {
-			opt.StrokeWidth = 2
-		}
-	}
-	return buildSVG(`<path d="M12 22v-6" /> <path d="M12 8V2" /> <path d="M4 12H2" /> <path d="M10 12H8" /> <path d="M16 12h-2" /> <path d="M22 12h-2" /> <path d="m15 19-3 3-3-3" /> <path d="m15 5-3-3-3 3" />`, opt)
 }
 
 // Ungroup renders the "ungroup" icon.
@@ -55666,6 +56694,30 @@ func Warehouse(opts ...Options) template.HTML {
 		}
 	}
 	return buildSVG(`<path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11" /> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z" /> <path d="M6 13h12" /> <path d="M6 17h12" />`, opt)
+}
+
+// WarehouseWaves renders the "warehouse-waves" icon.
+//
+// Usage in templates:
+//
+//	{{ lucide "warehouse-waves" }}
+//
+// Direct usage in Go:
+//
+//	lucide.WarehouseWaves()
+//	lucide.WarehouseWaves(lucide.Options{Size: 32, Class: "my-icon"})
+func WarehouseWaves(opts ...Options) template.HTML {
+	opt := Options{Size: 24, StrokeWidth: 2}
+	if len(opts) > 0 {
+		opt = opts[0]
+		if opt.Size == 0 {
+			opt.Size = 24
+		}
+		if opt.StrokeWidth == 0 {
+			opt.StrokeWidth = 2
+		}
+	}
+	return buildSVG(`<path d="M2 11V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8v3" /> <path d="M6 11v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1" /> <path d="M2 16q2.5 2 5 0t5 0 5 0 5 0" /> <path d="M2 21q2.5 2 5 0t5 0 5 0 5 0" />`, opt)
 }
 
 // WashingMachine renders the "washing-machine" icon.
